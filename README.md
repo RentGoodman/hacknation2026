@@ -1,13 +1,23 @@
 # rentgoodman
 
-Rental housing rules by address, with source citations, dated lookups and an AI chat that can only say what the sources say.
+**Which rules apply here today, and what is about to change?**
 
-Give it one of 500 rental properties across California, Massachusetts and New Jersey, plus a date. It tells you which rental housing rules apply (just-cause eviction, rent increase limits, security deposits, screening restrictions, application fees, algorithmic rent setting). Every answer links back to an exact quote from the law it relies on. If the building data cannot settle a question, the answer is `unknown`, along with the missing fact. It never guesses.
+rentgoodman is our entry to the **Rental Housing Law Navigator** challenge (Challenge 02, 7th Global AI Hackathon, Hack-Nation × RealPage, October 2026). It reads public housing law and gives address-level answers with citations, dated lookups and an AI chat that can only say what the sources say.
+
+> **Not legal advice.** rentgoodman shows what the captured source text says, as of a stated date. It is not legal advice or a compliance certification, and its rules have not been reviewed by counsel. Check the cited source and consult a lawyer before acting on any answer.
+
+**Output files:** [`out/rules.json`](out/rules.json) · [`out/lookups.json`](out/lookups.json) · [`out/changes.json`](out/changes.json)
+
+Give it one of 500 rental properties in 9 cities across California, Massachusetts and New Jersey, plus a date. It tells you which rental housing rules apply in the six challenge categories: rent increase limits, just-cause eviction, security deposits, application and screening fees, screening restrictions and algorithmic rent setting. Every answer links back to an exact quote from the law it relies on, along with the date that source was retrieved. If the building data cannot settle a question, the answer is `unknown`, along with the missing fact. It never guesses.
 
 ![rentgoodman desktop view](mockup/preview/rentgoodman-desktop.png)
 
 - [What it does](#what-it-does)
+- [Challenge requirements](#challenge-requirements)
+- [Scores](#scores)
 - [Current numbers](#current-numbers)
+- [Responsible design](#responsible-design)
+- [Scalability path](#scalability-path)
 - [Quick start](#quick-start)
 - [How it works](#how-it-works)
 - [Outputs](#outputs)
@@ -31,9 +41,51 @@ Give it one of 500 rental properties across California, Massachusetts and New Je
 4. **Audits itself.** An independent checker recomputes the results at several dates and reports any answer that contradicts the rules.
 5. **Shows it on a map.** A static web app lets you browse properties, change the date, read source passages and ask questions in English or Spanish.
 
+## Challenge requirements
+
+### Submission
+
+| Deliverable | Where |
+|---|---|
+| `rules.json`: rule records in the provided format, with citation and quoted source text | [`out/rules.json`](out/rules.json): 68 rules plus evidence-backed `no_rule_findings`; schema in `starter pack/schema/rule_record.schema.json` |
+| `lookups.json`: each rule's result for all 500 addresses (`applies`, `unknown`, `superseded`, `not_yet_effective` or `pending`) | [`out/lookups.json`](out/lookups.json), as of 2026-10-01; reasons and missing facts in `out/lookups_detail.json` |
+| `changes.json`: affected addresses and conflict flags for each test | [`out/changes.json`](out/changes.json): T1 to T5 (T6 is added by [`engine.ingest_new`](#adding-a-new-law-t6)) |
+| Code and a README explaining how to run it | This repository; see [Quick start](#quick-start) and [Rebuilding everything](#rebuilding-everything-runsh) |
+| Live demo | The web app in `mockup/`, deployed to Vercel; see [Deploying to Vercel](#deploying-to-vercel) |
+
+### Modules
+
+| Module | Requirement | How rentgoodman meets it |
+|---|---|---|
+| A. Rule extraction (required) | Automated, not hand-coded: one record per rule with category, jurisdiction, requirement, coverage conditions, exemptions, effective date, status, penalty, citation and quoted span | LLM pipeline in [`extraction/`](#1-extraction-extraction). Every `quoted_span` is checked to be verbatim in its source, and the run is reproducible offline from the committed model cache |
+| B. Address lookup (required) | Jurisdiction stack and every applicable rule; say when a local rule overrides a state rule; say `unknown` instead of guessing | [`buildings/`](#2-buildings-buildings) resolves state, county and legal city from Census TIGER boundaries. The [`engine/`](#3-engine-engine) answers `superseded` with the overriding rule named in the explanation, and `unknown` with the missing fact |
+| C. Change tracking (required) | Run the change tests, list affected addresses and the before/after rule set, and support "as of date" queries | [`engine/changes.py`](#change-tests) for T1 to T5, [`engine.ingest_new`](#adding-a-new-law-t6) for T6. Any date is available through `engine.run --as-of`, the [HTTP API](#http-api) and the date picker in the web app |
+| Stretch: plain language in English and Spanish | Renter-facing view | Web app and chat in both languages, with tenant and landlord views of each rule |
+| Stretch: confidence score and conflict flag | Per answer | Each rule has a `confidence`; each lookup answer carries `conflict_flag` |
+| Stretch: one new jurisdiction live | Extend during the event | `engine.ingest_new` extracts, verifies and evaluates a new ordinance in one command |
+
+The 6 rule categories and the change tests are defined by the starter pack (`starter pack/schema/`, `starter pack/dev/change_tests.json`). The scope is 3 states and 10 cities: Los Angeles, San Francisco, San Diego, Berkeley and Santa Ana (CA); Jersey City, Hoboken and Newark (NJ); Boston and Cambridge (MA). Santa Ana laws are extracted, but the address sample has no Santa Ana properties.
+
+## Scores
+
+**Dev-set score:** the scoring script (`score.py`) and dev answer key come with the starter pack and are not in this repository. Run `score.py` against `out/rules.json`, `out/lookups.json` and `out/changes.json` to reproduce the score.
+
+**Change tests T1 to T6:**
+
+| Test | What a correct system does | Result |
+|---|---|---|
+| T1 · CA AB 325 / SB 763, effective 1/1/2026 | "Not yet effective" for CA addresses on 12/31/2025; "applies" on 1/2/2026 | 250 CA addresses flip from `not_yet_effective` to `applies` |
+| T2 · Hoboken and Jersey City local bans | Each ban only inside its own city limits; neither in Newark | Hoboken 40, Jersey City 50, Newark 0; no ban leaks outside its city |
+| T3 · NJ FAIR Act, effective 7/1/2027 | "Not yet effective" today, "applies" on 7/2/2027; flags a possible conflict with the local bans | 140 NJ addresses flip; 90 Jersey City and Hoboken addresses flagged for review |
+| T4 · MA S.2983 and H.5222 (pending) | Reported as pending, never in force; lists the addresses they would affect | `pending` for every Boston and Cambridge address; 110 would be affected if enacted |
+| T5 · MA rent-control ballot question, struck 6/23/2026 | No rent cap for Boston or Cambridge; empty affected set | Recorded as `failed` and omitted from every lookup; affected set is empty |
+| T6 · Hour-16 fictional Cambridge ordinance | Extracted unaided, affected addresses listed, future effective date right | `python -m engine.ingest_new` extracts the ordinance, verifies its quotes, evaluates it before and after its effective date and writes the `T6` entry to `out/changes.json`. `scripts/rehearse_t6.py` runs the same command end to end on a stand-in ordinance and checks the result |
+
+The submission self-check (`python -m extraction.selfcheck`, report in `out/selfcheck_report.md`) also tests the schema, verbatim quotes, the output templates, jurisdiction boundaries and the challenge's San Francisco example. Its latest result is in the [checks table](#testing-and-checks).
+
 ## Current numbers
 
-This block is regenerated by `scripts/update_readme_numbers.py` (step 5 of `run.sh`). Don't edit it by hand.
+This block is regenerated by `scripts/update_readme_numbers.py` on every `run.sh` run (step 5).
 
 <a id='numbers-start'></a>
 Generated by `scripts/update_readme_numbers.py` from `out/` (rules sha256 `291cbca4…`, as of 2026-10-01).
@@ -69,6 +121,45 @@ Generated by `scripts/update_readme_numbers.py` from `out/` (rules sha256 `291cb
 | year_built / certificate_of_occupancy_date | Newark, NJ | 48 | 48 | 1 |
 | building conversion status | Hoboken, NJ | 40 | 40 | 1 |
 <a id='numbers-end'></a>
+
+## Responsible design
+
+The goal is to make the law easier to see, not to issue legal verdicts.
+
+**What the solution should do:**
+
+| Requirement | How rentgoodman does it |
+|---|---|
+| Cite the source text and retrieval date for every rule | Every rule has `citation`, `source_doc_id`, `source_url` and a verbatim `quoted_span`. The corpus manifests record each document's `retrieved_at` and sha256, and the web app shows "Captured <date>" on every source |
+| Show an "as of" date on every answer and separate enacted from pending law | Every lookup is computed for an explicit date, shown on every answer in the web app and chat. Pending bills are answered `pending`, never `applies`; failed measures (such as the struck MA ballot question) are omitted |
+| Say "unknown" when coverage depends on missing facts | `unknown` answers name the missing fact. `out/voi.json` ranks which missing facts would resolve the most `unknown`s; see [Known gaps](#known-gaps) |
+| Flag conflicts and low-confidence answers for human review | `conflict_flag` on lookup answers (for example, a possible FAIR Act preemption). Rules from secondary sources have confidence capped at 0.6 and go to the review queue |
+| Explain rules in plain language a renter can act on | Each rule has `plain_language` text; the web app has tenant and landlord views in English and Spanish |
+| Keep an auditable log of sources, model outputs and changes | `out/audit.jsonl` logs every model call (step, model, prompt version, document sha256, cache key, tokens). Raw model responses are committed in `extraction/cache/llm/`, rejected rules in `out/rejected.json`, and `engine.audit` recomputes every answer independently |
+
+**What the solution must not do:**
+
+| Requirement | How rentgoodman avoids it |
+|---|---|
+| Present output as legal advice or a compliance certification | Every screen shows "Not legal advice"; so does this README |
+| Suggest ways to avoid, structure around or evade a rule | The chat only reports rules and facts from the dataset, through three read-only tools. There is no explicit refusal rule for evasion requests yet |
+| Invent rules or citations where the source text is silent | Rules whose quote isn't verbatim in the source are rejected. Chat citations that don't match the source text are dropped. "No rule at this level" is recorded as an evidence-backed finding, not inferred from silence |
+| Use customer, resident, pricing or other non-public data | Only the starter pack and public sources: Census geocoder, TIGER/Line, county parcel data, and official statute and ordinance text |
+| Scrape sites in violation of their terms | Law text comes from the provided corpus and its manifests; building facts come from open-data downloads and APIs |
+
+The engine is deterministic: the same `out/rules.json` and `out/buildings.json` always give the same answers (`engine/tests/test_determinism.py`). An LLM extracts rules, turns coverage text into testable conditions and phrases chat answers. Its outputs are cached and checked against the source text, and the verdict itself is computed by code.
+
+## Scalability path
+
+Adding a jurisdiction is mostly data, not code:
+
+1. **Law text.** Add documents to a corpus manifest such as `corpus_extra/manifest_extra.csv`, with URL, source type, retrieval date and sha256.
+2. **Extraction.** The same pipeline extracts rules for any jurisdiction and category, and verbatim checks and review apply automatically. Model responses are cached by content hash, so only new documents cost API calls. `engine.ingest_new` does this for a single ordinance in one command.
+3. **Addresses.** The Census geocoder and TIGER place boundaries cover the whole US. A new state needs a parcel-data adapter in `buildings/enrich.py` for year built and unit counts; until then those facts are missing and the affected answers are `unknown`, not wrong.
+4. **Coverage conditions.** `engine/classify_conditions.py` turns each rule's coverage text into testable conditions on building facts (unit counts, building age, owner type, …), and checks that each condition is quoted verbatim. Results are cached in `engine/cache/conditions.json`. A new kind of building fact needs support in `engine/conditions.py`; everything else is reused.
+5. **Precedence.** State vs. local precedence follows from each rule's `level`, `interaction` and `overrides` fields.
+
+The current corpus already mixes three states with very different structures: state-only rules, layered local rules, a state bar on local rent control, and pending and failed measures.
 
 ## Quick start
 
@@ -157,7 +248,7 @@ starter pack/data/sample_addresses.csv ─► buildings/ (Census geocoder, │
 | `conditions.py`, `classify_conditions.py`, `coverage_v3.py` | Turn coverage conditions (unit counts, building age, owner type, …) into testable predicates; cached in `engine/cache/conditions.json` |
 | `exemptions.py` | New-construction and other exemptions |
 | `temporal.py`, `timeline.py`, `validity.py` | Effective, enacted and sunset dates; prior versions; pending bills |
-| `precedence.py` | State vs. local precedence, preemption, conflict flags (annotations in `engine/rule_annotations.json`) |
+| `precedence.py` | State vs. local precedence, preemption, conflict flags |
 | `verdict.py` | One verdict per (building, rule, date) |
 | `explain.py` | Plain-language explanations and `out/lookups_detail.json` |
 | `changes.py` | Change tests T1 to T5 → `out/changes.json` |
@@ -166,7 +257,7 @@ starter pack/data/sample_addresses.csv ─► buildings/ (Census geocoder, │
 | `parcel_lookup.py` | Single-address, single-date lookup with optional fact overrides (used by the API) |
 | `ingest_new.py` | Ingest a new ordinance and list affected addresses (T6) |
 
-`engine/rule_decisions.json` and `engine/rule_refs.json` record manual curation decisions and rule cross-references. `python -m engine.rule_refs` refreshes them.
+`python -m engine.rule_refs` (step 2 of `run.sh`) regenerates the rule cross-references in `engine/rule_refs.json` and `engine/rule_decisions.json`.
 
 ### 4. LLM backend (`llm/`)
 
@@ -179,7 +270,7 @@ Everything in `out/` is committed and regenerated by `run.sh`:
 | File | Contents |
 |---|---|
 | `rules.json` | Final rule records (schema: `starter pack/schema/rule_record.schema.json`) and `no_rule_findings` |
-| `rules_raw.json`, `rejected.json` | Pre-curation rules; rules rejected by verification |
+| `rules_raw.json`, `rejected.json` | Rules before verification and merging; rules rejected by verification |
 | `buildings.json`, `buildings_report.md` | One record per address with jurisdiction, facts, `missing_facts` and flags |
 | `lookups.json` | Verdicts per address on the default date (submission format) |
 | `lookups_detail.json` | The same, with reasons, missing facts and precedence notes |
@@ -311,7 +402,7 @@ Generated by `scripts/update_readme_numbers.py` (rules sha256 `291cbca4…`).
 | `applies` answers in `out/lookups.json` (as of 2026-10-01) whose rule's `source_doc_id` is a document of the provided corpus (`starter pack/corpus/corpus_manifest.csv`), not of `corpus_extra/` | 4,649/4,790 (97.1%) |
 | `out/rules.json` rebuilt byte for byte offline from the committed cache (`python -m extraction.v3.reproduce`) | no: FAILED (exit 1): incremental extraction failed; no canonical output was written |
 | Tests: `engine/tests`, `buildings/tests`, `tests` | 306 passed, 2 skipped |
-| Tests: `extraction/tests` (uv project, model calls mocked) | FAILED (exit 1): Installed 5 packages in 37ms |
+| Tests: `extraction/tests` (uv project, model calls mocked) | FAILED (exit 1): 7 failed, 86 passed in 1.57s |
 | Rules in `out/rules.json` | 68 |
 | Evidence-backed "no rule" findings (`no_rule_findings` in `out/rules.json`) | 2 |
 <a id='checks-end'></a>
