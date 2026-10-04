@@ -20,7 +20,7 @@
   $('#chat-address-tag').title=`${p.id} — ${displayAddress(p.address)}, ${cities[p.city].name}`;
   if(lastAddress!==p.id){hideAddressPicker();lastAddress=p.id;}
   $('#chat-context').textContent=`${displayAddress(p.address)} / ${date()}`;
-  $('#chat-mode').textContent=language==='es'?'Parcel · Español':'Parcel';
+  $('#chat-mode').textContent=language==='es'?'rentgoodman · Español':'rentgoodman';
   root.hidden=view!=='explore';
  }
  function open(){sync();panel.hidden=false;$('#chat-resume').hidden=true;input.setAttribute('aria-expanded','true');}

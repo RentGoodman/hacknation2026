@@ -1,9 +1,9 @@
 {
-  "name": "parcel-housing-prototype",
+  "name": "rentgoodman-housing-prototype",
   "version": "0.1.0",
   "private": true,
   "license": "MIT",
-  "description": "Parcel: rental housing law map interface",
+  "description": "rentgoodman: rental housing law map interface",
   "scripts": {
     "dev": "node server.mjs",
     "start": "node server.mjs",

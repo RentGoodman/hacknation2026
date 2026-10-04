@@ -3,14 +3,14 @@
 <head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#26479e"><meta name="description" content="Rental Housing Law Navigator: address-level rule verdicts with citations, dated lookups and change tests.">
-<title>Parcel — Rental housing, explained</title>
+<title>rentgoodman — Rental housing, explained</title>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='9' fill='%2326479e'/%3E%3Ctext x='11' y='30' font-size='30' fill='white' font-family='Georgia'%3EP%3C/text%3E%3C/svg%3E">
 <link rel="stylesheet" href="vendor/maplibre-gl.css"><link rel="stylesheet" href="styles.css">
 <script defer src="vendor/maplibre-gl.js"></script><script defer src="data/starter-data.js"></script><script defer src="data/engine-data.js"></script><script defer src="app.js"></script><script defer src="chat.js"></script>
 </head>
 <body>
 <header class="header">
-<a class="brand" href="./" aria-label="Parcel home"><span>Parcel<span class="brand-dot">.</span></span></a>
+<a class="brand" href="./" aria-label="rentgoodman home"><span>rentgoodman<span class="brand-dot">.</span></span></a>
 <nav aria-label="Main navigation"><button class="nav-item active" data-view="explore"><span data-icon="map"></span><span data-i18n="explore">Explore properties</span></button><button class="nav-item" data-view="changes"><span data-icon="activity"></span><span data-i18n="changes">Law changes</span> <span class="nav-count">5</span></button><button class="nav-item" data-view="review"><span data-icon="shield"></span><span data-i18n="review">Review queue</span></button><button class="nav-item" data-view="scores"><span data-icon="activity"></span><span data-i18n="scores">Verification</span></button><button class="nav-item" data-view="sources"><span data-icon="book"></span><span data-i18n="sources">Source library</span></button></nav>
 <div class="header-end"><label class="language-control"><span class="sr-only">Language</span><select id="language" aria-label="Language"><option value="en">EN</option><option value="es">ES</option></select></label><span class="legal-warning" data-i18n="warning">Not legal advice</span></div>
 </header>
@@ -43,9 +43,9 @@
 <button id="reopen" class="reopen" hidden><span data-icon="building"></span>Open property profile</button>
 <section id="detail" class="detail-panel" aria-label="Property legal profile"></section>
 <section id="collection" class="collection-panel" hidden aria-label="Law changes and sources"></section>
-<section id="map-chat" class="map-chat" aria-label="Ask Parcel">
+<section id="map-chat" class="map-chat" aria-label="Ask rentgoodman">
 <div id="chat-panel" class="chat-panel" hidden>
-<header class="chat-heading"><div><strong id="chat-mode">Parcel</strong><p id="chat-context"></p></div><button type="button" id="chat-close" class="icon-button" aria-label="Minimize conversation"><span data-icon="close"></span></button></header>
+<header class="chat-heading"><div><strong id="chat-mode">rentgoodman</strong><p id="chat-context"></p></div><button type="button" id="chat-close" class="icon-button" aria-label="Minimize conversation"><span data-icon="close"></span></button></header>
 <div id="chat-log" class="chat-log" role="log" aria-label="Conversation" aria-live="polite" aria-relevant="additions text"></div>
 <div id="chat-starters" class="chat-starters"></div>
 </div>
