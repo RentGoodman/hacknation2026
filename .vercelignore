@@ -18,8 +18,8 @@ buildings/*
 !buildings/__init__.py
 !buildings/api.py
 !buildings/config.py
-tests
-scripts
+/tests
+/scripts
 out_v3
 out_ingest
 mockup/preview
