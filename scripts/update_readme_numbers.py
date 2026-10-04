@@ -308,7 +308,7 @@ def replace_block(path, start, end, block):
 readme = ROOT / "README.md"
 replace_block(readme, START, END, lines)
 replace_block(readme, CHECKS_START, CHECKS_END, nodash(check_lines))
-for doc in (readme, ROOT / "engine/RESPONSIBLE_DESIGN.md"):
+for doc in (d for d in (readme, ROOT / "engine/RESPONSIBLE_DESIGN.md") if d.exists()):
     replace_block(doc, "<a id='withheld-start'></a>", "<a id='withheld-end'></a>", nodash(withheld_lines))
     replace_block(doc, "<a id='gaps-start'></a>", "<a id='gaps-end'></a>", nodash(gaps_lines))
 print("README numbers, checks, withheld answers and gaps updated (also in engine/RESPONSIBLE_DESIGN.md)")

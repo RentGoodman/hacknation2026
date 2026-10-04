@@ -1,0 +1,11 @@
+{
+ "features": [
+  {
+   "MUN_NAME": "HOBOKEN CITY",
+   "PAMS_PIN": "0905_69_21",
+   "PROP_LOC": "526 ADAMS ST",
+   "YR_CONSTR": null
+  }
+ ],
+ "where": "MUN_NAME LIKE 'HOBOKEN%' AND PROP_LOC='526 ADAMS ST'"
+}

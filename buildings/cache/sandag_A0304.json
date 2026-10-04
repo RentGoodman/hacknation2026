@@ -1,0 +1,10 @@
+{
+ "features": [
+  {
+   "apn": "4451710700",
+   "unitqty": 7,
+   "year_effective": "52"
+  }
+ ],
+ "where": "situs_address=4541 AND situs_street='HAMILTON' AND situs_zip LIKE '92116%'"
+}

@@ -1,0 +1,10 @@
+{
+ "features": [
+  {
+   "apn": "4242112800",
+   "unitqty": 8,
+   "year_effective": "70"
+  }
+ ],
+ "where": "situs_address=2209 AND situs_street='GRAND' AND situs_zip LIKE '92109%'"
+}

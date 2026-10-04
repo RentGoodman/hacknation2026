@@ -1,0 +1,10 @@
+{
+ "features": [
+  {
+   "apn": "4474712600",
+   "unitqty": 9,
+   "year_effective": "64"
+  }
+ ],
+ "where": "situs_address=3860 AND situs_street='CHEROKEE' AND situs_zip LIKE '92104%'"
+}

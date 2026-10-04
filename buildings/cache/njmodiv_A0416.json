@@ -1,0 +1,11 @@
+{
+ "features": [
+  {
+   "MUN_NAME": "JERSEY CITY CITY",
+   "PAMS_PIN": "0906_9305_10",
+   "PROP_LOC": "882 PAVONIA AVE.",
+   "YR_CONSTR": 0
+  }
+ ],
+ "where": "MUN_NAME LIKE 'JERSEY CITY%' AND PROP_LOC='882 PAVONIA AVE.'"
+}

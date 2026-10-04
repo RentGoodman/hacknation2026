@@ -1,0 +1,10 @@
+{
+ "features": [
+  {
+   "apn": "5481610500",
+   "unitqty": 5,
+   "year_effective": "80"
+  }
+ ],
+ "where": "situs_address=245 AND situs_street='EUCLID' AND situs_zip LIKE '92114%'"
+}

@@ -1,0 +1,10 @@
+{
+ "features": [
+  {
+   "apn": "4312600300",
+   "unitqty": 6,
+   "year_effective": "41"
+  }
+ ],
+ "where": "situs_address=7072 AND situs_street='EASTMAN' AND situs_zip LIKE '92111%'"
+}

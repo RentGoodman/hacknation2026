@@ -1,0 +1,10 @@
+{
+ "features": [
+  {
+   "apn": "4760223400",
+   "unitqty": 16,
+   "year_effective": "85"
+  }
+ ],
+ "where": "situs_address=3526 AND situs_street='FAIRMOUNT' AND situs_zip LIKE '92105%'"
+}

@@ -1,0 +1,10 @@
+{
+ "features": [
+  {
+   "apn": "4231711100",
+   "unitqty": 5,
+   "year_effective": "42"
+  }
+ ],
+ "where": "situs_address=4428 AND situs_street='GRESHAM' AND situs_zip LIKE '92109%'"
+}

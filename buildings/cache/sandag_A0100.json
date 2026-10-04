@@ -1,0 +1,10 @@
+{
+ "features": [
+  {
+   "apn": "4393822300",
+   "unitqty": 7,
+   "year_effective": "85"
+  }
+ ],
+ "where": "situs_address=4732 AND situs_street='BANCROFT' AND situs_zip LIKE '92116%'"
+}

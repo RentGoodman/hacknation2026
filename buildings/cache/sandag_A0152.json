@@ -1,0 +1,10 @@
+{
+ "features": [
+  {
+   "apn": "4483720100",
+   "unitqty": 12,
+   "year_effective": "41"
+  }
+ ],
+ "where": "situs_address=1669 AND situs_street='SUNSET CLIFFS' AND situs_zip LIKE '92107%'"
+}

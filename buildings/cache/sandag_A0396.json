@@ -1,0 +1,10 @@
+{
+ "features": [
+  {
+   "apn": "4253700800",
+   "unitqty": 6,
+   "year_effective": "25"
+  }
+ ],
+ "where": "situs_address=3244 AND situs_street='CLAIREMONT' AND situs_zip LIKE '92117%'"
+}

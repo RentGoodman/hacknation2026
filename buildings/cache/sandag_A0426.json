@@ -1,0 +1,10 @@
+{
+ "features": [
+  {
+   "apn": "4363831000",
+   "unitqty": 12,
+   "year_effective": "74"
+  }
+ ],
+ "where": "situs_address=1307 AND situs_street='COLUSA' AND situs_zip LIKE '92110%'"
+}

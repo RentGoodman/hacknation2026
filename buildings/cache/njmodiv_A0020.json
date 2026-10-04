@@ -1,0 +1,11 @@
+{
+ "features": [
+  {
+   "MUN_NAME": "NEWARK CITY",
+   "PAMS_PIN": "0714_641_5.01",
+   "PROP_LOC": "646-648 N 6TH ST",
+   "YR_CONSTR": 0
+  }
+ ],
+ "where": "MUN_NAME LIKE 'NEWARK%' AND PROP_LOC='646-648 N 6TH ST'"
+}

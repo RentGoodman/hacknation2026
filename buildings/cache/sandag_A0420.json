@@ -1,0 +1,10 @@
+{
+ "features": [
+  {
+   "apn": "4451901100",
+   "unitqty": 10,
+   "year_effective": "72"
+  }
+ ],
+ "where": "situs_address=4419 AND situs_street='CLEVELAND' AND situs_zip LIKE '92116%'"
+}

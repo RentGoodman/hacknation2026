@@ -1,0 +1,10 @@
+{
+ "features": [
+  {
+   "apn": "5390910500",
+   "unitqty": 18,
+   "year_effective": "58"
+  }
+ ],
+ "where": "situs_address=2924 AND situs_street='JUNIPER' AND situs_pre_dir='E' AND situs_zip LIKE '92104%'"
+}

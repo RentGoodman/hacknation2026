@@ -1,0 +1,15 @@
+{
+ "features": [
+  {
+   "apn": "3410412400",
+   "unitqty": 152,
+   "year_effective": "87"
+  },
+  {
+   "apn": "3410412300",
+   "unitqty": 152,
+   "year_effective": "87"
+  }
+ ],
+ "where": "situs_address=10303 AND situs_street='CAMINITO ALVAREZ' AND situs_zip LIKE '92126%'"
+}

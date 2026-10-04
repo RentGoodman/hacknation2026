@@ -1,0 +1,10 @@
+{
+ "features": [
+  {
+   "apn": "4482013100",
+   "unitqty": 10,
+   "year_effective": "72"
+  }
+ ],
+ "where": "situs_address=4957 AND situs_street='CAPE MAY' AND situs_zip LIKE '92107%'"
+}

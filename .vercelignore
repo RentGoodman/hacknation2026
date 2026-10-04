@@ -36,3 +36,5 @@ out/*.json
 !out/rules.json
 !out/buildings.json
 !out/links.json
+/pyproject.toml
+/uv.lock

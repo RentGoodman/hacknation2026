@@ -1,0 +1,10 @@
+{
+ "features": [
+  {
+   "apn": "4475221300",
+   "unitqty": 8,
+   "year_effective": "63"
+  }
+ ],
+ "where": "situs_address=4515 AND situs_street='FELTON' AND situs_zip LIKE '92116%'"
+}

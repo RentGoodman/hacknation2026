@@ -1,0 +1,10 @@
+{
+ "features": [
+  {
+   "apn": "4363830400",
+   "unitqty": 12,
+   "year_effective": "95"
+  }
+ ],
+ "where": "situs_address=1336 AND situs_street='BRUNNER' AND situs_zip LIKE '92110%'"
+}

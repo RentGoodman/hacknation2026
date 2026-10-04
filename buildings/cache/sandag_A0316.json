@@ -1,0 +1,10 @@
+{
+ "features": [
+  {
+   "apn": "4456713100",
+   "unitqty": 8,
+   "year_effective": "31"
+  }
+ ],
+ "where": "situs_address=3978 AND situs_street='FLORIDA' AND situs_zip LIKE '92104%'"
+}

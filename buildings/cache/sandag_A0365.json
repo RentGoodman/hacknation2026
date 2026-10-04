@@ -1,0 +1,10 @@
+{
+ "features": [
+  {
+   "apn": "4457111900",
+   "unitqty": 12,
+   "year_effective": "61"
+  }
+ ],
+ "where": "situs_address=3940 AND situs_street='IDAHO' AND situs_zip LIKE '92104%'"
+}

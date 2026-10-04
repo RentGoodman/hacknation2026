@@ -1,0 +1,10 @@
+{
+ "features": [
+  {
+   "apn": "4710512600",
+   "unitqty": 8,
+   "year_effective": "57"
+  }
+ ],
+ "where": "situs_address=4386 AND situs_street='COPELAND' AND situs_zip LIKE '92105%'"
+}

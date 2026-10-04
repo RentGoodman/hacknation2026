@@ -1,0 +1,11 @@
+{
+ "features": [
+  {
+   "MUN_NAME": "JERSEY CITY CITY",
+   "PAMS_PIN": "0906_10007_16",
+   "PROP_LOC": "314 SEVENTH ST.",
+   "YR_CONSTR": null
+  }
+ ],
+ "where": "MUN_NAME LIKE 'JERSEY CITY%' AND PROP_LOC='314 SEVENTH ST.'"
+}

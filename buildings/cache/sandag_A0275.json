@@ -1,0 +1,10 @@
+{
+ "features": [
+  {
+   "apn": "4244330100",
+   "unitqty": 7,
+   "year_effective": "70"
+  }
+ ],
+ "where": "situs_address=4091 AND situs_street='MORRELL' AND situs_zip LIKE '92109%'"
+}

@@ -33,6 +33,7 @@ def batch_geographies(requests_rows, refresh=False):
     w = csv.writer(buf)
     for rec in requests_rows:
         w.writerow(rec)
+    CACHE_DIR.mkdir(exist_ok=True)
     raw_path = CACHE_DIR / f"batch_geographies_{_h(buf.getvalue())}.csv"
     (CACHE_DIR / f"{raw_path.stem}_input.csv").write_text(buf.getvalue())
     if refresh or not raw_path.exists():
@@ -69,6 +70,7 @@ def batch_geographies(requests_rows, refresh=False):
 
 
 def _cached(name, fn):
+    CACHE_DIR.mkdir(exist_ok=True)
     p = CACHE_DIR / name
     if p.exists():
         return json.loads(p.read_text())

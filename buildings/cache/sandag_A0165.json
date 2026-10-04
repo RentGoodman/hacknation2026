@@ -1,0 +1,10 @@
+{
+ "features": [
+  {
+   "apn": "4236471000",
+   "unitqty": 8,
+   "year_effective": "58"
+  }
+ ],
+ "where": "situs_address=734 AND situs_street='JAMAICA' AND situs_zip LIKE '92109%'"
+}

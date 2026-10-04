@@ -1,0 +1,10 @@
+{
+ "features": [
+  {
+   "apn": "4496110100",
+   "unitqty": 17,
+   "year_effective": "48"
+  }
+ ],
+ "where": "situs_address=2151 AND situs_street='CHATSWORTH' AND situs_zip LIKE '92107%'"
+}

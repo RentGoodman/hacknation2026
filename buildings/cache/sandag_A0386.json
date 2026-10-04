@@ -1,0 +1,10 @@
+{
+ "features": [
+  {
+   "apn": "4532122500",
+   "unitqty": 7,
+   "year_effective": "87"
+  }
+ ],
+ "where": "situs_address=3654 AND situs_street='ARIZONA' AND situs_zip LIKE '92104%'"
+}

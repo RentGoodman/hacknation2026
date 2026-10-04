@@ -21,7 +21,7 @@
             shellHook = ''
               parcel_root="$(git rev-parse --show-toplevel 2>/dev/null || pwd)"
               UV_PROJECT_ENVIRONMENT="$parcel_root/.venv" \
-                uv sync --project "$parcel_root/nix" --frozen || exit $?
+                uv sync --project "$parcel_root" --frozen || exit $?
               source "$parcel_root/.venv/bin/activate"
               export PYTHONPATH="$parcel_root/extraction/src:$parcel_root''${PYTHONPATH:+:$PYTHONPATH}"
               export PARCEL_PYTHON="$parcel_root/.venv/bin/python3"

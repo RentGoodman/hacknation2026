@@ -1,0 +1,10 @@
+{
+ "features": [
+  {
+   "apn": "4234241500",
+   "unitqty": 16,
+   "year_effective": "62"
+  }
+ ],
+ "where": "situs_address=3820 AND situs_street='HAINES' AND situs_zip LIKE '92109%'"
+}

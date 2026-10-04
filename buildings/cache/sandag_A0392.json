@@ -1,0 +1,10 @@
+{
+ "features": [
+  {
+   "apn": "4470620400",
+   "unitqty": 7,
+   "year_effective": "00"
+  }
+ ],
+ "where": "situs_address=4545 AND situs_street='39TH' AND situs_pre_dir='N' AND situs_zip LIKE '92116%'"
+}
