@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D043:c4",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 14097,
+  "output_tokens": 730
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "The landlord demolishes the property or converts the use of the property to condominiums, \nstock cooperatives, community apartment projects, hotels, and commercial uses, regardless \nof whether the property is subject to the RSO OR JCO (LAMC 47.06 & 47.07).",
+    "note": "Demolition/conversion triggering relocation assistance regardless of RSO/JCO is stated, and the condominium-conversion tentative map election and continued payment duty are also in the FAQ. The bulletin lists this under not-at-fault evictions requiring relocation assistance, so the payment obligation is supported."
+   },
+   {
+    "field": "key_value",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "Key value is null. The document gives amounts for general RSO/JCO no-fault evictions but ties none specifically to LAMC 47.06/47.07 demolition or conversion, so nothing is stated for this rule."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "Effective date is null. The document states no effective date for LAMC 47.06/47.07. The July 1, 2026 dates apply only to the amount charts."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "All tenant not- at-fault evictions require payment of relocation assistance",
+    "note": "The bulletin, current as of 07/01/2026, presents the rule as operative, which is consistent with in_force."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "regardless \nof whether the property is subject to the RSO OR JCO (LAMC 47.06 & 47.07).",
+    "note": "The coverage summary is consistent with the text. The document refers to the City of Los Angeles and the other coverage fields are null."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "(LAMC  Sec.  47.06.D.2)",
+    "note": "The bulletin cites LAMC 47.06 and 47.07 for this rule and 47.06.D.2 for the condominium conversion election. The \"L.A. Mun. Code\" form is a normalization of LAMC."
+   }
+  ]
+ }
+}

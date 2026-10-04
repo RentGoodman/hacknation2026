@@ -1,0 +1,45 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D012:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 10257,
+  "output_tokens": 950
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": false,
+   "unverifiable_exemptions": [],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Applies to renting, buying, selling or securing financing for any housing in the City of Boston. The page states no unit-count, building-age or owner-occupancy limits or exemptions.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": null,
+   "other_conditions": null
+  },
+  "evidence": [
+   {
+    "field": "summary",
+    "doc_id": "D012",
+    "quoted_span": "In the City of Boston, it’s illegal to discriminate when renting, buying, selling, or securing financing for any housing."
+   },
+   {
+    "field": "requires_unknown_facts",
+    "doc_id": "D012",
+    "quoted_span": "In the City of Boston, it’s illegal to discriminate when renting, buying, selling, or securing financing for any housing."
+   }
+  ],
+  "notes": "I removed the summary's claim that the rule complements G.L. c. 151B, § 4(10), because no document contains that text. I set supersedes_state_rule to null because no passage addresses the rule's relationship to state law. requires_unknown_facts is false because the page applies the rule to 'any housing' in Boston, not to a subsidized or regulated subset. The page states no exemptions, so unverifiable_exemptions is empty. The underlying ordinance (Boston City Code) is not among the documents, so any owner-occupancy or small-building exemption remains unconfirmed."
+ }
+}

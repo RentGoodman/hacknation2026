@@ -1,0 +1,21 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "date_audit",
+ "subject": "DX06:c10",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 5899,
+  "output_tokens": 489
+ },
+ "result": {
+  "requirement_is_new": null,
+  "in_force_since": "2025-07",
+  "in_force_since_evidence": {
+   "doc_id": "DX06",
+   "quoted_span": "Seattle Mun. Code ch. 7.34 (effective July 2025)"
+  },
+  "current_version_effective": "2025-07",
+  "prior_version_note": null,
+  "effective_date_formula": null
+ }
+}

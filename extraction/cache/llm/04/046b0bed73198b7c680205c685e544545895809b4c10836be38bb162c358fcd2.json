@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D023:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 12075,
+  "output_tokens": 822
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "after a tenant has continuously and lawfully occupied a residential real property for 12 months, the owner of the residential real property shall not terminate a tenancy without just cause, which shall be stated in the written notice to terminate tenancy.",
+    "note": "The summary tracks the statute: at-fault and no-fault causes, the 90-day and 12-month move-in conditions, the 30-day remodel vacancy, cure notice, relocation within 15 days or rent waiver, the 12-point notice, enforcement remedies and void waivers."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "The amount of relocation assistance or rent waiver shall be equal to one month of the tenant’s rent that was in effect when the owner issued the notice to terminate the tenancy.",
+    "note": "The 12-month and 24-month thresholds, the one-month relocation, the 90-day and 12-month move-in terms, the 30-day remodel, the 3x damages and the 2030 repeal all match the text."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "supported",
+    "quoted_span": "(m) This section shall become operative on April 1, 2024.",
+    "note": "The April 1, 2024 operative date matches subdivision (m). The AB 1529 amendment is effective January 1, 2026, as the effective_date_note says."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "This section shall remain in effect only until January 1, 2030, and as of that date is repealed.",
+    "note": "The section is operative and in force now, with a sunset on 2030-01-01."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "(7) Housing that has been issued a certificate of occupancy within the previous 15 years, unless the housing is a mobilehome.",
+    "note": "The coverage summary and the listed exemptions match the text. This includes the local-ordinance carve-outs in (i), the owner-occupied limits, the separately alienable property conditions, the affordable-housing exemption and the mobilehome homeowner exclusion in (l)."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "California Code,  CIV 1946.2",
+    "note": "The statute is Cal. Civ. Code § 1946.2. The document also shows AB 1529 and Stats. 2025, Ch. 203. The AB 1482 and Tenant Protection Act aliases are not in the document, but they are only aliases."
+   }
+  ]
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D022:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 45080,
+  "output_tokens": 1651
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": null,
+   "unverifiable_exemptions": [],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Applies to any person (as defined in Bus. & Prof. Code § 16702, excluding the end consumer of a product or service) in any industry, including apartment rental companies. The statute sets no building, unit-count, construction-date or owner-type limits.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": null,
+   "other_conditions": null
+  },
+  "evidence": [
+   {
+    "field": "summary",
+    "doc_id": "D022",
+    "quoted_span": "(5) “Person” has the same meaning as defined in Section 16702 and does not include the end consumer of a product or service."
+   },
+   {
+    "field": "summary",
+    "doc_id": "DX09",
+    "quoted_span": "Certain industries have been targets of recent federal algorithmic price fixing claims, including apartment rental companies,"
+   },
+   {
+    "field": "summary",
+    "doc_id": "DX09",
+    "quoted_span": "Businesses in these industries should expect possible scrutiny under state law, but any business relying on a common pricing algorithm could be a target."
+   }
+  ],
+  "notes": "I cleared other_conditions. The 'two or more persons' and 'competitor data' elements belong to the definition of a common pricing algorithm, which is the prohibited conduct. They do not describe a building, unit or owner, and the rule's requirement field already captures them. I reworded the summary to describe who is covered rather than the prohibited conduct. All other fields stay null because the documents set no building, unit, construction-date or owner-size conditions. Subd. (c) preserves other antitrust laws, but nothing in the documents addresses how the statute interacts with local ordinances, so the preemption and yield fields stay null."
+ }
+}

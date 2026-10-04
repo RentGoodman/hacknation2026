@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D023:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 1143,
+  "output_tokens": 205
+ },
+ "result": {
+  "en": "After you have lived in your rental lawfully for 12 months, your landlord can end your tenancy only for a just cause stated in the written notice, and for no-fault reasons must pay one month's rent in relocation help within 15 days or waive your final month's rent.",
+  "es": "Después de vivir legalmente en su vivienda de alquiler durante 12 meses, el propietario solo puede terminar su contrato por una causa justificada indicada en el aviso escrito, y en los casos sin culpa debe pagar un mes de renta como ayuda de reubicación en 15 días o perdonar el último mes de renta."
+ }
+}

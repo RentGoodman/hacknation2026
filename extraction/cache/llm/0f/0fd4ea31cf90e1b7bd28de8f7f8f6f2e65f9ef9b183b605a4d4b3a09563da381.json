@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D011:c2",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 499,
+  "output_tokens": 182
+ },
+ "result": {
+  "en": "H.3744 was a petition asking the state legislature to let Boston adopt tenant eviction protections, but it was sent to a study order (H5035) on 9/9/2024 and was not enacted, so it is not in effect.",
+  "es": "H.3744 fue una petición para que la legislatura estatal permitiera a Boston adoptar protecciones contra el desalojo de inquilinos, pero fue enviada a una orden de estudio (H5035) el 9/9/2024 y no fue aprobada, por lo que no está en vigor."
+ }
+}

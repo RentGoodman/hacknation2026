@@ -1,0 +1,18 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "date_audit",
+ "subject": "D083:c5",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 46792,
+  "output_tokens": 573
+ },
+ "result": {
+  "requirement_is_new": false,
+  "in_force_since": null,
+  "in_force_since_evidence": null,
+  "current_version_effective": "2026-03-01",
+  "prior_version_note": "For eviction notices served 3/1/2025–2/28/2026, the San Francisco Rent Board listed $436.00/day per tenant household plus actual moving expenses. The current rate is $446.00/day for notices served 3/1/2026–2/28/2027. The documents do not say when Civ. Code § 1947.9 itself first took effect.",
+  "effective_date_formula": null
+ }
+}

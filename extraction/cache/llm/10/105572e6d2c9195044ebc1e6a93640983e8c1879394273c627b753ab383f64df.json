@@ -1,0 +1,65 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "extract",
+ "subject": "D013",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 2808,
+  "output_tokens": 981
+ },
+ "result": {
+  "rules": [
+   {
+    "candidate_id": "c1",
+    "jurisdiction": "Boston, MA",
+    "category": "just_cause_eviction",
+    "status": "in_force",
+    "title": "Housing Stability Notification Act (Notice of Tenants' Rights and Resources)",
+    "requirement": "Any landlord planning to end a tenancy must deliver a Notice of Tenants' Rights and Resources together with the Notice to quit or Notice of non-renewal of lease. Landlords and foreclosing owners must also submit tenant contact information and a copy of the notice to the City through an online portal. A violation does not halt the eviction process.",
+    "key_value": "Enforcement by Inspectional Services: 1st offense warning; 2nd and subsequent offenses $300 per day; failure to submit to City portal may result in fine up to $300 per day",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": "Applies to all landlords",
+     "summary": "Applies to all landlords planning to end a tenancy agreement; no unit-count or building-age limits stated.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": null
+    },
+    "exemptions": null,
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "The page calls it the 'new' Act but gives no effective or enactment date.",
+    "effective_date_formula": null,
+    "citation": "Boston City Code § 10-11.7",
+    "citation_aliases": [
+     "Boston City Code ch. 10-11.7",
+     "Housing Stability Notification Act",
+     "HSNA"
+    ],
+    "quoted_span": "The Housing Stability Notification Act requires\nALL LANDLORDS\nplanning to end a tenancy agreement to provide the tenant with a Notice of Tenants’ Rights and Resources.",
+    "confidence": 0.85,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "Official city page; the effective date is not stated, so status in_force is inferred from the page describing current enforcement.",
+    "source_notes": null
+   }
+  ],
+  "no_rule_findings": [],
+  "doc_summary": "Boston.gov page on the Housing Stability Notification Act (Boston City Code § 10-11.7). It requires all landlords ending a tenancy to deliver a Notice of Tenants' Rights and Resources with the notice to quit or non-renewal, and to submit the notice and tenant contact details to the City portal. Penalties are a warning for a first offense and $300 per day after that. A violation does not halt the eviction."
+ }
+}

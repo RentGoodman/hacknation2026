@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D005:c2",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 2905,
+  "output_tokens": 680
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "the owner must provide, either in the rental application or in a separate disclosure before receiving the fee, a clear and conspicuous tenant screening fee rights statement and a statement of the maximum fee cap permitted under",
+    "note": "Disclosure, existing-tenant ban, and applicability/unenforceability provisions are all in the document."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "The maximum tenant screening fee for 2026 is\n$68.96",
+    "note": "Fee-rights statement, cap disclosure, and ban on non-refundable renewal/roommate fees are all stated. The $68.96 figure is stated as the 2026 maximum, and the page attributes the limit to state law (Civ. Code 1950.6)."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The rule's effective_date is empty and the document gives no effective date for chapter 13.78."
+   },
+   {
+    "field": "status",
+    "verdict": "partly_supported",
+    "quoted_span": "Chapter 13.78 applies to all residential rental agreements regardless of any contractual language in any rental agreement or lease to the contrary.",
+    "note": "The page describes the rules in the present tense as operative, which is consistent with in_force. However, it has no explicit statement of in-force status."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "Chapter 13.78 applies to all residential rental agreements regardless of any contractual language in any rental agreement or lease to the contrary.",
+    "note": "The coverage summary matches the document. The other coverage fields are null and the document states no exemptions or size conditions."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "Notification of state law limitation on tenant screening fees (BMC 13.78.010)",
+    "note": "BMC 13.78.010, 13.78.016 and 13.78.018 are all named in the document. The 'Berkeley Mun. Code' form is the rule's formatting."
+   }
+  ]
+ }
+}

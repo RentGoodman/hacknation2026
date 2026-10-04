@@ -1,0 +1,18 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "date_audit",
+ "subject": "D043:c3",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 25236,
+  "output_tokens": 1062
+ },
+ "result": {
+  "requirement_is_new": false,
+  "in_force_since": null,
+  "in_force_since_evidence": null,
+  "current_version_effective": "2025-02-11",
+  "prior_version_note": "Per D043, the state Housing Crisis Act of 2019 (SB 330, later updated by SB 8 and AB 1218) first introduced replacement requirements and occupant protections. The RPO, adopted February 11, 2025 and stated as 'effective 2/11/2025 under Ordinances # 188481 and #188482', 'codified and expanded upon' those HCA protections and enhanced requirements for Restricted Affordable Units. The HCA still applies alongside the RPO, and the higher amount controls. The documents do not give the HCA's effective date. Separately, the base RSO/JCO relocation payments within 15 days predate the RPO. The 2/11/2025 date shown for both adoption and effectiveness comes only from the LAHD bulletin and should be checked against the ordinance text.",
+  "effective_date_formula": null
+ }
+}

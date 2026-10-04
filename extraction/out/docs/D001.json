@@ -1,0 +1,38 @@
+{
+  "doc_id": "D001",
+  "source_url": "https://berkeleyca.gov/sites/default/files/documents/2025-12-02%20Item%2001%20Ordinance%207992.pdf",
+  "model": "anthropic:claude-sonnet-5-5",
+  "query_date": "2026-10-01",
+  "chunks": 1,
+  "rules": [
+    {
+      "jurisdiction": "Berkeley, CA",
+      "level": "city",
+      "category": "algorithmic_rent_setting",
+      "status": "in_force",
+      "title": "Prohibition on sale or use of coordinated pricing algorithms (BMC 13.63)",
+      "requirement": "It is unlawful to sell, license, or provide to Berkeley landlords any coordinated pricing algorithm that sets or recommends rents or occupancy levels for residential units in Berkeley, and unlawful for a landlord to use such an algorithm when setting rents or occupancy levels. Each month of violation and each unit for which the algorithm was used is a separate violation.",
+      "key_value": "Civil penalties up to $1,000 per violation",
+      "coverage_conditions": {
+        "summary": "All residential dwelling units in the City of Berkeley and landlords/vendors providing coordinated pricing algorithms using non-public competitor data less than 90 days old.",
+        "construction_date_basis": null,
+        "built_on_or_before": null,
+        "built_after": null,
+        "min_building_age_years": null,
+        "min_units": null,
+        "max_units": null,
+        "owner_conditions": null,
+        "other_conditions": "Applies to algorithms using non-public Competitor Data (less than 90 days old) to recommend rents, fees, occupancy rates or other lease terms in coordination between a landlord and competitors, including through third-party vendors."
+      },
+      "exemptions": "Excludes products that publish aggregated, anonymous rental data without recommending rents or terms; products used to set rent or income limits under affordable housing guidelines; products used for market research for project financing, appraisals, or research, testing or training for software development.",
+      "interaction": "Does not regulate the amount of rent a landlord may charge; does not prevent development or sale of software using public data or general property management software.",
+      "effective_date": null,
+      "citation": "BMC 13.63.030",
+      "quoted_span": "It shall be unlawful to sell, license, or otherwise provide to City of Berkeley \nlandlords any coordinated pricing algorithm that sets or recommends rents or occupancy \nlevels that may be achieved for residential dwelling units in the City of Berkeley.",
+      "confidence": 0.85,
+      "conflict_flag": false,
+      "conflict_note": null
+    }
+  ],
+  "rejected": []
+}

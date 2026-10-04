@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D026:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 4299,
+  "output_tokens": 896
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "In no case shall the amount of the application screening fee charged by the landlord or their agent be greater than thirty dollars ($30) per applicant. The thirty dollar ($30) application screening fee may be adjusted annually by the landlord or their agent commensurate with an increase in the Consumer Price Index, beginning on January 1, 1998.",
+    "note": "Requirement summary tracks subdivisions (b)-(g), (j), (k), (l). One nuance: the document says the fee covers 'costs of obtaining information', and the summary's 'only' for actual costs matches (b). Fully consistent."
+   },
+   {
+    "field": "key_value",
+    "verdict": "partly_supported",
+    "quoted_span": "In no case shall the amount of the application screening fee charged by the landlord or their agent be greater than thirty dollars ($30) per applicant.",
+    "note": "The $30 base cap, CPI adjustment from Jan 1, 1998, 7-day credit report copy, and refund within 7 days of selection or 30 days of application are supported by D026. The Berkeley Rent Board $68.96 figure is not in D026 and cannot be verified from this document; the document states no 2026 figure."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "supported",
+    "quoted_span": "(Amended by Stats. 2025, Ch. 67, Sec. 29.   (AB 1170)   Effective January 1, 2026.)",
+    "note": "The 2026-01-01 date is the effective date of the current amended text. The original effective date is not stated, as the rule's note acknowledges."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "(Amended by Stats. 2025, Ch. 67, Sec. 29.   (AB 1170)   Effective January 1, 2026.)",
+    "note": "The document is the current code section as amended and effective Jan 1, 2026, with no repeal or sunset; in_force is consistent."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "(h) As used in this section, “landlord” means an owner of residential rental property.",
+    "note": "Statewide scope, applicant definition including guarantors/cosigners, no unit-count/age/owner-type limits, and the housing-assistance non-preemption are all consistent with the text."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "California Code,  CIV 1950.6",
+    "note": "Section number matches. Stats. 2025, ch. 67, § 29 and AB 1170 appear in the document's amendment note; the chapter/title/division heading also appears. The 'Cal. Civ. Code § 1950.6(b)' alias matches the cap subdivision."
+   }
+  ]
+ }
+}

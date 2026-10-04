@@ -1,0 +1,66 @@
+{
+  "doc_id": "D003",
+  "source_url": "https://rentboard.berkeleyca.gov/Fair_Chance",
+  "model": "anthropic:claude-sonnet-5-5",
+  "query_date": "2026-10-01",
+  "chunks": 1,
+  "rules": [
+    {
+      "jurisdiction": "Berkeley, CA",
+      "level": "city",
+      "category": "screening_restrictions",
+      "status": "in_force",
+      "title": "Berkeley Fair Chance Access to Housing Ordinance",
+      "requirement": "Rental housing providers may not inquire about or use criminal history in advertising, applications, tenant selection, or decisions, including refusing to rent or terminate a tenancy, requiring disclosure, demanding higher deposits or rent, or refusing to add a family member based on criminal history.",
+      "key_value": null,
+      "coverage_conditions": {
+        "summary": "Rental housing providers in Berkeley, except owner-occupied properties of 1-3 units where the owner resides, and other listed exemptions.",
+        "construction_date_basis": null,
+        "built_on_or_before": null,
+        "built_after": null,
+        "min_building_age_years": null,
+        "min_units": null,
+        "max_units": null,
+        "owner_conditions": "Exempt if an owner of record resides in one of the units (1-3 unit property) as primary residence.",
+        "other_conditions": "Exempt: lifetime sex offenders; limited exemptions for public housing/Section 8 properties; units under rental agreements allowing owners to move back (BMC 13.76.130 A.9); units occupied by existing tenants seeking to sublet or add/replace roommates."
+      },
+      "exemptions": "Lifetime sex offenders; public housing/Section 8 properties (limited exemptions); owner-occupied properties of 1-3 units where an owner of record resides as primary residence; units under a rental agreement allowing owners to move back per BMC 13.76.130 A.9; units occupied by existing tenants seeking to sublet or add/replace roommates.",
+      "interaction": null,
+      "effective_date": null,
+      "citation": "BMC 13.106",
+      "quoted_span": "The Fair Chance Access to Housing Ordinance prohibits rental housing providers in Berkeley from asking about and using criminal history and/or criminal background checks in their rental housing advertising, applications, tenant selection process, or decision-making.",
+      "confidence": 0.85,
+      "conflict_flag": false,
+      "conflict_note": null
+    },
+    {
+      "jurisdiction": "Berkeley, CA",
+      "level": "city",
+      "category": "screening_restrictions",
+      "status": "in_force",
+      "title": "Fair Chance written notice and opportunity to respond",
+      "requirement": "If a landlord takes any action against an applicant or tenant based on criminal history, the landlord must give the applicant or tenant written notice and an opportunity to respond.",
+      "key_value": null,
+      "coverage_conditions": {
+        "summary": "Same coverage as the Fair Chance Access to Housing Ordinance, net of its exemptions.",
+        "construction_date_basis": null,
+        "built_on_or_before": null,
+        "built_after": null,
+        "min_building_age_years": null,
+        "min_units": null,
+        "max_units": null,
+        "owner_conditions": "Exempt if owner-occupied 1-3 unit property where an owner of record resides.",
+        "other_conditions": null
+      },
+      "exemptions": "Same exemptions as the ordinance generally (lifetime sex offenders, limited public housing/Section 8, owner-occupied 1-3 units, owner move-back agreements, sublet/roommate changes).",
+      "interaction": null,
+      "effective_date": null,
+      "citation": "BMC 13.106",
+      "quoted_span": "If a landlord takes any action against an applicant or tenant based on criminal history (such as refusing to offer a lease, refusing to add a family member, etc.), the landlord is required to provide the applicant/tenant with written notice and an opportunity to respond.",
+      "confidence": 0.8,
+      "conflict_flag": false,
+      "conflict_note": null
+    }
+  ],
+  "rejected": []
+}

@@ -1,0 +1,45 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D050:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 36988,
+  "output_tokens": 1125
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": null,
+   "unverifiable_exemptions": [],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Applies to residential tenancies under a written lease, with no unit-count, building-age or owner limits stated. Tenancies at will are handled separately in § 12.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": null,
+   "other_conditions": "Tenancy must be under a written lease."
+  },
+  "evidence": [
+   {
+    "field": "other_conditions",
+    "doc_id": "D050",
+    "quoted_span": "Upon the neglect or refusal to pay the rent due under a written lease, fourteen days' notice to quit, given in writing by the landlord to the tenant, shall be sufficient to determine the lease"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D050",
+    "quoted_span": "Upon the neglect or refusal to pay the rent due under a written lease, fourteen days' notice to quit, given in writing by the landlord to the tenant, shall be sufficient to determine the lease"
+   }
+  ],
+  "notes": "I removed 'nonpayment of rent' from other_conditions. It is the event that triggers the rule (tenant conduct), not a coverage attribute of the building, unit or owner. The only coverage limit in § 11 is that the tenancy be under a written lease. The statute states no unit-count, construction-date or owner-type limits. Tenancies at will are covered by the separate § 12 (D051). Nothing in the documents makes the rule depend on facts assessor data cannot show beyond lease form, so no exemptions are listed. As the existing review note says, this is a notice-to-quit rule, not a just-cause list."
+ }
+}

@@ -1,0 +1,40 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D057:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 36994,
+  "output_tokens": 1190
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": null,
+   "unverifiable_exemptions": [],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Applies to rental residential real property generally. The section states no unit-count, building-age, construction-date or owner-occupancy limits or exemptions.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": null,
+   "other_conditions": null
+  },
+  "evidence": [
+   {
+    "field": "summary",
+    "doc_id": "D057",
+    "quoted_span": "A licensed broker or salesperson may solely contract with a prospective tenant to find rental residential real property for a tenant"
+   }
+  ],
+  "notes": "Removed other_conditions ('Applies only where a broker or salesperson is engaged for a fee'). Engaging a broker for a fee is the transaction the rule regulates, not a feature of the building, unit or owner. It also describes conduct by the parties, including the landlord. The summary is rewritten for the same reason. G.L. c. 112, § 87DDD½ (D057) contains no unit-count, construction-date, building-age, owner-occupancy or landlord-size conditions, so those fields stay null. No local-preemption or yields-to-local language appears in the section. The broker regulations at 254 CMR 7 are mentioned only in secondary source DX13 and do not bear on coverage."
+ }
+}

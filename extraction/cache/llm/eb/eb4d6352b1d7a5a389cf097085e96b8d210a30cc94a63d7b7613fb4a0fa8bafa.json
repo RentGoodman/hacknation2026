@@ -1,0 +1,45 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D051:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 36951,
+  "output_tokens": 1268
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": null,
+   "unverifiable_exemptions": [],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Applies to estates (tenancies) at will. The section states no unit-count, building-age, owner-occupancy or landlord-size limits.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": null,
+   "other_conditions": "Tenancies at will only. Tenancies under a written lease are not covered by this section."
+  },
+  "evidence": [
+   {
+    "field": "summary",
+    "doc_id": "D051",
+    "quoted_span": "Estates at will may be determined by either party by three months' notice in writing for that purpose given to the other party;"
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D051",
+    "quoted_span": "Estates at will may be determined by either party by three months' notice in writing for that purpose given to the other party;"
+   }
+  ],
+  "notes": "Section 12 contains no unit-count, construction-date, owner-occupancy, landlord-size, or local-preemption language, so those fields stay null. The only coverage limit is the type of tenancy: estates at will. Written-lease nonpayment terminations fall under § 11 (D050). Tenancy type is not a building class, and any rental building can contain at-will tenancies. For that reason requires_unknown_facts is not set to true. It is left null rather than false because no passage addresses it directly. The 'statewide' wording was dropped from the summary because the text does not state it verbatim, although § 12 is a general law of the Commonwealth. The c. 40P and Cella materials concern rent control and do not affect § 12 coverage."
+ }
+}

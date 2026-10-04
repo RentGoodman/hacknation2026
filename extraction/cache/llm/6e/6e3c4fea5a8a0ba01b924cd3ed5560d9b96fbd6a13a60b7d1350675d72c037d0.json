@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "DX06:c12",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 471,
+  "output_tokens": 140
+ },
+ "result": {
+  "en": "In Spokane, landlords are not allowed to purchase algorithmic coordinating services, and the city enforces this ban with civil penalties of up to $5,000 per violation.",
+  "es": "En Spokane, los propietarios no pueden comprar servicios de coordinación algorítmica, y la ciudad hace cumplir esta prohibición con sanciones civiles de hasta $5,000 por infracción."
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D085:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 4408,
+  "output_tokens": 893
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "partly_supported",
+    "quoted_span": "Increase in residential rents are limited to the lower of 3% per year, or 80% of the percent change in the Consumer Price Index over the most recent 12-month period. If the CPI is negative, no rent increase is permitted.",
+    "note": "The formula, negative-CPI rule, June 30 publication / Sept 1 effective date, petition for relief, 60-day decision, and written notice are supported by D085. The 2.87% figure for 2026-27, the $50 per-unit registration-fee pass-through, the overpayment reimbursement, and the tenant/landlord petitions for rent reductions and capital-improvement review do not appear in D085; they rest on other documents. Judged from this document alone, they are unsupported."
+   },
+   {
+    "field": "key_value",
+    "verdict": "partly_supported",
+    "quoted_span": "Increase in residential rents are limited to the lower of 3% per year, or 80% of the percent change in the Consumer Price Index over the most recent 12-month period. If the CPI is negative, no rent increase is permitted.",
+    "note": "The lower-of-3%-or-80%-CPI formula and the no-increase-if-CPI-negative rule are supported. The 2.87% figure for Sept. 2026-Aug. 2027 and the $50 per-unit pass-through cap are not stated in D085."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "supported",
+    "quoted_span": "The new ordinances are not effective until November 19, 2021.",
+    "note": "The 2021-11-19 effective date matches the document."
+   },
+   {
+    "field": "status",
+    "verdict": "partly_supported",
+    "quoted_span": "The new ordinances are not effective until November 19, 2021.",
+    "note": "The document shows the ordinance taking effect in 2021 and the City continuing to publish annual increases. It does not expressly say the ordinance is currently in force, though nothing indicates repeal or sunset."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "The rent cap does not apply to residential buildings constructed after February 1, 1995, or to mobile home spaces offered for rent after January 1, 1990.",
+    "note": "The cutoff dates and mobile home condition match. The document does not say which record is used for the construction date, and the rule acknowledges this."
+   },
+   {
+    "field": "citation",
+    "verdict": "partly_supported",
+    "quoted_span": "a Rent Stabilization Ordinance, which limits residential rent increases to no more than 3% per year",
+    "note": "The document names the Rent Stabilization Ordinance of the City of Santa Ana adopted in 2021. It gives no code section or ordinance number, and the aliases are not all in the text. The name and year are supported."
+   }
+  ]
+ }
+}

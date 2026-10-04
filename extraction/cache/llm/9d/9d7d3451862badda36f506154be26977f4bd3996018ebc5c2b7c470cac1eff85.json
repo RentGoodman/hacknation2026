@@ -1,0 +1,73 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "consolidate",
+ "subject": "Philadelphia, PA",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 5389,
+  "output_tokens": 2050
+ },
+ "result": {
+  "rules": [
+   {
+    "candidate_id": "DX06:c5",
+    "jurisdiction": "Philadelphia, PA",
+    "category": "algorithmic_rent_setting",
+    "status": "in_force",
+    "title": "Philadelphia ban on algorithmic rent coordination",
+    "requirement": "Philadelphia Code § 9-813 restricts landlords' use of algorithmic rent-coordination or revenue-management services. Tenants in pending class actions allege that subscribing to and using RealPage services violates it. An aggrieved person may elect statutory damages of $2,000 per violation or treble actual damages, plus equitable relief, interest, and attorney fees and costs. The precise prohibited conduct and definitions are not captured in the available source.",
+    "key_value": "$2,000 per violation or treble actual damages (aggrieved person's election), plus equitable relief, interest, attorney fees and costs",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Covered landlords, buildings and prohibited services are not stated in the available source; no building-size or construction-date limits are reported.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": null
+    },
+    "exemptions": null,
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "The only source, a secondary law-firm alert dated August 21, 2026, gives the effective date as 'February 2025' (month only). The exact day is not stated, so effective_date is left null. The law is in force as of the query date under any day in February 2025.",
+    "effective_date_formula": null,
+    "citation": "Phila. Code § 9-813",
+    "citation_aliases": [
+     "Phila. Code § 9-813(2)(c)(i)"
+    ],
+    "quoted_span": "Philadelphia’s ordinance permits an aggrieved person to elect statutory damages of $2,000 per violation or treble actual damages, together with equitable relief, interest and attorney fees and costs.",
+    "confidence": 0.55,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "Supported only by a secondary source (Morgan Lewis LawFlash). The ordinance text, bill number, enactment date, exact effective date, definitions of covered services and exemptions are not captured; verify against the official Philadelphia Code. The source notes generally that local algorithmic-pricing ordinances may be challenged on municipal authority, punitiveness and retroactivity grounds. No Philadelphia-specific challenge is reported.",
+    "source_notes": "Secondary source reports that § 9-813 is at issue in Liu v. Willow Bridge Property Company LLC and RealPage Inc. (Phila. C.P.) and Jahanbakhsh v. Greystar. The candidate's requirement wording ('RealPage-type services') was narrowed to what the source states.",
+    "source_doc_id": "DX06",
+    "from_candidates": [
+     "DX06:c5"
+    ],
+    "also_supported_by": [
+     {
+      "doc_id": "DX06",
+      "quoted_span": "Private remedies include treble actual damages or $2,000 per violation"
+     }
+    ]
+   }
+  ],
+  "dropped_candidates": [],
+  "known_gaps": []
+ }
+}

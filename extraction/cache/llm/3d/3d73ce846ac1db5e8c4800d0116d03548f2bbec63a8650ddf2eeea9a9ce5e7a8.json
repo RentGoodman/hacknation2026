@@ -1,0 +1,65 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "extract",
+ "subject": "DX13",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 2304,
+  "output_tokens": 1177
+ },
+ "result": {
+  "rules": [
+   {
+    "candidate_id": "c1",
+    "jurisdiction": "MA",
+    "category": "application_screening_fees",
+    "status": "in_force",
+    "title": "Massachusetts bar on landlord application fees and other upfront charges (G.L. c. 186, § 15B)",
+    "requirement": "Before a tenancy begins, a lessor may require payment only of first month's rent, last month's rent, a security deposit and a lock-change fee. Application, pet, cleaning, amenity and other upfront fees are barred. Licensed brokers may charge fees under 254 C.M.R. 7, which requires written disclosure of the fee amount, time and manner of payment, and whether it is contingent on a lease. The applicant signs the notice at the first personal meeting. A landlord who is also a broker is at risk unless the brokerage is a separate bona fide business. Requiring a tenant to pay a third-party screening service is also risky.",
+    "key_value": "Only first, last, security deposit and lock change may be charged upfront; no application fee by landlords; Perry v. Equity Residential: treble damages and attorney's fees",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Applies to lessors (landlords) before the start of a tenancy; licensed brokers may charge fees under 254 C.M.R. 7.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": "Licensed brokers are permitted to charge fees if they comply with board of registration regulations."
+    },
+    "exemptions": "Licensed brokers (and possibly a landlord acting through a separate bona fide brokerage) may charge fees under 254 C.M.R. 7.",
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "The article says only that the law has been in effect since the 1970s.",
+    "effective_date_formula": null,
+    "citation": "G.L. c. 186, § 15B",
+    "citation_aliases": [
+     "M.G.L. c. 186, § 15B",
+     "MGL Ch 186 Section 15B",
+     "254 C.M.R. 7",
+     "254 CMR 7"
+    ],
+    "quoted_span": "It states that prior to the beginning of a tenancy, no lessor may require payment for anything except first, last, security, and locks (MGL Ch 186 Section 15B).",
+    "confidence": 0.8,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "Secondary source (landlord association blog). The case discussion is advisory and non-binding, and the 'since the 1970s' date is not specific."
+   }
+  ],
+  "no_rule_findings": [],
+  "doc_summary": "A Massachusetts landlord-association article explaining that G.L. c. 186, § 15B limits upfront charges by landlords to first month, last month, security deposit and lock change, so landlords cannot charge application fees. Licensed brokers may charge fees under 254 C.M.R. 7 with written disclosure. It discusses risks for landlord-brokers and third-party screening payments, citing Perry v. Equity Residential, Woodruff v. Niles and Samia v. McElaney."
+ }
+}

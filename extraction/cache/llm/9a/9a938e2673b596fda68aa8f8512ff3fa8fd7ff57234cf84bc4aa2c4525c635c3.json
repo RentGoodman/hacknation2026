@@ -1,0 +1,50 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D052:c2",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 37551,
+  "output_tokens": 1522
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": null,
+   "unverifiable_exemptions": [],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Applies to any tenancy statewide and binds lessors and agents of the lessor, except vacation or recreational tenancies of 100 days or less.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": null,
+   "other_conditions": "Excludes any lease, rental, occupancy or tenancy of 100 days or less that is for a vacation or recreational purpose (subsection 9)."
+  },
+  "evidence": [
+   {
+    "field": "summary",
+    "doc_id": "D052",
+    "quoted_span": "(b) At or prior to the commencement of any tenancy, no lessor or agent of the lessor may require a tenant or prospective tenant to pay, to the lessor or to an agent of the lessor, any amount in excess of the following:"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D052",
+    "quoted_span": "(9) The provisions of this section shall not apply to any lease, rental, occupancy or tenancy of one hundred days or less in duration which lease or rental is for a vacation or recreational purpose."
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D052",
+    "quoted_span": "(9) The provisions of this section shall not apply to any lease, rental, occupancy or tenancy of one hundred days or less in duration which lease or rental is for a vacation or recreational purpose."
+   }
+  ],
+  "notes": "I removed the sentence 'Broker fees are governed separately by G.L. c. 112, § 87DDD½' from other_conditions. It describes a different statute and how fees are paid, not which buildings, units or owners this rule covers. I also tightened the summary to the statutory wording ('any tenancy'; 'lessor or agent of the lessor'). All other coverage fields stay null. D052 has no unit-count, construction-date, owner-occupancy or local-preemption conditions for this section."
+ }
+}

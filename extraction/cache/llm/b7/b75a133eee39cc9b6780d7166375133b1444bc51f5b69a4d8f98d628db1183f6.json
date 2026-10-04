@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "DX06:c6",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 508,
+  "output_tokens": 191
+ },
+ "result": {
+  "en": "Minneapolis landlords may not use algorithmic tools that rely on nonpublic competitor data to advise on vacancy or rental rates, and tenants may bring civil actions under this rule, which took effect 2026-03-01.",
+  "es": "Los arrendadores de Minneapolis no pueden usar herramientas algorítmicas que se basen en datos no públicos de la competencia para recomendar tarifas de alquiler o de vacantes, y los inquilinos pueden presentar acciones civiles según esta regla, vigente desde 2026-03-01."
+ }
+}

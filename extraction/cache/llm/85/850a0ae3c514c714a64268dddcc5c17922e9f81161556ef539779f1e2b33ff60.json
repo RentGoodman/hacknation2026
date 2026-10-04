@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D011:c2",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 503,
+  "output_tokens": 192
+ },
+ "result": {
+  "en": "H.3744 was a petition asking the Legislature to let the City of Boston put tenant eviction protections in place, but it was not enacted in the 193rd General Court, and the bill text is not available to say what protections it would have set.",
+  "es": "H.3744 fue una petición que pedía a la Legislatura autorizar a la Ciudad de Boston a establecer protecciones contra el desalojo de inquilinos, pero no fue aprobada en la 193.ª Corte General, y el texto del proyecto no está disponible para indicar qué protecciones habría establecido."
+ }
+}

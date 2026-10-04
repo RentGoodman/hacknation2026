@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D052:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 9968,
+  "output_tokens": 971
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "(iii) a security deposit equal to the first month's rent provided that such security deposit is deposited as required by subsection (3) and that the tenant is given the statement of condition as required by subsection (2);",
+    "note": "The document supports the summarized elements: cap, separate interest-bearing MA bank account, receipts, statement of condition within 10 days, 5% interest, 30-day return, deduction limits, sworn itemized list, 2-year records, 45-day successor notice, forfeiture/treble damages, void waivers, and the fee-in-lieu option with a 1-month total cap."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "the tenant shall be awarded damages in an amount equal to three times the amount of such security deposit or balance thereof to which the tenant is entitled plus interest at the rate of five per cent",
+    "note": "The 1-month cap, 30-day return, 5% or lesser bank interest, treble damages and the fee-plus-deposit cap of 1 month's rent are all in the text. The 30-day return and fee cap appear in (4) and (1)(b)(iii)."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The field is null. The document gives only the August 1, 2025 effective date for the amended clause (1)(b) introduction and no original enactment date for the rule, so nothing is stated for this field."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "[ Introductory paragraph of clause (b) of subsection (1) as amended by 2025, 9, Secs. 54 and 55 effective August 1, 2025.  See 2025, 9, Sec. 136.  For text effective until August 1, 2025, see above.]",
+    "note": "The statute is current law, with amended text effective August 1, 2025. The record's in_force status is consistent with this."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "(9) The provisions of this section shall not apply to any lease, rental, occupancy or tenancy of one hundred days or less in duration which lease or rental is for a vacation or recreational purpose.",
+    "note": "Statewide coverage of residential real property lessors under leases and tenancies at will. The only exemption is the vacation or recreational rental of 100 days or less, and no unit-count, construction-date or owner-occupancy limits appear."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "General Law - Part II, Title I, Chapter 186, Section 15B",
+    "note": "The document confirms G.L. c. 186, § 15B, and subsections (1)(b)(iii) and (4) exist. The amendment citation 2025, 9, Secs. 54 and 55 and § 136 also appears. The 'Massachusetts Security Deposit Law' alias is not in the text, but it is a harmless descriptive label."
+   }
+  ]
+ }
+}

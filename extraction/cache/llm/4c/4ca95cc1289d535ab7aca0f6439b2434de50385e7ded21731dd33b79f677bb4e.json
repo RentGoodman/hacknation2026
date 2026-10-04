@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D041:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 1051,
+  "output_tokens": 238
+ },
+ "result": {
+  "en": "In Los Angeles RSO units, a landlord can raise rent only once every 12 months by the LAHD allowable percentage (3% for July 1, 2025 through June 30, 2026), and from February 2, 2026 can no longer add extra percentages for utilities or for an added dependent.",
+  "es": "En las unidades RSO de Los Ángeles, el arrendador solo puede subir la renta una vez cada 12 meses según el porcentaje permitido por LAHD (3% del 1 de julio de 2025 al 30 de junio de 2026), y desde el 2 de febrero de 2026 ya no puede añadir porcentajes extra por servicios públicos ni por un dependiente adicional."
+ }
+}

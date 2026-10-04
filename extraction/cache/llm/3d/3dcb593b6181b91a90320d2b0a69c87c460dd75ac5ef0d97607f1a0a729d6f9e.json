@@ -1,0 +1,83 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "extract",
+ "subject": "DX17",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 7698,
+  "output_tokens": 3762
+ },
+ "result": {
+  "rules": [
+   {
+    "candidate_id": "c1",
+    "jurisdiction": "San Diego, CA",
+    "category": "just_cause_eviction",
+    "status": "in_force",
+    "title": "City of San Diego Tenant Protection Ordinance (just cause, relocation assistance, buyout rules)",
+    "requirement": "Landlords may terminate a covered tenancy only for an enumerated at-fault or no-fault just cause, stated in a written termination notice. The notice must give the basis for termination and the tenant's right to relocation assistance, and must describe the offer-to-renew right. Relocation assistance is owed for no-fault terminations, by direct payment or rent waiver. Curable violations require a prior written notice with an opportunity to cure. Landlords must give a written notice of residential protections with the SDHC Tenant Protection Guide. Buyout agreements require pre-offer disclosures and specific written terms, and retaliation is barred. Tenants may sue for damages, including treble damages, and may raise violations as an affirmative defense in unlawful detainer.",
+    "key_value": "Termination notice 30 or 60 days (per Civ. Code 1946.1); relocation assistance 2 months' rent (3 months if tenant is 62+ or disabled), paid within 15 days of notice or by rent waiver; 5-year right of first offer after no-fault eviction; wrongful eviction damages at least 3x actual economic damages; failure to pay relocation assistance: at least 3x the assistance plus actual damages",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": {
+      "years": 15,
+      "basis": "certificate of occupancy issued within the previous 15 years (not applicable to mobilehomes)",
+      "requires_owner_filing": false
+     },
+     "owner_occupied_exemption_max_units": 2,
+     "requires_unknown_facts": false,
+     "unverifiable_exemptions": [
+      "Housing restricted by deed, regulatory agreement or other recorded document as affordable housing",
+      "Housing subject to an affordable housing subsidy agreement (not applicable to Section 8 voucher tenants)",
+      "Condominium or separately alienable unit owned by a non-REIT, non-corporate, non-corporate-member-LLC landlord who gave written notice of exemption to tenants",
+      "Owner-occupied single-family home renting no more than 2 units or bedrooms",
+      "Owner-occupied duplex where the owner lives in one unit (neither an ADU nor JADU)",
+      "Housing where the tenant shares a bathroom or kitchen with an owner who lives there",
+      "Nonprofit hospital, religious facility, extended care, licensed residential care facility for the elderly, nonprofit transitional housing",
+      "Mobilehomes subject to the MRL",
+      "Higher-education dormitories",
+      "Transient hotels and occupancies of 30 consecutive days or less"
+     ],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": "Condominium/separately alienable unit exemption applies only if the landlord is not a REIT, corporation, LLC with a corporate member, or mobilehome park management",
+     "summary": "Applies to tenancies (right to occupy more than 30 days, excluding fixed terms of 3 months or less) in dwelling units in the City of San Diego, except listed exemptions.",
+     "construction_date_basis": "certificate of occupancy",
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": 15,
+     "owner_conditions": "Exempt: owner-occupied single-family home renting no more than 2 units or bedrooms; owner-occupied duplex where owner lives in one unit and neither is an ADU/JADU; owner shares bathroom or kitchen with the tenant.",
+     "other_conditions": "Only applies to a 'Tenancy' as defined: lawful right to occupy for more than 30 days; fixed terms of 3 months or less (and renewals) are excluded."
+    },
+    "exemptions": "Transient/tourist hotels; occupancies of 30 days or less; deed-restricted or subsidized affordable housing (not Section 8 voucher tenants); MRL mobilehomes; nonprofit hospital, religious, extended care, RCFE and nonprofit transitional housing; higher-education dormitories; owner-shared bath/kitchen housing; owner-occupied single-family (up to 2 units/bedrooms rented); owner-occupied duplex; qualifying individually owned condos with written exemption notice; housing with a certificate of occupancy issued within the previous 15 years (except mobilehomes).",
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": "2023-06-24",
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "Source says the Ordinance goes into effect June 24, 2023 and is indefinite unless amended. The SDHC notice-submission requirement (§ 98.0706(a)(2)) takes effect 30 days after SDHC publicly announces its portal (estimated July 2024) and was not in effect as of the fact sheet.",
+    "effective_date_formula": null,
+    "citation": "S.D. Mun. Code § 98.0706",
+    "citation_aliases": [
+     "S.D. Mun. Code ch. 9, art. 8, div. 7",
+     "S.D. Mun. Code § 98.0705",
+     "S.D. Mun. Code § 98.0706(a)(2)",
+     "S.D. Mun. Code § 98.0706(c)",
+     "San Diego Tenant Protection Ordinance",
+     "Cal. Civ. Code § 1946.2",
+     "Cal. Civ. Code § 1946.1"
+    ],
+    "quoted_span": "The purpose of the Ordinance is to require Just Cause for termination of residential tenancies consistent with California Civil Code section 1946.2, to limit the reasons for termination of a residential tenancy, to require greater tenant relocation assistance in specified circumstances and to provide additional tenant protections.",
+    "confidence": 0.75,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "Secondary source (Legal Aid Society fact sheet, updated Sept 21, 2023); the exact section numbers for individual provisions are not all given, and the document may be outdated. Relocation assistance and the buyout and offer-to-renew rules are folded into this record. The SDHC notice requirement was not yet in effect per the source."
+   }
+  ],
+  "no_rule_findings": [],
+  "doc_summary": "Legal Aid Society of San Diego fact sheet (updated Sept 2023) describing the City of San Diego Tenant Protection Ordinance (SDMC ch. 9, art. 8, div. 7), effective June 24, 2023. It covers the at-fault and no-fault just causes, exemptions, the required notice of residential protections and the Tenant Protection Guide, termination notice contents, relocation assistance (2 months' rent, 3 for seniors and the disabled), the 5-year right of first offer, buyout agreement disclosures, and remedies. The SDHC notice-submission portal requirement was not yet in effect. No rent-increase, deposit, fee, screening or algorithmic rent-setting rules are described."
+ }
+}

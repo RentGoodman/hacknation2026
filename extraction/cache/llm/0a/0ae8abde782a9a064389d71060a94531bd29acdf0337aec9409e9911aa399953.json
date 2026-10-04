@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D067:c5",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 660,
+  "output_tokens": 365
+ },
+ "result": {
+  "en": "If your building is being converted to condominium, cooperative or fee-simple ownership, tenants who are 62 or older, permanently disabled, or veterans with a service-connected disability of 60% or more can get protected tenancy, which shields them from eviction for up to 40 years if they have lived there at least one year before the conversion recording date, their family income is no more than three times the county average per-person income or $50,000 (whichever is greater), and they apply within 60 days.",
+  "es": "Si su edificio se convierte en condominio, cooperativa o propiedad en dominio absoluto, los inquilinos de 62 años o más, con discapacidad permanente, o veteranos con una discapacidad relacionada con el servicio de 60% o más pueden obtener un arrendamiento protegido que los resguarda del desalojo por hasta 40 años, si vivieron allí al menos un año antes de la fecha de registro de la conversión, el ingreso familiar no supera tres veces el ingreso promedio por persona del condado o $50,000 (lo que sea mayor), y solicitan dentro de 60 días."
+ }
+}

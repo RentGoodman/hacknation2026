@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D083:c5",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 3825,
+  "output_tokens": 742
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "The amount of relocation payments for temporary capital improvement evictions for less than 20 days is governed by California Civil Code Section 1947.9 and not by Rent Ordinance Section 37.9C.",
+    "note": "Document supports the governing statute and the per-day rate plus actual moving expenses set by notice date. It does not state who publishes the figure beyond the SF.gov Rent Board page, which is consistent."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "3/01/26 – 2/28/27\n$446.00/day (plus actual moving expenses)\n3/01/25 – 2/28/26\n$436.00/day (plus actual moving expenses)",
+    "note": "Both rates and their notice-service periods match the table. The per-tenant-household basis is shown in the column header."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The field is empty, and the document gives no effective date for § 1947.9. The rule's note says the same."
+   },
+   {
+    "field": "status",
+    "verdict": "partly_supported",
+    "quoted_span": "Relocation payments for temporary displacement for less than 20 days",
+    "note": "The rates are presented as current for March 1, 2026 – February 28, 2027, which is consistent with the rule being in force. The document does not explicitly say the statute is in force."
+   },
+   {
+    "field": "coverage",
+    "verdict": "partly_supported",
+    "quoted_span": "The amount of relocation payments for temporary capital improvement evictions for less than 20 days is governed by California Civil Code Section 1947.9 and not by Rent Ordinance Section 37.9C.",
+    "note": "The document supports the San Francisco scope and the displacement of under 20 days, and that § 1947.9 governs rather than local § 37.9C. The may_preempt_local_rules flag is an interpretation. The 'tenant households' framing is supported only by the table header."
+   },
+   {
+    "field": "citation",
+    "verdict": "partly_supported",
+    "quoted_span": "California Civil Code Section 1947.9",
+    "note": "The primary citation is supported. The aliases, including 'div. 3, pt. 4, tit. 5, ch. 2', do not appear in the document."
+   }
+  ]
+ }
+}

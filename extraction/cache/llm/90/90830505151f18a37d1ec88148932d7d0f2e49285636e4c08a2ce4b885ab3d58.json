@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "DX06:c6",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 510,
+  "output_tokens": 171
+ },
+ "result": {
+  "en": "In Minneapolis, landlords cannot use algorithmic devices that rely on nonpublic competitor data to advise on vacancy or rental rates, and tenants can bring civil actions over violations.",
+  "es": "En Minneapolis, los arrendadores no pueden usar dispositivos algorítmicos que se basen en datos no públicos de la competencia para asesorar sobre tasas de vacantes o de alquiler, y los inquilinos pueden presentar acciones civiles por infracciones."
+ }
+}

@@ -1,0 +1,45 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D083:c5",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 46566,
+  "output_tokens": 1532
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": null,
+   "unverifiable_exemptions": [],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": true,
+   "landlord_size_condition": null,
+   "summary": "Applies to temporary capital improvement evictions with displacement of less than 20 days. Relocation payments for these evictions are governed by Civ. Code § 1947.9 rather than S.F. Rent Ordinance § 37.9C.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": null,
+   "other_conditions": null
+  },
+  "evidence": [
+   {
+    "field": "may_preempt_local_rules",
+    "doc_id": "D083",
+    "quoted_span": "The amount of relocation payments for temporary capital improvement evictions for less than 20 days is governed by California Civil Code Section 1947.9 and not by Rent Ordinance Section 37.9C."
+   },
+   {
+    "field": "summary",
+    "doc_id": "D083",
+    "quoted_span": "The amount of relocation payments for temporary capital improvement evictions for less than 20 days is governed by California Civil Code Section 1947.9 and not by Rent Ordinance Section 37.9C."
+   }
+  ],
+  "notes": "D083 is the only document that addresses § 1947.9. The statute's text is not among the documents, so its unit, building, construction-date and owner scope cannot be verified, and those fields stay null. The original other_conditions described how the state rule relates to the local ordinance; that is not a building or unit condition. It is now expressed as may_preempt_local_rules = true, supported by the SF Rent Board statement that § 1947.9, not § 37.9C, governs these payments. The meta-sentence about document sourcing was removed from the summary. The daily rates ($446.00/day and $436.00/day) are payment amounts, not coverage, so they are not included here."
+ }
+}

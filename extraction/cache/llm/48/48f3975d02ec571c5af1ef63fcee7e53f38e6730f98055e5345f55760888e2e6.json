@@ -1,0 +1,88 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D031:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 8960,
+  "output_tokens": 2506
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": false,
+   "unverifiable_exemptions": [
+    "units in a non-profit facility whose primary purpose is short-term substance abuse treatment or assistance",
+    "Short Term Rental Units under Cambridge Zoning Ordinance Art. 4, § 4.60"
+   ],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": "Applies to all landlords, including an owner of a single rental unit in the building where the owner lives.",
+   "summary": "Residential rental agreements in Cambridge, including single residential dwelling units and tenancies at will. Excludes units in hospitals or health facilities, non-profit short-term substance abuse treatment facilities, and Short Term Rental Units.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": null,
+   "other_conditions": "Excludes rental units in hospitals, skilled nursing or health facilities, non-profit short-term substance abuse treatment facilities, and Short Term Rental Units under Cambridge Zoning Ordinance Art. 4, § 4.60."
+  },
+  "evidence": [
+   {
+    "field": "requires_unknown_facts",
+    "doc_id": "D031",
+    "quoted_span": "Yes, the Ordinance applies to a residential rental agreements, including single residential dwelling unit."
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D031",
+    "quoted_span": "or in a non-profit facility that has the primary purpose of providing short term assistance, treatment, assistance or therapy for alcohol, drug or other substance abuse"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D031",
+    "quoted_span": "the Ordinance does NOT apply to Short Term Rental Units as set forth in Article 4, Section 4.60 of the Cambridge Zoning Ordinance"
+   },
+   {
+    "field": "landlord_size_condition",
+    "doc_id": "D031",
+    "quoted_span": "I am the owner of only one rental unit that is in the building in which I live. Do I have to comply with the Ordinance?"
+   },
+   {
+    "field": "landlord_size_condition",
+    "doc_id": "D031",
+    "quoted_span": "Yes, the Ordinance applies to a residential rental agreements, including single residential dwelling unit."
+   },
+   {
+    "field": "summary",
+    "doc_id": "D031",
+    "quoted_span": "Do I need to supply the informational material to a tenant at will?"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D031",
+    "quoted_span": "Yes, all tenants and lawful occupants must be provided a copy of the materials."
+   },
+   {
+    "field": "summary",
+    "doc_id": "D031",
+    "quoted_span": "Yes, the Ordinance applies to a residential rental agreements, including single residential dwelling unit."
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D031",
+    "quoted_span": "Yes, this Ordinance does NOT apply to: rental units in a hospital, skilled nursing facility or health facility or in a non-profit facility that has the primary purpose of providing short term assistance, treatment, assistance or therapy for alcohol, drug or other substance abuse."
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D031",
+    "quoted_span": "In addition, the Ordinance does NOT apply to Short Term Rental Units as set forth in Article 4, Section 4.60 of the Cambridge Zoning Ordinance."
+   }
+  ],
+  "notes": "Removed the unsupported claim in the summary that the rule complements the state notice-to-quit form under G.L. c. 186, § 31. No document mentions it. supersedes_state_rule is set to null (was false) because no document addresses the relationship to state law. requires_unknown_facts is set to false because the ordinance covers ordinary residential rental agreements. Short Term Rental Units are added to unverifiable_exemptions because an address lookup cannot determine short-term rental registration status. Hospital and health-facility units remain only in other_conditions. D029 and DX10 contain nothing relevant to this rule's coverage."
+ }
+}

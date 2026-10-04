@@ -1,0 +1,62 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "cell",
+ "subject": "Berkeley, CA|security_deposits",
+ "prompt_version": "v10",
+ "usage": {},
+ "result": {
+  "cell_status": "rules_found",
+  "no_rule_quote": null,
+  "no_rule_passage_id": null,
+  "basis_citation": null,
+  "rules": [
+   {
+    "jurisdiction": "Berkeley, CA",
+    "category": "security_deposits",
+    "status": "in_force",
+    "title": "Berkeley Rent Ordinance security deposit interest",
+    "requirement": "For tenancies in units fully or partially covered by the Berkeley Rent Ordinance, landlords must pay tenants interest on their security deposit at the end of each year. If the tenant moves out before year end, the landlord must pay a prorated amount.",
+    "key_value": "Interest paid annually at year end; prorated interest on move-out",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Applies to units fully or partially covered by the Berkeley Rent Ordinance.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": "Unit must be fully or partially covered by the Rent Ordinance."
+    },
+    "exemptions": null,
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": null,
+    "effective_date_formula": null,
+    "citation": "Berkeley Rent Ordinance (security deposit interest)",
+    "citation_aliases": [
+     "Berkeley Rent Stabilization and Eviction for Good Cause Ordinance"
+    ],
+    "quoted_span": "For tenancies in units fully or partially covered by Berkeley's Rent Ordinance, landlords must pay tenants interest on their security deposit at the end of each year and a prorated amount if the tenant moves out before the end of the year.",
+    "confidence": 0.75,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "The passages do not give the municipal code section or the interest rate. The Rent Board's Security Deposit Interest & Calculator page is referenced but not included. The Rent Board page also describes California's deposit cap (AB 12), return deadline and photo requirements. Those are state law and are not recorded here.",
+    "source_notes": "Secondary Rent Board web page. The coverage guide (D009) lists security deposit interest as applying to both fully and partially covered units.",
+    "passage_id": "p2"
+   }
+  ]
+ }
+}

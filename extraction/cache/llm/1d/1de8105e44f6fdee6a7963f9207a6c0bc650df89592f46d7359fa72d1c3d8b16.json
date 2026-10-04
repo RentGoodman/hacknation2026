@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D057:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 597,
+  "output_tokens": 193
+ },
+ "result": {
+  "en": "Starting August 1, 2025 in Massachusetts, only a licensed broker or salesperson can charge a fee for finding a rental, and the broker's fee must be paid only by the party (tenant or landlord) who hired that broker.",
+  "es": "A partir del 1 de agosto de 2025 en Massachusetts, solo un corredor o vendedor con licencia puede cobrar una tarifa por encontrar una vivienda de alquiler, y esa tarifa debe pagarla únicamente la parte (inquilino o arrendador) que contrató al corredor."
+ }
+}

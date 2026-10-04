@@ -1,0 +1,17 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "cell",
+ "subject": "Cambridge, MA|algorithmic_rent_setting",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 4046,
+  "output_tokens": 254
+ },
+ "result": {
+  "cell_status": "silent",
+  "no_rule_quote": null,
+  "no_rule_passage_id": null,
+  "basis_citation": null,
+  "rules": []
+ }
+}

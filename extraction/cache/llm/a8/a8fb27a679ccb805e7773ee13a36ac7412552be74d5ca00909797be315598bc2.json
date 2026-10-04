@@ -1,0 +1,113 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "cell",
+ "subject": "NJ|screening_restrictions",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 4269,
+  "output_tokens": 2780
+ },
+ "result": {
+  "cell_status": "rules_found",
+  "no_rule_quote": null,
+  "no_rule_passage_id": null,
+  "basis_citation": null,
+  "rules": [
+   {
+    "jurisdiction": "NJ",
+    "category": "screening_restrictions",
+    "status": "in_force",
+    "title": "NJ housing provider restrictions on criminal-record screening (fair chance in housing)",
+    "requirement": "A housing provider may not ask about criminal history on an application or orally or in writing before a conditional offer. Before or after an offer, it may not evaluate arrests or charges without conviction, expunged, pardoned, vacated or sealed records, or juvenile adjudications. After a conditional offer it may consider only listed serious convictions, meth manufacture on federally assisted premises, and lifetime sex-offender registration. Before taking an application fee it must disclose in writing whether criminal history is part of its criteria and that the applicant may submit evidence of inaccuracies or rehabilitation. Applicants may submit such evidence. Standards must be applied in a nondiscriminatory manner. Criminal records may not be disseminated or used for other purposes.",
+    "key_value": "No criminal-history inquiry before a conditional offer; only listed serious convictions may be considered after the offer; written disclosure required before any application fee is accepted",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Applies to housing providers and applicants; the passages do not state unit-count or other coverage limits.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": null
+    },
+    "exemptions": null,
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "Effective date not stated in the passages.",
+    "effective_date_formula": null,
+    "citation": "N.J.S.A. 46:8-56",
+    "citation_aliases": [
+     "C.46:8-56",
+     "N.J.S.A. 46:8-59"
+    ],
+    "quoted_span": "A housing provider shall not, either before\nor after the issuance of a conditional offer, evaluate an applicant based on\nany of the following types of criminal records:",
+    "confidence": 0.7,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "Passages are excerpts from the session law. The section number for the pre-offer inquiry ban and disclosure rules is not visible, and the statute's coverage and effective date are not shown.",
+    "source_notes": null,
+    "passage_id": "p2"
+   },
+   {
+    "jurisdiction": "NJ",
+    "category": "screening_restrictions",
+    "status": "in_force",
+    "title": "NJ Law Against Discrimination: source of lawful income",
+    "requirement": "The NJ Law Against Discrimination prohibits housing discrimination based on source of lawful income or source of lawful rent or mortgage payment. A landlord may still refuse to rent for insufficient income or poor credit history.",
+    "key_value": null,
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Applies to housing generally.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": null
+    },
+    "exemptions": null,
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": null,
+    "effective_date_formula": null,
+    "citation": "N.J. Law Against Discrimination",
+    "citation_aliases": [
+     "LAD"
+    ],
+    "quoted_span": "The LAD also prohibits housing discrimination  based\non the source of lawful income or source of lawful rent\nor mortgage payment a tenant or purchaser uses.",
+    "confidence": 0.55,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "The passages come from a secondary agency FAQ and do not give the statutory section.",
+    "source_notes": "Passage p5 (tenant guide) notes that landlords may refuse to rent for insufficient income or poor credit history.",
+    "passage_id": "p8"
+   }
+  ]
+ }
+}

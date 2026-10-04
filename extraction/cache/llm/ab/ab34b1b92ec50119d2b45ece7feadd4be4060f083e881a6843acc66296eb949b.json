@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D066:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 3357,
+  "output_tokens": 1417
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "A landlord, or\nagent thereof, shall not require an application or other similar fee to apply\nto lease or sublease a residential rental property for dwelling purposes, which\nexceeds $50.",
+    "note": "The $50 cap, CPI adjustment only when the change is above zero, the penalty tiers, enforcement, remittance of the amount wrongfully charged, and rulemaking are all in the text. One small point: the State Treasurer determines the adjustment amount and the Director publishes the limit."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "up to $500 for a\nfirst offense, up to $750 for a second offense, and up to $1,000 for each\nsubsequent offense",
+    "note": "The $50 cap and penalty tiers are stated. The first CPI adjustment on January 1, 2027 follows from 'January 1 of the year next following enactment' and approval on January 20, 2026."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "supported",
+    "quoted_span": "This act shall take effect on the first day of the\nfourth month next following the date of enactment",
+    "note": "Approved January 20, 2026, so the fourth month following is May, giving 2026-05-01."
+   },
+   {
+    "field": "status",
+    "verdict": "partly_supported",
+    "quoted_span": "This act shall take effect on the first day of the\nfourth month next following the date of enactment",
+    "note": "The document supports an effective date of May 1, 2026. It does not state a current or query date, so 'in_force' depends on information outside the document."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "a dwelling unit\nlocated in a one-family or two-family dwelling that is offered for rent; or",
+    "note": "The exclusions for one- and two-family dwellings and for Real Estate Commission licensees (unless the licensee is the landlord) are stated. min_units 3 is a reasonable reading of the one/two-family exclusion rather than a literal statement."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "P.L. 2025, c.405 (A4899 4R)",
+    "note": "The document also shows C.46:8-18.1 and C.46:8-18.2. The N.J.S.A. forms are the standard equivalents."
+   }
+  ]
+ }
+}

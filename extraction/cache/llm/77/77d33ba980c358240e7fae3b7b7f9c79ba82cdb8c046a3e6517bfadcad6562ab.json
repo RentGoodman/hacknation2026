@@ -1,0 +1,64 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "cell",
+ "subject": "Berkeley, CA|application_screening_fees",
+ "prompt_version": "v10",
+ "usage": {},
+ "result": {
+  "cell_status": "rules_found",
+  "no_rule_quote": null,
+  "no_rule_passage_id": null,
+  "basis_citation": null,
+  "rules": [
+   {
+    "jurisdiction": "Berkeley, CA",
+    "category": "application_screening_fees",
+    "status": "in_force",
+    "title": "Berkeley tenant screening fee notice and ban on non-refundable renewal fees (BMC ch. 13.78)",
+    "requirement": "An owner or agent who charges a fee to purchase a consumer credit report and to validate, review, or otherwise process a rental application must provide, in the application or a separate disclosure before receiving the fee, a clear and conspicuous Tenant Screening Fee Rights Statement and a statement of the maximum fee cap permitted under Cal. Civ. Code § 1950.6(b). Separately, an owner or agent cannot charge an existing tenant a non-refundable fee to renew a tenancy, including fees tied to a roommate's departure or to a request to add or replace a roommate. Chapter 13.78 applies to all residential rental agreements regardless of contrary lease language, and violating lease provisions are unenforceable.",
+    "key_value": "Disclosure of Tenant Screening Fee Rights Statement and state maximum fee cap before fee is received; no non-refundable renewal or roommate-change fees for existing tenants",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Applies to owners and agents of residential rental property in Berkeley, and to all residential rental agreements regardless of contrary lease terms.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": null
+    },
+    "exemptions": null,
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "Effective date not stated in the passages.",
+    "effective_date_formula": null,
+    "citation": "Berkeley Mun. Code § 13.78.010",
+    "citation_aliases": [
+     "Berkeley Mun. Code ch. 13.78",
+     "Berkeley Mun. Code § 13.78.016",
+     "Berkeley Mun. Code § 13.78.018"
+    ],
+    "quoted_span": "When an owner or the owner’s agent gets a request to rent residential property in Berkeley from an applicant and the owner charges a fee to purchase a consumer credit report and to validate, review, or otherwise process an application, the owner must provide, either in the rental application or in a separate disclosure before receiving the fee, a clear and conspicuous tenant screening fee rights statement and a statement of the maximum fee cap",
+    "confidence": 0.75,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "Source is a Rent Board web page summarizing the code. The page says the URL in the rights statement is still to be provided by the City. The underlying fee cap and refund rules are state law (Cal. Civ. Code § 1950.6) and are not recorded here as Berkeley law.",
+    "source_notes": "The Rent Board page lists a 2026 maximum screening fee of $68.96 under state law. The cap is state law, so it is not part of this record's key value.",
+    "passage_id": "p2"
+   }
+  ]
+ }
+}

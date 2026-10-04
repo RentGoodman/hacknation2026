@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D003:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 4521,
+  "output_tokens": 750
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "The Fair Chance Access to Housing Ordinance prohibits rental housing providers in Berkeley from asking about and using criminal history and/or criminal background checks in their rental housing advertising, applications, tenant selection process, or decision-making.",
+    "note": "The listed unlawful acts, the written notice requirement, the posting of the notice and Rent Board administration of complaints are all in the document."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "Any landlord found to be in violation of the Ordinance shall be subject to administrative fines of at least $1,000 and up to $10,000 per violation, civil damages including actual damages or three times the amount of one month's rent, punitive damages, attorneys' fees and costs, and injunctive relief.",
+    "note": "Matches the record's key value."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The record's effective date is null. The document gives only the April 14, 2020 passage date and no effective date."
+   },
+   {
+    "field": "status",
+    "verdict": "partly_supported",
+    "quoted_span": "The City of Berkeley Rent Stabilization Board will be administering complaints regarding the Ordinance.",
+    "note": "The page describes current administration and enforcement, which implies the ordinance is in force. It never states in so many words that the ordinance is in force."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "Owner-occupied properties (between 1-3 units) in which an owner of record resides in one of the units as their primary residence",
+    "note": "The other listed exemptions (lifetime sex offenders, limited public housing/Section 8 exemptions, BMC 13.76.130 A.9 move-back units, sublet/roommate units) are also in the document. Coverage of current and prospective tenants matches the document. The exemption requirements are not detailed, consistent with the requires_unknown_facts flag."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "On April 14, 2020, Berkeley City Council passed the Fair Chance Access to Housing Ordinance (BMC 13.106).",
+    "note": "The page also lists 'Municipal Code 13.106' as related BMC."
+   }
+  ]
+ }
+}

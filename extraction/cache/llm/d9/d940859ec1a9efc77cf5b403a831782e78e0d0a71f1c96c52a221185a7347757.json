@@ -1,0 +1,77 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "cell",
+ "subject": "San Diego, CA|just_cause_eviction",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 10888,
+  "output_tokens": 5035
+ },
+ "result": {
+  "cell_status": "rules_found",
+  "no_rule_quote": null,
+  "no_rule_passage_id": null,
+  "basis_citation": null,
+  "rules": [
+   {
+    "jurisdiction": "San Diego, CA",
+    "applies_only_in": null,
+    "category": "just_cause_eviction",
+    "citation": "San Diego Mun. Code § 98.0704",
+    "citation_aliases": [
+     "San Diego Mun. Code ch. 9, art. 8, div. 7",
+     "San Diego Mun. Code §§ 98.0701 et seq.",
+     "San Diego Mun. Code § 98.0706",
+     "O-21647",
+     "Tenant Protection Ordinance",
+     "Just Cause Ordinance"
+    ],
+    "status": "in_force",
+    "title": "San Diego Tenant Protection Ordinance (Just Cause Required for Termination of Tenancy)",
+    "requirement": "A landlord may not terminate a tenancy without just cause stated in a written notice. At-fault causes include non-payment of rent, material lease breach, nuisance and criminal activity. No-fault causes include owner move-in, withdrawal from the rental market, demolition or substantial remodel, and compliance with a government or court order. For a curable lease violation, the landlord must first give written notice and an opportunity to cure, and may then serve a three-day notice to quit. The landlord must notify the Commission of an at-fault termination within three business days after notifying the tenant. For a no-fault termination, the landlord gives the tenant written notice 30 or 60 days before the termination and must pay relocation assistance or waive rent. The relocation amount is credited against other relocation assistance required by law, and the landlord may recover it as damages if the tenant fails to vacate. If the unit is re-offered for rent within five years after a no-fault eviction under §98.0704(b)(1), (3) or (4), the landlord must first offer it in writing to the displaced tenant. Retaliation against tenants for exercising their rights under the ordinance is prohibited.",
+    "key_value": "No-fault: 30 or 60 days' written notice; relocation assistance or rent waiver (City summary of the original ordinance: 3 months' rent or waiver of the final 3 months); at-fault: notice to Commission within 3 business days; right of first offer to the displaced tenant for 5 years",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": {
+      "years": 15,
+      "basis": "certificate of occupancy issued within the previous 15 years (except mobilehomes)",
+      "requires_owner_filing": null
+     },
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [
+      "deed-restricted affordable housing",
+      "owner-held condominium or similar property exempt only if the tenant was given written notice of the exemption in the lease"
+     ],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": "Exemption for owner-held residential property (individual owner, not a corporation, REIT, or LLC with a corporate member) applies only if the tenant received the required exemption notice.",
+     "summary": "Applies to residential tenancies in the City of San Diego. Exempt: housing with a certificate of occupancy issued in the last 15 years, deed-restricted affordable housing, hotel and transient occupancy, hospital and care facilities, dormitories, and notice-qualified owner-held units.",
+     "construction_date_basis": "certificate of occupancy",
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": 15,
+     "owner_conditions": "The exemption for individually owned property requires written notice of the exemption in the lease for tenancies commenced or renewed on or after 1/1/2024.",
+     "other_conditions": null
+    },
+    "exemptions": "Housing issued a certificate of occupancy within the previous 15 years (except mobilehomes); deed-restricted affordable housing; hotel and transient occupancy; hospital and care facilities; dormitories; certain owner-held residential property with notice of the exemption; and management of mobilehome parks.",
+    "event_only": false,
+    "effective_date": "2023-06-24",
+    "enacted_date": "2023-05-25",
+    "sunset_date": null,
+    "effective_date_note": "The Exemptions section was added by O-21647 on 5-25-2023, effective 6-24-2023. A City notice describes an earlier just cause ordinance with a 30-day delay and a webpage dated Nov. 19, 2021. The original effective date is not stated in the passages.",
+    "effective_date_formula": null,
+    "quoted_span": "A landlord shall not terminate a tenancy without just cause.",
+    "confidence": 0.8,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "The 3-month relocation figure comes from a City summary of the original 2021 ordinance. The amended 2023 text is described as providing greater relocation assistance, but its amount is not in the passages. Verify the current amount in §98.0705.",
+    "source_notes": "Based on the official SDMC Ch. 9 text (D073) and the City summary (D085). Exemption and cause details are partly drawn from the Legal Aid Society fact sheet (secondary source). State Civ. Code § 1946.2 passages and the Los Angeles bulletin were excluded as other-level or other-jurisdiction law.",
+    "passage_id": "p2"
+   }
+  ]
+ }
+}

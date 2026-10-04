@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D006:c2",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 8593,
+  "output_tokens": 1019
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "partly_supported",
+    "quoted_span": "tenants in units that are fully or partially covered by the Rent Ordinance cannot be evicted unless there is \"just cause” (previously called “good cause”).",
+    "note": "Just cause, nonpayment, lease-signing, lease-breach, notice, filing, and Notice of Tenant Rights provisions are supported by D006. The owner move-in relocation amounts ($19,413, $6,471, 1.5% CPI-U, Oct 16, 2025 approval, Jan 1, 2026) are not in D006. Only the mandatory yearly inflation adjustment appears there. Those figures would need D004."
+   },
+   {
+    "field": "key_value",
+    "verdict": "partly_supported",
+    "quoted_span": "For a landlord to evict a tenant for nonpayment of rent, the tenant must owe an amount of rental debt equal to or greater than one month of the Fair Market Rent (FMR) value",
+    "note": "The nonpayment threshold, 3-business-day filing, and 15-day notice for tenancies from Dec. 20, 2024 are supported. The relocation figures $19,413 and $6,471 effective Jan. 1, 2026 are not stated in D006."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The field is empty. D006 gives no effective date for the just cause ordinance or Measure BB (only that Measure BB passed in the November 2024 election). The Dec. 20, 2024 date is a component date, and the Jan. 1, 2026 relocation date is not in D006."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "Measure BB, a ballot measure passed by Berkeley voters in the November 2024 election, makes several changes to Berkeley’s Rent Ordinance",
+    "note": "The document describes the rules as current, in-force law. It does not explicitly state an 'in force' status."
+   },
+   {
+    "field": "coverage",
+    "verdict": "partly_supported",
+    "quoted_span": "Where the tenant shares a kitchen or bath facilities with the landlord, the unit will be exempt from the Rent Ordinance only if the landlord lived in a unit on the same property at the start of the tenancy.",
+    "note": "Coverage of fully and partially covered units, single-family homes, condominiums, new construction (certificate of occupancy after 1980) and government-subsidized units is supported. The shared kitchen/bath exemption is supported. The Golden Duplex, ADU, university, and nonprofit cooperative exemptions are not in D006. The summary says 'regardless of construction date' and cites a 'June 1980' certificate-of-occupancy date, but D006 says 'after 1980'."
+   },
+   {
+    "field": "citation",
+    "verdict": "not_supported",
+    "quoted_span": null,
+    "note": "D006 does not mention Berkeley Mun. Code § 13.76.130 or any section number. It refers only to the 'Rent Ordinance' and 'Measure BB'. The citation aliases such as ch. 13.76 are also not in D006."
+   }
+  ]
+ }
+}

@@ -1,0 +1,323 @@
+{
+  "CA/algorithmic_rent_setting": {
+    "fingerprint": "32a126872caa8745fca1d5040ed9d541a2882e4b",
+    "model": "anthropic:claude-sonnet-5-5",
+    "links": [],
+    "conflicts": []
+  },
+  "CA/screening_restrictions": {
+    "fingerprint": "126c24b05733524fd88a4d63d652e18b478f45b8",
+    "model": "anthropic:claude-sonnet-5-5",
+    "links": [
+      {
+        "governing": "D003:90cff5d43b23",
+        "yielding": "D003:55178d3bd077",
+        "explanation": "R1 states it has the same coverage and exemptions as the Fair Chance Access to Housing Ordinance (R2), so R1's notice-and-response duty operates within R2's scope and exemptions.",
+        "uncertain": false
+      }
+    ],
+    "conflicts": []
+  },
+  "CA/just_cause_eviction": {
+    "fingerprint": "bfc9636bcdd97d94848a612e84799aef854eba05",
+    "model": "anthropic:claude-sonnet-5-5",
+    "links": [
+      {
+        "governing": "D006:f6e86804f322",
+        "yielding": "D023:0c82e4e2b4ca",
+        "explanation": "R9's interaction field says it does not apply where a local just cause ordinance adopted on or before September 1, 2019 applies, and the Berkeley ordinance covers the same tenancies.",
+        "uncertain": false
+      },
+      {
+        "governing": "D009:571229f1ca79",
+        "yielding": "D023:0c82e4e2b4ca",
+        "explanation": "R9's interaction field says it does not apply to units covered by a local just cause ordinance adopted on or before September 1, 2019, and R8 sets Berkeley's coverage.",
+        "uncertain": false
+      },
+      {
+        "governing": "D079:9bb00ca10027",
+        "yielding": "D023:0c82e4e2b4ca",
+        "explanation": "R9's exemptions field excludes property subject to a local just cause ordinance adopted on or before 9/1/2019, and R28 applies to units covered by the SF Rent Ordinance.",
+        "uncertain": false
+      },
+      {
+        "governing": "D041:d4faabfd8fa1",
+        "yielding": "D023:0c82e4e2b4ca",
+        "explanation": "R9 does not apply where a local just cause ordinance adopted on or before 9/1/2019 applies, and R15 covers RSO units in Los Angeles.",
+        "uncertain": false
+      },
+      {
+        "governing": "D040:c4e876129637",
+        "yielding": "D023:0c82e4e2b4ca",
+        "explanation": "R9 yields to local ordinances in force on or before 9/1/2019, but R13's interaction field says AB 1482 may separately apply to JCO units.",
+        "uncertain": true
+      },
+      {
+        "governing": "D073:ababa3f0bc26",
+        "yielding": "D023:0c82e4e2b4ca",
+        "explanation": "The San Diego ordinance (effective 2023) post-dates 9/1/2019, so under R9's interaction field it displaces the state rule only if it is more protective with a binding local finding, which the records do not show.",
+        "uncertain": true
+      },
+      {
+        "governing": "D085:14aaa3525c50",
+        "yielding": "D023:0c82e4e2b4ca",
+        "explanation": "The Santa Ana ordinance (effective 2021-11-19) post-dates 9/1/2019, so under R9's interaction field it governs only if it is more protective with a binding local finding, which the records do not show.",
+        "uncertain": true
+      },
+      {
+        "governing": "D073:c940c3023015",
+        "yielding": "D023:a4c1002a8f38",
+        "explanation": "R11 has the same exemptions as the just cause requirement, which does not apply to a more protective later local ordinance, and R25's interaction field credits state assistance; whether R25 displaces R11 depends on the unsettled R24/R9 question.",
+        "uncertain": true
+      },
+      {
+        "governing": "D085:33c5b43a9a01",
+        "yielding": "D023:a4c1002a8f38",
+        "explanation": "R11 follows R9's exemptions, which yield to a more protective later local ordinance, and R37 gives 3 months against R11's 1 month, but the binding local finding is not shown.",
+        "uncertain": true
+      },
+      {
+        "governing": "D083:752329e62c7c",
+        "yielding": "D083:29ac67904827",
+        "explanation": "R31's interaction field says temporary capital improvement evictions under 20 days are governed by Cal. Civ. Code 1947.9 (R32) rather than Rent Ordinance 37.9C.",
+        "uncertain": false
+      },
+      {
+        "governing": "D083:752329e62c7c",
+        "yielding": "D082:752329e62c7c",
+        "explanation": "R29's interaction and exemptions fields say temporary capital improvement evictions under 20 days fall under Civil Code 1947.9 (R32) rather than the local ordinance.",
+        "uncertain": false
+      },
+      {
+        "governing": "D043:999800f5182d",
+        "yielding": "D043:2a318a72f2a3",
+        "explanation": "R17's interaction field says demolition for new construction of Protected Units with lower-income tenants is governed by the Resident Protections Ordinance (R21), and the RSO/JCO amounts are only the minimum.",
+        "uncertain": false
+      }
+    ],
+    "conflicts": [
+      {
+        "rules": [
+          "D040:c4e876129637",
+          "D023:0c82e4e2b4ca"
+        ],
+        "note": "R9 yields to local ordinances adopted on or before 9/1/2019, which would include the LA JCO, but R13 says AB 1482 may separately apply to JCO units. Review whether the state rule or the JCO governs just cause for non-RSO Los Angeles units."
+      },
+      {
+        "rules": [
+          "D073:ababa3f0bc26",
+          "D023:0c82e4e2b4ca"
+        ],
+        "note": "San Diego's ordinance (effective 2023-06-24) post-dates 9/1/2019. R9 yields only if the local ordinance is more protective with a binding local finding. R24 says it is 'consistent with' § 1946.2, and the records do not show the finding. San Diego's 2 or 3 months of relocation also differs from the state's 1 month."
+      },
+      {
+        "rules": [
+          "D085:14aaa3525c50",
+          "D023:0c82e4e2b4ca"
+        ],
+        "note": "Santa Ana's ordinance (effective 2021-11-19) post-dates 9/1/2019. It applies after 30 days against the state's 12 months, and gives 3 months of relocation against the state's 1 month. Whether it is more protective with a binding local finding, so that R9 yields, is not shown."
+      },
+      {
+        "rules": [
+          "D041:d4faabfd8fa1",
+          "D043:1eb28bb1793e"
+        ],
+        "note": "R15 requires termination notices to be filed with LAHD within 3 business days of service, while R16 says a copy must be filed within 3 days of service. Confirm whether the deadline is business days or calendar days."
+      }
+    ]
+  },
+  "CA/application_screening_fees": {
+    "fingerprint": "b00440d41adf43cb29ba4573bb53891dddaf6876",
+    "model": "anthropic:claude-sonnet-5-5",
+    "links": [],
+    "conflicts": [
+      {
+        "rules": [
+          "D005:d3588e391de3",
+          "D026:b967d4d086e1"
+        ],
+        "note": "Both describe the Cal. Civ. Code § 1950.6 screening fee cap but state different figures: R3 gives a 2026 maximum of $68.96, while R6 gives $30 per applicant, CPI-adjusted annually. These are probably consistent, since $68.96 would be the CPI-adjusted 2026 amount of the $30 base. A reviewer should confirm this and treat them as one rule from two sources rather than two caps."
+      }
+    ]
+  },
+  "CA/rent_increase_limits": {
+    "fingerprint": "01abeabc1368cc6cce1fee7b8ffb9fc7f2a35f5c",
+    "model": "anthropic:claude-sonnet-5-5",
+    "links": [
+      {
+        "governing": "D024:e0aa1ad743fe",
+        "yielding": "D040:78dd944bdd2e",
+        "explanation": "R7 is the current statewide cap under Civ. Code § 1947.12 as amended by SB 567 (effective 2024-04-01), so it governs the original AB 1482 version in R8.",
+        "uncertain": false
+      },
+      {
+        "governing": "D006:a9b3e54fc5c4",
+        "yielding": "D024:e0aa1ad743fe",
+        "explanation": "R7's exemptions and coverage_conditions exclude housing under stricter local rent control, and Berkeley's AGA cap of 5% is below the state cap of 5% plus CPI (up to 10%) for fully covered units.",
+        "uncertain": false
+      },
+      {
+        "governing": "D008:559cddd84203",
+        "yielding": "D024:e0aa1ad743fe",
+        "explanation": "R7 exempts housing under stricter local rent control, and Berkeley's 2026 AGA of 1.0% is stricter than the state cap for eligible rent-stabilized units.",
+        "uncertain": false
+      },
+      {
+        "governing": "D041:a5be13216637",
+        "yielding": "D024:e0aa1ad743fe",
+        "explanation": "R7 exempts housing under stricter local rent control, and the LA RSO allowable increase applies to RSO-covered units.",
+        "uncertain": false
+      },
+      {
+        "governing": "D042:a5bbdcde10da",
+        "yielding": "D024:e0aa1ad743fe",
+        "explanation": "R7 exempts housing under stricter local rent control, and the LA RSO 3% allowable increase is below the state cap for RSO units.",
+        "uncertain": false
+      },
+      {
+        "governing": "D041:a5be13216637",
+        "yielding": "D040:78dd944bdd2e",
+        "explanation": "R8's exemptions and interaction fields exclude units already subject to the City of Los Angeles RSO.",
+        "uncertain": false
+      },
+      {
+        "governing": "D042:a5bbdcde10da",
+        "yielding": "D040:78dd944bdd2e",
+        "explanation": "R8 excludes units subject to the City's RSO, which R11 regulates.",
+        "uncertain": false
+      },
+      {
+        "governing": "D080:2e63ed747938",
+        "yielding": "D024:e0aa1ad743fe",
+        "explanation": "R7 exempts housing under stricter local rent control, and San Francisco's 1.6% allowable increase is stricter than the state cap for rent-controlled units.",
+        "uncertain": false
+      },
+      {
+        "governing": "D083:d15a29802781",
+        "yielding": "D024:e0aa1ad743fe",
+        "explanation": "R7 exempts housing under stricter local rent control, and San Francisco's 1.6% allowable increase is stricter than the state cap for covered units.",
+        "uncertain": false
+      },
+      {
+        "governing": "D084:126e9a52e8d4",
+        "yielding": "D024:e0aa1ad743fe",
+        "explanation": "R7 exempts housing under stricter local rent control, and Santa Ana's cap of the lesser of 3% or 80% of CPI is stricter than the state cap.",
+        "uncertain": false
+      },
+      {
+        "governing": "D085:58ee22b23ebd",
+        "yielding": "D024:e0aa1ad743fe",
+        "explanation": "R7 exempts housing under stricter local rent control, and Santa Ana's cap of the lower of 3% or 80% of CPI applies to buildings built on or before 1995-02-01.",
+        "uncertain": false
+      }
+    ],
+    "conflicts": [
+      {
+        "rules": [
+          "D041:a5be13216637",
+          "D042:a5bbdcde10da"
+        ],
+        "note": "R11 gives the LA RSO allowable increase as 3% for July 1, 2025 to June 30, 2026 but is still marked in_force at the 2026-10-01 query date. R9 refers only to the published percentage. A reviewer should confirm the percentage for the period starting July 1, 2026 and whether R11 is superseded."
+      }
+    ]
+  },
+  "CA/security_deposits": {
+    "fingerprint": "4f84e33bed7cbebce1ca3316c029618302b45957",
+    "model": "anthropic:claude-sonnet-5-5",
+    "links": [
+      {
+        "governing": "D025:51449f360cde",
+        "yielding": "D025:8f8c9bc0dcbd",
+        "explanation": "R11's interaction field says it operates as an exception to the one-month cap in paragraph (1), and R13's exemptions list the small-landlord two-month rule in paragraph (5), so R11 governs for qualifying small landlords.",
+        "uncertain": false
+      }
+    ],
+    "conflicts": [
+      {
+        "rules": [
+          "D007:a4faf8602793",
+          "D025:51449f360cde"
+        ],
+        "note": "R6 says a small landlord may charge up to two months' rent and does not mention R11's service-member exception, where the one-month cap applies. R6's interaction field also says the Berkeley Rent Board cannot determine whether a landlord may charge one or two months' rent for a new tenancy. A reviewer should confirm the service-member carve-out applies and how the cap is applied in Berkeley."
+      }
+    ]
+  },
+  "MA/screening_restrictions": {
+    "fingerprint": "2384b627a66cf37a88efad50c26ddf68a88ed703",
+    "model": "anthropic:claude-sonnet-5-5",
+    "links": [],
+    "conflicts": []
+  },
+  "NJ/rent_increase_limits": {
+    "fingerprint": "5fcefeb955cac204d975c498e55efd55d6ee9499",
+    "model": "anthropic:claude-sonnet-5-5",
+    "links": [
+      {
+        "governing": "D067:2de3f431dca9",
+        "yielding": "D036:d5eb27fe104c",
+        "explanation": "R3's interaction field says it limits the reach of local rent control, so newly constructed multiple dwellings within 30 years of completion are outside Jersey City's ordinance even in buildings with five or more units.",
+        "uncertain": false
+      },
+      {
+        "governing": "D036:d5eb27fe104c",
+        "yielding": "D067:1342620d7100",
+        "explanation": "R2's interaction and coverage_conditions fields say increases must also comply with municipal rent control ordinances, which may be stricter, so R1's ordinance controls for covered buildings with five or more units, while R2's unconscionability and notice rules remain a floor.",
+        "uncertain": false
+      }
+    ],
+    "conflicts": []
+  },
+  "MA/algorithmic_rent_setting": {
+    "fingerprint": "b78c6a67a5ed20bb4cfd9b108d4312e5573b8871",
+    "model": "anthropic:claude-sonnet-5-5",
+    "links": [],
+    "conflicts": []
+  },
+  "MA/security_deposits": {
+    "fingerprint": "746c7a0d9d987363e9fef0129fccd165ad069808",
+    "model": "anthropic:claude-sonnet-5-5",
+    "links": [],
+    "conflicts": [
+      {
+        "rules": [
+          "D052:9bcd06922829",
+          "D052:ebd8978b60d0"
+        ],
+        "note": "R3 lets a lessor and tenant agree to a fee in place of a security deposit, with fee plus deposit capped at 1 month's rent. R6 caps the security deposit at the first month's rent and does not mention a fee. R3 operates only through regulations the executive office may issue, and its own text does not show whether they have been issued. A reviewer should confirm whether the regulations exist and how a fee counts toward the R6 cap and the R2, R4 and R7 deposit duties. Until then, no governing relationship can be established."
+      }
+    ]
+  },
+  "NJ/screening_restrictions": {
+    "fingerprint": "adc9ae27abd5579cdcf8e801ab97bcafdf2acac7",
+    "model": "anthropic:claude-sonnet-5-5",
+    "links": [],
+    "conflicts": []
+  },
+  "NJ/security_deposits": {
+    "fingerprint": "39c0a729314807065453b26ccfec19cba6f0ef48",
+    "model": "anthropic:claude-sonnet-5-5",
+    "links": [],
+    "conflicts": []
+  },
+  "NJ/just_cause_eviction": {
+    "fingerprint": "990c75cfdaa09320722c82e5e9a6611ec73196b6",
+    "model": "anthropic:claude-sonnet-5-5",
+    "links": [
+      {
+        "governing": "D067:e81f66a70b38",
+        "yielding": "D067:250baedb5548",
+        "explanation": "R1's interaction field says the Senior Citizens and Disabled Protected Tenancy Act gives additional protection, and R1 bars possession suits against protected tenants while the protected tenancy (up to 40 years under R10) lasts.",
+        "uncertain": false
+      }
+    ],
+    "conflicts": [
+      {
+        "rules": [
+          "D067:3c1a0689f842",
+          "D067:aeabc5447ad5"
+        ],
+        "note": "Both state the Anti-Eviction Act good cause requirement but describe the owner-occupancy exclusion differently. R4 excludes owner-occupied two- or three-family dwellings, while R8 exempts owner-occupied premises with two or fewer rental units. R8's exemptions text also mixes 'two- or three-unit premises' with 'two or fewer rental units'. R8 also covers eviction, not only non-renewal. A reviewer should confirm the correct exclusion scope and whether these are duplicate records."
+      }
+    ]
+  }
+}

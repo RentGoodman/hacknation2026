@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "DX06:c4",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 6572,
+  "output_tokens": 668
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "partly_supported",
+    "quoted_span": "Ordinance NS-3090 prohibits specified anticompetitive automated rent price-fixing; private tenant claims and up to $1,000 per violation and per month.",
+    "note": "DX06 supports only a general prohibition, private tenant claims, and the $1,000 per-violation, per-month penalty. The details about software scope, nonpublic competitor data, exclusions, attorney's fees, proof standard and code enforcement are not in DX06 (they rest on other documents)."
+   },
+   {
+    "field": "key_value",
+    "verdict": "partly_supported",
+    "quoted_span": "Santa Ana Ordinance No. NS-3090 (effective April 2, 2026)",
+    "note": "The effective date, private tenant claims and $1,000 per violation per month are supported. Attorney's fees for Santa Ana are not stated in DX06."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "supported",
+    "quoted_span": "Santa Ana Ordinance No. NS-3090 (effective April 2, 2026)",
+    "note": "DX06 states the April 2, 2026 effective date directly."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "Santa Ana Ordinance No. NS-3090 (effective April 2, 2026)",
+    "note": "The ordinance is listed as effective April 2, 2026, and the document is dated August 21, 2026, so in_force is consistent."
+   },
+   {
+    "field": "coverage",
+    "verdict": "not_supported",
+    "quoted_span": null,
+    "note": "DX06 says nothing about Santa Ana's scope (residential rental property within city limits) or its relationship to state antitrust law. These details are not in this document."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "Santa Ana Ordinance No. NS-3090 (effective April 2, 2026)",
+    "note": "The ordinance number NS-3090 matches the citation and its aliases. The title and 'Algorithmic Devices' name are not in DX06."
+   }
+  ]
+ }
+}

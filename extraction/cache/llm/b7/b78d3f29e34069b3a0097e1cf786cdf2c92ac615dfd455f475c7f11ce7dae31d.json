@@ -1,0 +1,40 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D053:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 37159,
+  "output_tokens": 839
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": null,
+   "unverifiable_exemptions": [],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Applies to any tenant of residential premises. The section states no unit-count, building-age, construction-date or owner-occupancy limits.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": null,
+   "other_conditions": null
+  },
+  "evidence": [
+   {
+    "field": "summary",
+    "doc_id": "D053",
+    "quoted_span": "Any person or agent thereof who threatens to or takes reprisals against any tenant of residential premises"
+   }
+  ],
+  "notes": "Coverage for G.L. c. 186, § 18 (D053) reaches 'any tenant of residential premises'. The section has no unit, age, owner-occupancy, landlord-size or preemption terms, so all of those fields stay null. The nonpayment-of-rent carve-out only limits when the presumption applies, not which buildings are covered, so it is not coverage. The exemptions in the rent-control initiative petition (DX14/DX15) and in c. 151B (D049) belong to other rules and do not apply here."
+ }
+}

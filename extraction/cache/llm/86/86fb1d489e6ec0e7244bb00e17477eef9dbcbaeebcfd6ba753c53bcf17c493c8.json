@@ -1,0 +1,86 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "DX12:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 24239,
+  "output_tokens": 2430
+ },
+ "result": {
+  "coverage": {
+   "built_after": null,
+   "built_on_or_before": "1978-10-01",
+   "construction_cutoff": {
+    "basis": "year_built",
+    "covered_if": "on_or_before",
+    "date": "1978-10-01"
+   },
+   "construction_date_basis": "first built",
+   "landlord_size_condition": null,
+   "max_units": null,
+   "may_preempt_local_rules": null,
+   "min_building_age_years": null,
+   "min_units": null,
+   "new_construction_exemption": null,
+   "other_conditions": "Covered property types include apartments, condominiums, townhomes, duplexes, two or more single-family dwellings on the same parcel, hotel/motel/rooming/boarding house rooms occupied by the same tenant for more than 30 consecutive days, residential units attached to a commercial building, ADUs, JADUs, and mobile homes and RVs in mobile home parks; replacement units under LAMC 151.28 are also covered.",
+   "owner_conditions": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": null,
+   "summary": "Rental units subject to the Los Angeles RSO (first built on or before October 1, 1978, plus replacement units).",
+   "supersedes_state_rule": null,
+   "unverifiable_exemptions": [
+    "Luxury exemption from the RSO, available on application based on the monthly rent charged on or before May 31, 1978"
+   ],
+   "yields_to_local_rule": null
+  },
+  "evidence": [
+   {
+    "field": "built_on_or_before",
+    "doc_id": "D041",
+    "quoted_span": "Generally, the RSO applies to rental properties that were first built on or before October 1, 1978, as well as replacement units under"
+   },
+   {
+    "field": "construction_cutoff",
+    "doc_id": "D041",
+    "quoted_span": "Generally, the RSO applies to rental properties that were first built on or before October 1, 1978, as well as replacement units under"
+   },
+   {
+    "field": "construction_date_basis",
+    "doc_id": "D041",
+    "quoted_span": "rental properties that were first built on or before October 1, 1978"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D041",
+    "quoted_span": "Generally, the RSO applies to rental properties that were first built on or before October 1, 1978, as well as replacement units under"
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D041",
+    "quoted_span": "Two or more single-family dwelling units on the same parcel"
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D041",
+    "quoted_span": "Rooms in a hotel, motel, rooming house, or boarding house occupied by the same tenant for more than 30 consecutive days"
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D041",
+    "quoted_span": "Residential unit(s) attached to a commercial building"
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D041",
+    "quoted_span": "and recreational vehicles in mobile home parks are also covered under the RSO."
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D041",
+    "quoted_span": "A landlord can apply for an exemption from the RSO if they can establish the monthly rent charged on or before May 31, 1978"
+   }
+  ],
+  "notes": "I kept the construction cutoff (first built on or before 1978-10-01, plus replacement units) because D041 supports it. I removed the other_conditions claim that the rule is complementary to Civ. Code § 1950.5, and I set supersedes_state_rule to null, because no document addresses the state deposit statute. I replaced other_conditions with the covered property types listed in D041. I added the RSO luxury exemption as unverifiable, since it depends on rent levels from 1978. The year_built basis is the closest available enum value to D041's 'first built'."
+ }
+}

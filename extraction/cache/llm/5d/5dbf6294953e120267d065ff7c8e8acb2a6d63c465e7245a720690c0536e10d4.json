@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D067:c4",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 59401,
+  "output_tokens": 679
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "A landlord cannot take reprisal action against a tenant by eviction, substantial alteration of \na lease or its terms, or refusal to renew a lease when a tenant exercises certain civil rights (N.J.S.A. \n2A:42-10.10).",
+    "note": "The four protected activities, the notice-first condition for complaints, and the right to sue for damages all match the Reprisal section. The 'organizes or joins' wording is a fair paraphrase of 'organizer, or member, of any lawful organization'."
+   },
+   {
+    "field": "key_value",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The record has no key value, and the reprisal section states no numeric value."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The record has no effective date, and the guide gives none for this provision."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "A landlord cannot take reprisal action against a tenant by eviction, substantial alteration of \na lease or its terms, or refusal to renew a lease when a tenant exercises certain civil rights",
+    "note": "The guide states the prohibition in the present tense as current law, which is consistent with in_force."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "The law against reprisal applies to all rental properties used for dwelling purposes, \nincluding mobile homes, except owner-occupied two- or three-family dwellings.",
+    "note": "The summary, the owner-occupied exemption and the max-units value of 3 all match the text."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "(N.J.S.A. \n2A:42-10.10)",
+    "note": "The guide cites N.J.S.A. 2A:42-10.10 for the reprisal provision. The 'et seq.' and 'Reprisal law' aliases are not in the text, but the section heading 'Reprisal - Civil Rights of Tenants' supports the second only loosely."
+   }
+  ]
+ }
+}

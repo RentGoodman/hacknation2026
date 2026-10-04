@@ -1,0 +1,105 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D085:c2",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 7817,
+  "output_tokens": 2418
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": {
+    "years": 15,
+    "basis": "housing produced in the last 15 years (rolling; the reference date and the record used are not stated)",
+    "requires_owner_filing": null
+   },
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": false,
+   "unverifiable_exemptions": [
+    "deed-restricted affordable housing",
+    "hotel and transient occupancy",
+    "hospital and care facilities",
+    "dormitories",
+    "other shared living quarters"
+   ],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Covers residential rental property in Santa Ana once a tenancy passes 30 days. Excluded: housing produced in the last 15 years (a rolling exemption, not the rent cap's February 1, 1995 cutoff), deed-restricted affordable housing, hotel and transient occupancy, hospital and care facilities, dormitories, and other shared living quarters.",
+   "construction_date_basis": "'Housing produced' in the last 15 years; the record (certificate of occupancy or other) is not stated",
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": 15,
+   "owner_conditions": null,
+   "other_conditions": "Applies only after 30 days of tenancy."
+  },
+  "evidence": [
+   {
+    "field": "new_construction_exemption",
+    "doc_id": "D085",
+    "quoted_span": "The Just Cause Ordinance shall not apply to certain types of residential property, including housing produced in the last 15 years"
+   },
+   {
+    "field": "min_building_age_years",
+    "doc_id": "D085",
+    "quoted_span": "housing produced in the last 15 years"
+   },
+   {
+    "field": "construction_date_basis",
+    "doc_id": "D085",
+    "quoted_span": "housing produced in the last 15 years"
+   },
+   {
+    "field": "requires_unknown_facts",
+    "doc_id": "D085",
+    "quoted_span": "After 30 days, an owner shall not terminate a tenancy without just cause, which shall be stated in a written notice."
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D085",
+    "quoted_span": "deed-restricted affordable housing"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D085",
+    "quoted_span": "hotel and transient occupancy"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D085",
+    "quoted_span": "hospital and care facilities"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D085",
+    "quoted_span": "dormitories"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D085",
+    "quoted_span": "other shared living quarters"
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D085",
+    "quoted_span": "After 30 days, an owner shall not terminate a tenancy without just cause"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D085",
+    "quoted_span": "The Just Cause Ordinance shall not apply to certain types of residential property, including housing produced in the last 15 years; deed-restricted affordable housing; hotel and transient occupancy; hospital and care facilities; dormitories; and other shared living quarters."
+   },
+   {
+    "field": "summary",
+    "doc_id": "D085",
+    "quoted_span": "The rent cap does not apply to residential buildings constructed after February 1, 1995"
+   }
+  ],
+  "notes": "I changed requires_unknown_facts to false. The ordinance covers ordinary residential rental property; its exemptions are carve-outs, not a limitation to an unidentifiable class of buildings. I expanded unverifiable_exemptions to include all listed exemptions an address lookup cannot reliably confirm: deed-restricted, hotel/transient, hospital/care, dormitories, and shared living quarters. I set supersedes_state_rule to null and removed the Civ. Code § 1946.2 comparison from the summary, because no document mentions the state rule or a binding finding of greater protectiveness. I left construction_cutoff null because the 15-year exemption is rolling, with its reference date and record unstated; it is captured in new_construction_exemption and min_building_age_years."
+ }
+}

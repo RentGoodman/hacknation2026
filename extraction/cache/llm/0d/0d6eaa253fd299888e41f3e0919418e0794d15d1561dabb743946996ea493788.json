@@ -1,0 +1,54 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "probe",
+ "subject": "Rockville, MD",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 17209,
+  "output_tokens": 617
+ },
+ "result": {
+  "verdicts": [
+   {
+    "category": "rent_increase_limits",
+    "verdict": "undetermined",
+    "doc_id": null,
+    "quoted_span": null,
+    "basis_citation": null,
+    "reason": "No Rockville document addresses rent increase limits. The only Rockville mention (DX06) concerns an algorithmic pricing ordinance and does not say whether a rent cap exists or is barred."
+   },
+   {
+    "category": "just_cause_eviction",
+    "verdict": "undetermined",
+    "doc_id": null,
+    "quoted_span": null,
+    "basis_citation": null,
+    "reason": "The retrieved just-cause passages cover California cities only. Nothing addresses Rockville, MD."
+   },
+   {
+    "category": "security_deposits",
+    "verdict": "undetermined",
+    "doc_id": null,
+    "quoted_span": null,
+    "basis_citation": null,
+    "reason": "The security deposit passages concern Massachusetts, New Jersey and Berkeley. No document addresses Rockville's or Maryland's deposit rules."
+   },
+   {
+    "category": "application_screening_fees",
+    "verdict": "undetermined",
+    "doc_id": null,
+    "quoted_span": null,
+    "basis_citation": null,
+    "reason": "The screening fee passages concern California and Massachusetts. Nothing establishes whether Rockville has or lacks such a rule."
+   },
+   {
+    "category": "screening_restrictions",
+    "verdict": "undetermined",
+    "doc_id": null,
+    "quoted_span": null,
+    "basis_citation": null,
+    "reason": "The screening restriction passages concern California and other jurisdictions. The Rockville mention in DX06 relates only to algorithmic rent coordination and does not settle screening restrictions."
+   }
+  ]
+ }
+}

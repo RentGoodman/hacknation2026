@@ -1,0 +1,38 @@
+{
+  "doc_id": "D081",
+  "source_url": "https://www.sf.gov/news/new-law-prohibits-algorithmic-devices-used-set-rents-san-francisco",
+  "model": "anthropic:claude-sonnet-5-5",
+  "query_date": "2026-10-01",
+  "chunks": 1,
+  "rules": [
+    {
+      "jurisdiction": "San Francisco, CA",
+      "level": "city",
+      "category": "algorithmic_rent_setting",
+      "status": "in_force",
+      "title": "Prohibition on algorithmic devices to set rents (Rent Ordinance § 37.10C)",
+      "requirement": "Prohibits the sale or use of algorithmic devices, such as software that uses algorithms to analyze nonpublic competitor rental data to recommend rents, to set rents or manage occupancy levels for residential units. A tenant or the City Attorney may bring a civil action for violations.",
+      "key_value": null,
+      "coverage_conditions": {
+        "summary": "Applies to residential units in San Francisco subject to the Rent Ordinance; no construction-date, unit-count or owner limits are stated in the text.",
+        "construction_date_basis": null,
+        "built_on_or_before": null,
+        "built_after": null,
+        "min_building_age_years": null,
+        "min_units": null,
+        "max_units": null,
+        "owner_conditions": null,
+        "other_conditions": null
+      },
+      "exemptions": null,
+      "interaction": null,
+      "effective_date": "2024-10-14",
+      "citation": "S.F. Rent Ordinance § 37.10C",
+      "quoted_span": "The law prohibits the sale or use of such algorithmic devices and allows a tenant or the City Attorney to bring a civil action if they believe an entity is in violation of the law.",
+      "confidence": 0.85,
+      "conflict_flag": false,
+      "conflict_note": null
+    }
+  ],
+  "rejected": []
+}

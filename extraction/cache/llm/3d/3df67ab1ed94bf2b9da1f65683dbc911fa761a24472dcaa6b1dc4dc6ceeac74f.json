@@ -1,0 +1,73 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "extract",
+ "subject": "DX15",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 1227,
+  "output_tokens": 1238
+ },
+ "result": {
+  "rules": [
+   {
+    "candidate_id": "c1",
+    "jurisdiction": "MA",
+    "category": "rent_increase_limits",
+    "status": "failed",
+    "title": "Massachusetts rent control ballot question struck by the Supreme Judicial Court",
+    "requirement": "A statewide initiative petition that would limit annual rent increases for residences was ruled ineligible for the November 2026 ballot by the Supreme Judicial Court. The court held that its exemption for units \"operated solely for ... religious ... purposes\" means the petition relates to religion, which the state Constitution bars from the ballot. The petition therefore cannot go forward this November.",
+    "key_value": null,
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "The article describes a cap on annual rent increases for residences, with exemptions for several unit types including units operated solely for religious purposes. It gives no further coverage details.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": null
+    },
+    "exemptions": "Several types of units, including ones \"operated solely for … religious … purposes\"; the article names no others, only mentioning secular exemptions.",
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "The measure never took effect. Proponents hinted at a possible new petition for the 2028 ballot.",
+    "effective_date_formula": null,
+    "citation": "Massachusetts rent control ballot initiative petition (2026)",
+    "citation_aliases": [
+     "2026 rent control ballot question",
+     "Massachusetts rent control initiative petition"
+    ],
+    "quoted_span": "The state’s Supreme Judicial Court ruled a ballot question seeking to bring rent control back to Massachusetts cannot go forward this November, because it includes a religious exemption.",
+    "confidence": 0.8,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "The article does not give the petition's number or formal citation, so the citation is descriptive. The cap formula is not stated.",
+    "source_notes": "Secondary source (WBUR news article, June 23, 2026). It also mentions a compromise rent control bill that supporters urged lawmakers to pass before July 1; the article does not say whether it passed and gives no details, so no rule is extracted for it."
+   }
+  ],
+  "no_rule_findings": [
+   {
+    "jurisdiction": "MA",
+    "category": "rent_increase_limits",
+    "finding": "Supporters urged lawmakers to pass a compromise rent control bill before July 1, but top lawmakers balked, partly because the Supreme Judicial Court had not yet ruled. The article reports no passage and gives no bill details.",
+    "kind": "other",
+    "quoted_span": "In recent weeks, rent control supporters pushed for a compromise bill, urging state lawmakers to pass it as legislation before July 1.",
+    "basis_citation": null
+   }
+  ],
+  "doc_summary": "A WBUR article from June 23, 2026 reports that the Massachusetts Supreme Judicial Court struck the statewide rent control ballot question from the November 2026 ballot. The court found that its exemption for religious-purpose units makes the petition one that relates to religion, which the state Constitution bars from the ballot. The article also mentions a compromise bill that supporters urged lawmakers to pass, and that proponents may try again in 2028."
+ }
+}

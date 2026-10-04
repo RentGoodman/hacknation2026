@@ -1,0 +1,102 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D041:c2",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 25758,
+  "output_tokens": 3947
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": {
+    "basis": "year_built",
+    "covered_if": "on_or_before",
+    "date": "1978-10-01"
+   },
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": false,
+   "unverifiable_exemptions": [
+    "Temporary exemptions filed with LAHD",
+    "Luxury exemption (landlord establishes the monthly rent charged on or before May 31, 1978)"
+   ],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": true,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Units subject to the RSO: rental properties first built on or before October 1, 1978, plus replacement units under LAMC 151.28. Non-RSO units fall under the separate JCO.",
+   "construction_date_basis": "first built (per LAHD)",
+   "built_on_or_before": "1978-10-01",
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": null,
+   "other_conditions": "Covered unit types include two or more single-family dwelling units on the same parcel, hotel, motel, rooming house or boarding house rooms occupied by the same tenant for more than 30 consecutive days, and mobile homes and recreational vehicles in mobile home parks."
+  },
+  "evidence": [
+   {
+    "field": "construction_cutoff",
+    "doc_id": "D041",
+    "quoted_span": "Generally, the RSO applies to rental properties that were first built on or before October 1, 1978"
+   },
+   {
+    "field": "built_on_or_before",
+    "doc_id": "D041",
+    "quoted_span": "Generally, the RSO applies to rental properties that were first built on or before October 1, 1978"
+   },
+   {
+    "field": "construction_date_basis",
+    "doc_id": "D041",
+    "quoted_span": "rental properties that were first built on or before October 1, 1978"
+   },
+   {
+    "field": "requires_unknown_facts",
+    "doc_id": "D041",
+    "quoted_span": "Generally, the RSO applies to rental properties that were first built on or before October 1, 1978"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D041",
+    "quoted_span": "first built on or before October 1, 1978, as well as replacement units under"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D041",
+    "quoted_span": "Even if your property is not covered under the Rent Stabilization Ordinance, you and your tenants have rights and responsibilities under the"
+   },
+   {
+    "field": "supersedes_state_rule",
+    "doc_id": "D040",
+    "quoted_span": "-Units that are already subject to the City’s RSO."
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D041",
+    "quoted_span": "Temporary exemptions"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D041",
+    "quoted_span": "A landlord can apply for an exemption from the RSO if they can establish the monthly rent charged on or before May 31, 1978"
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D041",
+    "quoted_span": "Two or more single-family dwelling units on the same parcel"
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D041",
+    "quoted_span": "Rooms in a hotel, motel, rooming house, or boarding house occupied by the same tenant for more than 30 consecutive days"
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D041",
+    "quoted_span": "and recreational vehicles in mobile home parks are also covered under the RSO."
+   }
+  ],
+  "notes": "Corrections made:\n- requires_unknown_facts set to false. The RSO covers ordinary rental buildings identified by construction date, which is expressed through construction_cutoff. Replacement units under LAMC 151.28 are an addition to coverage, not a reason the whole rule depends on unknown facts.\n- landlord_size_condition set to null. The Mom and Pop condition (building of four or fewer units, landlord owns no more than four units plus one single-family home, not used in the prior three years, relative owns no City residential property) only reduces the relocation amount for owner or relative move-in evictions. It does not limit which buildings are covered, so it was also removed from unverifiable_exemptions.\n- Tenant qualified/eligible/low-income status removed from other_conditions and unverifiable_exemptions. It describes tenants and sets payment amounts; it is not a building, unit or owner coverage fact.\n- Added the luxury exemption from D041 to unverifiable_exemptions.\n- other_conditions now lists the covered unit types.\n- supersedes_state_rule kept true. D040 lists units already subject to the City's RSO among the properties not covered under AB 1482. That passage appears in the rent-increase section, so precedence over Civ. Code 1946.2 just cause remains partly inferential."
+ }
+}

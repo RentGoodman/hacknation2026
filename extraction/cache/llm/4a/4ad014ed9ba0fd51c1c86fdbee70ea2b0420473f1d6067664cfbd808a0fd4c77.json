@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D083:c4",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 606,
+  "output_tokens": 233
+ },
+ "result": {
+  "en": "For Ellis Act evictions in San Francisco where the notice is served between 3/1/2026 and 2/28/2027, a landlord must pay each tenant $11,110.05, up to $33,330.13 per unit, plus $7,443.90 for each elderly (62+) or disabled tenant.",
+  "es": "En los desalojos bajo la Ley Ellis en San Francisco con aviso entregado entre el 3/1/2026 y el 2/28/2027, el propietario debe pagar a cada inquilino $11,110.05, hasta un máximo de $33,330.13 por unidad, más $7,443.90 por cada inquilino mayor (62+) o con discapacidad."
+ }
+}

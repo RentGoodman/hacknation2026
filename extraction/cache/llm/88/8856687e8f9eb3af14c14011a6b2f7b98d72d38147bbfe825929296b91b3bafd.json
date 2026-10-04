@@ -1,0 +1,84 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "cell",
+ "subject": "San Diego, CA|just_cause_eviction",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 4467,
+  "output_tokens": 2770
+ },
+ "result": {
+  "cell_status": "rules_found",
+  "no_rule_quote": null,
+  "no_rule_passage_id": null,
+  "basis_citation": null,
+  "rules": [
+   {
+    "jurisdiction": "San Diego, CA",
+    "category": "just_cause_eviction",
+    "status": "in_force",
+    "title": "San Diego Tenant Protection Ordinance: Just Cause Required for Termination of Tenancy",
+    "requirement": "A landlord may not terminate a tenancy without just cause, which is either at-fault or no-fault. At-fault causes include non-payment of rent, breach of a material lease term, nuisance and criminal activity. No-fault causes include owner or family move-in, withdrawal from the rental market, a government or court order requiring vacancy, and demolition or substantial remodel. For a curable lease violation, the landlord must first give written notice and an opportunity to cure, and may then serve a three-day notice to quit. The landlord must notify the Housing Commission of an at-fault termination within three business days of notifying the tenant. A no-fault termination requires written notice of 30 or 60 days and relocation assistance or a rent waiver. Relocation assistance is in addition to the deposit refund and is credited against other relocation assistance required by law. A landlord that re-offers the unit within five years must first offer it to the displaced tenant. Retaliation is prohibited.",
+    "key_value": "No-fault termination: 3 months' relocation assistance or waiver of the final 3 months' rent (per the City's 2021 summary); 30 or 60 days' written notice; at-fault termination reported to the Commission within 3 business days; 5-year right of first offer after a no-fault eviction.",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": {
+      "basis": "certificate_of_occupancy",
+      "covered_if": "before",
+      "date": "rolling 15 years before the termination"
+     },
+     "new_construction_exemption": {
+      "years": 15,
+      "basis": "certificate of occupancy issued within the previous 15 years (mobilehomes excepted)",
+      "requires_owner_filing": false
+     },
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": false,
+     "unverifiable_exemptions": [
+      "deed-restricted affordable housing",
+      "owner-owned condominium or single-family home exempt only if the tenant was given written notice of the exemption",
+      "hotel and transient occupancy",
+      "hospital and care facilities",
+      "dormitories"
+     ],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": "Individually owned condominiums and similar units are exempt only if the owner is not a corporation, REIT or LLC with a corporate member, and the tenant was given written notice of the exemption.",
+     "summary": "Residential rental units in San Diego, except housing with a certificate of occupancy issued within the previous 15 years, deed-restricted affordable housing, transient and institutional housing, and owner-owned units where the tenant was given an exemption notice.",
+     "construction_date_basis": "certificate of occupancy within the previous 15 years",
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": 15,
+     "owner_conditions": "Exemption for individually owned units applies only if the owner is not a corporation, REIT or LLC with a corporate member, and written notice of the exemption was given in the lease.",
+     "other_conditions": null
+    },
+    "exemptions": "Housing issued a certificate of occupancy within the previous 15 years (except mobilehomes); deed-restricted affordable housing; hotel and transient occupancy; hospital and care facilities; dormitories; individually owned units where the tenant was given written exemption notice; mobilehome park management.",
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": "2023-06-24",
+    "enacted_date": "2023-05-25",
+    "sunset_date": null,
+    "effective_date_note": "The code text shows the 2023 amendment (O-21647 N.S.) effective 6-24-2023. The City's 2021 summary describes the original Just Cause Eviction Ordinance, which applied after 30 days from adoption (date not given in the passages). The headline date used is that of the 2023 amendment.",
+    "effective_date_formula": null,
+    "citation": "S.D. Mun. Code § 98.0704",
+    "citation_aliases": [
+     "S.D. Mun. Code ch. 9, art. 8, div. 7",
+     "S.D. Mun. Code §§ 98.0701 et seq.",
+     "S.D. Mun. Code § 98.0706",
+     "Ord. O-21647 N.S.",
+     "Tenant Protection Ordinance",
+     "Just Cause Eviction Ordinance"
+    ],
+    "quoted_span": "A landlord shall not terminate a tenancy without just cause.",
+    "confidence": 0.8,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "The relocation amount comes from the City's 2021 summary (D085). The 2023 code text on relocation was only partly retrieved, and the Legal Aid fact sheet says the ordinance requires greater relocation assistance than the state. Verify the current amount against the code. Passages from Cal. Civ. Code § 1946.2 and the Los Angeles bulletin were not used because they are not San Diego law.",
+    "source_notes": "Mainly drawn from the official San Diego Municipal Code excerpt (D073), supplemented by the City's 2021 summary (D085) and the Legal Aid Society fact sheet (DX17, secondary).",
+    "passage_id": "p2"
+   }
+  ]
+ }
+}

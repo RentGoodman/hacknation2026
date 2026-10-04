@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D067:c3",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 59740,
+  "output_tokens": 782
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "Foreclosure alone is not grounds for eviction in New Jersey.",
+    "note": "The requirement summary tracks the Foreclosure section closely: 90-day notice to quit, lease running past 90 days, English/Spanish notice within 10 business days, door posting plus certified and regular mail, common-area posting for more than 10 units, creditor notice under the court rules, NOTICE TO TENANTS with monetary offers, written acceptance with five-day review, and the pressure-tactic list."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "the landlord must provide the tenant with a 90 -day notice to qui t when the foreclosed property has been purchased by a buyer who wants to personally occupy it as his or her primary residence",
+    "note": "The 10-business-day English/Spanish notice and the five-day review period are also in the document."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The rule's effective date is empty, and the guide states no effective date for the Foreclosure Fairness Act provisions."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "Any person acquiring a foreclosed property containing one or more residential rental units must provide notices to the tenants in English and Spanish, within 10 business days after the sale",
+    "note": "The guide presents these as current requirements, with no mention of repeal or a sunset, so in_force is consistent with it."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "Month-\nto-month tenants and two- and three-family owner-occupied units are not exempt from the 90-day notice requirements.",
+    "note": "min_units=1 is backed by 'one or more residential rental units'. The creditor and acquirer duties are described in the document. The document says nothing contradicting the other coverage fields, which are empty."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "(N.J.S.A. 2A:50-70(c)2)",
+    "note": "The document cites 2A:50-70(c)2 for common-area posting, 2A:50-69 et seq. for the notices and the Foreclosure Fairness Act, and 2A:50-71(b) for pressure tactics. The aliases are supported. The 90-day notice rests on case law, as the review note says."
+   }
+  ]
+ }
+}

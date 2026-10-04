@@ -1,0 +1,66 @@
+{
+  "doc_id": "D010",
+  "source_url": "https://drive.google.com/file/d/1j4U3fDtmnYuwcUWhx5BMUcXc1bnKT8Ku/view?usp=sharing",
+  "model": "anthropic:claude-sonnet-5-5",
+  "query_date": "2026-10-01",
+  "chunks": 1,
+  "rules": [
+    {
+      "jurisdiction": "Boston, MA",
+      "level": "city",
+      "category": "screening_restrictions",
+      "status": "in_force",
+      "title": "Boston Fair Chance Tenant Selection Policy – criminal history",
+      "requirement": "Covered housing providers may not impose a blanket denial of housing based on arrests or convictions and must assess applicants case by case. They may not consider non-conviction arrests, convictions subject to judicial relief, juvenile records, or convictions more than 5 years old when determining eligibility or considering eviction.",
+      "key_value": "No blanket bans; excludes arrests without conviction, judicially relieved convictions, juvenile records, and convictions over 5 years old",
+      "coverage_conditions": {
+        "summary": "Housing providers receiving DND funding and/or land, or with income-restricted units created under the BPDA Inclusionary Development Policy.",
+        "construction_date_basis": null,
+        "built_on_or_before": null,
+        "built_after": null,
+        "min_building_age_years": null,
+        "min_units": null,
+        "max_units": null,
+        "owner_conditions": "Applies to housing providers receiving DND funding and/or land, or with income-restricted units under the BPDA Inclusionary Development Policy.",
+        "other_conditions": "Also applied to the Office of Fair Housing and Equity Affirmative Marketing Program."
+      },
+      "exemptions": "Does not apply where there is a direct relationship between a conviction and the housing sought and/or unreasonable risk of substantial harm to others' safety, or to current criminal behavior. Federal or state law imposing a conflicting criminal history requirement preempts the policy.",
+      "interaction": "Federal or state law imposing a conflicting criminal history requirement preempts this policy.",
+      "effective_date": "2017-02",
+      "citation": "Boston Fair Chance Tenant Selection Policy (DND, February 2017)",
+      "quoted_span": "will not impose a blanket policy that denies \nhousing to anyone with arrests and or convictions. Housing providers will consider applicants on \na case-by-case basis.",
+      "confidence": 0.8,
+      "conflict_flag": false,
+      "conflict_note": null
+    },
+    {
+      "jurisdiction": "Boston, MA",
+      "level": "city",
+      "category": "screening_restrictions",
+      "status": "in_force",
+      "title": "Boston Fair Chance Tenant Selection Policy – credit score and credit history",
+      "requirement": "Agents agree not to use an applicant's credit score to approve or deny applications. Credit history may only be used in lieu of rental history when rental history is unavailable, and lack of credit history is not sufficient justification to reject an applicant.",
+      "key_value": "No use of credit score",
+      "coverage_conditions": {
+        "summary": "Housing providers receiving DND funding and/or land, or with income-restricted units created under the BPDA Inclusionary Development Policy.",
+        "construction_date_basis": null,
+        "built_on_or_before": null,
+        "built_after": null,
+        "min_building_age_years": null,
+        "min_units": null,
+        "max_units": null,
+        "owner_conditions": "Applies to housing providers receiving DND funding and/or land, or with income-restricted units under the BPDA Inclusionary Development Policy.",
+        "other_conditions": null
+      },
+      "exemptions": null,
+      "interaction": null,
+      "effective_date": "2017-02",
+      "citation": "Boston Fair Chance Tenant Selection Policy (DND, February 2017)",
+      "quoted_span": "The agent agrees not to use the applicant credit score to approve or deny housing    \napplications.",
+      "confidence": 0.8,
+      "conflict_flag": false,
+      "conflict_note": null
+    }
+  ],
+  "rejected": []
+}

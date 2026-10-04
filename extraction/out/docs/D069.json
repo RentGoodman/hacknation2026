@@ -1,0 +1,38 @@
+{
+  "doc_id": "D069",
+  "source_url": "https://pub.njleg.state.nj.us/Bills/2026/AL26/43_.HTM",
+  "model": "anthropic:claude-sonnet-5-5",
+  "query_date": "2026-10-01",
+  "chunks": 1,
+  "rules": [
+    {
+      "jurisdiction": "NJ",
+      "level": "state",
+      "category": "algorithmic_rent_setting",
+      "status": "not_yet_effective",
+      "title": "Forbidding the Algorithmic Inflation of Rent (FAIR) Act",
+      "requirement": "Makes it an antitrust violation for rental property owners to pay for or use a coordinator's services, for anyone to perform a coordinating function with algorithmic pricing tools, and for two or more persons to engage in or facilitate parallel pricing coordination of rents, material lease terms, or occupancy levels.",
+      "key_value": null,
+      "coverage_conditions": {
+        "summary": "Covers rental property owners, coordinators (operators of algorithmic revenue management software or algorithmic devices performing a coordinating function) and other persons involved with residential dwelling units in NJ. Excludes inpatient medical care, licensed long-term care, and detention or correctional facilities.",
+        "construction_date_basis": null,
+        "built_on_or_before": null,
+        "built_after": null,
+        "min_building_age_years": null,
+        "min_units": null,
+        "max_units": null,
+        "owner_conditions": "Applies to any rental property owner owning one or more rental residential dwelling units; a person with a controlling interest in an entity that owns a unit is deemed a single owner with that entity.",
+        "other_conditions": "Government entities setting or limiting rents through affordability controls are not coordinators. Research, statistical analysis, or testing uses, free public rent estimates, and equal-terms brokerage databases that do not set or recommend prices are not a coordinating function."
+      },
+      "exemptions": "Government entities setting or limiting rents via affordability controls; research/statistical/testing use not feeding pricing; free public rent estimates; real estate brokerage databases that do not set or recommend rents; spreadsheets without AI that need human analysis and databases that only query unprocessed data are not algorithmic devices; inpatient medical care, licensed long-term care, and detention/correctional facilities are not residential dwelling units.",
+      "interaction": "Municipalities are prohibited from enacting ordinances that conflict with the act, except ordinances explicitly authorized or required by other law. The act is in addition to the New Jersey Antitrust Act and does not limit its sections 6 through 17.",
+      "effective_date": "2027-07-01",
+      "citation": "P.L. 2026, c.43, § 4 (C.56:9-20 to 56:9-26)",
+      "quoted_span": "any person to perform a coordinating function.",
+      "confidence": 0.85,
+      "conflict_flag": false,
+      "conflict_note": null
+    }
+  ],
+  "rejected": []
+}

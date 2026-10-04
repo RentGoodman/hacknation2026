@@ -1,0 +1,66 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "cell",
+ "subject": "NJ|security_deposits",
+ "prompt_version": "v10",
+ "usage": {},
+ "result": {
+  "cell_status": "rules_found",
+  "no_rule_quote": null,
+  "no_rule_passage_id": null,
+  "basis_citation": null,
+  "rules": [
+   {
+    "jurisdiction": "NJ",
+    "category": "security_deposits",
+    "status": "in_force",
+    "title": "New Jersey Security Deposit Law",
+    "requirement": "A landlord may not collect a security deposit of more than one and one-half times one month's rent, and may collect less. Any yearly increase in the deposit may not exceed 10% of the current deposit. A pet deposit counts toward the cap when combined with the regular deposit. Prepaid funds held to secure future rent, including last month's rent, count as part of the deposit. The landlord may require the deposit plus the first month's rent at the start of the lease. The deposit stays the tenant's property and is held in trust. It must not be commingled with the landlord's assets. It must be kept in an insured, interest-bearing account at a New Jersey bank or savings and loan, or, for landlords with 10 or more units, in an insured money market fund. The deposit plus interest, less permitted deductions, must be returned within 30 days after the tenancy ends. Return must be by personal delivery or registered or certified mail. Any deductions must be itemized and sent by registered or certified mail within the same 30 days. Deductions may cover damage beyond normal wear and tear and other money due under the lease. No deductions may be made from the deposit of a tenant who remains in possession. If the landlord fails to return the deposit or wrongly deducts, the tenant may sue for double the deposit.",
+    "key_value": "Max 1.5 months' rent; annual increase max 10% of current deposit; return with interest within 30 days of tenancy end; itemized deductions by registered/certified mail; double damages for wrongful retention",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Statewide security deposit rules for landlords; the passages state no unit-count, construction-date or owner-occupancy limits.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": null
+    },
+    "exemptions": null,
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": null,
+    "effective_date_formula": null,
+    "citation": "N.J.S.A. 46:8-21.2",
+    "citation_aliases": [
+     "N.J.S.A. 46:8-19 et seq.",
+     "N.J.S.A. 46:8-21.1",
+     "N.J.S.A. 46:8-19.1",
+     "N.J.S.A. 46:8-26",
+     "Security Deposit Law"
+    ],
+    "quoted_span": "one and one-half times one month’s rent ( N.J.S.A. 46:8-21.2 ). It can be less. Any additional yearly security deposit increase may not exceed 10% of the current security deposit.",
+    "confidence": 0.85,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "The source is a state guidance document that describes the statute, so it is a secondary description. The effective date is not stated in the passages.",
+    "source_notes": "D067 describes New Jersey law. The other passages concern Massachusetts (D052), Berkeley and California (D007) and San Francisco (D083), so they were excluded as not state-level NJ law.",
+    "passage_id": "p1"
+   }
+  ]
+ }
+}

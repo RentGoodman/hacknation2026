@@ -1,0 +1,21 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "date_audit",
+ "subject": "D027:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 45671,
+  "output_tokens": 835
+ },
+ "result": {
+  "requirement_is_new": false,
+  "in_force_since": "2020-01-01",
+  "in_force_since_evidence": {
+   "doc_id": "DX07",
+   "quoted_span": "This change meant that, as of Jan. 1, 2020, state law prohibits landlords from refusing to participate in such programs."
+  },
+  "current_version_effective": "2024-01-01",
+  "prior_version_note": "FEHA already protected 'source of income' before 2020, but per CAA, SB 329 (2019) updated the definition to include government housing subsidy programs such as Section 8, effective Jan. 1, 2020. The documents do not say when source-of-income protection first applied, so the 2020 date covers the voucher-inclusive version only. Before SB 267 (Stats. 2023, ch. 776, effective Jan. 1, 2024), the documents do not show the subsidized-applicant credit-history alternative-evidence requirement.",
+  "effective_date_formula": null
+ }
+}

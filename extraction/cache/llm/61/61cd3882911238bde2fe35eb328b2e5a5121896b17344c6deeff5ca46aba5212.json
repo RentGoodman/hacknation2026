@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D058:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 701,
+  "output_tokens": 250
+ },
+ "result": {
+  "en": "In Massachusetts, a landlord's written notice to quit for nonpayment of rent must come with a state form that explains the notice is not an eviction, the tenant need not leave immediately, and only a court order can force a tenant out, and courts may not accept a nonpayment case for filing without proof the form was delivered.",
+  "es": "En Massachusetts, el aviso escrito de desalojo por falta de pago del alquiler debe entregarse con un formulario estatal que explica que el aviso no es un desalojo, que el inquilino no tiene que irse de inmediato y que solo una orden judicial puede obligarlo a salir, y los tribunales no pueden aceptar un caso por falta de pago sin prueba de que se entregó el formulario."
+ }
+}

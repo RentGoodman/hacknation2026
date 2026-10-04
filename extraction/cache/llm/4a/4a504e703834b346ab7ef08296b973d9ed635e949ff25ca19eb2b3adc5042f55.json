@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D001:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 1055,
+  "output_tokens": 269
+ },
+ "result": {
+  "en": "Berkeley law makes it illegal for landlords to use, or for anyone to provide them, a coordinated pricing algorithm built on non-public competitor data less than 90 days old to set rents or occupancy, and the City Attorney or a tenant can sue for civil penalties of up to $1,000 per violation, with each month and each unit counted separately.",
+  "es": "La ley de Berkeley prohíbe que los propietarios usen, o que alguien les proporcione, un algoritmo de precios coordinado basado en datos no públicos de competidores con menos de 90 días para fijar alquileres u ocupación, y la Fiscalía de la Ciudad o un inquilino pueden demandar por multas civiles de hasta $1,000 por infracción, contando cada mes y cada unidad por separado."
+ }
+}

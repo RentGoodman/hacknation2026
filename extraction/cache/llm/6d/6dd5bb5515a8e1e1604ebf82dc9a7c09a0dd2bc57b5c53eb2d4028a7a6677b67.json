@@ -1,0 +1,60 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "DX05:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 40929,
+  "output_tokens": 1922
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": null,
+   "unverifiable_exemptions": [],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Proposed ordinance. It would cover residential rental property in the City of San Diego, defined by reference to SDMC § 98.0702 as any dwelling or unit intended for human habitation, including any dwelling or unit in a mobilehome park. Landlord is also defined by reference to § 98.0702. No unit-count, construction-date or landlord-size limits are stated. The Division 7 exemptions in § 98.0703 are not incorporated.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": null,
+   "other_conditions": null
+  },
+  "evidence": [
+   {
+    "field": "summary",
+    "doc_id": "DX05",
+    "quoted_span": "Residential rental property has the same meaning as in San Diego Municipal"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D073",
+    "quoted_span": "Residential rental property means any dwelling or unit that is intended for human"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D073",
+    "quoted_span": "including any dwelling or unit in a mobilehome park."
+   },
+   {
+    "field": "summary",
+    "doc_id": "DX05",
+    "quoted_span": "Landlord has the same meaning as in San Diego Municipal Code section 98.0702,"
+   },
+   {
+    "field": "summary",
+    "doc_id": "DX05",
+    "quoted_span": "property in the City of San Diego."
+   }
+  ],
+  "notes": "Removed other_conditions. It described which software counts as an algorithmic device, which is regulated conduct rather than a building, unit or owner attribute. Rewrote the summary to describe property scope only and to support it verbatim. The § 98.0703 exemptions (for example, certificate of occupancy within 15 years, owner-occupied single-family) apply only to 'this Division' (Division 7). The proposed Division 11 borrows only the § 98.0702 definitions, so no construction or unit limits were carried over. The ordinance is a draft with a blank passage date."
+ }
+}

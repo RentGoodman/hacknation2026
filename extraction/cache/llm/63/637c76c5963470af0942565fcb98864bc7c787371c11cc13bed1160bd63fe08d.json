@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "DX19:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 602,
+  "output_tokens": 258
+ },
+ "result": {
+  "en": "Santa Ana bans selling, licensing, providing or using certain algorithmic rent-setting software that relies on nonpublic competitor data for residential rentals, and lets tenants sue for damages, injunctions or civil penalties of up to $1,000 per violation plus attorney's fees without having to prove intentional collusion.",
+  "es": "Santa Ana prohíbe vender, otorgar licencias, proporcionar o usar cierto software algorítmico de fijación de rentas que usa datos no públicos de competidores en viviendas de alquiler, y permite que los inquilinos demanden por daños, órdenes judiciales o sanciones civiles de hasta $1,000 por infracción más honorarios de abogado, sin tener que probar colusión intencional."
+ }
+}

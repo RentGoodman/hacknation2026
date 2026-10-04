@@ -1,0 +1,75 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D010:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 10828,
+  "output_tokens": 1935
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": true,
+   "unverifiable_exemptions": [],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": false,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Applies only to housing providers that receive DND funding or land, or that have income-restricted units created under the BPDA Inclusionary Development Policy. Also applied to the Office of Fair Housing and Equity Affirmative Marketing Program for publicly funded housing.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": "Housing provider receives DND funding and/or land, or has income-restricted units created under the BPDA Inclusionary Development Policy.",
+   "other_conditions": "Conflicting federal or state criminal-history requirements preempt the policy."
+  },
+  "evidence": [
+   {
+    "field": "requires_unknown_facts",
+    "doc_id": "D010",
+    "quoted_span": "Housing providers receiving Department of Neighborhood Development (DND) funding and/or"
+   },
+   {
+    "field": "requires_unknown_facts",
+    "doc_id": "D010",
+    "quoted_span": "land, or that have income restricted units created under the Boston Planning and Development"
+   },
+   {
+    "field": "owner_conditions",
+    "doc_id": "D010",
+    "quoted_span": "Housing providers receiving Department of Neighborhood Development (DND) funding and/or"
+   },
+   {
+    "field": "owner_conditions",
+    "doc_id": "D010",
+    "quoted_span": "land, or that have income restricted units created under the Boston Planning and Development"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D010",
+    "quoted_span": "land, or that have income restricted units created under the Boston Planning and Development"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D010",
+    "quoted_span": "This policy will also be applied to the Office of Fair Housing and Equity Affirmative Marketing"
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D010",
+    "quoted_span": "requirement of this guidance, the federal or state law preempts this policy."
+   },
+   {
+    "field": "supersedes_state_rule",
+    "doc_id": "D010",
+    "quoted_span": "requirement of this guidance, the federal or state law preempts this policy."
+   }
+  ],
+  "notes": "Removed landlord_size_condition. The staffing/size feasibility test applies only to whether an appeals process is offered, which is landlord conduct, not coverage. Emptied unverifiable_exemptions. The two listed items, DND funding/land and BPDA IDP units, are the rule's scope conditions rather than exemptions, and they are already captured by requires_unknown_facts=true and owner_conditions. The policy's actual exceptions concern the applicant or conviction (direct relationship, safety risk, current criminal behavior), not buildings. requires_unknown_facts stays true because assessor data cannot identify DND-funded or inclusionary units. supersedes_state_rule=false is supported by the statement that conflicting federal or state law preempts the policy."
+ }
+}

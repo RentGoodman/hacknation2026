@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D069:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 6065,
+  "output_tokens": 2051
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "It\nshall be unlawful and a violation of the “New Jersey Antitrust Act,” P.L.1970,\nc.73 (C.56:9-1 et seq.) for:",
+    "note": "Section 4(a)-(e) lists the prohibited conduct. Section 3 defines coordinating function. Section 5 preserves the Antitrust Act remedies. Section 7 requires the complaint location, section 8 allows rulemaking, and section 6(b) bars conflicting municipal ordinances. The rule's wording is a condensed paraphrase."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "This act shall take effect on the first day of\nthe twelfth month next following the date of enactment.",
+    "note": "The Antitrust Act violation and the ban on conflicting ordinances are stated directly. July 1, 2027 follows from this formula and the July 20, 2026 approval date."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "supported",
+    "quoted_span": "This act shall take effect on the first day of\nthe twelfth month next following the date of enactment.",
+    "note": "The document is approved July 20, 2026. The first day of the twelfth month following is July 1, 2027."
+   },
+   {
+    "field": "status",
+    "verdict": "partly_supported",
+    "quoted_span": "This act shall take effect on the first day of\nthe twelfth month next following the date of enactment.",
+    "note": "The document puts the effective date at July 1, 2027, in the future relative to enactment. It states no query date, so 'not yet effective' cannot be confirmed from the document alone."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "licensed long-term care, or detention or correctional facilities",
+    "note": "The definitions of residential dwelling unit and rental property owner (one or more units, with controlling-interest aggregation) match the summary. Section 6(b) supports the preemption flag. Section 6(a) says the act is in addition to the Antitrust Act, which supports supersedes_state_rule being false."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "2026, CHAPTER 43,",
+    "note": "The header reads P.L. 2026, Chapter 43, A3497 1R ACS, and gives C.56:9-20 to 56:9-26. The FAIR Act short title is in section 1."
+   }
+  ]
+ }
+}

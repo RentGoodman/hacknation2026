@@ -1,0 +1,82 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "consolidate",
+ "subject": "Newark, NJ",
+ "prompt_version": "v10",
+ "usage": {},
+ "result": {
+  "rules": [
+   {
+    "candidate_id": "DX21:c1",
+    "jurisdiction": "Newark, NJ",
+    "category": "rent_increase_limits",
+    "status": "in_force",
+    "title": "Newark Rent Control Ordinance: annual CPI-based rent increase cap (max 4%)",
+    "requirement": "When a lease expires, or a periodic tenant's lease ends, a landlord may not request or receive an increase above the percentage change in the CPI-U for New York-northern New Jersey-Long Island. The change is measured from the CPI 15 months before the month of the proposed increase to the CPI 3 months before that month. The increase may never exceed 4%. Rent may not rise by more than this amount in any 12 consecutive months, regardless of tenant turnover, a change of ownership or vacancy. The landlord must give the tenant and the Rent Regulation Officer written notice at least 30 days ahead. The notice states the proposed increase and percentage, the prior year's rent, and the allowable increase amount and percentage. No annual increase is allowed if the dwelling is not in substantial compliance with codes or the landlord has not registered under § 19:2-9.8. Tax, major new improvement and utilities surcharges, and hardship increases, are separate Board processes. Board-granted increases within 12 months may not total more than 25%. Excess rent must be rebated, retroactive up to two years from the date of the petition. Violations bring fines of $100 to $2,000 and/or up to 90 days in jail, and the Board may impose penalties of up to $500.",
+    "key_value": "Annual increase capped at CPI-U change (15 months to 3 months before the increase), maximum 4%; one increase per 12 months; 30 days' written notice to tenant and Rent Regulation Officer; Board-granted increases capped at 25% per year",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": {
+      "years": 30,
+      "basis": "Newly constructed multiple dwellings are exempt from limits on periodic increases for the shorter of the initial mortgage amortization period or 30 years after completion of construction, meaning the Certificate of Occupancy. The exemption is 30 years if there is no initial mortgage financing. The landlord must apply to the Rent Control Board for certification.",
+      "requires_owner_filing": true
+     },
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": false,
+     "unverifiable_exemptions": [
+      "Newly constructed multiple dwellings certified exempt by the Rent Control Board (shorter of initial mortgage amortization or 30 years)",
+      "Vacant dwellings exempted for 5 years after substantial rehabilitation (Board determination)",
+      "Units rehabilitated under federal/state Rental Rehabilitation Programs receiving Section 8 subsidies or vouchers, during program tenure",
+      "Units under a landlord contract with a governmental agency that regulates rent and supersedes city authority"
+     ],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Applies to all multiple dwellings in Newark, defined as any building with one or more apartments rented or offered for rent. Exempt: public housing, hotel or motel space rented day-to-day to transients, commercial space, certified new construction, rehabilitated vacant dwellings for 5 years, certain Section 8 rehabilitation units, and units under a governmental agency rent-regulation contract.",
+     "construction_date_basis": "certificate_of_occupancy",
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": "The chapter defines owner-occupied (four units or fewer, with the owner living in one) but does not exempt owner-occupied dwellings. Their only special treatment is that no inspection fee is charged for owner-occupied units.",
+     "other_conditions": "The landlord must register annually under § 19:2-9.8, and the dwelling must be in substantial code compliance, before the annual increase may be taken. Since the 2026 amendments, a unit may not be leased without registration and a certificate of habitability."
+    },
+    "exemptions": "Public housing; hotel or motel space rented day-to-day to transients; space rented for commercial use; newly constructed multiple dwellings for the shorter of initial mortgage amortization or 30 years from completion of construction, on Board certification; vacant dwellings substantially rehabilitated, for 5 years; Section 8 Rental Rehabilitation Program units; units under a governmental agency rent-regulation contract.",
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": "1985-09-04",
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "Rents were controlled from the chapter's first adoption on September 4, 1985, and the chapter continues in force from October 19, 1988 (§ 19:2-21). The chapter was recodified by Ord. 6 PSF-A(S) on 9-5-2017. § 19:2-3.1, which holds the CPI/4% cap, was last amended 9-18-2024 by Ord. No. 6PSF-I. The text does not say when the 4% ceiling itself first took effect.",
+    "effective_date_formula": null,
+    "citation": "Newark Rev. Gen. Ord. § 19:2-3.1",
+    "citation_aliases": [
+     "Newark Rev. Gen. Ord. ch. 19:2",
+     "Newark Rev. Gen. Ord. § 19:2-3.2",
+     "Newark Rev. Gen. Ord. § 19:2-22",
+     "Newark Rev. Gen. Ord. § 19:2-2.1",
+     "Newark Rev. Gen. Ord. § 19:2-18.1",
+     "Ord. 6PSF-I",
+     "Ord. 6 PSF-A(S)",
+     "Ord. 6PSF-B",
+     "Newark Rent Control Ordinance"
+    ],
+    "quoted_span": "At the expiration of a lease or at the termination of the lease of a periodic tenant, no landlord may request or receive an increase greater than the percentage increase in the Consumer Price Index (CPI) from the CPI 15 months prior to the month of the proposed rent increase to the CPI three months prior to the month of the proposed rent increase. In no case shall the allowable rent increase exceed 4%.",
+    "confidence": 0.92,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "§ 19:2-7.1 cross-references registration at 'subsection 19:1-10', which appears to be an erroneous cite for § 19:2-9.8. Related provisions in the same chapter are not separate records: retaliatory eviction (§ 19:2-14) and a 10% increase for substantially rehabilitated vacant units (§ 19:2-18.4). The State has no general rent cap, so this local cap is not in tension with a state rule.",
+    "source_notes": "Official Newark code text, published through Legistar (DX21). The date 'Saturday, October 3, 2026' at the top is the print or retrieval date, not an adoption date.",
+    "source_doc_id": "DX21",
+    "from_candidates": [
+     "DX21:c1"
+    ],
+    "also_supported_by": []
+   }
+  ],
+  "dropped_candidates": [],
+  "known_gaps": []
+ }
+}

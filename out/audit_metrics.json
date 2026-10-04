@@ -1,0 +1,39 @@
+{
+  "aggregate_unique_call_seconds": 69504.91,
+  "audit_rows": 5912,
+  "billing": {
+    "actual_api_usd": null,
+    "note": "The recorded extraction used the Claude subscription backend. audit.jsonl has no billed_usd field; no API-dollar amount is invented."
+  },
+  "cache_hit_rate": 0.7539,
+  "cache_hits": 4457,
+  "models": {
+    "claude-opus-5-5": {
+      "aggregate_seconds": 44333.07,
+      "calls": 788,
+      "input_tokens": 26900291,
+      "output_tokens": 1618808
+    },
+    "claude-sonnet-5-5": {
+      "aggregate_seconds": 25171.84,
+      "calls": 667,
+      "input_tokens": 3467333,
+      "output_tokens": 603993
+    }
+  },
+  "steps": {
+    "cell": 128,
+    "consolidate": 79,
+    "coverage_audit": 223,
+    "date_audit": 223,
+    "extract": 83,
+    "field_check": 230,
+    "plain": 226,
+    "probe": 33,
+    "qa": 223,
+    "resource": 7
+  },
+  "unique_input_tokens": 30367624,
+  "unique_model_calls": 1455,
+  "unique_output_tokens": 2222801
+}

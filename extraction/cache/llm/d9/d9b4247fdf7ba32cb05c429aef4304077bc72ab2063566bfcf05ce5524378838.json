@@ -1,0 +1,67 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "cell",
+ "subject": "NJ|application_screening_fees",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 10333,
+  "output_tokens": 2698
+ },
+ "result": {
+  "cell_status": "rules_found",
+  "no_rule_quote": null,
+  "no_rule_passage_id": null,
+  "basis_citation": null,
+  "rules": [
+   {
+    "applies_only_in": null,
+    "category": "application_screening_fees",
+    "citation": "N.J.S.A. 46:8-18.1",
+    "citation_aliases": [
+     "P.L.2025, c.405",
+     "A4899",
+     "C.46:8-18.1"
+    ],
+    "confidence": 0.8,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "coverage": {
+     "built_after": null,
+     "built_on_or_before": null,
+     "construction_cutoff": null,
+     "construction_date_basis": null,
+     "landlord_size_condition": null,
+     "max_units": null,
+     "may_preempt_local_rules": null,
+     "min_building_age_years": null,
+     "min_units": null,
+     "new_construction_exemption": null,
+     "other_conditions": null,
+     "owner_conditions": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "summary": "Applies to any landlord or agent requiring an application or similar fee to lease or sublease a residential rental property for dwelling purposes.",
+     "supersedes_state_rule": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null
+    },
+    "effective_date": null,
+    "effective_date_formula": null,
+    "effective_date_note": "The retrieved text does not state an effective date.",
+    "enacted_date": null,
+    "event_only": false,
+    "exemptions": null,
+    "jurisdiction": "NJ",
+    "key_value": "Application fee max $50; penalty up to $500 first offense, up to $750 second offense, up to $1,000 each subsequent offense",
+    "passage_id": "p9",
+    "quoted_span": "A landlord, or\nagent thereof, shall not require an application or other similar fee to apply\nto lease or sublease a residential rental property for dwelling purposes, which\nexceeds $50.",
+    "requirement": "A landlord or agent may not require an application or similar fee to apply to lease or sublease a residential rental property for dwelling purposes that exceeds $50. Violations carry civil penalties enforced by summary proceedings under the Penalty Enforcement Law of 1999 in the Superior Court, Special Civil Part.",
+    "review_note": "Effective date is not in the retrieved text; status is set to in_force as an assumption based on the chaptered law and the query date.",
+    "source_notes": null,
+    "status": "in_force",
+    "sunset_date": null,
+    "title": "Residential rental property application fee cap ($50)"
+   }
+  ]
+ }
+}

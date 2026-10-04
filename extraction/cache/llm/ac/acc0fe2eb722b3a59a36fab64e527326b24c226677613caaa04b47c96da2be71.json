@@ -1,0 +1,55 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D052:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 37485,
+  "output_tokens": 1254
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": null,
+   "unverifiable_exemptions": [],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Applies statewide to residential leases, tenancies at will and rentals, except leases, rentals, occupancies or tenancies of 100 days or less for a vacation or recreational purpose.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": null,
+   "other_conditions": "Excludes leases, rentals, occupancies or tenancies of 100 days or less for a vacation or recreational purpose (subsection 9)."
+  },
+  "evidence": [
+   {
+    "field": "other_conditions",
+    "doc_id": "D052",
+    "quoted_span": "The provisions of this section shall not apply to any lease, rental, occupancy or tenancy of one hundred days or less in duration which lease or rental is for a vacation or recreational purpose."
+   },
+   {
+    "field": "summary",
+    "doc_id": "D052",
+    "quoted_span": "No lease relating to residential real property"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D052",
+    "quoted_span": "within thirty days after the termination of occupancy under a tenancy-at-will or the end of the tenancy as specified in a valid written lease agreement"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D052",
+    "quoted_span": "The provisions of this section shall not apply to any lease, rental, occupancy or tenancy of one hundred days or less in duration which lease or rental is for a vacation or recreational purpose."
+   }
+  ],
+  "notes": "The original coverage is supported by D052. The vacation-rental exclusion was reworded slightly to match subsection (9), which covers leases, rentals, occupancies or tenancies. No unit-count, construction-date, owner-occupancy, landlord-size or preemption limits appear in § 15B, so those fields stay null. The c. 40P and Cella documents concern rent control, not this rule's coverage."
+ }
+}

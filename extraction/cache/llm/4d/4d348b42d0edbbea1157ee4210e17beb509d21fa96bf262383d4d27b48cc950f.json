@@ -1,0 +1,116 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D006:c2",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 22555,
+  "output_tokens": 3885
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": true,
+   "unverifiable_exemptions": [
+    "Golden Duplex: owner-occupied on Dec. 31, 1979 and currently owner-occupied",
+    "Owner shares kitchen or bath with the tenant and lived on the property when the tenancy started",
+    "Tenancy started after Nov. 7, 2018 on a property with an ADU where either unit is owner-occupied",
+    "University rental units such as dormitories",
+    "Nonprofit cooperatives"
+   ],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Just cause protection applies to units that are fully or partially covered by the Rent Ordinance, regardless of construction date. These include most pre-1980 multifamily units, new construction with a certificate of occupancy after June 1980, single-family homes, rooming houses, most condominiums and government-owned or -subsidized units. Only the exempt categories are excluded.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": "A Golden Duplex is exempt while an owner lives in one unit, provided the duplex was also owner-occupied on Dec. 31, 1979. The shared kitchen/bath exemption applies only if the landlord lived on the property at the start of the tenancy.",
+   "other_conditions": null
+  },
+  "evidence": [
+   {
+    "field": "requires_unknown_facts",
+    "doc_id": "D009",
+    "quoted_span": "This table is intended as a guide. Individual circumstances may differ."
+   },
+   {
+    "field": "summary",
+    "doc_id": "D006",
+    "quoted_span": "In Berkeley, tenants in units that are fully or partially covered by the Rent Ordinance cannot be evicted unless there is"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D009",
+    "quoted_span": "Most units in multifamily properties built before 1980** Fully Covered Yes Yes Yes Yes"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D009",
+    "quoted_span": "New construction: units that were built and received a Certificate of"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D009",
+    "quoted_span": "Rooming house: single-family homes with five or more rooms rented"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D009",
+    "quoted_span": "Most condominiums** Partially Covered Yes No Yes Yes"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D006",
+    "quoted_span": "Government-owned or -subsidized rental units become either fully or partially covered by the Rent Ordinance."
+   },
+   {
+    "field": "owner_conditions",
+    "doc_id": "D009",
+    "quoted_span": "“Golden Duplex”: duplex that was owner-occupied on December 31,"
+   },
+   {
+    "field": "owner_conditions",
+    "doc_id": "D009",
+    "quoted_span": "1979, and currently has an owner living in one of the units"
+   },
+   {
+    "field": "owner_conditions",
+    "doc_id": "D006",
+    "quoted_span": "Where the tenant shares a kitchen or bath facilities with the landlord, the unit will be exempt from the Rent Ordinance only if the landlord lived in a unit on the same property at the start of the tenancy."
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D009",
+    "quoted_span": "“Golden Duplex”: duplex that was owner-occupied on December 31,"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D006",
+    "quoted_span": "Where the tenant shares a kitchen or bath facilities with the landlord, the unit will be exempt from the Rent Ordinance only if the landlord lived in a unit on the same property at the start of the tenancy."
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D009",
+    "quoted_span": "Tenancies started after Nov 7, 2018, on properties where one unit is"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D009",
+    "quoted_span": "University rental units such as dormitories."
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D009",
+    "quoted_span": "Nonprofit Cooperative Exempt"
+   }
+  ],
+  "notes": "Several values were removed because no document supports them. supersedes_state_rule (true) is now null: no document mentions Cal. Civ. Code § 1946.2 or the relationship between Berkeley's ordinance and the state just-cause rule. other_conditions is now null: the § 1946.2(i) statement is unsupported, and the remark that qualifying households are undefined is a documentation gap, not a coverage condition. owner_occupied_exemption_max_units (2) is now null: the Golden Duplex exemption also requires owner occupancy on Dec. 31, 1979, so a general 2-unit owner-occupied exemption would overstate it; the condition is kept in owner_conditions instead. The summary was lightly reworded. D006 describes new construction as having a certificate of occupancy 'after 1980', while D009 says 'after June 1980'; the summary follows D009. construction_cutoff stays null because both pre-1980 and post-1980 units are covered for just cause."
+ }
+}

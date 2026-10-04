@@ -1,0 +1,21 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "date_audit",
+ "subject": "DX07:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 44917,
+  "output_tokens": 808
+ },
+ "result": {
+  "requirement_is_new": null,
+  "in_force_since": "2020-01-01",
+  "in_force_since_evidence": {
+   "doc_id": "DX07",
+   "quoted_span": "In 2019, California’s Civil Rights Council (formerly the Fair Employment and Housing Council) enacted regulations that took effect Jan. 1, 2020, which built on the HUD guidance and specifically address the use of criminal history information in housing decisions."
+  },
+  "current_version_effective": "2020-01-01",
+  "prior_version_note": null,
+  "effective_date_formula": null
+ }
+}

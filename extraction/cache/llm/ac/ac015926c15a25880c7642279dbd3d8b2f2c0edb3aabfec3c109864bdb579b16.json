@@ -1,0 +1,40 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "DX06:c7",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 5778,
+  "output_tokens": 1198
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": null,
+   "unverifiable_exemptions": [],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Citywide Providence ordinance on rent-setting algorithms in rental housing. The only captured source, a secondary law-firm alert, states no building, unit-count, construction-date, owner-occupancy or landlord-size limits. Coverage cannot be confirmed without the ordinance text.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": null,
+   "other_conditions": null
+  },
+  "evidence": [
+   {
+    "field": "summary",
+    "doc_id": "DX06",
+    "quoted_span": "Providence Code of Ordinances ch. 13, art. X, §§ 13-69–13-73 (effective May 2025) | Prohibits the use of rent-setting algorithms; the city expressly linked the measure to software such as RealPage"
+   }
+  ],
+  "notes": "No coverage limits appear in DX06 for Providence, so all structural fields stay null. The 16-or-more-units condition in the table belongs to Portland, OR, not Providence, and was not applied. requires_unknown_facts is left null because no text describes the covered class of buildings. The ordinance appears to reach ordinary rental housing, but this cannot be verified verbatim. The only Providence-specific application in the source is the enforcement action concerning 95 Lofts. Coverage needs verification against the official text of Providence Code §§ 13-69–13-73, including definitions and any exemptions."
+ }
+}

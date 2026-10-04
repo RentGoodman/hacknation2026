@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D045:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 484,
+  "output_tokens": 251
+ },
+ "result": {
+  "en": "H.5222 is a pending Massachusetts House bill, now in House Ways and Means, that aims to prevent algorithmic rent fixing in the rental housing market, but the available page has no bill text, so what it would cover, prohibit, or penalize and when it would take effect are unknown.",
+  "es": "H.5222 es un proyecto de ley pendiente de la Cámara de Massachusetts, ahora en el comité de Medios y Arbitrios de la Cámara, que busca prevenir la fijación algorítmica de alquileres en el mercado de vivienda de alquiler, pero la página disponible no incluye el texto, así que se desconoce qué cubriría, prohibiría o sancionaría y cuándo entraría en vigor."
+ }
+}

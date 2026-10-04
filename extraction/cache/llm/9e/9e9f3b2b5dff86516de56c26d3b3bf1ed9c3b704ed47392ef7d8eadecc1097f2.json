@@ -1,0 +1,66 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "extract",
+ "subject": "DX05",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 1960,
+  "output_tokens": 1329
+ },
+ "result": {
+  "rules": [
+   {
+    "candidate_id": "c1",
+    "jurisdiction": "San Diego, CA",
+    "category": "algorithmic_rent_setting",
+    "status": "in_force",
+    "title": "San Diego Prohibition of Anti-Competitive Automated Rent Price-Fixing",
+    "requirement": "It is unlawful to sell, license or otherwise provide an algorithmic device (software that uses nonpublic competitor data of two or more landlords to recommend rental rates or occupancy levels) to a landlord, and unlawful for a landlord to use such a device to set rental rates or occupancy levels for residential rental property. Each month of continuing violation, and each property where a device is used, is a separate violation. Tenants may sue for injunctive relief, damages or civil penalties, with prevailing-party attorney's fees, and the City may enforce under Chapter 1, Article 2 with civil and criminal remedies.",
+    "key_value": "Civil penalties up to $1,000 per violation; each month and each property is a separate violation; prevailing party recovers costs and reasonable attorney's fees",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Applies to sellers/licensors of algorithmic devices and to landlords of residential rental property in the City of San Diego. Software that only publishes reports from aggregated nonpublic data over 90 days old or public data, software used to set rents under affordable housing program guidelines, and appraisal software that does not recommend rents are excluded from the definition of algorithmic device.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": "Excluded software: historical aggregated reports (data more than 90 days old) or public-information reports that do not recommend future rates; affordable housing program rent/income limit software; appraisal software that does not recommend rates at runtime."
+    },
+    "exemptions": "Definition of algorithmic device excludes (a) report publishing software using aggregated historical nonpublic data more than 90 days old or public information and not recommending rates, (b) software used to set rents or income limits under affordable housing program guidelines, (c) appraisal software that does not recommend rates during runtime.",
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": "2025-06-21",
+    "enacted_date": "2025-05-22",
+    "sunset_date": null,
+    "effective_date_note": null,
+    "effective_date_formula": null,
+    "citation": "San Diego Mun. Code § 98.1103",
+    "citation_aliases": [
+     "San Diego Mun. Code ch. 9, art. 8, div. 11",
+     "San Diego Mun. Code §§ 98.1101-98.1104",
+     "O-21955 N.S.",
+     "Prohibition of Anti-Competitive Automated Rent Price-Fixing"
+    ],
+    "quoted_span": "It is unlawful for a landlord to use an algorithmic device to set rental rates or occupancy levels for residential rental property.",
+    "confidence": 0.97,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": null,
+    "source_notes": null
+   }
+  ],
+  "no_rule_findings": [],
+  "doc_summary": "San Diego Municipal Code Chapter 9, Article 8, Division 11 (O-21955 N.S., added 5-22-2025, effective 6-21-2025) bans selling, licensing or providing algorithmic rent-setting devices that use nonpublic competitor data, and bans landlords from using them. It defines the term with exclusions, treats each month and each property as a separate violation, and provides tenant remedies (injunction, damages, civil penalties up to $1,000 per violation, attorney's fees) plus City enforcement."
+ }
+}

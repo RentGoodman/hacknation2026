@@ -1,0 +1,21 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "date_audit",
+ "subject": "D024:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 46937,
+  "output_tokens": 882
+ },
+ "result": {
+  "requirement_is_new": false,
+  "in_force_since": "2019-03-15",
+  "in_force_since_evidence": {
+   "doc_id": "D024",
+   "quoted_span": "(h) (1) This section shall apply to all rent increases subject to subdivision (a) occurring on or after March 15, 2019, except as provided in subdivision (i)."
+  },
+  "current_version_effective": "2024-04-01",
+  "prior_version_note": "The current text was 'Repealed (in Sec. 3) and added by Stats. 2023, Ch. 290, Sec. 4 (SB 567)'. It took effect January 1, 2024 and became operative April 1, 2024, so an earlier version of § 1947.12 existed. The documents do not say how that earlier version's requirements differed. The carried-over transition provisions show the cap applied to rent increases on or after March 15, 2019. Excess increases made between March 15, 2019 and January 1, 2020 were reset to the March 15, 2019 rent plus the maximum allowed increase. For mobilehome tenancies, the cap applied to increases on or after February 18, 2021.",
+  "effective_date_formula": null
+ }
+}

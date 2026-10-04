@@ -1,0 +1,18 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "date_audit",
+ "subject": "D052:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 38013,
+  "output_tokens": 804
+ },
+ "result": {
+  "requirement_is_new": false,
+  "in_force_since": null,
+  "in_force_since_evidence": null,
+  "current_version_effective": "2025-08-01",
+  "prior_version_note": "Before August 1, 2025, the introductory paragraph of clause (1)(b) read: \"At or prior to the commencement of any tenancy, no lessor may require a tenant or prospective tenant to pay any amount in excess of the following.\" The current text adds \"or agent of the lessor\" and \"to the lessor or to an agent of the lessor\" (St. 2025, c. 9, §§ 54-55, effective August 1, 2025 per § 136). The security deposit cap of the first month's rent applied under the earlier version. The documents do not clearly show whether the fee-in-lieu proviso in (iii) came from the same amendment. A secondary source (DX13) says only that \"The law has been in effect since the 1970s,\" with no exact original effective date, so in_force_since is left null.",
+  "effective_date_formula": null
+ }
+}

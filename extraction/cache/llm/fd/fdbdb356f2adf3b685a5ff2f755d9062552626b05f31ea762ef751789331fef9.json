@@ -1,0 +1,316 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "consolidate",
+ "subject": "Boston, MA",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 32156,
+  "output_tokens": 9292
+ },
+ "result": {
+  "rules": [
+   {
+    "candidate_id": "D014:c1",
+    "jurisdiction": "Boston, MA",
+    "category": "just_cause_eviction",
+    "status": "in_force",
+    "title": "Housing Stability Notification Act (Notice of Tenants' Rights and Resources with Notice to Quit)",
+    "requirement": "Any landlord or foreclosing owner ending a tenancy or post-foreclosure occupancy of a unit in Boston must:\n- give the tenant (or former owner) a Notice of Tenants' Rights and Resources at the same time as the Notice to Quit or the notice of lease non-renewal or expiration;\n- send the City a copy of the Notice to Quit or Notice of Non-renewal of Lease with a Certificate of Compliance/Service, and the tenant's contact information. The City page says this is done through the City's online portal; the FAQ gives the Office of Housing Stability as the recipient.\n\nThe requirements cannot be waived, and lease terms that try to waive them are void. The Office of Fair Housing and Equity investigates violations and Inspectional Services enforces them: a warning for the first offense, then $300 per day. Failure to submit to the City portal may bring a fine of up to $300 per day. A violation does not halt the eviction process.",
+    "key_value": "Rights notice served with Notice to Quit or non-renewal; copy to City/Office of Housing Stability; 1st offense warning, 2nd and later $300 per day; non-waivable; does not halt eviction",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": false,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": "All landlords and foreclosing owners, regardless of size",
+     "summary": "Applies to all landlords and foreclosing owners intending to end a tenancy or post-foreclosure occupancy of a unit in Boston. Only residences in hospitals, skilled nursing or health facilities, and non-profit short-term substance-abuse treatment facilities are exempt. Complements the statewide nonpayment notice-to-quit form (G.L. c. 186, § 31).",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": "Exempt: residences in any hospital, skilled nursing facility or health facility; residences in a non-profit facility whose primary purpose is short-term treatment, assistance or therapy for alcohol, drug or other substance abuse."
+    },
+    "exemptions": "Residences in any hospital, skilled nursing facility or health facility; residences in a non-profit facility whose primary purpose is providing short-term treatment, assistance or therapy for alcohol, drug, or other substance abuse.",
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": "2020-11-06",
+    "enacted_date": "2020-10",
+    "sunset_date": null,
+    "effective_date_note": "The official FAQ states the ordinance was passed in October 2020; no exact day is given. It also states: 'The HSNA becomes effective on November 6, 2020.'",
+    "effective_date_formula": null,
+    "citation": "Boston City Code § 10-11.7",
+    "citation_aliases": [
+     "Boston City Code ch. 10-11",
+     "Housing Stability Notification Act",
+     "HSNA"
+    ],
+    "quoted_span": "The HSNA requires that landlords give this Notice of Tenants’ Rights and Resources\nto tenants when the landlord starts the eviction process, or when the landlord\ndecides to not offer the tenant a renewal of their lease agreement.",
+    "confidence": 0.85,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "This is a notice requirement, not a just-cause list. The documents show no Boston list of allowed causes and no relocation assistance. The ordinance text itself is not captured; the section number comes from the enforcement table in the official FAQ and web page.",
+    "source_notes": "Both D014 (official tenant FAQ) and D013 (official City page) describe the same requirements and the same penalty table; they are consistent. Only D014 gives the effective date.",
+    "source_doc_id": "D014",
+    "from_candidates": [
+     "D013:c1",
+     "D014:c1",
+     "cell:Boston, MA:just_cause_eviction:1"
+    ],
+    "also_supported_by": [
+     {
+      "doc_id": "D013",
+      "quoted_span": "The Housing Stability Notification Act requires\nALL LANDLORDS\nplanning to end a tenancy agreement to provide the tenant with a Notice of Tenants’ Rights and Resources."
+     },
+     {
+      "doc_id": "D013",
+      "quoted_span": "Failure to submit this information may result in a fine up to $300 per day."
+     }
+    ]
+   },
+   {
+    "candidate_id": "D012:c1",
+    "jurisdiction": "Boston, MA",
+    "category": "screening_restrictions",
+    "status": "in_force",
+    "title": "Boston fair housing protection for renters using rental assistance (source of income)",
+    "requirement": "In Boston it is illegal to discriminate when renting housing based on rental assistance. Rental assistance includes Section 8 vouchers, social security disability vouchers and veterans vouchers. The City gives a landlord saying they do not accept rental assistance as an example of housing discrimination. Complaints go to the Boston Fair Housing Commission (Office of Fair Housing and Equity).",
+    "key_value": "Refusing rental assistance (Section 8, social security disability or veterans vouchers) is prohibited discrimination",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": false,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Applies to renting, buying, selling or financing housing in the City of Boston. The page states no unit, size or age limits. It complements the statewide ban in G.L. c. 151B, § 4(10).",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": null
+    },
+    "exemptions": null,
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "The page gives no enactment or effective date.",
+    "effective_date_formula": null,
+    "citation": "Boston Fair Housing Regulations",
+    "citation_aliases": [
+     "Boston Fair Housing Commission regulations",
+     "Boston fair housing law"
+    ],
+    "quoted_span": "The landlord tells you they don't accept rental assistance. This includes Section\n8 vouchers, social security disability vouchers, and veterans vouchers.",
+    "confidence": 0.5,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "The page is a general overview and names no ordinance or City Code section. The citation is the page title and must be replaced with the ordinance section once its text is captured (see known_gaps). Penalties and exemptions are not stated.",
+    "source_notes": "Official City web page summarizing the Commission's enforcement of local, state and federal fair housing law.",
+    "source_doc_id": "D012",
+    "from_candidates": [
+     "D012:c1"
+    ],
+    "also_supported_by": []
+   },
+   {
+    "candidate_id": "D010:c1",
+    "jurisdiction": "Boston, MA",
+    "category": "screening_restrictions",
+    "status": "in_force",
+    "title": "Boston Fair Chance Tenant Selection Policy (DND-funded and inclusionary housing)",
+    "requirement": "The policy applies to housing providers that receive DND funding or land, or that have income-restricted units created under the BPDA Inclusionary Development Policy. These providers may not impose a blanket denial based on arrests or convictions and must assess applicants case by case.\n\nWhen deciding eligibility or considering eviction, providers may not consider:\n- arrests that did not result in a conviction;\n- convictions subject to judicial relief, such as expungement, sealing or certificates of relief;\n- juvenile records;\n- convictions more than 5 years old.\n\nThese limits do not apply where there is a direct relationship between the conviction and the housing sought, an unreasonable risk of substantial harm to others' safety, or current criminal behavior.\n\nCredit rules:\n- Providers may not use credit scores to approve or deny applications.\n- Credit history may be used only in place of rental history when rental history is unavailable.\n- Lack of credit history alone is not grounds for rejection.\n\nProviders should weigh mitigating factors and, where feasible, offer an appeals process. Conflicting federal or state criminal-history requirements preempt the policy.",
+    "key_value": "No blanket criminal-record ban; no use of non-conviction arrests, relieved convictions, juvenile records or convictions over 5 years old; no credit-score decisions",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": true,
+     "unverifiable_exemptions": [
+      "Whether the housing provider received DND funding or land",
+      "Whether the unit is an income-restricted unit created under the BPDA Inclusionary Development Policy"
+     ],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": false,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": "Feasibility of an appeals process depends on the provider's staffing and size",
+     "summary": "Applies only to housing providers with DND funding or land, or with BPDA Inclusionary Development Policy income-restricted units. Also applied to the Office of Fair Housing and Equity Affirmative Marketing Program for publicly funded housing.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": "Conflicting federal or state criminal-history requirements preempt the policy."
+    },
+    "exemptions": "Arrest and conviction limits do not apply where there is a direct relationship between a conviction and the housing sought, an unreasonable risk of substantial harm to the safety of others, or current criminal behavior. Conflicting federal or state criminal-history requirements preempt the policy.",
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "The document is dated February 2017 but states no effective date.",
+    "effective_date_formula": null,
+    "citation": "Boston Fair Chance Tenant Selection Policy (DND, Feb. 2017)",
+    "citation_aliases": [
+     "Boston Fair Chance Tenant Selection Policy",
+     "DND Fair Chance Tenant Selection Policy"
+    ],
+    "quoted_span": "Housing providers receiving Department of Neighborhood Development (DND) funding and/or \nland, or that have income restricted units created under the Boston Planning and Development \nAgency (BPDA) Inclusionary Development Policy will not impose a blanket policy that denies \nhousing to anyone with arrests and or convictions.",
+    "confidence": 0.7,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "This is an administrative policy that providers agree to as a condition of City funding or inclusionary units, not a citywide ordinance. Several provisions are only encouragements ('should', 'strongly encouraged'). Status in_force is inferred because no repeal or sunset is shown.",
+    "source_notes": "The policy's credit and eviction provisions are folded into this single screening_restrictions record.",
+    "source_doc_id": "D010",
+    "from_candidates": [
+     "D010:c1"
+    ],
+    "also_supported_by": []
+   },
+   {
+    "candidate_id": "D011:c1",
+    "jurisdiction": "Boston, MA",
+    "category": "rent_increase_limits",
+    "status": "failed",
+    "title": "H.3744 – Boston rent stabilization home-rule petition (not enacted)",
+    "requirement": "This home-rule petition, approved by the mayor and city council, asked the Legislature to authorize the City of Boston to implement rent stabilization. The bill text is not captured, so no cap or formula is known. On 9/9/2024 the bill was accompanied a study order (H.5035), and no enactment is shown before the 193rd General Court (2023–2024) ended. Boston has no rent stabilization in force from this measure.",
+    "key_value": null,
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Not enacted; coverage unknown because the bill text is not captured. The statewide ban on local rent control (G.L. c. 40P) remains the governing rule for Boston.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": null
+    },
+    "exemptions": null,
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "Never enacted. The last action was 9/9/2024: accompanied a study order, H.5035.",
+    "effective_date_formula": null,
+    "citation": "H.3744",
+    "citation_aliases": [
+     "Bill H.3744",
+     "193rd General Court H.3744",
+     "H.5035 (study order)",
+     "Boston rent stabilization home-rule petition"
+    ],
+    "quoted_span": "An Act petition for a special law authorizing the city of Boston to implement rent stabilization and tenant eviction protections",
+    "confidence": 0.7,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "Only the bill history page is captured. Status is failed because the bill was sent to a study order and its session ended without enactment. A home-rule petition was needed because G.L. c. 40P bars local rent control (state context).",
+    "source_notes": null,
+    "source_doc_id": "D011",
+    "from_candidates": [
+     "D011:c1"
+    ],
+    "also_supported_by": []
+   },
+   {
+    "candidate_id": "D011:c2",
+    "jurisdiction": "Boston, MA",
+    "category": "just_cause_eviction",
+    "status": "failed",
+    "title": "H.3744 – Boston tenant eviction protections home-rule petition (not enacted)",
+    "requirement": "The same home-rule petition also asked the Legislature to authorize Boston to implement tenant eviction protections. The bill text is not captured, so no causes, notice terms or relocation terms are known. The bill was accompanied a study order (H.5035) on 9/9/2024 and was not enacted.",
+    "key_value": null,
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Not enacted; coverage unknown because the bill text is not captured.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": null
+    },
+    "exemptions": null,
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "Never enacted. The last action was 9/9/2024: accompanied a study order, H.5035.",
+    "effective_date_formula": null,
+    "citation": "H.3744",
+    "citation_aliases": [
+     "Bill H.3744",
+     "193rd General Court H.3744",
+     "H.5035 (study order)",
+     "Boston tenant eviction protections home-rule petition"
+    ],
+    "quoted_span": "An Act petition for a special law authorizing the city of Boston to implement rent stabilization and tenant eviction protections",
+    "confidence": 0.6,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "The eviction-protection content is known only from the bill title. This failed measure is kept separate from the enacted Housing Stability Notification Act.",
+    "source_notes": null,
+    "source_doc_id": "D011",
+    "from_candidates": [
+     "D011:c2"
+    ],
+    "also_supported_by": []
+   }
+  ],
+  "dropped_candidates": [],
+  "known_gaps": [
+   {
+    "category": "screening_restrictions",
+    "law": "Boston fair housing ordinance (Boston City Code) enforced by the Boston Fair Housing Commission, including the rental assistance protection",
+    "reason": "The official page (D012) summarizes the protection but names no code section, and the ordinance text is not captured."
+   },
+   {
+    "category": "rent_increase_limits",
+    "law": "H.3744 bill text (Boston rent stabilization and tenant eviction protections home-rule petition)",
+    "reason": "Only the bill history page is captured; the substantive terms of the failed petition are unknown."
+   },
+   {
+    "category": "just_cause_eviction",
+    "law": "Housing Stability Notification Act ordinance text (Boston City Code § 10-11.7)",
+    "reason": "The ordinance is linked from D013 but its text is not captured. The record relies on the official FAQ and web page."
+   }
+  ]
+ }
+}

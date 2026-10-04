@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D043:c4",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 14098,
+  "output_tokens": 801
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "partly_supported",
+    "quoted_span": "The landlord demolishes the property or converts the use of the property to condominiums, \nstock cooperatives, community apartment projects, hotels, and commercial uses, regardless \nof whether the property is subject to the RSO OR JCO (LAMC 47.06 & 47.07).",
+    "note": "The document lists demolition/conversion as a not-at-fault reason requiring relocation assistance regardless of RSO/JCO status, and the condominium tentative-map election is also stated. The 'must pay relocation assistance' framing is derived from the bulletin's heading and general statement rather than this item alone."
+   },
+   {
+    "field": "key_value",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The key_value is null. The 47.06/47.07 item states no amount; the dollar amounts in the bulletin are for RSO/JCO no-fault evictions generally."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The effective date is null. The document gives chart effective dates (July 1, 2026 through June 30, 2027) but states no effective date for LAMC 47.06/47.07."
+   },
+   {
+    "field": "status",
+    "verdict": "partly_supported",
+    "quoted_span": "All tenant not- at-fault evictions require payment of relocation assistance and the filing of a \nDeclaration of Intent to Evict form",
+    "note": "The bulletin is current (dated 07/01/2026) and presents the requirement in present tense, which is consistent with 'in_force'. It never explicitly states the status of LAMC 47.06/47.07."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "regardless \nof whether the property is subject to the RSO OR JCO (LAMC 47.06 & 47.07).",
+    "note": "The summary matches: the rule applies whether or not the property is under the RSO or JCO. The 'City of Los Angeles' framing is consistent with the bulletin's context. All other coverage fields are null, and the document states nothing for them."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "(LAMC 47.06 & 47.07)",
+    "note": "LAMC 47.06 and 47.07 are cited for this item, and 47.06.D.2 for the condominium tentative-map election: 'LAMC  Sec.  47.06.D.2'."
+   }
+  ]
+ }
+}

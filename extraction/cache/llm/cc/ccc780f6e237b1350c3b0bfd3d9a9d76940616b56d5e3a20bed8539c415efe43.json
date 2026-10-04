@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D040:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 1132,
+  "output_tokens": 304
+ },
+ "result": {
+  "en": "In Los Angeles, a landlord of a JCO unit may not end a tenancy without just cause, and for no-fault evictions must file a notice with LAHD and pay relocation assistance within 15 days (or one month's rent for a qualifying single-family dwelling owned by a natural person), while nonpayment evictions are allowed only when the rent owed is above the Fair Market Rent.",
+  "es": "En Los Ángeles, el propietario de una unidad sujeta a la JCO no puede terminar un arrendamiento sin causa justa, y en los desalojos sin culpa debe presentar un aviso ante LAHD y pagar asistencia de reubicación dentro de 15 días (o un mes de renta para una vivienda unifamiliar elegible de una persona física), y los desalojos por falta de pago solo se permiten cuando la renta adeudada supera la Renta de Mercado Justa."
+ }
+}

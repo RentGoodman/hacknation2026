@@ -1,0 +1,24 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "qa",
+ "subject": "D026:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 45388,
+  "output_tokens": 784
+ },
+ "result": {
+  "changes": [
+   {
+    "field": "conflict_flag",
+    "after_json": "false",
+    "reason": "The sources do not disagree: the official text (D026) and the mirror (DX08) state the same $30 CPI-adjustable cap, and a CPI-adjusted local figure is consistent with the statute, so this is an open question already covered by review_note rather than a conflict."
+   },
+   {
+    "field": "conflict_note",
+    "after_json": "null",
+    "reason": "With no actual conflict between sources, the note describing an open question about the 2026 dollar figure belongs in review_note, not in conflict_note."
+   }
+  ]
+ }
+}

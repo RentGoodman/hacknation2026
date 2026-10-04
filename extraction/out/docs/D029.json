@@ -1,0 +1,38 @@
+{
+  "doc_id": "D029",
+  "source_url": "https://www.cambridgema.gov/departments/humanrightscommission",
+  "model": "anthropic:claude-sonnet-5-5",
+  "query_date": "2026-10-01",
+  "chunks": 1,
+  "rules": [
+    {
+      "jurisdiction": "Cambridge, MA",
+      "level": "city",
+      "category": "screening_restrictions",
+      "status": "in_force",
+      "title": "Cambridge Fair Housing Ordinance - source of income protection in tenant selection",
+      "requirement": "Landlords, sellers and rental agents may not discriminate in renting on the basis of source of income, which includes Section 8 and public benefits. Tenant selection standards must be reasonable and applied equally and uniformly to all applicants, and may be based on ability to pay rent and ability to care for the apartment and respect others' rights.",
+      "key_value": null,
+      "coverage_conditions": {
+        "summary": "Covers rental housing in Cambridge generally, except 2-family dwellings in which the owner lives.",
+        "construction_date_basis": null,
+        "built_on_or_before": null,
+        "built_after": null,
+        "min_building_age_years": null,
+        "min_units": null,
+        "max_units": null,
+        "owner_conditions": "Exempt if the property is a 2-family dwelling where the owner lives.",
+        "other_conditions": null
+      },
+      "exemptions": "2-family dwellings when the owner lives there.",
+      "interaction": null,
+      "effective_date": null,
+      "citation": "Cambridge Fair Housing Ordinance, chapter 14.04",
+      "quoted_span": "Source of Income, includes Section 8 and public benefits",
+      "confidence": 0.55,
+      "conflict_flag": false,
+      "conflict_note": null
+    }
+  ],
+  "rejected": []
+}

@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D011:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 2000,
+  "output_tokens": 605
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "a petition (accompanied by bill, House, No. 3744) of Samantha Montaño (with the approval of the mayor and city council) that the city of Boston be authorized to implement rent stabilization and tenant eviction protections",
+    "note": "Home-rule petition, mayor/council approval, study order on 9/9/2024 all match. Statement that no enactment is shown is consistent with the history. 'No Boston rent cap results' is an inference but consistent. The 'H5035' study order is shown in the document."
+   },
+   {
+    "field": "key_value",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "Field is empty; the document states no cap or numeric value (bill text not included)."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "Field is null; the document shows no enactment or effective date. The effective_date_note about the study order is consistent with the history."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "Accompanied a study order, see",
+    "note": "The bill was sent to a study order on 9/9/2024 and no enactment appears, consistent with 'failed' (not enacted)."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "that the city of Boston be authorized to implement rent stabilization and tenant eviction protections",
+    "note": "Boston-only scope and sent-to-study status match; all detailed coverage fields are null, consistent with the document lacking bill text."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "Bill H.3744",
+    "note": "H.3744 is confirmed; aliases 'House, No. 3744' and 193rd session also appear in the document. 'Boston rent stabilization home-rule petition' is a descriptive alias."
+   }
+  ]
+ }
+}

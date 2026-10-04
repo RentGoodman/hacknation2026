@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "DX12:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 4043,
+  "output_tokens": 873
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "Landlords of properties located within the City of Los Angeles that are subject to the Los Angeles Rent Stabilization Ordinance (LARSO), also known as Rent Control, are required to pay tenants interest on their security deposits",
+    "note": "All elements are in the document: monthly accrual from 1990, monthly or yearly payment, direct payment or rent credit, landlord's choice with written notice, rate set annually by the City, and the warning that waiting until the end of tenancy does not comply."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "Interest shall begin accruing on November 1, 1990, on a monthly basis.",
+    "note": "The rate table shows 4.320% for calendar year 2025 and ends there, updated 5/21/25, so the 2026 rate is indeed not in the document. The payment method and notice details match the quoted code text."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "supported",
+    "quoted_span": "Interest shall begin accruing on November 1, 1990, on a monthly basis.",
+    "note": "1990-11-01 is the interest accrual start date stated in the quoted code text. The document does not say when the ordinance provision was enacted, but the date is described as the start of accrual."
+   },
+   {
+    "field": "status",
+    "verdict": "partly_supported",
+    "quoted_span": "Landlords of properties located within the City of Los Angeles that are subject to the Los Angeles Rent Stabilization Ordinance (LARSO), also known as Rent Control, are required to pay tenants interest on their security deposits",
+    "note": "The document presents the requirement as current, and the rate table was updated 5/21/25. It also carries a disclaimer that laws may have changed since publication, so in_force is not confirmed beyond that."
+   },
+   {
+    "field": "coverage",
+    "verdict": "partly_supported",
+    "quoted_span": "Landlords of properties located within the City of Los Angeles that are subject to the Los Angeles Rent Stabilization Ordinance (LARSO)",
+    "note": "DX12 only supports coverage as RSO-subject properties in the City of Los Angeles. The 1978-10-01 cutoff, the property types, the replacement units and the luxury exemption do not appear in DX12; they come from D041, which is not provided here."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "The relevant regulation is the Los Angeles Municipal Code (LAMC) Section 151.06.02.",
+    "note": "The document supports the primary citation and the LARSO alias. Other aliases such as ch. XV art. 1 are not shown, but the main citation is correct."
+   }
+  ]
+ }
+}

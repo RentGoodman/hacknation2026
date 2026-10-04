@@ -1,0 +1,18 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "date_audit",
+ "subject": "D046:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 37147,
+  "output_tokens": 544
+ },
+ "result": {
+  "requirement_is_new": null,
+  "in_force_since": null,
+  "in_force_since_evidence": null,
+  "current_version_effective": null,
+  "prior_version_note": "S.2983 is a committee redraft of two earlier petitions, Senate No. 994 (Friedman and Cyr) and Senate No. 1016 (Moore, Jehlen and Eldridge). These were pending bills, not law, and their terms are not given. The documents show no enacted earlier version, and S.2983 itself is not enacted and has no stated effective date.",
+  "effective_date_formula": null
+ }
+}

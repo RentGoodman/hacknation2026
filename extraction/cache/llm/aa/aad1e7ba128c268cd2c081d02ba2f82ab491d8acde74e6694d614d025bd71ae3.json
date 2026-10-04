@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D049:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 17276,
+  "output_tokens": 806
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "For any person furnishing credit, services or rental accommodations to discriminate against any individual who is a recipient of federal, state, or local public assistance, including medical assistance, or who is a tenant receiving federal, state, or local housing subsidies, including rental assistance or rental supplements, because the individual is such a recipient, or because of any requirement of such public assistance, rental assistance, or housing subsidy program.",
+    "note": "Statute text states the unlawful practice. The gloss that landlords may not 'screen out or treat differently' is a reasonable paraphrase of 'discriminate against'."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "to discriminate against any individual who is a recipient of federal, state, or local public assistance, including medical assistance, or who is a tenant receiving federal, state, or local housing subsidies, including rental assistance or rental supplements, because the individual is such a recipient, or because of any requirement of such public assistance, rental assistance, or housing subsidy program",
+    "note": "Key value accurately summarizes the prohibition."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "Effective date is null, and the document states no effective date for subsection 10."
+   },
+   {
+    "field": "status",
+    "verdict": "partly_supported",
+    "quoted_span": "10. For any person furnishing credit, services or rental accommodations to discriminate against any individual who is a recipient of federal, state, or local public assistance",
+    "note": "The document is the current statute text, which implies it is in force, but it has no explicit statement of status."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "For any person furnishing credit, services or rental accommodations to discriminate against any individual who is a recipient of federal, state, or local public assistance",
+    "note": "Applies to any person furnishing rental accommodations, credit or services. Subsection 10 has no unit-count or owner-occupancy exemption, while subsections 7 and 11 have owner-occupied two-family exemptions. All coverage condition fields are null, consistent with the text."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "10. For any person furnishing credit, services or rental accommodations to discriminate against any individual",
+    "note": "The document is G.L. Part I, Title XXI, Chapter 151B, Section 4, and the text appears as subsection 10."
+   }
+  ]
+ }
+}

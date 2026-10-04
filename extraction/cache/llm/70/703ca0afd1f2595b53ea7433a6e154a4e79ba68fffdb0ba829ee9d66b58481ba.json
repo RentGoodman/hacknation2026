@@ -1,0 +1,40 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D049:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 37126,
+  "output_tokens": 1276
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": null,
+   "unverifiable_exemptions": [],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Applies to any person furnishing credit, services or rental accommodations. Subsection 10 itself states no unit-count, construction-date or owner-occupancy limit on coverage.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": null,
+   "other_conditions": null
+  },
+  "evidence": [
+   {
+    "field": "summary",
+    "doc_id": "D049",
+    "quoted_span": "For any person furnishing credit, services or rental accommodations to discriminate against any individual who is a recipient of federal, state, or local public assistance"
+   }
+  ],
+  "notes": "I set other_conditions to null. It described the protected class (public assistance recipients and subsidized tenants), not buildings, units or owners, so it is not coverage. That class is already captured in the requirement and key_value fields. I left the owner-occupied exemption null on purpose. The two-family owner-occupied carve-out in D049 is limited by the words 'this subsection shall not apply' to subsection 7. Subsection 11's small-dwelling carve-outs are likewise limited to subsection 11. Neither applies to subsection 10. The statement in the summary that there is no unit-count, construction-date or owner-occupancy limit cannot be quoted, because it is an absence. Only the 'any person furnishing' scope has a verbatim quote. No document provides a construction cutoff, landlord size, or local-rule relationship for this provision."
+ }
+}

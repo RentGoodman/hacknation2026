@@ -1,0 +1,40 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D043:c4",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 23946,
+  "output_tokens": 1005
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": null,
+   "unverifiable_exemptions": [],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Rental property in the City of Los Angeles, whether or not the property is subject to the RSO or the JCO.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": null,
+   "other_conditions": null
+  },
+  "evidence": [
+   {
+    "field": "summary",
+    "doc_id": "D043",
+    "quoted_span": "of whether the property is subject to the RSO OR JCO (LAMC 47.06 & 47.07)."
+   }
+  ],
+  "notes": "The summary was rewritten to describe only the covered property. The original summary described demolition or conversion, which is the landlord conduct that triggers the rule, not the scope of property covered. D043 says only that the rule applies regardless of RSO or JCO status. No document states a unit count, construction date, owner condition or exemption for LAMC 47.06/47.07, so every other coverage field stays null. The condo-conversion tenant election under 47.06.D.2 describes tenant and landlord conduct, not coverage, so it is left out of coverage."
+ }
+}

@@ -1,0 +1,67 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "cell",
+ "subject": "Berkeley, CA|algorithmic_rent_setting",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 4394,
+  "output_tokens": 2140
+ },
+ "result": {
+  "cell_status": "rules_found",
+  "no_rule_quote": null,
+  "no_rule_passage_id": null,
+  "basis_citation": null,
+  "rules": [
+   {
+    "jurisdiction": "Berkeley, CA",
+    "category": "algorithmic_rent_setting",
+    "status": "in_force",
+    "title": "Berkeley ban on coordinated pricing algorithms (ch. 13.63)",
+    "requirement": "It is unlawful to sell, license, or otherwise provide coordinated pricing algorithms to Berkeley landlords, and to use them to set rents on residential dwelling units. A coordinated pricing algorithm is a process that uses nonpublic Competitor Data to recommend rents, fees, occupancy rates or other lease terms for future leases, in coordination between a landlord and its competitors, including through a third-party vendor. The ordinance does not regulate the amount of rent a landlord may charge. A secondary source describes recurring unit-per-month violations and private remedies.",
+    "key_value": "Competitor Data = nonpublic rent, occupancy and lease-date data on other landlords' properties that is less than 90 days old; no penalty amount stated in the passages",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Applies to sellers and users of coordinated pricing algorithms for City of Berkeley residential rental units.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": null
+    },
+    "exemptions": "Definition excludes (a) products that only publish aggregated, anonymous rental data reports without recommending rents or terms; (b) products used to set rent or income limits under affordable housing guidelines; (c) use of information for market research for project financing, appraisal, or research, testing or training for software development (provided the data is not an input when a recommendation is calculated).",
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "The only effective date in the passages is a secondary source's 'effective January 2026'. The ordinance's own effective-date clause is not in the retrieved passages.",
+    "effective_date_formula": null,
+    "citation": "Berkeley Mun. Code ch. 13.63",
+    "citation_aliases": [
+     "Berkeley Mun. Code § 13.63.020",
+     "Berkeley Mun. Code § 13.63.030",
+     "Ordinance No. 7,992-N.S."
+    ],
+    "quoted_span": "this ordinance prohibits the sale or use of coordinated pricing algorithms for the purpose of setting rents on residential dwelling units in the city of Berkeley",
+    "confidence": 0.8,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "Verify the effective date against the ordinance text. The passages give only the secondary source's January 2026, and the organizer notes a possible conflict with a March 1, 2026 date in the ordinance. Status is treated as in force as of 2026-10-01.",
+    "source_notes": "Secondary source DX06 (law-firm alert) says ch. 13.63 is effective January 2026 and that RealPage v. City of Berkeley was voluntarily dismissed with prejudice.",
+    "passage_id": "p3"
+   }
+  ]
+ }
+}

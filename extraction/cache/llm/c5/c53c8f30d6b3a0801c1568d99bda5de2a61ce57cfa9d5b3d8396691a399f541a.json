@@ -1,0 +1,19 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "qa",
+ "subject": "D050:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 37189,
+  "output_tokens": 765
+ },
+ "result": {
+  "changes": [
+   {
+    "field": "category",
+    "after_json": "\"eviction_notice\"",
+    "reason": "G.L. c. 186, § 11 (D050) only sets a 14-day notice to quit and a cure right for nonpayment under a written lease, which makes it a termination-notice rule rather than a just-cause eviction requirement (the record's own review note agrees), though the category label \"eviction_notice\" is a guess because the valid category values were not provided."
+   }
+  ]
+ }
+}

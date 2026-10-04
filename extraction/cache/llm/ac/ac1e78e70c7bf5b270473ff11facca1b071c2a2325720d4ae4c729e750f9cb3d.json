@@ -1,0 +1,45 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D046:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 36975,
+  "output_tokens": 786
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": null,
+   "unverifiable_exemptions": [],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Pending Senate bill to prohibit algorithmic rent setting. The available pages contain only the docket and bill history, not the bill text, so they do not say which buildings, units or owners are covered.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": null,
+   "other_conditions": null
+  },
+  "evidence": [
+   {
+    "field": "summary",
+    "doc_id": "D046",
+    "quoted_span": "An Act prohibiting algorithmic rent setting"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D047",
+    "quoted_span": "report the accompanying bill (Senate, No. 2983)."
+   }
+  ],
+  "notes": "D046 and D047 are identical docket and bill-history pages with no operative text. They give no unit thresholds, construction dates, owner conditions, exemptions or preemption terms, so all coverage fields stay null. The other documents in the set (c.40P §4, c.151B §4, c.186 sections, the Cella opinion and secondary articles) concern different laws and cannot supply coverage terms for S.2983. H.5222 (D045) is a separate bill."
+ }
+}

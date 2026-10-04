@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D005:c2",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 3183,
+  "output_tokens": 632
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "the owner must provide, either in the rental application or in a separate disclosure before receiving the fee, a clear and conspicuous tenant screening fee rights statement and a statement of the maximum fee cap permitted under",
+    "note": "All three parts (disclosure, renewal/roommate fee ban, applicability and unenforceability) match the page text."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "The maximum tenant screening fee for 2026 is\n$68.96",
+    "note": "The summary of the disclosure and the ban matches the page. The $68.96 figure for 2026 is listed on the page and described as state-law limited."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The field is empty and the page gives no effective or adoption date for ch. 13.78."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "Chapter 13.78 applies to all residential rental agreements regardless of any contractual language in any rental agreement or lease to the contrary.",
+    "note": "The page presents the chapter as currently applicable, which is consistent with in_force."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "Chapter 13.78 applies to all residential rental agreements regardless of any contractual language in any rental agreement or lease to the contrary.",
+    "note": "The page states no unit-count, construction-date or owner-occupancy limits, so the empty condition fields are consistent with the document."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "Notification of state law limitation on tenant screening fees (BMC 13.78.010)",
+    "note": "BMC 13.78.010, 13.78.016 and 13.78.018 are all named on the page. The ch. 13.78 alias is supported by the 'Municipal Code 13.78' link."
+   }
+  ]
+ }
+}

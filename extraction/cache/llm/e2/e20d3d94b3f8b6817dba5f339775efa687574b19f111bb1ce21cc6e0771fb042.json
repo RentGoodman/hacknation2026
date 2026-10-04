@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D036:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 606,
+  "output_tokens": 221
+ },
+ "result": {
+  "en": "Jersey City's Rent Control Ordinance (Chapter 260) regulates residential rents, lets landlords apply for certain rent increases and tenants file petitions over illegal rents or failure to maintain services, and exempts all 1-4 unit properties.",
+  "es": "La Ordenanza de Control de Alquileres de Jersey City (capítulo 260) regula los alquileres residenciales, permite que los propietarios soliciten ciertos aumentos de renta y que los inquilinos presenten peticiones por rentas ilegales o falta de mantenimiento de servicios, y exime todas las propiedades de 1 a 4 unidades."
+ }
+}

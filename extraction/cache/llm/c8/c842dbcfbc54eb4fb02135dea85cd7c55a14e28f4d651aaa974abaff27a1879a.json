@@ -1,0 +1,50 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "DX01:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 4303,
+  "output_tokens": 1213
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": false,
+   "unverifiable_exemptions": [],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Applies to landlords renting any residential dwelling unit (any primary residence) in Hoboken. Medical/long-term care and detention facilities are excluded. There is no unit-count, building-age or landlord-size threshold.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": null,
+   "other_conditions": "A residential dwelling unit is defined as any primary residence, excluding medical/long-term care or detention facilities."
+  },
+  "evidence": [
+   {
+    "field": "summary",
+    "doc_id": "DX01",
+    "quoted_span": "Landlords who rent any residential dwelling unit (defined as any primary residence excluding medical/long-term care or detention facilities) in the City of Hoboken are prohibited from price fixing using algorithmic pricing."
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "DX01",
+    "quoted_span": "residential dwelling unit (defined as any primary residence excluding medical/long-term care or detention facilities)"
+   },
+   {
+    "field": "requires_unknown_facts",
+    "doc_id": "DX01",
+    "quoted_span": "Landlords who rent any residential dwelling unit (defined as any primary residence excluding medical/long-term care or detention facilities) in the City of Hoboken"
+   }
+  ],
+  "notes": "The coverage is confirmed against DX01 without changes. The ordinance applies to any residential dwelling unit (any primary residence) in Hoboken, with only medical/long-term care and detention facilities excluded. It sets no unit-count, construction-date, building-age, owner-occupancy or landlord-size threshold. The preemption flags stay null: the possible FAIR Act preemption in the conflict note is not addressed in the supplied documents. Section Two's repealer covers only inconsistent local ordinances and says nothing about state law."
+ }
+}

@@ -1,0 +1,67 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "extract",
+ "subject": "D022",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 2202,
+  "output_tokens": 2027
+ },
+ "result": {
+  "rules": [
+   {
+    "candidate_id": "c1",
+    "jurisdiction": "CA",
+    "category": "algorithmic_rent_setting",
+    "status": "in_force",
+    "title": "California Cartwright Act: common pricing algorithm prohibition (AB 325)",
+    "requirement": "It is unlawful to use or distribute a common pricing algorithm as part of a contract, combination in the form of a trust, or conspiracy to restrain trade or commerce. It is also unlawful to use or distribute a common pricing algorithm if the person coerces another person to adopt the price or commercial term the algorithm recommends for the same or similar products or services in California. A common pricing algorithm is any methodology, including a computer, software or other technology, used by two or more persons, that uses competitor data to recommend, align, stabilize, set or otherwise influence a price or commercial term. The statute is a general antitrust provision and does not mention housing or rent. A companion section (§ 16756.1) lets a Cartwright Act complaint plead only facts making a conspiracy plausible, without excluding independent action.",
+    "key_value": "Unlawful to use or distribute a common pricing algorithm (conspiracy or coercion); the digest says Cartwright Act violations are punishable as a crime; no dollar penalty stated",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Applies to any person (as defined in § 16702, excluding end consumers) who uses or distributes a common pricing algorithm; not limited to rental housing or by building characteristics.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": "Algorithm must be used by two or more persons and use competitor data."
+    },
+    "exemptions": "None stated. The end consumer of a product or service is excluded from 'person'.",
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": "2025-10-06",
+    "sunset_date": null,
+    "effective_date_note": "The bill text does not state an effective date. It was approved by the Governor and filed with the Secretary of State on October 6, 2025 (Chapter 338).",
+    "effective_date_formula": null,
+    "citation": "Cal. Bus. & Prof. Code § 16729",
+    "citation_aliases": [
+     "AB 325",
+     "Stats. 2025, ch. 338",
+     "Cal. Bus. & Prof. Code § 16756.1",
+     "Cartwright Act",
+     "Cal. Bus. & Prof. Code § 16700 et seq."
+    ],
+    "quoted_span": "(a) It shall be unlawful for a person to use or distribute a common pricing algorithm as part of a contract, combination in the form of a trust, or conspiracy to restrain trade or commerce in violation of this chapter.",
+    "confidence": 0.8,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "Status is in_force as of the query date, inferred from chaptering on 2025-10-06. The document gives no operative date, so effective_date is left null. The statute is a general antitrust rule and applies to rent-setting software only through its general terms.",
+    "source_notes": "Official chaptered bill text (leginfo). Section 16756.1, the pleading standard, is folded into this record."
+   }
+  ],
+  "no_rule_findings": [],
+  "doc_summary": "Chaptered text of California AB 325 (Stats. 2025, ch. 338, approved 2025-10-06). It adds Bus. & Prof. Code § 16729 to the Cartwright Act, making it unlawful to use or distribute a common pricing algorithm as part of a conspiracy to restrain trade, or to coerce others to adopt its recommended prices or terms. It also adds § 16756.1, a plausibility pleading standard for Cartwright Act complaints. The text is general antitrust law, not rental-specific, and gives no effective date."
+ }
+}

@@ -1,0 +1,66 @@
+{
+  "doc_id": "D079",
+  "source_url": "https://sf.gov/information/overview-just-cause-evictions",
+  "model": "anthropic:claude-sonnet-5-5",
+  "query_date": "2026-10-01",
+  "chunks": 1,
+  "rules": [
+    {
+      "jurisdiction": "San Francisco, CA",
+      "level": "city",
+      "category": "just_cause_eviction",
+      "status": "in_force",
+      "title": "San Francisco Rent Ordinance just cause eviction requirement",
+      "requirement": "A landlord may evict a tenant from a unit covered by the Rent Ordinance only for one of 17 enumerated just causes, which must be the dominant motive for the eviction. Expiration of a rental agreement or a change in ownership is not just cause.",
+      "key_value": "17 enumerated just cause reasons (Ord. § 37.9(a))",
+      "coverage_conditions": {
+        "summary": "Rental units covered by the SF Rent Ordinance. Eviction protections also extend to some units exempt from the rent increase limits, such as units first receiving a Certificate of Occupancy after June 13, 1979, Costa-Hawkins-eligible tenancies, and some tenancies regulated by other agencies.",
+        "construction_date_basis": null,
+        "built_on_or_before": null,
+        "built_after": null,
+        "min_building_age_years": null,
+        "min_units": null,
+        "max_units": null,
+        "owner_conditions": null,
+        "other_conditions": "Applies to units covered by the Rent Ordinance, including some units exempt from its rent increase limits."
+      },
+      "exemptions": null,
+      "interaction": "Some tenancies exempt from the Ordinance's rent increase limitations (post-June 13, 1979 Certificate of Occupancy units, Costa-Hawkins tenancies, some government-regulated tenancies) remain subject to its eviction provisions.",
+      "effective_date": null,
+      "citation": "San Francisco Rent Ordinance § 37.9(a)",
+      "quoted_span": "In order to evict a tenant from a rental unit covered by the Rent Ordinance, a landlord must have a \"just cause\" reason that is the dominant motive for pursuing the eviction.",
+      "confidence": 0.9,
+      "conflict_flag": false,
+      "conflict_note": null
+    },
+    {
+      "jurisdiction": "San Francisco, CA",
+      "level": "city",
+      "category": "just_cause_eviction",
+      "status": "in_force",
+      "title": "Just cause required to remove housing services",
+      "requirement": "A landlord needs just cause to take away or remove access to certain housing services such as garage and parking facilities, driveways, storage spaces and laundry rooms. A landlord who complies with Ordinance Section 37.2(r) may temporarily remove certain services such as parking and storage to perform mandatory soft-story seismic retrofit work.",
+      "key_value": null,
+      "coverage_conditions": {
+        "summary": "Housing services in units covered by the Rent Ordinance.",
+        "construction_date_basis": null,
+        "built_on_or_before": null,
+        "built_after": null,
+        "min_building_age_years": null,
+        "min_units": null,
+        "max_units": null,
+        "owner_conditions": null,
+        "other_conditions": "Applies to housing services including garage, parking, driveways, storage spaces and laundry rooms."
+      },
+      "exemptions": "Temporary removal of certain housing services (parking, storage) for mandatory soft-story seismic retrofit work by a landlord who has complied with Section 37.2(r).",
+      "interaction": null,
+      "effective_date": null,
+      "citation": "San Francisco Rent Ordinance § 37.2(r)",
+      "quoted_span": "The landlord also needs a \"just cause“ reason to take away or remove access to certain",
+      "confidence": 0.6,
+      "conflict_flag": false,
+      "conflict_note": null
+    }
+  ],
+  "rejected": []
+}

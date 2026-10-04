@@ -1,0 +1,22 @@
+doc_id,jurisdictions,url,source_type,capture,retrieved_at,sha256,text_file,status
+DX01,"Hoboken, NJ",https://hobokennj.iqm2.com/Citizens/Detail_LegiFile.aspx?ID=12291&MeetingID=2943,official,yes,2026-10-03T20:50Z,,DX01.txt,ok
+DX02,"Jersey City, NJ",https://cityofjerseycity.civicweb.net/document/429156/,official,yes,2026-10-03T20:55Z,,DX02.txt,ok
+DX03,MA,https://law.justia.com/cases/massachusetts/supreme-court/2026/sjc-13893.html,official opinion via full-text mirror,yes,2026-10-03T21:15Z,,DX03.txt,ok
+DX04,"Jersey City, NJ",https://cityofjerseycity.civicweb.net/document/433505/Amending%20218-12%20to%20clarify%20language.pdf?handle=3F11119129CC46B2BFCB4CCFFFBBE8D6,official,yes,2026-10-03T21:41Z,,DX04.txt,ok
+DX05,"San Diego, CA",https://docs.sandiego.gov/municode/municodechapter09/ch09art08division11.pdf,official,yes,2026-10-03T23:10Z,,DX05.txt,ok
+DX06,"Berkeley, CA; Jersey City, NJ",https://www.morganlewis.com/pubs/2026/08/algorithmic-rent-pricing-litigation-expands-under-new-state-and-local-laws,secondary,yes,2026-10-03T23:26Z,d4363038bdc5f8423c180465dd256d0a87f90594bf42b21faa2641d740e252e2,DX06.txt,ok
+DX07,CA,https://caanet.org/compliance-reminder-section-8-acceptance-and-criminal-background-checks-are-fair-housing-issues/,secondary,yes,2026-10-03T23:26Z,692a206b029be742cea0b8a7dee770e4770eafbfb91e875a1536966362bcb5bd,DX07.txt,ok
+DX08,CA,https://california.public.law/codes/civil_code_section_1950.6,secondary,yes,2026-10-03T23:26Z,38cbb042c93ac049215993e613ebca2c2c60229f6fef90e21d087aca5eab84d9,DX08.txt,ok
+DX09,CA,https://www.clearygottlieb.com/news-and-insights/publication-listing/californias-antitrust-law-amendments-kick-in-targeting-algorithmic-pricing,secondary,yes,2026-10-03T23:26Z,18cf6ae62f9a9ef8be83ea9c41fa62c88353ba9bc5aed05834b47f2265c0f3c5,DX09.txt,ok
+DX10,"Cambridge, MA",https://www.cambridgeday.com/?p=158097,secondary,yes,2026-10-03T23:26Z,a5878e2652f112bd460a984e69f5d9e964878df42650ad1f7c653f6f0c994305,DX10.txt,ok
+DX11,"Jersey City, NJ",https://hudsoncountyview.com/jersey-city-council-approves-realpage-ban-and-increasing-benefits-for-laborers/,secondary,yes,2026-10-03T23:26Z,9b61a66fb8a8e84c39a0670dcb35686fd82f338ec02f31bc970a6562503ca1db,DX11.txt,ok
+DX12,"Los Angeles, CA",https://members.aagla.org/news/city-of-la-security-deposit-interest-requirement,secondary,yes,2026-10-03T23:26Z,f35ec15a071df7d88d813508bf48c733f01f057ff63c6697551662fefb91e13a,DX12.txt,ok
+DX13,MA,https://masslandlords.net/can-massachusetts-landlords-charge-an-application-fee/,secondary,yes,2026-10-03T23:26Z,13ebbc05731c572ce8b828174b66819d2a882c4c2e604e9103d07b26b55bdc89,DX13.txt,ok
+DX14,MA,https://massrealestatelawblog.com/tag/cella-v-attorney-general/,secondary,yes,2026-10-03T23:26Z,04569cabb2892e82d855852cb803409abe57a6774bb3497cf13bf882935ee090,DX14.txt,ok
+DX15,MA,https://www.wbur.org/news/2026/06/23/massachusetts-high-court-rent-control-ballot-question-struck,secondary,yes,2026-10-03T23:26Z,9923f9cdfeafba7ce1cf59428e5405a1c73b73f93bf5febccc6cbbb74430458b,DX15.txt,ok
+DX16,NJ,https://daypitney.com/new-jersey-enacts-fair-act-to-prohibit-algorithmic-rent-setting-practices,secondary,yes,2026-10-03T23:26Z,a506e3f8eabbb3bdf6d99948ae4637d7af86e71b0085c8ccf596fb3cde64b7ae,DX16.txt,ok
+DX17,"San Diego, CA",https://www.lassd.org/resource/city-of-san-diego-tenant-protection-ordinance/,secondary,yes,2026-10-03T23:26Z,f392e79c162bb48abde957441d044e142b03f2ae1e622ba71e8dee462d6ea550,DX17.txt,ok
+DX18,"Santa Ana, CA",https://www.ocbj.com/real-estate/santa-ana-bans-landlords-from-using-ai-apartment-rent-pricing-software/,secondary,yes,2026-10-03T23:26Z,75de511888b720ed39bfec7eeeff0c6f4c5d42a3e2c5837aeb0f15f27d2212e7,DX18.txt,ok
+DX19,"Santa Ana, CA",https://www.publicceo.com/2026/02/santa-ana-city-council-continues-to-strengthen-tenant-protections-by-banning-anticompetitive-rent-setting-software/,secondary,yes,2026-10-03T23:26Z,21a3dcf35726d4a86d51cbede7ac574d6076b1f2122445497e39a8a9872a431f,DX19.txt,ok
+DX20,"Hoboken, NJ",https://ecode360.com/15252438,official,yes,2026-10-04T02:35Z,49f0242b0d61ee30a1221752b0fe26bd522fa5a6d91257da5efe0536fadb7dd1,DX20.txt,ok
+DX21,"Newark, NJ",https://newark.legistar.com/ViewReport.ashx?GID=7&GUID=9C42E05B-541A-4A3E-AF2E-98DF6D377AB1&ID=5904550&M=R&N=Text&Title=Legislation+Text,official,yes,2026-10-04T02:35Z,1314c4784d15907dd4a650c17c717939f74b36916b0909f3c0e34e1624f541bf,DX21.txt,ok

@@ -1,0 +1,66 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "extract",
+ "subject": "DX02",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 4724,
+  "output_tokens": 2309
+ },
+ "result": {
+  "rules": [
+   {
+    "candidate_id": "c1",
+    "jurisdiction": "Jersey City, NJ",
+    "category": "algorithmic_rent_setting",
+    "status": "in_force",
+    "title": "Preventing Algorithmic Rent-Fixing in the Rental Housing Market (new § 218-12)",
+    "requirement": "Bars real estate lessors, their agents and subcontractors from subscribing to, contracting with, or paying anything of value for the services of a 'service provider' that coordinates rent-setting. A service provider collects nonpublic competitor information or pricing, supply, occupancy or lease-date data from two or more lessors or public databases. It then analyzes that data with software and recommends rents, lease terms or occupancy levels. Service providers may not facilitate an agreement not to compete among lessors on rental pricing, fees or other terms. Enforcement is by the Attorney General or a municipal or county attorney as parens patriae, by the city's Office of Landlord-Tenant Affairs and Office of Code Compliance, and by a private right of action. Prevailing plaintiffs recover costs and reasonable attorney fees.",
+    "key_value": "First violation punishable under Jersey City Code § 1-25; subsequent violations fined $100 to $2,000; each day is a separate violation; costs and reasonable attorney fees awarded to successful plaintiffs; private right of action.",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Applies to real estate lessors of residential dwelling units (primary residences) and to service providers that coordinate rent data. Excludes inpatient medical care, licensed long-term care, and detention or correctional facilities.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": "The definition of coordination exempts owners of multiple properties for actions related exclusively to properties controlled by the same owner.",
+     "other_conditions": "Licensed real estate agents are excluded from the service-provider definition while operating in accordance with applicable state regulations."
+    },
+    "exemptions": "Owners of multiple properties for actions related exclusively to properties controlled by the same owner; licensed real estate agents operating in accordance with state regulations; inpatient medical care, licensed long-term care, and detention or correctional facilities are not residential dwelling units.",
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": "2025-05-21",
+    "sunset_date": null,
+    "effective_date_note": "The ordinance text states no effective date. It was adopted on second reading on May 21, 2025, and approved by the Mayor on May 22, 2025.",
+    "effective_date_formula": null,
+    "citation": "Jersey City Code § 218-12",
+    "citation_aliases": [
+     "Ord. 25-057",
+     "Jersey City Code ch. 218",
+     "Chapter 218 (Multiple Dwellings)",
+     "Preventing Algorithmic Rent-Fixing in the Rental Housing Market"
+    ],
+    "quoted_span": "It is unlawful for any real estate lessor, agent, or subcontractor thereof, to subscribe to, contract with, or otherwise exchange anything of value in return for the services of a Service Provider.",
+    "confidence": 0.88,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "No effective date appears in the ordinance, so status in_force is inferred from adoption and Mayor approval in May 2025. The § 1-25 penalty for a first violation is not stated in this document. The text refers to 'this Act' and 'this chapter' in places.",
+    "source_notes": "Official adopted ordinance with first reading May 7, 2025 and final reading May 21, 2025."
+   }
+  ],
+  "no_rule_findings": [],
+  "doc_summary": "Jersey City Ordinance 25-057 adds § 218-12 to Chapter 218 (Multiple Dwellings), banning landlords from using third-party rent-coordination services that pool nonpublic competitor data and recommend rents. It also bars service providers from facilitating agreements not to compete. It was adopted May 21, 2025 and approved by the Mayor May 22, 2025. It is enforced by the Attorney General, municipal and county attorneys, city offices, and a private right of action. Penalties are fines of $100 to $2,000 for subsequent violations, with each day a separate violation, plus attorney fees. The text states no effective date."
+ }
+}

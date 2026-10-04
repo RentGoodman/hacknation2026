@@ -1,0 +1,45 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D001:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 22309,
+  "output_tokens": 1173
+ },
+ "result": {
+  "coverage": {
+   "built_after": null,
+   "built_on_or_before": null,
+   "construction_cutoff": null,
+   "construction_date_basis": null,
+   "landlord_size_condition": null,
+   "max_units": null,
+   "may_preempt_local_rules": null,
+   "min_building_age_years": null,
+   "min_units": null,
+   "new_construction_exemption": null,
+   "other_conditions": null,
+   "owner_conditions": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": false,
+   "summary": "Applies to residential dwelling units in the City of Berkeley. The chapter states no limits on unit count, building age or construction date, owner type, or landlord size.",
+   "supersedes_state_rule": null,
+   "unverifiable_exemptions": [],
+   "yields_to_local_rule": null
+  },
+  "evidence": [
+   {
+    "field": "summary",
+    "doc_id": "D001",
+    "quoted_span": "levels that may be achieved for residential dwelling units in the City of Berkeley."
+   },
+   {
+    "field": "requires_unknown_facts",
+    "doc_id": "D001",
+    "quoted_span": "levels that may be achieved for residential dwelling units in the City of Berkeley."
+   }
+  ],
+  "notes": "Four changes. (1) Removed the reference to the state Cartwright Act (Bus. & Prof. Code § 16729) from the summary because no document supports it. (2) Removed the vendor and landlord conduct description from the summary, since coverage describes units, not conduct. (3) Set other_conditions to null. The listed exclusions (aggregated anonymous reports, affordable-housing limit products, market research, appraisal and software-training uses) narrow the definition of a 'coordinated pricing algorithm', which concerns the regulated product and conduct, not which buildings or units are covered; they belong in the rule's exemptions field. (4) Set requires_unknown_facts to false because the ban reaches all ordinary residential dwelling units in Berkeley. The unit, age and landlord-size fields stay null because the ordinance states no such limits."
+ }
+}

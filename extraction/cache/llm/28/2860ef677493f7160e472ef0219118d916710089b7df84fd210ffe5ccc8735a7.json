@@ -1,0 +1,63 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "cell",
+ "subject": "MA|security_deposits",
+ "prompt_version": "v10",
+ "usage": {},
+ "result": {
+  "cell_status": "rules_found",
+  "no_rule_quote": null,
+  "no_rule_passage_id": null,
+  "basis_citation": null,
+  "rules": [
+   {
+    "jurisdiction": "MA",
+    "category": "security_deposits",
+    "status": "in_force",
+    "title": "Massachusetts security deposit law (return, deductions, holding and transfer)",
+    "requirement": "The lessor must return the security deposit or any balance within thirty days after termination of occupancy under a tenancy-at-will or the end of the tenancy under a valid written lease. Permitted deductions are unpaid rent or water charges not validly withheld, unpaid real estate tax increases under a conforming tax escalation clause, and a reasonable amount to repair tenant-caused damage, excluding reasonable wear and tear. For damage, the lessor must give the tenant an itemization within the thirty days. No deduction is allowed for any other purpose. The deposit remains the tenant's property and may not be commingled with the lessor's assets or be subject to the lessor's creditors. The tenant is entitled to interest as provided in subsection (3)(b), and the tenant may deduct unpaid interest from the next rent if no notice or payment arrives within thirty days after each year of the tenancy. On a transfer of the lessor's interest, the deposit and accrued interest pass to the successor, who must notify the tenant within forty-five days. A lessor may not demand rent in advance beyond the current month's rent or a deposit above the amount the section allows. A lessor receiving last month's rent in advance must give a receipt.",
+    "key_value": "Return within 30 days after tenancy ends; itemized damage statement within the same 30 days; successor must notify tenant within 45 days of transfer",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": null,
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": null
+    },
+    "exemptions": null,
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": null,
+    "effective_date_formula": null,
+    "citation": "G.L. c. 186, § 15B",
+    "citation_aliases": [
+     "M.G.L. c. 186, § 15B",
+     "G.L. c. 186, § 15B(4)"
+    ],
+    "quoted_span": "The lessor shall, within thirty days after the termination of occupancy under a tenancy-at-will or the end of the tenancy as specified in a valid written lease agreement, return to the tenant the security deposit or any balance thereof;  provided, however, that the lessor may deduct from such security deposit for the following:",
+    "confidence": 0.8,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "The passages are excerpts and do not state the maximum deposit amount, the interest rate or the penalties, so key_value omits them. The section number is inferred from the statute's structure and the passages do not name it.",
+    "source_notes": "Passages p1-p3 come from document D052. Passages p4, p7 and p9 describe New Jersey law, and p5, p6, p8 and p10 describe California or local California law, so none of them is used for MA.",
+    "passage_id": "p2"
+   }
+  ]
+ }
+}

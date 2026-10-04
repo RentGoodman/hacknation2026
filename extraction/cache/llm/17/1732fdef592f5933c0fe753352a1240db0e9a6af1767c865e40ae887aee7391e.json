@@ -1,0 +1,40 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D046:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 37005,
+  "output_tokens": 954
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": null,
+   "unverifiable_exemptions": [],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Pending Senate bill to prohibit algorithmic rent setting. The available documents give only the title and committee action, not the bill text, so coverage terms are not stated.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": null,
+   "other_conditions": null
+  },
+  "evidence": [
+   {
+    "field": "summary",
+    "doc_id": "D046",
+    "quoted_span": "An Act prohibiting algorithmic rent setting"
+   }
+  ],
+  "notes": "D046 and D047 contain only the bill title, the March 12, 2026 committee report and the referral to Senate Ways and Means. They contain no bill text, so no unit thresholds, construction cutoffs, exemptions or preemption terms can be supported. All coverage fields remain null. The small-owner limit in G.L. c. 40P §4 (D048: fewer than ten rental units) applies to municipal rent control, not to this bill. The exemptions described in DX14 (owner-occupied buildings of four or fewer units and units less than 10 years old) belong to Initiative Petition 25-21, which is a separate measure. Neither was imported. The summary was kept, reworded and tied to the bill title."
+ }
+}

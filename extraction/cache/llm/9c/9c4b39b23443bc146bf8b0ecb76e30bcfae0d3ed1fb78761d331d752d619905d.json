@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D080:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 3179,
+  "output_tokens": 1303
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "partly_supported",
+    "quoted_span": "To calculate the dollar amount of the 1.6% annual rent increase, multiply the tenant's base rent by .016. For example, if the tenant's base rent is $2,000.00, the annual increase would be calculated as follows: $2,000.00 x .016 = $32.00.",
+    "note": "The 1.6% rate for 3/1/2026-2/28/2027, the calculation, the worked example and the prior 1.4% rate are supported. The 1.7% rate for 2024-25, the Certificate of Occupancy and Costa-Hawkins exemptions, and the just-cause eviction statement do not appear in this document. The document does not say the rate is reset each March 1."
+   },
+   {
+    "field": "key_value",
+    "verdict": "partly_supported",
+    "quoted_span": "the annual allowable increase amount effective March 1, 2026 through February 28, 2027 is 1.6%.",
+    "note": "The 1.6% rate, the base rent x .016 method and the prior 1.4% (2025-26) are supported. The 1.7% (2024-25) figure is not in this document."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "supported",
+    "quoted_span": "the annual allowable increase amount effective March 1, 2026 through February 28, 2027 is 1.6%.",
+    "note": "The March 1, 2026 start of the rate period is stated."
+   },
+   {
+    "field": "status",
+    "verdict": "partly_supported",
+    "quoted_span": "For rent-controlled units, the annual allowable increase amount effective March 1, 2026 through February 28, 2027 is 1.6%.",
+    "note": "The document is a January 14, 2026 announcement of a rate that takes effect March 1, 2026. It does not explicitly state the legal status of the rule, but in-force status is consistent with it."
+   },
+   {
+    "field": "coverage",
+    "verdict": "partly_supported",
+    "quoted_span": "For rent-controlled units, the annual allowable increase amount effective March 1, 2026 through February 28, 2027 is 1.6%.",
+    "note": "The document supports only that the rate applies to rent-controlled units. The June 13, 1979 Certificate of Occupancy cutoff, the Costa-Hawkins exemption, the exemption for rents regulated by another agency and the eviction-provision carve-out are not in this document."
+   },
+   {
+    "field": "citation",
+    "verdict": "not_supported",
+    "quoted_span": null,
+    "note": "The document does not cite S.F. Admin. Code § 37.3 or any code section."
+   }
+  ]
+ }
+}

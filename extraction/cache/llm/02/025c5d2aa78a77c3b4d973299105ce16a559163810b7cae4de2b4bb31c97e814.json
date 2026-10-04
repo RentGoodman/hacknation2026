@@ -1,0 +1,64 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "extract",
+ "subject": "DX19",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 1221,
+  "output_tokens": 1204
+ },
+ "result": {
+  "rules": [
+   {
+    "candidate_id": "c1",
+    "jurisdiction": "Santa Ana, CA",
+    "category": "algorithmic_rent_setting",
+    "status": "not_yet_effective",
+    "title": "Santa Ana ordinance banning algorithmic rent-setting software",
+    "requirement": "Prohibits the sale, licensing, provision and use of certain algorithmic rent-setting software for residential rental properties in Santa Ana. Tenants may sue directly and need only prove the landlord is using the prohibited technology, not intentional collusion. Remedies: injunctive relief, damages, or civil penalties plus attorney's fees.",
+    "key_value": "Civil penalties up to $1,000 per violation, plus attorney's fees; injunctive relief and damages available; first reading Feb. 17, 2026, final vote set for March 3, 2026",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [
+      "tools used to comply with affordable housing program requirements"
+     ],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Residential rental property within Santa Ana city limits; does not apply to pricing software relying solely on publicly available data or aggregate historical data, or to tools used to comply with affordable housing program requirements.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": "Excludes pricing software that relies solely on publicly available data, aggregate historical data, or affordable housing compliance tools."
+    },
+    "exemptions": "Pricing software that relies solely on publicly available data or aggregate historical data; tools used to comply with affordable housing program requirements.",
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "Article describes a first reading approved Feb. 17, 2026 and a final vote set for March 3, 2026. The final adoption and effective date are not stated in the document. Status as of the query date is uncertain; it is likely adopted but this is not confirmed by the text.",
+    "effective_date_formula": null,
+    "citation": "Santa Ana Ordinance (algorithmic rent-setting software), first reading Feb. 17, 2026",
+    "citation_aliases": [
+     "Santa Ana algorithmic rent-setting ordinance"
+    ],
+    "quoted_span": "prohibits the sale, licensing, provision and use of certain algorithmic rent-setting software for residential rental properties",
+    "confidence": 0.5,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "Secondary source (press release). Ordinance number and municipal code section not given. Verify final adoption on March 3, 2026 and the effective date; status set to not_yet_effective as a placeholder since adoption is unconfirmed."
+   }
+  ],
+  "no_rule_findings": [],
+  "doc_summary": "A February 2026 city press release reports that the Santa Ana City Council approved on first reading (Feb. 17, 2026) an ordinance banning the sale, licensing, provision and use of algorithmic rent-setting software for residential rentals, with a final vote set for March 3. It describes exemptions, a private right of action, a lower burden of proof, and civil penalties up to $1,000 per violation. It mentions Santa Ana's existing rent stabilization ordinance without giving details."
+ }
+}

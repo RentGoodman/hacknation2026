@@ -1,0 +1,68 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "extract",
+ "subject": "DX09",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 3358,
+  "output_tokens": 1269
+ },
+ "result": {
+  "rules": [
+   {
+    "candidate_id": "c1",
+    "jurisdiction": "CA",
+    "category": "algorithmic_rent_setting",
+    "status": "in_force",
+    "title": "California Cartwright Act amendments on common pricing algorithms (AB 325)",
+    "requirement": "The Cartwright Act expressly prohibits using or distributing a common pricing algorithm as part of an agreement to restrain trade. It also prohibits using or offering a common pricing algorithm while coercing users to adopt its price or commercial-term recommendations in California. A 'common' pricing algorithm has two or more users and uses competitor data. Single-firm algorithms that use only the business's own data are not covered. The prohibition is general, not specific to rental housing; the document names apartment rental companies as past federal targets. The same amendments lower the pleading standard to plausibility and add civil and criminal penalties.",
+    "key_value": "Criminal fines up to the greater of $6 million (corporations) or twice the gain or loss; individuals up to the greater of $1 million or twice the gain or loss; civil penalties up to $1 million per violation in AG/DA actions; treble damages and attorneys' fees in private suits",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Applies to any business that uses or distributes common pricing algorithms (two or more users, uses competitor data); not specific to housing. Excludes proprietary algorithms using only a business's own data.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": "Algorithm must have two or more users and use competitor data."
+    },
+    "exemptions": "Single-firm or proprietary algorithms using only the business's own data are not covered.",
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": "2026-01-01",
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "Governor signed AB 325 and SB 763 in October 2025 (document says 'last October'); the amendments took effect January 1, 2026.",
+    "effective_date_formula": null,
+    "citation": "Cal. Bus. & Prof. Code § 16729",
+    "citation_aliases": [
+     "AB 325",
+     "A.B. 325",
+     "SB 763",
+     "S.B. 763",
+     "Cal. Bus. & Prof. Code §§ 16755, 16755.1, 16756.1",
+     "Cartwright Act"
+    ],
+    "quoted_span": "The Cartwright Act now expressly prohibits (1) using or distributing common algorithms to collude on pricing, and (2) coercing users to adopt algorithmic recommendations.",
+    "confidence": 0.85,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "Law-firm alert (secondary source). The general antitrust law is not housing-specific. Penalty provisions are in §§ 16755 and 16755.1.",
+    "source_notes": null
+   }
+  ],
+  "no_rule_findings": [],
+  "doc_summary": "Cleary Gottlieb alert dated January 6, 2026, on California's Cartwright Act amendments (AB 325 and SB 763), effective January 1, 2026. They prohibit using or distributing common pricing algorithms in an agreement to restrain trade, and coercing users to adopt algorithm recommendations. They also lower the pleading standard and raise criminal and civil penalties. The alert is general antitrust guidance, not rental-specific, though it mentions apartment rental pricing cases. It covers no other housing categories."
+ }
+}

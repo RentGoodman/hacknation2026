@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D083:c5",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 593,
+  "output_tokens": 343
+ },
+ "result": {
+  "en": "If a landlord temporarily evicts a tenant household for capital improvements lasting less than 20 days, Cal. Civ. Code § 1947.9 (not S.F. Rent Ordinance § 37.9C) sets the relocation payment, which for notices served 3/1/2026–2/28/2027 is $446.00 per day per household plus actual moving expenses (it was $436.00 per day for notices served 3/1/2025–2/28/2026).",
+  "es": "Si un propietario desaloja temporalmente a un hogar inquilino por mejoras de capital que duran menos de 20 días, el Código Civil de California § 1947.9 (no la Ordenanza de Alquileres de S.F. § 37.9C) fija el pago de reubicación, que para avisos entregados del 3/1/2026 al 28/2/2027 es de $446.00 por día por hogar más los gastos de mudanza reales (era de $436.00 por día para avisos entregados del 3/1/2025 al 28/2/2026)."
+ }
+}

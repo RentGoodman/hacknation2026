@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "DX06:c10",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 473,
+  "output_tokens": 143
+ },
+ "result": {
+  "en": "Seattle prohibits specified algorithmic coordinating services in connection with multifamily rental housing, and violations can bring penalties of up to $7,500 per violation.",
+  "es": "Seattle prohíbe ciertos servicios algorítmicos de coordinación en relación con la vivienda de alquiler multifamiliar, y las infracciones pueden conllevar multas de hasta $7,500 por infracción."
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "date_audit",
+ "subject": "D080:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 12054,
+  "output_tokens": 440
+ },
+ "result": {
+  "requirement_is_new": false,
+  "in_force_since": null,
+  "in_force_since_evidence": null,
+  "current_version_effective": "2026-03-01",
+  "prior_version_note": "Earlier annual allowable increases were 1.4% for March 1, 2025 – February 28, 2026 and 1.7% for March 1, 2024 – February 28, 2025 (D080, D083). D080 refers to a complete list of past increases that is not included. The documents do not say when the annual allowable increase limit first took effect.",
+  "effective_date_formula": null
+ }
+}

@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D079:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 1017,
+  "output_tokens": 200
+ },
+ "result": {
+  "en": "In San Francisco, a landlord of a unit covered by the Rent Ordinance may evict only for one of 17 listed just causes, and that cause must be the dominant motive; the end of a rental agreement or a change in ownership is not just cause.",
+  "es": "En San Francisco, el propietario de una unidad cubierta por la Ordenanza de Alquileres solo puede desalojar por una de las 17 causas justificadas enumeradas, y esa causa debe ser el motivo dominante; el vencimiento del contrato de alquiler o un cambio de propietario no es causa justificada."
+ }
+}

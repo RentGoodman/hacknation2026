@@ -1,0 +1,433 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "consolidate",
+ "subject": "San Francisco, CA",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 44358,
+  "output_tokens": 15468
+ },
+ "result": {
+  "rules": [
+   {
+    "candidate_id": "D080:c1",
+    "jurisdiction": "San Francisco, CA",
+    "category": "rent_increase_limits",
+    "status": "in_force",
+    "title": "San Francisco Rent Ordinance annual allowable rent increase (1.6% for 3/1/2026 - 2/28/2027)",
+    "requirement": "For rent-controlled units, landlords may raise rent each year by no more than the annual allowable increase published by the Rent Board. For March 1, 2026 through February 28, 2027 the allowable increase is 1.6% of base rent. To compute it, multiply base rent by .016; for example, $2,000.00 x .016 = $32.00, giving a new base rent of $2,032.00. Earlier periods were 1.4% (3/1/2025 - 2/28/2026) and 1.7% (3/1/2024 - 2/28/2025). The rate is reset each March 1. Units that first obtained a Certificate of Occupancy after June 13, 1979, and tenancies eligible for a rent increase under Costa-Hawkins, are exempt from these limits but remain subject to just-cause eviction.",
+    "key_value": "1.6% annual allowable increase for 3/1/2026-2/28/2027 (base rent x .016); prior 1.4% (2025-26), 1.7% (2024-25)",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": {
+      "basis": "certificate_of_occupancy",
+      "covered_if": "on_or_before",
+      "date": "1979-06-13"
+     },
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": true,
+     "unverifiable_exemptions": [
+      "Tenancies eligible for a rent increase under the Costa-Hawkins Rental Housing Act",
+      "Some tenancies where the rent is regulated by another government agency"
+     ],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": true,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Covers rent-controlled units under the San Francisco Rent Ordinance. Units that first obtained a Certificate of Occupancy after June 13, 1979 are exempt from the increase limits, as are Costa-Hawkins-eligible tenancies and some tenancies regulated by another agency. Covered units are exempt from the state cap (Cal. Civ. Code § 1947.12(d)(3)) because the local limit is stricter. Exempt San Francisco units may still fall under the state cap unless the state's own exemptions apply.",
+     "construction_date_basis": "date the unit first obtained a Certificate of Occupancy",
+     "built_on_or_before": "1979-06-13",
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": "Applies to 'rent-controlled units'; the Rent Board resets the rate each March 1."
+    },
+    "exemptions": "Units that first obtained a Certificate of Occupancy after June 13, 1979; tenancies eligible for a rent increase under Costa-Hawkins; some tenancies where rent is regulated by another government agency. These remain subject to just-cause eviction.",
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": "2026-03-01",
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "2026-03-01 is the start of the current rate period (through 2027-02-28). The rate was announced January 14, 2026. The documents do not give the date the ordinance first took effect. The end of the rate period is not a sunset of the law.",
+    "effective_date_formula": null,
+    "citation": "S.F. Admin. Code § 37.3",
+    "citation_aliases": [
+     "S.F. Admin. Code ch. 37",
+     "San Francisco Rent Ordinance",
+     "Rent Ordinance",
+     "Annual General Adjustment",
+     "AGA"
+    ],
+    "quoted_span": "For rent-controlled units, the annual allowable increase amount effective March 1, 2026 through February 28, 2027 is 1.6%.",
+    "confidence": 0.85,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "The documents do not name the code section for the allowable increase. § 37.3 is carried from a candidate alias and should be verified. The 5% maximum AGA and banking rules in one candidate came from a passage not in the provided documents, so they are omitted. D083 also lists capital improvement imputed interest rates (4.1%-4.8% by amortization period) and uncompensated labor rates ($40.40 from 6/29/26), which are used in capital improvement petitions.",
+    "source_notes": "Official Rent Board announcement (D080) is primary. The Rent Board current-rates page (D083) gives the same 1.6% figure. The coverage cutoff is from the Rent Board just-cause overview (D079).",
+    "source_doc_id": "D080",
+    "from_candidates": [
+     "D080:c1",
+     "D083:c1",
+     "cell:San Francisco, CA:rent_increase_limits:1"
+    ],
+    "also_supported_by": [
+     {
+      "doc_id": "D083",
+      "quoted_span": "1.6% for March 1, 2026 – February 28, 2027"
+     },
+     {
+      "doc_id": "D079",
+      "quoted_span": "This includes tenancies in newly constructed rental units that first obtained a Certificate of Occupancy after June 13, 1979"
+     }
+    ]
+   },
+   {
+    "candidate_id": "D079:c1",
+    "jurisdiction": "San Francisco, CA",
+    "category": "just_cause_eviction",
+    "status": "in_force",
+    "title": "San Francisco Rent Ordinance just cause eviction (Section 37.9(a))",
+    "requirement": "A landlord of a unit covered by the Rent Ordinance may evict only for one of 17 just causes, and that cause must be the dominant motive. Expiration of a rental agreement or a change in ownership is not just cause.\n\nThe causes are:\n- non-payment or habitual late payment of rent, or frequent bounced checks;\n- failure to cure a substantial breach;\n- severe, continuing or recurring nuisance;\n- illegal use, excluding mere occupancy of an unwarranted unit or a single cured short-term rental violation;\n- refusal to sign a materially similar renewal;\n- refusal of lawful access;\n- an unapproved subtenant as the only remaining occupant;\n- owner or limited relative move-in;\n- sale under an approved condominium conversion;\n- demolition or permanent removal from housing use;\n- temporary capital improvement or rehabilitation work, with the tenant's right to reoccupy;\n- substantial rehabilitation of a building at least 50 years old where the work costs at least 75% of new construction;\n- Ellis Act withdrawal of all units;\n- lead remediation under Health Code Arts. 11 or 26;\n- demolition under a Chapter 56 development agreement;\n- expiry of a Good Samaritan occupancy agreement, with the eviction notice served within 60 days;\n- demolition for a development project under Planning Code § 317.\n\nJust cause is also required to remove housing services such as parking, storage and laundry. A temporary removal is allowed for mandatory soft-story seismic retrofit work under § 37.2(r).",
+    "key_value": "17 just causes; dominant motive required; substantial rehabilitation requires a building at least 50 years old and cost at least 75% of new construction; Good Samaritan notice within 60 days of agreement expiration",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": true,
+     "unverifiable_exemptions": [
+      "Some tenancies where the rent is regulated by another government agency (coverage stated as 'some')"
+     ],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": true,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Applies to rental units covered by the Rent Ordinance. This includes units exempt from the rent increase limits: units that first obtained a Certificate of Occupancy after June 13, 1979, Costa-Hawkins-eligible tenancies and some government-regulated tenancies. The just-cause provisions therefore cover units on both sides of the rent-limit cutoff. Where it applies, the state just-cause law (Cal. Civ. Code § 1946.2) gives way to qualifying local just-cause ordinances.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": "Units first certified for occupancy after June 13, 1979 are covered by the eviction provisions even though they are exempt from rent limits."
+    },
+    "exemptions": null,
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "The document does not state an effective or adoption date.",
+    "effective_date_formula": null,
+    "citation": "S.F. Admin. Code § 37.9(a)",
+    "citation_aliases": [
+     "S.F. Admin. Code ch. 37",
+     "San Francisco Rent Ordinance",
+     "Rent Ordinance Section 37.9(a)",
+     "S.F. Admin. Code § 37.2(r)"
+    ],
+    "quoted_span": "In order to evict a tenant from a rental unit covered by the Rent Ordinance, a landlord must have a \"just cause\" reason that is the dominant motive for pursuing the eviction.",
+    "confidence": 0.88,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "The overview does not give notice content or exemptions in detail. Relocation amounts are captured in the separate § 37.9C and § 37.9A records. supersedes_state_rule rests on § 1946.2's carve-out for local just-cause ordinances adopted on or before Sept. 1, 2019, or more protective ones. The adoption date of this ordinance is not in the documents.",
+    "source_notes": "Official Rent Board overview page (D079) summarizing Ordinance Section 37.9(a).",
+    "source_doc_id": "D079",
+    "from_candidates": [
+     "D079:c1",
+     "cell:San Francisco, CA:just_cause_eviction:1"
+    ],
+    "also_supported_by": [
+     {
+      "doc_id": "D079",
+      "quoted_span": "This includes tenancies in newly constructed rental units that first obtained a Certificate of Occupancy after June 13, 1979"
+     }
+    ]
+   },
+   {
+    "candidate_id": "D083:c3",
+    "jurisdiction": "San Francisco, CA",
+    "category": "just_cause_eviction",
+    "status": "in_force",
+    "title": "San Francisco relocation payments for owner/relative move-in, demolition, temporary capital improvement and substantial rehabilitation evictions (§ 37.9C)",
+    "requirement": "A landlord who serves a notice of termination for one of the following causes must pay relocation to the tenants:\n- owner or relative move-in;\n- demolition or permanent removal of the unit from housing use;\n- temporary capital improvement work;\n- substantial rehabilitation.\n\nThe amount is set per tenant and capped per unit. An additional amount is due for each elderly (60+) or disabled tenant, or for a household with minor children. Amounts adjust each March 1 and depend on the date the notice is served. Relocation for temporary capital improvement evictions of less than 20 days is governed by Cal. Civ. Code § 1947.9, not § 37.9C.",
+    "key_value": "Notices served 3/1/2026-2/28/2027: $8,245.00 per tenant; $24,733.00 max per unit; plus $5,497.00 per elderly (60+) or disabled tenant or household with minor child(ren). Prior period: $8,062.00 / $24,184.00 / $5,375.00. Displacement under 20 days (Civ. Code § 1947.9): $446.00/day per household plus actual moving expenses.",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Payable to tenants of Rent Ordinance units served with a termination notice for owner or relative move-in, demolition or permanent removal, temporary capital improvement work, or substantial rehabilitation. The amount is fixed by the date the notice is served.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": "Temporary capital improvement evictions of less than 20 days are governed by Cal. Civ. Code § 1947.9."
+    },
+    "exemptions": "Temporary capital improvement evictions of less than 20 days are governed by Cal. Civ. Code § 1947.9, not § 37.9C.",
+    "event_only": true,
+    "applies_only_in": null,
+    "effective_date": "2026-03-01",
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "Current amounts apply to notices served 3/1/2026-2/28/2027 and are reset each March 1. The earliest archived rate row begins 8/10/2006. The enactment date is not stated.",
+    "effective_date_formula": null,
+    "citation": "S.F. Admin. Code § 37.9C",
+    "citation_aliases": [
+     "S.F. Admin. Code ch. 37",
+     "Rent Ordinance Section 37.9C",
+     "San Francisco Rent Ordinance"
+    ],
+    "quoted_span": "Relocation Payments for Evictions based on Owner/Relative Move-in OR Demolition/Permanent Removal of Unit from Housing Use OR Temporary Capital Improvement Work* OR Substantial Rehabilitation",
+    "confidence": 0.85,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "The rate pages do not restate the ordinance's coverage or payment timing. The Admin. Code form of the citation is inferred from 'Rent Ordinance Section 37.9C'.",
+    "source_notes": "Official Rent Board current-rates page (D083) and relocation archive (D082) give identical current and prior amounts.",
+    "source_doc_id": "D083",
+    "from_candidates": [
+     "D083:c3",
+     "D082:c1"
+    ],
+    "also_supported_by": [
+     {
+      "doc_id": "D083",
+      "quoted_span": "*The amount of relocation payments for temporary capital improvement evictions for less than 20 days is governed by California Civil Code Section 1947.9 and not by Rent Ordinance Section 37.9C."
+     },
+     {
+      "doc_id": "D082",
+      "quoted_span": "Relocation Payments for Evictions based on Owner/Relative Move-in OR Demolition/Permanent Removal of Unit from Housing Use OR Temporary Capital Improvement Work* OR Substantial Rehabilitation"
+     }
+    ]
+   },
+   {
+    "candidate_id": "D083:c4",
+    "jurisdiction": "San Francisco, CA",
+    "category": "just_cause_eviction",
+    "status": "in_force",
+    "title": "San Francisco relocation payments for Ellis Act evictions (§ 37.9A)",
+    "requirement": "Tenants evicted under the Ellis Act must receive relocation payments. The amount is set per tenant and capped per unit. An additional amount is due for each elderly (62+) or disabled tenant. Amounts adjust each March 1 and depend on the date the notice of termination is served.",
+    "key_value": "Notices served 3/1/2026-2/28/2027: $11,110.05 per tenant; $33,330.13 max per unit; plus $7,443.90 per elderly (62+) or disabled tenant. Prior period: $10,863.45 / $32,590.33 / $7,278.67.",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Applies to tenants evicted when a landlord withdraws all rental units from the market under the state Ellis Act. The amount is fixed by the date the notice is served.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": null
+    },
+    "exemptions": null,
+    "event_only": true,
+    "applies_only_in": null,
+    "effective_date": "2026-03-01",
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "Current amounts apply to notices served 3/1/2026-2/28/2027 and are reset each March 1. The earliest archived rate row begins 3/1/2006. The enactment date is not stated.",
+    "effective_date_formula": null,
+    "citation": "S.F. Admin. Code § 37.9A",
+    "citation_aliases": [
+     "S.F. Admin. Code ch. 37",
+     "Rent Ordinance Section 37.9A",
+     "Ellis Act relocation payments",
+     "San Francisco Rent Ordinance"
+    ],
+    "quoted_span": "Relocation payments for tenants evicted under the Ellis Act",
+    "confidence": 0.8,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "The section number comes only from the D083 link label '578 Multilingual Relocation Payments 37.9A'. Verify against the code text.",
+    "source_notes": "Official Rent Board current-rates page (D083) and relocation archive (D082) give identical amounts.",
+    "source_doc_id": "D083",
+    "from_candidates": [
+     "D083:c4",
+     "D082:c2"
+    ],
+    "also_supported_by": [
+     {
+      "doc_id": "D083",
+      "quoted_span": "578 Multilingual Relocation Payments 37.9A"
+     },
+     {
+      "doc_id": "D082",
+      "quoted_span": "Relocation payments for tenants evicted under the Ellis Act"
+     }
+    ]
+   },
+   {
+    "candidate_id": "D083:c2",
+    "jurisdiction": "San Francisco, CA",
+    "category": "security_deposits",
+    "status": "in_force",
+    "title": "San Francisco security deposit interest rate (4.2% for 3/1/2026 - 2/28/2027)",
+    "requirement": "Landlords holding tenant security deposits must pay interest at the annual rate published by the Rent Board. For March 1, 2026 through February 28, 2027 the rate is 4.2%. Prior rates were 5.0% (2025-26) and 5.2% (2024-25).",
+    "key_value": "4.2% security deposit interest for 3/1/2026-2/28/2027 (prior 5.0%, 5.2%)",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": false,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "The page gives only the annual interest rate and does not state which units are covered. The state deposit cap and return rules (Cal. Civ. Code § 1950.5) apply alongside this local interest requirement.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": null
+    },
+    "exemptions": null,
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": "2026-03-01",
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "The rate applies to March 1, 2026 - February 28, 2027 and is reset annually. The end of the period is not a sunset of the law.",
+    "effective_date_formula": null,
+    "citation": "S.F. Admin. Code ch. 49",
+    "citation_aliases": [
+     "San Francisco security deposit interest ordinance",
+     "Rent Board security deposit interest rate"
+    ],
+    "quoted_span": "4.2% for March 1, 2026 – February 28, 2027",
+    "confidence": 0.55,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "The page names no legal authority for the interest requirement. The ch. 49 citation is unverified and must be checked; a candidate's ch. 37 placeholder was not supported. Coverage, payment timing and exemptions are not in the documents.",
+    "source_notes": "Official Rent Board current-rates page (D083).",
+    "source_doc_id": "D083",
+    "from_candidates": [
+     "D083:c2",
+     "cell:San Francisco, CA:security_deposits:1"
+    ],
+    "also_supported_by": []
+   },
+   {
+    "candidate_id": "D081:c1",
+    "jurisdiction": "San Francisco, CA",
+    "category": "algorithmic_rent_setting",
+    "status": "in_force",
+    "title": "San Francisco ban on algorithmic rent-setting devices (Rent Ordinance § 37.10C)",
+    "requirement": "The law prohibits the sale or use of algorithmic devices to set rents or manage occupancy levels for residential units in San Francisco. An algorithmic device is a device, such as a software program, that uses algorithms to analyze nonpublic competitor rental data to recommend to a landlord what rent to charge for a vacant unit. A tenant or the City Attorney may bring a civil action. Per a secondary source, tenants may seek damages, injunctive relief and civil penalties of up to $1,000 per violation, and each month of use for each affected unit may be a separate violation.",
+    "key_value": "Ban on sale or use of algorithmic rent-setting devices; civil action by tenant or City Attorney; up to $1,000 per violation, each unit-month potentially separate (per secondary source); effective Oct. 14, 2024",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": false,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Applies to residential units in San Francisco and to sellers and users of qualifying algorithmic devices. No building exemptions are stated. It operates alongside the state Cartwright Act ban on common pricing algorithms (Cal. Bus. & Prof. Code § 16729), which preserves other antitrust law.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": null
+    },
+    "exemptions": null,
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": "2024-10-14",
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "The official Rent Board notice gives October 14, 2024. The Morgan Lewis alert's 'effective October 2024' is consistent.",
+    "effective_date_formula": null,
+    "citation": "S.F. Admin. Code § 37.10C",
+    "citation_aliases": [
+     "S.F. Admin. Code ch. 37",
+     "S.F. Admin. Code § 37.10C(b)",
+     "S.F. Admin. Code § 37.10C(d)",
+     "Rent Ordinance § 37.10C"
+    ],
+    "quoted_span": "adding Section 37.10C to the Rent Ordinance went into effect on October 14, 2024. The law prohibits the sale or use of algorithmic devices to set rents or manage occupancy levels for residential units in San Francisco.",
+    "confidence": 0.88,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "The penalty amount and unit-month rule come only from a secondary law-firm alert (DX06); the ordinance text is not captured. The ordinance is at issue in Gomez v. Greystar Management Services LLC (N.D. Cal.). Enactment date not stated.",
+    "source_notes": "Official Rent Board news item (D081) is primary. Morgan Lewis alert dated Aug. 21, 2026 (DX06) is secondary.",
+    "source_doc_id": "D081",
+    "from_candidates": [
+     "D081:c1",
+     "DX06:c1",
+     "cell:San Francisco, CA:algorithmic_rent_setting:1"
+    ],
+    "also_supported_by": [
+     {
+      "doc_id": "DX06",
+      "quoted_span": "Each month of use for each affected dwelling unit may constitute a separate violation, and tenants may seek damages, injunctive relief, and civil penalties of up to $1,000 per violation."
+     },
+     {
+      "doc_id": "DX06",
+      "quoted_span": "S.F. Admin. Code § 37.10C (effective October 2024)"
+     }
+    ]
+   }
+  ],
+  "dropped_candidates": [
+   {
+    "candidate_id": "cell:San Francisco, CA:screening_restrictions:1",
+    "reason": "The only source is a one-line teaser on the Human Rights Commission page (D078) naming the Fair Chance Ordinance. The ordinance text, limits and dates are not captured, so it is listed under known_gaps instead of as a rule."
+   }
+  ],
+  "known_gaps": [
+   {
+    "category": "screening_restrictions",
+    "law": "San Francisco Fair Chance Ordinance (affordable housing)",
+    "reason": "D078 names the ordinance and says it protects people with arrest or conviction history in affordable housing decisions. Its text, code section, limits and effective date are not in the documents."
+   },
+   {
+    "category": "rent_increase_limits",
+    "law": "Costa-Hawkins Rental Housing Act (state)",
+    "reason": "D079 names it as a basis for exempting tenancies from San Francisco rent limits. Its text and exemption criteria are not captured."
+   },
+   {
+    "category": "just_cause_eviction",
+    "law": "Cal. Civ. Code § 1947.9 (temporary displacement under 20 days)",
+    "reason": "D082 and D083 say it governs relocation for temporary capital improvement evictions under 20 days, and D083 lists $446.00/day. The statute text is not captured."
+   },
+   {
+    "category": "just_cause_eviction",
+    "law": "Ellis Act (state)",
+    "reason": "D079 and D083 refer to Ellis Act withdrawals. The state statute text and San Francisco's § 37.9A procedural requirements are not captured."
+   },
+   {
+    "category": "security_deposits",
+    "law": "San Francisco security deposit interest ordinance",
+    "reason": "D083 publishes the 4.2% rate but does not name the authorizing law. Coverage and payment rules are not captured."
+   }
+  ]
+ }
+}

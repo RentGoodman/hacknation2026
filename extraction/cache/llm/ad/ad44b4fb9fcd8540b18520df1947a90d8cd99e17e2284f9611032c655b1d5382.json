@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "DX12:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 5314,
+  "output_tokens": 698
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "partly_supported",
+    "quoted_span": "Interest Payments on Security Deposits",
+    "note": "D041 only lists interest payments on security deposits as a subject the RSO covers. The detailed requirements (accrual from Nov. 1, 1990, landlord's choice of payment method, written notice, monthly/yearly payment, and that waiting until end of tenancy does not comply) are not in D041. They appear only in the cited secondary source DX12, which is not provided here."
+   },
+   {
+    "field": "key_value",
+    "verdict": "not_supported",
+    "quoted_span": null,
+    "note": "D041 says nothing about monthly accrual, payment methods, written notice, or the 4.320% rate for 2025. These details come from DX12, which is not in the document."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_supported",
+    "quoted_span": null,
+    "note": "The November 1, 1990 date does not appear in D041. It comes from DX12 only."
+   },
+   {
+    "field": "status",
+    "verdict": "partly_supported",
+    "quoted_span": "Interest Payments on Security Deposits",
+    "note": "D041 lists security deposit interest as a current RSO subject on a page last modified Sept. 22, 2026, which implies the rule is in force. It gives no explicit status statement."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "Generally, the RSO applies to rental properties that were first built on or before October 1, 1978, as well as replacement units under",
+    "note": "The cutoff date and replacement-unit coverage match. The luxury exemption is also in D041 (\"A landlord can apply for an exemption from the RSO if they can establish the monthly rent charged on or before May 31, 1978\"). The City of Los Angeles scope is implied by the document."
+   },
+   {
+    "field": "citation",
+    "verdict": "partly_supported",
+    "quoted_span": "LAMC Section 151.28",
+    "note": "D041 mentions the Rent Stabilization Ordinance and LAMC 151.28 (replacement units), and cites other sections such as 151.09.C.9. It does not cite § 151.06.02 for security deposit interest."
+   }
+  ]
+ }
+}

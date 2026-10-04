@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D085:c2",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 4582,
+  "output_tokens": 756
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "After 30 days, an owner shall not terminate a tenancy without just cause, which shall be stated in a written notice.",
+    "note": "Each element of the requirement (at-fault and no-fault causes, cure notice, relocation assistance or rent waiver, owner notice deadlines) matches the document."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "Under a no-fault just cause termination, the owner shall either provide 3 months of relocation assistance or waive payment of rent for the final 3 months of the tenancy.",
+    "note": "The 30 days, cure notice, 3-month relocation or waiver, and 15-year exemption are all stated in the document."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "supported",
+    "quoted_span": "The new ordinances are not effective until November 19, 2021.",
+    "note": "The date 2021-11-19 matches."
+   },
+   {
+    "field": "status",
+    "verdict": "partly_supported",
+    "quoted_span": "The new ordinances are not effective until November 19, 2021.",
+    "note": "The document says the ordinance took effect on Nov 19, 2021, and shows no repeal. That it is still in force is an inference. The page does list 2026 news posts, but they do not address the ordinance's status."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "The Just Cause Ordinance shall not apply to certain types of residential property, including housing produced in the last 15 years; deed-restricted affordable housing; hotel and transient occupancy; hospital and care facilities; dormitories; and other shared living quarters.",
+    "note": "The 30-day threshold and all listed exemptions match. The note that the 15-year reference date is not stated is accurate. The \"including\" wording suggests the list may not be exhaustive, but the record does not claim it is."
+   },
+   {
+    "field": "citation",
+    "verdict": "partly_supported",
+    "quoted_span": "a Just Cause Eviction Ordinance, which limits the allowed reasons for which a renter can be evicted",
+    "note": "The document names the Just Cause Eviction Ordinance and the 2021 effective date. It gives no code section or number, and the \"Santa Ana Just Cause Eviction Ordinance (2021)\" title is a label inferred from the text."
+   }
+  ]
+ }
+}

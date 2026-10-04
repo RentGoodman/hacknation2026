@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "DX06:c14",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 454,
+  "output_tokens": 167
+ },
+ "result": {
+  "en": "Starting January 1, 2027 (not yet in effect), Rockville landlords will not be allowed to use algorithmic devices or shared competitor information to set rent, fees, or other rental terms.",
+  "es": "A partir del 1 de enero de 2027 (todavía no está en vigor), los arrendadores de Rockville no podrán usar dispositivos algorítmicos ni información compartida de competidores para fijar el alquiler, las tarifas u otros términos del arrendamiento."
+ }
+}

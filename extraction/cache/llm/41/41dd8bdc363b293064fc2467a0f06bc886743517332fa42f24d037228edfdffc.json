@@ -1,0 +1,55 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D066:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 74219,
+  "output_tokens": 1426
+ },
+ "result": {
+  "coverage": {
+   "min_units": 3,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": null,
+   "unverifiable_exemptions": [],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Applies to residential rental property for dwelling purposes, except dwelling units in one-family or two-family dwellings. Real Estate Commission licensees are exempt unless they are the landlord.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": null,
+   "other_conditions": "Licensees of the New Jersey Real Estate Commission are exempt unless the licensee is the landlord."
+  },
+  "evidence": [
+   {
+    "field": "min_units",
+    "doc_id": "D066",
+    "quoted_span": "located in a one-family or two-family dwelling that is offered for rent; or"
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D066",
+    "quoted_span": "Commission, unless the licensee is the landlord of the residential rental"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D066",
+    "quoted_span": "to lease or sublease a residential rental property for dwelling purposes, which"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D066",
+    "quoted_span": "located in a one-family or two-family dwelling that is offered for rent; or"
+   }
+  ],
+  "notes": "Coverage is unchanged. min_units=3 is inferred from the exemption in subsection c.(1) for dwelling units in one-family or two-family dwellings, so buildings with three or more units are covered. The Real Estate Commission licensee exemption in subsection c.(2) describes who is covered, not landlord conduct, so it stays in other_conditions. No document says anything about construction dates, owner occupancy beyond the 1-2 family exclusion, landlord size, or how this rule relates to local rules, so those fields stay null."
+ }
+}

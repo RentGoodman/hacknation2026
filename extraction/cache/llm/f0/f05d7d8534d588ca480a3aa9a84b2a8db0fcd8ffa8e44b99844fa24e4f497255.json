@@ -1,0 +1,24 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "date_audit",
+ "subject": "DX01:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 4601,
+  "output_tokens": 418
+ },
+ "result": {
+  "requirement_is_new": true,
+  "in_force_since": null,
+  "in_force_since_evidence": null,
+  "current_version_effective": null,
+  "prior_version_note": null,
+  "effective_date_formula": {
+   "kind": "on_date",
+   "n": null,
+   "anchor": "publication",
+   "anchor_date": null,
+   "verbatim": "This Ordinance shall take effect immediately upon passage and publication as provided by law."
+  }
+ }
+}

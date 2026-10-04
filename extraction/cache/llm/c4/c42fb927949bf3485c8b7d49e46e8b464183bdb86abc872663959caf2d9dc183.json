@@ -1,0 +1,608 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "consolidate",
+ "subject": "NJ",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 108607,
+  "output_tokens": 22624
+ },
+ "result": {
+  "rules": [
+   {
+    "candidate_id": "D065:c1",
+    "jurisdiction": "NJ",
+    "category": "screening_restrictions",
+    "status": "in_force",
+    "title": "Fair Chance in Housing Act: criminal-record screening limits",
+    "requirement": "Housing providers may not put criminal-record questions on an application, or ask about criminal records orally or in writing, before a conditional offer. Two exceptions apply: methamphetamine manufacture on federally assisted premises, and lifetime sex-offender registration. At no stage may a provider evaluate arrests or charges without conviction, expunged convictions, pardoned convictions, vacated convictions, juvenile adjudications or sealed records. After a conditional offer, a provider may consider only: (1) convictions for listed serious crimes or offenses requiring lifetime registration, and (2) indictable offenses within the lookback periods. A conditional offer may be withdrawn only if the provider finds, by a preponderance of the evidence, that withdrawal is necessary to fulfill a substantial, legitimate and nondiscriminatory interest. The provider must first make an individualized assessment. Withdrawal requires written notice giving specific reasons and an opportunity to appeal. The applicant may request, within 30 days, the information the provider relied on, and the provider must supply it free within 10 days. Before accepting any application fee, the provider must disclose in writing whether criminal history is reviewed and that the applicant may submit evidence of inaccuracy, rehabilitation or mitigation. Discriminatory advertising about criminal records is barred, as is misuse or dissemination of records. Drug or alcohol tests, and consent to obtain drug-treatment information, may not be required. Landlords are immune from civil liability for renting to people with records or for not screening. Enforcement is only through complaints to the Division on Civil Rights, not in court. The Division first offers 14-day mediation. Penalties are capped at $1,000, $5,000 or $10,000 depending on prior violations. The director may also order return of the application fee and payment of up to $1,000 to the applicant.",
+    "key_value": "No criminal-record inquiry before conditional offer; lookback 6 yrs (1st degree), 4 yrs (2nd/3rd degree), 1 yr (4th degree); no limit for murder, aggravated sexual assault, kidnapping, arson, human trafficking, listed sex offenses or lifetime registration; records request within 30 days, provided free within 10 days; penalties up to $1,000 / $5,000 / $10,000",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": 4,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Applies to rental dwelling units offered for rent by housing providers for residential purposes. Units in owner-occupied premises of not more than four dwelling units are excluded.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": "Dwelling units in owner-occupied premises of not more than four dwelling units are not 'rental dwelling units'.",
+     "other_conditions": null
+    },
+    "exemptions": "Dwelling units in owner-occupied premises of not more than four dwelling units.",
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": "2022-01-01",
+    "enacted_date": "2021-06-18",
+    "sunset_date": null,
+    "effective_date_note": "Section 14 sets the effective date as the first day of the seventh month after enactment. The act was approved June 18, 2021, so it took effect January 1, 2022.",
+    "effective_date_formula": {
+     "kind": "first_day_of_nth_month_following",
+     "n": 7,
+     "anchor": "enactment",
+     "anchor_date": "2021-06-18",
+     "verbatim": "This act shall take effect on the first day of the\nseventh month next following the date of enactment"
+    },
+    "citation": "N.J.S.A. 46:8-55",
+    "citation_aliases": [
+     "N.J.S.A. 46:8-52 to -64",
+     "N.J.S.A. 46:8-56",
+     "N.J.S.A. 46:8-59",
+     "N.J.S.A. 46:8-63",
+     "P.L.2021, c.110",
+     "S250",
+     "Fair Chance in Housing Act"
+    ],
+    "quoted_span": "shall not make any oral or written inquiry\nregarding an applicant’s criminal record prior to making a conditional offer.",
+    "confidence": 0.92,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "The act also requires a disclosure before any application fee is accepted and allows the fee to be refunded as a remedy. It sets no fee cap, so it is recorded only under screening_restrictions.",
+    "source_notes": "Official chapter law text (D065). The excerpt-based cell candidate is merged here.",
+    "source_doc_id": "D065",
+    "from_candidates": [
+     "D065:c1",
+     "cell:NJ:screening_restrictions:1"
+    ],
+    "also_supported_by": [
+     {
+      "doc_id": "D065",
+      "quoted_span": "or after the issuance of a conditional offer, evaluate an applicant based on"
+     }
+    ]
+   },
+   {
+    "candidate_id": "D066:c1",
+    "jurisdiction": "NJ",
+    "category": "application_screening_fees",
+    "status": "in_force",
+    "title": "Residential rental application fee cap ($50, CPI-adjusted)",
+    "requirement": "A landlord or agent may not require an application or similar fee above $50 to apply to lease or sublease a residential rental property for dwelling purposes. Penalties are up to $500 for a first offense, $750 for a second and $1,000 for each later offense. Penalties are enforced by summary proceedings in the Superior Court, Special Civil Part, on complaint of the Director of Consumer Affairs or the Attorney General. The amount wrongfully charged is paid back to the applicant from the penalty collected. From January 1 of the year after enactment, the cap is adjusted each year by the percent change in CPI-U (New York-Northern New Jersey-Long Island). An adjustment is made only if that change is above zero. The Director publishes the current cap online and must adopt rules, including a way to report violations.",
+    "key_value": "$50 max application fee (CPI adjustment begins January 1, 2027); penalties up to $500 / $750 / $1,000; overcharge remitted to applicant",
+    "coverage": {
+     "min_units": 3,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Applies to residential rental property, except dwelling units in one-family or two-family dwellings. New Jersey Real Estate Commission licensees are not covered unless the licensee is the landlord.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": "Real estate licensees are exempt unless they are the landlord of the property."
+    },
+    "exemptions": "Dwelling units in one-family or two-family dwellings; New Jersey Real Estate Commission licensees unless the licensee is the landlord.",
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": "2026-05-01",
+    "enacted_date": "2026-01-20",
+    "sunset_date": null,
+    "effective_date_note": "Effective on the first day of the fourth month after enactment. The act was approved January 20, 2026, so it took effect May 1, 2026, and is in force on the query date. The first CPI adjustment applies from January 1, 2027, so the cap on the query date is $50.",
+    "effective_date_formula": {
+     "kind": "first_day_of_nth_month_following",
+     "n": 4,
+     "anchor": "enactment",
+     "anchor_date": "2026-01-20",
+     "verbatim": "This act shall take effect on the first day of the\nfourth month next following the date of enactment"
+    },
+    "citation": "N.J.S.A. 46:8-18.1",
+    "citation_aliases": [
+     "N.J.S.A. 46:8-18.2",
+     "P.L.2025, c.405",
+     "A4899"
+    ],
+    "quoted_span": "A landlord, or\nagent thereof, shall not require an application or other similar fee to apply\nto lease or sublease a residential rental property for dwelling purposes, which\nexceeds $50.",
+    "confidence": 0.94,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "From 2027, check the CPI-adjusted cap the Division of Consumer Affairs publishes.",
+    "source_notes": "The cell candidate assumed in_force without a date; the full chapter text gives an effective date of May 1, 2026. The document candidate's not_yet_effective status is corrected because the query date is after the effective date.",
+    "source_doc_id": "D066",
+    "from_candidates": [
+     "D066:c1",
+     "cell:NJ:application_screening_fees:1"
+    ],
+    "also_supported_by": []
+   },
+   {
+    "candidate_id": "D067:c1",
+    "jurisdiction": "NJ",
+    "category": "security_deposits",
+    "status": "in_force",
+    "title": "New Jersey Security Deposit Law",
+    "requirement": "A landlord may collect a security deposit of no more than 1.5 times one month's rent. Any pet deposit and any prepaid rent held as security, including last month's rent, count toward this cap. At lease start, the landlord may require at most 2.5 months' rent: the deposit plus first month's rent. A yearly increase may not exceed 10% of the current deposit. The deposit remains the tenant's property and must be held in trust in an interest-bearing account at an insured New Jersey institution, without commingling. Landlords holding deposits for 10 or more units may instead use certain insured money market funds. Interest belongs to the tenant. Within 30 days of receiving the deposit, and with each annual interest payment, the landlord must give written notice of the institution, amount, account type and rate. If notice or interest is not provided, the tenant may have the deposit plus 7% annual interest applied to rent. Within 30 days after the tenancy ends, the landlord must return the deposit plus interest, less deductions itemized by registered or certified mail. Return is due within 5 business days if the tenant is displaced by fire, flood, condemnation or evacuation. A tenant may sue for double the amount wrongfully withheld, plus costs and attorney's fees.",
+    "key_value": "Max 1.5x monthly rent (2.5x total at lease inception including first month); yearly increase max 10% of current deposit; return within 30 days (5 business days if displaced); double damages for wrongful withholding",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": 3,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": "Landlords holding deposits for fewer than 10 units must use an interest-bearing account at an insured New Jersey bank or savings and loan. Landlords with 10 or more units may use an insured money market fund instead.",
+     "summary": "Applies to most residential rentals, including mobile homes. Owner-occupied two- or three-family dwellings are exempt unless the tenant requests compliance in writing.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": "Owner-occupied two- or three-family dwellings are exempt. The tenant can make the law apply 30 days after a written request to the landlord.",
+     "other_conditions": "The interest-account provisions do not apply to seasonal rentals of 125 consecutive days or less."
+    },
+    "exemptions": "Owner-occupied two- or three-family dwellings (unless the tenant requests coverage in writing); the account provisions do not apply to seasonal rentals.",
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "The guide states no effective date. The law is long-standing and in force.",
+    "effective_date_formula": null,
+    "citation": "N.J.S.A. 46:8-21.2",
+    "citation_aliases": [
+     "N.J.S.A. 46:8-19 to -26",
+     "N.J.S.A. 46:8-19",
+     "N.J.S.A. 46:8-19.1",
+     "N.J.S.A. 46:8-21",
+     "N.J.S.A. 46:8-21.1",
+     "N.J.S.A. 46:8-21.4",
+     "N.J.S.A. 46:8-21.5",
+     "N.J.S.A. 46:8-25",
+     "N.J.S.A. 46:8-26",
+     "Security Deposit Law"
+    ],
+    "quoted_span": "cannot be more than \none and one-half times one month’s rent ( N.J.S.A. 46:8-21.2 ).",
+    "confidence": 0.88,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "Based on the official DCA guide's summary, not the statutory text (statute pages D063/D064 are link-only). The Safe Housing Act's 15-business-day return rule is a separate statute (N.J.S.A. 46:8-9.6) and is only noted here.",
+    "source_notes": "Official DCA Truth in Renting guide (D067). The guide cites case law (Brownstone Arms v. Asher; Reilly v. Weiss) treating prepaid rent as part of the deposit.",
+    "source_doc_id": "D067",
+    "from_candidates": [
+     "D067:c1",
+     "cell:NJ:security_deposits:1"
+    ],
+    "also_supported_by": [
+     {
+      "doc_id": "D067",
+      "quoted_span": "Within 30 days after the termination of a tenancy, a landlord must return the security \ndeposit, plus interest earned less deductions, to the tenant"
+     }
+    ]
+   },
+   {
+    "candidate_id": "D067:c2",
+    "jurisdiction": "NJ",
+    "category": "just_cause_eviction",
+    "status": "in_force",
+    "title": "New Jersey Anti-Eviction Act (good cause eviction)",
+    "requirement": "A landlord may not evict a tenant, or refuse to renew a lease, without good cause. The statutory causes are:\n- nonpayment of rent\n- disorderly conduct\n- property damage\n- substantial breach of rules or lease covenants\n- failure to pay a rent increase that is not unconscionable and complies with local ordinances\n- health and safety removal or government redevelopment\n- permanent retirement from residential use\n- refusal of reasonable lease changes\n- habitual late payment\n- condominium, cooperative or fee-simple conversion\n- owner or buyer occupancy after conversion or in small buildings\n- end of employment-based tenancy\n- certain drug, assault, theft and human-trafficking offenses\n\nA written Notice to Quit is required for every cause except nonpayment. Some causes also require a prior Notice to Cease, which has no statutory period but must allow reasonable time. Only a court judgment and warrant for removal can remove a tenant, and self-help eviction is illegal. Tenants evicted to correct an illegal occupancy are owed relocation assistance of six times monthly rent. Rooming and boarding house owners must follow the same causes and notice rules. They must also give the County Welfare Board 3 working days' notice. Landlords who misuse a unit after an owner-occupancy or retirement eviction face treble damages. Residential reuse within 5 years after a retirement eviction can bring civil penalties up to $10,000.",
+    "key_value": "Notice to Quit periods: 3 days (disorderly conduct, damage, employment end, criminal offenses); 1 month (rule/lease breach, rent increase, lease changes, habitual late payment); 2 months (post-conversion/small-building owner or buyer occupancy); 3 months (health and safety removal); 18 months (retirement from residential use); 3 years (conversion). Relocation assistance for illegal occupancy: 6x monthly rent.",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": 3,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [
+      "Unit held in trust for a developmentally disabled immediate family member who permanently occupies it",
+      "Hotel, motel or guest house rented to a transient or seasonal guest"
+     ],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Applies to most residential rentals, including single-family homes, mobile homes and parks, apartment buildings, and rooming and boarding houses. Owner-occupied two- and three-family dwellings are outside the good-cause list and are subject only to a narrower set of causes.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": "Tenants of owner-occupied two- and three-family dwellings may be removed only for these causes: holdover after lease expiry, nonpayment, disorderly conduct, willful damage, repeated rule violations, or a lease violation where re-entry is reserved. The Notice to Quit is 3 months for at-will or year-to-year tenancies, 1 month for month-to-month tenancies, and 3 days for disorderly, destructive or rule-violation causes.",
+     "other_conditions": "Hotel and motel guests are covered if they have no alternate residence and live there continuously. A landlord who is not properly registered under the landlord registration law cannot obtain an eviction until it complies."
+    },
+    "exemptions": "Transient or seasonal hotel, motel and guest-house guests; units held in trust for a developmentally disabled family member; owner-occupied two- and three-family dwellings are subject only to a narrower list of causes.",
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "The guide states no effective date. The act (P.L.1974, c.49) is in force.",
+    "effective_date_formula": null,
+    "citation": "N.J.S.A. 2A:18-61.1",
+    "citation_aliases": [
+     "N.J.S.A. 2A:18-61.1 to -61.12",
+     "N.J.S.A. 2A:18-53",
+     "N.J.S.A. 2A:18-61.2",
+     "N.J.S.A. 2A:18-61.3",
+     "N.J.S.A. 2A:18-61.6",
+     "P.L.1974, c.49",
+     "Anti-Eviction Act"
+    ],
+    "quoted_span": "A landlord must have \ngood cause to evict a tenant (N.J.S.A. 2A:18-53).",
+    "confidence": 0.88,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "The guide's exceptions paragraph is worded ambiguously (\"two- or three-unit owner-occupied premises with two (2) or fewer rental units\"). The coverage description uses the later section on owner-occupied two- and three-family dwellings. The statute text (D062) is link-only, so check it.",
+    "source_notes": "Official DCA guide (D067), a secondary summary of the statutes. The cell candidate's truncated view is superseded by the full guide.",
+    "source_doc_id": "D067",
+    "from_candidates": [
+     "D067:c2",
+     "cell:NJ:just_cause_eviction:1"
+    ],
+    "also_supported_by": []
+   },
+   {
+    "candidate_id": "D067:c3",
+    "jurisdiction": "NJ",
+    "category": "just_cause_eviction",
+    "status": "in_force",
+    "title": "Foreclosure tenant protections and notices (Foreclosure Fairness Act)",
+    "requirement": "Foreclosure alone is not grounds for eviction. A buyer of a foreclosed property who wants to live in it as a primary residence must give a 90-day notice to quit. A tenant whose lease runs longer than 90 days cannot be evicted until the lease expires. Within 10 business days after the sale, anyone who acquires a foreclosed property with rental units must give tenants a notice in English and Spanish. The notice states that ownership has changed and that tenants need not move. In buildings with more than 10 units, the notice is posted in a prominent location instead. Foreclosing creditors must give the court-rule notice of tenant rights. Any money offer to get tenants to leave must come with a separate notice and a five-day review period. Pressure tactics are barred, including harassment and unconscionable rent increases.",
+    "key_value": "90-day notice to quit; tenant notice within 10 business days after sale (English and Spanish); 5-day review period for buyout offers",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Applies to residential rental units in foreclosed properties. Month-to-month tenants and owner-occupied two- and three-family units are not exempt from the 90-day notice. Buildings with more than 10 units use posted notice.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": "Triggered only by foreclosure and the sale or transfer of the property."
+    },
+    "exemptions": null,
+    "event_only": true,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "The guide states no effective date.",
+    "effective_date_formula": null,
+    "citation": "N.J.S.A. 2A:50-70",
+    "citation_aliases": [
+     "N.J.S.A. 2A:50-69 et seq.",
+     "N.J.S.A. 2A:50-69",
+     "N.J.S.A. 2A:50-71",
+     "New Jersey Foreclosure Fairness Act"
+    ],
+    "quoted_span": "Foreclosure alone is not grounds for eviction in New Jersey.",
+    "confidence": 0.78,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "The guide cites no specific statute for the 90-day notice to quit; it relies on Chase Manhattan Bank v. Josephson. The citation reflects the Foreclosure Fairness Act sections named for the notice duties.",
+    "source_notes": "Official DCA guide (D067), a secondary summary.",
+    "source_doc_id": "D067",
+    "from_candidates": [
+     "D067:c3"
+    ],
+    "also_supported_by": []
+   },
+   {
+    "candidate_id": "D067:c4",
+    "jurisdiction": "NJ",
+    "category": "just_cause_eviction",
+    "status": "in_force",
+    "title": "Reprisal protections for tenants",
+    "requirement": "A landlord may not retaliate against a tenant by eviction, substantial alteration of the lease or its terms, or refusal to renew. This protection applies when the tenant does any of the following:\n- enforces rights under the lease or the law\n- makes a good-faith complaint to a government authority, after first notifying the landlord in writing and allowing reasonable time to fix the problem\n- organizes or joins a lawful tenant organization\n- refuses lease changes made in retaliation\n\nThe tenant may sue for damages.",
+    "key_value": null,
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": 3,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Applies to all rental properties used for dwelling purposes, including mobile homes, except owner-occupied two- or three-family dwellings.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": "Owner-occupied two- or three-family dwellings are exempt.",
+     "other_conditions": null
+    },
+    "exemptions": "Owner-occupied two- or three-family dwellings",
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "The guide states no effective date.",
+    "effective_date_formula": null,
+    "citation": "N.J.S.A. 2A:42-10.10",
+    "citation_aliases": [
+     "N.J.S.A. 2A:42-10.10 et seq.",
+     "Reprisal law"
+    ],
+    "quoted_span": "A landlord cannot take reprisal action against a tenant by eviction, substantial alteration of \na lease or its terms, or refusal to renew a lease when a tenant exercises certain civil rights (N.J.S.A. \n2A:42-10.10).",
+    "confidence": 0.82,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": null,
+    "source_notes": "Official DCA guide (D067), a secondary summary of the statute.",
+    "source_doc_id": "D067",
+    "from_candidates": [
+     "D067:c4"
+    ],
+    "also_supported_by": []
+   },
+   {
+    "candidate_id": "D067:c5",
+    "jurisdiction": "NJ",
+    "category": "just_cause_eviction",
+    "status": "in_force",
+    "title": "Senior Citizens and Disabled Protected Tenancy Act (condominium/cooperative conversion protections)",
+    "requirement": "When a building is converted to condominium, cooperative or fee-simple ownership, qualifying tenants may obtain protected tenancy, which protects them from eviction for up to 40 years. Qualifying tenants are those aged 62 or older before the conversion recording date, permanently disabled tenants, or service-disabled veterans rated 60% or higher. They must have lived in the building at least one year before the recording date. Family income must not exceed three times the county average per-person income or $50,000, whichever is greater. The landlord or converter must notify tenants of the right to apply. Applications are generally due within 60 days. For all tenants in a converting building, whether protected or not, rents may not be raised to cover costs that result solely from the conversion. Increases for new services or amenities remain allowed.",
+    "key_value": "Protected tenancy up to 40 years; income limit 3x county average per-person income or $50,000, whichever is greater; applications generally within 60 days; no rent increase to cover costs resulting solely from conversion",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": true,
+     "unverifiable_exemptions": [
+      "Tenant eligibility: age 62 or older before the recording date, permanent disability, or disabled-veteran status",
+      "Income eligibility test"
+     ],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Applies to tenants in buildings being converted to condominium, cooperative or fee-simple ownership. Protected tenancy requires age, disability or veteran eligibility, one year of residence and an income test. The bar on conversion-cost rent increases covers all tenants in the building.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": "Triggered only by a conversion. Protected tenants must have lived in the building at least one year before the conversion recording date."
+    },
+    "exemptions": "Rent increases to cover new services or amenities are not barred.",
+    "event_only": true,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "The guide states no effective date.",
+    "effective_date_formula": null,
+    "citation": "N.J.S.A. 2A:18-61.22",
+    "citation_aliases": [
+     "N.J.S.A. 2A:18-61.22 to -61.39",
+     "N.J.S.A. 2A:18-61.28",
+     "N.J.S.A. 2A:18-61.31",
+     "N.J.A.C. 5:24-2.1 to -2.11",
+     "Senior Citizens and Disabled Protected Tenancy Act"
+    ],
+    "quoted_span": "The Senior Citizens and Disabled Protected Tenancy Act protects senior citizens who meet \ncertain eligibility requirements (N.J.S.A. 2A:18-61.22 to -61.39; N.J.A.C. 5:24-2.1 to -2.11).",
+    "confidence": 0.78,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "The conversion-cost rent bar (N.J.S.A. 2A:18-61.31) is part of this Act and is triggered only by conversion. It is therefore event_only and placed here, not in rent_increase_limits. The State has no general rent cap. The separate Hudson County Tenant Protection Act of 1992 is listed under known_gaps.",
+    "source_notes": "Official DCA guide (D067), a secondary summary. The quoted conversion span reproduces the source's spacing typo (\"cos ts\").",
+    "source_doc_id": "D067",
+    "from_candidates": [
+     "D067:c5",
+     "D067:c6",
+     "cell:NJ:rent_increase_limits:1"
+    ],
+    "also_supported_by": [
+     {
+      "doc_id": "D067",
+      "quoted_span": "rents may not be increased to cover cos ts resulting solely from the \nconversion (N.J.S.A. 2A:18-61.31)."
+     }
+    ]
+   },
+   {
+    "candidate_id": "D068:c1",
+    "jurisdiction": "NJ",
+    "category": "screening_restrictions",
+    "status": "in_force",
+    "title": "NJ Law Against Discrimination: source of lawful income and other protected characteristics in rental housing",
+    "requirement": "The Law Against Discrimination bars housing discrimination, including refusal to rent, based on source of lawful income or source of lawful rent or mortgage payment. It also bars discrimination on race, creed, color, national origin, ancestry, sex, marital, civil union or domestic partnership status, familial status, affectional or sexual orientation, gender identity or expression, disability and nationality. For example, a landlord cannot deny a Section 8 voucher holder an apartment based solely on that source of income. Discriminatory advertising is barred. A landlord may still refuse for insufficient income, an oversized family, an occupancy that would violate zoning, or poor credit history. Complaints may be filed free with the Division on Civil Rights within 180 days, or in Superior Court within two years. Fines run up to $10,000 for a first offense.",
+    "key_value": "Source-of-lawful-income protection (e.g., Section 8 vouchers); DCR complaint within 180 days or Superior Court within 2 years; fines up to $10,000 for a first offense",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": 2,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [
+      "Rental of a room or rooms by the owner or occupant of an owner-occupied one-family dwelling",
+      "Preference for persons of the same religion by a religious organization",
+      "Single-sex residences and housing for older persons (as to familial status)"
+     ],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Applies to the sale or rental of all property except the listed exemptions. The main exemption is a single apartment in a two-family dwelling whose other unit the owner occupies.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": "Exempt: rental of a single apartment in a two-family dwelling whose other unit the owner occupies as a residence at the time of rental; rooms in an owner- or resident-occupied single home.",
+     "other_conditions": null
+    },
+    "exemptions": "Single apartment in an owner-occupied two-family dwelling; rooms in an owner-occupied one-family dwelling; religious-organization preference; housing for older persons as to familial status.",
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "Neither source states an effective date for the source-of-income provision. The protection is long-standing and in force.",
+    "effective_date_formula": null,
+    "citation": "N.J.S.A. 10:5-12(g)",
+    "citation_aliases": [
+     "N.J.S.A. 10:5-1 et seq.",
+     "N.J.S.A. 10:5-12(g) to -(h)",
+     "N.J.S.A. 10:5-5(n)",
+     "N.J.S.A. 10:5-14.1a(a)",
+     "Law Against Discrimination",
+     "LAD"
+    ],
+    "quoted_span": "This\nmeans, for example, that a landlord cannot deny the\nlawful recipient of a Section 8 HUD voucher the right to\nrent an apartment based solely on that source of lawful\nincome.",
+    "confidence": 0.8,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "Both sources are official summaries: a DCR brochure rev. 06.18.15 and the DCA guide. Neither gives the section number for source of income. The DCA guide ties the owner-occupied exemptions to familial status, while the DCR brochure states them generally. Check against the statute (D061 is link-only) whether they apply to source-of-income claims.",
+    "source_notes": "The DCR brochure (D068) notes that the Division does not handle ordinary landlord-tenant disputes such as evictions.",
+    "source_doc_id": "D068",
+    "from_candidates": [
+     "D068:c1",
+     "D067:c7",
+     "cell:NJ:screening_restrictions:2"
+    ],
+    "also_supported_by": [
+     {
+      "doc_id": "D068",
+      "quoted_span": "on the source of lawful income or source of lawful rent"
+     },
+     {
+      "doc_id": "D067",
+      "quoted_span": "nationality, or source of lawful income."
+     }
+    ]
+   },
+   {
+    "candidate_id": "D069:c1",
+    "jurisdiction": "NJ",
+    "category": "algorithmic_rent_setting",
+    "status": "not_yet_effective",
+    "title": "Forbidding the Algorithmic Inflation of Rent (FAIR) Act",
+    "requirement": "The act makes the following unlawful, each as a violation of the New Jersey Antitrust Act:\n- for a rental property owner or its agent or subcontractor to pay for, subscribe to or contract for a coordinator's services\n- for a coordinator to facilitate an agreement among owners that restricts competition, including by performing a coordinating function\n- for two or more persons to engage in or facilitate parallel pricing coordination\n- for a coordinator's agents to engage in parallel pricing coordination\n- for any person to perform a coordinating function\n\nA coordinating function means algorithmic or automated setting or recommending of rents, material lease terms or occupancy levels that either (1) uses nonpublic, competitively sensitive information of other owners, or (2) applies a common algorithm for two or more owners in a way that facilitates parallel pricing.\n\nAntitrust Act remedies (C.56:9-6 to 9-17) apply. The Attorney General must set up a complaint location and may adopt rules. Municipalities may not enact conflicting ordinances.",
+    "key_value": "Effective July 1, 2027; violations treated as New Jersey Antitrust Act violations; municipal ordinances that conflict with the act are prohibited",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": false,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": true,
+     "landlord_size_condition": "Applies to any rental property owner owning, directly or indirectly, one or more rental residential dwelling units.",
+     "summary": "Covers residential dwelling units (houses, apartments, accessory units and other primary residences) in New Jersey. Inpatient medical care, licensed long-term care and detention or correctional facilities are excluded.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": "The following are not algorithmic devices: spreadsheets that run without AI and require human analysis, and databases that only query unprocessed data. The following are not coordinating functions: research, statistical or testing uses not used to set rents; free public rent estimates; equal-terms brokerage listing databases that neither set nor recommend rents; and government affordability controls."
+    },
+    "exemptions": "Non-AI spreadsheets requiring human analysis; query-only databases; research or testing uses not used for pricing; free public rent estimates; equal-terms brokerage databases; government affordability controls. Residential dwelling unit excludes inpatient medical care, licensed long-term care and detention facilities.",
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": "2027-07-01",
+    "enacted_date": "2026-07-20",
+    "sunset_date": null,
+    "effective_date_note": "Approved July 20, 2026, and effective on the first day of the twelfth month after enactment, which is July 1, 2027. The act is not yet effective on the query date.",
+    "effective_date_formula": {
+     "kind": "first_day_of_nth_month_following",
+     "n": 12,
+     "anchor": "enactment",
+     "anchor_date": "2026-07-20",
+     "verbatim": "This act shall take effect on the first day of\nthe twelfth month next following the date of enactment."
+    },
+    "citation": "P.L.2026, c.43",
+    "citation_aliases": [
+     "N.J.S.A. 56:9-20 to -26",
+     "C.56:9-20 to 56:9-26",
+     "P.L. 2026, c.043",
+     "A3497",
+     "Assembly Committee Substitute for Assembly, No. 3497 (First Reprint)",
+     "FAIR Act",
+     "Forbidding the Algorithmic Inflation of Rent Act"
+    ],
+    "quoted_span": "It\nshall be unlawful and a violation of the “New Jersey Antitrust Act,” P.L.1970,\nc.73 (C.56:9-1 et seq.) for:",
+    "confidence": 0.93,
+    "conflict_flag": true,
+    "conflict_note": "Organizer open question: New Jersey's FAIR Act may preempt the Jersey City (§ 218-12) and Hoboken (§ 158-2) algorithmic rent-fixing ordinances once it takes effect. Section 6(b) prohibits municipal ordinances that conflict with the act, but it names no cities. Whether those in-force ordinances conflict is unresolved.",
+    "review_note": "The codified sections are given only as the range C.56:9-20 to 56:9-26, so the session law is used as the primary citation.",
+    "source_notes": "The secondary Day Pitney alert (DX16) gives July 1, 2027, which matches the date computed from the official text. The cell candidate's in_force status was an assumption and is corrected to not_yet_effective.",
+    "source_doc_id": "D069",
+    "from_candidates": [
+     "D069:c1",
+     "DX16:c1",
+     "cell:NJ:algorithmic_rent_setting:1"
+    ],
+    "also_supported_by": [
+     {
+      "doc_id": "DX16",
+      "quoted_span": "The FAIR Act takes effect on July 1, 2027, providing affected property owners, managers, and software providers time to review and, if necessary, modify their pricing practices before the law becomes effective."
+     },
+     {
+      "doc_id": "DX16",
+      "quoted_span": "The FAIR Act prohibits residential rental property owners from using algorithmic revenue management software that collects or processes competitors' nonpublic leasing information to set or recommend rental prices."
+     }
+    ]
+   }
+  ],
+  "dropped_candidates": [],
+  "known_gaps": [
+   {
+    "category": "just_cause_eviction",
+    "law": "Tenant Protection Act of 1992 (N.J.S.A. 2A:18-61.40 to -61.59; N.J.A.C. 5:24-3.1 to -3.4)",
+    "reason": "A separate statute extending conversion protected tenancy to qualified tenants in qualified counties (currently only Hudson County). D067 mentions it only briefly and its text is not captured, so no record was created. It was removed from the Senior Citizens and Disabled Protected Tenancy Act record."
+   },
+   {
+    "category": "rent_increase_limits",
+    "law": "Newly Constructed Multiple Dwellings Law (N.J.S.A. 2A:42-84.5)",
+    "reason": "D067 says this law exempts new multiple dwellings from local rent control for 30 years after construction. It does not cap rents itself, so it belongs as new_construction_exemption coverage on municipal rent control records, not as a state record. New Jersey has no state rent cap per D067."
+   }
+  ]
+ }
+}

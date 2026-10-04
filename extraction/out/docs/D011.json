@@ -1,0 +1,9 @@
+{
+  "doc_id": "D011",
+  "source_url": "https://malegislature.gov/Bills/193/H3744",
+  "model": "anthropic:claude-sonnet-5-5",
+  "query_date": "2026-10-01",
+  "chunks": 1,
+  "rules": [],
+  "rejected": []
+}

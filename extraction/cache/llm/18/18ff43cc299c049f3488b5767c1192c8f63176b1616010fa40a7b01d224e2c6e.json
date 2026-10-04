@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D014:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 4744,
+  "output_tokens": 756
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "partly_supported",
+    "quoted_span": "The HSNA requires that landlords give this Notice of Tenants’ Rights and Resources\nto tenants when the landlord starts the eviction process, or when the landlord\ndecides to not offer the tenant a renewal of their lease agreement.",
+    "note": "The core delivery duties, foreclosure buyer duty, copy to the City, non-waiver, enforcement and non-halting of eviction are all in D014. However, the claims that the current city page uses an online portal (D013) and that the Act does not list allowed eviction causes or provide relocation assistance are not stated in D014."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "2nd and Subsequent Offenses: $300 per day",
+    "note": "The warning for a first offense, the $300 per day for later offenses, ISD enforcement, non-waivability, the copy to the City and the statement that eviction is not halted are all in D014."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "supported",
+    "quoted_span": "The HSNA becomes effective on November 6, 2020.",
+    "note": "The document also says the ordinance was passed in October 2020, which matches the enacted_date and the effective_date_note."
+   },
+   {
+    "field": "status",
+    "verdict": "partly_supported",
+    "quoted_span": "The HSNA becomes effective on November 6, 2020.",
+    "note": "D014 is a November 2020 FAQ. It shows the rule took effect but says nothing about whether it is still in force today."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "The Ordinance applies to all landlords/foreclosing owners intending to end a\ntenancy or post-foreclosure occupancy of a unit in the City of Boston.",
+    "note": "The two exemptions (health facilities and non-profit substance-abuse treatment facilities) are stated, and no size threshold appears."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "Housing Stability Notification Act (Sec. 10-11.7)",
+    "note": "The section number is supported by the enforcement table. The aliases HSNA and Housing Stability Notification Act appear in the document. The 'Boston City Code' prefix and the chapter 10-11 alias are not stated in the document."
+   }
+  ]
+ }
+}

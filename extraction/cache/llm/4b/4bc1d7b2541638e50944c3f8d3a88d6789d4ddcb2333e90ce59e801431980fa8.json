@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D083:c2",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 3485,
+  "output_tokens": 686
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "partly_supported",
+    "quoted_span": "Security Deposit Interest:\n4.2% for March 1, 2026 – February 28, 2027",
+    "note": "The page supports the rates (4.2%, 5.0%, 5.2%) and the periods. It does not state that landlords must pay interest on deposits, nor that the Rent Board publishes the rate, so the obligation itself is only implied by the rate table."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "March 1, 2026 – February 28, 2027\n4.2%\nMarch 1, 2025 – February 28, 2026\n5.0%\nMarch 1, 2024 – February 28, 2025\n5.2%",
+    "note": "The current rate and both prior rates match the security deposit interest table."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "supported",
+    "quoted_span": "4.2% for March 1, 2026 – February 28, 2027",
+    "note": "The 4.2% rate starts March 1, 2026. The document does not say it resets annually, but the successive annual periods in the table imply it."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "For March 1, 2026 - February 28, 2027\nAllowable Rent Increase:",
+    "note": "The page presents these as the current rates, so in_force is consistent with it. The period covers the present rate."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "4.2% for March 1, 2026 – February 28, 2027",
+    "note": "The coverage summary says the page gives only the rate and no information on covered buildings, units, owners or exemptions. The document confirms this, and all other coverage fields are null."
+   },
+   {
+    "field": "citation",
+    "verdict": "not_supported",
+    "quoted_span": null,
+    "note": "The document never mentions S.F. Admin. Code ch. 49 or any legal authority for the security deposit interest requirement. The only code references are Rent Ordinance Sections 37.9A and 37.9C, which relate to relocation payments, and Civil Code 1947.9."
+   }
+  ]
+ }
+}

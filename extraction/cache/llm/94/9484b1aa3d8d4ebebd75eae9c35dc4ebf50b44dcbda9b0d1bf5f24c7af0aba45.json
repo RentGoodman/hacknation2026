@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D045:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 1291,
+  "output_tokens": 512
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "An Act relative to preventing algorithmic rent fixing in the rental housing market",
+    "note": "Title, committee (House Committee on Ways and Means), and absence of bill text all match the document. The requirement correctly states that conduct, penalties and software are not given."
+   },
+   {
+    "field": "key_value",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "Field is null and the document states no numeric or key value."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "Field is null and the document states no effective date."
+   },
+   {
+    "field": "status",
+    "verdict": "partly_supported",
+    "quoted_span": "House Committee on Ways and Means",
+    "note": "The document shows the bill in the 194th (Current) session and in committee, consistent with pending. The word 'pending' and any enactment status are not stated explicitly."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "An Act relative to preventing algorithmic rent fixing in the rental housing market",
+    "note": "The coverage summary says covered buildings, units and owners are not stated, and the document gives only the title, committee and actions. All other coverage fields are null, which fits."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "Bill H.5222",
+    "note": "H.5222 is confirmed. The alias H.1564 appears as 'H1564' in the action list, and the document does not explain its relation to H.5222. The record's review note acknowledges this uncertainty."
+   }
+  ]
+ }
+}

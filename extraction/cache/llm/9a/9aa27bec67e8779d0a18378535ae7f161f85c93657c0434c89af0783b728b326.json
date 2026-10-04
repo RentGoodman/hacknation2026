@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D006:c2",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 8892,
+  "output_tokens": 911
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "partly_supported",
+    "quoted_span": "tenants in units that are fully or partially covered by the Rent Ordinance cannot be evicted unless there is \"just cause” (previously called “good cause”).",
+    "note": "Just cause, nonpayment threshold, lease signing, lease breach elements, Rent Board notice statement, 3-business-day filing, Notice of Tenant Rights and annual inflation adjustment are supported by D006. The posting requirement is slightly broader in D006 (interior common area). The $19,413 and $6,471 relocation amounts are not in D006; they come from D004, which is not in the supplied document."
+   },
+   {
+    "field": "key_value",
+    "verdict": "partly_supported",
+    "quoted_span": "The landlord must file with the Rent Board a copy of any notice to terminate a tenancy, notice to quit, and summons and complaint no later than three business days after the tenant was served with the document.",
+    "note": "Nonpayment threshold of one month FMR, the 3-business-day filing and the 15-day notice for tenancies from Dec. 20, 2024 are supported. The $19,413 / $6,471 amounts and the 1.5% CPI adjustment are not in D006."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The rule's effective_date is empty. D006 gives no original enactment date for the just cause requirement. It says only that Measure BB passed in November 2024."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "tenants in units that are fully or partially covered by the Rent Ordinance cannot be evicted unless there is \"just cause”",
+    "note": "The document describes the requirement in the present tense as current law, consistent with in_force. Measure BB changes are presented as already in effect."
+   },
+   {
+    "field": "coverage",
+    "verdict": "partly_supported",
+    "quoted_span": "Where the tenant shares a kitchen or bath facilities with the landlord, the unit will be exempt from the Rent Ordinance only if the landlord lived in a unit on the same property at the start of the tenancy.",
+    "note": "D006 supports coverage of fully or partially covered units, including new construction, single-family homes, condominiums and government-subsidized units, and the shared kitchen/bath condition. The Golden Duplex, ADU, university and nonprofit cooperative exemptions are not in D006. They would come from D009, which is not in the supplied document."
+   },
+   {
+    "field": "citation",
+    "verdict": "not_supported",
+    "quoted_span": null,
+    "note": "D006 never cites Berkeley Mun. Code § 13.76.130 or any section number. It refers only to the 'Rent Ordinance' and 'Measure BB'. The review_note concedes the section is inferred."
+   }
+  ]
+ }
+}

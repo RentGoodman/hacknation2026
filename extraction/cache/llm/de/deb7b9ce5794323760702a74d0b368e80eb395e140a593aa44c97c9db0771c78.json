@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D066:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 3272,
+  "output_tokens": 1686
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "shall not require an application or other similar fee to apply",
+    "note": "The $50 cap, penalty tiers, Special Civil Part enforcement, remittance to the applicant, CPI adjustment and rulemaking duty all appear in the text. The Treasurer determines the adjustment amount and the Director applies it and publishes it; the requirement text leaves this detail out."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "first offense, up to $750 for a second offense, and up to $1,000 for each",
+    "note": "The $50 cap and the $500/$750/$1,000 penalties match. The adjustment starts January 1 of the year after enactment (2026), so 2027, and uses the CPI."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "supported",
+    "quoted_span": "fourth month next following the date of enactment",
+    "note": "Approved January 20, 2026. The first day of the fourth month following is May 1, 2026."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "fourth month next following the date of enactment",
+    "note": "The act took effect May 1, 2026, so it is in force once that date has passed. The document gives no query date."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "located in a one-family or two-family dwelling that is offered for rent; or",
+    "note": "One- and two-family dwellings are exempt, so min_units 3 is a fair reading. The Real Estate Commission licensee exemption, unless the licensee is the landlord, also matches."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "C.46:8-18.1",
+    "note": "The document gives C.46:8-18.1 (N.J.S.A. 46:8-18.1), P.L.2025, c.405, A4899, and C.46:8-18.2 for the rulemaking section."
+   }
+  ]
+ }
+}

@@ -1,0 +1,40 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "DX06:c14",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 11042,
+  "output_tokens": 1605
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": null,
+   "unverifiable_exemptions": [],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Applies to landlords generally. The only available source, a secondary law-firm alert, describes the Rockville provision in one line. It states no unit-count, construction-date, owner-occupancy or landlord-size limits and no exemptions.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": null,
+   "other_conditions": null
+  },
+  "evidence": [
+   {
+    "field": "summary",
+    "doc_id": "DX06",
+    "quoted_span": "Prohibits landlords from using algorithmic devices and shared competitor information to set rent, fees, or other rental terms."
+   }
+  ],
+  "notes": "DX06 gives Rockville a single summary-table row with no coverage limits or exemptions, so all specific coverage fields remain null. The 16-or-more-units owner condition in the table belongs to Portland, OR, not Rockville. The pending Montgomery County, MD measure is a different jurisdiction. Verify coverage against the official Rockville City Code § 18-148."
+ }
+}

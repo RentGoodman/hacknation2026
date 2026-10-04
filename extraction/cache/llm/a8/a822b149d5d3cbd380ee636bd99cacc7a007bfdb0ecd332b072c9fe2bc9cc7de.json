@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D053:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 729,
+  "output_tokens": 360
+ },
+ "result": {
+  "en": "Massachusetts landlords may not threaten or take reprisals against a tenant for protected activity like reporting code violations or joining a tenants' union, and a termination notice (other than for nonpayment), rent increase, or major change in terms within 6 months is presumed to be reprisal unless the landlord proves otherwise by clear and convincing evidence, with damages of 1 to 3 months' rent or actual damages, whichever is greater, plus costs and attorney's fees.",
+  "es": "En Massachusetts, los propietarios no pueden amenazar ni tomar represalias contra un inquilino por actividades protegidas, como denunciar infracciones al código o unirse a un sindicato de inquilinos, y un aviso de terminación (salvo por falta de pago), un aumento de renta o un cambio importante en las condiciones dentro de 6 meses se presume represalia a menos que el propietario lo refute con evidencia clara y convincente, con daños de 1 a 3 meses de renta o los daños reales, el que sea mayor, más costos y honorarios de abogado."
+ }
+}

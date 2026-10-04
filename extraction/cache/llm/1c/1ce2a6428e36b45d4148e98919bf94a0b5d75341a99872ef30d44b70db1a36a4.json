@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D031:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 4712,
+  "output_tokens": 776
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "For new tenancies, the Guide must be provided when a tenant signs a lease or enters into a tenancy agreement for the first time or tenders the first month’s rent. The Ordinance also requires that a landlord provide the Guide to tenants when legal steps to terminate a tenancy are taken (ex. Notice to Quit or Summary Process).",
+    "note": "All elements are in the FAQ: no renewal requirement, tenants at will covered, no signed receipt, eviction not barred, $300 per day fine, and the Guide offered at the same time as a notice to quit."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "You may be fined $300 for each day’s violation.",
+    "note": "Guide timing at start and at termination steps is also supported by the FAQ. The fine is stated as 'may be fined'."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The field is empty and the document gives no adoption or effective date. Only the page posting and modification dates appear."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "The Ordinance requires owners, landlords, and management companies to provide you with information at the start of your lease or tenancy as well as when your tenancy is being terminated.",
+    "note": "The present-tense description and the FAQ's ongoing compliance and penalty language indicate the ordinance is in force."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "Yes, this Ordinance does NOT apply to: rental units in a hospital, skilled nursing facility or health facility or in a non-profit facility that has the primary purpose of providing short term assistance, treatment, assistance or therapy for alcohol, drug or other substance abuse.",
+    "note": "The single-unit owner-occupant coverage and the Short Term Rental Units exclusion under Art. 4, § 4.60 are also stated in the document."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "The City of Cambridge Tenants Rights and Resources Ordinance, Chapter 8.71 of the Cambridge Municipal Code",
+    "note": "The document also names Sec 8.71.030 (definition) and Section 8.71.070 (Violation Penalty), matching the aliases."
+   }
+  ]
+ }
+}

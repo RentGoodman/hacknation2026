@@ -1,0 +1,50 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D083:c4",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 10639,
+  "output_tokens": 1621
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": null,
+   "unverifiable_exemptions": [],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Applies to tenants of San Francisco rental units covered by the Rent Ordinance's eviction provisions when all rental units in the building are withdrawn from the rental market under the state Ellis Act. Newly constructed units that first obtained a Certificate of Occupancy after June 13, 1979 are exempt from rent increase limits but remain subject to the eviction provisions.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": null,
+   "other_conditions": null
+  },
+  "evidence": [
+   {
+    "field": "summary",
+    "doc_id": "D082",
+    "quoted_span": "Relocation payments for tenants evicted under the Ellis Act"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D079",
+    "quoted_span": "To withdraw all rental units in a building from the rental market under the state"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D079",
+    "quoted_span": "This includes tenancies in newly constructed rental units that first obtained a Certificate of Occupancy after June 13, 1979"
+   }
+  ],
+  "notes": "I rewrote the summary to describe covered units and the triggering event. I dropped the clause that the amount is fixed by the notice-service date, because that concerns payment amount, not coverage. No document states a unit-count threshold, a construction cutoff, or an owner-occupancy exemption for Ellis Act relocation payments. D079 indicates that post-6/13/1979 new construction remains subject to the Ordinance's eviction provisions, so no construction_cutoff was set. requires_unknown_facts is left null because no passage directly addresses it. The rule appears to cover ordinary rental buildings, so it would likely be false. The § 37.9A citation rests only on the D083 link label."
+ }
+}

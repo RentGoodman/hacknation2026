@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D016:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 671,
+  "output_tokens": 279
+ },
+ "result": {
+  "en": "In California, housing providers and tenant screening companies may check your criminal history, but they cannot use arrests without conviction, sealed or expunged records, or juvenile records, cannot have blanket bans, and can deny you over a conviction only if it is directly related to being a good tenant and not a threat to the health and safety of others and the property.",
+  "es": "En California, los proveedores de vivienda y las empresas de evaluación de inquilinos pueden revisar sus antecedentes penales, pero no pueden usar arrestos sin condena, registros sellados o eliminados, ni registros de menores, no pueden aplicar prohibiciones generales, y solo pueden negarle la vivienda por una condena si está directamente relacionada con ser buen inquilino y no es una amenaza para la salud y seguridad de otras personas y la propiedad."
+ }
+}

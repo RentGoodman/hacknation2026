@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D051:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 2175,
+  "output_tokens": 624
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "Estates at will may be determined by either party by three months' notice in writing for that purpose given to the other party; and, if the rent reserved is payable at periods of less than three months, the time of such notice shall be sufficient if it is equal to the interval between the days of payment or thirty days, whichever is longer.",
+    "note": "All elements (3 months, shorter intervals, 14-day nonpayment notice, 10-day cure, notification, extension, 7-day continuance) are in the text."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "fourteen days' notice to quit, given in writing by the landlord to the tenant, shall be sufficient to determine the tenancy",
+    "note": "Summary matches the statute: 3 months, interval/30 days, 14 days, 10-day cure once per 12 months, mandatory notification text."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "Field is empty and the document states no effective date."
+   },
+   {
+    "field": "status",
+    "verdict": "partly_supported",
+    "quoted_span": "Estates at will may be determined by either party by three months' notice in writing for that purpose given to the other party;",
+    "note": "The document presents the section as operative general law text, but contains no explicit statement of current in-force status."
+   },
+   {
+    "field": "coverage",
+    "verdict": "partly_supported",
+    "quoted_span": "Estates at will may be determined by either party by three months' notice in writing for that purpose given to the other party;",
+    "note": "Applies to estates at will, and no unit, age or owner limits appear. However, the statement that tenancies under a written lease are not covered is not stated in the document."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "General Law - Part II, Title I, Chapter 186, Section 12",
+    "note": "Matches G.L. c. 186, § 12."
+   }
+  ]
+ }
+}

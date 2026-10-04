@@ -1,0 +1,119 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D024:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 45639,
+  "output_tokens": 4583
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": {
+    "years": 15,
+    "basis": "certificate of occupancy issued within the previous 15 years (rolling; mobilehomes not exempt on this basis)",
+    "requires_owner_filing": false
+   },
+   "owner_occupied_exemption_max_units": 2,
+   "requires_unknown_facts": false,
+   "unverifiable_exemptions": [
+    "Housing restricted by deed, regulatory agreement or recorded document as affordable housing, or subject to an affordable-housing subsidy agreement",
+    "Dormitories owned and operated by a higher-education institution or K-12 school",
+    "Separately alienable property (e.g. single-family home or condo) whose owner is not a REIT, corporation, LLC with a corporate member or mobilehome park management, and whose tenants received the statutory written exemption notice",
+    "Owner-occupied two-unit property in one structure (owner occupied one unit at the start of the tenancy and continues to; neither unit an ADU or JADU)"
+   ],
+   "yields_to_local_rule": true,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": false,
+   "landlord_size_condition": null,
+   "summary": "Statewide cap applies to residential real property, meaning any dwelling or unit intended for human habitation, including units in mobilehome parks. Exempt are housing with a certificate of occupancy issued within the previous 15 years (unless a mobilehome) and housing under valid local rent control that restricts annual increases below this cap. Also exempt are deed-restricted or subsidized affordable housing, school and university dormitories, separately alienable property of a qualifying non-corporate owner who gave the statutory notice, and owner-occupied duplexes. The section does not apply to a homeowner of a mobilehome.",
+   "construction_date_basis": "certificate of occupancy (rolling 15-year exemption)",
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": 15,
+   "owner_conditions": "The separately alienable property exemption applies only if the owner is not a REIT, a corporation, an LLC with a corporate member, or mobilehome park management, and the tenants received the statutory written notice. An owner-occupied duplex is exempt while the owner remains in occupancy.",
+   "other_conditions": "Does not apply to a homeowner of a mobilehome (subd. (j))."
+  },
+  "evidence": [
+   {
+    "field": "new_construction_exemption",
+    "doc_id": "D024",
+    "quoted_span": "(4) Housing that has been issued a certificate of occupancy within the previous 15 years, unless the housing is a mobilehome."
+   },
+   {
+    "field": "construction_date_basis",
+    "doc_id": "D024",
+    "quoted_span": "(4) Housing that has been issued a certificate of occupancy within the previous 15 years, unless the housing is a mobilehome."
+   },
+   {
+    "field": "min_building_age_years",
+    "doc_id": "D024",
+    "quoted_span": "(4) Housing that has been issued a certificate of occupancy within the previous 15 years, unless the housing is a mobilehome."
+   },
+   {
+    "field": "owner_occupied_exemption_max_units",
+    "doc_id": "D024",
+    "quoted_span": "structure in which the owner occupied one of the units as the owner’s principal place of residence at the beginning of the tenancy, so long as the owner continues in occupancy"
+   },
+   {
+    "field": "requires_unknown_facts",
+    "doc_id": "D024",
+    "quoted_span": "(4) “Residential real property” means any dwelling or unit that is intended for human habitation, including any dwelling or unit in a mobilehome park."
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D024",
+    "quoted_span": "(1) Housing restricted by deed, regulatory restriction contained in an agreement with a government agency, or other recorded document as affordable housing for persons and families of very low, low, or moderate income"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D024",
+    "quoted_span": "Dormitories owned and operated by an institution of higher education or a kindergarten"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D024",
+    "quoted_span": "(5) Residential real property that is alienable separate from the title to any other dwelling unit, including a mobilehome, provided that both of the following apply:"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D024",
+    "quoted_span": "structure in which the owner occupied one of the units as the owner’s principal place of residence at the beginning of the tenancy, so long as the owner continues in occupancy"
+   },
+   {
+    "field": "yields_to_local_rule",
+    "doc_id": "D024",
+    "quoted_span": "(3) Housing subject to rent or price control through a public entity’s valid exercise of its police power consistent with Chapter 2.7 (commencing with Section 1954.50) that restricts annual increases in the rental rate to an amount less than that provided in subdivision (a)."
+   },
+   {
+    "field": "may_preempt_local_rules",
+    "doc_id": "D024",
+    "quoted_span": "section is not intended to expand or limit the authority of local governments to establish local policies regulating rents"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D024",
+    "quoted_span": "(4) “Residential real property” means any dwelling or unit that is intended for human habitation, including any dwelling or unit in a mobilehome park."
+   },
+   {
+    "field": "owner_conditions",
+    "doc_id": "D024",
+    "quoted_span": "(iii) A limited liability company in which at least one member is a corporation."
+   },
+   {
+    "field": "owner_conditions",
+    "doc_id": "D024",
+    "quoted_span": "(B) (i) The tenants have been provided written notice that the residential real property is exempt from this section using the following statement:"
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D024",
+    "quoted_span": "(j) This section shall not apply to a homeowner of a mobilehome, as defined in Section 798.9."
+   }
+  ],
+  "notes": "requires_unknown_facts changed from true to false. The cap covers ordinary residential rental property statewide. The owner-type, notice, affordable-housing, dormitory and duplex exemptions cannot be checked from an address, but they are listed in unverifiable_exemptions rather than making the whole rule unknown. construction_cutoff stays null because the 15-year certificate-of-occupancy exemption is rolling, not a fixed date; it is captured in new_construction_exemption and min_building_age_years. The summary no longer names specific local ordinances (Berkeley, Los Angeles RSO, San Francisco, Santa Ana) because no provided document names them. The effective-date references for rent increases were removed from other_conditions because they describe the timing of conduct, not covered buildings."
+ }
+}

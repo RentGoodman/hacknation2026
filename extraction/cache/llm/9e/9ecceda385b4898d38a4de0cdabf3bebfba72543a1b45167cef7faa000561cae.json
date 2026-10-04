@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D067:c4",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 59289,
+  "output_tokens": 641
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "A landlord cannot take reprisal action against a tenant by eviction, substantial alteration of \na lease or its terms, or refusal to renew a lease when a tenant exercises certain civil rights (N.J.S.A. \n2A:42-10.10).",
+    "note": "The four protected rights and the right to sue for damages all match the document. The requirement's \"organizing or joining a lawful tenant organization\" is a slightly narrower paraphrase of \"organizer, or member, of any lawful organization, including a tenant organization.\""
+   },
+   {
+    "field": "key_value",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The field is empty and the document gives no numeric key value for the reprisal rule."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The field is empty, and the document states no effective date for the reprisal law, as the rule's own note says."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "A landlord cannot take reprisal action against a tenant by eviction, substantial alteration of \na lease or its terms, or refusal to renew a lease when a tenant exercises certain civil rights",
+    "note": "The guide describes the law in the present tense as operative, which supports in_force."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "The law against reprisal applies to all rental properties used for dwelling purposes, \nincluding mobile homes, except owner-occupied two- or three-family dwellings.",
+    "note": "The summary, the owner-occupied exemption and the max-units value of 3 all match the document."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "(N.J.S.A. \n2A:42-10.10)",
+    "note": "The citation matches. The alias \"Reprisal law\" is loosely supported by \"The law against reprisal\"."
+   }
+  ]
+ }
+}

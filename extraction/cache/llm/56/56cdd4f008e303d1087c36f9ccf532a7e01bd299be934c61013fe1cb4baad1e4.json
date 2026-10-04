@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D053:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 725,
+  "output_tokens": 354
+ },
+ "result": {
+  "en": "A Massachusetts landlord may not threaten or retaliate against a tenant for things like reporting code violations, taking legal action to enforce housing laws, or joining a tenants' union, and a termination notice (other than for nonpayment), rent increase or major change in lease terms within 6 months afterward is presumed to be retaliation, with damages of 1 to 3 months' rent or actual damages if greater, plus costs and attorney's fees.",
+  "es": "En Massachusetts, un arrendador no puede amenazar ni tomar represalias contra un inquilino por actividades como denunciar violaciones del código, tomar acciones legales para hacer cumplir las leyes de vivienda o unirse a un sindicato de inquilinos, y un aviso de terminación (excepto por falta de pago), un aumento de renta o un cambio importante en las condiciones del contrato dentro de los 6 meses siguientes se presume una represalia, con daños de 1 a 3 meses de renta o los daños reales si son mayores, más costos y honorarios de abogado."
+ }
+}

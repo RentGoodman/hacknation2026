@@ -1,0 +1,50 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "DX06:c13",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 5580,
+  "output_tokens": 1444
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": null,
+   "unverifiable_exemptions": [],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": "Private remedies apply only against owners of 16 or more units. The source does not say whether the prohibition itself has a size threshold.",
+   "summary": "Applies in Portland. Private remedies are limited to owners of 16 or more units. The secondary source states no building, unit-count, construction-date or owner-occupancy limits on the prohibition itself.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": "Owners of 16 or more units (private remedies only)",
+   "other_conditions": null
+  },
+  "evidence": [
+   {
+    "field": "landlord_size_condition",
+    "doc_id": "DX06",
+    "quoted_span": "for owners of 16 or more units, private remedies include the greater of treble damages or $1,000 per violation"
+   },
+   {
+    "field": "owner_conditions",
+    "doc_id": "DX06",
+    "quoted_span": "for owners of 16 or more units, private remedies include the greater of treble damages or $1,000 per violation"
+   },
+   {
+    "field": "summary",
+    "doc_id": "DX06",
+    "quoted_span": "Prohibits algorithm-assisted rental price coordination; for owners of 16 or more units, private remedies include the greater of treble damages or $1,000 per violation."
+   }
+  ],
+  "notes": "The only source is a secondary summary table row (Morgan Lewis). The 16-unit threshold describes owner portfolio size, and the source ties it only to private remedies. It is therefore kept as a landlord-size/owner condition and is not used as building min_units. The summary was reworded to describe coverage rather than the prohibited conduct. No other coverage values can be supported verbatim."
+ }
+}

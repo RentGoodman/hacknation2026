@@ -1,0 +1,21 @@
+import {readFile,writeFile,access} from 'node:fs/promises';
+import {execFileSync} from 'node:child_process';
+import {createHash} from 'node:crypto';
+import {fileURLToPath} from 'node:url';
+import {loadChatData} from '../chat-server.mjs';
+
+const root=new URL('../../',import.meta.url);
+const dist=new URL('../dist/',import.meta.url);
+const required=['index.html','app.js','chat.js','styles.css','vendor/maplibre-gl.js','vendor/maplibre-gl.css'];
+await Promise.all(required.map(path=>access(new URL(path,dist))));
+const {D,E}=await loadChatData(dist);
+const sha=createHash('sha256').update(await readFile(new URL('out/rules.json',root))).digest('hex');
+if(sha!==E.rules_sha256)throw new Error('The packaged UI and engine rules differ. Rebuild the mockup data before deploying.');
+const buildings=JSON.parse(await readFile(new URL('out/buildings.json',root),'utf8'));
+if(D.properties.some(p=>!buildings[p.id]))throw new Error('Missing engine building inputs');
+await Promise.all(D.sources.filter(s=>s.local_path).map(s=>access(new URL(s.local_path,dist))));
+await Promise.all(['out/links.json','engine/cache/conditions.json','engine/cache/overrides.json','engine/cache/validity.json','engine/rule_annotations.json','starter pack/corpus/corpus_manifest.csv','corpus_extra/manifest_extra.csv'].map(path=>access(new URL(path,root))));
+const git=(...args)=>{try{return execFileSync('git',args,{cwd:fileURLToPath(root),encoding:'utf8',stdio:['ignore','pipe','ignore']}).trim()||null;}catch{return null;}};
+const version={git_sha:process.env.VERCEL_GIT_COMMIT_SHA||git('rev-parse','HEAD'),rules_sha256:sha,generated_at:process.env.PARCEL_BUILD_DATE||new Date().toISOString()};
+await writeFile(new URL('data/version.json',dist),JSON.stringify(version)+'\n');
+console.log(`Vercel mockup ready: ${D.properties.length} properties, ${Object.keys(E.rules).length} rules; static UI + Node chat + Python lookup.`);

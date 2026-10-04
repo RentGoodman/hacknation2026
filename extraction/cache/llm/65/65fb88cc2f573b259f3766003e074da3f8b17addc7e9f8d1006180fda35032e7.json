@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D085:c2",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 803,
+  "output_tokens": 234
+ },
+ "result": {
+  "en": "In Santa Ana, after 30 days of tenancy an owner cannot end a tenancy without a just cause stated in a written notice, must first give notice and time to fix an at-fault violation, and for a no-fault termination must give 3 months of relocation assistance or waive the final 3 months' rent.",
+  "es": "En Santa Ana, después de 30 días de arrendamiento el propietario no puede terminar el contrato sin una causa justa indicada en un aviso por escrito, debe dar primero aviso y tiempo para corregir una infracción, y en una terminación sin culpa debe dar 3 meses de asistencia de reubicación o perdonar los últimos 3 meses de renta."
+ }
+}

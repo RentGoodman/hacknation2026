@@ -1,0 +1,12 @@
+{
+  "name": "parcel-housing-prototype",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Parcel: rental housing law map interface",
+  "scripts": {
+    "dev": "node server.mjs",
+    "start": "node server.mjs",
+    "check": "node --check dist/app.js && node --check dist/chat.js && node --check chat-server.mjs && node --check chat-tools.mjs && node --check server.mjs",
+    "test:chat": "node --test scripts/chat-server.test.mjs"
+  }
+}

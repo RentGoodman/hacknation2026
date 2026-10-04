@@ -1,0 +1,140 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "consolidate",
+ "subject": "Cambridge, MA",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 25578,
+  "output_tokens": 5994
+ },
+ "result": {
+  "rules": [
+   {
+    "candidate_id": "D029:c1",
+    "jurisdiction": "Cambridge, MA",
+    "category": "screening_restrictions",
+    "status": "in_force",
+    "title": "Cambridge Fair Housing Ordinance: source-of-income and other protected-class limits on tenant selection",
+    "requirement": "The Cambridge Fair Housing Ordinance prohibits housing discrimination in viewing or renting an apartment, in the terms and conditions of tenancy, and in printing, publicizing or advertising housing. Source of income, including Section 8 and public benefits, is a protected category. The other protected categories include disability, race, color, national origin or ancestry, family status, marital status, sex, gender identity or expression, sexual orientation, age, religious creed, military status, relationship status and family structure. Landlords, sellers and rental agents may use any reasonable standard to select applicants, as long as it is applied equally and uniformly to all applicants. Selection may be based on an applicant's ability to pay the rent and ability to take care of the apartment and respect the rights of others. Landlords must also reasonably accommodate a person with a disability unless the accommodation would cause undue hardship. After a hearing, the Human Rights Commission may levy civil fines of up to $300 for each violation and may seek injunctive relief, damages and other relief.",
+    "key_value": "Source of income (including Section 8 and public benefits) is a protected category; selection standards must be reasonable and applied uniformly; civil fines up to $300 per violation",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": 2,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [
+      "owner-occupied 2-family dwelling"
+     ],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Applies to rental housing in Cambridge. Two-family dwellings where the owner lives are exempt. It operates alongside the state ban on discrimination against public-assistance and housing-subsidy recipients (G.L. c. 151B, § 4(10)).",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": "Exemption for 2-family dwellings when the owner lives there.",
+     "other_conditions": null
+    },
+    "exemptions": "Two-family dwellings when the owner lives there (as described by the Human Rights Commission).",
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "The document gives no effective or adoption date for the ordinance. The Commission itself was established in 1984.",
+    "effective_date_formula": null,
+    "citation": "Cambridge Mun. Code ch. 14.04",
+    "citation_aliases": [
+     "Cambridge Fair Housing Ordinance"
+    ],
+    "quoted_span": "Source of Income, includes Section 8 and public benefits",
+    "confidence": 0.7,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "This is a secondary description on the official Human Rights Commission page, not the ordinance text. The section number, adoption date, and any criminal-history, credit-screening or timing rules are not stated. The 2-family owner-occupied exemption is described only briefly. The record is complementary to state law G.L. c. 151B, § 4(10), which states no owner-occupied exemption for subsection 10. State protection for public-assistance and subsidy recipients may therefore still apply where the local exemption does.",
+    "source_notes": "Merged with the cell candidate, which cited the 'Cambridge Fair Housing Ordinance / Human Rights Ordinance'. D029 identifies the Fair Housing Ordinance as chapter 14.04 and the Human Rights Ordinance as chapter 2.76. Both share the protected-category list, but D029 describes housing discrimination under the Fair Housing Ordinance. Chapter 2.76 is therefore not used as an alias for this record.",
+    "source_doc_id": "D029",
+    "from_candidates": [
+     "D029:c1",
+     "cell:Cambridge, MA:screening_restrictions:1"
+    ],
+    "also_supported_by": []
+   },
+   {
+    "candidate_id": "D031:c1",
+    "jurisdiction": "Cambridge, MA",
+    "category": "just_cause_eviction",
+    "status": "in_force",
+    "title": "Cambridge Tenants Rights and Resources Notification Ordinance: Guide must be given at tenancy start and with any notice to quit or summary process",
+    "requirement": "Owners, landlords and management companies must give tenants the City's Tenants Rights and Resources Guide at two points. The first is the start of a tenancy: when the tenant first signs a lease, enters into a tenancy agreement, or tenders the first month's rent. The second is when legal steps to terminate the tenancy are taken, such as a Notice to Quit or Summary Process. A landlord who begins an eviction through a notice to quit or other action must offer the Guide at the same time. All tenants and lawful occupants, including tenants at will, must receive it. Renewals do not require it, and a tenant signature is not required. The ordinance does not bar evictions otherwise allowed by law. Violations may be fined $300 for each day's violation (§ 8.71.070).",
+    "key_value": "Guide required at tenancy start and with any notice to quit or summary process; $300 fine per day of violation",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [
+      "units in a non-profit facility whose primary purpose is short-term assistance, treatment or therapy for alcohol, drug or other substance abuse"
+     ],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": "Applies to all landlords, including an owner of a single rental unit in the building where the owner lives.",
+     "summary": "Applies to residential rental agreements in Cambridge, including single dwelling units and tenancies at will. Excluded are units in hospitals, skilled nursing or health facilities, non-profit short-term substance-abuse treatment facilities, and Short Term Rental Units under Cambridge Zoning Ordinance Art. 4, § 4.60. For nonpayment notices it applies in addition to the state form required by G.L. c. 186, § 31.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": "Excludes Short Term Rental Units under Cambridge Zoning Ordinance Art. 4, § 4.60, and units in hospitals, skilled nursing facilities, health facilities and non-profit short-term substance-abuse treatment facilities."
+    },
+    "exemptions": "Rental units in a hospital, skilled nursing facility or health facility, or in a non-profit facility whose primary purpose is short-term assistance, treatment or therapy for alcohol, drug or other substance abuse (see definition in § 8.71.030); Short Term Rental Units under Article 4, Section 4.60 of the Cambridge Zoning Ordinance.",
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "No effective or adoption date is stated. The FAQ page was posted 10/14/2020 and last modified 3/17/2025; neither is the ordinance's effective date.",
+    "effective_date_formula": null,
+    "citation": "Cambridge Mun. Code ch. 8.71",
+    "citation_aliases": [
+     "Tenants Rights and Resources Ordinance",
+     "Tenants Rights and Resources Notification Ordinance",
+     "Cambridge Mun. Code § 8.71.030",
+     "Cambridge Mun. Code § 8.71.070"
+    ],
+    "quoted_span": "The Ordinance also requires that a landlord provide the Guide to tenants when legal steps to terminate a tenancy are taken (ex. Notice to Quit or Summary Process).",
+    "confidence": 0.85,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "This is a tenant-rights notice rule tied to termination, not a list of allowed eviction causes. The documents show no Cambridge just-cause eviction ordinance. The source is the official FAQ page, not the ordinance text, and the section containing the delivery duty is not identified, so the citation stays at chapter level. The record is complementary to the state nonpayment notice form (G.L. c. 186, § 31) and to state notice-to-quit rules.",
+    "source_notes": "The cell candidate (same D031 passage) is merged here. D029 also lists the ordinance as a link title only.",
+    "source_doc_id": "D031",
+    "from_candidates": [
+     "D031:c1",
+     "cell:Cambridge, MA:just_cause_eviction:1"
+    ],
+    "also_supported_by": []
+   }
+  ],
+  "dropped_candidates": [],
+  "known_gaps": [
+   {
+    "category": "algorithmic_rent_setting",
+    "law": "Cambridge City Council policy order on algorithmic rent-pricing software (reported in DX10)",
+    "reason": "The order only directs the City Manager to draft policy options or ordinance language. No ordinance text, adoption or effective date is documented, so it is not a rule. The pending state bills (S.2983, H.5222) are also not enacted."
+   },
+   {
+    "category": "screening_restrictions",
+    "law": "Cambridge Mun. Code ch. 14.04 (Fair Housing Ordinance) and ch. 2.76 (Human Rights Ordinance), full text",
+    "reason": "Only the Human Rights Commission's summary page is captured. Section numbers, adoption dates, the exact scope of the 2-family owner-occupied exemption, and any criminal-history or timing rules cannot be verified."
+   }
+  ]
+ }
+}

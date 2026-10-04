@@ -1,0 +1,232 @@
+[
+  {
+    "missing_fact": "year_built / certificate_of_occupancy_date",
+    "city": "San Diego, CA",
+    "unknown_answers": 148,
+    "buildings": 50,
+    "rules": [
+      "r-0036",
+      "r-0039",
+      "r-0187"
+    ],
+    "example_address": "3820 HAINES ST, SAN DIEGO, CA, 92109"
+  },
+  {
+    "missing_fact": "program or affordable-housing eligibility",
+    "city": "San Francisco, CA",
+    "unknown_answers": 80,
+    "buildings": 80,
+    "rules": [
+      "r-0188"
+    ],
+    "example_address": "3515 FILLMORE ST, SAN FRANCISCO, CA, 94123"
+  },
+  {
+    "missing_fact": "year_built / certificate_of_occupancy_date",
+    "city": "Berkeley, CA",
+    "unknown_answers": 80,
+    "buildings": 40,
+    "rules": [
+      "r-0039",
+      "r-0151"
+    ],
+    "example_address": "1609 ADDISON ST, BERKELEY, CA, 94703"
+  },
+  {
+    "missing_fact": "program or affordable-housing eligibility",
+    "city": "Boston, MA",
+    "unknown_answers": 60,
+    "buildings": 60,
+    "rules": [
+      "r-0029"
+    ],
+    "example_address": "69 WESTLAND AVE, BOSTON, MA, 02115"
+  },
+  {
+    "missing_fact": "building conversion status",
+    "city": "Jersey City, NJ",
+    "unknown_answers": 50,
+    "buildings": 50,
+    "rules": [
+      "r-0116"
+    ],
+    "example_address": "1065 SUMMIT AVE, JERSEY CITY, NJ, 07307"
+  },
+  {
+    "missing_fact": "building conversion status",
+    "city": "Newark, NJ",
+    "unknown_answers": 50,
+    "buildings": 50,
+    "rules": [
+      "r-0116"
+    ],
+    "example_address": "876 S 14TH ST, NEWARK, NJ, 07108"
+  },
+  {
+    "missing_fact": "tenant eligibility and occupancy history",
+    "city": "Jersey City, NJ",
+    "unknown_answers": 50,
+    "buildings": 50,
+    "rules": [
+      "r-0116"
+    ],
+    "example_address": "1065 SUMMIT AVE, JERSEY CITY, NJ, 07307"
+  },
+  {
+    "missing_fact": "tenant eligibility and occupancy history",
+    "city": "Newark, NJ",
+    "unknown_answers": 50,
+    "buildings": 50,
+    "rules": [
+      "r-0116"
+    ],
+    "example_address": "876 S 14TH ST, NEWARK, NJ, 07108"
+  },
+  {
+    "missing_fact": "year_built / certificate_of_occupancy_date",
+    "city": "Newark, NJ",
+    "unknown_answers": 48,
+    "buildings": 48,
+    "rules": [
+      "r-0191"
+    ],
+    "example_address": "876 S 14TH ST, NEWARK, NJ, 07108"
+  },
+  {
+    "missing_fact": "building conversion status",
+    "city": "Hoboken, NJ",
+    "unknown_answers": 40,
+    "buildings": 40,
+    "rules": [
+      "r-0116"
+    ],
+    "example_address": "1031 CLINTON ST, HOBOKEN, NJ, 07030"
+  },
+  {
+    "missing_fact": "owner type / owner occupancy",
+    "city": "Berkeley, CA",
+    "unknown_answers": 40,
+    "buildings": 40,
+    "rules": [
+      "r-0152"
+    ],
+    "example_address": "1609 ADDISON ST, BERKELEY, CA, 94703"
+  },
+  {
+    "missing_fact": "tenant eligibility and occupancy history",
+    "city": "Hoboken, NJ",
+    "unknown_answers": 40,
+    "buildings": 40,
+    "rules": [
+      "r-0116"
+    ],
+    "example_address": "1031 CLINTON ST, HOBOKEN, NJ, 07030"
+  },
+  {
+    "missing_fact": "year_built / certificate_of_occupancy_date",
+    "city": "Hoboken, NJ",
+    "unknown_answers": 36,
+    "buildings": 36,
+    "rules": [
+      "r-0189"
+    ],
+    "example_address": "69 JACKSON ST, HOBOKEN, NJ, 07030"
+  },
+  {
+    "missing_fact": "year_built / certificate_of_occupancy_date",
+    "city": "Los Angeles, CA",
+    "unknown_answers": 32,
+    "buildings": 8,
+    "rules": [
+      "r-0039",
+      "r-0069",
+      "r-0166",
+      "r-0167"
+    ],
+    "example_address": "10635 SHERMAN GROVE AVE, SUNLAND, CA, 91040"
+  },
+  {
+    "missing_fact": "year_built / certificate_of_occupancy_date",
+    "city": "Jersey City, NJ",
+    "unknown_answers": 22,
+    "buildings": 22,
+    "rules": [
+      "r-0162"
+    ],
+    "example_address": "1065 SUMMIT AVE, JERSEY CITY, NJ, 07307"
+  },
+  {
+    "missing_fact": "owner type / owner occupancy",
+    "city": "Hoboken, NJ",
+    "unknown_answers": 6,
+    "buildings": 1,
+    "rules": [
+      "r-0089",
+      "r-0097",
+      "r-0108",
+      "r-0114",
+      "r-0175",
+      "r-0190"
+    ],
+    "example_address": "1401 HUDSON ST, HOBOKEN, NJ, 07030"
+  },
+  {
+    "missing_fact": "unit count",
+    "city": "Hoboken, NJ",
+    "unknown_answers": 6,
+    "buildings": 1,
+    "rules": [
+      "r-0096",
+      "r-0097",
+      "r-0108",
+      "r-0114",
+      "r-0175",
+      "r-0190"
+    ],
+    "example_address": "1401 HUDSON ST, HOBOKEN, NJ, 07030"
+  },
+  {
+    "missing_fact": "owner exemption filing",
+    "city": "Hoboken, NJ",
+    "unknown_answers": 4,
+    "buildings": 4,
+    "rules": [
+      "r-0189"
+    ],
+    "example_address": "1031 CLINTON ST, HOBOKEN, NJ, 07030"
+  },
+  {
+    "missing_fact": "year_built / certificate_of_occupancy_date",
+    "city": "San Francisco, CA",
+    "unknown_answers": 4,
+    "buildings": 2,
+    "rules": [
+      "r-0039",
+      "r-0179"
+    ],
+    "example_address": "250 FREMONT ST, SAN FRANCISCO, CA, 94105"
+  },
+  {
+    "missing_fact": "legal_city",
+    "city": "San Diego, CA",
+    "unknown_answers": 4,
+    "buildings": 1,
+    "rules": [
+      "r-0036",
+      "r-0177",
+      "r-0186",
+      "r-0187"
+    ],
+    "example_address": "AUBURN DR, San Diego, CA 92105"
+  },
+  {
+    "missing_fact": "units",
+    "city": "Hoboken, NJ",
+    "unknown_answers": 1,
+    "buildings": 1,
+    "rules": [
+      "r-0096"
+    ],
+    "example_address": "1401 HUDSON ST, HOBOKEN, NJ, 07030"
+  }
+]

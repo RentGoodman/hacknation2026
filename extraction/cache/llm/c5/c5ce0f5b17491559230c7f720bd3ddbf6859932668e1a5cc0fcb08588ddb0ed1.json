@@ -1,0 +1,66 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "cell",
+ "subject": "MA|just_cause_eviction",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 4563,
+  "output_tokens": 1470
+ },
+ "result": {
+  "cell_status": "rules_found",
+  "no_rule_quote": null,
+  "no_rule_passage_id": null,
+  "basis_citation": null,
+  "rules": [
+   {
+    "jurisdiction": "MA",
+    "category": "just_cause_eviction",
+    "status": "in_force",
+    "title": "Form accompanying notice to quit for nonpayment of rent",
+    "requirement": "A written notice to quit for nonpayment of rent given by a landlord to a residential tenant must be accompanied by a form. The form must include documentation of any repayment agreements between tenant and landlord. It must also include information on rental assistance programs, applicable trial court rules and orders on summary process, and relevant federal or state legal restrictions on residential evictions. The form must prominently display a statement that the notice to quit is not an eviction, the tenant need not leave immediately, the tenant is entitled to a legal proceeding, and only a court order can force the tenant out.",
+    "key_value": "Notice to quit for nonpayment must be accompanied by a form with rental assistance information and a prominent statement that the notice is not an eviction and only a court order can force the tenant to leave",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Applies to written notices to quit for nonpayment of rent given by a landlord to a residential tenant. No unit-count or building exemptions are stated in the passage.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": "Limited to notices to quit for nonpayment of rent."
+    },
+    "exemptions": null,
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "The passage states no effective date.",
+    "effective_date_formula": null,
+    "citation": "G.L. c. 186, § 31",
+    "citation_aliases": [
+     "M.G.L. c. 186, § 31",
+     "General Laws Part II, Title I, Chapter 186, Section 31"
+    ],
+    "quoted_span": "Section 31. (a) A notice to quit for nonpayment of rent given in writing by a landlord to a residential tenant pursuant to this chapter shall be accompanied by a form that shall include, but not be limited to: (i) documentation of any agreements between the tenant and landlord for the tenant to repay the landlord for nonpayment of rent; and (ii) information on: (1) rental assistance programs including, but not limited to, the residential assistance for families in transition program; (2) applicable trial court rules, standing orders or emergency administrative orders pertaining to actions for summary process; and (3) any relevant federal or state legal restrictions on residential evictions.",
+    "confidence": 0.7,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "The passage is truncated at subsection (b), where the executive office of housing and livable communities develops the form. Status is assumed in force because no sunset is stated. The passages show no MA statewide just-cause or relocation requirement.",
+    "source_notes": null,
+    "passage_id": "p9"
+   }
+  ]
+ }
+}

@@ -1,0 +1,78 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D085:c2",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 7782,
+  "output_tokens": 2260
+ },
+ "result": {
+  "coverage": {
+   "built_after": null,
+   "built_on_or_before": null,
+   "construction_cutoff": null,
+   "construction_date_basis": "Rolling 15-year window ('housing produced in the last 15 years'); the basis record is not stated",
+   "landlord_size_condition": null,
+   "max_units": null,
+   "may_preempt_local_rules": null,
+   "min_building_age_years": null,
+   "min_units": null,
+   "new_construction_exemption": {
+    "basis": "housing produced in the last 15 years (reference date and record not stated)",
+    "requires_owner_filing": null,
+    "years": 15
+   },
+   "other_conditions": "Applies after 30 days of tenancy.",
+   "owner_conditions": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": false,
+   "summary": "Residential rental property in Santa Ana after 30 days of tenancy. Excluded: housing produced in the last 15 years, deed-restricted affordable housing, hotel and transient occupancy, hospital and care facilities, dormitories, and other shared living quarters.",
+   "supersedes_state_rule": null,
+   "unverifiable_exemptions": [
+    "deed-restricted affordable housing",
+    "hotel and transient occupancy",
+    "other shared living quarters"
+   ],
+   "yields_to_local_rule": null
+  },
+  "evidence": [
+   {
+    "field": "construction_date_basis",
+    "doc_id": "D085",
+    "quoted_span": "housing produced in the last 15 years"
+   },
+   {
+    "field": "new_construction_exemption",
+    "doc_id": "D085",
+    "quoted_span": "The Just Cause Ordinance shall not apply to certain types of residential property, including housing produced in the last 15 years"
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D085",
+    "quoted_span": "After 30 days, an owner shall not terminate a tenancy without just cause, which shall be stated in a written notice."
+   },
+   {
+    "field": "requires_unknown_facts",
+    "doc_id": "D085",
+    "quoted_span": "The Just Cause Ordinance shall not apply to certain types of residential property, including housing produced in the last 15 years; deed-restricted affordable housing; hotel and transient occupancy; hospital and care facilities; dormitories; and other shared living quarters."
+   },
+   {
+    "field": "summary",
+    "doc_id": "D085",
+    "quoted_span": "The Just Cause Ordinance shall not apply to certain types of residential property, including housing produced in the last 15 years; deed-restricted affordable housing; hotel and transient occupancy; hospital and care facilities; dormitories; and other shared living quarters."
+   },
+   {
+    "field": "summary",
+    "doc_id": "D085",
+    "quoted_span": "After 30 days, an owner shall not terminate a tenancy without just cause, which shall be stated in a written notice."
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D085",
+    "quoted_span": "deed-restricted affordable housing; hotel and transient occupancy; hospital and care facilities; dormitories; and other shared living quarters"
+   }
+  ],
+  "notes": "Changes made:\n- requires_unknown_facts set to false. The ordinance covers ordinary residential rental property; the deed-restricted and similar carve-outs are exemptions and are listed in unverifiable_exemptions.\n- supersedes_state_rule set to null. None of the provided documents mention Cal. Civ. Code § 1946.2, and the state-law reference was removed from the summary.\n- min_building_age_years set to null. The rolling 15-year carve-out is already captured in new_construction_exemption, so keeping both would double-count it.\n- The 15-year item was moved out of unverifiable_exemptions because it is expressed in new_construction_exemption.\n- other_conditions reworded to match the source ('After 30 days') rather than 'more than 30 days'.\n- 'Hotel and transient occupancy' and 'other shared living quarters' were added to unverifiable_exemptions. Hospital/care facilities and dormitories were left out on the assumption that assessor land-use codes can usually identify them.\n- The record used to date 'housing produced' is not stated in the documents."
+ }
+}

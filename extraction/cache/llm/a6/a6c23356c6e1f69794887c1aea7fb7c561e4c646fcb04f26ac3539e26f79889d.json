@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D029:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 760,
+  "output_tokens": 195
+ },
+ "result": {
+  "en": "In Cambridge, landlords can't discriminate in renting or in tenancy terms based on source of income, including Section 8 and public benefits, and after a hearing the Human Rights Commission can fine up to $300 per violation.",
+  "es": "En Cambridge, los propietarios no pueden discriminar al alquilar ni en las condiciones del alquiler por la fuente de ingresos, incluidos la Sección 8 y los beneficios públicos, y tras una audiencia la Comisión de Derechos Humanos puede imponer multas de hasta $300 por infracción."
+ }
+}

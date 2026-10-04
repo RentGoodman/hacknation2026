@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D083:c3",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 4728,
+  "output_tokens": 825
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "partly_supported",
+    "quoted_span": "Relocation Payments for Evictions based on Owner/Relative Move-in OR Demolition/Permanent Removal of Unit from Housing Use OR Temporary Capital Improvement Work* OR Substantial Rehabilitation",
+    "note": "The document supports the four causes, the per-tenant amount, per-unit cap, additional amount for elderly/disabled/minor-child households, dependence on notice service date, and the § 1947.9 carve-out. It does not state that the landlord must pay (the duty itself), and the March 1 annual reset is not stated explicitly (only inferable from the date ranges). The minor-child additional amount is supported. Elderly threshold 60+ is supported."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "3/01/26 – 2/28/27\n$8,245.00\n$24,733.00\n$5,497.00",
+    "note": "Current and prior amounts match ($8,062.00/$24,184.00/$5,375.00). The under-20-day figure matches: \"$446.00/day (plus actual moving expenses)\"."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "supported",
+    "quoted_span": "3/01/26 – 2/28/27",
+    "note": "Current amounts apply to notices served in this period. The earlier 2006 start date is not in D083, but the effective_date field of 2026-03-01 is supported."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "For March 1, 2026 - February 28, 2027",
+    "note": "The page presents these as the current rates, consistent with in_force."
+   },
+   {
+    "field": "coverage",
+    "verdict": "not_supported",
+    "quoted_span": null,
+    "note": "D083 is only a rates page and does not state that the payments cover units subject to the Rent Ordinance's eviction provisions, nor anything about units certified for occupancy after June 13, 1979. That coverage content comes from D079, which is not the document under review. Within D083, only the four eviction causes are listed."
+   },
+   {
+    "field": "citation",
+    "verdict": "partly_supported",
+    "quoted_span": "not by Rent Ordinance Section 37.9C",
+    "note": "The document refers to 'Rent Ordinance Section 37.9C' and 'Multilingual Relocation Payments 37.9C'. The 'S.F. Admin. Code' form is not in the document, and the alias 'S.F. Admin. Code ch. 37' is likewise not stated."
+   }
+  ]
+ }
+}

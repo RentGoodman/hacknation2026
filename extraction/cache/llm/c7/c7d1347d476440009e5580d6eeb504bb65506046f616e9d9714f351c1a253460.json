@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D076:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 11762,
+  "output_tokens": 891
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "(b) It is unlawful for a landlord to use an algorithmic device to set rental rates\nor occupancy levels for residential rental property.",
+    "note": "Both prohibitions, the algorithmic device and nonpublic competitor data definitions, separate-violation rule and remedies all match the draft text. The statement that the nonpublic competitor data definition covers 'supply' is a fair paraphrase of 'residential rental property supply levels'."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "A tenant may seek injunctive relief, damages, or civil penalties of up to\n$1,000 per violation of this Division, in a civil action against a landlord.",
+    "note": "The $1,000 per violation cap, the per-month and per-property separate violations, and the fee-shifting for prevailing tenants are all stated in §§ 98.1103 and 98.1104."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The effective_date field is empty. The document gives only a formula (30th day after final passage) and leaves the passage date blank, so it states no fixed date."
+   },
+   {
+    "field": "status",
+    "verdict": "partly_supported",
+    "quoted_span": "This Ordinance will take effect and be in force on the thirtieth day from\nand after its final passage.",
+    "note": "The document is only a pre-adoption draft: the ordinance number, final passage date and adoption certificate are blank. It does not show that the ordinance was enacted or is in force. The in_force status rests on the secondary source, which is not in this document."
+   },
+   {
+    "field": "coverage",
+    "verdict": "partly_supported",
+    "quoted_span": "Residential rental property has the same meaning as in San Diego Municipal\nCode section 98.0702, as may be amended.",
+    "note": "Incorporation of the § 98.0702 definitions for landlord, lease, residential rental property and tenant is supported. The document states no unit-count, age or owner-occupancy limits. The definition of residential rental property as a dwelling intended for human habitation, the content of § 98.0702, the § 98.0703 exemptions and their limitation to Division 7 are not in this document. Citywide scope follows from the draft's text and the staff report's 'Citywide'."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "§98.1103  Use and Sale of Algorithmic Devices Prohibited",
+    "note": "The section and the division are confirmed, along with the O-2025-107 draft number, the §§ 98.1101–98.1104 range and the ordinance title. The ordinance number and the 'San Diego Mun. Code' form are not in the document."
+   }
+  ]
+ }
+}

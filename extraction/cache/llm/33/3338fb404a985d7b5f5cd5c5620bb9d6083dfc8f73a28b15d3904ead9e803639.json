@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D029:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 5921,
+  "output_tokens": 651
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "Under the law, landlords, sellers and rental agents may use any reasonable standard to determine which applicants are selected, as long as that standard is applied equally and uniformly to all applicants.",
+    "note": "Each element of the requirement text is in the document: prohibited conduct, protected categories including source of income, the reasonable-standard rule, selection criteria, Commission enforcement, remedies, and the removal option."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "Source of Income, includes Section 8 and public benefits",
+    "note": "The $300 per-violation fine is also stated: \"levying civil fines of up to $300 for each violation\". The document says the fine is among the remedies available after a hearing."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The field is null. The document gives no adoption or effective date for ch. 14.04, only that the Commission was established in 1984."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "The Commission enforces two ordinances: the",
+    "note": "The page describes the Fair Housing Ordinance, chapter 14.04, as currently enforced, which fits in_force. It gives no explicit statement of status."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "NOTE: there is an exemption for 2-family dwellings, when the owner lives there",
+    "note": "The summary and owner-occupied exemption (max 2 units) match the document. The requires_unknown_facts flag and the unverifiable-exemption note are consistent with the document not saying whether the exemption reaches source-of-income claims."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "Cambridge Fair Housing Ordinance, chapter 14.04",
+    "note": "The chapter-level citation and the alias \"Cambridge Fair Housing Ordinance\" both match the document."
+   }
+  ]
+ }
+}

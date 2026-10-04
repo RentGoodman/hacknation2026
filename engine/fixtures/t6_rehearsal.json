@@ -1,0 +1,91 @@
+{
+  "T6": {
+    "affected_address_ids": [
+      "A0009",
+      "A0010",
+      "A0015",
+      "A0024",
+      "A0034",
+      "A0039",
+      "A0043",
+      "A0046",
+      "A0064",
+      "A0070",
+      "A0073",
+      "A0075",
+      "A0077",
+      "A0082",
+      "A0095",
+      "A0124",
+      "A0174",
+      "A0175",
+      "A0176",
+      "A0191",
+      "A0209",
+      "A0214",
+      "A0218",
+      "A0230",
+      "A0232",
+      "A0272",
+      "A0284",
+      "A0286",
+      "A0290",
+      "A0291",
+      "A0292",
+      "A0294",
+      "A0298",
+      "A0301",
+      "A0302",
+      "A0306",
+      "A0336",
+      "A0339",
+      "A0342",
+      "A0361",
+      "A0422",
+      "A0453",
+      "A0465",
+      "A0468",
+      "A0485"
+    ],
+    "conflict_flag_address_ids": [],
+    "rule_ids": [
+      "h16-0001",
+      "h16-0002",
+      "h16-0003"
+    ],
+    "source_doc_id": "HOUR16",
+    "jurisdiction": "Cambridge, MA",
+    "effective_date": "2027-01-01",
+    "compare": {
+      "before": "2026-12-31",
+      "after": "2027-01-02",
+      "basis": "effective_date"
+    },
+    "notes": "ingest_new (deterministic): HOUR16 (Cambridge, MA) added 3 rule(s) h16-0001, h16-0002, h16-0003, effective 2027-01-01. Compared 2026-12-31 with 2027-01-02; affected = a new rule goes from omitted or not_yet_effective to applies or unknown: 45 addresses (applies 45, unknown 0; by city: {'Cambridge, MA': 45}). Unknown, listed separately: none. Conflict flags on new rules: 0."
+  },
+  "summary": {
+    "extractor": "deterministic",
+    "extractor_log": [
+      "part1: RuntimeError: skipped (dry run or no API key)",
+      "claude: RuntimeError: no ANTHROPIC_API_KEY or OPENROUTER_API_KEY set"
+    ],
+    "rules_out": "engine/fixtures/t6_rehearsal_rules.json",
+    "new_rule_ids": [
+      "h16-0001",
+      "h16-0002",
+      "h16-0003"
+    ],
+    "rejected": [],
+    "effective_date": "2027-01-01",
+    "as_of_before": "2026-12-31",
+    "as_of_after": "2027-01-02",
+    "affected": 45,
+    "applies": 45,
+    "unknown": 0,
+    "unknown_ids": [],
+    "conflicts": 0,
+    "by_city": {
+      "Cambridge, MA": 45
+    }
+  }
+}

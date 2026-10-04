@@ -1,0 +1,63 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "extract",
+ "subject": "DX11",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 1910,
+  "output_tokens": 1856
+ },
+ "result": {
+  "rules": [
+   {
+    "candidate_id": "c1",
+    "jurisdiction": "Jersey City, NJ",
+    "category": "algorithmic_rent_setting",
+    "status": "in_force",
+    "title": "Jersey City ordinance banning rent-setting algorithms such as RealPage",
+    "requirement": "Bans landlords' use of rent-setting algorithm software such as RealPage, including use of certain nonpublic data in revenue management software. The Council passed it 9-0. The article describes its reach only through speaker comments: real estate agents are excluded, and owners of multiple buildings who use algorithms without colluding are reportedly not targeted. Whether MLS listings are excluded is not settled in the text.",
+    "key_value": "A $2,000 daily fine is mentioned by a commenter (\"a $2,000 daily fine may be a little light\"), but the article does not say this is the ordinance's penalty.",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Applies to landlords using rent-setting algorithms in Jersey City. Real estate agents are reportedly excluded.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": "Real estate agents reportedly excluded at the sponsor's agreement. Multi-building owners who use algorithms without colluding reportedly not targeted."
+    },
+    "exemptions": "Real estate agents (per the NJ Association of Realtors lobbyist, who said the sponsor obliged). The article does not confirm that MLS listings of homes for sale are excluded.",
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "The article gives no meeting date, adoption date or effective date. It says only that the Council approved the measure \"last night.\" A commenter said amendments may still follow.",
+    "effective_date_formula": null,
+    "citation": "Jersey City Code (algorithmic rent-setting ordinance)",
+    "citation_aliases": [
+     "Jersey City RealPage ban ordinance",
+     "Jersey City algorithmic rent-setting ordinance"
+    ],
+    "quoted_span": "The Jersey City Council unanimously approved (9-0) a measure banning rent-setting algorithms such as RealPage, as well as increasing benefits for laborers, at last night’s meeting.",
+    "confidence": 0.5,
+    "conflict_flag": true,
+    "conflict_note": "The sponsor noted that \"The House of Representatives is considering banning municipalities from these types of actions,\" so federal preemption is possible. Council members also questioned enforceability.",
+    "review_note": "Secondary news source with no ordinance number, section citation or dates. Status is set to in_force because the Council passed the ordinance, but the effective date is unconfirmed. Verify the code section, final text and effective date against the ordinance itself."
+   }
+  ],
+  "no_rule_findings": [],
+  "doc_summary": "A Hudson County View news report says the Jersey City Council voted 9-0 to pass an ordinance banning rent-setting algorithms such as RealPage. It also passed a separate laborer wage and benefits measure, which is outside the rule categories. The article gives no ordinance number, dates or text, so the scope comes from speaker comments: real estate agents are excluded and a $2,000 daily fine is mentioned. It also notes possible federal preemption and enforcement concerns."
+ }
+}

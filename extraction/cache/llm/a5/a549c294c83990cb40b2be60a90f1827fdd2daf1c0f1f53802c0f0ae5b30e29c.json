@@ -1,0 +1,65 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "cell",
+ "subject": "Cambridge, MA|just_cause_eviction",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 4484,
+  "output_tokens": 1735
+ },
+ "result": {
+  "cell_status": "rules_found",
+  "no_rule_quote": null,
+  "no_rule_passage_id": null,
+  "basis_citation": null,
+  "rules": [
+   {
+    "jurisdiction": "Cambridge, MA",
+    "category": "just_cause_eviction",
+    "status": "in_force",
+    "title": "Tenant housing-rights Guide must accompany notice to quit or summary process",
+    "requirement": "A landlord must give tenants and lawful occupants the housing rights and resources Guide at the start and end of a tenancy, and again when legal steps to terminate the tenancy are taken, such as a Notice to Quit or Summary Process. The ordinance does not bar evictions otherwise allowed by law. Signed receipt is not required.",
+    "key_value": null,
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Applies to tenants and lawful occupants, including tenants at will. No exemptions are stated in the passage.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": null
+    },
+    "exemptions": null,
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "The passage states no effective date.",
+    "effective_date_formula": null,
+    "citation": "Cambridge Mun. Code ch. 8.71",
+    "citation_aliases": [
+     "Cambridge tenant notification of housing rights ordinance"
+    ],
+    "quoted_span": "The Ordinance also requires that a landlord provide the Guide to tenants when legal steps to terminate a tenancy are taken (ex. Notice to Quit or Summary Process).",
+    "confidence": 0.4,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "The passage does not name the city or the ordinance. Attribution to Cambridge and the chapter citation are inferred from the retrieval context. No Cambridge just-cause eviction rule appears in the passages, so this record covers only the tenant-rights notice delivered with a notice to quit.",
+    "source_notes": "Official FAQ-style guidance. The other passages describe California cities (Los Angeles, San Diego) or an unnamed city, not Cambridge.",
+    "passage_id": "p10"
+   }
+  ]
+ }
+}

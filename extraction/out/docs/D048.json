@@ -1,0 +1,38 @@
+{
+  "doc_id": "D048",
+  "source_url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleVII/Chapter40P/Section4",
+  "model": "anthropic:claude-sonnet-5-5",
+  "query_date": "2026-10-01",
+  "chunks": 1,
+  "rules": [
+    {
+      "jurisdiction": "MA",
+      "level": "state",
+      "category": "rent_increase_limits",
+      "status": "in_force",
+      "title": "Statewide prohibition on rent control (G.L. c. 40P, § 4)",
+      "requirement": "No city or town may enact, maintain or enforce rent control of any kind. A city or town that accepts the chapter may adopt only a limited form of rent control. Owner compliance becomes voluntary after six months, and the regulation may not cover occupancy, services, evictions, condominium conversion or removal of properties from regulation. The municipality must compensate owners from general funds for the gap between fair market rent and the controlled rent.",
+      "key_value": "Rent control banned except voluntary regulation of owners with 10+ rental units and units with fair market rent of $400 or less, with municipal compensation of owners",
+      "coverage_conditions": {
+        "summary": "Any permitted rent control regulation may apply only to rental units owned by a person or entity owning ten or more rental units and having a fair market rent of $400 or less. Compliance is voluntary after six months from initial adoption.",
+        "construction_date_basis": null,
+        "built_on_or_before": null,
+        "built_after": null,
+        "min_building_age_years": null,
+        "min_units": null,
+        "max_units": null,
+        "owner_conditions": "Regulation may not apply to units owned by a person or entity owning fewer than ten rental units; after six months, owner compliance is entirely voluntary and owners who decline are wholly unaffected.",
+        "other_conditions": "Regulation may not apply to any rental unit with a fair market rent exceeding $400. It may not regulate occupancy, services, evictions, condominium conversion or removal of properties from regulation."
+      },
+      "exemptions": "Units owned by a person or entity owning fewer than ten rental units; units with a fair market rent exceeding $400; owners who decline to have their property regulated after the initial six-month period.",
+      "interaction": "State law preempts local rent control, except for the narrow voluntary regulation permitted in cities or towns that accept chapter 40P. It also bars local regulation of evictions in connection with any such rent control.",
+      "effective_date": null,
+      "citation": "M.G.L. c. 40P, § 4",
+      "quoted_span": "No city or town may enact, maintain or enforce rent control of any kind, except that any city or town that accepts this chapter may adopt rent control regulation that provides:",
+      "confidence": 0.85,
+      "conflict_flag": false,
+      "conflict_note": null
+    }
+  ],
+  "rejected": []
+}

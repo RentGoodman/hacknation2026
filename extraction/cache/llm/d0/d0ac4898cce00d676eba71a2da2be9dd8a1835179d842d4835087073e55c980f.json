@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D069:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 6078,
+  "output_tokens": 1636
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "It\nshall be unlawful and a violation of the “New Jersey Antitrust Act,” P.L.1970,\nc.73 (C.56:9-1 et seq.) for:",
+    "note": "Section 4(a)-(e), the coordinating function definition, section 5 (C.56:9-6 through 9-17 remedies), sections 7 and 8 (AG complaint location and rulemaking) and section 6(b) (municipal bar) all match the summary."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "This act shall take effect on the first day of\nthe twelfth month next following the date of enactment.",
+    "note": "The document gives approval on July 20, 2026 and the effective-date formula. July 1, 2027 follows by computation. Antitrust Act violation and municipal-conflict bar are also stated."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "supported",
+    "quoted_span": "This act shall take effect on the first day of\nthe twelfth month next following the date of enactment.",
+    "note": "The date is not stated literally. It follows from approval on July 20, 2026 plus section 9, which gives July 1, 2027."
+   },
+   {
+    "field": "status",
+    "verdict": "partly_supported",
+    "quoted_span": "This act shall take effect on the first day of\nthe twelfth month next following the date of enactment.",
+    "note": "The delayed effective date is consistent with not_yet_effective. The document does not give an as-of date, so the current status cannot be confirmed from it."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "“Residential dwelling unit” means any house, apartment,\naccessory unit, or other unit intended to be used as a primary residence in the\nState. “Residential dwelling unit” shall not include inpatient medical care,\nlicensed long-term care, or detention or correctional facilities.",
+    "note": "The one-or-more-units owner definition, the controlling-interest single-owner rule and the municipal conflict bar (preemption) are all in the text."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "P.L. 2026, c.043 (A3497 1R ACS)",
+    "note": "The document gives the citation as P.L. 2026, c.043, which is equivalent to P.L.2026, c.43. The chapter and section ranges C.56:9-20 to 56:9-26 also appear."
+   }
+  ]
+ }
+}

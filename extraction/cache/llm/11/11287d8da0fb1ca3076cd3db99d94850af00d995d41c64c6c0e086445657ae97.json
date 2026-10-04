@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D006:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 973,
+  "output_tokens": 273
+ },
+ "result": {
+  "en": "In Berkeley, landlords of fully covered units can raise rent each year only by the Annual General Adjustment, which is 65% of the Bay Area CPI-U increase and capped at 5% (unless banked prior adjustments allow more, up to the rent ceiling); for 2026 it is 1.0%, no earlier than Jan. 1, 2026.",
+  "es": "En Berkeley, los propietarios de unidades totalmente cubiertas solo pueden subir la renta cada año según el Ajuste General Anual, que es el 65% del aumento del CPI-U del Área de la Bahía y tiene un tope del 5% (salvo que ajustes anteriores acumulados permitan más, hasta el límite de renta); para 2026 es 1.0%, no antes del 1 de enero de 2026."
+ }
+}

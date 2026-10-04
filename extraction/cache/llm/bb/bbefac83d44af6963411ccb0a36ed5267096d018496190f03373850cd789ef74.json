@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D006:c2",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 8284,
+  "output_tokens": 1033
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "partly_supported",
+    "quoted_span": "tenants in units that are fully or partially covered by the Rent Ordinance cannot be evicted unless there is \"just cause” (previously called “good cause”).",
+    "note": "D006 supports the just-cause rule, the Measure BB limits on causes, the notice duties and the requirement for annual inflation adjustment of relocation assistance. It does not give the 2026 relocation amounts ($19,413 and $6,471). Those come from D004, which is not in this document. The document does not say the Notice of Tenant Rights must be posted only in an 'interior' common area; it says 'indoor'/'interior' in different places, which is fine."
+   },
+   {
+    "field": "key_value",
+    "verdict": "partly_supported",
+    "quoted_span": "The landlord must file with the Rent Board a copy of any notice to terminate a tenancy, notice to quit, and summons and complaint no later than three business days after the tenant was served with the document.",
+    "note": "The nonpayment threshold, the 3-business-day filing and the 15-day Notice of Tenant Rights for tenancies from Dec 20, 2024 are supported. The $19,413 / $6,471 amounts for Jan 1, 2026 and the 1.5% CPI-U adjustment do not appear in D006."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The rule's effective_date is empty and the document gives no original effective date for the just-cause provisions. It only says Measure BB passed in November 2024 and that the Notice of Tenant Rights applies to tenancies started on or after December 20, 2024."
+   },
+   {
+    "field": "status",
+    "verdict": "partly_supported",
+    "quoted_span": "Measure BB, a ballot measure passed by Berkeley voters in the November 2024 election, makes several changes to Berkeley’s Rent Ordinance that affect tenant and landlord rights and responsibilities.",
+    "note": "The document describes the rules as currently applicable ('cannot be evicted', 'NEW' requirements), which is consistent with in_force. It does not state a status explicitly, and it gives no current-in-force date for the 2026 amounts."
+   },
+   {
+    "field": "coverage",
+    "verdict": "partly_supported",
+    "quoted_span": "the unit will be exempt from the Rent Ordinance only if the landlord lived in a unit on the same property at the start of the tenancy.",
+    "note": "D006 supports coverage of fully and partially covered units, the shared kitchen/bath exemption condition, government-subsidized units, new construction (certificate of occupancy after 1980) and most condominiums. The Golden Duplex, ADU-property, university housing and nonprofit cooperative exemptions are not in D006. The coverage summary says 'after June 1980' where D006 says 'after 1980'."
+   },
+   {
+    "field": "citation",
+    "verdict": "not_supported",
+    "quoted_span": null,
+    "note": "D006 does not cite Berkeley Mun. Code § 13.76.130 or any section number. It refers only to the 'Rent Ordinance'. The record's own review note says the section number comes from another document."
+   }
+  ]
+ }
+}

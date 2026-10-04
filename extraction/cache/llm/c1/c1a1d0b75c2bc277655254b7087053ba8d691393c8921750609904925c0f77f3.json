@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D031:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 4710,
+  "output_tokens": 772
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "For new tenancies, the Guide must be provided when a tenant signs a lease or enters into a tenancy agreement for the first time or tenders the first month’s rent. The Ordinance also requires that a landlord provide the Guide to tenants when legal steps to terminate a tenancy are taken (ex. Notice to Quit or Summary Process).",
+    "note": "All elements are in the FAQ: all tenants and lawful occupants, tenants at will, no renewal requirement, no signed receipt, eviction not barred, $300 per day, and the Guide offered at the same time as the notice."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "You may be fined $300 for each day’s violation.",
+    "note": "The Guide at tenancy start and with a notice to quit or summary process is supported by the timing FAQ. The $300 daily fine is also supported."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The field is empty and the document gives no adoption or effective date. Only page posting and modification dates appear."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "The Ordinance requires owners, landlords, and management companies to provide you with information at the start of your lease or tenancy as well as when your tenancy is being terminated.",
+    "note": "The page describes the ordinance in the present tense as operative, which supports in_force. It does not state the status explicitly."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "Yes, the Ordinance applies to a residential rental agreements, including single residential dwelling unit.",
+    "note": "The exemptions for hospitals, skilled nursing and health facilities, non-profit substance-abuse facilities, and Short Term Rental Units under Zoning Art. 4 § 4.60 are all stated. Tenancies at will are covered. The single-unit owner-occupant point is also supported."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "The City of Cambridge Tenants Rights and Resources Ordinance, Chapter 8.71 of the Cambridge Municipal Code",
+    "note": "Sec 8.71.030 (definitions) and Section 8.71.070 (Violation Penalty) are also named in the document."
+   }
+  ]
+ }
+}

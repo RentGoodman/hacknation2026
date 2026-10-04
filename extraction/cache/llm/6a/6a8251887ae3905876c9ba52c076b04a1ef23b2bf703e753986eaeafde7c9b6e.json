@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D058:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 2072,
+  "output_tokens": 593
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "A notice to quit for nonpayment of rent given in writing by a landlord to a residential tenant pursuant to this chapter shall be accompanied by a form that shall include, but not be limited to:",
+    "note": "All elements (repayment agreements, RAFT info, court rules, federal/state restrictions, prominent statement, EOHLC form, 5 languages, no court filing without proof of delivery) match the text."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "The information in clause (ii) of subsection (a) shall be made available in the 5 most common languages spoken in the commonwealth in addition to English.",
+    "note": "Form required, filing bar, and language requirement all appear in the text."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "Field is empty and the document states no effective date."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "Section 31. (a) A notice to quit for nonpayment of rent given in writing by a landlord to a residential tenant pursuant to this chapter shall be accompanied by a form",
+    "note": "Document is the current statute text in present-tense mandatory language, consistent with in_force; no repeal or sunset is stated."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "in an eviction for nonpayment of rent for a residential dwelling unit",
+    "note": "Residential tenants and dwelling units only; no unit-count, building-age, or owner-based exemptions appear in the text."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "General Law - Part II, Title I, Chapter 186, Section 31",
+    "note": "Matches G.L. c. 186, § 31."
+   }
+  ]
+ }
+}

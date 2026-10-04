@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D067:c4",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 561,
+  "output_tokens": 311
+ },
+ "result": {
+  "en": "In New Jersey, a landlord cannot evict you, substantially change your lease, or refuse to renew it as payback for enforcing your rights, making a good-faith complaint to a government authority (after notifying the landlord in writing and allowing reasonable time to fix the problem), joining a lawful tenant organization, or refusing retaliatory lease changes, and you may sue for damages.",
+  "es": "En Nueva Jersey, un arrendador no puede desalojarlo, cambiar sustancialmente su contrato de arrendamiento ni negarse a renovarlo como represalia por hacer valer sus derechos, presentar una queja de buena fe ante una autoridad gubernamental (después de avisar por escrito al arrendador y darle un tiempo razonable para corregir el problema), unirse a una organización lícita de inquilinos o rechazar cambios de represalia en el contrato, y usted puede demandar por daños."
+ }
+}

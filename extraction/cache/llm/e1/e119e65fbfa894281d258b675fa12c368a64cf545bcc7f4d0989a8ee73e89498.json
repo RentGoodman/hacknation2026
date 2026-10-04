@@ -1,0 +1,66 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "extract",
+ "subject": "D029",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 4000,
+  "output_tokens": 1587
+ },
+ "result": {
+  "rules": [
+   {
+    "candidate_id": "c1",
+    "jurisdiction": "Cambridge, MA",
+    "category": "screening_restrictions",
+    "status": "in_force",
+    "title": "Cambridge Fair Housing Ordinance: source-of-income and other protected-class limits on tenant selection",
+    "requirement": "The Fair Housing Ordinance prohibits housing discrimination in renting, terms and conditions of tenancy, and advertising. Source of income, including Section 8 and public benefits, is a protected category. Landlords may use any reasonable standard to select tenants if it is applied equally and uniformly. Tenant selection may be based on ability to pay rent and ability to care for the apartment and respect others' rights.",
+    "key_value": "Civil fines of up to $300 per violation (Commission remedy after hearing)",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": 2,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [
+      "owner-occupied 2-family dwelling"
+     ],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Applies to rental housing in Cambridge, except 2-family dwellings where the owner lives.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": "Exemption for 2-family dwellings when the owner lives there.",
+     "other_conditions": null
+    },
+    "exemptions": "2-family dwellings when the owner lives there.",
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "The page does not give an effective date. The Commission was established in 1984.",
+    "effective_date_formula": null,
+    "citation": "Cambridge Mun. Code ch. 14.04",
+    "citation_aliases": [
+     "Cambridge Fair Housing Ordinance",
+     "Cambridge Mun. Code ch. 2.76"
+    ],
+    "quoted_span": "Source of Income, includes Section 8 and public benefits",
+    "confidence": 0.6,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "Secondary description from the Human Rights Commission web page, not the ordinance text. The page does not say whether the ordinance covers timing of screening or criminal history. The 2-family owner-occupied exemption is described only briefly.",
+    "source_notes": "The page also lists a Tenants' Rights and Resources Notification Ordinance as a link title only. It gives no content, so no rule is extracted."
+   }
+  ],
+  "no_rule_findings": [],
+  "doc_summary": "Cambridge Human Rights Commission landing page and FAQ. It describes enforcement of the Human Rights Ordinance (ch. 2.76) and the Fair Housing Ordinance (ch. 14.04). The housing-relevant content is the protected categories, including source of income (Section 8 and public benefits), the rule on reasonable tenant-selection standards, the owner-occupied 2-family exemption and the remedies. It gives no deposit, rent, eviction or algorithmic-pricing rules. The Tenants' Rights and Resources Notification Ordinance appears only as a link title."
+ }
+}

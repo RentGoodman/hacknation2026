@@ -1,0 +1,45 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "DX01:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 4244,
+  "output_tokens": 1187
+ },
+ "result": {
+  "coverage": {
+   "built_after": null,
+   "built_on_or_before": null,
+   "construction_cutoff": null,
+   "construction_date_basis": null,
+   "landlord_size_condition": null,
+   "max_units": null,
+   "may_preempt_local_rules": null,
+   "min_building_age_years": null,
+   "min_units": null,
+   "new_construction_exemption": null,
+   "other_conditions": "A residential dwelling unit is defined as any primary residence. Medical/long-term care facilities and detention facilities are excluded.",
+   "owner_conditions": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": null,
+   "summary": "Applies to landlords who rent any residential dwelling unit (any primary residence) in Hoboken. Medical/long-term care and detention facilities are excluded. The ordinance states no unit-count, building-age or landlord-size threshold.",
+   "supersedes_state_rule": null,
+   "unverifiable_exemptions": [],
+   "yields_to_local_rule": null
+  },
+  "evidence": [
+   {
+    "field": "other_conditions",
+    "doc_id": "DX01",
+    "quoted_span": "(defined as any primary residence excluding medical/long-term care or detention facilities)"
+   },
+   {
+    "field": "summary",
+    "doc_id": "DX01",
+    "quoted_span": "Landlords who rent any residential dwelling unit (defined as any primary residence excluding medical/long-term care or detention facilities) in the City of Hoboken"
+   }
+  ],
+  "notes": "Coverage is unchanged in substance. I tightened the summary wording so that it states only what the passage in DX01 supports. The 'any residential dwelling unit' language supports reading the rule as having no unit-count, building-age or landlord-size threshold. That claim rests on the absence of such limits, not on an express statement. The possible preemption by the state FAIR Act is not described in DX01, so I left supersedes_state_rule, may_preempt_local_rules and yields_to_local_rule as null. may_preempt_local_rules describes this rule preempting other rules, which does not apply to a municipal ordinance."
+ }
+}

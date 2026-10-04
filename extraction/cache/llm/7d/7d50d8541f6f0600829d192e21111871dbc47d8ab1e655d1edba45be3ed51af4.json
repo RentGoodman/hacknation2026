@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D067:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 1046,
+  "output_tokens": 208
+ },
+ "result": {
+  "en": "In New Jersey, a landlord can't charge a security deposit above 1.5 times one month's rent, must return it within 30 days after the tenancy ends minus itemized deductions, and a tenant can sue for double the amount wrongfully withheld.",
+  "es": "En Nueva Jersey, el propietario no puede cobrar un depósito de seguridad superior a 1.5 veces el alquiler de un mes, debe devolverlo dentro de los 30 días posteriores al fin del contrato menos las deducciones detalladas, y el inquilino puede demandar por el doble de lo retenido indebidamente."
+ }
+}

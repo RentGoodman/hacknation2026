@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D068:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 721,
+  "output_tokens": 279
+ },
+ "result": {
+  "en": "New Jersey's Law Against Discrimination bars landlords from refusing to rent based on protected traits, including source of lawful income such as a Section 8 voucher, and you can file a free complaint with the Division on Civil Rights within 180 days or sue in Superior Court within 2 years, with penalties up to $10,000 for a first offense.",
+  "es": "La Ley contra la Discriminación de Nueva Jersey prohíbe que los arrendadores se nieguen a alquilar por características protegidas, incluida la fuente de ingresos legales como un vale de la Sección 8, y se puede presentar una queja gratuita ante la División de Derechos Civiles dentro de 180 días o una demanda en el Tribunal Superior dentro de 2 años, con sanciones de hasta $10,000 por una primera infracción."
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "cell",
+ "subject": "CA|security_deposits",
+ "prompt_version": "v10",
+ "usage": {},
+ "result": {
+  "cell_status": "rules_found",
+  "no_rule_quote": null,
+  "no_rule_passage_id": null,
+  "basis_citation": null,
+  "rules": [
+   {
+    "jurisdiction": "CA",
+    "category": "security_deposits",
+    "status": "in_force",
+    "title": "California security deposit limits and return (Civil Code § 1950.5, as amended by AB 12)",
+    "requirement": "A landlord may not demand or receive security, however denominated, above one month's rent (in addition to first month's rent paid on or before initial occupancy). Small landlords may charge up to two months' rent. Last month's rent counts as part of the deposit; first month's rent does not. The remainder of the deposit must be returned within 21 days after the tenant vacates, with an itemized statement and copies of supporting documents for any deductions. Starting Jan. 1, 2025, landlords must provide proof that necessary repairs were completed. Starting Apr. 1, 2025, landlords must photograph the unit after regaining possession and before any repairs or cleaning for which they intend to deduct. Refunds must be made electronically if the landlord received the deposit or rent electronically.",
+    "key_value": "1 month's rent max (2 months for qualifying small landlords); return within 21 days; itemized statement with receipts; photos required from 4/1/2025",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": "Two-month cap applies only to landlords who own no more than two rental properties with no more than four residential units total, held by a natural person, family trust, or LLC whose members are all natural persons.",
+     "summary": "Applies to residential rental tenancies statewide; higher cap available only to qualifying small landlords.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": "Small-landlord two-month cap requires ownership by a natural person, family trust, or LLC with only natural-person members.",
+     "other_conditions": null
+    },
+    "exemptions": "Small landlords (no more than two properties and four units total, held by natural persons, family trust or all-natural-person LLC) may charge up to two months' rent.",
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": "2024-07-01",
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "The one-month cap took effect July 1, 2024 (AB 12). The 21-day return period and the Jan. 1, 2025 and Apr. 1, 2025 documentation and photograph requirements are described in a secondary Berkeley Rent Board page.",
+    "effective_date_formula": null,
+    "citation": "Cal. Civ. Code § 1950.5",
+    "citation_aliases": [
+     "AB 12",
+     "Cal. Civ. Code § 1950.5(c)",
+     "Cal. Civ. Code § 1950.5(g)",
+     "California security deposit law"
+    ],
+    "quoted_span": "(c) (1) Except as provided in paragraph (2), (3), or (5), a landlord shall not demand or receive security, however denominated, in an amount or value in excess of an amount equal to one month’s rent, in addition to any rent for the first month paid on or before initial occupancy.",
+    "confidence": 0.85,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "Small-landlord exception, 21-day return deadline and photo and repair-proof dates come from Berkeley Rent Board pages (secondary descriptions of state law), not the statutory text in the passages. Paragraphs (2), (3) and (5) exceptions are only partly visible, including the six-month advance-rent allowance.",
+    "source_notes": "Passages p7 and p8 are Berkeley Rent Board summaries of California state law; p1 and p4 are statutory text excerpts covering electronic return and successor-in-interest liability.",
+    "passage_id": "p2"
+   }
+  ]
+ }
+}

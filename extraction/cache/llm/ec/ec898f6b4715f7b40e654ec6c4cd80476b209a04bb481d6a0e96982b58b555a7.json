@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D023:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 12112,
+  "output_tokens": 1590
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "after a tenant has continuously and lawfully occupied a residential real property for 12 months, the owner of the residential real property shall not terminate a tenancy without just cause, which shall be stated in the written notice to terminate tenancy.",
+    "note": "The at-fault and no-fault causes, the cure notice, the relocation or rent waiver, the void-notice rule, the damages, the injunctions and the waiver rule all appear in the statute."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "The amount of relocation assistance or rent waiver shall be equal to one month of the tenant’s rent that was in effect when the owner issued the notice to terminate the tenancy. Any relocation assistance shall be provided",
+    "note": "The 12/24-month trigger, the 15-day payment, the 90-day and 12-month owner move-in terms, the 30-day remodel vacancy, the up-to-3x damages and the 2030 repeal are all in the text."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "supported",
+    "quoted_span": "(m) This section shall become operative on April 1, 2024.",
+    "note": "The 2024-04-01 date matches subdivision (m)."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "(Amended by Stats. 2025, Ch. 203, Sec. 1.   (AB 1529)   Effective January 1, 2026.   Repealed as of January 1, 2030, by its own provisions.)",
+    "note": "The section is currently operative, with the latest amendment effective 2026 and repeal set for 2030, so in_force fits."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "(7) Housing that has been issued a certificate of occupancy within the previous 15",
+    "note": "The 15-year exemption (excluding mobilehomes), the owner-occupied duplex exemption, the separately alienable property conditions, local-ordinance deference, the bar on dual coverage, the non-enforcement of less protective later ordinances and the mobilehome homeowner carve-out are all in the statute."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "CIV 1946.2",
+    "note": "The statute is 1946.2, and the document confirms AB 1529 and Stats. 2025, ch. 203. The aliases AB 1482 and Tenant Protection Act of 2019 do not appear in the document, but the primary citation is correct."
+   }
+  ]
+ }
+}

@@ -1,0 +1,67 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "extract",
+ "subject": "DX04",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 2290,
+  "output_tokens": 2094
+ },
+ "result": {
+  "rules": [
+   {
+    "candidate_id": "c1",
+    "jurisdiction": "Jersey City, NJ",
+    "category": "algorithmic_rent_setting",
+    "status": "in_force",
+    "title": "Jersey City ban on algorithmic rent-fixing (§ 218-12), as amended by Ord. 25-076",
+    "requirement": "Ord. 25-076 amends § 218-12(2), Unlawful Conduct. It is unlawful for any real estate lessor, agent or subcontractor to subscribe to, contract with, exchange anything of value with, or otherwise use the services of a Service Provider. No service provider may facilitate an agreement not to compete among real estate lessors on any aspect of residential dwelling units, including rental pricing, fees or other rental terms. The ordinance text says \"No Change\" for subsection 1 (definitions or findings are not shown). Sections 218-13 to 218-18 (exempt dwellings, occupancy required, extension of time, violations and penalties, conflicts with state law, findings) are marked unchanged and their content is not reproduced.",
+    "key_value": null,
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Applies to real estate lessors, their agents and subcontractors, and to service providers. The exempt-dwellings and occupancy provisions (§§ 218-13, 218-14) are unchanged and not described in this document.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": null
+    },
+    "exemptions": "§ 218-13 (Exempt dwellings) is listed as \"No changes\"; its content is not stated in this document.",
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": "2025-07-16",
+    "sunset_date": null,
+    "effective_date_note": "No effective date is stated in the document. The council adopted the ordinance on second reading on Jul 16 2025 and the Mayor approved it on Jul 17 2025. It amends the earlier Ord. 25-057, passed May 21, 2025.",
+    "effective_date_formula": null,
+    "citation": "Jersey City Code § 218-12",
+    "citation_aliases": [
+     "Ord. 25-076",
+     "Ord. 25-057",
+     "Jersey City Code ch. 218",
+     "Jersey City Code § 218-12(2)",
+     "Preventing Algorithmic Rent Fixing in the Rental Housing Market"
+    ],
+    "quoted_span": "It is unlawful for any real estate lessor, agent, or subcontractor thereof, to subscribe to, contract with, or",
+    "confidence": 0.8,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "This is an amendatory ordinance, so the full definitions, exemptions, penalties and effective date of § 218-12 are not in this document. They sit in the base ordinance (Ord. 25-057) and the unchanged sections. Status is inferred from adoption and mayoral approval, with no stated sunset.",
+    "source_notes": "Official council ordinance with its fact sheet. The fact sheet's purpose line reads \"Amending 218-12 section 2 to clarify language\". The ordinance's own recital is that the Council \"wishes to clarify the language to ensure the ordinance is as strong as possible.\""
+   }
+  ],
+  "no_rule_findings": [],
+  "doc_summary": "Jersey City Ord. 25-076 amends § 218-12(2) of Chapter 218 (Preventing Algorithmic Rent Fixing in the Rental Housing Market). It clarifies the unlawful conduct language: lessors, agents and subcontractors may not use a Service Provider, and service providers may not facilitate agreements not to compete on rental pricing, fees or terms. The council adopted it Jul 16 2025 (9-0) and the Mayor approved it Jul 17 2025. It amends the earlier Ord. 25-057. All other sections are unchanged and no effective date is stated."
+ }
+}

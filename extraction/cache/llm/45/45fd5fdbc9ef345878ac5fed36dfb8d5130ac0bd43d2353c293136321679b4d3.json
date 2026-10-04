@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D046:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 580,
+  "output_tokens": 239
+ },
+ "result": {
+  "en": "S.2983 is a pending Massachusetts Senate bill that would prohibit algorithmic rent setting; the Housing Committee reported it on March 12, 2026, it now sits in Senate Ways and Means, and the available pages do not show its detailed requirements, penalties or effective date.",
+  "es": "S.2983 es un proyecto de ley pendiente del Senado de Massachusetts que prohibiría la fijación de alquileres mediante algoritmos; el Comité de Vivienda lo informó el 12 de marzo de 2026, ahora está en Senate Ways and Means, y las páginas disponibles no muestran sus requisitos detallados, sanciones ni fecha de vigencia."
+ }
+}

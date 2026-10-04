@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "DX12:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 622,
+  "output_tokens": 349
+ },
+ "result": {
+  "en": "In Los Angeles, landlords of rent-stabilized (RSO) units must pay tenants interest on security deposits, which accrues monthly from November 1, 1990, and is paid monthly or yearly as a direct payment or a rent credit, with the landlord choosing the method and telling the tenant in writing; the City sets the rate each year (4.320% for calendar year 2025), and waiting until the tenancy ends to pay it does not comply.",
+  "es": "En Los Ángeles, los propietarios de unidades con control de renta (RSO) deben pagar a los inquilinos intereses sobre el depósito de seguridad, que se acumulan mensualmente desde el 1 de noviembre de 1990 y se pagan mensual o anualmente como pago directo o crédito en la renta; el propietario elige el método y avisa por escrito al inquilino, la Ciudad fija la tasa cada año (4.320% para el año calendario 2025), y esperar hasta el final del arrendamiento para pagarlo no cumple con la norma."
+ }
+}

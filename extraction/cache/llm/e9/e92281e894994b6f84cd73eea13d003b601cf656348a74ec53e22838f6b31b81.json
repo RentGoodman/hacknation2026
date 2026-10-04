@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D046:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 1800,
+  "output_tokens": 697
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "The committee on Housing, to whom was referred the petitions (accompanied by bill, Senate, No. 994) of Cindy F. Friedman and Julian Cyr for legislation to prohibit algorithmic rent setting; and (accompanied by bill, Senate, No. 1016) of Michael O. Moore, Patricia D. Jehlen and James B. Eldridge for legislation to establish the Preventing Algorithmic Rent Fixing in the Rental Housing Market Act.",
+    "note": "Document supports the bill title, March 12, 2026 committee report, the two petitions, and the Ways and Means location. The statement that the bill text is not captured is consistent with the document. The 'redraft' characterization is a mild inference."
+   },
+   {
+    "field": "key_value",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "Field is null and the document states no numeric or key value."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "Field is null and the document states no effective date. The note that none is stated is accurate."
+   },
+   {
+    "field": "status",
+    "verdict": "partly_supported",
+    "quoted_span": "Senate Committee on Ways and Means",
+    "note": "The document shows the bill reported by committee and now with Senate Ways and Means, which is consistent with pending. It does not state 'pending' explicitly, so this is an inference."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "An Act prohibiting algorithmic rent setting",
+    "note": "Coverage fields are null and the summary states that coverage is unknown because the bill text is absent. The document contains no coverage details, so this is accurate."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "Bill S.2983",
+    "note": "S.2983 is supported. The aliases Senate No. 2983, No. 994, No. 1016, S.994/S.1016 (the action list shows S994 and S1016), and the Act name all appear. The '194th General Court' alias is supported by '194th (Current)'."
+   }
+  ]
+ }
+}

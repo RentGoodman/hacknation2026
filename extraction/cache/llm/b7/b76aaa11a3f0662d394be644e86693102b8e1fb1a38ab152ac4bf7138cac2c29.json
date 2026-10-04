@@ -1,0 +1,18 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "date_audit",
+ "subject": "D006:c2",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 23014,
+  "output_tokens": 784
+ },
+ "result": {
+  "requirement_is_new": false,
+  "in_force_since": null,
+  "in_force_since_evidence": null,
+  "current_version_effective": "2026-01-01",
+  "prior_version_note": "Just cause was previously called 'good cause' and existed before Measure BB (November 2024). Under the prior version, per D006: nonpayment evictions had no minimum debt threshold of one month's Fair Market Rent. Landlords could evict for a tenant's failure to sign a new fixed-term lease. Lease-breach evictions lacked the actual-harm and unreasonableness requirements. The filing deadline for eviction-related documents was longer (Measure BB 'shortened the timeline'). Termination notices had no required Rent Board advisory statement. There was no Notice of Tenant Rights duty. Annual inflation adjustments to owner move-in relocation payments were not mandatory. The documents do not give the original effective date of the just-cause provisions.",
+  "effective_date_formula": null
+ }
+}

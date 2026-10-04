@@ -1,0 +1,14 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "resource",
+ "subject": "DX06:c4",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 6285,
+  "output_tokens": 112
+ },
+ "result": {
+  "replacement": null,
+  "reason": "Neither official document addresses algorithmic rent-setting software. D084 is the Rent Stabilization program page and D085 covers the 2021 rent stabilization and just cause eviction ordinances. Neither mentions Ord. NS-3090 or a ban on algorithmic pricing devices."
+ }
+}

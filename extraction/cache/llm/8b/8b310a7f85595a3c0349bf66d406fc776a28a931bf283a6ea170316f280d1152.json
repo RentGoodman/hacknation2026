@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D050:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 1963,
+  "output_tokens": 646
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "Upon the neglect or refusal to pay the rent due under a written lease, fourteen days' notice to quit, given in writing by the landlord to the tenant, shall be sufficient to determine the lease, unless the tenant, on or before the day the answer is due, in an action by the landlord to recover possession of the premises, pays or tenders to the landlord or to his attorney all rent then due, with interest and costs of suit.",
+    "note": "The summary of the 7-day continuance and treating the tenancy as not terminated matches the second sentence."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "fourteen days' notice to quit, given in writing by the landlord to the tenant, shall be sufficient to determine the lease",
+    "note": "The cure by answer date and the 7-day minimum continuance are both in the text."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The document gives no effective date, and the field is empty."
+   },
+   {
+    "field": "status",
+    "verdict": "partly_supported",
+    "quoted_span": "Section 11. Upon the neglect or refusal to pay the rent due under a written lease",
+    "note": "The document is the codified section with no repeal or sunset noted, so in_force is plausible, but it does not state its status."
+   },
+   {
+    "field": "coverage",
+    "verdict": "partly_supported",
+    "quoted_span": "Upon the neglect or refusal to pay the rent due under a written lease",
+    "note": "The written-lease limit is supported. The section sets no size, date or owner limits. The statement that tenancies at will are governed by § 12 and the claim of statewide application are not in D050. The § 12 reference comes from D051, which is not the document being checked."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "General Law - Part II, Title I, Chapter 186, Section 11",
+    "note": "This matches G.L. c. 186, § 11."
+   }
+  ]
+ }
+}

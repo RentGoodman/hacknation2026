@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D083:c5",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 3764,
+  "output_tokens": 706
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "The amount of relocation payments for temporary capital improvement evictions for less than 20 days is governed by California Civil Code Section 1947.9 and not by Rent Ordinance Section 37.9C.",
+    "note": "Document supports the governing-statute point and the per-day payment per tenant household plus moving expenses by notice date (table). The 'Rent Board lists' framing matches the page."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "3/01/26 – 2/28/27\n$446.00/day (plus actual moving expenses)\n3/01/25 – 2/28/26\n$436.00/day (plus actual moving expenses)",
+    "note": "Both rates and the date ranges match; the document says 'Per Tenant Household'."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "Effective date is null; the document gives no effective date for the statute, consistent with the rule's note."
+   },
+   {
+    "field": "status",
+    "verdict": "partly_supported",
+    "quoted_span": "3/01/26 – 2/28/27\n$446.00/day (plus actual moving expenses)",
+    "note": "The page lists the current rate as applying now, implying it is in force, but it does not explicitly state the statute's status."
+   },
+   {
+    "field": "coverage",
+    "verdict": "partly_supported",
+    "quoted_span": "The amount of relocation payments for temporary capital improvement evictions for less than 20 days is governed by California Civil Code Section 1947.9 and not by Rent Ordinance Section 37.9C.",
+    "note": "The summary is supported. The may_preempt_local_rules=true flag is an inference: the document only says 1947.9 rather than 37.9C governs this category, and does not mention preemption. Geographic scope is not stated."
+   },
+   {
+    "field": "citation",
+    "verdict": "partly_supported",
+    "quoted_span": "California Civil Code Section 1947.9",
+    "note": "The primary citation is supported. The aliases, including 'Cal. Civ. Code ch. 2 (Hiring of Real Property)', do not appear in the document."
+   }
+  ]
+ }
+}

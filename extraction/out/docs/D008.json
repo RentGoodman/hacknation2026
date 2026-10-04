@@ -1,0 +1,38 @@
+{
+  "doc_id": "D008",
+  "source_url": "https://rentboard.berkeleyca.gov/sites/default/files/documents/AGA%20Public%20Notice.pdf",
+  "model": "anthropic:claude-sonnet-5-5",
+  "query_date": "2026-10-01",
+  "chunks": 1,
+  "rules": [
+    {
+      "jurisdiction": "Berkeley, CA",
+      "level": "city",
+      "category": "rent_increase_limits",
+      "status": "in_force",
+      "title": "Berkeley 2026 Annual General Adjustment (Regulation 1148)",
+      "requirement": "Eligible landlords may increase the 2025 permanent rent ceilings by 1.0% no earlier than January 1, 2026. The AGA is set at 65% of the Bay Area CPI-U increase for July 1, 2024 - June 30, 2025.",
+      "key_value": "1.0% (65% of 1.5% Bay Area CPI)",
+      "coverage_conditions": {
+        "summary": "Rent-stabilized Berkeley units whose landlords are eligible under Regulation 1148; the AGA may not adjust rents for tenancies that began on or after January 1, 2025 whose rents were set under Costa-Hawkins.",
+        "construction_date_basis": null,
+        "built_on_or_before": null,
+        "built_after": null,
+        "min_building_age_years": null,
+        "min_units": null,
+        "max_units": null,
+        "owner_conditions": null,
+        "other_conditions": "Excludes tenancies beginning on or after January 1, 2025 with rents set pursuant to the Costa-Hawkins Rental Housing Act. Landlords must meet the conditions and give the notice set out in Regulation 1148."
+      },
+      "exemptions": "Tenancies that began on or after January 1, 2025 and had their rents set pursuant to the Costa-Hawkins Rental Housing Act are not adjusted by the 2026 AGA.",
+      "interaction": "Interacts with the Costa-Hawkins Rental Housing Act, which governs initial rents for certain tenancies.",
+      "effective_date": "2026-01-01",
+      "citation": "Berkeley Municipal Code § 13.76.110A; Rent Board Regulation 1148",
+      "quoted_span": "adopted the Annual General Adjustment (AGA) Order for Year 2026 which will allow \neligible landlords to increase the 2025 permanent rent ceilings by 1.0% no earlier than \nJanuary 1, 2026.",
+      "confidence": 0.9,
+      "conflict_flag": false,
+      "conflict_note": null
+    }
+  ],
+  "rejected": []
+}

@@ -1,0 +1,45 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D004:c2",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 21093,
+  "output_tokens": 1267
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": false,
+   "unverifiable_exemptions": [],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Applies when an owner evicts tenants to remove a Berkeley property from the rental housing market (Ellis Act withdrawal).",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": null,
+   "other_conditions": null
+  },
+  "evidence": [
+   {
+    "field": "summary",
+    "doc_id": "D004",
+    "quoted_span": "The Ellis Implementation Ordinance requires the same relocation assistance payments for tenants evicted so the owner can remove a property from the rental housing market."
+   },
+   {
+    "field": "requires_unknown_facts",
+    "doc_id": "D004",
+    "quoted_span": "The Ellis Implementation Ordinance requires the same relocation assistance payments for tenants evicted so the owner can remove a property from the rental housing market."
+   }
+  ],
+  "notes": "I changed requires_unknown_facts from true to false. The rule applies to any rental property an owner withdraws from the market. It does not depend on a class of buildings that assessor data cannot identify, and it is triggered by an event (Ellis withdrawal). I removed the 'qualifying households' entry from other_conditions and unverifiable_exemptions. It is a criterion for the size of the payment to the tenant household, not a building, unit or owner exemption, and its criteria are not stated in the documents. I did not import Rent Ordinance coverage categories from D009 or D006 (pre-1980, new construction, Golden Duplex, etc.), because those documents describe the Rent Stabilization Ordinance, not the separate Ellis Implementation Ordinance."
+ }
+}

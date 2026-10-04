@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D040:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 1207,
+  "output_tokens": 278
+ },
+ "result": {
+  "en": "Landlords of covered non-RSO units in Los Angeles can end a tenancy only for a listed at-fault or no-fault reason, and for no-fault reasons they must pay relocation assistance within 15 days of service (for example $11,000 for an eligible household under 3 years, or one month's rent for certain single-family homes).",
+  "es": "Los propietarios de unidades cubiertas no sujetas al RSO en Los Ángeles solo pueden terminar un arrendamiento por una causa enumerada, con culpa o sin culpa, y en los casos sin culpa deben pagar asistencia de reubicación dentro de 15 días de la notificación (por ejemplo, $11,000 para un hogar elegible con menos de 3 años, o el alquiler de un mes en ciertas viviendas unifamiliares)."
+ }
+}

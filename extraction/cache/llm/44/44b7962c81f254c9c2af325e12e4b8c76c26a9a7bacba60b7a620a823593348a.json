@@ -1,0 +1,45 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "DX06:c11",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 5549,
+  "output_tokens": 1013
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": true,
+   "unverifiable_exemptions": [],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "The captured source does not state which buildings, landlords or geographic areas are covered.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": null,
+   "other_conditions": null
+  },
+  "evidence": [
+   {
+    "field": "requires_unknown_facts",
+    "doc_id": "DX06",
+    "quoted_span": "Injured renters may seek actual damages, up to $7,500 per violation and attorney fees."
+   },
+   {
+    "field": "summary",
+    "doc_id": "DX06",
+    "quoted_span": "Injured renters may seek actual damages, up to $7,500 per violation and attorney fees."
+   }
+  ],
+  "notes": "DX06 is the only captured document, a secondary law-firm alert. Its King County row describes only renter remedies. It says nothing about covered buildings, unit counts, construction dates, landlord size, owner occupancy, exemptions, preemption, or the geographic area (unincorporated areas versus countywide). I therefore kept every substantive coverage field null. requires_unknown_facts stays true because coverage cannot be determined from the captured source. The quoted span shows the full extent of what the source says about King County. Seattle Mun. Code ch. 7.34 is a separate city ordinance, and its coverage was not imputed to the county rule."
+ }
+}

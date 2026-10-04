@@ -1,0 +1,19 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "qa",
+ "subject": "D031:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 9949,
+  "output_tokens": 437
+ },
+ "result": {
+  "changes": [
+   {
+    "field": "category",
+    "after_json": "\"required_disclosures\"",
+    "reason": "D031 describes a duty to hand tenants the City's rights-and-resources Guide at tenancy start and with a notice to quit, and says the ordinance does not prevent an eviction otherwise allowed by law, so it is a disclosure rule, not a just-cause eviction rule."
+   }
+  ]
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "DX04:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 5724,
+  "output_tokens": 1386
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "partly_supported",
+    "quoted_span": "It is unlawful for any real estate lessor, agent, or subcontractor thereof, to subscribe to, contract with, or",
+    "note": "DX04 supports the core ban, the added 'or otherwise utilize' wording, and the bar on service providers facilitating agreements not to compete. It does not contain the definitions of Service Provider, coordination or nonpublic competitor information. It also does not contain the enforcement and private-right-of-action details; those come from the base ordinance."
+   },
+   {
+    "field": "key_value",
+    "verdict": "not_supported",
+    "quoted_span": null,
+    "note": "DX04 lists 'Violations and penalties' as 'No Changes' and does not state the first-violation penalty, the $100 to $2,000 fine range, daily violations, attorney fees or the private right of action."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The field is empty, and DX04 states no effective date. It gives only adoption and approval dates."
+   },
+   {
+    "field": "status",
+    "verdict": "partly_supported",
+    "quoted_span": "Adopted on second and final reading after hearing on Jul 16 2025",
+    "note": "DX04 shows the amendment was adopted and approved by the Mayor on Jul 17 2025. It does not say expressly that the rule is in force, so in_force is an inference."
+   },
+   {
+    "field": "coverage",
+    "verdict": "partly_supported",
+    "quoted_span": "It is unlawful for any real estate lessor, agent, or subcontractor thereof, to subscribe to, contract with, or",
+    "note": "DX04 supports coverage of lessors, agents and subcontractors, and the service-provider prohibition. The definitions of residential dwelling unit, the exemptions for multiple-property owners and licensed agents, and the absence of unit-count limits are not in DX04."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "§218-12 Preventing Algorithmic Rent Fixing in the Rental Housing Market:",
+    "note": "DX04 identifies Chapter 218, section 12, as amended by Ord. 25-076."
+   }
+  ]
+ }
+}

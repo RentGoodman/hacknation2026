@@ -1,0 +1,27 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "date_audit",
+ "subject": "DX05:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 34837,
+  "output_tokens": 638
+ },
+ "result": {
+  "requirement_is_new": true,
+  "in_force_since": "2025-06-21",
+  "in_force_since_evidence": {
+   "doc_id": "DX05",
+   "quoted_span": "added 5-22-2025 by O-21955 N.S.; effective 6-21-2025."
+  },
+  "current_version_effective": "2025-06-21",
+  "prior_version_note": null,
+  "effective_date_formula": {
+   "kind": "days_after",
+   "n": 30,
+   "anchor": "enactment",
+   "anchor_date": "2025-05-22",
+   "verbatim": "thirtieth day from and after its final passage"
+  }
+ }
+}

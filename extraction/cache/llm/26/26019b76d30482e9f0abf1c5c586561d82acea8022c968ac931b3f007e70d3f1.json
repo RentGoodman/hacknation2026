@@ -1,0 +1,64 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "cell",
+ "subject": "CA|algorithmic_rent_setting",
+ "prompt_version": "v10",
+ "usage": {},
+ "result": {
+  "cell_status": "rules_found",
+  "no_rule_quote": null,
+  "no_rule_passage_id": null,
+  "basis_citation": null,
+  "rules": [
+   {
+    "jurisdiction": "CA",
+    "category": "algorithmic_rent_setting",
+    "status": "in_force",
+    "title": "California Cartwright Act amendments: common pricing algorithms (AB 325)",
+    "requirement": "The statute bars using or distributing a common pricing algorithm to coerce another person to adopt the prices or commercial terms it recommends for the same or similar products or services in California. A common pricing algorithm is any methodology, including software, used by two or more persons that uses competitor data to recommend, align, stabilize, set or otherwise influence a price or commercial term. A secondary source says the law also bars using or distributing such algorithms as part of an agreement to restrain trade. It is not specific to housing or rent, and it applies to rental housing only as a general antitrust rule. The statute does not limit other antitrust laws.",
+    "key_value": "Civil fines of up to $1 million in cases brought by the Attorney General or a district attorney (per secondary source)",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": "Applies to any person using or distributing a common pricing algorithm used by two or more persons. It does not reach proprietary algorithms that use only the business's own data (per secondary source).",
+     "summary": "General statewide antitrust rule covering all industries, including residential rental pricing. It is not limited by unit count or building type.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": "Applies to common pricing algorithms that use competitor data. The passages do not say whether the data must be nonpublic."
+    },
+    "exemptions": "Proprietary algorithms using only the business's own data are not affected (per secondary source).",
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": "2026-01-01",
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "The effective date comes from a secondary source (a law-firm alert). It says AB 325 and SB 763 were signed 'last October' and took effect January 1, 2026. The official passage does not state a date.",
+    "effective_date_formula": null,
+    "citation": "AB 325",
+    "citation_aliases": [
+     "SB 763",
+     "Cartwright Act",
+     "Cal. Bus. & Prof. Code (Cartwright Act amendments)"
+    ],
+    "quoted_span": "n to use or distribute a common pricing algorithm if the person coerces another person to set or adopt a recommended price or commercial term recommended by the common pricing algorithm for the same or similar products or services in the jurisdiction of this state.",
+    "confidence": 0.7,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "The official passage (p1) is truncated and gives no section number or bill number. The bill numbers, effective date and penalty come from the secondary source DX09. Confirm the codified section citation before relying on it. Local ordinances in Berkeley, San Francisco and San Diego appear in the passages but are not state law and are excluded here.",
+    "source_notes": "Secondary source DX09 describes AB 325 and SB 763 as taking effect January 1, 2026, with civil fines of up to $1 million.",
+    "passage_id": "p1"
+   }
+  ]
+ }
+}

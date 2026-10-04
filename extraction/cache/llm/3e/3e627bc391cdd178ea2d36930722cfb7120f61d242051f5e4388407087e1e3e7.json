@@ -1,0 +1,69 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "extract",
+ "subject": "D047",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 513,
+  "output_tokens": 906
+ },
+ "result": {
+  "rules": [
+   {
+    "candidate_id": "c1",
+    "jurisdiction": "MA",
+    "category": "algorithmic_rent_setting",
+    "status": "pending",
+    "title": "S.2983, An Act prohibiting algorithmic rent setting",
+    "requirement": "Pending Massachusetts Senate bill to prohibit algorithmic rent setting. The Committee on Housing reported S.2983 on March 12, 2026 on petitions S.994 and S.1016, and it was sent to Senate Ways and Means. The page gives no operative text, covered software, penalties or effective date.",
+    "key_value": null,
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": null,
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": null
+    },
+    "exemptions": null,
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": null,
+    "effective_date_formula": null,
+    "citation": "S.2983",
+    "citation_aliases": [
+     "Senate, No. 2983",
+     "S.994",
+     "S.1016",
+     "Senate, No. 994",
+     "Senate, No. 1016",
+     "An Act prohibiting algorithmic rent setting",
+     "Preventing Algorithmic Rent Fixing in the Rental Housing Market Act"
+    ],
+    "quoted_span": "An Act prohibiting algorithmic rent setting",
+    "confidence": 0.7,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "The page is a bill history and has no bill text. Only the title and procedural history are stated. Status is pending because the bill has not passed, and it sits in Senate Ways and Means as of the query date.",
+    "source_notes": "The bill is in the 194th General Court. It was reported by the Committee on Housing on March 12, 2026 and is now with Senate Ways and Means."
+   }
+  ],
+  "no_rule_findings": [],
+  "doc_summary": "The Massachusetts Legislature bill history page for S.2983, \"An Act prohibiting algorithmic rent setting\" (194th General Court). The Housing Committee reported it on March 12, 2026 on petitions S.994 and S.1016, and it is now before Senate Ways and Means. The page contains no substantive text, so it supports one pending algorithmic_rent_setting record and nothing else."
+ }
+}

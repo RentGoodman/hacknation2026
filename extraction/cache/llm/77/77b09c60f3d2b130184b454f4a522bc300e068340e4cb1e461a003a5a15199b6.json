@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D040:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 6132,
+  "output_tokens": 1643
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "partly_supported",
+    "quoted_span": "It prohibits terminations of tenancies without just cause and requires relocation assistance for no-fault evictions.",
+    "note": "The just-cause prohibition, the at-fault and no-fault cause lists, annual registration, the Right to Counsel notice, the Renters' Protections notice, the FMR nonpayment limit and the 3-business-day LAHD filing are all in D040. The Declaration of Intent to Evict, the 15-day payment or escrow, the Chart A basis, the single-family one-month's-rent rule and the rent offset are not in D040. They appear to rest on D043, which was not provided."
+   },
+   {
+    "field": "key_value",
+    "verdict": "partly_supported",
+    "quoted_span": "All eviction notices issued to tenants in the City of Los Angeles must be filed with LAHD within three (3) business days of service on the tenant.",
+    "note": "D040 supports the 3-business-day filing, the FMR nonpayment limit from March 27, 2023, the Right to Counsel notice from August 20, 2025 and the Renters' Protections notice from January 27, 2023. The Chart A dollar amounts, the 15-day relocation payment and the one-month's-rent single-family rule do not appear in D040."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The effective_date field is empty and D040 gives no original effective date for the JCO."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "It prohibits terminations of tenancies without just cause and requires relocation assistance for no-fault evictions.",
+    "note": "The page describes the JCO in the present tense as current law. It does not mention repeal or sunset."
+   },
+   {
+    "field": "coverage",
+    "verdict": "partly_supported",
+    "quoted_span": "The JCO covers most residential properties in the City of Los Angeles that are not regulated by the City’s Rent Stabilization Ordinance (RSO).",
+    "note": "D040 supports the non-RSO coverage, the buildings newer than October 1, 1978, the single-family dwelling, the six-month or lease-expiry condition and the list of exemptions. The statement that the RSO generally covers buildings first built on or before October 1, 1978 is not in D040. It comes from D041."
+   },
+   {
+    "field": "citation",
+    "verdict": "not_supported",
+    "quoted_span": null,
+    "note": "D040 gives no code section for the ordinance. It does not mention L.A. Mun. Code § 165.03 or any of the listed aliases, except the name 'JCO'."
+   }
+  ]
+ }
+}

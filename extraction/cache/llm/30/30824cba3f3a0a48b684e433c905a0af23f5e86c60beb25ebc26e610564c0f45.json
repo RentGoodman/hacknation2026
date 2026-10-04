@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D041:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 6835,
+  "output_tokens": 1718
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "partly_supported",
+    "quoted_span": "Rent may be increased once every 12 months by the allowable rent increase percentage",
+    "note": "Most elements are in D041: the utility add-on removal, the dependent 10% removal, the 10% for a non-dependent tenant within 60 days, LAHD-approval programs, the market-reset events, the $1.61 registration pass-through, the $3.00 smoke detector surcharge, the 2020-2024 prohibition, and the 30-day notice for the $1.61 surcharge. D041 does not state the 3% rate for 7/1/2025-6/30/2026, the $2.83 SCEP amount, the 'only after registers and gives written notice' condition, or the state-law 30-day notice for increases under 10%."
+   },
+   {
+    "field": "key_value",
+    "verdict": "partly_supported",
+    "quoted_span": "A $3.00 surcharge may be added to the rent for the installation and cost of a hard-wired",
+    "note": "D041 supports once-per-12-months increases, no utility add-on, no dependent 10% add-on from 2/2/2026, 10% for an additional non-dependent tenant within 60 days, the $1.61 RSO surcharge, and the $3.00 smoke detector surcharge. It does not state the 3% rate or the $2.83/month SCEP amount; it only says the landlord may collect 1/12 of 50% of the annual SCEP fee."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "supported",
+    "quoted_span": "Effective February 2, 2026, the landlord can no longer include an additional percentage increase for utilities.",
+    "note": "The 2026-02-02 date matches the document's statement of when the current formula took effect. The document does not give the RSO's original effective date, and the rule does not claim one."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "Generally, the RSO applies to rental properties that were first built on or before October 1, 1978",
+    "note": "The page is current (September 2026) and presents the RSO as presently applicable, consistent with in_force."
+   },
+   {
+    "field": "coverage",
+    "verdict": "partly_supported",
+    "quoted_span": "Generally, the RSO applies to rental properties that were first built on or before October 1, 1978, as well as replacement units under",
+    "note": "The cutoff date, 'first built' basis, replacement units under LAMC 151.28, covered property types, the condo/townhome 12/31/1995 limitation, the luxury exemption, and temporary exemptions are all supported. The supersedes_state_rule=true flag is not stated in D041; it comes from D040."
+   },
+   {
+    "field": "citation",
+    "verdict": "not_supported",
+    "quoted_span": null,
+    "note": "D041 never cites L.A. Mun. Code § 151.06. It cites only LAMC Section 151.28 and 151.09.C.9 and 165.05.B.5. The rule's own review_note acknowledges that the section is unverified."
+   }
+  ]
+ }
+}

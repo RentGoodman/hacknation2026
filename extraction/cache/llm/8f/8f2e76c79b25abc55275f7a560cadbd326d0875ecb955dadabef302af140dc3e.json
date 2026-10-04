@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D048:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 3352,
+  "output_tokens": 1250
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "partly_supported",
+    "quoted_span": "No city or town may enact, maintain or enforce rent control of any kind, except that any city or town that accepts this chapter may adopt rent control regulation that provides:",
+    "note": "The ban, the exception and limits (a)-(c) all match Section 4. The closing sentence defining rent control as any regulation that in any way requires below-market rents appears nowhere in the document."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "nor may such regulation apply to any rental unit that is owned by a person or entity owning less than ten rental units or that has a fair market rent exceeding $400",
+    "note": "The summary also matches subsection (a), voluntary compliance after six months, and subsection (c), compensation from the municipality's general funds."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The field is null and the document gives no enactment or effective date."
+   },
+   {
+    "field": "status",
+    "verdict": "partly_supported",
+    "quoted_span": "No city or town may enact, maintain or enforce rent control of any kind",
+    "note": "The present-tense statutory text is consistent with the provision being in force. The document never states its status, and the facts about the failed repeal petition are not in it."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "compliance on the part of property owners as to the rent control regulation or any subsequently adopted rent control regulation shall be entirely voluntary and uncoerced, and the property of a person or entity declining to have his or its property subjected to such regulation shall be wholly unaffected",
+    "note": "The ten-unit owner limit, the $400 fair market rent limit, the accepting-municipality condition and the preemptive effect are all stated in the text."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "General Law - Part I, Title VII, Chapter 40P, Section 4",
+    "note": "This matches the primary citation G.L. c. 40P, § 4. The aliases for §§ 2 and 3 are not in this document."
+   }
+  ]
+ }
+}

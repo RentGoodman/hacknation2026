@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D057:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 2325,
+  "output_tokens": 829
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "A licensed broker or salesperson may solely contract with a prospective tenant to find rental residential real property for a tenant and present an offer to lease to the landlord or landlord's agent and negotiate on behalf of the tenant or may solely contract with a landlord or landlord's agent to find a tenant for a property.  Any fee shall only be paid by the party, lessor or tenant who originally engaged and entered into a contract with the licensed broker or salesperson.",
+    "note": "All three components (licensing, one-side contracting, fee paid by engaging party) are in the amended text."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "Any fee shall only be paid by the party, lessor or tenant who originally engaged and entered into a contract with the licensed broker or salesperson.",
+    "note": "Summary of fee payer, one-sided representation and licensing matches the text."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "supported",
+    "quoted_span": "[ Text of section as amended by 2025, 9, Sec. 43 effective August 1, 2025.  See 2025, 9, Sec. 136.  For text effective until August 1, 2025, see above.]",
+    "note": "August 1, 2025 effective date is stated for the amended text."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "[ Text of section as amended by 2025, 9, Sec. 43 effective August 1, 2025.  See 2025, 9, Sec. 136.  For text effective until August 1, 2025, see above.]",
+    "note": "Amended text is the current version in force from Aug 1, 2025; the document gives no indication of repeal or sunset."
+   },
+   {
+    "field": "coverage",
+    "verdict": "partly_supported",
+    "quoted_span": "No person shall engage in the business of finding dwelling accommodations for prospective tenants for a fee unless such person is a licensed broker or salesman",
+    "note": "Document supports application to brokers/salespersons finding dwellings for a fee and no size, date or owner limits are stated. The 'statewide' scope and the 'rental residential property' framing are inferred rather than stated."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "Section 87DDD1/2. No person shall engage in the business of finding dwelling accommodations",
+    "note": "The document shows G.L. c. 112 § 87DDD 1/2, the alias 87DDD.5, and the amendment by 2025, 9, Sec. 43."
+   }
+  ]
+ }
+}

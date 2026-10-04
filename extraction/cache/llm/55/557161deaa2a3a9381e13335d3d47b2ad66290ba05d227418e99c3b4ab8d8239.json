@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D065:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 1105,
+  "output_tokens": 238
+ },
+ "result": {
+  "en": "New Jersey's Fair Chance in Housing Act bars a landlord from asking about your criminal record before a conditional offer (with two narrow exceptions), and afterward limits what they can consider to certain serious convictions and indictable offenses within 6, 4 or 1 year lookbacks depending on degree.",
+  "es": "La Ley de Equidad en la Vivienda de Nueva Jersey prohíbe que un arrendador pregunte por sus antecedentes penales antes de una oferta condicional (con dos excepciones limitadas), y después limita lo que puede considerar a ciertas condenas graves y delitos mayores dentro de plazos de 6, 4 o 1 año según el grado."
+ }
+}

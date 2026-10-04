@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D007:c2",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 3737,
+  "output_tokens": 682
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "partly_supported",
+    "quoted_span": "For tenancies in units fully or partially covered by Berkeley's Rent Ordinance, landlords must pay tenants interest on their security deposit at the end of each year and a prorated amount if the tenant moves out before the end of the year.",
+    "note": "Core duty and proration are supported. The statement that the rate is published on the Rent Board's Security Deposit Interest & Calculator page is only loosely supported: the document refers readers to that page 'for more information' but does not say the rate is published there."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "landlords must pay tenants interest on their security deposit at the end of each year and a prorated amount if the tenant moves out before the end of the year",
+    "note": "The document states no rate, consistent with the record's note that the rate is not stated."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The record's effective date is empty, and the document gives no effective date for the interest requirement. The dates in it relate to other, state-law rules."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "landlords must pay tenants interest on their security deposit at the end of each year",
+    "note": "The document states the requirement in the present tense, which is consistent with in_force. It gives no repeal or sunset."
+   },
+   {
+    "field": "coverage",
+    "verdict": "partly_supported",
+    "quoted_span": "For tenancies in units fully or partially covered by Berkeley's Rent Ordinance",
+    "note": "The document supports the limit to units fully or partially covered by the Rent Ordinance. It does not list the covered or exempt unit types, so the detailed summary and exemptions cannot be verified from this document."
+   },
+   {
+    "field": "citation",
+    "verdict": "not_supported",
+    "quoted_span": null,
+    "note": "The document refers to 'Berkeley's Rent Ordinance' but gives no chapter or section number, so 'Berkeley Mun. Code ch. 13.76' is not stated. The aliases also do not appear in the document."
+   }
+  ]
+ }
+}

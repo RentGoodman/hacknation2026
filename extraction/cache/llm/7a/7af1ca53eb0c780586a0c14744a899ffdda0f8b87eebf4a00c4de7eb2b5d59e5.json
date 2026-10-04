@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D053:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 680,
+  "output_tokens": 247
+ },
+ "result": {
+  "en": "In Massachusetts, a landlord may not threaten or take reprisals against a tenant for enforcing housing laws, reporting code violations, or organizing or joining a tenants' union, and a tenant can recover the greater of 1 to 3 months' rent or actual damages plus costs and attorney's fees.",
+  "es": "En Massachusetts, un propietario no puede amenazar ni tomar represalias contra un inquilino por hacer cumplir las leyes de vivienda, denunciar violaciones del código u organizar o unirse a un sindicato de inquilinos, y el inquilino puede recibir lo que sea mayor entre 1 a 3 meses de renta o los daños reales, más costos y honorarios de abogado."
+ }
+}

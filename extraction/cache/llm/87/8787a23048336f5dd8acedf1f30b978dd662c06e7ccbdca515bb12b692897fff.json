@@ -1,0 +1,24 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "qa",
+ "subject": "DX19:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 7205,
+  "output_tokens": 1183
+ },
+ "result": {
+  "changes": [
+   {
+    "field": "status",
+    "after_json": "\"in_force\"",
+    "reason": "DX18 reports that the ordinance passed its first vote on Feb. 17 and that the later Tuesday vote was the final step to put it into effect, so it is adopted and no longer pending; the effective date stays null because no document states it."
+   },
+   {
+    "field": "citation",
+    "after_json": "\"Santa Ana algorithmic rent-setting software ordinance (2026)\"",
+    "reason": "The current citation describes the superseded first-reading stage, and no ordinance or code section number appears in the documents, so the citation should name the adopted 2026 ordinance generically."
+   }
+  ]
+ }
+}

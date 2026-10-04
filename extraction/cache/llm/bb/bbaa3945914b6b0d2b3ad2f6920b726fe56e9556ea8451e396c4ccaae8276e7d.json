@@ -1,0 +1,46 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "probe",
+ "subject": "Cambridge, MA",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 21205,
+  "output_tokens": 1437
+ },
+ "result": {
+  "verdicts": [
+   {
+    "category": "rent_increase_limits",
+    "verdict": "no_rule",
+    "doc_id": "DX03",
+    "quoted_span": "General Laws c. 40P, § 2, \"broadly prohibits any regulatory scheme based upon or implementing rent control.\"",
+    "basis_citation": "G.L. c. 40P",
+    "reason": "The SJC opinion says Massachusetts has a statewide statutory ban on rent control. The petition to repeal it was barred from the 2026 ballot, so Cambridge cannot impose rent increase limits."
+   },
+   {
+    "category": "security_deposits",
+    "verdict": "undetermined",
+    "doc_id": null,
+    "quoted_span": null,
+    "basis_citation": null,
+    "reason": "No Cambridge-specific document addresses security deposits. Retrieved passage D052 describes a security deposit statute (treble damages, 5% interest), which indicates a state rule exists rather than its absence, so a no_rule verdict is not supported."
+   },
+   {
+    "category": "application_screening_fees",
+    "verdict": "undetermined",
+    "doc_id": null,
+    "quoted_span": null,
+    "basis_citation": null,
+    "reason": "DX13 says MGL Ch 186 §15B forbids Massachusetts landlords from charging application fees, although brokers may charge them. That is an existing restriction, not an absence of rule, so no_rule is not supported."
+   },
+   {
+    "category": "algorithmic_rent_setting",
+    "verdict": "no_rule",
+    "doc_id": "DX10",
+    "quoted_span": "The policy order directs the city manager work with relevant city departments to draft policy options or ordinance language that will be presented back to council later this term.",
+    "basis_citation": null,
+    "reason": "The council only passed a policy order initiating steps toward a ban, and state bills are still pending. This indicates no algorithmic rent-setting ban was in effect in Cambridge at the time of the article."
+   }
+  ]
+ }
+}

@@ -1,0 +1,45 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "DX06:c6",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 5512,
+  "output_tokens": 1257
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": null,
+   "unverifiable_exemptions": [],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Minneapolis city ordinance. The only available source is a secondary summary table, which states no building-size, building-age, owner or landlord-size limits and no exemptions.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": null,
+   "other_conditions": null
+  },
+  "evidence": [
+   {
+    "field": "summary",
+    "doc_id": "DX06",
+    "quoted_span": "Minneapolis Code of Ordinances § 244.2070 (effective March 2026)"
+   },
+   {
+    "field": "summary",
+    "doc_id": "DX06",
+    "quoted_span": "Effective March 1, 2026. Prohibits algorithmic devices using nonpublic competitor data to advise on vacancy or rental rates; tenants may pursue civil actions."
+   }
+  ],
+  "notes": "The only source is a one-row entry in a Morgan Lewis law-firm alert table (August 21, 2026). It gives the citation, effective date and the prohibited conduct, but nothing about which buildings, units or owners are covered. All structured coverage fields therefore stay null.\n\nI reworded the summary to drop the unsupported word \"Citywide\" and to state that the source gives no limits.\n\nrequires_unknown_facts is left null because the source does not say whether the rule reaches ordinary rental buildings generally. It would likely become false once the official text is reviewed.\n\nThe official Minneapolis Code § 244.2070 should be retrieved to check for definitions, exemptions and any unit-count or landlord-size thresholds. For comparison, Portland's row in the same table mentions a 16-unit threshold for private remedies."
+ }
+}

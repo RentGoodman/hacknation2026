@@ -1,0 +1,38 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "probe",
+ "subject": "Santa Ana, CA",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 15811,
+  "output_tokens": 626
+ },
+ "result": {
+  "verdicts": [
+   {
+    "category": "security_deposits",
+    "verdict": "undetermined",
+    "doc_id": null,
+    "quoted_span": null,
+    "basis_citation": null,
+    "reason": "None of the Santa Ana documents (D084, D085, DX18, DX19, DX06) mention security deposits. The retrieved passages cover rent stabilization, just cause eviction and the algorithmic rent-setting ban. No document says Santa Ana lacks a deposit rule or is barred from having one."
+   },
+   {
+    "category": "application_screening_fees",
+    "verdict": "undetermined",
+    "doc_id": null,
+    "quoted_span": null,
+    "basis_citation": null,
+    "reason": "The retrieved screening-fee passages are Berkeley material (D005) and the state statute text (D026/DX08). Nothing addresses Santa Ana local law. No document says Santa Ana has no screening-fee rule, and state-law rules would not establish an absence of a rule."
+   },
+   {
+    "category": "screening_restrictions",
+    "verdict": "undetermined",
+    "doc_id": null,
+    "quoted_span": null,
+    "basis_citation": null,
+    "reason": "DX07 discusses California-wide criminal-history and source-of-income screening rules, not Santa Ana local law. The Santa Ana documents do not address tenant screening restrictions, so there is no support for a finding of no rule."
+   }
+  ]
+ }
+}

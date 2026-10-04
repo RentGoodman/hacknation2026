@@ -1,0 +1,34 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "DX06:c5",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 5833,
+  "output_tokens": 751
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": null,
+   "unverifiable_exemptions": [],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": null,
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": null,
+   "other_conditions": null
+  },
+  "evidence": [],
+  "notes": "DX06, the only source, is a secondary law-firm alert. For Philadelphia Code § 9-813 it reports only the pending cases (Liu v. Willow Bridge; Jahanbakhsh v. Greystar), the remedies ($2,000 per violation or treble actual damages, plus equitable relief, interest and fees) and the effective date (February 2025). It says nothing about which buildings, units, owners or landlord sizes are covered, and gives no exemptions, unit thresholds, construction-date limits or preemption relationships for Philadelphia. All coverage fields are therefore null. The prior summary asserted that no size or construction limits are reported. That describes what the source omits and cannot be supported by a verbatim passage, so the summary was set to null. The '16 or more units' owner threshold in DX06 applies to Portland, OR, not Philadelphia, and must not be attributed here. Coverage should be verified against the official Philadelphia Code text."
+ }
+}

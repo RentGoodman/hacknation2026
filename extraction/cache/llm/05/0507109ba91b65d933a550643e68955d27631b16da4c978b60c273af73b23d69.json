@@ -1,0 +1,14 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "resource",
+ "subject": "DX12:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 24404,
+  "output_tokens": 337
+ },
+ "result": {
+  "replacement": null,
+  "reason": "No official document states this requirement. D041 only lists \"Interest Payments on Security Deposits\" as a topic the RSO covers. It does not say when interest accrues, how or how often it is paid, or that the landlord must give written notice of the method. The other official documents (D039, D040, D042, D043) do not address security deposit interest."
+ }
+}

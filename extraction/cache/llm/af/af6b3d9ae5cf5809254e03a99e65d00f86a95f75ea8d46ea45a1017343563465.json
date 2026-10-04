@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D085:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 905,
+  "output_tokens": 196
+ },
+ "result": {
+  "en": "Santa Ana limits annual rent increases to the lower of 3% or 80% of the 12-month CPI change, with no increase if the CPI change is negative, and the maximum is 2.87% from September 1, 2026 through August 31, 2027.",
+  "es": "Santa Ana limita los aumentos anuales de renta al menor entre 3% o el 80% del cambio del IPC de 12 meses, sin aumento si el cambio del IPC es negativo, y el máximo es 2.87% del 1 de septiembre de 2026 al 31 de agosto de 2027."
+ }
+}

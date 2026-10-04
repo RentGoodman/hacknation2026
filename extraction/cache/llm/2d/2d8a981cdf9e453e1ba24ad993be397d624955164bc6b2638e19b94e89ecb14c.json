@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D024:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 932,
+  "output_tokens": 260
+ },
+ "result": {
+  "en": "California's rent cap law limits how much an owner can raise rent over any 12-month period to 5% plus the regional change in the cost of living or 10%, whichever is lower, allows no more than 2 increases in 12 months for the same tenant, and makes an owner who charges above the cap liable for the excess rent and attorney's fees.",
+  "es": "La ley de límite de renta de California limita cuánto puede subir el alquiler un propietario en cualquier período de 12 meses a 5% más el cambio regional en el costo de vida o 10%, lo que sea menor, permite no más de 2 aumentos en 12 meses para el mismo inquilino, y hace que el propietario que cobre por encima del límite sea responsable del exceso de renta y de los honorarios de abogado."
+ }
+}

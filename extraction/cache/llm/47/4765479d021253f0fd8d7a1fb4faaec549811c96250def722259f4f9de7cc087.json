@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "DX06:c13",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 489,
+  "output_tokens": 167
+ },
+ "result": {
+  "en": "In Portland, landlords may not use algorithm-assisted rental price coordination, and renters can seek the greater of treble damages or $1,000 per violation from owners of 16 or more units.",
+  "es": "En Portland, los arrendadores no pueden usar la coordinación de precios de alquiler asistida por algoritmos, y los inquilinos pueden reclamar el mayor valor entre el triple de los daños o $1,000 por infracción a los propietarios de 16 o más unidades."
+ }
+}

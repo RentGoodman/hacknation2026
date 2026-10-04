@@ -1,0 +1,64 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "extract",
+ "subject": "DX11",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 1910,
+  "output_tokens": 1876
+ },
+ "result": {
+  "rules": [
+   {
+    "candidate_id": "c1",
+    "jurisdiction": "Jersey City, NJ",
+    "category": "algorithmic_rent_setting",
+    "status": "in_force",
+    "title": "Jersey City ordinance banning rent-setting algorithms such as RealPage",
+    "requirement": "The Jersey City Council passed 9-0 an ordinance, sponsored by Ward E Councilman James Solomon, banning rent-setting algorithms such as RealPage. Per RealPage's response, it bans the use of certain nonpublic data in revenue-management software. A commenter referred to a $2,000 daily fine. The article gives no ordinance number, code section, effective date or covered-software definition.",
+    "key_value": "$2,000 daily fine (per a commenter's reference, not confirmed as the ordinance text)",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Citywide ban on rent-setting algorithms in Jersey City; the article states no unit-count or building-age limits.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": null
+    },
+    "exemptions": "Real estate agents were reportedly excluded at the sponsor's agreement. A speaker said owners of multiple buildings who use algorithms without colluding are excluded. Whether Multiple Listing Services are excluded was raised by a lobbyist and was not resolved in the article.",
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "The article does not give the vote date (it says 'last night's meeting') or an effective date. Councilman Rivera said amendments may still happen.",
+    "effective_date_formula": null,
+    "citation": "Jersey City Council ordinance banning rent-setting algorithms (Solomon)",
+    "citation_aliases": [
+     "Jersey City RealPage ban ordinance",
+     "Jersey City algorithmic rent-setting ordinance"
+    ],
+    "quoted_span": "The Jersey City Council unanimously approved (9-0) a measure banning rent-setting algorithms such as RealPage, as well as increasing benefits for laborers, at last night’s meeting.",
+    "confidence": 0.5,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "Secondary news source with no code citation, effective date or final text. Status 'in_force' is assumed from council passage and should be checked against the codified ordinance. Solomon noted the U.S. House is considering barring municipalities from such rules, and the article mentions no state preemption. Enforceability was questioned by several council members.",
+    "source_notes": "Hudson County View news article; the citation is descriptive because no ordinance number is given."
+   }
+  ],
+  "no_rule_findings": [],
+  "doc_summary": "Hudson County View report that the Jersey City Council voted 9-0 to pass an ordinance banning rent-setting algorithms such as RealPage, sponsored by Councilman James Solomon. It also passed a separate laborer wage and benefits measure, which is outside the rule categories. The article records testimony on exemptions (realtors, possibly MLS), a $2,000 daily fine mentioned by a commenter, and RealPage's objection. It gives no ordinance number, effective date or code text."
+ }
+}

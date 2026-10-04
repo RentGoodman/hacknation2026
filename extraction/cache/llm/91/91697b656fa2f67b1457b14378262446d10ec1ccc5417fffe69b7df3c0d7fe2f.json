@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "DX03:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 3812,
+  "output_tokens": 806
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "The petition, if enacted, would end the Statewide prohibition on rent control \"by striking out [G. L. c. 40P]\" and instituting in its place \"a limit on any annual rent increase\" set at \"the annual increase in Consumer Price Index or [five percent], whichever is lower.\"",
+    "note": "Striking c. 40P, the cap, and the SJC holding, remand and injunction against placement on the November 2026 ballot are all in the opinion. The June 23, 2026 date and the case name Cella v. Attorney General appear in the caption."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "\"the annual increase in Consumer Price Index or [five percent], whichever is lower.\"",
+    "note": "The cap is stated. The never-took-effect point follows from the ruling barring the petition from the ballot."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The field is empty. The document gives no effective date, and the ruling bars ballot placement. The rule's effective_date_note mentions proponents hinting at a 2028 petition, which is not in this document, but it does not affect the empty field."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "art. 48 bars placement of the petition on the November 2026 Statewide election ballot.",
+    "note": "'Failed' is consistent with the petition being barred from the ballot and declared noncompliant."
+   },
+   {
+    "field": "coverage",
+    "verdict": "partly_supported",
+    "quoted_span": "the petition excludes several categories of residential properties from its definition of \"covered dwelling units,\" including those in \"facilities operated solely for educational, religious, or nonprofit purposes.\"",
+    "note": "Only the exemption for educational, religious or nonprofit facilities is confirmed. The document does not mention the owner-occupied (4 or fewer units) exemption, the 10-year new construction exemption, publicly regulated units, or short-term rentals. The rule itself acknowledges this."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "the Attorney General's certification of Initiative Petition 25-21, titled \"An Initiative Petition to Protect Tenants by Limiting Rent Increases.\"",
+    "note": "The petition number and title match. The case number SJC-13893 and the Cella caption also appear in the document."
+   }
+  ]
+ }
+}

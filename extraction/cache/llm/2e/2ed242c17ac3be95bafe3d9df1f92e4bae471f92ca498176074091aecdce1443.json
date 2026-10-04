@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D011:c2",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 1905,
+  "output_tokens": 624
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "partly_supported",
+    "quoted_span": "that the city of Boston be authorized to implement rent stabilization and tenant eviction protections",
+    "note": "Document supports the petition asking to authorize Boston to implement tenant eviction protections (and rent stabilization), and the study order on 9/9/2024. The '9/9/2024 sent to study order (H5035)' is supported by 'Accompanied a study order, see H5035'. Claim that bill text is not captured is consistent. Description says 'same home-rule petition' referencing a sibling candidate; fine. Partly because requirement omits rent stabilization and 'no enactment is shown' is an absence inference."
+   },
+   {
+    "field": "key_value",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "Field is null; document states no numeric key value."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "Field is null; document gives no effective date, consistent with no enactment shown. The note about the study order is supported but the field itself is empty."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "Accompanied a study order, see",
+    "note": "Study order on 9/9/2024 with no enactment action indicates the bill failed/was not enacted."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "that the city of Boston be authorized to implement rent stabilization and tenant eviction protections",
+    "note": "Document supports Boston-only scope; no building, unit or owner terms are stated. Coverage fields are null otherwise. Summary's 'never enacted' is consistent with the study order."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "Bill H.3744",
+    "note": "H.3744 and 'House, No. 3744' appear in the document, as does the 193rd (2023 - 2024) General Court."
+   }
+  ]
+ }
+}

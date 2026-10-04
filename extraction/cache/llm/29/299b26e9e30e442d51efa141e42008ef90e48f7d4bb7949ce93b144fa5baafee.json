@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D069:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 741,
+  "output_tokens": 262
+ },
+ "result": {
+  "en": "Starting July 1, 2027, New Jersey's FAIR Act makes it a violation of the state Antitrust Act for landlords to pay for a coordinator, or for anyone to use algorithms that set or recommend rents using other owners' nonpublic information or a shared algorithm, and towns cannot pass conflicting ordinances.",
+  "es": "A partir del 1 de julio de 2027, la Ley FAIR de Nueva Jersey establece que es una violación de la ley antimonopolio estatal que los propietarios paguen a un coordinador, o que alguien use algoritmos que fijen o recomienden alquileres con información no pública de otros propietarios o un algoritmo común, y los municipios no pueden aprobar ordenanzas que entren en conflicto."
+ }
+}

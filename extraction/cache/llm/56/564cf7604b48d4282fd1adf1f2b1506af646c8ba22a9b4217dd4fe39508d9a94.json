@@ -1,0 +1,45 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D043:c4",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 23979,
+  "output_tokens": 1117
+ },
+ "result": {
+  "coverage": {
+   "built_after": null,
+   "built_on_or_before": null,
+   "construction_cutoff": null,
+   "construction_date_basis": null,
+   "landlord_size_condition": null,
+   "max_units": null,
+   "may_preempt_local_rules": null,
+   "min_building_age_years": null,
+   "min_units": null,
+   "new_construction_exemption": null,
+   "other_conditions": null,
+   "owner_conditions": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": false,
+   "summary": "Rental property in the City of Los Angeles, whether or not it is subject to the RSO or JCO.",
+   "supersedes_state_rule": null,
+   "unverifiable_exemptions": [],
+   "yields_to_local_rule": null
+  },
+  "evidence": [
+   {
+    "field": "summary",
+    "doc_id": "D043",
+    "quoted_span": "of whether the property is subject to the RSO OR JCO (LAMC 47.06 & 47.07)"
+   },
+   {
+    "field": "requires_unknown_facts",
+    "doc_id": "D043",
+    "quoted_span": "of whether the property is subject to the RSO OR JCO (LAMC 47.06 & 47.07)"
+   }
+  ],
+  "notes": "I removed other_conditions ('Triggered only by demolition or conversion') and the demolition/conversion wording from the summary. These describe landlord conduct, which is the event trigger already captured by event_only, not the buildings covered. The bulletin (D043) says only that the rule applies to property regardless of RSO or JCO status. It states no unit-count, construction-date, owner or exemption limits, so those fields stay null. requires_unknown_facts is false because the rule covers ordinary rental property in the City and is not limited to a class that assessor data cannot identify. The code text of LAMC 47.06-47.07 is not in the corpus and should be checked for any coverage limits."
+ }
+}

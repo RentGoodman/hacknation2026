@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D067:c6",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 520,
+  "output_tokens": 224
+ },
+ "result": {
+  "en": "In New Jersey, when a building is converted to condominium, cooperative or fee-simple ownership, the landlord cannot raise rents to cover costs that result solely from the conversion, though increases for new services or amenities are still allowed, and this protects all tenants in the building.",
+  "es": "En Nueva Jersey, cuando un edificio se convierte en condominio, cooperativa o propiedad de dominio absoluto, el propietario no puede subir los alquileres para cubrir costos que resulten únicamente de la conversión, aunque sí se permiten aumentos por servicios o comodidades nuevos, y esto protege a todos los inquilinos del edificio."
+ }
+}

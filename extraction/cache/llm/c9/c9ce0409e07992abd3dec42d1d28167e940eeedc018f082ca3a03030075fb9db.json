@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "DX04:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 998,
+  "output_tokens": 223
+ },
+ "result": {
+  "en": "In Jersey City, landlords, their agents and subcontractors may not use a service provider that collects nonpublic competitor information from two or more lessors, analyzes it with computer software, and recommends rental prices, lease terms or occupancy levels, and tenants who are injured can sue.",
+  "es": "En Jersey City, los arrendadores, sus agentes y subcontratistas no pueden usar a un proveedor de servicios que recopile información no pública de competidores de dos o más arrendadores, la analice con software y recomiende precios de alquiler, condiciones de arrendamiento o niveles de ocupación, y las personas perjudicadas pueden demandar."
+ }
+}

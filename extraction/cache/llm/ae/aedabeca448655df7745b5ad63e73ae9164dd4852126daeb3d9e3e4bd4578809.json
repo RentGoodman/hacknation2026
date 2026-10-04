@@ -1,0 +1,93 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "DX03:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 37570,
+  "output_tokens": 2680
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": {
+    "years": 10,
+    "basis": "newly constructed units less than 10 years old",
+    "requires_owner_filing": null
+   },
+   "owner_occupied_exemption_max_units": 4,
+   "requires_unknown_facts": false,
+   "unverifiable_exemptions": [
+    "certain publicly regulated units",
+    "short-term rentals",
+    "dwelling units in facilities operated solely for educational, religious, or nonprofit purposes"
+   ],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Proposed (never effective) statewide cap that would have applied to most residential rental units ('covered dwelling units'). Exempt: owner-occupied buildings with four or fewer units, newly constructed units less than 10 years old, certain publicly regulated units, short-term rentals, and dwelling units in facilities operated solely for educational, religious, or nonprofit purposes.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": 10,
+   "owner_conditions": "Owner-occupied buildings with four or fewer units exempt.",
+   "other_conditions": "Short-term rentals and certain publicly regulated units exempt."
+  },
+  "evidence": [
+   {
+    "field": "new_construction_exemption",
+    "doc_id": "DX14",
+    "quoted_span": "newly constructed units less than 10 years old"
+   },
+   {
+    "field": "min_building_age_years",
+    "doc_id": "DX14",
+    "quoted_span": "newly constructed units less than 10 years old"
+   },
+   {
+    "field": "owner_occupied_exemption_max_units",
+    "doc_id": "DX14",
+    "quoted_span": "owner-occupied buildings with four or fewer units"
+   },
+   {
+    "field": "owner_conditions",
+    "doc_id": "DX14",
+    "quoted_span": "owner-occupied buildings with four or fewer units"
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "DX14",
+    "quoted_span": "certain publicly regulated units, short-term rentals"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "DX14",
+    "quoted_span": "certain publicly regulated units, short-term rentals, and dwelling units in facilities operated solely for educational, religious, or nonprofit purposes"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "DX03",
+    "quoted_span": "the petition excludes several categories of residential properties from its definition of \"covered dwelling units,\" including those in \"facilities operated solely for educational, religious, or nonprofit purposes.\""
+   },
+   {
+    "field": "requires_unknown_facts",
+    "doc_id": "DX03",
+    "quoted_span": "Initiative Petition 25-21 subjects all \"covered dwelling units\" to rent control."
+   },
+   {
+    "field": "summary",
+    "doc_id": "DX14",
+    "quoted_span": "The petition included several exemptions, including owner-occupied buildings with four or fewer units, newly constructed units less than 10 years old, certain publicly regulated units, short-term rentals, and dwelling units in facilities operated solely for educational, religious, or nonprofit purposes."
+   },
+   {
+    "field": "summary",
+    "doc_id": "DX14",
+    "quoted_span": "replaced it with a statewide cap on annual rent increases for most residential rental units"
+   }
+  ],
+  "notes": "Measure failed: the SJC barred it from the November 2026 ballot, so coverage describes the proposed scope only. The petition text is not in the corpus. The SJC opinion (DX03) confirms only the educational/religious/nonprofit facilities exemption. The owner-occupied (four or fewer units), 10-year new-construction, publicly regulated and short-term rental exemptions rest on the secondary blog DX14. Changes from the input: requires_unknown_facts is set to false, because the measure covers ordinary rental units and its exemptions are listed instead. Short-term rentals are added to unverifiable_exemptions. 'Per DX14' annotations are removed from the values. The new-construction limit is a rolling age (less than 10 years old) rather than a fixed date, so construction_cutoff stays null; its basis (year built vs. occupancy) is unspecified. The petition would have repealed G.L. c. 40P, but supersedes_state_rule and may_preempt_local_rules are left null as not applicable or unsupported."
+ }
+}

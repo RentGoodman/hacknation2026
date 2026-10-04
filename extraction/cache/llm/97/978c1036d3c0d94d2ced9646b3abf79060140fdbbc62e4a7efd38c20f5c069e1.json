@@ -1,0 +1,45 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D046:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 37014,
+  "output_tokens": 886
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": null,
+   "unverifiable_exemptions": [],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Pending Senate bill to prohibit algorithmic rent setting. The captured pages hold only the title, committee report and action list, not the bill text. Which buildings, units or owners are covered is therefore unknown.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": null,
+   "other_conditions": null
+  },
+  "evidence": [
+   {
+    "field": "summary",
+    "doc_id": "D046",
+    "quoted_span": "An Act prohibiting algorithmic rent setting"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D046",
+    "quoted_span": "report the accompanying bill (Senate, No. 2983)"
+   }
+  ],
+  "notes": "D046 and D047 contain only the bill title, the Housing committee report of March 12, 2026, and the referral to Senate Ways and Means. No bill text is captured. All coverage fields stay null because no passage supports unit thresholds, construction cutoffs, owner or landlord-size conditions, exemptions or preemption terms. The other documents do not describe this bill's coverage: D045 is the separate House bill H.5222, D048 is the c. 40P rent control ban, and DX03, DX14 and DX15 cover the rent control initiative petition."
+ }
+}

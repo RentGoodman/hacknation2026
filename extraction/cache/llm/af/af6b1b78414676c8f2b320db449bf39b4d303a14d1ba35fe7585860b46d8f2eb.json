@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D006:c2",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 1051,
+  "output_tokens": 314
+ },
+ "result": {
+  "en": "In Berkeley, a landlord needs just cause to evict a tenant in a covered unit, can evict for nonpayment only if the debt is at least one month of HUD Fair Market Rent, must file termination papers with the Rent Board within 3 business days, and must pay owner move-in relocation of $19,413 plus $6,471 for qualifying households from Jan. 1, 2026.",
+  "es": "En Berkeley, el propietario necesita una causa justa para desalojar a un inquilino en una unidad cubierta, solo puede desalojar por falta de pago si la deuda equivale al menos a un mes del Alquiler de Mercado Justo de HUD, debe presentar los documentos de terminación ante la Junta de Alquileres en 3 días hábiles y, desde el 1 de enero de 2026, debe pagar una reubicación por mudanza del propietario de $19,413 más $6,471 para hogares calificados."
+ }
+}

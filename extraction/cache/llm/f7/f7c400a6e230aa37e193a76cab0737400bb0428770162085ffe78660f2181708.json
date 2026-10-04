@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D067:c3",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 59731,
+  "output_tokens": 884
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "partly_supported",
+    "quoted_span": "Foreclosure alone is not grounds for eviction in New Jersey.",
+    "note": "Most elements are supported (90-day notice, lease running longer, English/Spanish notice within 10 business days, posting for more than 10 units, court-rule notice, separate notice for monetary offers, five-day review, pressure tactics). But the guide says the 90-day notice applies when the buyer wants to personally occupy it as a primary residence, and that a tenant with a longer lease cannot be evicted until it expires; the rule's phrasing is consistent. The rule says the tenant notice tells them they 'need not move', which matches. Minor issue: the rule says 'harassment and rent increases above rent control or unconscionable increases', while the guide says 'unreasonable or unconscionable'. Overall mostly supported with slight paraphrase drift."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "must provide notices to the tenants in English and Spanish, within 10 business days after the sale",
+    "note": "The 90-day notice to quit for buyer occupancy, the 10-business-day tenant notice in English and Spanish, and the five-day review period are all stated in the guide."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The rule's effective_date is empty and the guide states no effective date for these foreclosure provisions."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "Foreclosure alone is not grounds for eviction in New Jersey.",
+    "note": "The guide presents the protections as current law with no sign of repeal or suspension, so in_force is consistent."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "Any person acquiring a foreclosed property containing one or more residential rental units",
+    "note": "Min_units 1 and the owner-occupied two- and three-family point are supported by 'Month-to-month tenants and two- and three-family owner-occupied units are not exempt from the 90-day notice requirements.' The trigger conditions match the document."
+   },
+   {
+    "field": "citation",
+    "verdict": "partly_supported",
+    "quoted_span": "(N.J.S.A. 2A:50-70(c)2)",
+    "note": "The guide cites N.J.S.A. 2A:50-69 et seq., 2A:50-70(c)2 for posting and 2A:50-71(b) for pressure tactics, so 2A:50-70 is supported only for the posting duty. The 90-day notice is grounded in Chase Manhattan Bank v. Josephson, not in the cited statute, as the review note itself acknowledges."
+   }
+  ]
+ }
+}

@@ -1,0 +1,180 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D073:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 36071,
+  "output_tokens": 5088
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": {
+    "years": 15,
+    "basis": "certificate of occupancy issued within the previous 15 years (rolling window; does not apply to mobilehomes)",
+    "requires_owner_filing": null
+   },
+   "owner_occupied_exemption_max_units": 2,
+   "requires_unknown_facts": false,
+   "unverifiable_exemptions": [
+    "Transient and tourist hotel occupancy (Civ. Code § 1940(b))",
+    "Short-term residential occupancy under SDMC ch. 5, art. 10, div. 1",
+    "Housing restricted by deed, regulatory agreement or other document as affordable housing for very low, low or moderate income households",
+    "Housing subject to an affordable-housing subsidy agreement (Section 8 voucher tenancies are not exempt)",
+    "Mobilehomes subject to the Mobilehome Residency Law",
+    "Nonprofit hospital, religious facility, extended care facility, licensed residential care facility for the elderly, adult residential facility, or non-profit transitional housing",
+    "Dormitories owned and operated by a higher-education or K-12 institution",
+    "Tenant shares bathroom or kitchen with a landlord who lives there as principal residence",
+    "Owner-occupied single-family residence renting no more than two bedrooms, two ADUs or two JADUs (or a mobilehome); owner-occupied two-unit structure while the landlord remains in occupancy",
+    "Separately alienable property (including a mobilehome) whose landlord is not a REIT, corporation, LLC with a corporate member or mobilehome park management, where tenants received the § 98.0703(l) written exemption notice (in the lease for tenancies commenced or renewed on or after Jan. 1, 2024)"
+   ],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Applies citywide to tenancies in residential rental property. Residential rental property means any dwelling or unit intended for human habitation, including units in a mobilehome park. A tenancy is a right to occupy for more than 30 days and excludes fixed terms of 3 months or less. Exempt: housing with a certificate of occupancy issued within the previous 15 years (rolling window; the exemption does not apply to mobilehomes) and the other categories listed in § 98.0703.",
+   "construction_date_basis": "certificate_of_occupancy (rolling 15-year window)",
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": 15,
+   "owner_conditions": "Exempt: single-family residence occupied by the landlord as principal residence (renting no more than two bedrooms, two ADUs or two JADUs), or a mobilehome; two-unit structure where the landlord occupied one unit at the start of the tenancy and continues in occupancy; separately alienable property whose landlord is not a REIT, corporation, LLC with a corporate member or mobilehome park management, and which gave the required written notice.",
+   "other_conditions": "Exempt: transient and tourist hotel occupancy, and short-term residential occupancy under SDMC ch. 5, art. 10, div. 1. Mobilehomes subject to the Mobilehome Residency Law are exempt. Mobilehomes are excluded from the 15-year new-construction exemption."
+  },
+  "evidence": [
+   {
+    "field": "summary",
+    "doc_id": "D073",
+    "quoted_span": "A landlord shall not terminate a tenancy without just cause."
+   },
+   {
+    "field": "summary",
+    "doc_id": "D073",
+    "quoted_span": "Residential rental property means any dwelling or unit that is intended for human"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D073",
+    "quoted_span": "occupy a residential rental property for more than 30 days."
+   },
+   {
+    "field": "requires_unknown_facts",
+    "doc_id": "D073",
+    "quoted_span": "Residential rental property means any dwelling or unit that is intended for human"
+   },
+   {
+    "field": "construction_date_basis",
+    "doc_id": "D073",
+    "quoted_span": "(k) housing that has been issued a certificate of occupancy within the previous"
+   },
+   {
+    "field": "min_building_age_years",
+    "doc_id": "D073",
+    "quoted_span": "15 years, unless the housing is a mobilehome; and"
+   },
+   {
+    "field": "new_construction_exemption",
+    "doc_id": "D073",
+    "quoted_span": "(k) housing that has been issued a certificate of occupancy within the previous"
+   },
+   {
+    "field": "new_construction_exemption",
+    "doc_id": "D073",
+    "quoted_span": "15 years, unless the housing is a mobilehome; and"
+   },
+   {
+    "field": "owner_occupied_exemption_max_units",
+    "doc_id": "D073",
+    "quoted_span": "(j) a property containing two separate dwelling units within a single structure in"
+   },
+   {
+    "field": "owner_conditions",
+    "doc_id": "D073",
+    "quoted_span": "(i) single-family residence occupied by the landlord as the landlord’s principal"
+   },
+   {
+    "field": "owner_conditions",
+    "doc_id": "D073",
+    "quoted_span": "than two bedrooms, two accessory dwelling units, or two junior"
+   },
+   {
+    "field": "owner_conditions",
+    "doc_id": "D073",
+    "quoted_span": "(j) a property containing two separate dwelling units within a single structure in"
+   },
+   {
+    "field": "owner_conditions",
+    "doc_id": "D073",
+    "quoted_span": "(l) residential rental property, including a mobilehome, that is alienable separate"
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D073",
+    "quoted_span": "(a) transient and tourist hotel occupancy as defined in California Civil Code"
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D073",
+    "quoted_span": "(b) short-term residential occupancy, as defined in and subject to Chapter 5,"
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D073",
+    "quoted_span": "(e) mobilehomes subject to the Mobilehome Residency Law (California Civil"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D073",
+    "quoted_span": "(a) transient and tourist hotel occupancy as defined in California Civil Code"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D073",
+    "quoted_span": "(b) short-term residential occupancy, as defined in and subject to Chapter 5,"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D073",
+    "quoted_span": "(c) housing restricted by deed, regulatory restriction contained in an agreement"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D073",
+    "quoted_span": "(d)  housing subject to an agreement that provides housing subsidies for affordable"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D073",
+    "quoted_span": "(e) mobilehomes subject to the Mobilehome Residency Law (California Civil"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D073",
+    "quoted_span": "(f) housing accommodations in a nonprofit hospital, religious facility, extended"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D073",
+    "quoted_span": "(g) dormitories owned and operated by an institution of higher education or an"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D073",
+    "quoted_span": "(h) residential rental property in which the tenant shares bathroom or kitchen"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D073",
+    "quoted_span": "(i) single-family residence occupied by the landlord as the landlord’s principal"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D073",
+    "quoted_span": "(l) residential rental property, including a mobilehome, that is alienable separate"
+   }
+  ],
+  "notes": "requires_unknown_facts changed from true to false. The division covers ordinary residential rental property citywide, and the deed-restricted, subsidized, owner-occupied and separately-alienable categories are exemptions; they are listed in unverifiable_exemptions. The hotel, short-term rental and MRL-mobilehome exemptions were added to that list. supersedes_state_rule set to null: D073 says the division is 'consistent with' Civ. Code § 1946.2 and that its rights are 'in addition to' state law, and no document states that it displaces § 1946.2. The summary's claims about supersession and the state's 12-month threshold were removed for lack of a supporting passage. new_construction_exemption.requires_owner_filing set to null because no passage addresses filing. construction_cutoff stays null because the 15-year certificate-of-occupancy exemption is a rolling window, not a fixed date; it is captured by new_construction_exemption and min_building_age_years."
+ }
+}

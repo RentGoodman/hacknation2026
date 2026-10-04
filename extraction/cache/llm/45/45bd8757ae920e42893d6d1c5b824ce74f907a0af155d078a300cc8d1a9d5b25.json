@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D023:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 1198,
+  "output_tokens": 243
+ },
+ "result": {
+  "en": "Under California's Tenant Protection Act, once you've lived in your unit continuously for 12 months, your landlord can end your tenancy only for a just cause stated in the written notice, and for no-fault reasons must pay one month's rent in relocation within 15 calendar days or waive your final month's rent.",
+  "es": "Según la Ley de Protección de Inquilinos de California, una vez que usted ha vivido en su unidad de forma continua durante 12 meses, el propietario solo puede terminar su inquilinato por una causa justificada indicada en el aviso escrito, y en los casos sin culpa debe pagar un mes de renta como reubicación dentro de 15 días calendario o perdonar la renta del último mes."
+ }
+}

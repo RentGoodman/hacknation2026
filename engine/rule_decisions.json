@@ -1,0 +1,30 @@
+[
+  {
+    "team_rule_id": null,
+    "decision": "unchanged",
+    "checked_against": "quoted_span: 'newly constructed multiple dwellings shall be exempt from any local rent control ordinances for a period of 30 years following completion of construction of the building.'",
+    "reason": "Exempt for the first 30 years means local rent control covers the building only from age 30, so coverage_conditions.min_building_age_years = 30 matches the span.",
+    "rule_key": "NJ|rent_increase_limits|n.j.s.a. 2a:42-84.5"
+  },
+  {
+    "team_rule_id": null,
+    "decision": "no valid_until",
+    "checked_against": "quoted_span: 'Beginning February 2, 2026, a landlord can no longer include any additional percentage increase for utilities.'",
+    "reason": "The text states a start date and no end of period; valid_until is never guessed, so the rule can still apply after 2026-06-30 (unlike r-0067).",
+    "rule_key": "Los Angeles, CA|rent_increase_limits|los angeles rent stabilization ordinance"
+  },
+  {
+    "team_rule_id": null,
+    "decision": "effective_date null",
+    "checked_against": "DX01: 'This Ordinance shall take effect immediately upon passage and publication as provided by law.'",
+    "reason": "Passage (2025-07-09) and publication are both required; the publication date is not in the text. Numbering discrepancy (158-2 vs 154-8) kept in conflict_note.",
+    "rule_key": "Hoboken, NJ|algorithmic_rent_setting|hoboken city code § 154-8"
+  },
+  {
+    "team_rule_id": "r-0146",
+    "decision": "replaced by amended text",
+    "checked_against": "DX04 (Ord. 25-076) section 2.1",
+    "reason": "Section 218-12 as amended in July 2025 adds 'or otherwise utilize the services of a Service Provider'.",
+    "rule_key": "Jersey City, NJ|algorithmic_rent_setting|jersey city code § 218-12"
+  }
+]

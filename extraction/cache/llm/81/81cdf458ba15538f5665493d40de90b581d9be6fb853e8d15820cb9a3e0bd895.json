@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D085:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 4423,
+  "output_tokens": 1438
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "partly_supported",
+    "quoted_span": "Increase in residential rents are limited to the lower of 3% per year, or 80% of the percent change in the Consumer Price Index over the most recent 12-month period.",
+    "note": "The document supports the cap formula, the negative-CPI rule, the June 30 publication with September 1 effect, owner petitions decided within 60 days, and the written notice duty. It does not mention the 2.87% rate for 2026-27, tenant petitions, or the registration-fee pass-through and $50 reimbursement. Those come from D084, which is not in this document."
+   },
+   {
+    "field": "key_value",
+    "verdict": "partly_supported",
+    "quoted_span": "If the CPI is negative, no rent increase is permitted.",
+    "note": "The lower of 3% or 80% of CPI and the no-increase-if-negative rule are supported. The 2.87% rate for Sept 1, 2026 through Aug 31, 2027 and the $50 pass-through cap do not appear in this document."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "supported",
+    "quoted_span": "The new ordinances are not effective until November 19, 2021.",
+    "note": null
+   },
+   {
+    "field": "status",
+    "verdict": "partly_supported",
+    "quoted_span": "The new ordinances are not effective until November 19, 2021.",
+    "note": "The document shows the ordinance taking effect on Nov 19, 2021 and nothing about repeal. It does not explicitly state that the ordinance is currently in force."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "The rent cap does not apply to residential buildings constructed after February 1, 1995, or to mobile home spaces offered for rent after January 1, 1990.",
+    "note": "The document says only 'constructed', so the year_built basis is an inference. The rule's construction_date_basis field already flags this."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "a Rent Stabilization Ordinance, which limits residential rent increases to no more than 3% per year",
+    "note": "The document names the Rent Stabilization Ordinance and its 2021 effective date. It gives no municipal code section."
+   }
+  ]
+ }
+}

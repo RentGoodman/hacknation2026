@@ -1,0 +1,23 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "buildCommand": "npm run build",
+  "outputDirectory": "mockup/dist",
+  "functions": {
+    "api/chat.js": {
+      "maxDuration": 120,
+      "includeFiles": "mockup/dist/data/{starter-data.js,engine-data.js}"
+    },
+    "api/version.js": {
+      "includeFiles": "mockup/dist/data/version.json"
+    },
+    "api/lookup.py": {
+      "maxDuration": 30,
+      "excludeFiles": "{mockup/**,extraction/**,buildings/tests/**,tests/**,scripts/**,engine/tests/**,engine/fixtures/**,**/__pycache__/**,**/.env*,.venv/**,node_modules/**}"
+    }
+  },
+  "headers": [
+    {"source": "/api/:path*", "headers": [{"key": "Cache-Control", "value": "no-store"}]},
+    {"source": "/:path*", "headers": [{"key": "X-Content-Type-Options", "value": "nosniff"}]}
+  ]
+}

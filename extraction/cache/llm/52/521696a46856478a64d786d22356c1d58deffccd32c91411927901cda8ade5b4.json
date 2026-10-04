@@ -1,0 +1,14 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "resource",
+ "subject": "DX19:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 5550,
+  "output_tokens": 83
+ },
+ "result": {
+  "replacement": null,
+  "reason": "Neither official document mentions the algorithmic rent-setting software ordinance. D084 covers the rent stabilization page and D085 covers the 2021 rent stabilization and just cause eviction ordinances."
+ }
+}

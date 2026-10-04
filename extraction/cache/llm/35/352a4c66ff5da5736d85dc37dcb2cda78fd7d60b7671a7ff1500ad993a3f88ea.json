@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "DX01:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 4595,
+  "output_tokens": 715
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "Landlords who rent any residential dwelling unit (defined as any primary residence excluding medical/long-term care or detention facilities) in the City of Hoboken are prohibited from price fixing using algorithmic pricing.",
+    "note": "Prohibition, definitions, 365-day and public-availability conditions, enforcement and penalties all match the ordinance text."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "2. By a fine not exceeding $2,000.00; or,\n3. By a period of community service not exceeding ninety (90) days.",
+    "note": "Fine, community service, N.J.S.A. 40:49-5 penalties, 365-day data rule and Municipal Court enforcement all match the text."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The field is empty and the document gives only 'immediately upon passage and publication', with no specific date. The formula and note are consistent with that."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "RESULT:ADOPTED [UNANIMOUS]",
+    "note": "The ordinance was adopted on July 9, 2025 and takes effect on passage and publication. In-force status is a reasonable inference, though the document does not state the publication date."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "Landlords who rent any residential dwelling unit (defined as any primary residence excluding medical/long-term care or detention facilities) in the City of Hoboken",
+    "note": "Scope and exclusions match. The document sets no unit-count, age or size thresholds."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "ORDINANCE AMENDING AND SUPPLEMENTING CHAPTER 158 (RENT INCREASES) OF THE HOBOKEN CITY CODE BY ADDING A NEW SECTION 158-2",
+    "note": "The title supports § 158-2 and ch. 158. The body heading reads § 154-8, which is listed as an alias. Section Five allows renumbering at codification."
+   }
+  ]
+ }
+}

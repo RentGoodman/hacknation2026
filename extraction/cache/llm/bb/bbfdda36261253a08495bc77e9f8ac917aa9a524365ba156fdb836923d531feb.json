@@ -1,0 +1,47 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "DX21:c1",
+ "prompt_version": "v10",
+ "usage": {},
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "At the expiration of a lease or at the termination of the lease of a periodic tenant, no landlord may request or receive an increase greater than the percentage increase in the Consumer Price Index (CPI) from the CPI 15 months prior to the month of the proposed rent increase to the CPI three months prior to the month of the proposed rent increase. In no case shall the allowable rent increase exceed 4%.",
+    "note": "Every element checks out against the text. That covers the CPI window, the 4% ceiling, the 12-month limit regardless of tenant, owner or vacancy, and the substantial-compliance and registration conditions. It also covers the notice contents, the 25% annual limit in § 19:2-22, the two-year rebate, the $100-$2,000 or 90-day penalties, and the $500 Board penalty."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "Any landlord seeking a rental increase pursuant to this section shall give the Rent Regulation Officer and the affected tenant written notice of the proposed increase at least 30 days in advance.",
+    "note": "The CPI-based cap with a 4% ceiling, the 12-month limit, the 30-day notice to the tenant and the Rent Regulation Officer, and the 25% annual limit (§ 19:2-22) are all in the document."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "partly_supported",
+    "quoted_span": "All rent for the rental of housing space and services in dwellings to which this chapter is applicable are hereby controlled at the rent level received by the landlord, as of the first date that this chapter was adopted, on September 4, 1985, and no rental increases shall hereafter be instituted, except as provided in this chapter as amended and supplemented.",
+    "note": "September 4, 1985 is the date the chapter was adopted, not the date the CPI/4% cap took effect. The document does not say when the cap began, and the cited section was last amended 9-18-2024. The rule's effective_date_note says as much."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "This chapter shall continue in full force and effect from October 19, 1988.",
+    "note": "The document is the current code text, and nothing in it repeals or suspends the cap."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "All multiple dwellings, as defined in subsection 19:2-2, are subject to Rent Control pursuant to this Title XIX Rent Control,",
+    "note": "The exemption list (public housing, hotel and motel space rented day to day, commercial space, new construction for up to 30 years, vacant dwellings rehabilitated for 5 years, Section 8 rehabilitation units, governmental rent-regulation contracts) matches the document. So do the new-construction rules (amortization period or 30 years, whichever is less, with a 30-year period if there is no mortgage; Board certification required), the Certificate of Occupancy basis, and the owner-occupied definition used only for the inspection-fee waiver."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "§ 19:2-3.1. Determination of Rents.",
+    "note": "The section number and the CPI/4% text are in the document. The aliases (Ord. 6 PSF-A(S), 6PSF-I, 6PSF-B and the other cited sections) appear in the section history lines."
+   }
+  ]
+ }
+}

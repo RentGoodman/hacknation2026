@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D076:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 681,
+  "output_tokens": 276
+ },
+ "result": {
+  "en": "This proposed San Diego ordinance would make it unlawful for a landlord to use software that analyzes nonpublic competitor data to set rents or occupancy levels, or for anyone to provide that software to a landlord, with civil penalties up to $1,000 per violation, each month and each property counting separately, and a tenant who sues and prevails recovers costs and attorney's fees.",
+  "es": "Esta ordenanza propuesta de San Diego haría ilegal que un arrendador use un programa que analiza datos no públicos de competidores para fijar rentas o niveles de ocupación, o que alguien le proporcione ese programa, con multas civiles de hasta $1,000 por infracción, contando cada mes y cada propiedad por separado, y un inquilino que demande y gane recupera costos y honorarios de abogado."
+ }
+}

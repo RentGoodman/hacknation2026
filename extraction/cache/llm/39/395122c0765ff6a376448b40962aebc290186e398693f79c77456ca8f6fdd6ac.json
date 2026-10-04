@@ -1,0 +1,19 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "qa",
+ "subject": "D008:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 25038,
+  "output_tokens": 1322
+ },
+ "result": {
+  "changes": [
+   {
+    "field": "effective_date",
+    "after_json": "\"2026-01-01\"",
+    "reason": "D008 shows that October 16, 2025 is only the date the Board adopted the 2026 AGA Order, which lets landlords raise rent ceilings 'no earlier than January 1, 2026', so the operative date is January 1, 2026, not the adoption date."
+   }
+  ]
+ }
+}

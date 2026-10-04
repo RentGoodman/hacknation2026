@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D081:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 698,
+  "output_tokens": 222
+ },
+ "result": {
+  "en": "San Francisco bans selling or using software that analyzes nonpublic competitor rental data to set rents or manage occupancy for residential units, and a tenant or the City Attorney can sue, with civil penalties of up to $1,000 per violation, counted per unit for each month of use.",
+  "es": "San Francisco prohíbe vender o usar programas que analizan datos privados de alquileres de la competencia para fijar rentas o manejar la ocupación de viviendas, y un inquilino o el Fiscal de la Ciudad puede demandar, con sanciones civiles de hasta $1,000 por infracción, contadas por unidad por cada mes de uso."
+ }
+}

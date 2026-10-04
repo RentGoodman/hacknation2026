@@ -1,0 +1,50 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "DX06:c10",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 5662,
+  "output_tokens": 1353
+ },
+ "result": {
+  "coverage": {
+   "built_after": null,
+   "built_on_or_before": null,
+   "construction_cutoff": null,
+   "construction_date_basis": null,
+   "landlord_size_condition": null,
+   "max_units": null,
+   "may_preempt_local_rules": null,
+   "min_building_age_years": null,
+   "min_units": null,
+   "new_construction_exemption": null,
+   "other_conditions": null,
+   "owner_conditions": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": false,
+   "summary": "Applies to the use of specified algorithmic 'coordinating services' in connection with Seattle multifamily rental properties. The source states no building-size, age, owner or other coverage limits.",
+   "supersedes_state_rule": null,
+   "unverifiable_exemptions": [],
+   "yields_to_local_rule": null
+  },
+  "evidence": [
+   {
+    "field": "summary",
+    "doc_id": "DX06",
+    "quoted_span": "violated Seattle Municipal Code Chapter 7.34 by using prohibited “coordinating services” in connection with Seattle multifamily properties"
+   },
+   {
+    "field": "summary",
+    "doc_id": "DX06",
+    "quoted_span": "Seattle’s ordinance expressly prohibits specified algorithmic coordinating services and provides penalties of up to $7,500 per violation."
+   },
+   {
+    "field": "requires_unknown_facts",
+    "doc_id": "DX06",
+    "quoted_span": "Prohibits specified coordinating services; penalties may reach $7,500 per violation"
+   }
+  ],
+  "notes": "I changed requires_unknown_facts from true to false. The ordinance is described as applying to ordinary Seattle multifamily rental properties, not to a class of buildings that assessor data cannot identify (such as subsidized or regulatory-agreement units). The fact that the definition of 'coordinating service' and any exclusions are unknown is a gap in the source, not a coverage condition that limits which buildings are covered.\n\nI removed other_conditions. It contained a meta-note ('definition... not captured in the documents provided') rather than a coverage condition, and no verbatim span supports it. That caveat is preserved here instead.\n\nThe only source is a secondary law-firm alert. The 'multifamily properties' framing comes from the description of the plaintiffs' allegations in Nicolas v. Essex, so the actual scope, definitions and any exemptions (for example unit thresholds or owner exclusions) should be verified against the official Seattle Mun. Code ch. 7.34 text."
+ }
+}

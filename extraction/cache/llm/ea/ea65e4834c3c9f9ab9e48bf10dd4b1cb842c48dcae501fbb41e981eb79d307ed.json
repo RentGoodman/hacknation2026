@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D024:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 852,
+  "output_tokens": 293
+ },
+ "result": {
+  "en": "In California, an owner generally cannot raise a renter's rent over any 12-month period by more than 5% plus the regional cost-of-living change, or 10%, whichever is lower, and can raise it in no more than 2 increments in 12 months; an owner who collects excess rent owes the excess and, if willful, up to 3 times it, and the rule is repealed January 1, 2030.",
+  "es": "En California, un propietario generalmente no puede subir la renta de un inquilino en un período de 12 meses más del 5% más el cambio en el costo de vida regional, o el 10%, lo que sea menor, y puede hacerlo en no más de 2 incrementos en 12 meses; quien cobre renta en exceso debe devolver el exceso y, si fue intencional, hasta 3 veces esa cantidad, y la regla queda derogada el 1 de enero de 2030."
+ }
+}

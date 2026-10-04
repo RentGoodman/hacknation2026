@@ -1,0 +1,68 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "cell",
+ "subject": "Jersey City, NJ|rent_increase_limits",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 4943,
+  "output_tokens": 1292
+ },
+ "result": {
+  "cell_status": "rules_found",
+  "no_rule_quote": null,
+  "no_rule_passage_id": null,
+  "basis_citation": null,
+  "rules": [
+   {
+    "jurisdiction": "Jersey City, NJ",
+    "category": "rent_increase_limits",
+    "status": "in_force",
+    "title": "Jersey City Rent Control Ordinance (Chapter 260)",
+    "requirement": "Jersey City administers and enforces a municipal Rent Control Ordinance (Chapter 260) through the Office of Landlord/Tenant Relations and the Rent Leveling Board. The passages do not state the cap formula or percentage. Properties with 1-4 units are exempt, and owners may request other permitted exemptions. Tenants may file Illegal Rent Petitions.",
+    "key_value": null,
+    "coverage": {
+     "min_units": 5,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [
+      "Other exemptions permitted under the ordinance, which require a Rent Control Exemption Request to the Office for review"
+     ],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Covers rental properties with 5 or more units. All 1-4 unit properties are exempt.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": "Other exemptions may be granted on request if the owner meets the criteria for a permitted exemption."
+    },
+    "exemptions": "All 1-4 unit properties are exempt; other permitted exemptions are available through a Rent Control Exemption Request.",
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "The passages give no effective date or enactment date for Chapter 260.",
+    "effective_date_formula": null,
+    "citation": "Jersey City Code ch. 260",
+    "citation_aliases": [
+     "Jersey City Rent Control Ordinance",
+     "Jersey City Municipal Code Chapter 260"
+    ],
+    "quoted_span": "All 1-4 Unit Properties are exempt from rent control",
+    "confidence": 0.6,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "The passages give no cap percentage or formula. They only mention a CPI chart as a resource. The ordinance text itself was not retrieved. Any preemption by the NJ FAIR Act is not addressed in the passages.",
+    "source_notes": "Secondary description from the city's Office of Landlord/Tenant Relations webpage, not the ordinance text.",
+    "passage_id": "p6"
+   }
+  ]
+ }
+}

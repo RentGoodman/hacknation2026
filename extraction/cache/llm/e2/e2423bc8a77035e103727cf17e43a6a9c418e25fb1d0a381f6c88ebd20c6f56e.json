@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "DX06:c4",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 6862,
+  "output_tokens": 1291
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "partly_supported",
+    "quoted_span": "Ordinance NS-3090 prohibits specified anticompetitive automated rent price-fixing; private tenant claims and up to $1,000 per violation and per month.",
+    "note": "DX06 supports a prohibition on automated rent price-fixing, private tenant claims, and a $1,000 per violation and per month penalty. It does not mention sale/licensing/provision, nonpublic competitor data types, injunctive relief, attorney's fees, the tenant's burden of proof, or code enforcement. It also does not state the city-limits scope."
+   },
+   {
+    "field": "key_value",
+    "verdict": "partly_supported",
+    "quoted_span": "Ordinance NS-3090 prohibits specified anticompetitive automated rent price-fixing; private tenant claims and up to $1,000 per violation and per month.",
+    "note": "The private tenant action, the $1,000 per violation and per month penalty, and the April 2, 2026 effective date are supported. The ban on sale, licensing and provision, and the attorney's fees, are not stated for Santa Ana in DX06."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "supported",
+    "quoted_span": "Santa Ana Ordinance No. NS-3090 (effective April 2, 2026)",
+    "note": null
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "Santa Ana Ordinance No. NS-3090 (effective April 2, 2026)",
+    "note": "The August 21, 2026 document lists the ordinance as effective April 2, 2026, which is consistent with in_force."
+   },
+   {
+    "field": "coverage",
+    "verdict": "not_supported",
+    "quoted_span": null,
+    "note": "DX06 says nothing about Santa Ana's scope: residential property within city limits, absence of exemptions, or operation alongside state antitrust law. Its general references to multifamily housing and ordinance exclusions are not specific to NS-3090."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "Santa Ana Ordinance No. NS-3090 (effective April 2, 2026)",
+    "note": "The citation matches the document's ordinance number."
+   }
+  ]
+ }
+}

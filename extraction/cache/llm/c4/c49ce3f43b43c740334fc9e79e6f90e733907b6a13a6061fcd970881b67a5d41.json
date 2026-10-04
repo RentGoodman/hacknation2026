@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D069:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 768,
+  "output_tokens": 271
+ },
+ "result": {
+  "en": "Starting July 1, 2027, New Jersey makes it a violation of the state Antitrust Act for landlords to pay for a coordinator, or for anyone to run algorithmic rent-setting tools that use other owners' nonpublic competitively sensitive information or apply a common algorithm for two or more owners, and towns cannot pass conflicting ordinances.",
+  "es": "A partir del 1 de julio de 2027, Nueva Jersey considera una violación de la Ley Antimonopolio estatal que los propietarios paguen a un coordinador, o que alguien use herramientas algorítmicas para fijar alquileres con información confidencial de otros propietarios o un algoritmo común para dos o más propietarios, y los municipios no pueden aprobar ordenanzas que entren en conflicto."
+ }
+}

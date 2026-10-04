@@ -1,0 +1,30 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "probe",
+ "subject": "San Francisco, CA",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 15889,
+  "output_tokens": 534
+ },
+ "result": {
+  "verdicts": [
+   {
+    "category": "application_screening_fees",
+    "verdict": "undetermined",
+    "doc_id": null,
+    "quoted_span": null,
+    "basis_citation": null,
+    "reason": "None of the San Francisco documents (D078–D083) addresses application or screening fees. The retrieved fee passages cover Berkeley (D005), California Civil Code 1950.6 text (D026/DX08) and Massachusetts (DX13). None of them states that San Francisco lacks or is barred from such a rule."
+   },
+   {
+    "category": "screening_restrictions",
+    "verdict": "undetermined",
+    "doc_id": null,
+    "quoted_span": null,
+    "basis_citation": null,
+    "reason": "No document says San Francisco has no screening restriction. D078 actually points the other way: it says San Francisco's Fair Chance Ordinance protects residents with arrest or conviction history in affordable housing decisions. That suggests a rule may exist, but the documents give no details of its scope, so a no_rule verdict is not supported."
+   }
+  ]
+ }
+}

@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D068:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 692,
+  "output_tokens": 289
+ },
+ "result": {
+  "en": "New Jersey's Law Against Discrimination bars landlords from refusing to rent based on a renter's source of lawful income, such as a Section 8 HUD voucher, or other protected characteristics, and a complaint can be filed with the Division on Civil Rights within 180 days or in Superior Court within 2 years, with fines up to $10,000 for a first offense.",
+  "es": "La Ley contra la Discriminación de Nueva Jersey prohíbe que los propietarios se nieguen a alquilar según la fuente de ingresos legales del inquilino, como un voucher de la Sección 8 de HUD, u otras características protegidas, y se puede presentar una queja ante la División de Derechos Civiles dentro de 180 días o ante el Tribunal Superior dentro de 2 años, con multas de hasta $10,000 por una primera infracción."
+ }
+}

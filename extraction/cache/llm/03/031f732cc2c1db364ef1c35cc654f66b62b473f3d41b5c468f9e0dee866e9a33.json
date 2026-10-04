@@ -1,0 +1,70 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D069:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 74732,
+  "output_tokens": 2621
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": null,
+   "unverifiable_exemptions": [],
+   "yields_to_local_rule": false,
+   "supersedes_state_rule": false,
+   "may_preempt_local_rules": true,
+   "landlord_size_condition": "Any rental property owner owning, directly or indirectly, one or more rental residential dwelling units. A person holding a controlling interest in an owning entity counts as a single rental property owner with that entity.",
+   "summary": "Covers residential dwelling units in New Jersey: any house, apartment, accessory unit or other unit intended to be used as a primary residence. Inpatient medical care, licensed long-term care and detention or correctional facilities are excluded.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": null,
+   "other_conditions": null
+  },
+  "evidence": [
+   {
+    "field": "landlord_size_condition",
+    "doc_id": "D069",
+    "quoted_span": "means a person that owns, directly or indirectly, one or more\nrental residential dwelling units."
+   },
+   {
+    "field": "landlord_size_condition",
+    "doc_id": "D069",
+    "quoted_span": "Any person that holds a controlling\ninterest in an entity that owns a rental residential dwelling unit shall be\ndeemed to constitute a single rental property owner with that entity."
+   },
+   {
+    "field": "summary",
+    "doc_id": "D069",
+    "quoted_span": "“Residential dwelling unit” means any house, apartment,\naccessory unit, or other unit intended to be used as a primary residence in the\nState."
+   },
+   {
+    "field": "summary",
+    "doc_id": "D069",
+    "quoted_span": "“Residential dwelling unit” shall not include inpatient medical care,\nlicensed long-term care, or detention or correctional facilities."
+   },
+   {
+    "field": "may_preempt_local_rules",
+    "doc_id": "D069",
+    "quoted_span": "A municipality shall be prohibited from enacting\nan ordinance that conflicts with this act."
+   },
+   {
+    "field": "yields_to_local_rule",
+    "doc_id": "D069",
+    "quoted_span": "A municipality shall be prohibited from enacting\nan ordinance that conflicts with this act."
+   },
+   {
+    "field": "supersedes_state_rule",
+    "doc_id": "D069",
+    "quoted_span": "and shall be construed as in\naddition to that act."
+   }
+  ],
+  "notes": "I removed other_conditions (set to null). The exclusions it listed describe conduct and tools, not buildings, units or owners: research or testing uses, free public rent estimates, brokerage databases, government affordability controls, non-AI spreadsheets and query-only databases. Those belong under exemptions, not coverage. I reworded the summary to follow the statutory definition (\"intended to be used as a primary residence\"). I expanded landlord_size_condition to quote the controlling-interest rule precisely. All other fields were kept and are supported by D069."
+ }
+}

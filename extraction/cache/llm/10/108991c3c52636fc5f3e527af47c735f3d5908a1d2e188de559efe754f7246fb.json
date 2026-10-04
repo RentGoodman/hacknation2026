@@ -1,0 +1,17 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "cell",
+ "subject": "Cambridge, MA|rent_increase_limits",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 4869,
+  "output_tokens": 580
+ },
+ "result": {
+  "cell_status": "no_rule_stated",
+  "no_rule_quote": "General Laws c. 40P, § 2, \"broadly prohibits any regulatory scheme based upon or implementing rent control.\"",
+  "no_rule_passage_id": "p7",
+  "basis_citation": "G.L. c. 40P, § 2",
+  "rules": []
+ }
+}

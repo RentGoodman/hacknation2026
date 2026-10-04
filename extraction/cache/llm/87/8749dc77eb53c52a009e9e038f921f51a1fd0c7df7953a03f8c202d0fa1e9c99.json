@@ -1,0 +1,261 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "consolidate",
+ "subject": "Santa Ana, CA",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 39405,
+  "output_tokens": 10594
+ },
+ "result": {
+  "rules": [
+   {
+    "candidate_id": "D085:c1",
+    "jurisdiction": "Santa Ana, CA",
+    "category": "rent_increase_limits",
+    "status": "in_force",
+    "title": "Santa Ana Rent Stabilization Ordinance - annual rent increase cap",
+    "requirement": "Annual residential rent increases are limited to the lower of 3% or 80% of the percent change in the Consumer Price Index over the most recent 12-month period. If the CPI is negative, no increase is permitted. The City publishes the allowable increase by June 30 each year, effective September 1 of that year. The published maximum is 2.87% for September 1, 2026 through August 31, 2027. Any owner of residential rental property or a mobile home park may petition for relief by showing that a larger increase is needed for a fair and reasonable return. The City Manager or designee decides within 60 days of a complete application. Owners must give written notice of the Ordinance and tenant rights at lease commencement or with any notice of rent increase. Tenants and landlords may petition for rent adjustments, rent reductions for reduced services or habitability failures, and review of capital-improvement pass-throughs. Landlords may, but need not, charge a registration-fee pass-through of up to $50 per rental unit (not per tenant). Any overpayment must be reimbursed.",
+    "key_value": "Lower of 3% or 80% of 12-month CPI change; no increase if CPI negative; 2.87% for Sept. 1, 2026-Aug. 31, 2027; registration-fee pass-through max $50 per unit",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": {
+      "basis": "year_built",
+      "covered_if": "on_or_before",
+      "date": "1995-02-01"
+     },
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": true,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Covers residential rental buildings constructed on or before February 1, 1995, and mobile home spaces offered for rent on or before January 1, 1990. For covered units this cap is stricter than the state cap (Cal. Civ. Code § 1947.12), which exempts housing under stricter local rent control. Buildings constructed after February 1, 1995 fall outside this ordinance and may instead be subject to the state cap if not otherwise exempt.",
+     "construction_date_basis": "Date the building was 'constructed'; the documents do not say which record (certificate of occupancy or other) is used.",
+     "built_on_or_before": "1995-02-01",
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": "Mobile home spaces are covered only if offered for rent on or before January 1, 1990."
+    },
+    "exemptions": "Residential buildings constructed after February 1, 1995; mobile home spaces offered for rent after January 1, 1990.",
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": "2021-11-19",
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "The ordinance was adopted on an unstated Tuesday in 2021 and was not effective until November 19, 2021. Each annual allowable increase is published by June 30 and takes effect September 1. The current 2.87% figure runs September 1, 2026 through August 31, 2027; that is the end of a rate period, not a sunset.",
+    "effective_date_formula": null,
+    "citation": "Santa Ana Rent Stabilization Ordinance (2021)",
+    "citation_aliases": [
+     "Santa Ana Rent Stabilization Ordinance",
+     "Santa Ana Rent Stabilization and Just Cause Eviction Ordinance",
+     "Santa Ana Rent Stabilization and Just Cause Ordinance",
+     "Santa Ana RSO",
+     "RSO"
+    ],
+    "quoted_span": "Increase in residential rents are limited to the lower of 3% per year, or 80% of the percent change in the Consumer Price Index over the most recent 12-month period.",
+    "confidence": 0.85,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "The documents give no municipal code section or ordinance number, so the citation is by ordinance name. The construction-date record (year built versus certificate of occupancy) is not stated; year_built is used because the text says 'constructed'. Verify against the ordinance text.",
+    "source_notes": "The official city news release (D085) is primary for the formula, coverage cutoff, petition process and effective date. The official rent stabilization page (D084) supplies the 2026-27 figure of 2.87% and the $50 per-unit pass-through. One candidate set a sunset of 2027-08-31; that date only ends the current rate period, so it is not a sunset. The PublicCEO item (DX19) mentions the ordinance only in passing.",
+    "source_doc_id": "D085",
+    "from_candidates": [
+     "D085:c1",
+     "D084:c1",
+     "DX19:c2",
+     "cell:Santa Ana, CA:rent_increase_limits:1"
+    ],
+    "also_supported_by": [
+     {
+      "doc_id": "D084",
+      "quoted_span": "2.87 percent is the maximum allowable rent increase for the period of September 1, 2026 through August 31, 2027."
+     },
+     {
+      "doc_id": "D084",
+      "quoted_span": "If a landlord charges a tenant a pass-through fee greater than $50, the landlord shall reimburse the tenant for the registration fee pass-through overpayment."
+     },
+     {
+      "doc_id": "DX19",
+      "quoted_span": "The City was the first in Orange County to approve a rent stabilization ordinance limiting rent increases for certain types of residential properties and creating new protections against eviction."
+     }
+    ]
+   },
+   {
+    "candidate_id": "D085:c2",
+    "jurisdiction": "Santa Ana, CA",
+    "category": "just_cause_eviction",
+    "status": "in_force",
+    "title": "Santa Ana Just Cause Eviction Ordinance - just cause, cure notice and relocation",
+    "requirement": "After 30 days of tenancy, an owner may not terminate a tenancy without just cause, which must be stated in a written notice.\n\nAt-fault causes include:\n- default in payment of rent;\n- breach of a material lease term;\n- nuisance;\n- criminal activity;\n- other actions.\n\nNo-fault causes include:\n- the owner's intent to occupy the property;\n- removal of the property from the rental market;\n- demolition or substantial remodel.\n\nBefore issuing a notice to terminate, the owner must first give notice of the violation and time for the tenant to fix it.\n\nFor a no-fault termination, the owner must either provide 3 months of relocation assistance or waive rent for the final 3 months of the tenancy.\n\nOwners had to notify existing tenants of these protections before December 19, 2021. New or renewing tenants must be notified at lease commencement or renewal.",
+    "key_value": "Just cause required after 30 days; notice and time to cure before termination notice; no-fault: 3 months' relocation assistance or waiver of the final 3 months' rent; exempts housing produced in the last 15 years",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": {
+      "years": 15,
+      "basis": "housing produced in the last 15 years (rolling; the reference date and the record used are not stated)",
+      "requires_owner_filing": null
+     },
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": true,
+     "unverifiable_exemptions": [
+      "deed-restricted affordable housing",
+      "other shared living quarters"
+     ],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": true,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Covers most residential rental property in Santa Ana once a tenancy passes 30 days. Excluded: housing produced in the last 15 years, deed-restricted affordable housing, hotel and transient occupancy, hospital and care facilities, dormitories, and other shared living quarters. Unlike the rent cap, coverage does not turn on the February 1, 1995 construction date. The exemption is a rolling 15-year one, so buildings built after 1995 but more than 15 years old are covered. Where the ordinance applies, it operates in place of the state just-cause rule (Cal. Civ. Code § 1946.2) and requires a shorter tenancy (30 days versus 12 months) and more relocation (3 months versus 1 month).",
+     "construction_date_basis": "'Housing produced' in the last 15 years; the record (certificate of occupancy or other) is not stated",
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": 15,
+     "owner_conditions": null,
+     "other_conditions": "Applies only after 30 days of tenancy."
+    },
+    "exemptions": "Housing produced in the last 15 years; deed-restricted affordable housing; hotel and transient occupancy; hospital and care facilities; dormitories; other shared living quarters.",
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": "2021-11-19",
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "The ordinance was adopted on an unstated Tuesday in 2021 and took effect November 19, 2021. Notice to existing tenants was due before December 19, 2021.",
+    "effective_date_formula": null,
+    "citation": "Santa Ana Just Cause Eviction Ordinance (2021)",
+    "citation_aliases": [
+     "Santa Ana Just Cause Eviction Ordinance",
+     "Santa Ana Rent Stabilization and Just Cause Eviction Ordinance",
+     "Santa Ana Rent Stabilization and Just Cause Ordinance",
+     "Santa Ana JCO",
+     "JCO"
+    ],
+    "quoted_span": "After 30 days, an owner shall not terminate a tenancy without just cause, which shall be stated in a written notice.",
+    "confidence": 0.85,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "The documents give no municipal code section or ordinance number. The causes are described as non-exhaustive ('such as', 'other actions'), and no notice periods are given. The ordinance was adopted after September 1, 2019, so under Cal. Civ. Code § 1946.2 it displaces the state rule only if it is more protective and contains a binding finding saying so. That finding is not shown in these documents. The 15-year exemption's reference date is not stated.",
+    "source_notes": "The official city news release (D085) is primary. The official rent stabilization page (D084) summarizes just cause and relocation without amounts. The PublicCEO item (DX19) mentions eviction protections only in passing.",
+    "source_doc_id": "D085",
+    "from_candidates": [
+     "D085:c2",
+     "D084:c2",
+     "DX19:c3",
+     "cell:Santa Ana, CA:just_cause_eviction:1"
+    ],
+    "also_supported_by": [
+     {
+      "doc_id": "D084",
+      "quoted_span": "Your landlord must have a valid reason to evict you. This could be for not paying rent, breaking the lease, or if the landlord wants to move into the property themselves."
+     },
+     {
+      "doc_id": "D084",
+      "quoted_span": "If your landlord evicts you for certain reasons, they might have to help pay for your moving costs."
+     },
+     {
+      "doc_id": "DX19",
+      "quoted_span": "The City was the first in Orange County to approve a rent stabilization ordinance limiting rent increases for certain types of residential properties and creating new protections against eviction."
+     }
+    ]
+   },
+   {
+    "candidate_id": "DX06:c4",
+    "jurisdiction": "Santa Ana, CA",
+    "category": "algorithmic_rent_setting",
+    "status": "in_force",
+    "title": "Santa Ana ban on algorithmic rent-setting devices (Ord. NS-3090)",
+    "requirement": "Prohibits the sale, licensing, provision and use of algorithmic devices (rent-setting software) that set residential rental rates using nonpublic competitor data, such as real-time rents, lease renewals and occupancy levels. Coverage is limited to residential rental property within Santa Ana city limits. A tenant affected by a violation may sue for injunctive relief, damages, or civil penalties of up to $1,000 per violation, plus attorney's fees. Violations may be counted per month. The tenant need only prove that the landlord used prohibited technology, not intentional collusion. The City will also enforce the ordinance mainly through its existing code enforcement system.",
+    "key_value": "Ban on sale, licensing, provision and use; civil penalties up to $1,000 per violation (per month, per DX06) plus attorney's fees; private tenant action; effective April 2, 2026",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": false,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Applies to residential rental property within Santa Ana city limits, with no building size, age or owner exemptions reported. It operates alongside the state Cartwright Act ban on common pricing algorithms (Cal. Bus. & Prof. Code § 16729) and adds local, landlord-specific remedies.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": "Does not apply to pricing software relying solely on publicly available data or aggregate historical data, or to tools used to comply with affordable housing program requirements (as described at first reading)."
+    },
+    "exemptions": "Pricing software that relies solely on publicly available data or aggregate historical data; tools used to comply with affordable housing program requirements.",
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": "2026-04-02",
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "Per the Morgan Lewis alert (DX06), the ordinance has been effective since April 2, 2026. It passed first reading on February 17, 2026, with a final vote set for March 3, 2026 (DX19). The OC Business Journal (DX18) reports that an undated Tuesday final vote adopted it. The adoption date is not confirmed by any document.",
+    "effective_date_formula": null,
+    "citation": "Santa Ana Ord. NS-3090",
+    "citation_aliases": [
+     "Santa Ana Ordinance No. NS-3090",
+     "NS-3090",
+     "Santa Ana algorithmic devices ordinance",
+     "Santa Ana algorithmic rent-setting software ordinance"
+    ],
+    "quoted_span": "Ordinance NS-3090 prohibits specified anticompetitive automated rent price-fixing; private tenant claims and up to $1,000 per violation and per month.",
+    "confidence": 0.65,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "All sources are secondary, and the ordinance text and municipal code section are not captured. The exemptions and remedies come from the first-reading description (DX19) and should be checked against the adopted text. The Apartment Association of Orange County criticized the ordinance and argued that state rules should govern. No document asserts state preemption.",
+    "source_notes": "The first-reading report (DX19) and the adopted ordinance are treated as one record, using the adopted version. The penalty is described three ways: up to $1,000 per violation (DX19), up to $1,000 per violation and per month (DX06), and a $1,000 fine (DX18). These descriptions are consistent.",
+    "source_doc_id": "DX06",
+    "from_candidates": [
+     "DX06:c4",
+     "DX18:c1",
+     "DX19:c1",
+     "cell:Santa Ana, CA:algorithmic_rent_setting:1"
+    ],
+    "also_supported_by": [
+     {
+      "doc_id": "DX06",
+      "quoted_span": "Santa Ana Ordinance No. NS-3090 (effective April 2, 2026)"
+     },
+     {
+      "doc_id": "DX19",
+      "quoted_span": "The ordinance, approved on Tuesday, Feb. 17, for a first reading and set for a final vote on March 3, prohibits the sale, licensing, provision and use of certain algorithmic rent-setting software for residential rental properties."
+     },
+     {
+      "doc_id": "DX19",
+      "quoted_span": "The new algorithmic rent-setting ordinance is limited to residential rental property and does not apply to pricing software that relies solely on publicly available data, aggregate historical data, or tools used to comply with affordable housing program requirements."
+     },
+     {
+      "doc_id": "DX19",
+      "quoted_span": "Under the ordinance, a tenant affected by a violation may seek injunctive relief, damages, or civil penalties of up to $1,000 per violation, plus attorney’s fees."
+     },
+     {
+      "doc_id": "DX18",
+      "quoted_span": "The measure passed its first vote on Feb. 17, and Tuesday’s vote was the final step to officially put the ordinance into effect."
+     }
+    ]
+   }
+  ],
+  "dropped_candidates": [],
+  "known_gaps": [
+   {
+    "category": "algorithmic_rent_setting",
+    "law": "Santa Ana Ord. NS-3090 (adopted text and municipal code section)",
+    "reason": "Only secondary descriptions are captured. The adopted ordinance text, its definitions of algorithmic devices, its exact exemptions and its adoption date are not in the documents."
+   },
+   {
+    "category": "rent_increase_limits",
+    "law": "Santa Ana Rent Stabilization Ordinance and Just Cause Eviction Ordinance (full text, municipal code sections)",
+    "reason": "The city pages link to the ordinance text, but it is not captured. Code sections, the complete list of just causes, notice periods and the construction-date record are therefore unverified."
+   }
+  ]
+ }
+}

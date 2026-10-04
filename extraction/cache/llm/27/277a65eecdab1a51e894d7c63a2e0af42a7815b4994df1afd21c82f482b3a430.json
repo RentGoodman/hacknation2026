@@ -1,0 +1,24 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "date_audit",
+ "subject": "cell:San Diego, CA:algorithmic_rent_setting:1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 40859,
+  "output_tokens": 340
+ },
+ "result": {
+  "requirement_is_new": true,
+  "in_force_since": null,
+  "in_force_since_evidence": null,
+  "current_version_effective": null,
+  "prior_version_note": null,
+  "effective_date_formula": {
+   "kind": "days_after",
+   "n": 30,
+   "anchor": "adoption",
+   "anchor_date": null,
+   "verbatim": "This Ordinance will take effect and be in force on the thirtieth day from and after its final passage."
+  }
+ }
+}

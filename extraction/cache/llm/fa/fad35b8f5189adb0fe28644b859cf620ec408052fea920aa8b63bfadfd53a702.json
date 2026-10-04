@@ -1,0 +1,67 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "extract",
+ "subject": "D068",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 2397,
+  "output_tokens": 1929
+ },
+ "result": {
+  "rules": [
+   {
+    "candidate_id": "c1",
+    "jurisdiction": "NJ",
+    "category": "screening_restrictions",
+    "status": "in_force",
+    "title": "NJ Law Against Discrimination: source of lawful income protection in housing",
+    "requirement": "The LAD prohibits housing discrimination based on the source of lawful income or the source of lawful rent or mortgage payment. A landlord cannot deny a Section 8 HUD voucher holder the right to rent an apartment based solely on that source of income.",
+    "key_value": "Complaint to the Division on Civil Rights within 180 days (free), or to NJ Superior Court within two years of the alleged violation.",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": 2,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [
+      "Rental of a room or rooms by the owner or occupant of a one-family dwelling occupied as his/her residence",
+      "Preference given to persons of the same religion by a religious organization"
+     ],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Applies to the sale or rental of all property, business or residential, including open land, except the listed exemptions.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": "Exempt: rental of a single apartment in a two-family dwelling where the owner occupies the other unit as his/her residence at the time of rental.",
+     "other_conditions": null
+    },
+    "exemptions": "Rental of a single apartment or flat in a two-family dwelling whose other unit is owner-occupied; rental of a room or rooms by the owner or occupant of an owner-occupied one-family dwelling; religious-organization preference for persons of the same religion. The familial-status exemption for housing for older persons does not apply to the source-of-income provision.",
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "The brochure gives no effective date for the source-of-income provision.",
+    "effective_date_formula": null,
+    "citation": "N.J. Law Against Discrimination (LAD)",
+    "citation_aliases": [
+     "LAD",
+     "New Jersey Law Against Discrimination"
+    ],
+    "quoted_span": "This means, for example, that a landlord cannot deny the lawful recipient of a Section 8 HUD voucher the right to rent an apartment based solely on that source of lawful income.",
+    "confidence": 0.7,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "The brochure does not give a section number for the source-of-income provision. It is an official but summary source (rev. 06.18.15), so check it against the current statute.",
+    "source_notes": "Official Division on Civil Rights brochure (rev. ep. 06.18.15). It says the Division does not handle ordinary landlord-tenant disputes such as evictions."
+   }
+  ],
+  "no_rule_findings": [],
+  "doc_summary": "A New Jersey Division on Civil Rights brochure (rev. 2015) on housing discrimination under the NJ Law Against Discrimination. It lists the protected classes and the property covered, with exemptions. It also covers the complaint process: 180 days to file with the Division, or two years to sue in Superior Court. The only rule in the six categories is the ban on discrimination based on source of lawful income, such as Section 8 vouchers, which is a screening restriction. It has no rent control, just-cause eviction, deposit, fee or algorithmic pricing rules."
+ }
+}

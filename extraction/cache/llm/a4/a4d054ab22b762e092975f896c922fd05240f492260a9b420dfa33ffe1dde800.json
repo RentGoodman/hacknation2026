@@ -1,0 +1,65 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "extract",
+ "subject": "D049",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 15956,
+  "output_tokens": 1802
+ },
+ "result": {
+  "rules": [
+   {
+    "candidate_id": "c1",
+    "jurisdiction": "MA",
+    "category": "screening_restrictions",
+    "status": "in_force",
+    "title": "Massachusetts source-of-income / public assistance discrimination bar (G.L. c. 151B, § 4(10))",
+    "requirement": "It is an unlawful practice for any person furnishing credit, services or rental accommodations to discriminate against an individual because the individual receives federal, state or local public assistance (including medical assistance) or housing subsidies (including rental assistance or rental supplements), or because of any requirement of such a program. Landlords therefore may not screen out or treat applicants or tenants differently because of their subsidy or assistance income.",
+    "key_value": null,
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Applies to any person furnishing rental accommodations, credit or services. Subsection 10 states no unit-count, construction-date or owner-occupancy exemption.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": "Protects recipients of public assistance and tenants receiving housing subsidies."
+    },
+    "exemptions": null,
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "The document does not state when subsection 10 took effect.",
+    "effective_date_formula": null,
+    "citation": "G.L. c. 151B, § 4(10)",
+    "citation_aliases": [
+     "G.L. c. 151B, § 4",
+     "M.G.L. c. 151B § 4, subsection 10",
+     "Chapter 151B, Section 4"
+    ],
+    "quoted_span": "For any person furnishing credit, services or rental accommodations to discriminate against any individual who is a recipient of federal, state, or local public assistance, including medical assistance, or who is a tenant receiving federal, state, or local housing subsidies, including rental assistance or rental supplements, because the individual is such a recipient, or because of any requirement of such public assistance, rental assistance, or housing subsidy program.",
+    "confidence": 0.8,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "Section 4 also bars housing discrimination on protected-class grounds and written or oral inquiries about those characteristics (subsections 6, 7, 7B, 11). These are general fair-housing rules, not tenant-screening criteria in the listed sense, so they are not extracted as separate records. The subsection 7 exemption for a single apartment in an owner-occupied two-family dwelling is stated for subsection 7, not for subsection 10.",
+    "source_notes": "Official statute text. No effective date, penalty or enforcement detail is given in this section."
+   }
+  ],
+  "no_rule_findings": [],
+  "doc_summary": "Massachusetts G.L. c. 151B, § 4 is the statute listing unlawful discrimination practices in employment, housing, credit and related areas. The only provision in the six rental-housing categories is subsection 10, which bars discrimination against rental applicants and tenants because they receive public assistance or housing subsidies. That is a screening restriction. The section's other housing subsections (6, 7, 7A, 7B, 11, 13, 18) are general fair-housing and anti-harassment provisions. The document has nothing on rent increase limits, just-cause eviction, security deposits, screening fees or algorithmic rent-setting."
+ }
+}

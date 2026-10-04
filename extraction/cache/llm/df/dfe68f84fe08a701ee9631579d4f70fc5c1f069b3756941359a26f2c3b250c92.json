@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "cell:San Diego, CA:algorithmic_rent_setting:1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 10234,
+  "output_tokens": 802
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "(b) It is unlawful for a landlord to use an algorithmic device to set rental rates\n or occupancy levels for residential rental property.",
+    "note": "The requirement summary matches §98.1103(a)-(b), the §98.1102 definition and exclusions, and §98.1104 tenant remedies. The ordinance text is a draft with blanks for final passage."
+   },
+   {
+    "field": "key_value",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The rule's key_value is null. The document states a $1,000 per-violation civil penalty cap in §98.1104, but the rule carries no key value."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The rule's effective_date is null, and the document gives no actual date. It only says the ordinance takes effect on the thirtieth day after final passage, and the passage date is blank. The rule's note is consistent with this."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "The proposed ordinance bans the sale, licensing, and use of an algorithmic device to set rental rates or\noccupancy levels for residential rental properties.",
+    "note": "The document calls it a proposed ordinance. The date of final passage and the adoption certification are blank. Pending is consistent with this."
+   },
+   {
+    "field": "coverage",
+    "verdict": "partly_supported",
+    "quoted_span": "Residential rental property has the same meaning as in San Diego Municipal\nCode section 98.0702, as may be amended.",
+    "note": "The document supports coverage of residential rental property in the City of San Diego and shows no unit-count, age, or owner limits. It does not itself state that the definition includes mobilehome park units or 'any dwelling or unit intended for human habitation'. That wording comes from §98.0702 (D073), which is not in this document. The rule's mention of landlord-size limits is also not addressed in this document."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "§98.1103  Use and Sale of Algorithmic Devices Prohibited",
+    "note": "The document supports §98.1103, Chapter 9, Article 8, Division 11, §§98.1101-98.1104, and O-2025-107. It also supports the ordinance's title, 'Prohibition of Anti-Competitive Automated Rent Price-Fixing', which the rule uses as an alias."
+   }
+  ]
+ }
+}

@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "DX01:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 862,
+  "output_tokens": 294
+ },
+ "result": {
+  "en": "Hoboken landlords may not use software, algorithms or data-sharing platforms that analyze nonpublic competitor information less than 365 days old to coordinate rents, lease terms or occupancy levels with competing lessors, and a violator can be fined up to $2,000, ordered to do up to 90 days of community service, or face penalties under N.J.S.A. 40:49-5.",
+  "es": "Los arrendadores de Hoboken no pueden usar programas, algoritmos o plataformas de intercambio de datos que analicen información no pública de competidores con menos de 365 días para coordinar alquileres, condiciones de contrato o niveles de ocupación con otros arrendadores, y quien infrinja la norma puede recibir una multa de hasta $2,000, hasta 90 días de servicio comunitario o sanciones según N.J.S.A. 40:49-5."
+ }
+}

@@ -1,0 +1,62 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D036:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 17848,
+  "output_tokens": 1677
+ },
+ "result": {
+  "coverage": {
+   "min_units": 5,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": false,
+   "unverifiable_exemptions": [
+    "Other exemptions permitted under Chapter 260, granted on a Rent Control Exemption Request when the owner meets the criteria for a permitted exemption (criteria not stated on the city page)"
+   ],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Covers Jersey City rental properties with 5 or more units. All 1-4 unit properties are exempt. Other exemptions under Chapter 260, which are granted when an owner files an exemption request, cannot be checked from an address lookup.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": null,
+   "other_conditions": null
+  },
+  "evidence": [
+   {
+    "field": "min_units",
+    "doc_id": "D036",
+    "quoted_span": "All 1-4 Unit Properties are exempt from rent control"
+   },
+   {
+    "field": "requires_unknown_facts",
+    "doc_id": "D036",
+    "quoted_span": "All 1-4 Unit Properties are exempt from rent control"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D036",
+    "quoted_span": "The Rent Control Ordinance provides certain exemptions from rent regulation."
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D036",
+    "quoted_span": "can be submitted for the Office's review if a property owner meets the criteria for one of the permitted exemptions."
+   },
+   {
+    "field": "summary",
+    "doc_id": "D036",
+    "quoted_span": "All 1-4 Unit Properties are exempt from rent control"
+   }
+  ],
+  "notes": "I changed requires_unknown_facts from true to false. The ordinance covers ordinary rental buildings with 5 or more units, which assessor data can identify. The request-based exemptions it lists are unverifiable carve-outs and are kept in unverifiable_exemptions. I set other_conditions to null because its content was the same request-based exemption already listed in unverifiable_exemptions. D036 says nothing about construction-date cutoffs, owner-occupancy exemptions or new-construction exemptions for rent control. Its owner-occupied mention concerns only the state insurance requirement. Those fields stay null until the Chapter 260 text is retrieved. DX02, DX04, DX06 and DX11 concern the separate algorithmic rent-fixing ordinance (§218-12) and do not bear on Chapter 260 coverage."
+ }
+}

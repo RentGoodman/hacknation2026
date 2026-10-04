@@ -1,0 +1,24 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "extract",
+ "subject": "D039",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 1074,
+  "output_tokens": 419
+ },
+ "result": {
+  "rules": [],
+  "no_rule_findings": [
+   {
+    "jurisdiction": "Los Angeles, CA",
+    "category": "algorithmic_rent_setting",
+    "finding": "A September 3, 2024 City Council motion (Hutt) instructs the Los Angeles Housing Department to report on how many ownership and management entities use algorithm-based rent-setting software and on the feasibility of banning it. It is a motion for a report, not an enacted or pending ban.",
+    "kind": "motion",
+    "quoted_span": "I THEREFORE MOVE that the City Council instruct the Los Angeles Housing Department to \nreport on the number of ownership and management entities that are using algorithm-based \nsoftware to establish rents and the feasibility of instituting a ban on the use of this software to set \nrents in the City.",
+    "basis_citation": "Los Angeles City Council File 24-1031"
+   }
+  ],
+  "doc_summary": "Sept. 3, 2024 Los Angeles City Council motion by Councilmember Heather Hutt asking the Los Angeles Housing Department to report on the use of algorithm-based rent-setting software (such as RealPage) by owners and managers and on the feasibility of banning it. The motion sets no rule. It mentions San Francisco's July 2024 ban only as background."
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D067:c5",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 60291,
+  "output_tokens": 892
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "Tenants may be protected from eviction for 40 years if their family income is not more than three (3) times the average per person income in their county or $50,000.00, whichever  is greater (N.J.S.A. 2A:18-61.28).",
+    "note": "The qualifying criteria, one-year residence, 40-year protection, income test, landlord notice duty and 60-day filing window all match the guide. The conversion-cost rent bar, its application to all tenants and the carve-out for new services or amenities also match the Rent Control section."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "This prohibition applies to all tenants in the building \nregardless of whether they are eligible for protected tenancy as senior citizens or disabled persons.",
+    "note": "The 40 years, the income test (3x county average per-person income or $50,000, whichever is greater), the 60-day application period and the rent-increase bar for all tenants are each stated in the guide."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The field is null and the guide gives no effective date for the Act. The 1981 and 1992 act years it mentions are not offered as effective dates for this rule."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "The Senior Citizens and Disabled Protected Tenancy Act protects senior citizens who meet \ncertain eligibility requirements (N.J.S.A. 2A:18-61.22 to -61.39; N.J.A.C. 5:24-2.1 to -2.11).",
+    "note": "The guide describes the Act in the present tense as operating law, which fits in_force. It says nothing about repeal or suspension."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "live in a building \nbeing converted to a condominium, cooperative; or fee simple ownership of units at least one (1) \nyear prior to the conversion recording date.",
+    "note": "The summary, the one-year residence condition and the age, disability and veteran criteria are all stated. The rent-increase bar for all tenants is also stated. The income test is a further unverifiable condition, consistent with requires_unknown_facts. The fields left null are not addressed by the document."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "(N.J.S.A. 2A:18-61.22 to -61.39; N.J.A.C. 5:24-2.1 to -2.11)",
+    "note": "The primary citation 2A:18-61.22 falls within this range, which the guide gives for the Act. The aliases 2A:18-61.28 and 2A:18-61.31 also appear in the guide."
+   }
+  ]
+ }
+}

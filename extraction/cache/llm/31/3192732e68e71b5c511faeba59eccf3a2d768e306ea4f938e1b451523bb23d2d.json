@@ -1,0 +1,45 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D083:c2",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 10509,
+  "output_tokens": 1329
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": true,
+   "unverifiable_exemptions": [],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "The documents do not say which buildings, units or owners are covered. The Rent Board page publishes only the annual security deposit interest rate.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": null,
+   "other_conditions": null
+  },
+  "evidence": [
+   {
+    "field": "summary",
+    "doc_id": "D083",
+    "quoted_span": "4.2% for March 1, 2026 – February 28, 2027"
+   },
+   {
+    "field": "requires_unknown_facts",
+    "doc_id": "D083",
+    "quoted_span": "Learn about security deposits."
+   }
+  ],
+  "notes": "I removed other_conditions ('Complementary to the state deposit cap and return rules in Cal. Civ. Code § 1950.5'). None of the documents mention Civ. Code § 1950.5 or state deposit caps and return rules, so the value has no verbatim support. It also describes how this rule relates to other law rather than which buildings, units or owners are covered. D083 lists only the rates (4.2% for 2026-27, 5.0% for 2025-26, 5.2% for 2024-25) and links to 'Learn about security deposits'. It says nothing about which units, buildings or owners the interest requirement applies to. I kept requires_unknown_facts as true because coverage cannot be determined from the documents. The cited spans show that the page gives only the rate and points elsewhere for details; they do not state coverage directly. I did not import Rent Ordinance coverage from D079 or D080, such as the certificate of occupancy after June 13, 1979 exemption. Those passages concern rent increase limits and just-cause eviction, not deposit interest."
+ }
+}

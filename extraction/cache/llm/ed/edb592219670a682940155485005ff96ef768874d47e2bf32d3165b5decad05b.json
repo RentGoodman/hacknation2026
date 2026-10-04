@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D022:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 945,
+  "output_tokens": 225
+ },
+ "result": {
+  "en": "California law makes it unlawful to use or distribute a common pricing algorithm, meaning software that uses competitor data to influence prices, as part of a conspiracy to restrain trade or while coercing others to adopt its recommended price, and this general antitrust rule reaches rent-setting software.",
+  "es": "La ley de California prohíbe usar o distribuir un algoritmo de precios común, es decir, un software que usa datos de competidores para influir en los precios, como parte de una conspiración para restringir el comercio o mientras se coacciona a otros a adoptar su precio recomendado, y esta norma antimonopolio general alcanza al software de fijación de alquileres."
+ }
+}

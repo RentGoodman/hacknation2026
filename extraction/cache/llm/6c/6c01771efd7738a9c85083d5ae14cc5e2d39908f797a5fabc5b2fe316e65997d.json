@@ -1,0 +1,174 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D008:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 22982,
+  "output_tokens": 5453
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": {
+    "basis": "certificate_of_occupancy",
+    "covered_if": "on_or_before",
+    "date": "1980-06-30"
+   },
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": 2,
+   "requires_unknown_facts": false,
+   "unverifiable_exemptions": [
+    "Single-family home with a tenancy that began on or after January 1, 1996 (partially covered, no rent control)",
+    "Most condominiums (partially covered, no rent control)",
+    "Section 202 or Section 811 subsidized units, and Rent Supplement, Section 8 Loan Management Set Aside or Project-based Section 8 units in projects with a HUD-insured or HUD-held mortgage (partially covered)",
+    "Golden Duplex: owner-occupied on December 31, 1979 and an owner currently lives in one unit",
+    "Owner shares a kitchen or bath with the tenant and lived on the property when the tenancy started",
+    "Tenancy started after Nov 7, 2018 on a property where one unit is an ADU and either unit is owner-occupied",
+    "University rental units such as dormitories",
+    "Nonprofit cooperative",
+    "Tenancy began on or after Jan 1, 2025 with rent set under Costa-Hawkins (not adjusted by the 2026 AGA)"
+   ],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Rent ceilings and the AGA apply only to fully covered units:\n- most units in multifamily properties built before 1980;\n- single-family homes with current tenancies that began before 1996;\n- rooming houses (single-family homes with five or more rooms rented individually).\n\nPartially covered units are registered but not rent controlled:\n- new construction with a certificate of occupancy after June 1980;\n- single-family tenancies from Jan 1, 1996;\n- most condominiums;\n- certain subsidized units.\n\nExempt unit types are outside the ordinance.",
+   "construction_date_basis": "certificate_of_occupancy",
+   "built_on_or_before": "1980-06-30",
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": "Golden Duplex exemption: owner-occupied on Dec 31, 1979 and currently owner-occupied. The shared kitchen/bath exemption applies only if the owner lived on the property when the tenancy started. ADU-property exemption: tenancies started after Nov 7, 2018 where either unit is owner-occupied.",
+   "other_conditions": "Single-family homes are fully covered only if the current tenancy began before 1996. Government-subsidized units (Section 8, Shelter Plus Care, VASH, LIHTC, HOME and others) are fully or partially covered depending on unit type. The 2026 AGA does not apply to tenancies beginning on or after Jan 1, 2025 with Costa-Hawkins rents."
+  },
+  "evidence": [
+   {
+    "field": "construction_cutoff",
+    "doc_id": "D009",
+    "quoted_span": "Occupancy after June 1980"
+   },
+   {
+    "field": "built_on_or_before",
+    "doc_id": "D009",
+    "quoted_span": "Occupancy after June 1980"
+   },
+   {
+    "field": "construction_date_basis",
+    "doc_id": "D006",
+    "quoted_span": "New Construction Units (units with a certificate of occupancy issued after 1980)"
+   },
+   {
+    "field": "requires_unknown_facts",
+    "doc_id": "D009",
+    "quoted_span": "Most units in multifamily properties built before 1980** Fully Covered Yes Yes Yes Yes"
+   },
+   {
+    "field": "owner_occupied_exemption_max_units",
+    "doc_id": "D009",
+    "quoted_span": "“Golden Duplex”: duplex that was owner-occupied on December 31,"
+   },
+   {
+    "field": "owner_conditions",
+    "doc_id": "D009",
+    "quoted_span": "1979, and currently has an owner living in one of the units"
+   },
+   {
+    "field": "owner_conditions",
+    "doc_id": "D006",
+    "quoted_span": "Where the tenant shares a kitchen or bath facilities with the landlord, the unit will be exempt from the Rent Ordinance only if the landlord lived in a unit on the same property at the start of the tenancy."
+   },
+   {
+    "field": "owner_conditions",
+    "doc_id": "D009",
+    "quoted_span": "an ADU and either unit is owner-occupied."
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D009",
+    "quoted_span": "Single family homes with current tenancies that began before 1996** Fully Covered Yes Yes Yes Yes"
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D006",
+    "quoted_span": "Government-owned or -subsidized rental units become either fully or partially covered by the Rent Ordinance."
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D008",
+    "quoted_span": "January 1, 2025, and who had their rents set pursuant to the Costa-Hawkins Rental"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D009",
+    "quoted_span": "Most units in multifamily properties built before 1980** Fully Covered Yes Yes Yes Yes"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D009",
+    "quoted_span": "Rooming house: single-family homes with five or more rooms rented"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D009",
+    "quoted_span": "Most condominiums** Partially Covered Yes No Yes Yes"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D009",
+    "quoted_span": "Single-family home with a tenancy that began on or after January 1,"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D009",
+    "quoted_span": "Most condominiums** Partially Covered Yes No Yes Yes"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D006",
+    "quoted_span": "Section 202 Supportive Housing for the Elderly"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D006",
+    "quoted_span": "Section 811 Supportive Housing for Persons with Disabilities"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D009",
+    "quoted_span": "subsidies AND in a project with a mortgage insured or held by HUD."
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D009",
+    "quoted_span": "1979, and currently has an owner living in one of the units"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D006",
+    "quoted_span": "Where the tenant shares a kitchen or bath facilities with the landlord, the unit will be exempt from the Rent Ordinance only if the landlord lived in a unit on the same property at the start of the tenancy."
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D009",
+    "quoted_span": "Tenancies started after Nov 7, 2018, on properties where one unit is"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D009",
+    "quoted_span": "University rental units such as dormitories. Exempt No No No No"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D009",
+    "quoted_span": "Nonprofit Cooperative Exempt No No No No"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D008",
+    "quoted_span": "January 1, 2025, and who had their rents set pursuant to the Costa-Hawkins Rental"
+   }
+  ],
+  "notes": "I set requires_unknown_facts to false because the rule covers ordinary multifamily rental buildings built before 1980. Its subsidy, tenancy and owner-occupancy carve-outs stay in unverifiable_exemptions. I set supersedes_state_rule to null and removed the Civ. Code § 1947.12 sentence from the summary, because no document mentions the state rent cap or how it relates to Berkeley's AGA. The construction cutoff follows D009 (Certificate of Occupancy after June 1980 means partially covered). D006 says 'issued after 1980' and D009 also says 'built before 1980', so units completed between July and December 1980 are ambiguous and should be checked against the ordinance text."
+ }
+}

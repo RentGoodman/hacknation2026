@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#26479e"><meta name="description" content="Rental Housing Law Navigator: address-level rule verdicts with citations, dated lookups and change tests.">
+<title>Parcel — Rental housing, explained</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='9' fill='%2326479e'/%3E%3Ctext x='11' y='30' font-size='30' fill='white' font-family='Georgia'%3EP%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="vendor/maplibre-gl.css"><link rel="stylesheet" href="styles.css">
+<script defer src="vendor/maplibre-gl.js"></script><script defer src="data/starter-data.js"></script><script defer src="data/engine-data.js"></script><script defer src="app.js"></script><script defer src="chat.js"></script>
+</head>
+<body>
+<header class="header">
+<a class="brand" href="./" aria-label="Parcel home"><span>Parcel<span class="brand-dot">.</span></span></a>
+<nav aria-label="Main navigation"><button class="nav-item active" data-view="explore"><span data-icon="map"></span><span data-i18n="explore">Explore properties</span></button><button class="nav-item" data-view="changes"><span data-icon="activity"></span><span data-i18n="changes">Law changes</span> <span class="nav-count">5</span></button><button class="nav-item" data-view="review"><span data-icon="shield"></span><span data-i18n="review">Review queue</span></button><button class="nav-item" data-view="scores"><span data-icon="activity"></span><span data-i18n="scores">Verification</span></button><button class="nav-item" data-view="sources"><span data-icon="book"></span><span data-i18n="sources">Source library</span></button></nav>
+<div class="header-end"><label class="language-control"><span class="sr-only">Language</span><select id="language" aria-label="Language"><option value="en">EN</option><option value="es">ES</option></select></label><span class="legal-warning" data-i18n="warning">Not legal advice</span></div>
+</header>
+<div class="workspace">
+<aside class="sidebar">
+<div class="location-select city-picker">
+<select id="city" hidden aria-hidden="true" tabindex="-1"><option value="sf">San Francisco, CA</option></select>
+<button id="city-trigger" class="city-trigger" aria-haspopup="dialog" aria-expanded="false" aria-controls="city-menu"><span class="city-trigger-pin" data-icon="pin"></span><span id="city-current-name">San Francisco</span><span id="city-current-state">CA</span><span class="city-trigger-chevron" data-icon="chevron"></span></button>
+</div>
+<div id="city-menu" class="city-menu" popover="auto" role="dialog" aria-label="Choose a city">
+<div class="city-search"><span data-icon="search"></span><input id="city-search" type="search" placeholder="Search a city" aria-label="Search a city" role="combobox" aria-controls="city-options" aria-expanded="true" aria-autocomplete="list" autocomplete="off"></div>
+<div id="city-options" class="city-options" role="listbox" aria-label="Cities"></div>
+<p id="city-empty" class="city-empty" role="status" hidden>No city found.</p>
+</div>
+<div class="time-control"><label for="as-of">Rules as of</label><input id="as-of" type="date" aria-label="Rules as of date"><button id="today" class="text-button" hidden>Today</button></div>
+<div class="sidebar-tabs" role="tablist" aria-label="Sidebar view"><button role="tab" aria-selected="true" data-side="layers">Map layers</button><button role="tab" aria-selected="false" data-side="properties">Properties <span id="property-count">80</span></button></div>
+<div id="layers-pane">
+<div class="section-label">PROPERTY INFORMATION</div>
+<label class="layer-row"><span class="layer-icon blue" data-icon="building"></span><span>Properties</span><input id="property-layer" type="checkbox" checked><span class="switch"></span></label>
+<div class="section-label legal-label">LEGAL TOPICS</div>
+<div id="category-layers"></div>
+</div>
+<div id="properties-pane" hidden></div>
+<p id="build-info" class="build-info"></p>
+</aside>
+<main class="map-workspace">
+<div id="map" aria-label="Interactive property map"></div><div id="map-error" hidden>The map couldn’t load. You can still explore every supplied property using the Properties tab.</div>
+<div class="map-toolbar" hidden><div class="search-wrap"><span data-icon="search"></span><input id="search" type="search" placeholder="Search 500 addresses, postal cities, or record IDs" autocomplete="off" aria-label="Search supplied properties"><kbd>/</kbd><div id="search-results" hidden></div></div></div>
+<div class="map-caption"><span class="city-pill" id="city-pill">San Francisco</span></div>
+<button id="reopen" class="reopen" hidden><span data-icon="building"></span>Open property profile</button>
+<section id="detail" class="detail-panel" aria-label="Property legal profile"></section>
+<section id="collection" class="collection-panel" hidden aria-label="Law changes and sources"></section>
+<section id="map-chat" class="map-chat" aria-label="Ask Parcel">
+<div id="chat-panel" class="chat-panel" hidden>
+<header class="chat-heading"><div><strong id="chat-mode">Parcel</strong><p id="chat-context"></p></div><button type="button" id="chat-close" class="icon-button" aria-label="Minimize conversation"><span data-icon="close"></span></button></header>
+<div id="chat-log" class="chat-log" role="log" aria-label="Conversation" aria-live="polite" aria-relevant="additions text"></div>
+<div id="chat-starters" class="chat-starters"></div>
+</div>
+<button type="button" id="chat-resume" class="chat-resume" hidden>Continue conversation</button>
+<div id="chat-address-picker" class="chat-address-picker" role="dialog" aria-label="Choose chat address" hidden>
+<input id="chat-address-search" type="search" placeholder="Search an address or city" aria-label="Search chat addresses" autocomplete="off" role="combobox" aria-controls="chat-address-options" aria-expanded="true" aria-autocomplete="list">
+<div id="chat-address-options" role="listbox" aria-label="Chat addresses"></div>
+<p id="chat-address-empty" role="status" hidden>No matching address.</p>
+</div>
+<form id="chat-form" class="chat-composer" aria-label="Ask about housing data">
+<div class="chat-composer-main"><button id="chat-address-tag" class="chat-address-tag" type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="chat-address-picker"><span aria-hidden="true">@</span><span id="chat-address-label"></span><span data-icon="chevron"></span></button>
+<textarea id="chat-input" rows="1" maxlength="1500" placeholder="Ask a question, or @ another address…" aria-label="Ask about housing data" aria-controls="chat-panel" aria-expanded="false"></textarea></div>
+<button id="chat-send" class="chat-send" type="submit" aria-label="Send question" disabled><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
+</form>
+</section>
+</main>
+</div>
+<dialog id="modal"><div class="modal-top"><span class="eyebrow" id="modal-eyebrow"></span><button id="close-modal" class="icon-button" aria-label="Close dialog" data-icon="close"></button></div><div id="modal-body"></div></dialog>
+<div id="toast" role="status" hidden></div>
+</body></html>

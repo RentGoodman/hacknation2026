@@ -1,0 +1,130 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "extract",
+ "subject": "D040",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 2830,
+  "output_tokens": 4332
+ },
+ "result": {
+  "rules": [
+   {
+    "candidate_id": "c1",
+    "jurisdiction": "Los Angeles, CA",
+    "category": "just_cause_eviction",
+    "status": "in_force",
+    "title": "Los Angeles Just Cause for Eviction Ordinance (JCO)",
+    "requirement": "Landlords may not terminate a covered tenancy without just cause. At-fault causes: nonpayment, uncured lease violation, nuisance or damage, illegal use, refusal to renew a similar agreement, denial of access, or an unapproved subtenant. No-fault causes: owner or family move-in, resident manager, demolition or removal from the market, government vacate order, HUD sale, residential hotel conversion, or conversion to affordable housing. No-fault evictions require relocation assistance. Landlords may not evict for nonpayment unless the tenant owes more than Fair Market Rent for the unit size (effective March 27, 2023, applies to RSO and JCO units). All eviction notices must be filed with LAHD within 3 business days of service. A Notice of Right to Counsel must be posted from Aug 20, 2025, given at the start of the tenancy and given whenever an eviction notice is served. A Notice of Renters' Protections is required for tenancies beginning or renewing on or after Jan 27, 2023. Properties must be registered annually.",
+    "key_value": "Nonpayment eviction only if rent owed exceeds Fair Market Rent for the bedroom size; eviction notices filed with LAHD within 3 business days of service; relocation assistance for no-fault evictions (amount not stated)",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": false,
+     "unverifiable_exemptions": [
+      "transient hotels",
+      "licensed care facilities",
+      "fraternity or sorority houses",
+      "owner's roommate",
+      "cooperatives under certain circumstances",
+      "some non-profit facilities for the homeless or short-term substance abuse treatment centers",
+      "some properties owned by HACLA or the government"
+     ],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Most residential properties in the City of Los Angeles that are not covered by the RSO. The tenant must have lived in the unit at least six months, or the original lease must have expired, whichever comes first. A single-family dwelling can be covered.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": "Not regulated by the Rent Stabilization Ordinance. Tenant must have lived in the unit at least 6 months or the original lease must have expired. The page says the JCO can apply to buildings newer than October 1, 1978 and to a property with a single single-family dwelling."
+    },
+    "exemptions": "Transient hotels, licensed care facilities, fraternity or sorority houses, owner's roommate, some cooperatives, some non-profit homeless facilities or short-term substance abuse treatment centers, some HACLA or government-owned properties; units already under the RSO.",
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "The page gives no effective date for the JCO itself. The nonpayment/FMR rule is effective March 27, 2023, the Right to Counsel notice from August 20, 2025, and the Renters' Protections notice for tenancies beginning or renewing on or after January 27, 2023.",
+    "effective_date_formula": null,
+    "citation": "Los Angeles Just Cause for Eviction Ordinance (JCO)",
+    "citation_aliases": [
+     "JCO",
+     "L.A. Just Cause Ordinance",
+     "L.A. Mun. Code (JCO)"
+    ],
+    "quoted_span": "It prohibits terminations of tenancies without just cause and requires relocation assistance for no-fault evictions.",
+    "confidence": 0.8,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "The page does not give the municipal code section or the relocation amounts. The citation is the ordinance's popular name. The nonpayment, filing and notice requirements are folded into this record.",
+    "source_notes": "Official LAHD page."
+   },
+   {
+    "candidate_id": "c2",
+    "jurisdiction": "CA",
+    "category": "rent_increase_limits",
+    "status": "in_force",
+    "title": "California Tenant Protection Act of 2019 (AB 1482) rent cap",
+    "requirement": "Annual rent increases in covered buildings are capped at 5% plus the regional percentage change in cost of living, or 10%, whichever is lower. The JCO does not regulate rent increases itself. The page lists the cap as 8.9% for Aug 1, 2024 to Jul 31, 2025 and 8.8% for Aug 1, 2023 to Jul 31, 2024.",
+    "key_value": "5% + regional CPI change, or 10%, whichever is lower; 8.9% for 8/1/2024-7/31/2025; 8.8% for 8/1/2023-7/31/2024",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": {
+      "years": 15,
+      "basis": "rolling 15 years from construction",
+      "requires_owner_filing": false
+     },
+     "owner_occupied_exemption_max_units": 2,
+     "requires_unknown_facts": false,
+     "unverifiable_exemptions": [
+      "units restricted by a deed, regulatory restriction or other recorded affordability document",
+      "certain dormitories",
+      "single-family homes and condominiums where the owner is not a real estate trust, corporation or LLC with a corporate member and the tenant was given written notice of the exemption"
+     ],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Buildings older than 15 years (rolling). Exempt: units built within the last 15 years, deed-restricted affordable units, certain dormitories, a two-unit property where an owner occupied the second unit for the whole tenancy, qualifying single-family homes and condos with proper written notice, and units already subject to the City's RSO.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": 15,
+     "owner_conditions": "Single-family homes and condos are exempt only if not owned by a real estate trust, corporation, or LLC with at least one corporate member, and the landlord gave written notice. No exemption if there is more than one dwelling unit on the lot or a second unit that cannot be sold separately, such as an in-law unit.",
+     "other_conditions": "Units already subject to the Los Angeles RSO are excluded from this state rule."
+    },
+    "exemptions": "Units built within the last 15 years (rolling); deed- or regulation-restricted affordable units; certain dormitories; a two-unit property with an owner-occupied second unit; qualifying single-family homes and condos with written notice; units subject to the City's RSO.",
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "The page gives no effective date for AB 1482.",
+    "effective_date_formula": null,
+    "citation": "Cal. Civ. Code § 1947.12",
+    "citation_aliases": [
+     "AB 1482",
+     "California Tenant Protection Act of 2019",
+     "Cal. Civ. Code § 1947.12(d)(5)(B)(i)"
+    ],
+    "quoted_span": "limited to no more than 5% plus the percentage change in the cost of living for the region in which the property is located, or 10% whichever is lower",
+    "confidence": 0.7,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "The page was last modified in Sept 2026 but only lists caps through July 31, 2025, so the current-year cap is not stated. The Civil Code section is inferred from the exemption notice reference to § 1947.12(d)(5)(B)(i). AB 1482 also has a just-cause part, but the page only mentions it through the exemption notice.",
+    "source_notes": "Official LAHD page describing California state law; the state law's own jurisdiction is CA."
+   }
+  ],
+  "no_rule_findings": [],
+  "doc_summary": "LAHD page on the Los Angeles Just Cause for Eviction Ordinance. It covers the at-fault and no-fault eviction causes, relocation assistance, coverage and exceptions, registration and notice requirements, the Fair Market Rent threshold for nonpayment evictions, and the 3-business-day LAHD filing of eviction notices. It also summarizes California's AB 1482 rent cap and its exemptions, with the cap stated only through July 2025."
+ }
+}

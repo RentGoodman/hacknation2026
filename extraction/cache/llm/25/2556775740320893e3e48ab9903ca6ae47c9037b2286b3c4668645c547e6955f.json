@@ -1,0 +1,21 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "date_audit",
+ "subject": "D014:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 11799,
+  "output_tokens": 608
+ },
+ "result": {
+  "requirement_is_new": true,
+  "in_force_since": "2020-11-06",
+  "in_force_since_evidence": {
+   "doc_id": "D014",
+   "quoted_span": "The HSNA becomes effective on November 6, 2020."
+  },
+  "current_version_effective": "2020-11-06",
+  "prior_version_note": null,
+  "effective_date_formula": null
+ }
+}

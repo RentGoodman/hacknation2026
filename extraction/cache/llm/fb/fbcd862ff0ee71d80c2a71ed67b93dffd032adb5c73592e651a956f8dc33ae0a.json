@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "DX05:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 10916,
+  "output_tokens": 822
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "It is unlawful for a landlord to use an algorithmic device to set rental rates\n\n                  or occupancy levels for residential rental property.",
+    "note": "Both prohibitions (sale/license/provision and landlord use), the definition, separate-violation rule and tenant remedies match §§ 98.1102-98.1104."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "A tenant may seek injunctive relief, damages, or civil penalties of up to\n\n                        $1,000 per violation of this Division, in a civil action against a landlord.",
+    "note": "The $1,000 cap, monthly and per-property separate violations, fee-shifting and the 30th-day effective date are all in the document. The penalty is sought by tenants in a civil action, not imposed by the city."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "supported",
+    "quoted_span": "This Ordinance will take effect and be in force on the thirtieth day from\n\n        and after its final passage.",
+    "note": "The rule's effective_date is null and its formula (30 days after enactment, with a null anchor date) matches the text. The passage date is blank in the document, so no calendar date can be computed."
+   },
+   {
+    "field": "status",
+    "verdict": "partly_supported",
+    "quoted_span": "I certify that the Council of the City of San Diego adopted this Ordinance at a meeting held on\n\n______________________________.",
+    "note": "The document is a staff report and draft ordinance with blank number, passage and adoption dates. This supports a proposed or pending status, but adoption as of the query date cannot be confirmed."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "Residential rental property has the same meaning as in San Diego Municipal\n\n           Code section 98.0702, as may be amended.",
+    "note": "The ordinance sets no unit-count, construction-date, owner-occupancy or landlord-size limits, and the Division 7 exemptions are not incorporated. The detail that § 98.0702 covers dwellings in mobilehome parks is not in this document, which only incorporates the definition by reference."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "§98.1103   Use and Sale of Algorithmic Devices Prohibited",
+    "note": "The citation and aliases match the text: Chapter 9, Article 8, Division 11, §§ 98.1101-98.1104, O-2025-107 and the ordinance title."
+   }
+  ]
+ }
+}

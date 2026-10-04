@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D022:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 4435,
+  "output_tokens": 1671
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "(a) It shall be unlawful for a person to use or distribute a common pricing algorithm as part of a contract, combination in the form of a trust, or conspiracy to restrain trade or commerce in violation of this chapter.",
+    "note": "The prohibition, the coercion prong in (b), the definitions, and the § 16756.1 pleading standard all match the bill text. The statute does not mention housing. The 'own data only' point is attributed to the secondary source, but it is consistent with the definition's 'uses competitor data'."
+   },
+   {
+    "field": "key_value",
+    "verdict": "partly_supported",
+    "quoted_span": "Because the bill would expand the scope of activities prohibited by the Cartwright Act, the violation of which is punishable as a crime",
+    "note": "The unlawful conduct and the criminal punishability are in the document. The specific fines, civil penalties and treble damages come from SB 763 / a secondary source and are not in D022."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_supported",
+    "quoted_span": null,
+    "note": "D022 states no operative or effective date. It shows only approval and filing on Oct. 6, 2025. The Jan. 1, 2026 date is not in this document."
+   },
+   {
+    "field": "status",
+    "verdict": "partly_supported",
+    "quoted_span": "10/06/25 - Chaptered",
+    "note": "The document shows the bill was chaptered and approved by the Governor. It does not say the law is currently in force."
+   },
+   {
+    "field": "coverage",
+    "verdict": "partly_supported",
+    "quoted_span": "(5) “Person” has the same meaning as defined in Section 16702 and does not include the end consumer of a product or service.",
+    "note": "The person definition and the absence of building, unit-count or owner limits are consistent with the text. The reference to apartment rental companies is not in D022."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "An act to add Sections 16729 and 16756.1 to the Business and Professions Code",
+    "note": "The document confirms § 16729 and § 16756.1 of the Bus. & Prof. Code, AB 325, and Chapter 338, and describes the Cartwright Act."
+   }
+  ]
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "cell",
+ "subject": "Newark, NJ|rent_increase_limits",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 4934,
+  "output_tokens": 174
+ },
+ "result": {
+  "cell_status": "silent",
+  "no_rule_quote": null,
+  "no_rule_passage_id": null,
+  "basis_citation": null,
+  "rules": []
+ }
+}

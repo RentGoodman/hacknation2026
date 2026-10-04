@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D043:c3",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 15650,
+  "output_tokens": 893
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "Owners who demolish a Protected Unit for the purpose of new construction within 5 years after the \nfiling of the Notice of Intent to Withdraw or Declaration of Intent to Evict with LAHD are required to \ncomply with relocation requirements under the RPO.",
+    "note": "Core elements are supported: options 1-3, occupant protections, penalties, highest-amount rule, and the 15-day RSO/JCO payment. The document says the 15-day payment applies to all tenants. The phrase 'All tenants get at least the RSO or JCO amounts' is a fair paraphrase of 'minimum of the RSO or JCO amounts'."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "Tenants Displaced by \nNew Development $115,480 $96,750 $87,450",
+    "note": "Chart B values match for 7/1/2026-6/30/2027 (Extremely Low, Very Low, Low). The document states that above-low-income households are paid under Chart A. The $250,000 per displaced unit penalty and the 5-year window are also stated. The 5-year window runs from the filing, so 'look-forward from filing' is acceptable."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "supported",
+    "quoted_span": "effective 2/11/2025\nunder Ordinances # 188481 and #188482.",
+    "note": "The document also says the City Council adopted the RPO on February 11, 2025."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "effective 2/11/2025\nunder Ordinances # 188481 and #188482.",
+    "note": "The bulletin is current (Rev 07.01.2026) and describes the RPO as operative, so in_force is consistent."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "The RPO only applies to Protected Units that will be demolished for the \npurpose of new construction.",
+    "note": "The Protected Unit definition (covenant, rent control, lower/very low income rental within 5 years, Ellis Act withdrawal within 10 years) and 'All RSO units are Protected Units' are in the document. The regular RSO/JCO rules apply if units are not Protected Units or are not occupied by a lower income tenant. Enhanced relocation is limited to lower-income (80% AMI) tenants."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "effective 2/11/2025\nunder Ordinances # 188481 and #188482.",
+    "note": "Ordinances 188481 and 188482 are cited in the document, and the 'Resident Protections Ordinance (RPO)' name is also used."
+   }
+  ]
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "date_audit",
+ "subject": "D080:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 12135,
+  "output_tokens": 583
+ },
+ "result": {
+  "requirement_is_new": false,
+  "in_force_since": null,
+  "in_force_since_evidence": null,
+  "current_version_effective": "2026-03-01",
+  "prior_version_note": "The earlier annual allowable increases were 1.4% for March 1, 2025 – February 28, 2026 (D080, D083) and 1.7% for March 1, 2024 – February 28, 2025 (D083). D080 and D083 also point to a 'complete list' of past increases, but that list is not among the documents. The documents do not say when the Rent Ordinance's annual increase limit first took effect, so in_force_since is left unknown; the earliest documented period starts March 1, 2024.",
+  "effective_date_formula": null
+ }
+}

@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "DX06:c4",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 702,
+  "output_tokens": 246
+ },
+ "result": {
+  "en": "Starting April 2, 2026, Santa Ana bans selling, licensing, providing or using rent-setting software that uses nonpublic competitor data to set residential rents, and an affected tenant can sue for damages, an injunction, or civil penalties of up to $1,000 per violation plus attorney's fees.",
+  "es": "A partir del 2 de abril de 2026, Santa Ana prohíbe vender, licenciar, proporcionar o usar programas de fijación de alquileres que usen datos no públicos de competidores para fijar alquileres residenciales, y un inquilino afectado puede demandar por daños, una orden judicial o sanciones civiles de hasta $1,000 por infracción más honorarios de abogado."
+ }
+}

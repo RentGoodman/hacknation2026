@@ -1,0 +1,18 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "date_audit",
+ "subject": "D006:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 25082,
+  "output_tokens": 686
+ },
+ "result": {
+  "requirement_is_new": false,
+  "in_force_since": null,
+  "in_force_since_evidence": null,
+  "current_version_effective": "2026-01-01",
+  "prior_version_note": "Before Measure BB (November 2024 election), the AGA followed the Rent Ordinance's 65%-of-Bay-Area-CPI formula, approved by voters in November 2004 (BMC 13.76.110A). D006 labels the 5% maximum as NEW, so the documents imply the earlier version had no 5% cap. The documents do not say when the AGA limit first applied, so in_force_since is left null.",
+  "effective_date_formula": null
+ }
+}

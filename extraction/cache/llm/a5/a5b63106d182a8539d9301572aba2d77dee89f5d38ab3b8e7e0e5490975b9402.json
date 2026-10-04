@@ -1,0 +1,57 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "DX07:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 44418,
+  "output_tokens": 1952
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": false,
+   "unverifiable_exemptions": [
+    "Owner occupying the home and renting to one additional person (general FEHA exemption allowing such owners to exclude applicants based on protected characteristics)"
+   ],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Applies statewide under FEHA to most housing accommodations in California, including single-family homes, multi-family homes, condominiums and apartments. Housing providers must comply, including landlords, apartment managers and tenant screening companies. An owner occupying a home who rents to one additional person is generally exempt from FEHA, and an address lookup cannot verify this.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": null,
+   "other_conditions": null
+  },
+  "evidence": [
+   {
+    "field": "requires_unknown_facts",
+    "doc_id": "D016",
+    "quoted_span": "The Fair Employment and Housing Act (FEHA) covers the sale, rental, or occupancy of most housing accommodations in California, including single-family homes, multi-family homes, condominiums, apartments"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D016",
+    "quoted_span": "When an owner is occupying a home and is renting to one additional person, the owner may exclude applicants based on protected characteristics."
+   },
+   {
+    "field": "summary",
+    "doc_id": "D016",
+    "quoted_span": "This includes landlords, homeowners, apartment managers, real estate brokers, state or local governments, owners of short-term rentals, appraisers, tenant screening companies, homeowners associations, mortgage lending companies, and public housing authorities."
+   },
+   {
+    "field": "summary",
+    "doc_id": "D016",
+    "quoted_span": "Housing providers are also prohibited from having “blanket bans” of all people with a criminal history."
+   }
+  ],
+  "notes": "I removed the summary's reference to Berkeley BMC ch. 13.106 and the claim that stricter local fair-chance ordinances operate alongside the state rule, because no document supports either; yields_to_local_rule and may_preempt_local_rules stay null. I set requires_unknown_facts to false because FEHA covers ordinary rental housing. The owner-occupied 'one additional person' exemption is a general FEHA exemption stated in the CRD FAQ; whether it reaches the criminal-history regulations specifically should be confirmed against the regulation text, which was not captured. I did not set owner_occupied_exemption_max_units because the exemption is framed as renting to one person, not as a unit count."
+ }
+}

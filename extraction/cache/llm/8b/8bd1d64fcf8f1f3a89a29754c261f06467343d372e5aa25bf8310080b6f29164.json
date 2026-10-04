@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D053:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 2350,
+  "output_tokens": 649
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "Such presumption shall be rebutted only by clear and convincing evidence that such person's action was not a reprisal against the tenant and that such person had sufficient independent justification for taking such action",
+    "note": "All elements are in the text: protected activities, damages of 1 to 3 months' rent or actual damages if greater plus costs and attorney's fees, the six-month presumption, the clear and convincing rebuttal standard, and void waivers."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "shall be liable for damages which shall not be less than one month's rent or more than three month's rent, or the actual damages sustained by the tenant, whichever is greater, and the costs of the suit, including a reasonable attorney's fee.",
+    "note": "The six-month rebuttable presumption appears in the second paragraph, so the summary matches the text."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The field is empty, and the document gives no effective or enactment date."
+   },
+   {
+    "field": "status",
+    "verdict": "partly_supported",
+    "quoted_span": "Any waiver of this provision in any lease or other rental agreement shall be void and unenforceable.",
+    "note": "The document is the current codified text and is stated in present-tense operative language. It does not expressly say the section is in force, so the status is only implied."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "Any person or agent thereof who threatens to or takes reprisals against any tenant of residential premises",
+    "note": "The section applies to any tenant of residential premises and states no unit-count, age or owner-occupancy limits. The nonpayment exception is recorded under exemptions, not coverage."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "General Law - Part II, Title I, Chapter 186, Section 18",
+    "note": "The document header matches G.L. c. 186, § 18."
+   }
+  ]
+ }
+}

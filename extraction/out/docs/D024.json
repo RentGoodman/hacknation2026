@@ -1,0 +1,38 @@
+{
+  "doc_id": "D024",
+  "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1947.12",
+  "model": "anthropic:claude-sonnet-5-5",
+  "query_date": "2026-10-01",
+  "chunks": 1,
+  "rules": [
+    {
+      "jurisdiction": "CA",
+      "level": "state",
+      "category": "rent_increase_limits",
+      "status": "in_force",
+      "title": "Statewide rent cap (Civ. Code § 1947.12, as amended by SB 567)",
+      "requirement": "An owner of residential real property may not, over any 12-month period, raise the gross rental rate by more than 5 percent plus the percentage change in the cost of living, or 10 percent, whichever is lower, measured from the lowest gross rate charged in the prior 12 months. Where the same tenant remains in occupancy, no more than two increases are allowed in any 12-month period.",
+      "key_value": "lesser of 5% + CPI change or 10%; max two increases per 12 months",
+      "coverage_conditions": {
+        "summary": "Residential real property (including mobilehome park units) with a certificate of occupancy issued more than 15 years ago, other than exempt housing. Initial rent for a new tenancy is not capped. Does not apply to mobilehome homeowners.",
+        "construction_date_basis": "certificate_of_occupancy",
+        "built_on_or_before": null,
+        "built_after": null,
+        "min_building_age_years": 15,
+        "min_units": null,
+        "max_units": null,
+        "owner_conditions": "Single-family homes and condos alienable separately from other units are exempt only if the owner is not a REIT, a corporation, an LLC with a corporate member, or mobilehome park management, and the tenant received the required written exemption notice. Owner-occupied duplexes are exempt.",
+        "other_conditions": "Excludes deed-restricted or subsidized affordable housing, dormitories, housing under stricter local rent control, and, as to the 15-year exemption, mobilehomes (which are not exempt). Does not apply to a homeowner of a mobilehome. New tenancies in which no prior tenant remains in possession may set their own initial rent."
+      },
+      "exemptions": "Deed-restricted or subsidized affordable housing; dormitories of higher education or K-12 schools; housing under stricter local rent or price control; housing with a certificate of occupancy issued within the previous 15 years (except mobilehomes); separately alienable property (e.g., single-family homes, condos) not owned by a REIT, corporation, or LLC with a corporate member, or mobilehome park management, with written notice to tenants; a duplex where the owner occupies one unit as principal residence (neither unit an ADU or JADU); mobilehome homeowners.",
+      "interaction": "Does not expand or limit local governments' authority to adopt rent controls consistent with Chapter 2.7 (Civ. Code § 1954.50 et seq.). Housing under local rent control that restricts annual increases to less than the state cap is exempt. Does not authorize local limits not otherwise permitted by Chapter 2.7.",
+      "effective_date": "2024-04-01",
+      "citation": "Cal. Civ. Code § 1947.12",
+      "quoted_span": "an owner of residential real property shall not, over the course of any 12-month period, increase the gross rental rate for a dwelling or a unit more than 5 percent plus the percentage change in the cost of living, or 10 percent, whichever is lower",
+      "confidence": 0.93,
+      "conflict_flag": false,
+      "conflict_note": null
+    }
+  ],
+  "rejected": []
+}

@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D041:c2",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 1246,
+  "output_tokens": 224
+ },
+ "result": {
+  "en": "In Los Angeles, a landlord of a rent-stabilized (RSO) unit can end a tenancy only for listed reasons, must file every termination notice with LAHD within 3 business days, and for no-fault evictions must make relocation payments available within 15 days.",
+  "es": "En Los Ángeles, el dueño de una unidad con control de renta (RSO) solo puede terminar un arrendamiento por las causas enumeradas, debe presentar cada aviso de terminación ante LAHD dentro de 3 días hábiles y, en desalojos sin culpa del inquilino, debe poner a disposición el pago de reubicación dentro de 15 días."
+ }
+}

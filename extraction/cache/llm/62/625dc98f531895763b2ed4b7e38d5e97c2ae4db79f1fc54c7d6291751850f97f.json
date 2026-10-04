@@ -1,0 +1,82 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D043:c3",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 24613,
+  "output_tokens": 3171
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": false,
+   "unverifiable_exemptions": [
+    "Whether a non-RSO unit is a Protected Unit: under an affordability covenant or rent/price control within the past 5 years, rented by lower or very low income households within the past 5 years, or withdrawn under the Ellis Act within the past 10 years"
+   ],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Applies only to Protected Units demolished for new construction. All RSO units are Protected Units. Other units are Protected Units if, in the past 5 years, they were under an affordability covenant or rent control or were rented by lower-income households, or if they were withdrawn under the Ellis Act in the past 10 years.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": null,
+   "other_conditions": "Triggered only when a Protected Unit is demolished for new construction within 5 years after the Notice of Intent to Withdraw or Declaration of Intent to Evict is filed. Enhanced Chart B amounts go only to Low, Very Low and Extremely Low income households; households above low income receive Chart A (RSO/JCO) amounts."
+  },
+  "evidence": [
+   {
+    "field": "summary",
+    "doc_id": "D043",
+    "quoted_span": "The RPO only applies to Protected Units that will be demolished for the"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D043",
+    "quoted_span": "All RSO units are Protected Units."
+   },
+   {
+    "field": "requires_unknown_facts",
+    "doc_id": "D043",
+    "quoted_span": "All RSO units are Protected Units."
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D043",
+    "quoted_span": "Protected Units: (1) Residential dwelling units that are or were subject to a recorded covenant, ordinance, or law that restricts"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D043",
+    "quoted_span": "(3) Residential dwelling units that are or were rented by lower or"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D043",
+    "quoted_span": "(4) Residential dwelling units that were withdrawn from rent or lease in"
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D043",
+    "quoted_span": "Owners who demolish a Protected Unit for the purpose of new construction within 5 years after the"
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D043",
+    "quoted_span": "(Only for Low, Very Low and Extremely Low Income Households)"
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D043",
+    "quoted_span": "households at the amounts in Chart B per RPO. The households that are above low income are paid"
+   }
+  ],
+  "notes": "Changed requires_unknown_facts from true to false. D043 says all RSO units are Protected Units, and RSO coverage turns on construction date, which assessor data can identify. So the rule covers an ordinary rental building class rather than only subsidized or covenant units. The rule is event-triggered (demolition for new construction), not limited by building type. For non-RSO units, Protected Unit status depends on covenant, rent control, lower-income occupancy or Ellis Act history, which an address lookup cannot check; that is listed as an unverifiable exemption. Construction_cutoff is left null because non-RSO units (post-1978) can also be Protected Units. Whether a household is lower income is a tenant-level fact that only sets the payment tier, so it moved from unverifiable_exemptions to other_conditions."
+ }
+}

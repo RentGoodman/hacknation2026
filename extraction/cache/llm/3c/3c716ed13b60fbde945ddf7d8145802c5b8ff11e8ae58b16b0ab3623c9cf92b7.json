@@ -1,0 +1,70 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D067:c5",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 74384,
+  "output_tokens": 2762
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": true,
+   "unverifiable_exemptions": [],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Applies only to rental buildings being converted to condominium, cooperative or fee-simple ownership of units. Qualifying senior, disabled or disabled-veteran tenants may obtain protected tenancy. The bar on rent increases to cover conversion costs applies to all tenants in a converting building.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": null,
+   "other_conditions": "Triggered only by conversion of the building to condominium, cooperative or fee-simple ownership of units. Protected tenancy is limited to tenants who are 62 or older before the conversion recording date, permanently disabled, or disabled veterans rated 60% or higher. They must have lived in the building at least one year before the recording date and must meet a family income test. The conversion-cost rent bar covers all tenants in the building, whether or not they are eligible for protected tenancy."
+  },
+  "evidence": [
+   {
+    "field": "requires_unknown_facts",
+    "doc_id": "D067",
+    "quoted_span": "If a building is converted to a condominium or cooperative form of ownership, or to fee"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D067",
+    "quoted_span": "being converted to a condominium, cooperative; or fee simple ownership of units at least one (1)"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D067",
+    "quoted_span": "This prohibition applies to all tenants in the building"
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D067",
+    "quoted_span": "of the condominium or cooperative; or (2) be permanently disabled; or (3)"
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D067",
+    "quoted_span": "being converted to a condominium, cooperative; or fee simple ownership of units at least one (1)"
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D067",
+    "quoted_span": "if their family income is not more than three (3) times the average per person income in their"
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D067",
+    "quoted_span": "This prohibition applies to all tenants in the building"
+   }
+  ],
+  "notes": "requires_unknown_facts is kept true. The rule applies only to buildings undergoing conversion to condominium, cooperative or fee-simple ownership, which assessor data cannot identify. Tenant age, disability, veteran status, residency and income criteria were removed from unverifiable_exemptions. They are eligibility conditions for protected tenancy, not exemptions of buildings, units or owners, so they now appear in other_conditions. No unit-count, construction-date or owner-occupancy limits are stated in the source."
+ }
+}

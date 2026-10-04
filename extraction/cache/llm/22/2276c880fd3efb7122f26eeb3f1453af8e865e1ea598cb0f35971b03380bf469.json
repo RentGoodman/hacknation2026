@@ -1,0 +1,65 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D067:c3",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 74081,
+  "output_tokens": 2452
+ },
+ "result": {
+  "coverage": {
+   "min_units": 1,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": true,
+   "unverifiable_exemptions": [],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Applies to residential rental units in properties in foreclosure or acquired through foreclosure (one or more rental units). Month-to-month tenants and owner-occupied two- and three-family units are not exempt from the 90-day notice requirement.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": null,
+   "other_conditions": "Triggered by a foreclosure. Some duties fall on the foreclosing creditor before title transfers; others fall on the person acquiring the foreclosed property after the sale."
+  },
+  "evidence": [
+   {
+    "field": "min_units",
+    "doc_id": "D067",
+    "quoted_span": "Any person acquiring a foreclosed property containing one or more residential rental units"
+   },
+   {
+    "field": "requires_unknown_facts",
+    "doc_id": "D067",
+    "quoted_span": "Any person acquiring a foreclosed property containing one or more residential rental units"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D067",
+    "quoted_span": "Any person acquiring a foreclosed property containing one or more residential rental units"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D067",
+    "quoted_span": "Month-to-month tenants and two- and three-family owner-occupied units are not exempt from the 90-day notice requirements."
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D067",
+    "quoted_span": "requires the foreclosing creditor to give notice to the tenants"
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D067",
+    "quoted_span": "must provide notices to the tenants in English and Spanish, within 10 business days after the sale"
+   }
+  ],
+  "notes": "Changed other_conditions. The old text said 'only by foreclosure and transfer of title', but the guide also imposes pre-transfer notice duties on foreclosing creditors. Removed the sentence that posting replaces individual notices in buildings with more than 10 units: it describes landlord notice conduct, not coverage. Set requires_unknown_facts to true because the rule applies only to properties in or after foreclosure, a status assessor data cannot identify (event-only rule). Set min_units to 1 from the 'one or more residential rental units' language. There is no owner-occupied exemption: owner-occupied two- and three-family units are expressly not exempt from the 90-day notice. The federal non-preemption sentence concerns federal law, not this state rule, so the preemption fields stay null."
+ }
+}

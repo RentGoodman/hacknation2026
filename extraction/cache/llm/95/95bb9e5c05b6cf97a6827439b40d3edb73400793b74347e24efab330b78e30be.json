@@ -1,0 +1,127 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D041:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 25355,
+  "output_tokens": 3428
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": {
+    "basis": "year_built",
+    "covered_if": "on_or_before",
+    "date": "1978-10-01"
+   },
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": true,
+   "unverifiable_exemptions": [
+    "Luxury exemption (landlord must establish the monthly rent charged on or before May 31, 1978)",
+    "Temporary exemptions filed with LAHD"
+   ],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": true,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Rental properties first built on or before October 1, 1978, plus replacement units under LAMC 151.28. Covered types:\n- apartments and duplexes;\n- two or more single-family dwellings on one parcel;\n- hotel, motel, rooming or boarding house rooms occupied by the same tenant over 30 consecutive days;\n- residential units attached to commercial buildings;\n- ADUs and JADUs;\n- mobile homes and RVs in mobile home parks.\n\nCondominiums and townhomes are covered, but their rent is not regulated for tenancies that commenced after December 31, 1995.",
+   "construction_date_basis": "first built",
+   "built_on_or_before": "1978-10-01",
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": null,
+   "other_conditions": "Condominium and townhome rent is not regulated for tenancies commenced after December 31, 1995. Replacement units under LAMC 151.28 are also covered."
+  },
+  "evidence": [
+   {
+    "field": "construction_cutoff",
+    "doc_id": "D041",
+    "quoted_span": "Generally, the RSO applies to rental properties that were first built on or before October 1, 1978, as well as replacement units under"
+   },
+   {
+    "field": "built_on_or_before",
+    "doc_id": "D041",
+    "quoted_span": "Generally, the RSO applies to rental properties that were first built on or before October 1, 1978, as well as replacement units under"
+   },
+   {
+    "field": "construction_date_basis",
+    "doc_id": "D041",
+    "quoted_span": "Generally, the RSO applies to rental properties that were first built on or before October 1, 1978, as well as replacement units under"
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D041",
+    "quoted_span": "Condominium (Rent amount is not regulated for tenancies that commenced after December 31, 1995)"
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D041",
+    "quoted_span": "Townhome (Rent amount is not regulated for tenancies that commenced after December 31, 1995)"
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D041",
+    "quoted_span": "LAMC Section 151.28"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D041",
+    "quoted_span": "Generally, the RSO applies to rental properties that were first built on or before October 1, 1978, as well as replacement units under"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D041",
+    "quoted_span": "Two or more single-family dwelling units on the same parcel"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D041",
+    "quoted_span": "Rooms in a hotel, motel, rooming house, or boarding house occupied by the same tenant for more than 30 consecutive days"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D041",
+    "quoted_span": "Residential unit(s) attached to a commercial building"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D041",
+    "quoted_span": "Junior Accessory Dwelling Unit (JADU)"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D041",
+    "quoted_span": "and recreational vehicles in mobile home parks are also covered under the RSO."
+   },
+   {
+    "field": "requires_unknown_facts",
+    "doc_id": "D041",
+    "quoted_span": "A landlord can apply for an exemption from the RSO if they can establish the monthly rent charged on or before May 31, 1978"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D041",
+    "quoted_span": "A landlord can apply for an exemption from the RSO if they can establish the monthly rent charged on or before May 31, 1978"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D041",
+    "quoted_span": "New property owners have 45 days to register their rental property and if applicable, file"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D041",
+    "quoted_span": "Temporary exemptions"
+   },
+   {
+    "field": "supersedes_state_rule",
+    "doc_id": "D040",
+    "quoted_span": "Units that are already subject to the City’s RSO."
+   }
+  ],
+  "notes": "Coverage is largely supported by D041 and D040. I made one wording change in other_conditions: the documents say replacement units under LAMC 151.28 are covered 'as well as' pre-1978 properties. They do not literally say 'regardless of build date', so that phrase is now 'also covered'. construction_cutoff.basis remains year_built, since D041 says 'first built'; the documents do not mention a certificate of occupancy. min_units is left null: the documents list covered building types (duplexes, two or more single-family dwellings on one parcel) but give no explicit unit-count threshold. Landlord-conduct items (utility and dependent add-ons, surcharges) are not coverage and are excluded."
+ }
+}

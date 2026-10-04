@@ -1,0 +1,96 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D006:c2",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 22495,
+  "output_tokens": 2949
+ },
+ "result": {
+  "coverage": {
+   "built_after": null,
+   "built_on_or_before": null,
+   "construction_cutoff": null,
+   "construction_date_basis": null,
+   "landlord_size_condition": null,
+   "max_units": null,
+   "may_preempt_local_rules": null,
+   "min_building_age_years": null,
+   "min_units": null,
+   "new_construction_exemption": null,
+   "other_conditions": null,
+   "owner_conditions": "A unit where the tenant shares a kitchen or bath with the landlord is exempt only if the landlord lived on the same property at the start of the tenancy. Also exempt: Golden Duplexes (owner-occupied on December 31, 1979 and currently with an owner living in one unit), and tenancies started after Nov 7, 2018 on properties where one unit is an ADU and either unit is owner-occupied.",
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": false,
+   "summary": "Just cause protection applies to tenants in units that are fully or partially covered by the Rent Ordinance, regardless of construction date. This includes most units in multifamily properties built before 1980, single-family homes, rooming houses, new construction (Certificate of Occupancy after June 1980), most condominiums, and government-subsidized units (e.g., Section 8, Shelter Plus Care, LIHTC), which Measure BB made fully or partially covered. Only the listed exempt unit and tenancy types are excluded.",
+   "supersedes_state_rule": null,
+   "unverifiable_exemptions": [
+    "Golden Duplex: duplex owner-occupied on December 31, 1979 that currently has an owner living in one of the units",
+    "Unit where the owner shares a kitchen or bath with the tenant, if the owner lived on the property when the tenancy started",
+    "Tenancies started after Nov 7, 2018 on properties where one unit is an ADU and either unit is owner-occupied",
+    "University rental units such as dormitories",
+    "Nonprofit cooperatives"
+   ],
+   "yields_to_local_rule": null
+  },
+  "evidence": [
+   {
+    "field": "summary",
+    "doc_id": "D006",
+    "quoted_span": "In Berkeley, tenants in units that are fully or partially covered by the Rent Ordinance cannot be evicted unless there is \"just cause” (previously called “good cause”)."
+   },
+   {
+    "field": "summary",
+    "doc_id": "D009",
+    "quoted_span": "Most units in multifamily properties built before 1980** Fully Covered Yes Yes Yes Yes"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D009",
+    "quoted_span": "Most condominiums** Partially Covered Yes No Yes Yes"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D006",
+    "quoted_span": "Government-owned or -subsidized rental units become either fully or partially covered by the Rent Ordinance."
+   },
+   {
+    "field": "requires_unknown_facts",
+    "doc_id": "D009",
+    "quoted_span": "Most units in multifamily properties built before 1980** Fully Covered Yes Yes Yes Yes"
+   },
+   {
+    "field": "owner_conditions",
+    "doc_id": "D006",
+    "quoted_span": "Where the tenant shares a kitchen or bath facilities with the landlord, the unit will be exempt from the Rent Ordinance only if the landlord lived in a unit on the same property at the start of the tenancy."
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D009",
+    "quoted_span": "“Golden Duplex”: duplex that was owner-occupied on December 31,"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D009",
+    "quoted_span": "Unit where the owner shares a kitchen or bath with the tenant if the"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D009",
+    "quoted_span": "Tenancies started after Nov 7, 2018, on properties where one unit is"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D009",
+    "quoted_span": "University rental units such as dormitories."
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D009",
+    "quoted_span": "Nonprofit Cooperative Exempt"
+   }
+  ],
+  "notes": "Set requires_unknown_facts to false. The rule covers ordinary rental buildings, both fully and partially covered units, and its exemptions are listed in unverifiable_exemptions. Set supersedes_state_rule to null and removed the Civ. Code § 1946.2 sentence from the summary, because no document mentions the state just-cause law or its precedence. Removed other_conditions and the 'qualifying-household' entry from unverifiable_exemptions: these concern the relocation payment amount, not coverage, and are not exemptions. Changed the shared kitchen/bath condition from 'before the tenancy began' to 'at the start of the tenancy' to match the source wording."
+ }
+}

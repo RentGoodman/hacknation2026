@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D067:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 60353,
+  "output_tokens": 878
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "Within 30 days after the termination of a tenancy, a landlord must return the security deposit, plus interest earned less deductions, to the tenant",
+    "note": "Every element of the requirement is in the guide: the 1.5x cap, pet deposit and prepaid rent counting toward the cap, the 2.5x inception limit, the 10% yearly increase limit, trust and interest-bearing account rules, the 10+ unit money market option, tenant ownership of interest, 30-day notice, the 7% option, return within 30 days with itemized deductions by registered or certified mail, 5 business days if displaced, and double damages with costs and fees."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "the landlord may not require more \nthan two and one-half times the monthly rent at the inception of the lease, this includes the security \ndeposit and the first month’s rent.",
+    "note": "The document supports each element of the summary: 1.5x cap, 2.5x total at inception, 10% yearly increase cap, 30-day return, 5 business days if displaced, and double damages for wrongful withholding."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The field is empty and the guide gives no effective date for the Security Deposit Law."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "The Security Deposit Law applies to most  residential rental properties, including mobile \nhomes.",
+    "note": "The guide presents the law as currently applicable (in force). It gives no repeal or sunset."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "The exception is an owner-occupied two-, or three-family dwelling. A tenant in an owner-\noccupied two-, or three-family dwelling may, however, make this provision applicable to their \ntenancy 30 days  after sending a  written  request",
+    "note": "The guide supports the owner-occupied 2-3 family exemption with the written-request opt-in at 30 days, the inclusion of mobile homes, and the seasonal exemption (125 consecutive days or less) from the interest-bearing account provisions."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "cannot be more than \none and one-half times one month’s rent ( N.J.S.A. 46:8-21.2 ).",
+    "note": "The primary citation 46:8-21.2 is tied to the cap. The aliases (46:8-19, 19.1, 21, 21.1, 21.4, 21.5, 25, 26) all appear in the guide in the security deposit context."
+   }
+  ]
+ }
+}

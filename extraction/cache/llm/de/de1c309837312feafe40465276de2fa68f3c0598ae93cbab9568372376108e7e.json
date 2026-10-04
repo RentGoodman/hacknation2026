@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D029:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 5856,
+  "output_tokens": 693
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "Under the law, landlords, sellers and rental agents may use any reasonable standard to determine which applicants are selected, as long as that standard is applied equally and uniformly to all applicants.",
+    "note": "All elements of the requirement are stated in the document: covered conduct, source of income as a protected category, the reasonable-standard rule, and the remedies after hearing."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "Source of Income, includes Section 8 and public benefits",
+    "note": "The $300 per violation civil fine after a hearing is also in the document: \"levying civil fines of up to $300 for each violation\". The document describes it as a general Commission remedy, not one specific to ch. 14.04, so it is a slight stretch to tie it to this ordinance."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The field is empty, and the document gives no enactment or effective date for ch. 14.04. It says only that the Commission was established in 1984."
+   },
+   {
+    "field": "status",
+    "verdict": "partly_supported",
+    "quoted_span": "The Commission enforces two ordinances: the\nCambridge Human Rights Ordinance, chapter 2.76\nand the\nCambridge Fair Housing Ordinance, chapter 14.04",
+    "note": "The page describes the ordinance as currently enforced, which implies it is in force. It never states a status explicitly."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "NOTE: there is an exemption for 2-family dwellings, when the owner lives there",
+    "note": "The owner-occupied 2-family exemption is stated. Coverage of rental housing follows from \"viewing or renting an apartment\". The remaining coverage fields are null and the document states nothing for them."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "Cambridge Fair Housing Ordinance, chapter 14.04",
+    "note": "The document names the ordinance and its chapter number. It gives no section-level citation."
+   }
+  ]
+ }
+}

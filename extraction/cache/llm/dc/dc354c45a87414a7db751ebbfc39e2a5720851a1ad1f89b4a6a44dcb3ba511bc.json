@@ -1,0 +1,72 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D079:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 11296,
+  "output_tokens": 2477
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": false,
+   "unverifiable_exemptions": [
+    "Tenancies whose rent is regulated by another government agency are covered only in some cases; the overview does not say which, and an address lookup cannot tell."
+   ],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Applies to rental units covered by the San Francisco Rent Ordinance. This includes tenancies that are exempt from the Ordinance's rent increase limits: units that first obtained a Certificate of Occupancy after June 13, 1979, tenancies eligible for a rent increase under the Costa-Hawkins Rental Housing Act, and some tenancies whose rent is regulated by another government agency. The just-cause provisions therefore cover units built on both sides of the rent-limit construction cutoff.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": null,
+   "other_conditions": "Units that first obtained a Certificate of Occupancy after June 13, 1979 are exempt from the rent increase limits but are still covered by the eviction provisions."
+  },
+  "evidence": [
+   {
+    "field": "summary",
+    "doc_id": "D079",
+    "quoted_span": "In order to evict a tenant from a rental unit covered by the Rent Ordinance, a landlord must have a \"just cause\" reason that is the dominant motive for pursuing the eviction."
+   },
+   {
+    "field": "summary",
+    "doc_id": "D079",
+    "quoted_span": "Some tenancies that are exempt from the rent increase limitations of the Ordinance are still subject to the eviction provisions of the Ordinance"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D079",
+    "quoted_span": "This includes tenancies in newly constructed rental units that first obtained a Certificate of Occupancy after June 13, 1979"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D079",
+    "quoted_span": "Costa-Hawkins Rental Housing Act"
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D079",
+    "quoted_span": "This includes tenancies in newly constructed rental units that first obtained a Certificate of Occupancy after June 13, 1979"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D079",
+    "quoted_span": "and some tenancies where the rent is regulated by another government agency"
+   },
+   {
+    "field": "requires_unknown_facts",
+    "doc_id": "D079",
+    "quoted_span": "Some tenancies that are exempt from the rent increase limitations of the Ordinance are still subject to the eviction provisions of the Ordinance"
+   }
+  ],
+  "notes": "Corrections:\n- requires_unknown_facts is now false. The rule covers ordinary rental units under the Rent Ordinance, including post-June 13, 1979 new construction. It is not limited to a class of buildings that assessor data cannot identify.\n- supersedes_state_rule is now null. No document in this jurisdiction mentions Cal. Civ. Code § 1946.2 or its carve-out for local ordinances, so the value has no verbatim support. For the same reason, the sentence about state law was removed from the summary.\n- construction_cutoff is left null. The June 13, 1979 Certificate of Occupancy date limits rent increases, not just-cause coverage, which applies on both sides of that date.\n- The unverifiable_exemptions entry was reworded. It now says that government-regulated tenancies are covered only in some cases.\n- The documents state no other exemptions from the eviction provisions (for example owner-occupied or unit-count exemptions), so none are listed."
+ }
+}

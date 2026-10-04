@@ -1,0 +1,45 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D011:c2",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 10091,
+  "output_tokens": 963
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": null,
+   "unverifiable_exemptions": [],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Home-rule petition, never enacted, that would have authorized Boston to implement tenant eviction protections. The bill text is not captured, so which buildings, units or owners would be covered is unknown.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": null,
+   "other_conditions": null
+  },
+  "evidence": [
+   {
+    "field": "summary",
+    "doc_id": "D011",
+    "quoted_span": "An Act petition for a special law authorizing the city of Boston to implement rent stabilization and tenant eviction protections"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D011",
+    "quoted_span": "Accompanied a study order, see"
+   }
+  ],
+  "notes": "D011 is only the legislative status page. It gives the bill title and its history, which ended when it accompanied study order H5035 on 9/9/2024. It has no bill text, so no coverage terms (unit counts, construction dates, owner-occupancy or other exemptions) can be supported, and all of those fields stay null. D013 and D014 describe the separate, enacted Housing Stability Notification Act, and D010 and D012 cover unrelated policies. None of them is used to fill in coverage for this failed bill. requires_unknown_facts is left null because the class of covered buildings is unknown, not because coverage is limited to an unidentifiable class."
+ }
+}

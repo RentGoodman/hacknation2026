@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D067:c4",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 581,
+  "output_tokens": 361
+ },
+ "result": {
+  "en": "In New Jersey, a landlord cannot retaliate against you by evicting you, substantially changing your lease, or refusing to renew it because you enforced your lease or legal rights, made a good-faith complaint to a government authority about a health or safety violation after first notifying the landlord in writing and allowing reasonable time to fix it, organized or joined a tenant organization, or refused retaliatory lease changes, and you may sue for damages.",
+  "es": "En Nueva Jersey, el propietario no puede tomar represalias contra usted desalojándolo, cambiando sustancialmente su contrato de arrendamiento o negándose a renovarlo porque usted hizo valer su contrato o sus derechos legales, presentó de buena fe una queja ante una autoridad gubernamental sobre una violación de salud o seguridad después de avisar primero por escrito al propietario y darle un tiempo razonable para corregirla, organizó o se unió a una organización de inquilinos, o rechazó cambios de represalia en el contrato, y usted puede demandar por daños y perjuicios."
+ }
+}

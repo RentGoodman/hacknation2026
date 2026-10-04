@@ -1,0 +1,45 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D011:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 10185,
+  "output_tokens": 836
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": null,
+   "unverifiable_exemptions": [],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Not enacted. This home-rule petition would have authorized Boston to implement rent stabilization, but it was sent to a study order. The bill text is not captured, so its coverage of buildings, units and owners is unknown.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": null,
+   "other_conditions": null
+  },
+  "evidence": [
+   {
+    "field": "summary",
+    "doc_id": "D011",
+    "quoted_span": "that the city of Boston be authorized to implement rent stabilization and tenant eviction protections"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D011",
+    "quoted_span": "Accompanied a study order, see"
+   }
+  ],
+  "notes": "Only the bill history page (D011) is captured. It contains no bill text, so it supports no coverage fields such as unit counts, construction cutoffs or exemptions. I removed the summary's reference to G.L. c. 40P because none of the provided documents contains it. D010, D012, D013 and D014 concern other Boston policies (Fair Chance tenant selection, fair housing, and the HSNA) and give no coverage for this bill."
+ }
+}

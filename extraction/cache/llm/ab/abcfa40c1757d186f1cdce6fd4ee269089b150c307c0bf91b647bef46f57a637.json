@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D076:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 10707,
+  "output_tokens": 817
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "It is unlawful for a landlord to use an algorithmic device to set rental rates\nor occupancy levels for residential rental property.",
+    "note": "Sale/license ban, use ban, definition, per-month and per-property violations, and tenant remedies with attorney's fees all match the draft ordinance text."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "A tenant may seek injunctive relief, damages, or civil penalties of up to\n$1,000 per violation of this Division, in a civil action against a landlord.",
+    "note": "The $1,000 cap, separate violations per month and per property, fee-shifting, and the 30-day effective date (\"thirtieth day from and after its final passage\") are all in the document. The penalty is sought by tenants in a civil action."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The effective_date field is empty. The document gives only a formula (30th day after final passage) and leaves the date of final passage blank, so no date can be computed. The formula is captured in the effective_date_formula and note fields."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "I certify that the Council of the City of San Diego adopted this Ordinance at a meeting held on\n______________________________.",
+    "note": "The adoption date, mayoral approval and veto lines, and final passage date are all blank, so the draft is pending as recorded."
+   },
+   {
+    "field": "coverage",
+    "verdict": "partly_supported",
+    "quoted_span": "Residential rental property has the same meaning as in San Diego Municipal\nCode section 98.0702, as may be amended.",
+    "note": "The citywide scope and absence of unit-count, age or owner-occupancy limits are supported. The document only incorporates § 98.0702 by reference and does not itself define it. The definition text (any dwelling or unit intended for human habitation, including mobilehome park units) comes from another document (D073), not this one. The two exclusions from 'algorithmic device' are in the exemptions field."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "§98.1103  Use and Sale of Algorithmic Devices Prohibited",
+    "note": "Section 98.1103 is the operative prohibition. The aliases (§§ 98.1101-98.1104, Chapter 9 Article 8 Division 11, O-2025-107, ordinance title) also appear in the document."
+   }
+  ]
+ }
+}

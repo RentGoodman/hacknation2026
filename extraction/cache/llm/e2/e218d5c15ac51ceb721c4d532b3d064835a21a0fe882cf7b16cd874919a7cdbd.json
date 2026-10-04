@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D022:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 4339,
+  "output_tokens": 1671
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "(b) It shall be unlawful for a person to use or distribute a common pricing algorithm if the person coerces another person to set or adopt a recommended price or commercial term recommended by the common pricing algorithm for the same or similar products or services in the jurisdiction of this state.",
+    "note": "The prohibitions, definitions, savings clause and § 16756.1 pleading standard all match the text. The criminal-punishment point comes from the digest. The housing and rent-setting framing is the rule's own gloss on the general terms."
+   },
+   {
+    "field": "key_value",
+    "verdict": "partly_supported",
+    "quoted_span": "(a) It shall be unlawful for a person to use or distribute a common pricing algorithm as part of a contract, combination in the form of a trust, or conspiracy to restrain trade or commerce in violation of this chapter.",
+    "note": "The prohibition, the coercion limb and the plausibility pleading standard are supported. The SB 763 penalty figures (the $6M and $1M fines, civil penalties, treble damages) do not appear in D022. They rest on the secondary source DX09."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_supported",
+    "quoted_span": null,
+    "note": "D022 states no operative or effective date. It shows only approval and filing on October 6, 2025. The January 1, 2026 date is not in this document."
+   },
+   {
+    "field": "status",
+    "verdict": "partly_supported",
+    "quoted_span": "Section 16729 is added to the Business and Professions Code, to read:",
+    "note": "D022 shows the bill was chaptered and approved by the Governor, so it is enacted law. It does not say the law is currently in force, and it gives no operative date."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "“Person” has the same meaning as defined in Section 16702 and does not include the end consumer of a product or service.",
+    "note": "The text sets no unit-count, building-age, construction-date or owner-type limits. The only exclusion is the end consumer. Residential rental owners are covered only through the general definition of 'person', and housing is not mentioned."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "An act to add Sections 16729 and 16756.1 to the Business and Professions Code, relating to business regulations.",
+    "note": "The document supports § 16729, § 16756.1, AB 325, Chapter 338 and the Cartwright Act."
+   }
+  ]
+ }
+}

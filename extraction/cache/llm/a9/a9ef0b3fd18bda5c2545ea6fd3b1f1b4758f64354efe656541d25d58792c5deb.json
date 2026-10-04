@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D011:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 526,
+  "output_tokens": 179
+ },
+ "result": {
+  "en": "H.3744 was a petition asking the state legislature to let Boston adopt rent stabilization, but it was sent to a study order on 9/9/2024 and never enacted, so it created no rent cap in Boston.",
+  "es": "H.3744 fue una petición para que la legislatura estatal permitiera a Boston adoptar la estabilización de alquileres, pero fue enviada a una orden de estudio el 9/9/2024 y nunca se aprobó, por lo que no creó ningún límite de alquiler en Boston."
+ }
+}

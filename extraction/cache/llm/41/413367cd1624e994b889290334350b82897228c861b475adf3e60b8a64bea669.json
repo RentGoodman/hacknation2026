@@ -1,0 +1,67 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "DX04:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 19273,
+  "output_tokens": 2231
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": false,
+   "unverifiable_exemptions": [
+    "Inpatient medical care, licensed long-term care, and detention or correctional facilities are not residential dwelling units"
+   ],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Applies in Jersey City to any real estate lessor that owns real property and leases any part of it as a residential dwelling unit. A residential dwelling unit is any house, apartment, accessory unit or other unit intended as a person's primary residence. Inpatient medical care, licensed long-term care and detention or correctional facilities are excluded. The text sets no unit-count, building-age or landlord-size limits.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": null,
+   "other_conditions": null
+  },
+  "evidence": [
+   {
+    "field": "summary",
+    "doc_id": "DX02",
+    "quoted_span": "“Residential dwelling unit” means any house, apartment, accessory unit, or other unit intended to be used as a"
+   },
+   {
+    "field": "summary",
+    "doc_id": "DX02",
+    "quoted_span": "person’s primary residence; and does not include inpatient medical care, licensed long-term care, and detention or"
+   },
+   {
+    "field": "summary",
+    "doc_id": "DX02",
+    "quoted_span": "“Real estate lessor” means any individual, corporation, partnership, association, joint-stock company, trust, or"
+   },
+   {
+    "field": "summary",
+    "doc_id": "DX02",
+    "quoted_span": "unincorporated organization that owns real property and leases such property or any portion thereof in the form of a"
+   },
+   {
+    "field": "requires_unknown_facts",
+    "doc_id": "DX02",
+    "quoted_span": "“Residential dwelling unit” means any house, apartment, accessory unit, or other unit intended to be used as a"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "DX02",
+    "quoted_span": "person’s primary residence; and does not include inpatient medical care, licensed long-term care, and detention or"
+   }
+  ],
+  "notes": "Two fields were set to null because they describe conduct, not which buildings, units or owners are covered:\n- owner_conditions: the definition exempts owners of multiple properties only for actions related exclusively to their own properties. This narrows the coordination conduct, not the class of owners.\n- other_conditions: the licensed real estate agent carve-out limits who counts as a service provider, not which properties are covered.\n\nrequires_unknown_facts is set to false because the rule reaches ordinary residential rental units. The excluded facility types are listed as unverifiable exemptions; licensure and facility status may not be visible in assessor data.\n\nChapter 218's separate 'Exempt dwellings' section (renumbered § 218-13) is marked unchanged and its text is not in the documents. It is unknown whether it limits § 218-12.\n\nThe possible FAIR Act preemption raised in conflict_note is not supported by any provided document, so supersedes_state_rule, yields_to_local_rule and may_preempt_local_rules remain null."
+ }
+}

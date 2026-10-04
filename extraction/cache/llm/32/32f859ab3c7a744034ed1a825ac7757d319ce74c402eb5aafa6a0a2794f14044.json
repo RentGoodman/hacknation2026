@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "DX06:c11",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 511,
+  "output_tokens": 167
+ },
+ "result": {
+  "en": "King County Code ch. 12.23 regulates algorithmic rent pricing, and renters who are injured by a violation may seek actual damages, up to $7,500 per violation, plus attorney fees.",
+  "es": "El capítulo 12.23 del Código del Condado de King regula la fijación de alquileres mediante algoritmos, y los inquilinos perjudicados por una infracción pueden reclamar daños reales, hasta $7,500 por infracción, más honorarios de abogado."
+ }
+}

@@ -1,0 +1,83 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D043:c3",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 24708,
+  "output_tokens": 3029
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": true,
+   "unverifiable_exemptions": [
+    "Whether a unit is a Protected Unit (affordability covenant or rent/price control within the past 5 years, rented by lower or very low income households within the past 5 years, or Ellis Act withdrawal within the past 10 years)",
+    "Whether the unit is occupied by a lower-income tenant (80% AMI or below per HUD limits)"
+   ],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Applies only to Protected Units. All RSO units are Protected Units. Other units qualify if, within the past five years, they were under an affordability covenant or rent/price control or were rented by lower or very low income households, or if they were withdrawn under the Ellis Act within the past 10 years.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": null,
+   "other_conditions": "Enhanced RPO relocation applies only where the Protected Unit is occupied by a lower-income tenant (80% of AMI or below). Otherwise the regular RSO/JCO rules apply."
+  },
+  "evidence": [
+   {
+    "field": "summary",
+    "doc_id": "D043",
+    "quoted_span": "The RPO only applies to Protected Units that will be demolished for the"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D043",
+    "quoted_span": "All RSO units are Protected Units."
+   },
+   {
+    "field": "summary",
+    "doc_id": "D043",
+    "quoted_span": "Residential dwelling units that are or were subject to a recorded covenant, ordinance, or law that restricts"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D043",
+    "quoted_span": "subject to any form of rent or price control through a public entity's valid exercise of its police"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D043",
+    "quoted_span": "accordance the Ellis Act within the past 10 years."
+   },
+   {
+    "field": "requires_unknown_facts",
+    "doc_id": "D043",
+    "quoted_span": "(3) Residential dwelling units that are or were rented by lower or"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D043",
+    "quoted_span": "(3) Residential dwelling units that are or were rented by lower or"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D043",
+    "quoted_span": "A tenant whose income is 80 percent or less of the Area Median In- come"
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D043",
+    "quoted_span": "Units or are not occupied by a lower income tenant."
+   }
+  ],
+  "notes": "Two items were removed from other_conditions because they describe landlord conduct, not unit or owner scope: the 5-year window between demolition and the withdrawal/eviction filing, and the demolition-for-new-construction trigger. The summary now lists the Protected Unit categories exactly as given in the D043 footnote. The earlier claim that 'JCO units can be Protected Units under the lower-income occupancy test' was replaced, because no document states it in those terms. The construction cutoff stays null: the RPO is not limited to RSO (pre-10/1/1978) buildings, so that cutoff does not define its coverage."
+ }
+}

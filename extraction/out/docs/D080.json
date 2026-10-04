@@ -1,0 +1,38 @@
+{
+  "doc_id": "D080",
+  "source_url": "https://www.sf.gov/news--annual-rent-increase-3126-22827-announced",
+  "model": "anthropic:claude-sonnet-5-5",
+  "query_date": "2026-10-01",
+  "chunks": 1,
+  "rules": [
+    {
+      "jurisdiction": "San Francisco, CA",
+      "level": "city",
+      "category": "rent_increase_limits",
+      "status": "in_force",
+      "title": "San Francisco annual allowable rent increase (3/1/2026–2/28/2027)",
+      "requirement": "For rent-controlled units, the annual allowable rent increase effective March 1, 2026 through February 28, 2027 is 1.6% of the tenant's base rent.",
+      "key_value": "1.6%",
+      "coverage_conditions": {
+        "summary": "Rent-controlled units in San Francisco.",
+        "construction_date_basis": null,
+        "built_on_or_before": null,
+        "built_after": null,
+        "min_building_age_years": null,
+        "min_units": null,
+        "max_units": null,
+        "owner_conditions": null,
+        "other_conditions": "Applies to units subject to San Francisco rent control; the document does not define coverage further."
+      },
+      "exemptions": null,
+      "interaction": null,
+      "effective_date": "2026-03-01",
+      "citation": "San Francisco Rent Board annual allowable increase announcement (3/1/26-2/28/27)",
+      "quoted_span": "For rent-controlled units, the annual allowable increase amount effective March 1, 2026 through February 28, 2027 is 1.6%.",
+      "confidence": 0.8,
+      "conflict_flag": false,
+      "conflict_note": null
+    }
+  ],
+  "rejected": []
+}

@@ -1,0 +1,45 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D011:c2",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 10167,
+  "output_tokens": 999
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": null,
+   "unverifiable_exemptions": [],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Coverage is unknown. The documents contain only the bill's title and description, which would authorize Boston to implement tenant eviction protections. They do not contain the bill text, so no unit, building, age or owner coverage terms are stated. The bill accompanied a study order and was not enacted.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": null,
+   "other_conditions": null
+  },
+  "evidence": [
+   {
+    "field": "summary",
+    "doc_id": "D011",
+    "quoted_span": "that the city of Boston be authorized to implement rent stabilization and tenant eviction protections"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D011",
+    "quoted_span": "Accompanied a study order, see"
+   }
+  ],
+  "notes": "All coverage fields remain null because the bill text is absent and D011 shows only the title, description and history actions. The HSNA exemptions in D014 (hospital, skilled nursing or health facility, and non-profit substance-abuse short-term treatment facilities) belong to a separate enacted ordinance and were deliberately not imported into this failed bill's coverage. The summary was reworded slightly and is supported only by the D011 description and history entry."
+ }
+}

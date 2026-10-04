@@ -1,0 +1,14 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "resource",
+ "subject": "DX12:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 24379,
+  "output_tokens": 309
+ },
+ "result": {
+  "replacement": null,
+  "reason": "No official document states this requirement. D041 only lists \"Interest Payments on Security Deposits\" as a topic the RSO covers. It gives no accrual start date, payment methods (direct payment or rent credit), written notice of the chosen method, or monthly/yearly payment timing. D039, D040, D042 and D043 do not address security deposit interest."
+ }
+}

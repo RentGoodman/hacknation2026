@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D007:c2",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 541,
+  "output_tokens": 179
+ },
+ "result": {
+  "en": "In Berkeley, if your unit is fully or partially covered by the Rent Ordinance, your landlord must pay you interest on your security deposit at the end of each year, or a prorated amount if you move out before year-end.",
+  "es": "En Berkeley, si su vivienda está total o parcialmente cubierta por la Ordenanza de Alquileres, su arrendador debe pagarle intereses sobre el depósito de seguridad al final de cada año, o una cantidad proporcional si usted se muda antes de que termine el año."
+ }
+}

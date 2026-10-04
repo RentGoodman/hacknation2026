@@ -1,0 +1,123 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "extract",
+ "subject": "D011",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 807,
+  "output_tokens": 2076
+ },
+ "result": {
+  "rules": [
+   {
+    "candidate_id": "c1",
+    "jurisdiction": "Boston, MA",
+    "category": "rent_increase_limits",
+    "status": "failed",
+    "title": "H.3744 – Boston rent stabilization home-rule petition",
+    "requirement": "Home-rule petition asking the Legislature to authorize the City of Boston to implement rent stabilization. The bill text is not reproduced in the document, so no cap or formula is stated. The petition was accompanied by a study order (H5035) on 9/9/2024, and no enactment is shown.",
+    "key_value": null,
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": null,
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": null
+    },
+    "exemptions": null,
+    "event_only": false,
+    "applies_only_in": "Boston, MA",
+    "effective_date": null,
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": null,
+    "effective_date_formula": null,
+    "citation": "H.3744",
+    "citation_aliases": [
+     "Bill H.3744",
+     "H.5035",
+     "193rd General Court H.3744"
+    ],
+    "quoted_span": "An Act petition for a special law authorizing the city of Boston to implement rent stabilization and tenant eviction protections",
+    "confidence": 0.7,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "Only the bill history page is provided, not the bill text. Status is failed because the petition was accompanied by a study order (H5035).",
+    "source_notes": null
+   },
+   {
+    "candidate_id": "c2",
+    "jurisdiction": "Boston, MA",
+    "category": "just_cause_eviction",
+    "status": "failed",
+    "title": "H.3744 – Boston tenant eviction protections home-rule petition",
+    "requirement": "Home-rule petition asking the Legislature to authorize the City of Boston to implement tenant eviction protections. The bill text is not reproduced in the document, so no specific causes or notice terms are stated. The petition was accompanied by a study order (H5035) on 9/9/2024, and no enactment is shown.",
+    "key_value": null,
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": null,
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": null
+    },
+    "exemptions": null,
+    "event_only": false,
+    "applies_only_in": "Boston, MA",
+    "effective_date": null,
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": null,
+    "effective_date_formula": null,
+    "citation": "H.3744",
+    "citation_aliases": [
+     "Bill H.3744",
+     "H.5035",
+     "193rd General Court H.3744"
+    ],
+    "quoted_span": "An Act petition for a special law authorizing the city of Boston to implement rent stabilization and tenant eviction protections",
+    "confidence": 0.65,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "Only the bill history page is provided, not the bill text. The eviction-protection content is inferred from the title alone.",
+    "source_notes": null
+   }
+  ],
+  "no_rule_findings": [
+   {
+    "jurisdiction": "Boston, MA",
+    "category": "rent_increase_limits",
+    "finding": "H.3744 was accompanied by a study order (H5035) on 9/9/2024 after a hearing on 11/14/2023. No rent stabilization authority was enacted through this bill.",
+    "kind": "study",
+    "quoted_span": "Accompanied a study order, see",
+    "basis_citation": "H.3744"
+   }
+  ],
+  "doc_summary": "Bill history page for Massachusetts H.3744 (193rd General Court, 2023-2024), a home-rule petition by Rep. Montaño, with the approval of the mayor and city council, for a special law authorizing Boston to implement rent stabilization and tenant eviction protections. It was heard in November 2023, had its reporting date extended several times, and on 9/9/2024 was accompanied by a study order (H5035), so it is treated as failed. The bill text is not included."
+ }
+}

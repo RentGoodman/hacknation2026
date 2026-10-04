@@ -1,0 +1,69 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D085:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 7963,
+  "output_tokens": 1717
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": {
+    "basis": "year_built",
+    "covered_if": "on_or_before",
+    "date": "1995-02-01"
+   },
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": false,
+   "unverifiable_exemptions": [],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Covers residential rental buildings constructed on or before February 1, 1995, and mobile home spaces offered for rent on or before January 1, 1990. Residential buildings constructed after February 1, 1995 and mobile home spaces offered for rent after January 1, 1990 are exempt from the rent cap.",
+   "construction_date_basis": "Date the building was 'constructed'. The source does not say which record (year built, certificate of occupancy) controls.",
+   "built_on_or_before": "1995-02-01",
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": null,
+   "other_conditions": "Mobile home spaces are covered only if offered for rent on or before January 1, 1990."
+  },
+  "evidence": [
+   {
+    "field": "construction_cutoff",
+    "doc_id": "D085",
+    "quoted_span": "The rent cap does not apply to residential buildings constructed after February 1, 1995, or to mobile home spaces offered for rent after January 1, 1990."
+   },
+   {
+    "field": "built_on_or_before",
+    "doc_id": "D085",
+    "quoted_span": "The rent cap does not apply to residential buildings constructed after February 1, 1995"
+   },
+   {
+    "field": "construction_date_basis",
+    "doc_id": "D085",
+    "quoted_span": "residential buildings constructed after February 1, 1995"
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D085",
+    "quoted_span": "or to mobile home spaces offered for rent after January 1, 1990"
+   },
+   {
+    "field": "requires_unknown_facts",
+    "doc_id": "D085",
+    "quoted_span": "The rent cap does not apply to residential buildings constructed after February 1, 1995, or to mobile home spaces offered for rent after January 1, 1990."
+   },
+   {
+    "field": "summary",
+    "doc_id": "D085",
+    "quoted_span": "The rent cap does not apply to residential buildings constructed after February 1, 1995, or to mobile home spaces offered for rent after January 1, 1990."
+   }
+  ],
+  "notes": "I set supersedes_state_rule to null and removed the summary's references to the state cap (Cal. Civ. Code § 1947.12) yielding to the local cap. No document in this jurisdiction mentions the state rule or how the two caps interact. I kept the cutoff basis as year_built because D085 says only 'constructed'; no certificate-of-occupancy or first-occupancy basis is stated. The 15-year new-housing exemption in D085 belongs to the Just Cause Eviction Ordinance, not the rent cap, so it is not applied here."
+ }
+}

@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "DX06:c5",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 535,
+  "output_tokens": 190
+ },
+ "result": {
+  "en": "Philadelphia's rule restricts landlords from using algorithmic rent-coordination or revenue-management services, and a person harmed by a violation can choose to seek $2,000 per violation or treble actual damages, plus fees and costs.",
+  "es": "La norma de Filadelfia restringe que los propietarios usen servicios algorítmicos de coordinación de alquileres o gestión de ingresos, y una persona perjudicada por una infracción puede elegir reclamar $2,000 por infracción o el triple de los daños reales, más honorarios y costos."
+ }
+}

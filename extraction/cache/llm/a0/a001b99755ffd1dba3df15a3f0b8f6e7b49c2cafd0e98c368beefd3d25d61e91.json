@@ -1,0 +1,19 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "qa",
+ "subject": "D051:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 37198,
+  "output_tokens": 554
+ },
+ "result": {
+  "changes": [
+   {
+    "field": "category",
+    "after_json": "\"termination_notice\"",
+    "reason": "G.L. c. 186, § 12 (D051) sets the notice periods and cure rights for ending a tenancy at will and lists no just causes, so it is a termination-notice rule rather than a just-cause eviction rule (the category value assumes the schema has a termination-notice option)."
+   }
+  ]
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D083:c5",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 3763,
+  "output_tokens": 739
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "The amount of relocation payments for temporary capital improvement evictions for less than 20 days is governed by California Civil Code Section 1947.9 and not by Rent Ordinance Section 37.9C.",
+    "note": "Governing statute is supported. The per-day payment per tenant household plus actual moving expenses, set by notice date, is shown in the temporary displacement table."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "3/01/26 – 2/28/27\n$446.00/day (plus actual moving expenses)\n3/01/25 – 2/28/26\n$436.00/day (plus actual moving expenses)",
+    "note": "Both rates and the date ranges match. The table is headed 'Per Tenant Household'. The document does not expressly tie the table to § 1947.9, but it is the displacement-under-20-days table."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The field is empty and the document gives no effective date for the statute itself."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "Use the rate in effect at the time the petition is filed: March 1, 2026 through February 28, 2027",
+    "note": "The document presents the 3/01/26–2/28/27 rates as current, which is consistent with in_force. The rate schedule is the only evidence for this; the statute itself is not described."
+   },
+   {
+    "field": "coverage",
+    "verdict": "partly_supported",
+    "quoted_span": "The amount of relocation payments for temporary capital improvement evictions for less than 20 days is governed by California Civil Code Section 1947.9 and not by Rent Ordinance Section 37.9C.",
+    "note": "The summary is supported. The may_preempt_local_rules=true flag is an inference: the document only says § 37.9C does not govern these payments. No geographic limit is stated, and the page is from the SF Rent Board."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "California Civil Code Section 1947.9",
+    "note": "The document cites the section. The alias 'Cal. Civ. Code ch. 2 (Hiring of Real Property)' does not appear in the document."
+   }
+  ]
+ }
+}

@@ -1,0 +1,68 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "consolidate",
+ "subject": "King County, WA",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 5320,
+  "output_tokens": 1409
+ },
+ "result": {
+  "rules": [
+   {
+    "candidate_id": "DX06:c11",
+    "jurisdiction": "King County, WA",
+    "category": "algorithmic_rent_setting",
+    "status": "in_force",
+    "title": "King County algorithmic rent-pricing chapter: renter remedies",
+    "requirement": "Under the county's algorithmic rent-pricing chapter, injured renters may seek actual damages, up to $7,500 per violation, and attorney fees.",
+    "key_value": "Up to $7,500 per violation, plus actual damages and attorney fees",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "The source states no building, unit-count or landlord-size coverage limits.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": null
+    },
+    "exemptions": null,
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "The only source gives 'effective October 2025' (month only), so no exact day is available. The law is treated as in force as of the 2026-10-01 query date.",
+    "effective_date_formula": null,
+    "citation": "King County Code ch. 12.23",
+    "citation_aliases": [
+     "K.C.C. ch. 12.23"
+    ],
+    "quoted_span": "Injured renters may seek actual damages, up to $7,500 per violation and attorney fees.",
+    "confidence": 0.55,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "Supported only by a secondary law-firm alert (Morgan Lewis, Aug. 21, 2026), which describes only the remedy. The source does not state the prohibited conduct, covered software, section-level citation, ordinance number, exact effective date or geographic reach (countywide vs. unincorporated areas). Verify all of these against the King County Code text.",
+    "source_notes": "Secondary source: Morgan Lewis LawFlash, Aug. 21, 2026, summary table entry for King County, WA.",
+    "source_doc_id": "DX06",
+    "from_candidates": [
+     "DX06:c11"
+    ],
+    "also_supported_by": []
+   }
+  ],
+  "dropped_candidates": [],
+  "known_gaps": []
+ }
+}

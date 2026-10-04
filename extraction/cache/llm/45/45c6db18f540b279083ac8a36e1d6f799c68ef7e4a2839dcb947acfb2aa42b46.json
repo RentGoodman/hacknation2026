@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "DX06:c4",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 782,
+  "output_tokens": 199
+ },
+ "result": {
+  "en": "In Santa Ana, landlords can't use or sell software that sets rents using competitors' nonpublic data, and a tenant who is affected can sue for damages, an injunction, or civil penalties of up to $1,000 per violation plus attorney's fees.",
+  "es": "En Santa Ana, los arrendadores no pueden usar ni vender programas que fijen rentas con datos no públicos de la competencia, y un inquilino afectado puede demandar para obtener daños, una orden judicial o sanciones civiles de hasta $1,000 por infracción, más honorarios de abogado."
+ }
+}

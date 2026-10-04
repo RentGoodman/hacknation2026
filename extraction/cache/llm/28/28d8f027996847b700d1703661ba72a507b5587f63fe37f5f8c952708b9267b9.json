@@ -1,0 +1,40 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "DX06:c12",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 5484,
+  "output_tokens": 748
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": null,
+   "unverifiable_exemptions": [],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Applies to landlords in Spokane. The only source, a secondary law-firm summary, states no building-type, unit-count, construction-date or landlord-size limits.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": null,
+   "other_conditions": null
+  },
+  "evidence": [
+   {
+    "field": "summary",
+    "doc_id": "DX06",
+    "quoted_span": "| Spokane, WA | Spokane Mun. Code § 10.57.180 (effective January 2026) | Prohibits landlords from purchasing algorithmic coordinating services; city enforcement includes civil penalties of up to $5,000 per violation. |"
+   }
+  ],
+  "notes": "The only source is a secondary law-firm table row. The ordinance text is not available, so definitions, exemptions and any coverage thresholds cannot be verified. All coverage fields other than summary are left null for lack of supporting text. requires_unknown_facts is also left null rather than false, because no passage confirms there are no limiting conditions. Nothing in the source indicates a subsidized-only or other unidentifiable building class."
+ }
+}

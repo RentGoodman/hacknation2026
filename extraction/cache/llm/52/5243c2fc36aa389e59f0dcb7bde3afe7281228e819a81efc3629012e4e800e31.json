@@ -1,0 +1,154 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D024:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 45601,
+  "output_tokens": 5861
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": {
+    "years": 15,
+    "basis": "certificate of occupancy issued within the previous 15 years (rolling; mobilehomes not exempt on this basis)",
+    "requires_owner_filing": false
+   },
+   "owner_occupied_exemption_max_units": 2,
+   "requires_unknown_facts": false,
+   "unverifiable_exemptions": [
+    "Housing restricted by deed, regulatory agreement or recorded document as affordable housing, or subject to an affordable-housing subsidy agreement",
+    "Dormitories owned and operated by a higher-education institution or K-12 school",
+    "Separately alienable property (e.g. single-family home or condo) whose owner is not a REIT, corporation, LLC with a corporate member or mobilehome park management, where tenants received the statutory written exemption notice",
+    "Owner-occupied two-unit structure (owner occupied one unit at the start of the tenancy and still does; neither unit an ADU or JADU)"
+   ],
+   "yields_to_local_rule": true,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": false,
+   "landlord_size_condition": null,
+   "summary": "Statewide cap on rent increases for residential real property: any dwelling or unit intended for human habitation, including units in mobilehome parks. The following are exempt: housing issued a certificate of occupancy within the previous 15 years (a rolling window; mobilehomes are not exempt on this basis); housing under a valid local rent or price control that restricts annual increases below this cap; deed-restricted or subsidized affordable housing; school and university dormitories; qualifying separately alienable property with a non-corporate owner and written notice; and owner-occupied duplexes. Homeowners of mobilehomes are not covered.",
+   "construction_date_basis": "certificate_of_occupancy (rolling 15-year window)",
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": 15,
+   "owner_conditions": "Separately alienable property is exempt only if the owner is not a REIT, a corporation, an LLC with a corporate member, or mobilehome park management, and the owner gave the written exemption notice. An owner-occupied duplex is exempt while the owner continues in occupancy.",
+   "other_conditions": "Does not authorize local limits beyond Civ. Code ch. 2.7 (§ 1954.50 et seq.) and does not limit existing local rent-control authority. Applies to increases on or after March 15, 2019, or on or after Feb. 18, 2021 for mobilehome tenancies. Does not apply to homeowners of mobilehomes."
+  },
+  "evidence": [
+   {
+    "field": "new_construction_exemption",
+    "doc_id": "D024",
+    "quoted_span": "Housing that has been issued a certificate of occupancy within the previous 15 years, unless the housing is a mobilehome."
+   },
+   {
+    "field": "min_building_age_years",
+    "doc_id": "D024",
+    "quoted_span": "Housing that has been issued a certificate of occupancy within the previous 15 years, unless the housing is a mobilehome."
+   },
+   {
+    "field": "construction_date_basis",
+    "doc_id": "D024",
+    "quoted_span": "Housing that has been issued a certificate of occupancy within the previous 15 years, unless the housing is a mobilehome."
+   },
+   {
+    "field": "owner_occupied_exemption_max_units",
+    "doc_id": "D024",
+    "quoted_span": "A property containing two separate dwelling units within a single"
+   },
+   {
+    "field": "owner_occupied_exemption_max_units",
+    "doc_id": "D024",
+    "quoted_span": "so long as the owner continues in occupancy, and neither unit is an accessory dwelling unit or a junior accessory dwelling unit"
+   },
+   {
+    "field": "requires_unknown_facts",
+    "doc_id": "D024",
+    "quoted_span": "means any dwelling or unit that is intended for human habitation, including any dwelling or unit in a mobilehome park"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D024",
+    "quoted_span": "Housing restricted by deed, regulatory restriction contained in an agreement with a government agency, or other recorded document as affordable housing for persons and families of very low, low, or moderate income"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D024",
+    "quoted_span": "Dormitories owned and operated by an institution of higher education or a kindergarten"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D024",
+    "quoted_span": "Residential real property that is alienable separate from the title to any other dwelling unit, including a mobilehome, provided that both of the following apply:"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D024",
+    "quoted_span": "so long as the owner continues in occupancy, and neither unit is an accessory dwelling unit or a junior accessory dwelling unit"
+   },
+   {
+    "field": "yields_to_local_rule",
+    "doc_id": "D024",
+    "quoted_span": "that restricts annual increases in the rental rate to an amount less than that provided in subdivision (a)."
+   },
+   {
+    "field": "may_preempt_local_rules",
+    "doc_id": "D024",
+    "quoted_span": "Nothing in this section authorizes a local government to establish limitations on any rental rate increases not otherwise permissible under Chapter 2.7 (commencing with Section 1954.50), or affects the existing authority of a local government to adopt or maintain rent controls or price controls consistent with that chapter."
+   },
+   {
+    "field": "summary",
+    "doc_id": "D024",
+    "quoted_span": "an owner of residential real property shall not, over the course of any 12-month period, increase the gross rental rate for a dwelling or a unit"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D024",
+    "quoted_span": "means any dwelling or unit that is intended for human habitation, including any dwelling or unit in a mobilehome park"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D024",
+    "quoted_span": "This section shall not apply to a homeowner of a mobilehome, as defined in Section 798.9."
+   },
+   {
+    "field": "owner_conditions",
+    "doc_id": "D024",
+    "quoted_span": "(i) A real estate investment trust, as defined in Section 856 of the Internal Revenue Code."
+   },
+   {
+    "field": "owner_conditions",
+    "doc_id": "D024",
+    "quoted_span": "(iii) A limited liability company in which at least one member is a corporation."
+   },
+   {
+    "field": "owner_conditions",
+    "doc_id": "D024",
+    "quoted_span": "(B) (i) The tenants have been provided written notice that the residential real property is exempt from this section using the following statement:"
+   },
+   {
+    "field": "owner_conditions",
+    "doc_id": "D024",
+    "quoted_span": "so long as the owner continues in occupancy, and neither unit is an accessory dwelling unit or a junior accessory dwelling unit"
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D024",
+    "quoted_span": "This section shall apply to all rent increases subject to subdivision (a) occurring on or after March 15, 2019, except as provided in subdivision (i)."
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D024",
+    "quoted_span": "only to rent increases for a tenancy in a mobilehome subject to subdivision (a) occurring on or after February 18, 2021."
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D024",
+    "quoted_span": "This section shall not apply to a homeowner of a mobilehome, as defined in Section 798.9."
+   }
+  ],
+  "notes": "requires_unknown_facts changed from true to false. The cap covers ordinary residential rental property, so the affordable-housing, dormitory, alienable-property and owner-occupied-duplex exemptions belong in unverifiable_exemptions. Removed from the summary the named local ordinances (Los Angeles RSO, San Francisco, Berkeley, Santa Ana), because none of the supplied documents mention them. construction_cutoff stays null because the 15-year certificate-of-occupancy exemption is a rolling window, not a fixed date; it is expressed through new_construction_exemption and min_building_age_years. D040 is not among the supplied documents, so all evidence is drawn from the statute text in D024."
+ }
+}

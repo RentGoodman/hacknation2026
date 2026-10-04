@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "DX06:c7",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 518,
+  "output_tokens": 201
+ },
+ "result": {
+  "en": "Providence bans landlords from using rent-setting algorithms or algorithmic devices to set rental prices, and the city solicitor can bring enforcement actions seeking civil fines of up to $500 per day per violation, plus costs and attorney fees.",
+  "es": "Providence prohíbe que los propietarios usen algoritmos o dispositivos algorítmicos para fijar los precios de alquiler, y el procurador de la ciudad puede iniciar acciones de cumplimiento para exigir multas civiles de hasta $500 por día por infracción, más costas y honorarios de abogados."
+ }
+}

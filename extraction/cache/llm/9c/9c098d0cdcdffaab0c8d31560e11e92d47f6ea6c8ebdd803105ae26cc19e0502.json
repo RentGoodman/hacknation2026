@@ -1,0 +1,68 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "consolidate",
+ "subject": "Portland, OR",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 5397,
+  "output_tokens": 1434
+ },
+ "result": {
+  "rules": [
+   {
+    "candidate_id": "DX06:c13",
+    "jurisdiction": "Portland, OR",
+    "category": "algorithmic_rent_setting",
+    "status": "in_force",
+    "title": "Portland ban on algorithm-assisted rental price coordination",
+    "requirement": "Landlords may not use algorithm-assisted rental price coordination. Owners of 16 or more units face private remedies of the greater of treble damages or $1,000 per violation.",
+    "key_value": "Private remedy (owners of 16+ units): greater of treble damages or $1,000 per violation",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": true,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": "Private remedies apply to owners of 16 or more units. The source does not say whether the prohibition itself has a size threshold.",
+     "summary": "Prohibits algorithm-assisted rental price coordination in Portland. The 16-unit threshold is stated only for private remedies.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": "Owners of 16 or more units are subject to private remedies.",
+     "other_conditions": null
+    },
+    "exemptions": null,
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "The only source is a secondary law-firm alert, which gives 'effective February 2026' (month only). The exact day is unknown. The ban is in force as of the query date of 2026-10-01 either way.",
+    "effective_date_formula": null,
+    "citation": "Portland City Code § 30.01.088",
+    "citation_aliases": [
+     "Portland City Code ch. 30.01"
+    ],
+    "quoted_span": "Prohibits algorithm-assisted rental price coordination; for owners of 16 or more units, private remedies include the greater of treble damages or $1,000 per violation.",
+    "confidence": 0.6,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "Supported only by a secondary source (Morgan Lewis alert, Aug. 21, 2026). The official ordinance text, ordinance number, adoption date, exact effective date, definitions of covered software and the scope of the prohibition were not captured and should be checked against Portland City Code § 30.01.088.",
+    "source_notes": "Law-firm alert table entry. No official Portland document provided.",
+    "source_doc_id": "DX06",
+    "from_candidates": [
+     "DX06:c13"
+    ],
+    "also_supported_by": []
+   }
+  ],
+  "dropped_candidates": [],
+  "known_gaps": []
+ }
+}

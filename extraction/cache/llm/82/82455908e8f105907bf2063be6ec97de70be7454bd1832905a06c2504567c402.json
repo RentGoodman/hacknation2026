@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D040:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 5984,
+  "output_tokens": 1508
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "partly_supported",
+    "quoted_span": "It prohibits terminations of tenancies without just cause and requires relocation assistance for no-fault evictions.",
+    "note": "D040 supports the just-cause prohibition, the at-fault and no-fault cause lists, nonpayment above FMR from March 27, 2023, 3-business-day LAHD filing, annual registration, and the posted notices. It does not support the Declaration of Intent to Evict, the Chart A same-as-RSO amounts, the 15-day payment or escrow rule, the single-family one-month's-rent rule, or the rent offset. Those come from D043."
+   },
+   {
+    "field": "key_value",
+    "verdict": "partly_supported",
+    "quoted_span": "must be filed with LAHD within three (3) business days of service on the tenant",
+    "note": "D040 supports the 6-month or lease-expiry trigger, the 3-business-day filing deadline, and nonpayment eviction only above FMR. The Chart A dollar amounts, the one-month's-rent single-family rule, and the 15-day payment timing are not in D040."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The field is empty and D040 gives no effective date for the JCO itself. It only gives component dates, which the rule's note already records."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "Beginning August 20, 2025, landlords must post a",
+    "note": "D040 presents the JCO as a current ordinance with ongoing obligations, which is consistent with in_force."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "The JCO covers most residential properties in the City of Los Angeles that are not regulated by the City’s Rent Stabilization Ordinance (RSO).",
+    "note": "D040 supports the RSO exclusion, the 6-month or lease-expiry condition, the listed exemptions, and coverage of buildings newer than October 1, 1978 and single-family-only properties."
+   },
+   {
+    "field": "citation",
+    "verdict": "not_supported",
+    "quoted_span": null,
+    "note": "D040 cites no Los Angeles Municipal Code section, so § 165.03 cannot be verified from this document."
+   }
+  ]
+ }
+}

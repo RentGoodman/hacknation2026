@@ -1,0 +1,21 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "date_audit",
+ "subject": "DX06:c4",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 12247,
+  "output_tokens": 332
+ },
+ "result": {
+  "requirement_is_new": true,
+  "in_force_since": "2026-04-02",
+  "in_force_since_evidence": {
+   "doc_id": "DX06",
+   "quoted_span": "Santa Ana Ordinance No. NS-3090 (effective April 2, 2026)"
+  },
+  "current_version_effective": "2026-04-02",
+  "prior_version_note": null,
+  "effective_date_formula": null
+ }
+}

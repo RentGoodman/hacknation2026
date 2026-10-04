@@ -1,0 +1,70 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "cell",
+ "subject": "Santa Ana, CA|rent_increase_limits",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 4638,
+  "output_tokens": 1206
+ },
+ "result": {
+  "cell_status": "rules_found",
+  "no_rule_quote": null,
+  "no_rule_passage_id": null,
+  "basis_citation": null,
+  "rules": [
+   {
+    "jurisdiction": "Santa Ana, CA",
+    "category": "rent_increase_limits",
+    "status": "in_force",
+    "title": "Santa Ana Rent Stabilization Ordinance",
+    "requirement": "Annual residential rent increases are limited to the lower of 3% or 80% of the percent change in CPI over the most recent 12-month period; if CPI is negative, no increase is permitted. The City publishes the allowable increase by June 30 each year, effective September 1. Owners may petition for relief from the cap by showing a fair and reasonable return requires a larger increase. Owners must give written notice of the Ordinance and tenant rights at lease commencement or with any rent increase notice.",
+    "key_value": "Lesser of 3% or 80% of CPI change; 2.87% for Sept 1, 2026 through Aug 31, 2027; no increase if CPI negative",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": {
+      "basis": "certificate_of_occupancy",
+      "covered_if": "on_or_before",
+      "date": "1995-02-01"
+     },
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Residential rental buildings constructed on or before February 1, 1995, and mobile home spaces offered for rent on or before January 1, 1990. Residential buildings constructed after February 1, 1995 and mobile home spaces offered for rent after January 1, 1990 are exempt from the cap.",
+     "construction_date_basis": "Date of construction (the passage does not say which record is used)",
+     "built_on_or_before": "1995-02-01",
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": "Owners may petition for relief from the cap for a fair and reasonable return."
+    },
+    "exemptions": "Residential buildings constructed after February 1, 1995; mobile home spaces offered for rent after January 1, 1990.",
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": "2021-11-19",
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "The ordinance was adopted by the City Council and was not effective until November 19, 2021. The annual allowable increase takes effect each September 1.",
+    "effective_date_formula": null,
+    "citation": "Santa Ana Mun. Code (Rent Stabilization Ordinance)",
+    "citation_aliases": [
+     "Santa Ana Rent Stabilization Ordinance",
+     "RSO"
+    ],
+    "quoted_span": "The rent cap does not apply to residential buildings constructed after February 1, 1995, or to mobile home spaces offered for rent after January 1, 1990.",
+    "confidence": 0.8,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "The passages do not give the municipal code chapter number, so the citation is generic. The cutoff basis is assumed to be certificate of occupancy; the text says only 'constructed'. The 80% CPI formula, the 3% cap and the November 19, 2021 effective date come from the city's announcement of the adoption.",
+    "source_notes": "Current-year figure of 2.87% from the city's rent stabilization page (p1). Formula and cutoff from the city's ordinance summary (p2, p3).",
+    "passage_id": "p2"
+   }
+  ]
+ }
+}

@@ -1,0 +1,68 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "consolidate",
+ "subject": "Spokane, WA",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 5320,
+  "output_tokens": 1245
+ },
+ "result": {
+  "rules": [
+   {
+    "candidate_id": "DX06:c12",
+    "jurisdiction": "Spokane, WA",
+    "category": "algorithmic_rent_setting",
+    "status": "in_force",
+    "title": "Spokane ban on purchasing algorithmic coordinating services",
+    "requirement": "Landlords may not purchase algorithmic coordinating services. The city enforces the ban, with civil penalties of up to $5,000 per violation.",
+    "key_value": "Civil penalties up to $5,000 per violation",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "The source states no building, unit-count or landlord-size coverage limits. It applies to landlords in Spokane.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": null
+    },
+    "exemptions": null,
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "The only source (a law-firm alert) gives the effective date as January 2026, month only. No exact day is documented. Either way the ban is in force as of the query date, 2026-10-01.",
+    "effective_date_formula": null,
+    "citation": "Spokane Mun. Code § 10.57.180",
+    "citation_aliases": [
+     "Spokane Mun. Code ch. 10.57"
+    ],
+    "quoted_span": "Prohibits landlords from purchasing algorithmic coordinating services; city enforcement includes civil penalties of up to $5,000 per violation.",
+    "confidence": 0.6,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "Supported only by a secondary source (Morgan Lewis alert, Aug. 21, 2026). The official ordinance text is not captured. The following are unverified: exact effective date, enactment date, ordinance number, definitions of 'coordinating services', exemptions, and whether there is a private right of action.",
+    "source_notes": "Secondary source: law-firm alert summary table row for Spokane, WA.",
+    "source_doc_id": "DX06",
+    "from_candidates": [
+     "DX06:c12"
+    ],
+    "also_supported_by": []
+   }
+  ],
+  "dropped_candidates": [],
+  "known_gaps": []
+ }
+}

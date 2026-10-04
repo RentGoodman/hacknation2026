@@ -1,0 +1,54 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "probe",
+ "subject": "Spokane, WA",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 17286,
+  "output_tokens": 498
+ },
+ "result": {
+  "verdicts": [
+   {
+    "category": "rent_increase_limits",
+    "verdict": "undetermined",
+    "doc_id": null,
+    "quoted_span": null,
+    "basis_citation": null,
+    "reason": "The only Spokane-specific passage (DX06) concerns algorithmic coordinating services. No document states whether Spokane has or lacks rent increase limits."
+   },
+   {
+    "category": "just_cause_eviction",
+    "verdict": "undetermined",
+    "doc_id": null,
+    "quoted_span": null,
+    "basis_citation": null,
+    "reason": "The retrieved just cause passages cover Santa Ana, San Diego, Los Angeles and California. Nothing addresses Spokane."
+   },
+   {
+    "category": "security_deposits",
+    "verdict": "undetermined",
+    "doc_id": null,
+    "quoted_span": null,
+    "basis_citation": null,
+    "reason": "The security deposit passages concern Berkeley, New Jersey and Massachusetts. No document addresses Spokane or Washington deposit rules."
+   },
+   {
+    "category": "application_screening_fees",
+    "verdict": "undetermined",
+    "doc_id": null,
+    "quoted_span": null,
+    "basis_citation": null,
+    "reason": "The screening fee passages concern California, Berkeley and Massachusetts. Nothing addresses Spokane."
+   },
+   {
+    "category": "screening_restrictions",
+    "verdict": "undetermined",
+    "doc_id": null,
+    "quoted_span": null,
+    "basis_citation": null,
+    "reason": "The screening restriction passages concern California law. Nothing indicates whether Spokane has or lacks such restrictions."
+   }
+  ]
+ }
+}

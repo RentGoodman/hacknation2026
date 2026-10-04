@@ -1,0 +1,50 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D058:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 37037,
+  "output_tokens": 1229
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": false,
+   "unverifiable_exemptions": [],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Applies statewide to residential tenants of residential dwelling units in Massachusetts. The statute states no unit-count, construction-date, owner-occupancy or landlord-size limits.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": null,
+   "other_conditions": "Residential tenants of residential dwelling units only."
+  },
+  "evidence": [
+   {
+    "field": "summary",
+    "doc_id": "D058",
+    "quoted_span": "A notice to quit for nonpayment of rent given in writing by a landlord to a residential tenant pursuant to this chapter shall be accompanied by a form"
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D058",
+    "quoted_span": "in an eviction for nonpayment of rent for a residential dwelling unit"
+   },
+   {
+    "field": "requires_unknown_facts",
+    "doc_id": "D058",
+    "quoted_span": "A notice to quit for nonpayment of rent given in writing by a landlord to a residential tenant pursuant to this chapter shall be accompanied by a form"
+   }
+  ],
+  "notes": "I removed the summary's claim that the Boston HSNA and Cambridge ch. 8.71 local notice ordinances apply in addition, because no document in the set supports it. I reworded other_conditions to describe the covered units and tenants rather than landlord conduct; the notice-to-quit trigger belongs in the rule requirement, not in coverage. I set requires_unknown_facts to false because the rule reaches ordinary residential tenancies statewide. D058 contains no exemptions, unit thresholds or construction-date limits."
+ }
+}

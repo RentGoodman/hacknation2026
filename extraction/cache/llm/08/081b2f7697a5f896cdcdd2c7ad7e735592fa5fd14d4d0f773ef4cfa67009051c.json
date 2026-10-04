@@ -1,0 +1,68 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "extract",
+ "subject": "D010",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 2239,
+  "output_tokens": 2122
+ },
+ "result": {
+  "rules": [
+   {
+    "candidate_id": "c1",
+    "jurisdiction": "Boston, MA",
+    "category": "screening_restrictions",
+    "status": "in_force",
+    "title": "Boston Fair Chance Tenant Selection Policy (DND)",
+    "requirement": "Housing providers receiving DND funding or land, or with income-restricted units created under the BPDA Inclusionary Development Policy, may not impose a blanket denial based on arrests or convictions and must assess applicants case by case. The agent may not consider non-conviction arrests, convictions subject to judicial relief (expungement, sealing, certificates of relief), juvenile records, or convictions more than 5 years old, when determining eligibility or considering eviction. Exceptions apply for a direct relationship between the conviction and the housing sought, an unreasonable risk of substantial harm to others, and current criminal behavior. The agent may not use an applicant's credit score to approve or deny. Credit history may be used only in lieu of rental history when rental history is unavailable, and lack of credit history is not sufficient grounds to reject. Providers should consider mitigating factors and, when feasible, offer an appeals process. Conflicting federal or state criminal-history requirements preempt the policy.",
+    "key_value": "No blanket ban; convictions more than 5 years old, non-conviction arrests, juvenile records and relieved convictions not considered; no use of credit score",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": true,
+     "unverifiable_exemptions": [
+      "Whether the housing provider received DND funding or land",
+      "Whether the unit is an income-restricted unit created under the BPDA Inclusionary Development Policy"
+     ],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": false,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Applies only to housing providers with DND funding or land, or with BPDA Inclusionary Development Policy income-restricted units; also applied to the Office of Fair Housing and Equity Affirmative Marketing Program.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": "Federal or state law imposing a conflicting criminal history requirement preempts the policy."
+    },
+    "exemptions": "Policy on arrests and convictions does not apply where there is a direct relationship between a conviction and the housing sought, an unreasonable risk of substantial harm to the safety of others, or current criminal behavior. Conflicting federal or state criminal-history requirements preempt the policy.",
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "The document is dated February 2017 but states no explicit effective date.",
+    "effective_date_formula": null,
+    "citation": "Boston Fair Chance Tenant Selection Policy (DND, Feb. 2017)",
+    "citation_aliases": [
+     "Boston Fair Chance Tenant Selection Policy",
+     "DND Fair Chance Tenant Selection Policy",
+     "BPDA Inclusionary Development Policy"
+    ],
+    "quoted_span": "Housing providers receiving Department of Neighborhood Development (DND) funding and/or land, or that have income restricted units created under the Boston Planning and Development Agency (BPDA) Inclusionary Development Policy will not impose a blanket policy that denies housing to anyone with arrests and or convictions.",
+    "confidence": 0.8,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "This is an administrative policy and guidance for DND-funded and inclusionary housing, not a citywide ordinance. Several provisions are phrased as encouragements or 'should' rather than mandates. Current status is inferred, since the document gives no sunset or repeal.",
+    "source_notes": "The policy also addresses credit and eviction consideration; it is folded into this single screening_restrictions record."
+   }
+  ],
+  "no_rule_findings": [],
+  "doc_summary": "Boston DND Fair Chance Tenant Selection Policy (February 2017). It limits the use of criminal history (non-conviction arrests, relieved convictions, juvenile records, convictions over 5 years old) and credit scores in tenant selection and eviction decisions. It applies to housing providers with DND funding or land, or with BPDA Inclusionary Development Policy income-restricted units, and also to the Affirmative Marketing Program. It sets out mitigating factors and encourages an appeals process."
+ }
+}

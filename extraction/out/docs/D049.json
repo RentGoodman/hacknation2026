@@ -1,0 +1,38 @@
+{
+  "doc_id": "D049",
+  "source_url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXXI/Chapter151B/Section4",
+  "model": "anthropic:claude-sonnet-5-5",
+  "query_date": "2026-10-01",
+  "chunks": 1,
+  "rules": [
+    {
+      "jurisdiction": "MA",
+      "level": "state",
+      "category": "screening_restrictions",
+      "status": "in_force",
+      "title": "Source-of-income / housing subsidy discrimination ban (M.G.L. c. 151B, § 4(10))",
+      "requirement": "It is an unlawful practice for any person furnishing credit, services or rental accommodations to discriminate against an individual because they receive public assistance or a housing subsidy (including rental assistance), or because of any requirement of such a program.",
+      "key_value": null,
+      "coverage_conditions": {
+        "summary": "Any person furnishing rental accommodations (as well as credit or services) with respect to individuals who receive federal, state or local public assistance or housing subsidies. No unit-count, construction-date or owner-type limits are stated in this subsection.",
+        "construction_date_basis": null,
+        "built_on_or_before": null,
+        "built_after": null,
+        "min_building_age_years": null,
+        "min_units": null,
+        "max_units": null,
+        "owner_conditions": null,
+        "other_conditions": "Protects recipients of federal, state or local public assistance (including medical assistance) and tenants receiving housing subsidies such as rental assistance or rental supplements."
+      },
+      "exemptions": null,
+      "interaction": null,
+      "effective_date": null,
+      "citation": "M.G.L. c. 151B, § 4(10)",
+      "quoted_span": "For any person furnishing credit, services or rental accommodations to discriminate against any individual who is a recipient of federal, state, or local public assistance, including medical assistance, or who is a tenant receiving federal, state, or local housing subsidies, including rental assistance or rental supplements, because the individual is such a recipient, or because of any requirement of such public assistance, rental assistance, or housing subsidy program.",
+      "confidence": 0.9,
+      "conflict_flag": false,
+      "conflict_note": null
+    }
+  ],
+  "rejected": []
+}

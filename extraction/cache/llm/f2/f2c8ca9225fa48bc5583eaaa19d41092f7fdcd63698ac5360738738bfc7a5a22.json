@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D001:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 5499,
+  "output_tokens": 799
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "It shall be unlawful for a landlord to use a coordinated pricing algorithm described in subsection A when setting rents or occupancy levels for residential dwelling units in the City of Berkeley.",
+    "note": "The requirement summary matches the ordinance: the sale/provision ban, the landlord use ban, the definitions, the separate-violation rule, the remedies, the fee provisions and the F-clause carve-outs are all in D001."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "civil penalties of up to $1,000 \nper violation. The court shall award reasonable attorney’s fees and costs to the tenant if \nthe tenant is the prevailing party",
+    "note": "The $1,000 per-violation penalty, the separate violation per month and per unit, mandatory fees for a prevailing City Attorney or tenant, and the Competitor Data definition (non-public, under 90 days old) are all in D001."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The effective_date field is null. D001 contains no effective-date clause, only a passed-to-print date of November 18, 2025. Leaving the field empty is consistent with the document."
+   },
+   {
+    "field": "status",
+    "verdict": "partly_supported",
+    "quoted_span": "At a regular meeting of the Council of the City of Berkeley held on November 18, \n2025, this Ordinance was passed to print and ordered published by posting",
+    "note": "D001 shows only first reading/passed to print and states no adoption or effective date, so 'in_force' is not confirmed by the document. The rule itself flags this uncertainty."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "levels that may be achieved for residential dwelling units in the City of Berkeley.",
+    "note": "The ordinance applies to residential dwelling units in Berkeley with no stated limits on unit count, building age, owner type or landlord size, so the null coverage fields are consistent. The exclusions are listed under exemptions."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "13.63.030   Use and sale of coordinated pricing algorithms prohibited.",
+    "note": "The section number, chapter and Ordinance No. 7,992-N.S. all appear in D001. Sections 13.63.020 and 13.63.040 also exist."
+   }
+  ]
+ }
+}

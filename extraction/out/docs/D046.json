@@ -1,0 +1,38 @@
+{
+  "doc_id": "D046",
+  "source_url": "https://malegislature.gov/Bills/194/S2983",
+  "model": "anthropic:claude-sonnet-5-5",
+  "query_date": "2026-10-01",
+  "chunks": 1,
+  "rules": [
+    {
+      "jurisdiction": "MA",
+      "level": "state",
+      "category": "algorithmic_rent_setting",
+      "status": "pending",
+      "title": "Act prohibiting algorithmic rent setting (S.2983)",
+      "requirement": "The bill, as titled, would prohibit algorithmic rent setting in Massachusetts rental housing. The page gives only the title and history, not the bill text, so the specific prohibitions are not stated.",
+      "key_value": null,
+      "coverage_conditions": {
+        "summary": null,
+        "construction_date_basis": null,
+        "built_on_or_before": null,
+        "built_after": null,
+        "min_building_age_years": null,
+        "min_units": null,
+        "max_units": null,
+        "owner_conditions": null,
+        "other_conditions": null
+      },
+      "exemptions": null,
+      "interaction": null,
+      "effective_date": null,
+      "citation": "S.2983",
+      "quoted_span": "An Act prohibiting algorithmic rent setting",
+      "confidence": 0.45,
+      "conflict_flag": false,
+      "conflict_note": null
+    }
+  ],
+  "rejected": []
+}

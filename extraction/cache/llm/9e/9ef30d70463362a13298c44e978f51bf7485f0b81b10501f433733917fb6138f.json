@@ -1,0 +1,63 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D014:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 10963,
+  "output_tokens": 2204
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": false,
+   "unverifiable_exemptions": [
+    "Residences in any hospital, skilled nursing facility or health facility",
+    "Residences in a non-profit facility whose primary purpose is providing short-term treatment, assistance or therapy for alcohol, drug, or other substance abuse"
+   ],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Applies to all landlords and foreclosing owners ending a tenancy or post-foreclosure occupancy of a unit in the City of Boston. The only exempt residences are those in hospitals, skilled nursing or health facilities, and in non-profit facilities whose primary purpose is short-term substance-abuse treatment.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": null,
+   "other_conditions": null
+  },
+  "evidence": [
+   {
+    "field": "requires_unknown_facts",
+    "doc_id": "D014",
+    "quoted_span": "The Ordinance applies to all landlords/foreclosing owners intending to end a\ntenancy or post-foreclosure occupancy of a unit in the City of Boston."
+   },
+   {
+    "field": "summary",
+    "doc_id": "D014",
+    "quoted_span": "The Ordinance applies to all landlords/foreclosing owners intending to end a\ntenancy or post-foreclosure occupancy of a unit in the City of Boston."
+   },
+   {
+    "field": "summary",
+    "doc_id": "D014",
+    "quoted_span": "The only exempt properties are residences:"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D014",
+    "quoted_span": "in any hospital, skilled nursing facility or health facility;"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D014",
+    "quoted_span": "in a non-profit facility whose primary purpose is providing short-term"
+   }
+  ],
+  "notes": "The documents give no size condition for landlords, so landlord_size_condition is now null. The phrase 'regardless of size' was not in any document; the all-landlords scope is stated in the summary instead. The two facility exemptions moved from other_conditions to unverifiable_exemptions, because an address lookup cannot reliably confirm them. requires_unknown_facts is false: the ordinance covers ordinary rental units in Boston. supersedes_state_rule is now null, and the G.L. c. 186 § 31 reference is removed from the summary, because no document discusses the relationship to state law. The documents state no unit-count, construction-date or owner-occupancy limits."
+ }
+}

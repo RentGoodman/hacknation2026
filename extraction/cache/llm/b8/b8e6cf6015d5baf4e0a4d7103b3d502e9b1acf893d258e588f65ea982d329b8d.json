@@ -1,0 +1,121 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "DX21:c1",
+ "prompt_version": "v10",
+ "usage": {},
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": {
+    "years": 30,
+    "basis": "Newly constructed multiple dwellings are exempt from the limits on periodic increases. The exemption lasts for the initial mortgage amortization period or 30 years after completion of construction, whichever is less. Completion of construction means issuance of the Certificate of Occupancy. If there is no initial mortgage financing, the exemption is 30 years. The landlord must apply to the Rent Control Board for certification.",
+    "requires_owner_filing": true
+   },
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": false,
+   "unverifiable_exemptions": [
+    "Newly constructed multiple dwellings certified exempt by the Rent Control Board, for the shorter of the initial mortgage amortization period or 30 years",
+    "Dwellings vacant for at least 18 months (or already vacant) and substantially rehabilitated at a cost above 50% of fair market value, exempt for 5 years on Board determination",
+    "Units rehabilitated under Federal/State Rental Rehabilitation Programs receiving Section 8 subsidies or Federal housing vouchers, during program tenure",
+    "Units under a landlord contract with a governmental agency that regulates rent and supersedes city authority"
+   ],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Applies to all multiple dwellings in Newark, defined as any building with one or more apartments rented or offered for rent. Exempt: public housing; hotel or motel space rented day-to-day to transients; space rented for commercial use; certified new construction; substantially rehabilitated vacant dwellings, for 5 years; certain Section 8 rental rehabilitation units; and units under a governmental agency rent-regulation contract.",
+   "construction_date_basis": "certificate_of_occupancy",
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": "The chapter defines an owner-occupied dwelling (four units or fewer, with the owner living in one), but owner-occupied dwellings are not in the list of exemptions. Their only special treatment is that no inspection fee is charged for owner-occupied units.",
+   "other_conditions": null
+  },
+  "evidence": [
+   {
+    "field": "summary",
+    "doc_id": "DX21",
+    "quoted_span": "All multiple dwellings, as defined in subsection 19:2-2, are subject to Rent Control pursuant to this Title XIX Rent Control"
+   },
+   {
+    "field": "summary",
+    "doc_id": "DX21",
+    "quoted_span": "Shall mean and include any building or structure and land appurtenant thereto containing one or more apartments or rented or offered for rent to one or more tenants or family units."
+   },
+   {
+    "field": "summary",
+    "doc_id": "DX21",
+    "quoted_span": "All public housing;"
+   },
+   {
+    "field": "summary",
+    "doc_id": "DX21",
+    "quoted_span": "Any motel or hotel space rented on a day-to-day basis to transients;"
+   },
+   {
+    "field": "summary",
+    "doc_id": "DX21",
+    "quoted_span": "Any dwelling, building or structure, or portion thereof, rented for commercial use;"
+   },
+   {
+    "field": "requires_unknown_facts",
+    "doc_id": "DX21",
+    "quoted_span": "All multiple dwellings, as defined in subsection 19:2-2, are subject to Rent Control pursuant to this Title XIX Rent Control"
+   },
+   {
+    "field": "new_construction_exemption.years",
+    "doc_id": "DX21",
+    "quoted_span": "shall not apply to newly constructed multiple dwellings for a period of time not to exceed the period of amortization of any initial mortgage loan obtained for the multiple dwelling, or for 30 years following completion of construction, whichever is less."
+   },
+   {
+    "field": "new_construction_exemption.basis",
+    "doc_id": "DX21",
+    "quoted_span": "In the event that there is no initial mortgage financing, the period of the exemption from rent control shall be 30 years from the completion of the construction."
+   },
+   {
+    "field": "new_construction_exemption.requires_owner_filing",
+    "doc_id": "DX21",
+    "quoted_span": "the landlord of any newly constructed dwelling shall apply to the Rent Control Board for a Certification that the dwelling, or portion thereof with respect to Temporary Certificates of Occupancy, is granted an exemption from any restrictions in the rent that the landlord may charge."
+   },
+   {
+    "field": "construction_date_basis",
+    "doc_id": "DX21",
+    "quoted_span": "Shall mean the issuance of a Certificate of Occupancy pursuant to the \"State Uniform Construction Code Act\" P.L. 1975. c. 217 (N.J.S.A. 52:27D-133)"
+   },
+   {
+    "field": "unverifiable_exemptions[0]",
+    "doc_id": "DX21",
+    "quoted_span": "shall not apply to newly constructed multiple dwellings for a period of time not to exceed the period of amortization of any initial mortgage loan obtained for the multiple dwelling, or for 30 years following completion of construction, whichever is less."
+   },
+   {
+    "field": "unverifiable_exemptions[1]",
+    "doc_id": "DX21",
+    "quoted_span": "Dwellings which become vacant and remain vacant for a minimum of 18 months or dwellings which are already vacant on the effective date of this section shall be exempt for a period of five years from any restrictions in the rent that the landlord may charge, if the Rent Control Board determines that the cost of reconstruction or rehabilitation during a twelve-month period has exceeded 50% of the fair market value of the dwelling"
+   },
+   {
+    "field": "unverifiable_exemptions[2]",
+    "doc_id": "DX21",
+    "quoted_span": "These units will be exempt only during the unit's tenure in the Section 8 subsidy or Rental Rehabilitation Program"
+   },
+   {
+    "field": "unverifiable_exemptions[3]",
+    "doc_id": "DX21",
+    "quoted_span": "A contract between a landlord and a governmental agency duly providing for that governmental agency to regulate the amount of rent received by that landlord provided that, if the authority of that governmental agency supersedes the authority of the City of Newark to regulate such rents, then the application of this chapter shall be preempted during the period of governmental agency regulation specified in the contract."
+   },
+   {
+    "field": "owner_conditions",
+    "doc_id": "DX21",
+    "quoted_span": "Shall mean any dwelling of four units or less in at least one unit of which the owner resides."
+   },
+   {
+    "field": "owner_conditions",
+    "doc_id": "DX21",
+    "quoted_span": "There is no inspection fee for owner-occupied units."
+   }
+  ],
+  "notes": "Cleared other_conditions: annual registration, substantial code compliance and the certificate-of-habitability requirement are landlord-conduct preconditions, not coverage criteria. They are already described in the requirement text. Made the vacant-dwelling exemption more precise: the dwelling must have been vacant for at least 18 months (or already vacant), and rehabilitation must cost more than 50% of fair market value. Rewrote new_construction_exemption.basis so it no longer says the exemption is the 'shorter' of the two periods in a way that misplaced the Certificate of Occupancy reference. Rewrote the owner_conditions sentence; its meaning is unchanged. min_units is left null: the definition covers buildings with one or more apartments, so there is no meaningful threshold. requires_unknown_facts stays false because the rule covers all ordinary rental multiple dwellings, and the subsidy and contract exemptions are listed under unverifiable_exemptions."
+ }
+}

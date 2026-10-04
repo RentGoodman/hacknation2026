@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D005:c2",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 794,
+  "output_tokens": 270
+ },
+ "result": {
+  "en": "In Berkeley, a landlord who charges a fee for a credit report and application processing must first give you a screening fee rights statement and a disclosure of the state's maximum fee cap (the Rent Board lists $68.96 for 2026), and cannot charge existing tenants a non-refundable fee to renew or to change roommates.",
+  "es": "En Berkeley, un propietario que cobra una tarifa por el informe de crédito y el trámite de la solicitud debe darle primero una declaración de derechos sobre la tarifa de evaluación y una divulgación del límite máximo estatal (la Junta de Alquileres indica $68.96 para 2026), y no puede cobrar a los inquilinos actuales una tarifa no reembolsable por renovar o por cambiar de compañeros de cuarto."
+ }
+}

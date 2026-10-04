@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D022:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 897,
+  "output_tokens": 222
+ },
+ "result": {
+  "en": "California law makes it illegal to use or distribute a common pricing algorithm, which uses competitor data to influence prices or terms, as part of a conspiracy to restrain trade or while coercing others to adopt its recommended price, and violations of the Cartwright Act can be punished as a crime.",
+  "es": "La ley de California prohíbe usar o distribuir un algoritmo de precios común, que usa datos de competidores para influir en precios o condiciones, como parte de una conspiración para restringir el comercio o mientras se coacciona a otros a adoptar su precio recomendado, y las violaciones de la Ley Cartwright pueden castigarse como delito."
+ }
+}

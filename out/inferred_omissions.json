@@ -1,0 +1,12 @@
+{
+  "as_of": "2026-10-01",
+  "scope": "all 500 addresses and every evaluated rule",
+  "policy": "A bound may omit a rule only when the entire possible interval fails the coverage condition.",
+  "coverage_omissions_checked": 92,
+  "inferred_fact_omissions": [],
+  "counts": {
+    "pairs": 0,
+    "addresses": 0,
+    "by_fact": {}
+  }
+}

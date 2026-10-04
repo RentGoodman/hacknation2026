@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D001:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 5389,
+  "output_tokens": 1996
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "It shall be unlawful to sell, license, or otherwise provide to City of Berkeley",
+    "note": "The sale/provision ban, the landlord-use ban, the definitions, the per-month and per-unit violations, and the remedies all match the ordinance text. The exclusions and the statement that the chapter does not regulate rent amounts are also in the document."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "and/or civil penalties of up to $1,000 per violation.",
+    "note": "The $1,000 per-violation cap, the separate violation for each month and each unit, the 90-day Competitor Data window and the mandatory fee award to the prevailing City Attorney or tenant are all stated."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The field is empty. D001 states no effective date, only that the ordinance was passed to print on Nov. 18, 2025."
+   },
+   {
+    "field": "status",
+    "verdict": "partly_supported",
+    "quoted_span": "this Ordinance was passed to print and ordered published by posting by the",
+    "note": "The document shows only that the ordinance was passed to print and ordered published. It does not say it is in force or give an effective date, so the in_force status rests on outside inference."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "residential dwelling units in the City of Berkeley",
+    "note": "The ordinance applies to all residential dwelling units in Berkeley. It contains no unit-count, building-age or landlord-size limits, so the empty sub-fields are consistent with the text."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "13.63.030 Use and Sale of Coordinated Pricing Algorithms Prohibited",
+    "note": "The section number matches. The aliases (ch. 13.63, §§ 13.63.020 and 13.63.040, Ord. 7,992-N.S.) also appear in the document."
+   }
+  ]
+ }
+}

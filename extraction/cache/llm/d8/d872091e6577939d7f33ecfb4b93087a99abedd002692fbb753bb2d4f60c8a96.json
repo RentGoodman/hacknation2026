@@ -1,0 +1,21 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "date_audit",
+ "subject": "D081:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 11059,
+  "output_tokens": 126
+ },
+ "result": {
+  "requirement_is_new": true,
+  "in_force_since": "2024-10-14",
+  "in_force_since_evidence": {
+   "doc_id": "D081",
+   "quoted_span": "adding Section 37.10C to the Rent Ordinance went into effect on October 14, 2024."
+  },
+  "current_version_effective": "2024-10-14",
+  "prior_version_note": null,
+  "effective_date_formula": null
+ }
+}

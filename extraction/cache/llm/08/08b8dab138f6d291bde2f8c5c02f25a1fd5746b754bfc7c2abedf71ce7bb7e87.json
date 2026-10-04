@@ -1,0 +1,64 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "extract",
+ "subject": "D048",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 579,
+  "output_tokens": 1244
+ },
+ "result": {
+  "rules": [
+   {
+    "candidate_id": "c1",
+    "jurisdiction": "MA",
+    "category": "rent_increase_limits",
+    "status": "in_force",
+    "title": "Massachusetts statewide bar on local rent control (G.L. c. 40P, § 4)",
+    "requirement": "No city or town may enact, maintain or enforce rent control of any kind, except a city or town that accepts chapter 40P, which may adopt only a voluntary rent control regulation. After six months from initial adoption, owner compliance is entirely voluntary. The regulation may not cover occupancy, services, evictions, condominium conversion or removal of properties from regulation. It may not apply to units owned by a person or entity owning fewer than ten rental units, or to units with a fair market rent above $400. The municipality must compensate owners from general funds for the difference between fair market rent and the controlled rent.",
+    "key_value": "General ban on local rent control; exception only for voluntary regulation after 6 months; not applicable to owners of fewer than 10 units or units with fair market rent over $400; municipality compensates owners the difference between fair market and controlled rent",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": false,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": true,
+     "landlord_size_condition": "Any local regulation under the exception may not apply to a unit owned by a person or entity owning fewer than ten rental units.",
+     "summary": "Statewide prohibition on municipal rent control of any kind. The only exception is a voluntary regulation in a city or town that accepts chapter 40P. That regulation cannot reach units with fair market rent above $400 or owners of fewer than ten units.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": "Does not apply to units owned by a person or entity owning fewer than ten rental units.",
+     "other_conditions": "Exception available only to a city or town that accepts chapter 40P. Excludes units with fair market rent exceeding $400."
+    },
+    "exemptions": "Exception to the ban: a city or town that accepts c. 40P may adopt voluntary rent control regulation, subject to limits in (a)-(c).",
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "The document does not state an enactment or effective date.",
+    "effective_date_formula": null,
+    "citation": "G.L. c. 40P, § 4",
+    "citation_aliases": [
+     "G.L. c. 40P",
+     "Massachusetts General Laws Part I, Title VII, Chapter 40P, Section 4"
+    ],
+    "quoted_span": "No city or town may enact, maintain or enforce rent control of any kind, except that any city or town that accepts this chapter may adopt rent control regulation that provides:",
+    "confidence": 0.9,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "Status in_force is inferred from the official statute page; the page gives no dates. Whether any municipality has accepted c. 40P is not stated.",
+    "source_notes": null
+   }
+  ],
+  "no_rule_findings": [],
+  "doc_summary": "Official text of G.L. c. 40P, § 4. It bars Massachusetts cities and towns from enacting, maintaining or enforcing rent control, with a narrow exception for voluntary regulation in municipalities that accept chapter 40P. That regulation may not cover owners of fewer than ten units or units with fair market rent above $400, and the municipality must compensate owners from general funds."
+ }
+}

@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "DX06:c10",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 466,
+  "output_tokens": 133
+ },
+ "result": {
+  "en": "Seattle prohibits certain algorithmic coordinating services from being used to set rents in rental housing, and violations can carry penalties of up to $7,500 each.",
+  "es": "Seattle prohíbe el uso de ciertos servicios algorítmicos de coordinación para fijar los alquileres de viviendas, y cada infracción puede conllevar multas de hasta $7,500."
+ }
+}

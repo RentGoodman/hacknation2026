@@ -1,0 +1,63 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "extract",
+ "subject": "D012",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 1414,
+  "output_tokens": 1303
+ },
+ "result": {
+  "rules": [
+   {
+    "candidate_id": "c1",
+    "jurisdiction": "Boston, MA",
+    "category": "screening_restrictions",
+    "status": "in_force",
+    "title": "Boston fair housing protection for renters using rental assistance (source of income)",
+    "requirement": "Discrimination in renting based on rental assistance is illegal in Boston. Rental assistance includes Section 8 vouchers, social security disability vouchers and veterans vouchers. A landlord who says they do not accept rental assistance is given as an example of housing discrimination. Complaints go to the Fair Housing Commission.",
+    "key_value": null,
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Applies to renting, buying, selling or financing housing in the City of Boston. The page states no unit, size or age limits.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": null
+    },
+    "exemptions": null,
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": null,
+    "effective_date_formula": null,
+    "citation": "Boston Fair Housing Regulations",
+    "citation_aliases": [
+     "Boston Fair Housing Commission regulations"
+    ],
+    "quoted_span": "The landlord tells you they don't accept rental assistance.",
+    "confidence": 0.5,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "The page is a general overview and names no ordinance or code section. The citation is the page's own title and should be confirmed against the Boston City Code. No effective date is stated.",
+    "source_notes": "Official city web page that summarizes enforcement of local, state and federal fair housing law."
+   }
+  ],
+  "no_rule_findings": [],
+  "doc_summary": "Boston Fair Housing Commission overview page. It lists the protected classes under Boston fair housing law, including rental assistance such as Section 8 vouchers. It gives examples of discrimination and explains how to file a complaint. The page states no rent, eviction, deposit, fee or algorithmic pricing rules. The only extractable rule is the source-of-income protection, which falls under screening restrictions."
+ }
+}

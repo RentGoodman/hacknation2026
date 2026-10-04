@@ -1,0 +1,38 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "probe",
+ "subject": "Los Angeles, CA",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 32812,
+  "output_tokens": 811
+ },
+ "result": {
+  "verdicts": [
+   {
+    "category": "application_screening_fees",
+    "verdict": "undetermined",
+    "doc_id": null,
+    "quoted_span": null,
+    "basis_citation": null,
+    "reason": "No Los Angeles document says the city lacks screening-fee rules. The retrieved passages on screening fees (D026/DX08, a state-law screening-fee text; D005 Berkeley; DX13 Massachusetts) do not show that Los Angeles has no such rule, and the state-law text suggests limits may apply. Not settled."
+   },
+   {
+    "category": "screening_restrictions",
+    "verdict": "undetermined",
+    "doc_id": null,
+    "quoted_span": null,
+    "basis_citation": null,
+    "reason": "The Los Angeles documents (D040–D043, DX12) cover eviction, rent, relocation and deposit interest, not tenant screening. The retrieved passages describe California-wide limits on criminal history and source-of-income screening (DX07, D027), which cuts against no_rule. Nothing states that Los Angeles has no screening restrictions."
+   },
+   {
+    "category": "algorithmic_rent_setting",
+    "verdict": "undetermined",
+    "doc_id": null,
+    "quoted_span": null,
+    "basis_citation": null,
+    "reason": "D039 is a September 2024 council motion asking LAHD to report on the feasibility of banning algorithmic rent-setting software. It shows no ban existed when the motion was filed but says nothing about whether one was later adopted. DX06's ordinance table is truncated and does not say Los Angeles lacks a rule. Not settled."
+   }
+  ]
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D043:c4",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 14104,
+  "output_tokens": 745
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "The landlord demolishes the property or converts the use of the property to condominiums, \nstock cooperatives, community apartment projects, hotels, and commercial uses, regardless \nof whether the property is subject to the RSO OR JCO (LAMC 47.06 & 47.07).",
+    "note": "The bulletin lists this as a not-at-fault reason requiring relocation assistance, whether or not the property is under the RSO or JCO. The condo-conversion tenant election is supported by the FAQ, and the landlord still owes relocation assistance."
+   },
+   {
+    "field": "key_value",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The rule's key_value is empty. The bulletin gives no amount specific to LAMC 47.06/47.07 demolition or conversion; the Chart A amounts apply to no-fault reasons generally."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The rule's effective_date is empty. The document gives no effective date for LAMC 47.06 or 47.07. The July 1, 2026 dates apply only to fee and amount charts."
+   },
+   {
+    "field": "status",
+    "verdict": "partly_supported",
+    "quoted_span": "All tenant not- at-fault evictions require payment of relocation assistance",
+    "note": "The bulletin is current (07/01/2026) and presents the requirement as operative, which is consistent with in_force. It does not state the status of the ordinance sections explicitly."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "regardless \nof whether the property is subject to the RSO OR JCO (LAMC 47.06 & 47.07).",
+    "note": "Coverage is rental properties in the City, whether or not subject to the RSO or JCO. The document does not give detailed coverage conditions; the empty fields are consistent with that."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "(LAMC 47.06 & 47.07)",
+    "note": "The primary citation 47.06 and the alias 47.07 are both supported. LAMC Sec. 47.06.D.2 appears in the FAQ on tenant election to relocate after tentative map approval."
+   }
+  ]
+ }
+}

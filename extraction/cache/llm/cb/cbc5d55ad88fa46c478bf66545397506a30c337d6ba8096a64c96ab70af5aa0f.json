@@ -1,0 +1,122 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "extract",
+ "subject": "D085",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 1782,
+  "output_tokens": 3093
+ },
+ "result": {
+  "rules": [
+   {
+    "candidate_id": "c1",
+    "jurisdiction": "Santa Ana, CA",
+    "category": "rent_increase_limits",
+    "status": "in_force",
+    "title": "Santa Ana Rent Stabilization Ordinance",
+    "requirement": "Annual residential rent increases are limited to the lower of 3% or 80% of the CPI change over the most recent 12 months. If CPI is negative, no increase is allowed. The City publishes the allowable increase by June 30 each year, effective September 1. Owners may petition for relief by showing that a larger increase is needed for a fair and reasonable return. The City Manager decides within 60 days of a complete application. Owners must give written notice of the ordinance and tenant rights at lease commencement or with any rent-increase notice.",
+    "key_value": "Lower of 3% per year or 80% of 12-month CPI change; no increase if CPI negative; allowable increase published by June 30, effective Sept 1; petition decided within 60 days",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": {
+      "basis": "year_built",
+      "covered_if": "on_or_before",
+      "date": "1995-02-01"
+     },
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Residential rental buildings constructed on or before Feb 1, 1995, and mobile home spaces offered for rent on or before Jan 1, 1990.",
+     "construction_date_basis": null,
+     "built_on_or_before": "1995-02-01",
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": "Mobile home spaces offered for rent after January 1, 1990 are not covered."
+    },
+    "exemptions": "Residential buildings constructed after February 1, 1995; mobile home spaces offered for rent after January 1, 1990.",
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": "2021-11-19",
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "The council adopted the ordinance on a Tuesday night, but the page does not state the adoption date.",
+    "effective_date_formula": null,
+    "citation": "Santa Ana Rent Stabilization Ordinance",
+    "citation_aliases": [
+     "Santa Ana RSO",
+     "Santa Ana Rent Stabilization Ordinance (adopted 2021)"
+    ],
+    "quoted_span": "Increase in residential rents are limited to the lower of 3% per year, or 80% of the percent change in the Consumer Price Index over the most recent 12-month period.",
+    "confidence": 0.8,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "The page is a city press release and gives no municipal code section. The citation is by ordinance name. The construction-date basis is not stated, so year_built is assumed.",
+    "source_notes": "Official city news release. The effective date of Nov 19, 2021 is stated in the headline and text."
+   },
+   {
+    "candidate_id": "c2",
+    "jurisdiction": "Santa Ana, CA",
+    "category": "just_cause_eviction",
+    "status": "in_force",
+    "title": "Santa Ana Just Cause Eviction Ordinance",
+    "requirement": "After 30 days of tenancy, an owner may not terminate a tenancy without just cause, which must be stated in a written notice. At-fault causes include nonpayment of rent, material lease breach, nuisance and criminal activity. No-fault causes include owner occupancy, withdrawal from the rental market, and demolition or substantial remodel. For at-fault terminations, the owner must first give notice of the violation and time to cure. For no-fault terminations, the owner must provide 3 months of relocation assistance or waive rent for the final 3 months. Owners must notify existing tenants of the ordinance's protections before Dec 19, 2021, and notify new or renewing tenants at lease commencement or renewal.",
+    "key_value": "Just cause required after 30 days; notice to cure before termination notice; no-fault termination requires 3 months relocation assistance or 3 months rent waiver; tenant-rights notice due before Dec 19, 2021 for existing tenants",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": {
+      "years": 15,
+      "basis": "housing produced in the last 15 years",
+      "requires_owner_filing": null
+     },
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [
+      "deed-restricted affordable housing"
+     ],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Most residential rentals, except housing produced in the last 15 years, deed-restricted affordable housing, hotel and transient occupancy, hospital and care facilities, dormitories, and other shared living quarters.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": 15,
+     "owner_conditions": null,
+     "other_conditions": "Tenancy of more than 30 days."
+    },
+    "exemptions": "Housing produced in the last 15 years; deed-restricted affordable housing; hotel and transient occupancy; hospital and care facilities; dormitories; and other shared living quarters.",
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": "2021-11-19",
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "The council adopted the ordinance on a Tuesday night, but the page does not state the adoption date.",
+    "effective_date_formula": null,
+    "citation": "Santa Ana Just Cause Eviction Ordinance",
+    "citation_aliases": [
+     "Santa Ana JCO",
+     "Santa Ana Just Cause Eviction Ordinance (adopted 2021)"
+    ],
+    "quoted_span": "After 30 days, an owner shall not terminate a tenancy without just cause, which shall be stated in a written notice.",
+    "confidence": 0.8,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "The page is a city press release and gives no municipal code section. The relocation requirement is folded into this record because the page does not describe it as a separate code section. The 15-year exemption is described as housing produced in the last 15 years, measured from an unstated reference date.",
+    "source_notes": "Official city news release. The effective date of Nov 19, 2021 is stated in the headline and text."
+   }
+  ],
+  "no_rule_findings": [],
+  "doc_summary": "A City of Santa Ana news release announces that the City Council adopted a Rent Stabilization Ordinance and a Just Cause Eviction Ordinance, both effective Nov 19, 2021. The rent cap is the lower of 3% or 80% of the CPI change. It excludes buildings constructed after Feb 1, 1995, and mobile home spaces offered for rent after Jan 1, 1990. It includes an owner petition process and a tenant-rights notice requirement. The just cause ordinance requires stated just cause after 30 days of tenancy, gives a cure notice before at-fault termination, and requires 3 months of relocation assistance or a rent waiver for no-fault terminations. It exempts several property types."
+ }
+}

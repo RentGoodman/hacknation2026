@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "DX02:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 7736,
+  "output_tokens": 940
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "partly_supported",
+    "quoted_span": "It is unlawful for any real estate lessor, agent, or subcontractor thereof, to subscribe to, contract with, or otherwise\nexchange anything of value in return for the services of a Service Provider.",
+    "note": "Core prohibition, definitions, enforcement and penalties are supported by DX02. However, the 'or otherwise utilize' amendment from Ord. 25-076 is not in DX02, which contains only the original text. The 'any person performing a coordinating function' definition and the 'two or more lessors or public databases' collection element are supported. The 'and exempts same-owner' point is in the exemptions field, not here."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "A first violation of § 218-12 shall be punishable as provided in Chapter 1, General Provisions, Art. I, § 1-25.\nSubsequent violations shall be punished by a fine of not less than $100 and up to $2000",
+    "note": "First violation under § 1-25, subsequent $100–$2,000, each day a separate violation, and private right of action with costs and attorney fees are all in DX02 (§3(b), 3(c), 3(d))."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The field is empty, and DX02 states no effective date. It gives only adoption (May 21, 2025) and mayoral approval (May 22, 2025) dates."
+   },
+   {
+    "field": "status",
+    "verdict": "partly_supported",
+    "quoted_span": "Adopted on second and final reading after hearing on May 21 2025",
+    "note": "DX02 shows the ordinance was adopted and approved by the Mayor, but it does not state that it is currently in force. The Ord. 25-076 amendment is not in this document."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "“Residential dwelling unit” means any house, apartment, accessory unit, or other unit intended to be used as a\nperson’s primary residence; and does not include inpatient medical care, licensed long-term care, and detention or\ncorrectional facilities.",
+    "note": "The lessor definition (owner of real property leasing it as a residential dwelling unit) and the residential unit definition with exclusions match DX02. No size or age conditions are stated, consistent with the null fields."
+   },
+   {
+    "field": "citation",
+    "verdict": "partly_supported",
+    "quoted_span": "§218-12 Preventing Algorithmic Rent Fixing in the Rental Housing Market:",
+    "note": "DX02 supports § 218-12, Chapter 218 and Ord. 25-057 as well as the title. 'Jersey City Code' as the code name is supported only loosely. Ord. 25-076 and the 'Jersey City RealPage ban' alias do not appear in DX02."
+   }
+  ]
+ }
+}

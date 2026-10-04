@@ -1,0 +1,9 @@
+{
+  "doc_id": "D013",
+  "source_url": "https://www.boston.gov/housing-stability-notification-act",
+  "model": "anthropic:claude-sonnet-5-5",
+  "query_date": "2026-10-01",
+  "chunks": 1,
+  "rules": [],
+  "rejected": []
+}

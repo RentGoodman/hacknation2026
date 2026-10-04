@@ -1,0 +1,67 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "cell",
+ "subject": "Jersey City, NJ|algorithmic_rent_setting",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 4476,
+  "output_tokens": 1615
+ },
+ "result": {
+  "cell_status": "rules_found",
+  "no_rule_quote": null,
+  "no_rule_passage_id": null,
+  "basis_citation": null,
+  "rules": [
+   {
+    "jurisdiction": "Jersey City, NJ",
+    "category": "algorithmic_rent_setting",
+    "status": "in_force",
+    "title": "Preventing Algorithmic Rent Fixing in the Rental Housing Market",
+    "requirement": "Jersey City bars landlords from using algorithmic rent coordination services. The ordinance defines coordination as collecting nonpublic competitor information from lessors, processing it with software or computation, and recommending rental prices, lease terms or occupancy levels to a lessor. A secondary source says the law has both public and private enforcement. The retrieved text is truncated, so the full prohibition, penalties and exemptions are not shown.",
+    "key_value": null,
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Applies to landlords and others using or providing algorithmic rent coordination services in Jersey City's rental housing market. The ordinance is added to Chapter 218 (Multiple Dwellings). No unit-count or building-age limits appear in the retrieved text.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": null
+    },
+    "exemptions": null,
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "The ordinance passages do not state an effective date. A secondary source (DX06) lists the effective date as June 2025.",
+    "effective_date_formula": null,
+    "citation": "Jersey City Code § 218-12",
+    "citation_aliases": [
+     "Ord. 25-057",
+     "Jersey City Code ch. 218",
+     "Preventing Algorithmic Rent-Fixing in the Rental Housing Market"
+    ],
+    "quoted_span": "Prohibits a landlord’s use of algorithmic rent coordination services; includes public and private enforcement",
+    "confidence": 0.6,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "The official ordinance text is truncated, so the operative prohibition and penalty provisions were not seen. The summary of the prohibition and enforcement comes from a secondary law-firm table. Status is in_force based on the June 2025 effective date in that table.",
+    "source_notes": "Definitions come from Ord. 25-057 (DX02). The effective date and enforcement description come from the secondary source DX06.",
+    "passage_id": "p7"
+   }
+  ]
+ }
+}

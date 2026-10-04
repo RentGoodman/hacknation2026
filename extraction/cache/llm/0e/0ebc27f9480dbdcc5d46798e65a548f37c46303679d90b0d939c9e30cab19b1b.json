@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D083:c2",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 3530,
+  "output_tokens": 697
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "partly_supported",
+    "quoted_span": "4.2% for March 1, 2026 – February 28, 2027",
+    "note": "The rates (4.2%, 5.0%, 5.2%) are in the document's table. The document does not say who pays the interest, which units are covered, or how it is credited. It also does not mention Cal. Civ. Code § 1950.5 or state-law deposit caps and return rules, so that sentence is not supported."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "March 1, 2026 – February 28, 2027\n4.2%\nMarch 1, 2025 – February 28, 2026\n5.0%\nMarch 1, 2024 – February 28, 2025\n5.2%",
+    "note": "All three rates and their periods match the document's security deposit interest table."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The effective_date field is empty. The document does not say when the interest requirement took effect, which matches the rule's own note. The 3/1/2026 date appears only as the current rate period."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "Security Deposit Interest:\n4.2% for March 1, 2026 – February 28, 2027",
+    "note": "The rate is presented as current for the March 1, 2026 – February 28, 2027 period, consistent with in_force."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "Learn about security deposits.",
+    "note": "The page publishes only rates and gives no information on covered buildings, units or owners, so the coverage summary and requires_unknown_facts=true are consistent with the document."
+   },
+   {
+    "field": "citation",
+    "verdict": "partly_supported",
+    "quoted_span": "572 Security Deposit Interest Rates",
+    "note": "The alias 'Rent Board security deposit interest rate' and the label '572 Security Deposit Interest Rates' appear in the document. The document names no governing law, as the citation itself says. The document is an SF.gov Rent Board page, which supports the San Francisco attribution."
+   }
+  ]
+ }
+}

@@ -1,0 +1,130 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D023:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 45911,
+  "output_tokens": 5336
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": {
+    "years": 15,
+    "basis": "certificate of occupancy issued within the previous 15 years (rolling; not applicable to mobilehomes)",
+    "requires_owner_filing": false
+   },
+   "owner_occupied_exemption_max_units": 2,
+   "requires_unknown_facts": false,
+   "unverifiable_exemptions": [
+    "Housing restricted by deed, regulatory agreement or recorded document as affordable housing, or subject to an affordable-housing subsidy agreement",
+    "Separately alienable property whose owner is not a REIT, corporation, LLC with a corporate member or mobilehome park management, and whose tenants received the statutory written exemption notice",
+    "Owner-occupied single-family residence renting no more than two units or bedrooms, and owner-occupied duplex",
+    "Housing where the tenant shares a bathroom or kitchen with the resident owner",
+    "Transient hotels; nonprofit hospital, religious, extended care, RCFE and adult residential facilities; school dormitories"
+   ],
+   "yields_to_local_rule": true,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": true,
+   "landlord_size_condition": null,
+   "summary": "Applies statewide to residential real property, including units in mobilehome parks, once a tenant has occupied it for 12 months (24 months if adult tenants were added), except for the listed exemptions. Housing with a certificate of occupancy issued within the previous 15 years is exempt unless it is a mobilehome. The section does not apply to property subject to a local just-cause ordinance adopted on or before Sept. 1, 2019. It also does not apply to property under a later ordinance that is more protective and contains a binding finding saying so; the local ordinance applies instead. A less protective local ordinance adopted after Sept. 1, 2019 is not enforced while this section is in effect.",
+   "construction_date_basis": "certificate of occupancy (rolling 15-year exemption)",
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": 15,
+   "owner_conditions": "The separately alienable property exemption requires a non-REIT, non-corporate owner and the statutory notice. Owner-occupied single-family residences renting no more than two units or bedrooms are exempt. Owner-occupied duplexes are exempt while the owner remains in occupancy and neither unit is an ADU or JADU.",
+   "other_conditions": "Does not apply to a homeowner of a mobilehome (subd. (l))."
+  },
+  "evidence": [
+   {
+    "field": "new_construction_exemption",
+    "doc_id": "D023",
+    "quoted_span": "Housing that has been issued a certificate of occupancy within the previous 15"
+   },
+   {
+    "field": "construction_date_basis",
+    "doc_id": "D023",
+    "quoted_span": "Housing that has been issued a certificate of occupancy within the previous 15"
+   },
+   {
+    "field": "min_building_age_years",
+    "doc_id": "D023",
+    "quoted_span": "Housing that has been issued a certificate of occupancy within the previous 15"
+   },
+   {
+    "field": "owner_occupied_exemption_max_units",
+    "doc_id": "D023",
+    "quoted_span": "(A) A residence in which the owner-occupant rents or leases no more than two units or bedrooms, including, but not limited to, an accessory dwelling unit or a junior accessory dwelling unit."
+   },
+   {
+    "field": "requires_unknown_facts",
+    "doc_id": "D023",
+    "quoted_span": "(2) “Residential real property” means any dwelling or unit that is intended for human habitation, including any dwelling or unit in a mobilehome park."
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D023",
+    "quoted_span": "(9) Housing restricted by deed, regulatory restriction contained in an agreement with a government agency, or other recorded document as affordable housing for persons and families of very low, low, or moderate income"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D023",
+    "quoted_span": "(8) Residential real property, including a mobilehome, that is alienable separate from the title to any other dwelling unit, provided that both of the following apply:"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D023",
+    "quoted_span": "(6) A property containing two separate dwelling units within a single structure in which the owner occupied one of the units as the owner’s principal place of residence at the beginning of the tenancy, so long as the owner continues in occupancy, and neither unit is an accessory dwelling unit or a junior accessory dwelling unit."
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D023",
+    "quoted_span": "(4) Housing accommodations in which the tenant shares bathroom or kitchen facilities with the owner who maintains their principal residence at the residential real property."
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D023",
+    "quoted_span": "(1) Transient and tourist hotel occupancy as defined in subdivision (b) of Section 1940."
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D023",
+    "quoted_span": "(3) Dormitories owned and operated by an institution of higher education or a kindergarten and grades 1 to 12, inclusive, school."
+   },
+   {
+    "field": "yields_to_local_rule",
+    "doc_id": "D023",
+    "quoted_span": "(A) Residential real property subject to a local ordinance requiring just cause for termination of a residential tenancy adopted on or before September 1, 2019, in which case the local ordinance shall apply."
+   },
+   {
+    "field": "may_preempt_local_rules",
+    "doc_id": "D023",
+    "quoted_span": "after September 1, 2019, that is less protective than this section shall not be enforced unless this section is repealed."
+   },
+   {
+    "field": "summary",
+    "doc_id": "D023",
+    "quoted_span": "after a tenant has continuously and lawfully occupied a residential real property for 12 months, the owner of the residential real property shall not terminate a tenancy without just cause"
+   },
+   {
+    "field": "owner_conditions",
+    "doc_id": "D023",
+    "quoted_span": "(ii) A corporation."
+   },
+   {
+    "field": "owner_conditions",
+    "doc_id": "D023",
+    "quoted_span": "(A) A residence in which the owner-occupant rents or leases no more than two units or bedrooms, including, but not limited to, an accessory dwelling unit or a junior accessory dwelling unit."
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D023",
+    "quoted_span": "(l) This section shall not apply to a homeowner of a mobilehome, as defined in Section 798.9."
+   }
+  ],
+  "notes": "Changed requires_unknown_facts from true to false. The section covers ordinary residential real property statewide, and its exemptions (affordable housing, separately alienable property with notice, owner-occupied units, and others) are already listed in unverifiable_exemptions. Removed the sentence in the summary naming specific local ordinances (Berkeley, LA, SF, San Diego, Santa Ana) because none of the provided documents support it. construction_cutoff stays null because the 15-year exemption is rolling, not a fixed date; it is captured in new_construction_exemption and min_building_age_years. Other fields are retained as supported by D023."
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D012:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 2584,
+  "output_tokens": 570
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "The landlord tells you they don't accept rental assistance. This includes Section\n8 vouchers, social security disability vouchers, and veterans vouchers.",
+    "note": "Document lists rental assistance as protected and gives refusal as an example. Complaints go to the commission; the 'Office of Fair Housing and Equity' name is close to the 'Fair Housing and Equity' contact listed."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "The landlord tells you they don't accept rental assistance. This includes Section\n8 vouchers, social security disability vouchers, and veterans vouchers.",
+    "note": "Matches the listed example of housing discrimination."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "Field is empty and the page states no enactment or effective date."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "In the City of Boston, it’s illegal to discriminate when renting, buying, selling, or securing financing for any housing.",
+    "note": "Present-tense statement that discrimination is illegal supports in_force."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "In the City of Boston, it’s illegal to discriminate when renting, buying, selling, or securing financing for any housing.",
+    "note": "Summary matches; the page states no unit-count, size, date or owner-occupancy limits, and the null fields are consistent."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "Boston Fair Housing Regulations",
+    "note": "Matches the page title. The page names no ordinance section, as the review note acknowledges."
+   }
+  ]
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D073:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 19943,
+  "output_tokens": 885
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "A landlord shall not terminate a tenancy without just cause. For purposes of this Division, just cause includes at-fault just cause and no-fault just cause.",
+    "note": "The requirement summary tracks §§ 98.0704–98.0708: at-fault and no-fault causes, notices, relocation assistance, right of first offer, Commission notice delay, buyouts, and retaliation. Voiding of the notice is in §§ 98.0706(e) and 98.0710."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "the direct payment to the tenant shall be in an amount equal to two months of actual rent under the tenant’s lease in effect at the date of the notice.",
+    "note": "Three months for seniors or disabled tenants is in § 98.0706(c)(1)(A)(ii). The 15-day payment, rent waiver option, 5-year offer right with 30 days to accept, 3x damages in § 98.0709(d) and (e), and buyouts exceeding relocation assistance in § 98.0707(d) are all in the text."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "supported",
+    "quoted_span": "(“Just Cause Required for Termination of Tenancy” added 5-25-2023 by O-21647 N.S.; effective 6-24-2023.)",
+    "note": "Effective 6-24-2023 is confirmed, and the amendment effective 3-28-2024 is also shown."
+   },
+   {
+    "field": "status",
+    "verdict": "partly_supported",
+    "quoted_span": "(Amended 2-27-2024 by O-21769 N.S.; effective 3-28-2024.)",
+    "note": "The text is the 3-2024 edition and shows no repeal or sunset, which is consistent with in_force. The document cannot confirm that it is currently in force beyond that edition."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "(k) housing that has been issued a certificate of occupancy within the previous 15 years, unless the housing is a mobilehome; and",
+    "note": "The exemptions in § 98.0703(a)–(l), the definitions of residential rental property and tenancy, and the Section 8 carve-out all match. The two-unit owner-occupied and single-family owner-occupied exemptions are accurately described."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "§98.0704 Just Cause Required for Termination of Tenancy",
+    "note": "The section is correctly cited. The aliases (Division 7, §§ 98.0701–98.0710, O-21647, O-21769, O-19269, and the tenants' right to know title) all appear in the text."
+   }
+  ]
+ }
+}

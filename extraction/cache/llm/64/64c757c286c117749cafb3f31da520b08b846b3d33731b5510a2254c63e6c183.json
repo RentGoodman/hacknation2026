@@ -1,0 +1,21 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "date_audit",
+ "subject": "D024:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 47625,
+  "output_tokens": 860
+ },
+ "result": {
+  "requirement_is_new": false,
+  "in_force_since": "2019-03-15",
+  "in_force_since_evidence": {
+   "doc_id": "D024",
+   "quoted_span": "This section shall apply to all rent increases subject to subdivision (a) occurring on or after March 15, 2019, except as provided in subdivision (i)."
+  },
+  "current_version_effective": "2024-04-01",
+  "prior_version_note": "An earlier § 1947.12 existed; Stats. 2023, ch. 290 (SB 567) repealed it and re-added the section, effective Jan. 1, 2024 and operative April 1, 2024. The documents do not set out how the earlier text differed. The cap reaches back to rent increases on or after March 15, 2019, with a reset to the March 15, 2019 rent plus the allowed increase as of Jan. 1, 2020. For mobilehome tenancies it applies only to increases on or after Feb. 18, 2021.",
+  "effective_date_formula": null
+ }
+}

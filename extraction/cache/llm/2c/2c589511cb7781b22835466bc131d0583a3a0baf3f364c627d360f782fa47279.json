@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D083:c2",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 3538,
+  "output_tokens": 708
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "partly_supported",
+    "quoted_span": "Security Deposit Interest:\n4.2% for March 1, 2026 – February 28, 2027",
+    "note": "The document supports the rates for the three periods (4.2%, 5.0%, 5.2%) listed by the Rent Board. It does not say the Rent Board 'publishes' a rate that 'applies to tenant security deposits' as a legal requirement, and it says nothing about Cal. Civ. Code § 1950.5 applying alongside the rate. The statement that the documents give no local cap or deadline is consistent with the document."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "March 1, 2026 – February 28, 2027\n4.2%\nMarch 1, 2025 – February 28, 2026\n5.0%\nMarch 1, 2024 – February 28, 2025\n5.2%",
+    "note": "All three rates and their periods match the security deposit interest table."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "supported",
+    "quoted_span": "March 1, 2026 – February 28, 2027",
+    "note": "2026-03-01 is the start of the current rate period, as the rule's own note explains."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "For March 1, 2026 - February 28, 2027",
+    "note": "The page presents the 2026-27 rate as the current one, consistent with in_force."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "4.2% for March 1, 2026 – February 28, 2027",
+    "note": "The document gives the rate but does not say which buildings, units or owners it covers. The summary says so and sets no conditions, which is accurate."
+   },
+   {
+    "field": "citation",
+    "verdict": "not_supported",
+    "quoted_span": null,
+    "note": "The document cites no S.F. Admin. Code ch. 49. The only ordinance sections it mentions are Rent Ordinance Section 37.9C and 37.9A (relocation) and Cal. Civ. Code § 1947.9. The rule's review note itself admits the ch. 49 citation is not drawn from the documents."
+   }
+  ]
+ }
+}

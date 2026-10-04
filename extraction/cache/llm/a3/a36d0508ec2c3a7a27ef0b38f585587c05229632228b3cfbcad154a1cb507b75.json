@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D065:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 9085,
+  "output_tokens": 1833
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "shall not make any oral or written inquiry",
+    "note": "Each element of the requirement text matches the act: the pre-offer inquiry ban with its two exceptions, the barred record types, the post-offer limits and lookbacks, the withdrawal standard and notice, the 30-day request and 10-day free copy, the fee disclosure, the advertising, drug-test and treatment-record bans, Division-only complaints with 14-day mediation, the penalty tiers, and fee return."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "is for an indictable offense of the first degree\nthat was issued, or if the conviction resulted in a prison\nsentence that\nsentence concluded, within the six years immediately preceding the issuance of\nthe conditional offer;",
+    "note": "The 6, 4 and 1 year lookbacks, the unlimited lookback for listed serious crimes and lifetime registration, the 30-day request, the 10-day free copy, and the $1,000, $5,000 and $10,000 penalty tiers all match sections 5 and 12."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "supported",
+    "quoted_span": "This act shall take effect on the first day of the\nseventh month next following the date of enactment",
+    "note": "The act was approved June 18, 2021. The seventh month after that is January 2022, so the first day is 2022-01-01. The enactment date of 2021-06-18 matches the document."
+   },
+   {
+    "field": "status",
+    "verdict": "partly_supported",
+    "quoted_span": "This act shall take effect on the first day of the\nseventh month next following the date of enactment",
+    "note": "The document shows the effective date and says nothing about repeal or amendment. It cannot confirm the current in_force status without knowing today's date."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "“Rental dwelling unit” means a dwelling unit offered\nfor rent by a housing provider for residential purposes,\nother than a dwelling unit in an\nowner-occupied premises of not more than four dwelling units.",
+    "note": "The four-unit owner-occupied exclusion matches the definition. The other coverage fields are null and the document sets no other conditions."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "P.L. 2021, c.110 (S250 3R CC CC)",
+    "note": "The document matches the citation and the aliases S250 and Fair Chance in Housing Act. The C.46:8-52 to C.46:8-64 section headings match the N.J.S.A. aliases."
+   }
+  ]
+ }
+}

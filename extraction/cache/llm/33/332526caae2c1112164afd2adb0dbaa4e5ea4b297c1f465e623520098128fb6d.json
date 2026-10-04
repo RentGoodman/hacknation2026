@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "DX05:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 4566,
+  "output_tokens": 739
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "It is unlawful for a landlord to use an algorithmic device to set rental rates or\n                            occupancy levels for residential rental property.",
+    "note": "Sale/license ban, use ban, definition, per-month/per-property violations, tenant remedies, fee recovery, cumulative remedies and City enforcement all appear in §§ 98.1102-98.1104."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "A tenant may seek injunctive relief, damages, or civil penalties of up to\n                      $1,000 per violation of this Division",
+    "note": "Penalty cap, separate violations, fee recovery, City civil and criminal enforcement, and effective 6-21-2025 are all stated."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "supported",
+    "quoted_span": "added 5-22-2025 by O-21955 N.S.; effective 6-21-2025.",
+    "note": "Enacted 5-22-2025, effective 6-21-2025. The 30-days-after-final-passage formula is not in this document, but the dates match."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "added 5-22-2025 by O-21955 N.S.; effective 6-21-2025.",
+    "note": "The code (6-2025 edition) shows the division as added and effective, so in_force is consistent. No repeal or sunset appears."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "It is unlawful for a person to sell, license, or otherwise provide an algorithmic\n                            device to a landlord.",
+    "note": "Applies to residential rental property in the City of San Diego, to sellers/licensors and landlords. No unit, date or owner limits are stated. The 'Residential rental property' meaning is cross-referenced to § 98.0702, not set out here, so the quoted definition text is not in this document."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "§98.1103             Use and Sale of Algorithmic Devices Prohibited",
+    "note": "§§ 98.1101-98.1104, O-21955 N.S., and the division title appear in the text. The O-2025-107 alias is not in this document."
+   }
+  ]
+ }
+}

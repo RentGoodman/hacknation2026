@@ -1,0 +1,68 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "cell",
+ "subject": "Los Angeles, CA|security_deposits",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 4360,
+  "output_tokens": 1557
+ },
+ "result": {
+  "cell_status": "rules_found",
+  "no_rule_quote": null,
+  "no_rule_passage_id": null,
+  "basis_citation": null,
+  "rules": [
+   {
+    "applies_only_in": null,
+    "category": "security_deposits",
+    "citation": "L.A. Mun. Code § 151.06.02",
+    "citation_aliases": [
+     "LAMC 151.06.02",
+     "L.A. Mun. Code ch. XV, art. 1 (RSO)",
+     "Los Angeles Rent Stabilization Ordinance (RSO)",
+     "LARSO"
+    ],
+    "conflict_flag": false,
+    "conflict_note": null,
+    "confidence": 0.7,
+    "coverage": {
+     "built_after": null,
+     "built_on_or_before": null,
+     "construction_cutoff": null,
+     "construction_date_basis": null,
+     "landlord_size_condition": null,
+     "max_units": null,
+     "may_preempt_local_rules": null,
+     "min_building_age_years": null,
+     "min_units": null,
+     "new_construction_exemption": null,
+     "other_conditions": "Applies to rental units subject to the Los Angeles Rent Stabilization Ordinance (RSO/LARSO). The interest rate is set annually by the City.",
+     "owner_conditions": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "summary": "Landlords of RSO-covered units in the City of Los Angeles must pay tenants interest on security deposits.",
+     "supersedes_state_rule": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null
+    },
+    "effective_date": "1990-11-01",
+    "effective_date_formula": null,
+    "effective_date_note": "Interest accrual began November 1, 1990, per the quoted code text.",
+    "enacted_date": null,
+    "event_only": false,
+    "exemptions": null,
+    "jurisdiction": "Los Angeles, CA",
+    "key_value": "Interest accrues monthly on security deposits (accrual began Nov. 1, 1990); paid monthly or yearly, as a direct payment or rent credit; landlord must notify tenant in writing of the chosen method; annual rate set by the City (no figure stated in the passages)",
+    "passage_id": "p7",
+    "quoted_span": "Interest shall begin accruing on November 1, 1990, on a monthly basis. A tenant shall be given the unpaid accrued interest in the form of either a direct payment or a credit against the tenant’s rent. The landlord shall choose between these two methods of payment and notify the tenant in writing of his or her choice. The landlord may elect to pay the accrued interest on a monthly or yearly basis.",
+    "requirement": "Landlords of RSO-covered units must pay accrued security deposit interest to the tenant, either monthly or yearly, as a direct payment or a credit against rent. The landlord must choose the method and notify the tenant in writing. Waiting until the end of the tenancy to pay the interest does not comply.",
+    "review_note": "Described through secondary sources (an AAGLA landlord article quoting the code). The passages do not state the deposit amount cap, return deadline or deductions for Los Angeles. The annual rate is not given.",
+    "source_notes": "The scope to RSO units and the annual City-set rate come from the secondary source (D X12, AAGLA article); the quoted code text is from the same article.",
+    "status": "in_force",
+    "sunset_date": null,
+    "title": "Security deposit interest requirement (RSO)"
+   }
+  ]
+ }
+}

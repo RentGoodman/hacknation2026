@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D067:c6",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 59361,
+  "output_tokens": 740
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "If a building is converted to a condominium or cooperative form of ownership, or to fee \nsimple ownership of units, rents may not be increased to cover cos ts resulting solely from the \nconversion (N.J.S.A. 2A:18-61.31). This does not mean that rents may not be increased to cover \nthe cost of new services or amenities. This prohibition applies to all tenants in the building \nregardless of whether they are eligible for protected tenancy as senior citizens or disabled persons.",
+    "note": "All elements of the requirement (conversion trigger, bar on conversion-cost increases, new services/amenities allowed, all tenants covered) are stated in the guide."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "rents may not be increased to cover cos ts resulting solely from the \nconversion",
+    "note": "The key value restates the prohibition on rent increases for costs resulting solely from conversion."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The field is empty and the guide states no effective date for this provision."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "rents may not be increased to cover cos ts resulting solely from the \nconversion (N.J.S.A. 2A:18-61.31).",
+    "note": "The guide presents the prohibition in present tense as current law, which is consistent with in_force."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "If a building is converted to a condominium or cooperative form of ownership, or to fee \nsimple ownership of units",
+    "note": "The guide ties the rule to converted buildings and extends it to all tenants in the building, whether or not they are eligible for protected tenancy. All other coverage fields are null, and the guide states nothing for them."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "(N.J.S.A. 2A:18-61.31)",
+    "note": "The guide cites this section for the prohibition. The aliases (2A:18-61.22 to -61.39 and the Senior Citizens and Disabled Protected Tenancy Act) also appear in the guide's protected tenancy section."
+   }
+  ]
+ }
+}

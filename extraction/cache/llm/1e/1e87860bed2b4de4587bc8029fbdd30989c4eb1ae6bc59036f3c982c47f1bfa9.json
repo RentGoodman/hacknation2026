@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "DX06:c10",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 5946,
+  "output_tokens": 633
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "Seattle’s ordinance expressly prohibits specified algorithmic coordinating services and provides penalties of up to $7,500 per violation.",
+    "note": "The document supports the prohibition and penalty. The rule's 'multifamily rental housing' framing is consistent with the document's description of Seattle multifamily properties."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "penalties of up to $7,500 per violation",
+    "note": "Table says 'penalties may reach $7,500 per violation'; the text says 'up to $7,500 per violation'."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The rule's effective_date field is null. The document gives only 'effective July 2025' (month only), which the rule records in in_force_since and effective_date_note; no exact date is stated."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "Seattle Mun. Code ch. 7.34 (effective July 2025)",
+    "note": "The document says the ordinance is effective July 2025 and is being enforced in pending cases, consistent with in_force."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "violated Seattle Municipal Code Chapter 7.34 by using prohibited “coordinating services” in connection with Seattle multifamily properties",
+    "note": "The coverage summary matches the document. The document states no size, age or owner limits for Seattle, consistent with the null coverage fields."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "Seattle Mun. Code ch. 7.34.040",
+    "note": "The document cites ch. 7.34.040 for the prohibition and penalties, and ch. 7.34 in the table. The rule's '§ 7.34.040' and its alias ch. 7.34 are consistent."
+   }
+  ]
+ }
+}

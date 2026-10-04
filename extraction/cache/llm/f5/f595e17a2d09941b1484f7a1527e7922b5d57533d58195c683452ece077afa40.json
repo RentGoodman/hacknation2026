@@ -1,0 +1,77 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D025:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 45599,
+  "output_tokens": 2607
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": true,
+   "unverifiable_exemptions": [
+    "Small-landlord two-month cap: landlord is a natural person (including a family-trust settlor or beneficiary) or an LLC whose members are all natural persons, and owns no more than two residential rental properties with no more than four units offered for rent in total"
+   ],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": "The two-month cap applies only to a natural person or an all-natural-person LLC owning no more than two residential rental properties with no more than four dwelling units offered for rent collectively, and never to a service member tenant.",
+   "summary": "Security for any rental agreement for residential property used as the tenant's dwelling, statewide.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": "Small-landlord ownership structure determines whether the higher two-month cap is available.",
+   "other_conditions": "The cap in subd. (c) does not apply to security collected or demanded before July 1, 2024."
+  },
+  "evidence": [
+   {
+    "field": "summary",
+    "doc_id": "D025",
+    "quoted_span": "This section applies to security for a rental agreement for residential property that is used as the dwelling of the tenant."
+   },
+   {
+    "field": "landlord_size_condition",
+    "doc_id": "D025",
+    "quoted_span": "landlord owns no more than two residential rental properties that collectively include no more than four dwelling units offered for rent."
+   },
+   {
+    "field": "landlord_size_condition",
+    "doc_id": "D025",
+    "quoted_span": "Subparagraph (A) shall not apply if the prospective tenant is a service member."
+   },
+   {
+    "field": "owner_conditions",
+    "doc_id": "D025",
+    "quoted_span": "The landlord is a natural person or a limited liability company in which all members are natural persons."
+   },
+   {
+    "field": "requires_unknown_facts",
+    "doc_id": "D025",
+    "quoted_span": "landlord owns no more than two residential rental properties that collectively include no more than four dwelling units offered for rent."
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D025",
+    "quoted_span": "The landlord is a natural person or a limited liability company in which all members are natural persons."
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D025",
+    "quoted_span": "settlor or beneficiary of a family trust."
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D025",
+    "quoted_span": "This subdivision shall not apply to a security collected or demanded by the landlord before July 1, 2024."
+   }
+  ],
+  "notes": "Removed two parts of other_conditions. (1) The claim that local deposit-interest rules (Berkeley, LA RSO, San Francisco) are complementary is not supported by any supplied document; D007 is not among the documents provided. (2) The CCP § 1161(2)-(4) carve-out limits the landlord's initial-inspection duty, which is landlord conduct rather than building, unit or owner coverage. All remaining values are supported verbatim by D025. Fields for unit counts, construction dates and local-rule interaction stay null because § 1950.5 contains no such limits in the supplied text."
+ }
+}

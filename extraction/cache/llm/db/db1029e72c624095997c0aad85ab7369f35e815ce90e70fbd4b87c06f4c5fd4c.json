@@ -1,0 +1,67 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "cell",
+ "subject": "CA|algorithmic_rent_setting",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 4184,
+  "output_tokens": 1842
+ },
+ "result": {
+  "cell_status": "rules_found",
+  "no_rule_quote": null,
+  "no_rule_passage_id": null,
+  "basis_citation": null,
+  "rules": [
+   {
+    "jurisdiction": "CA",
+    "category": "algorithmic_rent_setting",
+    "status": "in_force",
+    "title": "California Cartwright Act amendments on common pricing algorithms (AB 325 / SB 763)",
+    "requirement": "The Cartwright Act amendments bar using or distributing a common pricing algorithm if the person coerces another person to adopt its recommended price or commercial term. A common pricing algorithm is any methodology used by two or more persons that uses competitor data to recommend, align, stabilize, set, or otherwise influence a price or commercial term. Per the secondary source, the amendments also bar using or distributing such algorithms as part of an agreement to restrain trade. Antitrust laws still apply independently. The law is not specific to rental housing; it covers all industries, including apartment rentals.",
+    "key_value": "Civil fines of up to $1 million in cases brought by the Attorney General or a district attorney (per secondary source)",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Statewide general antitrust rule that covers users and distributors of common pricing algorithms in any industry, including residential rentals. It applies only where the algorithm has two or more users and uses competitor data. Proprietary algorithms using only the business's own data are not affected.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": "Algorithm must be used by two or more persons and use competitor data."
+    },
+    "exemptions": "Does not affect a business that uses proprietary algorithms using only its own data (secondary source).",
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": "2026-01-01",
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "The January 1, 2026 effective date comes from a secondary law-firm source (passage p8). The Governor signed AB 325 and SB 763 'last October' per that source, but the year is not stated.",
+    "effective_date_formula": null,
+    "citation": "AB 325",
+    "citation_aliases": [
+     "SB 763",
+     "Cartwright Act",
+     "California Cartwright Act amendments"
+    ],
+    "quoted_span": "to use or distribute a common pricing algorithm if the person coerces another person to set or adopt a recommended price or commercial term recommended by the common pricing algorithm for the same or similar products or services in the jurisdiction of this state.",
+    "confidence": 0.7,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "The retrieved statute text is truncated and does not show the codified section number, so the primary citation is the bill number named in the secondary source. The 'agreement to restrain trade' prohibition and the $1 million fine rest on secondary-source description only.",
+    "source_notes": "The statute text is from D022 (official). The effective date, penalty and scope description are from D009's law-firm alert (DX09, secondary).",
+    "passage_id": "p1"
+   }
+  ]
+ }
+}

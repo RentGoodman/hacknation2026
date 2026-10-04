@@ -1,0 +1,68 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "extract",
+ "subject": "D031",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 2164,
+  "output_tokens": 1386
+ },
+ "result": {
+  "rules": [
+   {
+    "candidate_id": "c1",
+    "jurisdiction": "Cambridge, MA",
+    "category": "just_cause_eviction",
+    "status": "in_force",
+    "title": "Cambridge Tenants Rights and Resources Notification Ordinance",
+    "requirement": "Owners, landlords and management companies must give tenants the city's Tenants Rights and Resources Guide at the start of a tenancy (when the lease is signed, a tenancy agreement is entered into, or first month's rent is tendered) and again when legal steps to terminate a tenancy are taken (e.g. Notice to Quit or Summary Process). The guide must be offered at the same time as a notice to quit. Renewals do not require it. Tenant signature is not required. Tenants at will and all lawful occupants must receive it. The ordinance does not bar evictions otherwise allowed by law.",
+    "key_value": "Fine of $300 for each day's violation; guide due at tenancy start and with notice to quit or summary process",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [
+      "units in a non-profit facility whose primary purpose is short-term substance abuse treatment or assistance"
+     ],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": "Applies to all landlords, including an owner of a single rental unit in the building where the owner lives",
+     "summary": "Applies to residential rental agreements, including single dwelling units and tenancies at will. Excludes units in hospitals, skilled nursing or health facilities, short-term substance-abuse treatment facilities, and Short Term Rental Units.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": "Excludes rental units in hospitals, skilled nursing facilities or health facilities, non-profit short-term substance abuse treatment facilities, and Short Term Rental Units under Cambridge Zoning Ordinance Art. 4, § 4.60."
+    },
+    "exemptions": "Rental units in a hospital, skilled nursing facility or health facility, or in a non-profit facility whose primary purpose is short-term assistance, treatment or therapy for alcohol, drug or other substance abuse; Short Term Rental Units under Cambridge Zoning Ordinance Art. 4, § 4.60.",
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "The page was posted 10/14/2020, but the ordinance's effective date is not stated.",
+    "effective_date_formula": null,
+    "citation": "Cambridge Mun. Code ch. 8.71",
+    "citation_aliases": [
+     "Cambridge Municipal Code Chapter 8.71",
+     "Cambridge Mun. Code § 8.71.030",
+     "Cambridge Mun. Code § 8.71.070",
+     "Tenants Rights and Resources Ordinance"
+    ],
+    "quoted_span": "The Ordinance also requires that a landlord provide the Guide to tenants when legal steps to terminate a tenancy are taken (ex. Notice to Quit or Summary Process).",
+    "confidence": 0.85,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "This is an informational notice ordinance, not a just-cause rule. It is classed under just_cause_eviction because it covers tenant-rights notices delivered with a notice to quit. The source is an official FAQ page, not the ordinance text.",
+    "source_notes": null
+   }
+  ],
+  "no_rule_findings": [],
+  "doc_summary": "Official City of Cambridge page and FAQ on the Tenants Rights and Resources Ordinance (Cambridge Mun. Code ch. 8.71). It requires landlords to give tenants an information guide at the start of a tenancy and when a notice to quit or summary process begins. It lists exemptions and a $300-per-day penalty. It does not restrict evictions."
+ }
+}

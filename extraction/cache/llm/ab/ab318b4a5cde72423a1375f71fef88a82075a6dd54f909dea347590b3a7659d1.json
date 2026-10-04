@@ -1,0 +1,18 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "date_audit",
+ "subject": "D026:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 45452,
+  "output_tokens": 413
+ },
+ "result": {
+  "requirement_is_new": false,
+  "in_force_since": null,
+  "in_force_since_evidence": null,
+  "current_version_effective": "2026-01-01",
+  "prior_version_note": null,
+  "effective_date_formula": null
+ }
+}

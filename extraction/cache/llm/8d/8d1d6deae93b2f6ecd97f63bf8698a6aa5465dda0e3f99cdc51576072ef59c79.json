@@ -1,0 +1,21 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "date_audit",
+ "subject": "D027:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 45676,
+  "output_tokens": 832
+ },
+ "result": {
+  "requirement_is_new": false,
+  "in_force_since": "2020-01-01",
+  "in_force_since_evidence": {
+   "doc_id": "DX07",
+   "quoted_span": "This change meant that, as of Jan. 1, 2020, state law prohibits landlords from refusing to participate in such programs."
+  },
+  "current_version_effective": "2024-01-01",
+  "prior_version_note": "Before SB 267 (Stats. 2023, ch. 776, effective January 1, 2024), FEHA had no requirement that housing providers offer subsidized applicants the option of alternative evidence of ability to pay instead of credit history. SB 329 (2019) updated the existing FEHA definition of 'source of income' to include government housing subsidies such as Section 8, effective January 1, 2020 (per DX07). The documents imply that a 'source of income' protection existed before SB 329 but do not give its earlier date or scope, so 2020-01-01 is the earliest date the documents establish for the Section 8 version.",
+  "effective_date_formula": null
+ }
+}

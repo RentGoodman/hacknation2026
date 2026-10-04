@@ -1,0 +1,27 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "date_audit",
+ "subject": "D069:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 75233,
+  "output_tokens": 801
+ },
+ "result": {
+  "requirement_is_new": true,
+  "in_force_since": "2027-07-01",
+  "in_force_since_evidence": {
+   "doc_id": "D069",
+   "quoted_span": "This act shall take effect on the first day of\nthe twelfth month next following the date of enactment."
+  },
+  "current_version_effective": "2027-07-01",
+  "prior_version_note": null,
+  "effective_date_formula": {
+   "kind": "first_day_of_nth_month_following",
+   "n": 12,
+   "anchor": "enactment",
+   "anchor_date": "2026-07-20",
+   "verbatim": "This act shall take effect on the first day of\nthe twelfth month next following the date of enactment."
+  }
+ }
+}

@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D066:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 763,
+  "output_tokens": 244
+ },
+ "result": {
+  "en": "In New Jersey, a landlord or agent can't charge more than $50 as an application fee to apply to lease or sublease a home, and violators face penalties of up to $500 for a first offense, $750 for a second and $1,000 for each later one, with any amount wrongly charged returned to the applicant.",
+  "es": "En Nueva Jersey, un arrendador o agente no puede cobrar más de $50 como tarifa de solicitud para alquilar o subarrendar una vivienda, y quienes infrinjan la regla enfrentan multas de hasta $500 por una primera infracción, $750 por una segunda y $1,000 por cada una posterior, y el monto cobrado indebidamente se devuelve al solicitante."
+ }
+}

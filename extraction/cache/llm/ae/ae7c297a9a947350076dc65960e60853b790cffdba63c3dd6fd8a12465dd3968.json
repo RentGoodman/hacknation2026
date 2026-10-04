@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D052:c2",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 691,
+  "output_tokens": 271
+ },
+ "result": {
+  "en": "In Massachusetts, at or before the start of a tenancy, a landlord or agent can require only first month's rent, last month's rent, a security deposit of no more than the first month's rent, and the cost of a key and lock, so application or screening fees are not allowed and no late penalty can be charged until 30 days after rent is due.",
+  "es": "En Massachusetts, al inicio del contrato de alquiler o antes, el arrendador o su agente solo puede exigir el primer mes de renta, el último mes de renta, un depósito de seguridad de no más del primer mes de renta y el costo de una llave y una cerradura, por lo que no se permiten cargos por solicitud o evaluación y no se puede cobrar una multa por pago tardío hasta 30 días después de la fecha de vencimiento de la renta."
+ }
+}

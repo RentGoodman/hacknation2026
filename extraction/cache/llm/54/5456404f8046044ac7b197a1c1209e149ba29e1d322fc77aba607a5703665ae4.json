@@ -1,0 +1,46 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "probe",
+ "subject": "Jersey City, NJ",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 31745,
+  "output_tokens": 856
+ },
+ "result": {
+  "verdicts": [
+   {
+    "category": "just_cause_eviction",
+    "verdict": "undetermined",
+    "doc_id": null,
+    "quoted_span": null,
+    "basis_citation": null,
+    "reason": "No document addresses whether Jersey City or New Jersey has eviction-cause requirements. The retrieved just-cause passages concern other jurisdictions (Los Angeles, San Diego, California), and none states that Jersey City lacks such a rule."
+   },
+   {
+    "category": "security_deposits",
+    "verdict": "undetermined",
+    "doc_id": null,
+    "quoted_span": null,
+    "basis_citation": null,
+    "reason": "Passage D067, apparently a New Jersey guide, describes state security deposit rules (e.g., N.J.S.A. 46:8-21.1, a 30-day return requirement). This points toward an applicable rule rather than its absence, so no document supports no_rule."
+   },
+   {
+    "category": "application_screening_fees",
+    "verdict": "undetermined",
+    "doc_id": null,
+    "quoted_span": null,
+    "basis_citation": null,
+    "reason": "The retrieved screening-fee passages concern California, Berkeley and Massachusetts. Nothing in the documents addresses application fees in Jersey City or New Jersey, or says they are unregulated."
+   },
+   {
+    "category": "screening_restrictions",
+    "verdict": "undetermined",
+    "doc_id": null,
+    "quoted_span": null,
+    "basis_citation": null,
+    "reason": "The retrieved screening passages concern California and other jurisdictions. The New Jersey guide excerpts shown are only tax-rebate and contact listings. No document states that Jersey City lacks screening restrictions."
+   }
+  ]
+ }
+}

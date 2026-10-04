@@ -1,0 +1,45 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D011:c2",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 10120,
+  "output_tokens": 801
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": null,
+   "unverifiable_exemptions": [],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Would have applied in the City of Boston only, as a home-rule petition authorizing the city to implement tenant eviction protections. It was never enacted. No bill text is captured, so no building, unit or owner coverage terms are known.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": null,
+   "other_conditions": null
+  },
+  "evidence": [
+   {
+    "field": "summary",
+    "doc_id": "D011",
+    "quoted_span": "that the city of Boston be authorized to implement rent stabilization and tenant eviction protections"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D011",
+    "quoted_span": "Accompanied a study order, see"
+   }
+  ],
+  "notes": "D011 is only the bill-history page for H.3744 and gives only the title and petition description, so no coverage terms (unit counts, construction dates, owner conditions, exemptions) can be supported. The HSNA exemptions in D014 belong to a separate, enacted ordinance and were not carried over to this failed bill. requires_unknown_facts is left null because the covered class of buildings is unknown."
+ }
+}

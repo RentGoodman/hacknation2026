@@ -1,0 +1,91 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "consolidate",
+ "subject": "Hoboken, NJ",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 25302,
+  "output_tokens": 3800
+ },
+ "result": {
+  "rules": [
+   {
+    "candidate_id": "DX01:c1",
+    "jurisdiction": "Hoboken, NJ",
+    "category": "algorithmic_rent_setting",
+    "status": "in_force",
+    "title": "Prohibition Against Algorithmic Rent-Fixing in the Rental Housing Market",
+    "requirement": "Landlords renting any residential dwelling unit in Hoboken may not price-fix using algorithmic pricing. This means using software, algorithms or data-sharing platforms to collect and analyze nonpublic competitor information from other real estate lessors in order to coordinate, recommend or implement rental prices, lease terms or occupancy levels among competing lessors. Nonpublic competitor information includes prices, supply levels, security deposits, ideal occupancy levels, lease termination and renewal dates, and other material terms that are less than 365 days old and not widely and readily available to the public at no cost. The Division of Housing, or any private citizen claiming to be aggrieved, may bring alleged violations to the Hoboken Municipal Court. On conviction, a violator faces one or more of the following: penalties under N.J.S.A. 40:49-5, a fine of up to $2,000, or community service of up to 90 days.",
+    "key_value": "Penalties on conviction, one or more of: N.J.S.A. 40:49-5 penalties; fine up to $2,000; community service up to 90 days. Nonpublic competitor information = data less than 365 days old and not publicly available at no cost.",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": false,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Applies to landlords of any residential dwelling unit in Hoboken, defined as any primary residence. Medical/long-term care and detention facilities are excluded. There are no unit-count, building-age or landlord-size limits.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": "Residential dwelling unit is defined as any primary residence, excluding medical/long-term care or detention facilities."
+    },
+    "exemptions": "Medical/long-term care and detention facilities are excluded from the definition of residential dwelling unit.",
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": "2025-07-09",
+    "sunset_date": null,
+    "effective_date_note": "The ordinance was adopted unanimously on July 9, 2025. Section Four makes it effective immediately upon passage and publication as provided by law. The publication date is not in the documents. The ordinance has been in force since 2025, well before the 2026-10-01 query date.",
+    "effective_date_formula": {
+     "kind": "on_date",
+     "n": null,
+     "anchor": "publication",
+     "anchor_date": null,
+     "verbatim": "This Ordinance shall take effect immediately upon passage and publication as provided by law."
+    },
+    "citation": "Hoboken City Code § 158-2",
+    "citation_aliases": [
+     "Hoboken City Code ch. 158",
+     "Hoboken City Code ch. 158, Art. II",
+     "Hoboken City Code ch. 158-2",
+     "Hoboken City Code § 154-8",
+     "Hoboken Ordinance Amending and Supplementing Chapter 158 (Rent Increases) by Adding a New Section 158-2"
+    ],
+    "quoted_span": "Landlords who rent any residential dwelling unit (defined as any primary residence excluding medical/long-term care or detention facilities) in the City of Hoboken are prohibited from price fixing using algorithmic pricing.",
+    "confidence": 0.9,
+    "conflict_flag": true,
+    "conflict_note": "Organizer open question: New Jersey's FAIR Act (P.L.2026, c.43) may preempt this Hoboken ordinance once it takes effect on July 1, 2027. The Act prohibits municipal ordinances that conflict with it but names no cities. Whether § 158-2 conflicts with the Act is unresolved.",
+    "review_note": "The ordinance text is internally inconsistent on its section number. The title and Section One say new § 158-2, while the body heading reads § 154-8. Section Five authorizes renumbering at codification, so confirm the codified number (code publisher pages are link-only). A county-jail term of up to 90 days was removed before first reading on June 4, 2025, and the adopted text uses community service instead. The FAIR Act was not yet effective on the query date, so the ordinance applies in full for now.",
+    "source_notes": "The official city legislative record (DX01) gives the adopted text and meeting history. The secondary Morgan Lewis alert (DX06) cites the ordinance as \"ch. 158-2 (effective July 2025)\" with a month-only date. That is consistent with the July 9, 2025 adoption. One candidate's truncated penalty list is resolved by the full official text.",
+    "source_doc_id": "DX01",
+    "from_candidates": [
+     "DX01:c1",
+     "DX06:c9",
+     "cell:Hoboken, NJ:algorithmic_rent_setting:1"
+    ],
+    "also_supported_by": [
+     {
+      "doc_id": "DX06",
+      "quoted_span": "Prohibits landlords from using software, algorithms or data-sharing platforms to coordinate or recommend rents, lease terms, or occupancy."
+     }
+    ]
+   }
+  ],
+  "dropped_candidates": [],
+  "known_gaps": [
+   {
+    "category": "rent_increase_limits",
+    "law": "Hoboken City Code ch. 158 (Rent Increases)",
+    "reason": "DX01 names Chapter 158 (Rent Increases) as the chapter being amended, but its rent-increase provisions are not in the provided documents. The code publisher pages (D032–D034) are link-only."
+   }
+  ]
+ }
+}

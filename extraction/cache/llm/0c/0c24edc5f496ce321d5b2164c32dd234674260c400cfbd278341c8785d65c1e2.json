@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "DX03:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 4222,
+  "output_tokens": 879
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "The petition, if enacted, would end the Statewide prohibition on rent control \"by striking out [G. L. c. 40P]\" and instituting in its place \"a limit on any annual rent increase\" set at \"the annual increase in Consumer Price Index or [five percent], whichever is lower.\"",
+    "note": "The strike of c. 40P, the CPI/5% cap, the art. 48 religion holding, and the remand/injunction are all in the opinion. The June 23, 2026 date appears in the opinion's header. The 'Cella v. Attorney General' name is inferable from the caption (Cella & others vs. Attorney General)."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "a limit on any annual rent increase\" set at \"the annual increase in Consumer Price Index or [five percent], whichever is lower.",
+    "note": "The cap of the lower of CPI or 5% matches. 'Never took effect' follows from the petition being barred from the ballot."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The effective_date field is empty. The document states no effective date, and the petition was barred from the ballot, so the empty value is consistent."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "art. 48 bars placement of the petition on the November 2026 Statewide election ballot.",
+    "note": "'Failed' is consistent with the petition being barred and the court enjoining steps to place it on the ballot."
+   },
+   {
+    "field": "coverage",
+    "verdict": "partly_supported",
+    "quoted_span": "the petition excludes several categories of residential properties from its definition of \"covered dwelling units,\" including those in \"facilities operated solely for educational, religious, or nonprofit purposes.\"",
+    "note": "The opinion supports the statewide scope for covered dwelling units and the educational/religious/nonprofit facility exclusion. The owner-occupied (4 units), 10-year new construction, publicly regulated, and short-term rental exemptions are not in this document (they come only from DX14), so they cannot be verified here. The record flags them as secondary-source only."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "challenge the Attorney General's certification of Initiative Petition 25-21, titled \"An Initiative Petition to Protect Tenants by Limiting Rent Increases.\"",
+    "note": "The petition number and title match. The SJC-13893 docket number appears in the header. The '2026 Massachusetts rent control ballot question' alias is a descriptive label, not a citation in the document."
+   }
+  ]
+ }
+}

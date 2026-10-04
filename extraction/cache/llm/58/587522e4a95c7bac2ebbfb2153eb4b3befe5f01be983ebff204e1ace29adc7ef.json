@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D023:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 13276,
+  "output_tokens": 1097
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "after a tenant has continuously and lawfully occupied a residential real property for 12 months, the owner of the residential real property shall not terminate a tenancy without just cause, which shall be stated in the written notice to terminate tenancy.",
+    "note": "The requirement summary tracks subds. (a)-(j): at-fault and no-fault causes, owner move-in rules, remodel notice contents, cure notice, relocation or rent waiver, void notice, damages, injunctions and void waivers."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "The amount of relocation assistance or rent waiver shall be equal to one month of the tenant’s rent that was in effect when the owner issued the notice to terminate the tenancy. Any relocation assistance shall be provided\nwithin 15 calendar days of service of the notice.",
+    "note": "The 12/24-month thresholds, 90-day move-in with 12-month stay, 30-day remodel vacancy, treble damages for willful conduct, and repeal on Jan. 1, 2030 are all in the text. 'Up to 3x damages' is the 'up to three times the actual damages' language. The 24-month threshold applies only when additional adult tenants were added."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "supported",
+    "quoted_span": "(m) This section shall become operative on April 1, 2024.",
+    "note": "The April 1, 2024 operative date matches. The Jan. 1, 2026 amendment date is also stated, and the text does not give the original first effective date, as the rule's note says."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "(Amended by Stats. 2025, Ch. 203, Sec. 1.   (AB 1529)   Effective January 1, 2026.   Repealed as of January 1, 2030, by its own provisions.)",
+    "note": "The section is currently operative (since April 1, 2024, amended effective Jan. 1, 2026) and sunsets Jan. 1, 2030, so in_force is consistent."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "Housing that has been issued a certificate of occupancy within the previous 15\nyears, unless the housing is a mobilehome.",
+    "note": "Statewide residential property including mobilehome parks, the 12-month occupancy threshold, the exemptions in (e), local ordinance displacement in (i), and the mobilehome homeowner exclusion in (l) are all supported by the text. 'Rolling' is a fair reading of 'previous 15 years'. The coverage field lists 'min_building_age_years: 15', which is derived from the same provision."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "1946.2.\n(a) Notwithstanding any other law, after a tenant has continuously and lawfully occupied a residential real property for 12 months",
+    "note": "The document is Cal. Civ. Code § 1946.2 in Chapter 2 (Hiring of Real Property), amended by Stats. 2025, Ch. 203 (AB 1529). The AB 1482 / Tenant Protection Act of 2019 aliases are not in the document text, but the primary citation and the AB 1529 and Stats. 2025 ch. 203 aliases are."
+   }
+  ]
+ }
+}

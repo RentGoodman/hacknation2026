@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D006:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 10241,
+  "output_tokens": 1517
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "partly_supported",
+    "quoted_span": "The maximum AGA is 5%. This means that, if the formula in the Rent Ordinance results in an AGA that is greater than 5%, the AGA approved by the Board for that year can be no more than 5%.",
+    "note": "D006 supports the 5% cap, the banked-AGA exception, government-subsidized units getting rent ceilings, the utility rule for tenancies from Feb. 6, 2024, and completed-only capital improvement petitions. It does not mention the 65% CPI-U formula, the November 2004 voter approval, BMC 13.76.110A, the 2026 AGA, Regulation 1148 or the Costa-Hawkins carve-out."
+   },
+   {
+    "field": "key_value",
+    "verdict": "partly_supported",
+    "quoted_span": "The maximum AGA is 5%.",
+    "note": "The 5% cap and the banked-AGA exception are supported. D006 does not give the 65% of Bay Area CPI-U figure (it says only that the formula ties the AGA to the Consumer Price Index), the 2026 AGA of 1.0%, or the Jan. 1, 2026 date."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_supported",
+    "quoted_span": null,
+    "note": "D006 gives no 2026-01-01 date or any AGA effective date. The 2026 AGA and its start date are not in this document."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "Measure BB, a ballot measure passed by Berkeley voters in the November 2024 election, makes several changes to Berkeley’s Rent Ordinance",
+    "note": "The document presents the Measure BB changes, including the AGA cap, as current. It does not use the words 'in force'."
+   },
+   {
+    "field": "coverage",
+    "verdict": "partly_supported",
+    "quoted_span": "New Construction Units (units with a certificate of occupancy issued after 1980)",
+    "note": "D006 supports fully covered types (multifamily built before 1980, single-family tenancies begun before 1996, rooming houses) and partial coverage for new construction, most condominiums and certain subsidies. It states the cutoff as after 1980, not after June 1980, so the 1980-06-30 date is not supported by D006. D006 also does not mention the Golden Duplex, ADU, university or cooperative exemptions."
+   },
+   {
+    "field": "citation",
+    "verdict": "not_supported",
+    "quoted_span": null,
+    "note": "D006 does not cite Berkeley Mun. Code § 13.76.110. It refers only generally to the Rent Ordinance and Measure BB."
+   }
+  ]
+ }
+}

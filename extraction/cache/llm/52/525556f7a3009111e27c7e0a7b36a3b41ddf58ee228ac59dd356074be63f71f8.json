@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D067:c2",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 1039,
+  "output_tokens": 248
+ },
+ "result": {
+  "en": "New Jersey's Anti-Eviction Act says a landlord can only evict a tenant or refuse to renew a lease for a listed good cause, must give a written Notice to Quit for every cause except nonpayment, and can remove a tenant only through a court judgment and warrant, never through self-help.",
+  "es": "La Ley Anti-Desalojo de Nueva Jersey establece que un propietario solo puede desalojar a un inquilino o negarse a renovar un contrato por una causa justa de la lista, debe dar un Aviso de Desalojo por escrito en todas las causas excepto la falta de pago, y solo puede sacar al inquilino mediante una sentencia y una orden judicial, nunca por cuenta propia."
+ }
+}

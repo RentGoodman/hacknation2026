@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D008:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 5835,
+  "output_tokens": 1103
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "partly_supported",
+    "quoted_span": "The 2026 AGA may not adjust tenants’ rents when their tenancy began on or after\nJanuary 1, 2025, and who had their rents set pursuant to the Costa-Hawkins Rental\nHousing Act.",
+    "note": "D008 supports the 2026 AGA of 1.0% (65% of the 1.5% CPI for July 2024 to June 2025), the Oct. 16, 2025 adoption, the no-earlier-than Jan. 1, 2026 timing, the Costa-Hawkins exclusion, the 2004 voter approval of the 65% formula, and Reg. 1148's qualifying conditions and notice. It does not support the Measure BB 5% cap, banked AGAs, the fully covered units limitation, capital improvement petitions, or the utilities rules. Those claims are not in D008."
+   },
+   {
+    "field": "key_value",
+    "verdict": "partly_supported",
+    "quoted_span": "adopted the Annual General Adjustment (AGA) Order for Year 2026 which will allow \neligible landlords to increase the 2025 permanent rent ceilings by 1.0% no earlier than \nJanuary 1, 2026.",
+    "note": "The 1.0% 2026 AGA, 65% of 1.5% CPI, and the Jan. 1, 2026 earliest-use date are supported. The 5% Measure BB cap and the banked-AGA provision are not in D008."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "supported",
+    "quoted_span": "allow \neligible landlords to increase the 2025 permanent rent ceilings by 1.0% no earlier than \nJanuary 1, 2026.",
+    "note": "The 2026-01-01 date matches the no-earlier-than date. The Oct. 16, 2025 adoption date is also stated."
+   },
+   {
+    "field": "status",
+    "verdict": "partly_supported",
+    "quoted_span": "At its regular meeting on October 16, 2025, the Berkeley Rent Stabilization Board \nadopted the Annual General Adjustment (AGA) Order for Year 2026",
+    "note": "The 2026 AGA Order was adopted and applies from Jan. 1, 2026. The document does not state outright that it is in force, and says nothing about the Measure BB cap."
+   },
+   {
+    "field": "coverage",
+    "verdict": "partly_supported",
+    "quoted_span": "The 2026 AGA may not adjust tenants’ rents when their tenancy began on or after\nJanuary 1, 2025, and who had their rents set pursuant to the Costa-Hawkins Rental\nHousing Act.",
+    "note": "Only the Costa-Hawkins tenancy exclusion is in D008. The construction cutoff, single-family, condo, Golden Duplex and other exemptions come from other documents and are not in D008."
+   },
+   {
+    "field": "citation",
+    "verdict": "partly_supported",
+    "quoted_span": "See Berkeley Municipal Code section 13.76.110A. for rules related to \nestablishing the AGA.",
+    "note": "D008 supports BMC § 13.76.110A, Rent Board Regulation 1148 and the AGA Order for 2026. The cited § 13.76.110 is the parent of that subsection. The other aliases (Measure BB, ch. 13.76 and others) are not in D008."
+   }
+  ]
+ }
+}

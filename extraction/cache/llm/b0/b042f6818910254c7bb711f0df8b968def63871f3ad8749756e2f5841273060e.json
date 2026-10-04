@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "DX06:c10",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 5609,
+  "output_tokens": 678
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "Seattle’s ordinance expressly prohibits specified algorithmic coordinating services and provides penalties of up to $7,500 per violation.",
+    "note": "The document supports the prohibition and the penalty. 'Used to set rents in Seattle rental housing' is a mild paraphrase; the document describes use in connection with Seattle multifamily properties."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "provides penalties of up to $7,500 per violation",
+    "note": "The table says penalties 'may reach $7,500 per violation', which is consistent."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The rule's effective_date is empty. The document gives only 'effective July 2025' (month only), so no exact date is stated. The rule's effective_date_note says the same."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "Seattle Mun. Code ch. 7.34 (effective July 2025) | Prohibits specified coordinating services; penalties may reach $7,500 per violation; now at issue in Nicolas v. Essex Management Corp., et al., (W.D. Wash.)",
+    "note": "The ordinance is described as effective July 2025 and as currently at issue in litigation, which is consistent with in_force. The document does not state 'in force' in so many words."
+   },
+   {
+    "field": "coverage",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The coverage fields are all empty. The document states no covered properties, thresholds, or exemptions for Seattle."
+   },
+   {
+    "field": "citation",
+    "verdict": "partly_supported",
+    "quoted_span": "Seattle Mun. Code ch. 7.34.040",
+    "note": "The document cites 'ch. 7.34.040' for the penalty and 'Chapter 7.34' for the ordinance. The section-level form § 7.34.040 is an inference, as the rule's review_note admits. The alias ch. 7.34 is supported."
+   }
+  ]
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "probe",
+ "subject": "Portland, OR",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 17201,
+  "output_tokens": 588
+ },
+ "result": {
+  "verdicts": [
+   {
+    "category": "rent_increase_limits",
+    "verdict": "undetermined",
+    "doc_id": null,
+    "quoted_span": null,
+    "basis_citation": null,
+    "reason": "No document addresses rent increase limits in Portland, OR. The retrieved passages cover Santa Ana, Los Angeles, San Francisco, Berkeley and Massachusetts only."
+   },
+   {
+    "category": "just_cause_eviction",
+    "verdict": "undetermined",
+    "doc_id": null,
+    "quoted_span": null,
+    "basis_citation": null,
+    "reason": "No document addresses just cause eviction in Portland, OR. The retrieved passages concern Santa Ana, San Diego, Los Angeles and California state law."
+   },
+   {
+    "category": "security_deposits",
+    "verdict": "undetermined",
+    "doc_id": null,
+    "quoted_span": null,
+    "basis_citation": null,
+    "reason": "No document addresses security deposit rules in Portland, OR. The only Portland mention (DX06) concerns algorithmic rent coordination, not deposits."
+   },
+   {
+    "category": "application_screening_fees",
+    "verdict": "undetermined",
+    "doc_id": null,
+    "quoted_span": null,
+    "basis_citation": null,
+    "reason": "No document addresses application screening fees in Portland, OR. The retrieved passages concern California, Berkeley and Massachusetts."
+   },
+   {
+    "category": "screening_restrictions",
+    "verdict": "undetermined",
+    "doc_id": null,
+    "quoted_span": null,
+    "basis_citation": null,
+    "reason": "No document addresses tenant screening restrictions in Portland, OR. The retrieved passages concern California and other jurisdictions."
+   }
+  ]
+ }
+}

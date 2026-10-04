@@ -1,0 +1,137 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D041:c2",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 25623,
+  "output_tokens": 5130
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": {
+    "basis": "year_built",
+    "covered_if": "on_or_before",
+    "date": "1978-10-01"
+   },
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": true,
+   "unverifiable_exemptions": [
+    "Temporary exemptions filed with LAHD",
+    "Luxury exemption granted on application, based on the monthly rent charged on or before May 31, 1978"
+   ],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": true,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": "Reduced Mom and Pop relocation amounts apply only to owner or relative occupancy evictions, and only where the building has four or fewer rental units and the landlord owns no more than four units of residential property plus a single-family home on a separate lot in the City.",
+   "summary": "Rental units subject to the RSO: first built on or before October 1, 1978, plus replacement units under LAMC 151.28. Covered unit types include apartments, condominiums, townhomes, duplexes, two or more single-family dwellings on one parcel, long-stay hotel or rooming-house rooms, residential units attached to commercial buildings, ADUs, JADUs, and mobile homes and RVs in mobile home parks.",
+   "construction_date_basis": "first built",
+   "built_on_or_before": "1978-10-01",
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": null,
+   "other_conditions": "Covered types: apartment; condominium; townhome; duplex; two or more single-family dwelling units on the same parcel; rooms in a hotel, motel, rooming house or boarding house occupied by the same tenant for more than 30 consecutive days; residential units attached to a commercial building; ADU; JADU; mobile homes and recreational vehicles in mobile home parks."
+  },
+  "evidence": [
+   {
+    "field": "construction_cutoff",
+    "doc_id": "D041",
+    "quoted_span": "Generally, the RSO applies to rental properties that were first built on or before October 1, 1978, as well as replacement units under"
+   },
+   {
+    "field": "built_on_or_before",
+    "doc_id": "D041",
+    "quoted_span": "Generally, the RSO applies to rental properties that were first built on or before October 1, 1978, as well as replacement units under"
+   },
+   {
+    "field": "construction_date_basis",
+    "doc_id": "D041",
+    "quoted_span": "Generally, the RSO applies to rental properties that were first built on or before October 1, 1978, as well as replacement units under"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D041",
+    "quoted_span": "Generally, the RSO applies to rental properties that were first built on or before October 1, 1978, as well as replacement units under"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D041",
+    "quoted_span": "LAMC Section 151.28"
+   },
+   {
+    "field": "requires_unknown_facts",
+    "doc_id": "D041",
+    "quoted_span": "A landlord can apply for an exemption from the RSO if they can establish the monthly rent charged on or before May 31, 1978"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D041",
+    "quoted_span": "Temporary exemptions"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D041",
+    "quoted_span": "A landlord can apply for an exemption from the RSO if they can establish the monthly rent charged on or before May 31, 1978"
+   },
+   {
+    "field": "supersedes_state_rule",
+    "doc_id": "D040",
+    "quoted_span": "Units that are already subject to the City’s RSO."
+   },
+   {
+    "field": "landlord_size_condition",
+    "doc_id": "D043",
+    "quoted_span": "The reduced fee for Mom and Pop properties applies only for evictions for occupancy by the"
+   },
+   {
+    "field": "landlord_size_condition",
+    "doc_id": "D043",
+    "quoted_span": "The building containing the rental unit contains four or fewer rental units;"
+   },
+   {
+    "field": "landlord_size_condition",
+    "doc_id": "D043",
+    "quoted_span": "The landlord owns no more than four units of residential property and a single-family"
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D041",
+    "quoted_span": "Condominium (Rent amount is not regulated for tenancies that commenced after December 31, 1995)"
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D041",
+    "quoted_span": "Two or more single-family dwelling units on the same parcel"
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D041",
+    "quoted_span": "Rooms in a hotel, motel, rooming house, or boarding house occupied by the same tenant for more than 30 consecutive days"
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D041",
+    "quoted_span": "Residential unit(s) attached to a commercial building"
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D041",
+    "quoted_span": "Accessory Dwelling Unit (ADU)"
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D041",
+    "quoted_span": "Junior Accessory Dwelling Unit (JADU)"
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D041",
+    "quoted_span": "and recreational vehicles in mobile home parks are also covered under the RSO."
+   }
+  ],
+  "notes": "Changes to the coverage object:\n\n1. The 'not used the provision in the prior three years' condition was removed from landlord_size_condition because it describes landlord conduct, not coverage. The condition that the eligible relative owns no residential property in the City was also dropped; it is not a landlord-size criterion. Both remain in the rule requirement text.\n\n2. other_conditions originally described tenant status (age, disability, income, tenancy length). That sets relocation amounts and is not building, unit or owner coverage. It was replaced with the covered unit types listed in D041.\n\n3. The 'tenant status' entry was removed from unverifiable_exemptions because it is not an exemption. The application-based Luxury Exemption (D041) was added.\n\n4. supersedes_state_rule is kept as true, supported by D040, which lists RSO units among properties not covered under AB 1482. The Civ. Code § 1946.2(i) date-based rationale in review_note is not in the documents and should be verified.\n\n5. The construction cutoff basis 'year_built' maps to D041's 'first built'."
+ }
+}

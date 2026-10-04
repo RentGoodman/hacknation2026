@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "DX06:c14",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 458,
+  "output_tokens": 213
+ },
+ "result": {
+  "en": "Starting January 1, 2027, Rockville, MD will prohibit landlords from using algorithmic devices and shared competitor information to set rent, fees, or other rental terms (Rockville City Code § 18-148); this rule is not yet in effect.",
+  "es": "A partir del 1 de enero de 2027, Rockville, MD prohibirá que los arrendadores usen dispositivos algorítmicos e información compartida de la competencia para fijar el alquiler, las tarifas u otras condiciones del arrendamiento (Código de la Ciudad de Rockville § 18-148); esta regla aún no está en vigor."
+ }
+}

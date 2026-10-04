@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D079:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 4230,
+  "output_tokens": 945
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "In order to evict a tenant from a rental unit covered by the Rent Ordinance, a landlord must have a \"just cause\" reason that is the dominant motive for pursuing the eviction. Note that the mere expiration of a rental agreement or a change in ownership does not constitute \"just cause\" for eviction.",
+    "note": "The 17 causes, housing services, and the soft-story temporary removal all match the document."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "To perform substantial rehabilitation of a building that is at least 50 years old and essentially uninhabitable, provided that the cost of the proposed work is at least 75% of the cost of new construction;",
+    "note": "The 17 causes, the dominant motive, the 50-year/75% rehabilitation test and the 60-day Good Samaritan window are all in the document. The rehabilitation test also requires the building to be essentially uninhabitable, which the key value omits."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The rule's effective_date is null and the document states no effective or adoption date."
+   },
+   {
+    "field": "status",
+    "verdict": "partly_supported",
+    "quoted_span": "In order to evict a tenant from a rental unit covered by the Rent Ordinance, a landlord must have a \"just cause\" reason that is the dominant motive for pursuing the eviction.",
+    "note": "The present-tense wording implies the rule is currently operative, but the document does not state its status explicitly."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "Some tenancies that are exempt from the rent increase limitations of the Ordinance are still subject to the eviction provisions of the Ordinance, and tenants in these categories can only be evicted for one of the “just cause” reasons listed in the Ordinance. This includes tenancies in newly constructed rental units that first obtained a Certificate of Occupancy after June 13, 1979, tenancies that are eligible for a rent increase under the Costa-Hawkins Rental Housing Act, and some tenancies where the rent is regulated by another government agency.",
+    "note": "The summary, other_conditions and unverifiable_exemptions all match the document."
+   },
+   {
+    "field": "citation",
+    "verdict": "partly_supported",
+    "quoted_span": "The 17 just cause reasons for eviction under Ordinance Section 37.9(a) are summarized below:",
+    "note": "§ 37.9(a) and § 37.2(r) appear in the document. The aliases \"S.F. Admin. Code\" and \"San Francisco Rent Ordinance\" are not stated in this form; the document uses \"Ordinance Section 37.9(a)\" and \"Rent Ordinance\", and mentions the Administrative Code only in connection with Chapter 56."
+   }
+  ]
+ }
+}

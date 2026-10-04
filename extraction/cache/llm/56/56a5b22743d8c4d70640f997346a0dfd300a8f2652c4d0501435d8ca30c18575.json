@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D053:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 726,
+  "output_tokens": 265
+ },
+ "result": {
+  "en": "A landlord may not threaten or take reprisals against a tenant for protected activity like reporting code violations or joining a tenants' union, and a termination notice or rent increase within six months afterward is presumed to be a reprisal, with damages of 1 to 3 months' rent (or actual damages if greater) plus costs and attorney's fees.",
+  "es": "Un arrendador no puede amenazar ni tomar represalias contra un inquilino por actividades protegidas, como denunciar infracciones del código o unirse a un sindicato de inquilinos, y un aviso de terminación o un aumento de renta dentro de los seis meses siguientes se presume una represalia, con daños de 1 a 3 meses de renta (o los daños reales si son mayores) más costos y honorarios de abogado."
+ }
+}

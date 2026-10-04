@@ -1,0 +1,18 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "date_audit",
+ "subject": "D008:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 24592,
+  "output_tokens": 834
+ },
+ "result": {
+  "requirement_is_new": false,
+  "in_force_since": null,
+  "in_force_since_evidence": null,
+  "current_version_effective": "2026-01-01",
+  "prior_version_note": "Before Measure BB (passed in the November 2024 election), the AGA was set by the Rent Ordinance's CPI formula with no 5% maximum. That formula is 65% of the Bay Area CPI increase, approved by voters in November 2004 (BMC § 13.76.110A). Measure BB added the 5% cap as a 'NEW' change. The documents do not say when the AGA rent-ceiling limit first applied, or what the 2025 AGA amount was.",
+  "effective_date_formula": null
+ }
+}

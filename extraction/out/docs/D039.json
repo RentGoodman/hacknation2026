@@ -1,0 +1,9 @@
+{
+  "doc_id": "D039",
+  "source_url": "https://cityclerk.lacity.org/onlinedocs/2024/24-1031_misc_9-03-24.pdf",
+  "model": "anthropic:claude-sonnet-5-5",
+  "query_date": "2026-10-01",
+  "chunks": 1,
+  "rules": [],
+  "rejected": []
+}

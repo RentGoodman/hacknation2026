@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "DX19:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 2551,
+  "output_tokens": 706
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "prohibits the sale, licensing, provision and use of certain algorithmic rent-setting software for residential rental properties.",
+    "note": "Prohibition, nonpublic competitor data targeting, and tenant direct enforcement with eased burden of proof are all stated in the document."
+   },
+   {
+    "field": "key_value",
+    "verdict": "partly_supported",
+    "quoted_span": "a tenant affected by a violation may seek injunctive relief, damages, or civil penalties of up to $1,000 per violation, plus attorney’s fees.",
+    "note": "The document supports the $1,000 cap per violation and attorney's fees, as well as injunctive relief and damages. The rule says 'Civil penalties up to $1,000 per violation, plus attorney's fees', which matches. The remedies are available to tenants who may seek them, not guaranteed, but this is a minor nuance."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "Rule's effective_date is empty and the document gives no effective date; only a first reading on Feb. 17 and a final vote on March 3."
+   },
+   {
+    "field": "status",
+    "verdict": "not_supported",
+    "quoted_span": "The ordinance, approved on Tuesday, Feb. 17, for a first reading and set for a final vote on March 3",
+    "note": "Rule status is 'in_force', but the document reports only first-reading approval with a final vote pending. Nothing indicates the ordinance is in force."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "Defines a limited scope, covering residential rental property within Santa Ana city limits;",
+    "note": "The coverage summary about state antitrust laws is also supported by the document."
+   },
+   {
+    "field": "citation",
+    "verdict": "partly_supported",
+    "quoted_span": "The new algorithmic rent-setting ordinance is limited to residential rental property",
+    "note": "The document describes a Santa Ana algorithmic rent-setting ordinance but gives no formal citation or code section. The '(2026)' year is inferred from the Feb. 17 date, which has no year stated in the document."
+   }
+  ]
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "cell",
+ "subject": "NJ|just_cause_eviction",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 4561,
+  "output_tokens": 2089
+ },
+ "result": {
+  "cell_status": "rules_found",
+  "no_rule_quote": null,
+  "no_rule_passage_id": null,
+  "basis_citation": null,
+  "rules": [
+   {
+    "jurisdiction": "NJ",
+    "category": "just_cause_eviction",
+    "status": "in_force",
+    "title": "New Jersey Anti-Eviction Act (good cause eviction and Notice to Quit requirements)",
+    "requirement": "A landlord must have good cause to evict a tenant. Each cause except nonpayment of rent must be described in detail in a written notice to the tenant. A Notice to Quit is required for all good cause evictions except nonpayment of rent. A Notice to Cease may also be required as a warning notice, with no statutory time period. A Judgment for Possession must be entered before the tenant must move. For an owner-occupied two- or three-family dwelling where the lease has expired, the Notice to Quit is 3 months for at-will or year-to-year tenancies and 1 month for month-to-month tenancies. Rooming and boarding houses must follow the same good cause and notice rules, and the owner must give the County Welfare Board at least 3 working days' notice before starting an eviction action.",
+    "key_value": "Notice to Quit required for all good-cause evictions except nonpayment; 3 months' notice (at-will or year-to-year) or 1 month (month-to-month) for the owner-occupied 2-3 family lease-expiration cause; no statutory period for Notice to Cease",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Statewide good cause eviction rules for residential tenancies; rooming and boarding houses are also covered through DCA regulations. The passages do not state the exempt building types.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": null
+    },
+    "exemptions": null,
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": null,
+    "effective_date_formula": null,
+    "citation": "N.J.S.A. 2A:18-61.1",
+    "citation_aliases": [
+     "N.J.S.A. 2A:18-53",
+     "N.J.S.A. 2A:18-61.2",
+     "N.J.S.A. 2A:18-61.2(a)",
+     "N.J.S.A. 2A:18-61.1(k)",
+     "Anti-Eviction Act",
+     "N.J.A.C. 5:27-3.3(c)",
+     "N.J.A.C. 5:26-3.4(c)"
+    ],
+    "quoted_span": "good cause to evict a tenant (N.J.S.A. 2A:18-53). There are several grounds for a good cause",
+    "confidence": 0.7,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "The passages are a secondary tenant handbook that is cut off. The full list of good causes, the exemptions, and the condominium conversion and relocation provisions are not shown. Statutory sections come from the handbook's own parenthetical citations.",
+    "source_notes": "The other passages describe California, San Diego and Los Angeles law and were excluded.",
+    "passage_id": "p2"
+   }
+  ]
+ }
+}

@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D012:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 565,
+  "output_tokens": 203
+ },
+ "result": {
+  "en": "In Boston, a landlord cannot refuse to rent to you because you use rental assistance such as a Section 8, social security disability or veterans voucher, and complaints go to the Boston Fair Housing Commission (Office of Fair Housing and Equity).",
+  "es": "En Boston, un arrendador no puede negarse a alquilarle por usar asistencia de alquiler, como un vale de Sección 8, de discapacidad del seguro social o de veteranos, y las quejas se presentan ante la Comisión de Vivienda Justa de Boston (Office of Fair Housing and Equity)."
+ }
+}

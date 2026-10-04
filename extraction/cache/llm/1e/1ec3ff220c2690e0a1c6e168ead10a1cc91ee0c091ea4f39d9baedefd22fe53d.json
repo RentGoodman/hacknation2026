@@ -1,0 +1,66 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "cell",
+ "subject": "Santa Ana, CA|algorithmic_rent_setting",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 4321,
+  "output_tokens": 1931
+ },
+ "result": {
+  "cell_status": "rules_found",
+  "no_rule_quote": null,
+  "no_rule_passage_id": null,
+  "basis_citation": null,
+  "rules": [
+   {
+    "jurisdiction": "Santa Ana, CA",
+    "category": "algorithmic_rent_setting",
+    "status": "in_force",
+    "title": "Santa Ana ban on sale, licensing, provision and use of algorithmic rent-setting devices",
+    "requirement": "It is unlawful to sell, license, provide or use certain algorithmic rent-setting software (\"Algorithmic Devices\") that sets rents for residential rental properties using nonpublic competitor data, such as real-time rents, lease renewals and occupancy levels. The ordinance does not apply to pricing software that relies solely on public data or aggregate historical data, or to tools used to comply with affordable housing program requirements. A landlord who uses the banned software could be fined $1,000.",
+    "key_value": "Landlords caught using banned software could be fined $1,000 (per news report)",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Applies to residential rental property; covers sellers, licensors, providers and users of algorithmic rent-setting devices that use nonpublic competitor data.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": "Does not apply to pricing software relying solely on publicly available data or aggregate historical data, or to tools used to comply with affordable housing program requirements."
+    },
+    "exemptions": "Pricing software that relies solely on publicly available data, aggregate historical data, or tools used to comply with affordable housing program requirements.",
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "The sources say the first reading was Feb. 17 and the final vote was set for March 3, and a later article says the final vote put the ordinance into effect. No year or explicit effective date is stated in the passages. The year is presumably 2026, but the text does not say so.",
+    "effective_date_formula": null,
+    "citation": "Santa Ana Mun. Code (algorithmic rent-setting ordinance, adopted on second reading after Feb. 17 first reading)",
+    "citation_aliases": [
+     "Santa Ana algorithmic rent-setting ordinance",
+     "Algorithmic Devices ordinance"
+    ],
+    "quoted_span": "The ordinance, approved on Tuesday, Feb. 17, for a first reading and set for a final vote on March 3, prohibits the sale, licensing, provision and use of certain algorithmic rent-setting software for residential rental properties.",
+    "confidence": 0.6,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "Based only on secondary news and city press sources. The ordinance number, code section and exact effective date are not in the passages. In-force status is inferred from a news statement that the final vote put the ordinance into effect.",
+    "source_notes": "The $1,000 fine comes from a news article (passage p9). The exemptions come from a city press release (passage p7).",
+    "passage_id": "p8"
+   }
+  ]
+ }
+}

@@ -1,0 +1,24 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "qa",
+ "subject": "D001:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 22134,
+  "output_tokens": 1058
+ },
+ "result": {
+  "changes": [
+   {
+    "field": "conflict_flag",
+    "after_json": "false",
+    "reason": "The documents give only one effective date for ch. 13.63 (DX06's 'effective January 2026'), and D001 states none, so they show no conflicting dates; the gap is already covered in effective_date_note and review_note."
+   },
+   {
+    "field": "conflict_note",
+    "after_json": "null",
+    "reason": "The note claims two published effective dates, but no document contains a second date, so the conflict is unsupported by the documents."
+   }
+  ]
+ }
+}

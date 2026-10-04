@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D043:c3",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 15570,
+  "output_tokens": 946
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "Owners who demolish a Protected Unit for the purpose of new construction within 5 years after the \nfiling of the Notice of Intent to Withdraw or Declaration of Intent to Evict with LAHD are required to \ncomply with relocation requirements under the RPO.",
+    "note": "Requirement summary matches the bulletin: filing, 3 business day notice copy, 15-day RSO/JCO payments, three options, occupant protections, and $250,000 penalties plus permit clearance withholding. Minor wording differences (e.g., 'right to remain up to 6 months', 'higher of' State vs City) are consistent with the document."
+   },
+   {
+    "field": "key_value",
+    "verdict": "partly_supported",
+    "quoted_span": "Tenants Displaced by \nNew Development $115,480 $96,750 $87,450",
+    "note": "Chart B amounts and the effective period (July 1, 2026 through June 30, 2027) are supported. The column mapping to Extremely Low/Very Low/Low follows the header order. Penalties starting at $250,000 per displaced unit and the 15-day RSO/JCO payment are supported. The 'Above low income per Chart A' item is also supported. The partial rating reflects the garbled table alignment, which makes the mapping inferred rather than explicit."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "supported",
+    "quoted_span": "effective 2/11/2025 \nunder Ordinances # 188481 and #188482",
+    "note": "The bulletin gives 2/11/2025 as the effective date and says the Council adopted the RPO on February 11, 2025."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "effective 2/11/2025 \nunder Ordinances # 188481 and #188482",
+    "note": "The bulletin (Rev 07.01.2026) describes the RPO as currently applicable, with no sunset or repeal indicated, which is consistent with in_force."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "The RPO only applies to Protected Units that will be demolished for the \npurpose of new construction.",
+    "note": "The Protected Unit definition (covenant/rent control within 5 years, lower-income rental within 5 years, Ellis Act withdrawal within 10 years), 'All RSO units are Protected Units', and enhanced payments only for lower-income households are all in the document. The summary's 'City of Los Angeles' scope is implicit from the LAHD context."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "effective 2/11/2025 \nunder Ordinances # 188481 and #188482",
+    "note": "The document cites both Ordinances #188481 and #188482; the rule uses 188481 as the primary citation with 188482 as an alias, and the RPO name is also supported."
+   }
+  ]
+ }
+}

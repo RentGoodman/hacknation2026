@@ -1,0 +1,128 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D041:c2",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 25675,
+  "output_tokens": 4399
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": {
+    "basis": "year_built",
+    "covered_if": "on_or_before",
+    "date": "1978-10-01"
+   },
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": false,
+   "unverifiable_exemptions": [
+    "Temporary exemptions filed with LAHD",
+    "Luxury exemption (based on the rent charged on or before May 31, 1978)",
+    "Mom & Pop reduced relocation amount for owner or relative occupancy (depends on the landlord's other holdings, prior use of the provision and the relative's property ownership)"
+   ],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": true,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Rental units in the City of Los Angeles subject to the RSO: properties first built on or before October 1, 1978, plus replacement units under LAMC 151.28. Units already subject to the RSO are outside AB 1482 (the state just-cause and rent cap law).",
+   "construction_date_basis": "first built (per LAHD)",
+   "built_on_or_before": "1978-10-01",
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": null,
+   "other_conditions": "Covered unit types include:\n- apartments\n- condominiums and townhomes\n- duplexes\n- two or more single-family dwellings on the same parcel\n- hotel, motel, rooming or boarding house rooms occupied by the same tenant for more than 30 consecutive days\n- residential units attached to commercial buildings\n- ADUs and JADUs\n- mobile homes and RVs in mobile home parks\n\nReplacement units under LAMC 151.28 are also covered."
+  },
+  "evidence": [
+   {
+    "field": "construction_cutoff",
+    "doc_id": "D041",
+    "quoted_span": "Generally, the RSO applies to rental properties that were first built on or before October 1, 1978"
+   },
+   {
+    "field": "built_on_or_before",
+    "doc_id": "D041",
+    "quoted_span": "Generally, the RSO applies to rental properties that were first built on or before October 1, 1978"
+   },
+   {
+    "field": "construction_date_basis",
+    "doc_id": "D041",
+    "quoted_span": "rental properties that were first built on or before October 1, 1978"
+   },
+   {
+    "field": "requires_unknown_facts",
+    "doc_id": "D041",
+    "quoted_span": "Generally, the RSO applies to rental properties that were first built on or before October 1, 1978, as well as replacement units under"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D041",
+    "quoted_span": "Generally, the RSO applies to rental properties that were first built on or before October 1, 1978, as well as replacement units under"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D040",
+    "quoted_span": "Units that are already subject to the City’s RSO."
+   },
+   {
+    "field": "supersedes_state_rule",
+    "doc_id": "D040",
+    "quoted_span": "Units that are already subject to the City’s RSO."
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D041",
+    "quoted_span": "Temporary exemptions"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D041",
+    "quoted_span": "A landlord can apply for an exemption from the RSO if they can establish the monthly rent charged on or before May 31, 1978"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D043",
+    "quoted_span": "The reduced fee for Mom and Pop properties applies only for evictions for occupancy by the"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D043",
+    "quoted_span": "The landlord owns no more than four units of residential property and a single-family"
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D041",
+    "quoted_span": "Two or more single-family dwelling units on the same parcel"
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D041",
+    "quoted_span": "Rooms in a hotel, motel, rooming house, or boarding house occupied by the same tenant for more than 30 consecutive days"
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D041",
+    "quoted_span": "Residential unit(s) attached to a commercial building"
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D041",
+    "quoted_span": "Accessory Dwelling Unit (ADU)"
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D041",
+    "quoted_span": "and recreational vehicles in mobile home parks are also covered under the RSO."
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D041",
+    "quoted_span": "as well as replacement units under"
+   }
+  ],
+  "notes": "Corrections made:\n- requires_unknown_facts: changed from true to false. The RSO covers ordinary rental buildings identified by a construction date of on or before Oct 1, 1978, which assessor data can check. Temporary and luxury exemptions go in unverifiable_exemptions instead.\n- landlord_size_condition: nulled. The Mom & Pop conditions do not limit which buildings the rule covers; they only reduce the relocation amount, and they include landlord conduct (prior use of the provision). This condition is now listed as an unverifiable reduction.\n- Old other_conditions (tenant qualified, eligible or low-income status): removed. These are tenant facts that set the payment amount, not building coverage. Replaced with the covered unit types and replacement units listed by LAHD.\n- 'Tenant qualified or low-income status': removed from unverifiable_exemptions for the same reason.\n- Luxury exemption: added to unverifiable_exemptions.\n- Summary: reworded so its claim about the state rule is supported by D040, which lists RSO units as not covered under AB 1482.\n- Construction basis: kept as year_built. LAHD says 'first built'; the code's certificate-of-occupancy basis is not in the documents."
+ }
+}

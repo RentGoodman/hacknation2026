@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "DX06:c6",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 5808,
+  "output_tokens": 682
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "Prohibits algorithmic devices using nonpublic competitor data to advise on vacancy or rental rates; tenants may pursue civil actions.",
+    "note": "The document supports the prohibition and tenant civil actions. The requirement's wording that 'landlords' may not use such devices is a mild inference, since the table does not name landlords as the regulated party."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "Prohibits algorithmic devices using nonpublic competitor data to advise on vacancy or rental rates; tenants may pursue civil actions.",
+    "note": "The key value matches the table's description of the ordinance."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "supported",
+    "quoted_span": "Effective March 1, 2026.",
+    "note": "The table gives March 1, 2026 and also '(effective March 2026)'."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "Minneapolis Code of Ordinances § 244.2070 (effective March 2026) | Effective March 1, 2026.",
+    "note": "The document dates the ordinance as effective March 1, 2026, which is before the document date of Aug. 21, 2026, so in_force is a reasonable reading. The document does not say in so many words that it is currently in force."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "Prohibits algorithmic devices using nonpublic competitor data to advise on vacancy or rental rates; tenants may pursue civil actions.",
+    "note": "The coverage fields are all null and the summary says no limits are stated. The document gives no building, unit-count, construction-date or landlord-size conditions for Minneapolis."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "Minneapolis Code of Ordinances § 244.2070 (effective March 2026)",
+    "note": "The citation matches the table. The alias 'Minneapolis Code of Ordinances ch. 244' does not appear in the document, but the primary citation is supported."
+   }
+  ]
+ }
+}

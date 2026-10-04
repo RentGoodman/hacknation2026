@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D068:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 4814,
+  "output_tokens": 807
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "partly_supported",
+    "quoted_span": "This\nmeans, for example, that a landlord cannot deny the\nlawful recipient of a Section 8 HUD voucher the right to\nrent an apartment based solely on that source of lawful\nincome.",
+    "note": "The protected grounds, the Section 8 example, the advertising ban and the 180-day/2-year filing windows are all in the document. The statement that a landlord may still refuse for insufficient income, poor credit, an oversized family or a zoning-violating occupancy does not appear in this document. The $10,000 first-offense penalty also does not appear."
+   },
+   {
+    "field": "key_value",
+    "verdict": "partly_supported",
+    "quoted_span": "You may file a complaint with us for free within 180 days\nof the date of the alleged violation.",
+    "note": "The 180-day DCR complaint and the 2-year Superior Court window are supported. The 'penalties up to $10,000 for a first offense' figure is not in the document."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The field is empty and the document states no effective date for the provision."
+   },
+   {
+    "field": "status",
+    "verdict": "partly_supported",
+    "quoted_span": "The Division on Civil Rights enforces the New Jersey\nLaw Against Discrimination.",
+    "note": "The document describes the LAD as currently enforced, which is consistent with in_force. It is a 2015 brochure and has no explicit statement of current status."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "The provisions of the LAD apply to the sale or rental of all\nproperty including open land, whether for business or\nresidential purposes, with the following exceptions:",
+    "note": "The listed exceptions (owner-occupied two-family unit, room rental in an owner-occupied one-family home, same-religion preference by religious organizations, familial-status exemption for older persons) match the document. The single-sex residence exception is not in D068, but it appears in D067 per the coverage evidence."
+   },
+   {
+    "field": "citation",
+    "verdict": "partly_supported",
+    "quoted_span": "housing for older\npersons (as defined in the LAD at N.J.S.A. 10:5-5mm).",
+    "note": "The document names the Law Against Discrimination and cites only N.J.S.A. 10:5-5mm. The primary citation N.J.S.A. 10:5-12(g) and the aliases are not in the document."
+   }
+  ]
+ }
+}

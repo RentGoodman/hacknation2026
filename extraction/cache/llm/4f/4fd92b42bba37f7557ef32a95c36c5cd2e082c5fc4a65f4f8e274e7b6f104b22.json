@@ -1,0 +1,72 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "cell",
+ "subject": "Berkeley, CA|rent_increase_limits",
+ "prompt_version": "v10",
+ "usage": {},
+ "result": {
+  "cell_status": "rules_found",
+  "no_rule_quote": null,
+  "no_rule_passage_id": null,
+  "basis_citation": null,
+  "rules": [
+   {
+    "jurisdiction": "Berkeley, CA",
+    "category": "rent_increase_limits",
+    "status": "in_force",
+    "title": "Berkeley Rent Stabilization Ordinance: Annual General Adjustment (AGA) rent ceiling",
+    "requirement": "Landlords of fully covered units may raise rent ceilings each year only by the Annual General Adjustment set by the Rent Board. The AGA is 65% of the Bay Area CPI-U increase, approved by voters in November 2004, and is capped at 5%. The cap does not stop a landlord from using banked (unused) prior-year AGAs. The 2026 AGA is 1.0%, usable no earlier than January 1, 2026, and cannot adjust rents for tenancies that began on or after January 1, 2025 and are set under Costa-Hawkins. Landlords may petition only for completed capital improvements, not planned ones.",
+    "key_value": "2026 AGA 1.0% (65% of 1.5% CPI), effective no earlier than 2026-01-01; AGA capped at 5%",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": {
+      "basis": "certificate_of_occupancy",
+      "covered_if": "before",
+      "date": "June 1980"
+     },
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [
+      "Units with certain government subsidies are fully or partially covered depending on unit type",
+      "Tenancies whose rents are set under the Costa-Hawkins Rental Housing Act"
+     ],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Fully covered units have a rent ceiling: most multifamily units built before 1980, single-family homes with tenancies that began before 1996, and rooming houses. Partially covered units have no rent control: new construction with a certificate of occupancy after June 1980, single-family homes with tenancies that began on or after January 1, 1996, and most condominiums.",
+     "construction_date_basis": "Certificate of occupancy (new construction with a certificate of occupancy after June 1980 is partially covered)",
+     "built_on_or_before": "1980",
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": "Single-family homes are fully covered only if the current tenancy began before 1996. Most condominiums are partially covered."
+    },
+    "exemptions": "Partially covered units have no rent control: new construction after June 1980, single-family homes with tenancies that began on or after Jan 1, 1996, and most condominiums. Subsidized units are fully or partially covered depending on unit type.",
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "The source passages give no effective date for the ordinance itself. The 2026 AGA Order (Rent Board Regulation 1148) was adopted October 16, 2025 and applies no earlier than January 1, 2026. The 5% maximum AGA appears in a Rent Board notice of changes, with no date given in the passage.",
+    "effective_date_formula": null,
+    "citation": "Berkeley Mun. Code § 13.76.110",
+    "citation_aliases": [
+     "Berkeley Mun. Code ch. 13.76",
+     "Rent Stabilization and Good Cause for Eviction Ordinance",
+     "Rent Board Regulation 1148",
+     "AGA Order for Year 2026"
+    ],
+    "quoted_span": "The maximum AGA is 5%. This means that, if the formula in the Rent Ordinance results in an AGA that is greater than 5%, the AGA approved by the Board for that year can be no more than 5%.",
+    "confidence": 0.85,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "Coverage is taken from the Rent Board's coverage guide. The guide gives 'before 1980' for multifamily buildings and 'after June 1980' for certificate of occupancy, so the cutoff is approximate.",
+    "source_notes": "Official Rent Board notices and guides: D008 (2026 AGA public notice), D006 (summary of ordinance changes and subsidy coverage), D009 (coverage guide).",
+    "passage_id": "p2"
+   }
+  ]
+ }
+}

@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D079:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 1356,
+  "output_tokens": 260
+ },
+ "result": {
+  "en": "In San Francisco, a landlord of a unit covered by the Rent Ordinance can evict only for one of 17 just causes, which must be the dominant motive, and for certain no-fault evictions like owner move-in or Ellis Act withdrawal the landlord must pay relocation amounts set by the date the notice is served.",
+  "es": "En San Francisco, el propietario de una unidad cubierta por la Ordenanza de Alquileres solo puede desalojar por una de 17 causas justas, que debe ser el motivo dominante, y en ciertos desalojos sin culpa del inquilino, como la mudanza del propietario o el retiro bajo la Ley Ellis, debe pagar montos de reubicación fijados según la fecha en que se entrega el aviso."
+ }
+}

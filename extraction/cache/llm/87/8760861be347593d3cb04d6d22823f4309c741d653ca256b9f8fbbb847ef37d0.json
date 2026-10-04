@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D066:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 691,
+  "output_tokens": 199
+ },
+ "result": {
+  "en": "In New Jersey, starting May 1, 2026, a landlord or agent can't charge more than $50 for an application fee to rent or sublease a home, and violations can bring penalties of up to $500, $750 or $1,000 depending on the offense.",
+  "es": "En Nueva Jersey, a partir del 1 de mayo de 2026, un arrendador o agente no puede cobrar más de $50 por una solicitud para alquilar o subarrendar una vivienda, y las infracciones pueden conllevar multas de hasta $500, $750 o $1,000 según la reincidencia."
+ }
+}

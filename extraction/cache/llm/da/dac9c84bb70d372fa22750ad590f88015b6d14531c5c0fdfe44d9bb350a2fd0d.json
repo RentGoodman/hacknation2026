@@ -1,0 +1,19 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "qa",
+ "subject": "D051:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 37373,
+  "output_tokens": 566
+ },
+ "result": {
+  "changes": [
+   {
+    "field": "category",
+    "after_json": "\"termination_notice\"",
+    "reason": "G.L. c. 186, § 12 (D051) only sets notice periods and a nonpayment cure right for ending a tenancy at will and lists no just-cause grounds, so it is a termination-notice rule, not a just-cause eviction rule (category label assumed, as the allowed values were not provided)."
+   }
+  ]
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D011:c2",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 1869,
+  "output_tokens": 583
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "partly_supported",
+    "quoted_span": "An Act petition for a special law authorizing the city of Boston to implement rent stabilization and tenant eviction protections",
+    "note": "The document supports a petition to authorize Boston to implement tenant eviction protections, and the study order on 9/9/2024. The bill text is not captured, so the statement that no causes or terms are known is consistent with the document. The claim that it was not enacted is inferred from the study order rather than stated outright."
+   },
+   {
+    "field": "key_value",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "Field is empty and the document states no numeric or key value."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "Field is empty and the document states no effective date. The note on non-enactment is not an effective date."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "Accompanied a study order, see",
+    "note": "The last action, 9/9/2024, was a study order (H5035), so the bill did not advance to enactment. Status 'failed' is a reasonable reading."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "An Act petition for a special law authorizing the city of Boston to implement rent stabilization and tenant eviction protections",
+    "note": "The summary says the bill text is not captured and coverage details are unknown, which matches the document. All structured coverage fields are null."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "Bill H.3744",
+    "note": "H.3744, 193rd (2023 - 2024) and the H5035 study order all appear in the document. Some aliases, such as 'Boston tenant eviction protections home-rule petition', are descriptive labels."
+   }
+  ]
+ }
+}

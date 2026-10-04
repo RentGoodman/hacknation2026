@@ -1,0 +1,71 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "cell",
+ "subject": "MA|algorithmic_rent_setting",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 4178,
+  "output_tokens": 1095
+ },
+ "result": {
+  "cell_status": "rules_found",
+  "no_rule_quote": null,
+  "no_rule_passage_id": null,
+  "basis_citation": null,
+  "rules": [
+   {
+    "jurisdiction": "MA",
+    "category": "algorithmic_rent_setting",
+    "status": "pending",
+    "title": "An Act prohibiting algorithmic rent setting (Bill S.2983)",
+    "requirement": "Pending Senate bill that would prohibit algorithmic rent setting. On March 12, 2026 the Senate Committee on Housing reported it favorably, and it now sits with Senate Ways and Means. The passages give no bill text, so the covered software, prohibited conduct, penalties and effective date are not stated. It consolidates S.994 and S.1016, the latter styled the Preventing Algorithmic Rent Fixing in the Rental Housing Market Act.",
+    "key_value": null,
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": null,
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": null
+    },
+    "exemptions": null,
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "Not enacted; no effective date stated.",
+    "effective_date_formula": null,
+    "citation": "S.2983",
+    "citation_aliases": [
+     "Senate, No. 2983",
+     "S.994",
+     "S.1016",
+     "Senate, No. 994",
+     "Senate, No. 1016",
+     "Preventing Algorithmic Rent Fixing in the Rental Housing Market Act",
+     "194th General Court"
+    ],
+    "quoted_span": "An Act prohibiting algorithmic rent setting",
+    "confidence": 0.8,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "Only the bill's docket page is available. Substantive provisions were not retrieved.",
+    "source_notes": "Passages p3 and p4 are duplicate docket pages for the same bill.",
+    "passage_id": "p3"
+   }
+  ]
+ }
+}

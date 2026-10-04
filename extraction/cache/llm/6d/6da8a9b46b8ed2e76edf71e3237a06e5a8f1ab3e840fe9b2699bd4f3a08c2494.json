@@ -1,0 +1,47 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "DX20:c1",
+ "prompt_version": "v10",
+ "usage": {},
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "At the expiration of a lease or at the termination of a lease of a periodic tenant, no landlord may request or receive a percentage increase in rent which is greater than 5% or the percentage difference between the consumer price index three months prior to the expiration or termination of the lease and three months prior to the commencement of the lease term, whichever is less.",
+    "note": "Each element is in the text: the one-increase-per-12-months rule (§155-5), the void-increase rule (§155-3), the 30-day notice and the compliance certificate (§155-4, §155-26), June 30 registration and the disclosure statement (§155-30, §155-4A), the surcharges including the 33 1/3% capital improvement limit (§155-10), vacancy decontrol at 25% once per three years (§155-31, §155-34), and the $2,000 fine per unit (§155-21)."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "no landlord may request or receive a percentage increase in rent which is greater than 5% or the percentage difference between the consumer price index three months prior to the expiration or termination of the lease and three months prior to the commencement of the lease term, whichever is less.",
+    "note": "The other items in the summary also match the document. These are one increase per 12 months, 30 days' written notice with reasons, the 25% vacancy decontrol limit once per three years (§155-31, §155-34), and fines of up to $2,000 per unit (§155-21)."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The field is empty, and the document gives no effective date for the cap. It gives only the chapter's adoption date (1-16-1984) and amendment dates, which the record handles in other fields."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "At the expiration of a lease or at the termination of a lease of a periodic tenant, no landlord may request or receive a percentage increase in rent which is greater than 5% or the percentage difference between the consumer price index three months prior to the expiration or termination of the lease and three months prior to the commencement of the lease term, whichever is less.",
+    "note": "The document is the current municipal code, with amendments through 10-22-2025. It shows no repeal or sunset of §155-5. The COVID moratorium in Art. IX has ended, but it is a separate article."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "This chapter shall apply to all dwelling units as defined in § 155-1 above, except that the following shall be exempt:",
+    "note": "The exemptions are accurately listed: §155-2 A–H, covering the new-construction exemption of 30 years or the mortgage amortization period, whichever is less, with the notice and lease-provision conditions. Also correct are the first-rental-only exemptions, the government-agency preemption (§155-2.1), and the condo/co-op owner/occupant decontrol (§155-37). The chapter has no unit-count threshold."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "§ 155-5. Expiration or termination of lease.",
+    "note": "§155-5 contains the cap. The aliases (ch. 155, §§155-2, 155-4, 155-31, Ord. C329, B-532, B-818) all appear in the document."
+   }
+  ]
+ }
+}

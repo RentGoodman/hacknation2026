@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "DX06:c14",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 5707,
+  "output_tokens": 573
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "Prohibits landlords from using algorithmic devices and shared competitor information to set rent, fees, or other rental terms.",
+    "note": "The rule's requirement restates the table entry for Rockville."
+   },
+   {
+    "field": "key_value",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "key_value is null and the document states no numeric value, penalty, or threshold for Rockville."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "supported",
+    "quoted_span": "Rockville City Code § 18-148 (effective January 1, 2027)",
+    "note": "The document gives January 1, 2027 as the effective date."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "Rockville City Code § 18-148 (effective January 1, 2027)",
+    "note": "The alert is dated August 21, 2026, so a January 1, 2027 effective date is in the future relative to it. The 2026-10-01 query date is not in the document, but not_yet_effective follows from the document's dates."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "Prohibits landlords from using algorithmic devices and shared competitor information to set rent, fees, or other rental terms.",
+    "note": "The document applies the prohibition to landlords generally and states no unit-count, construction-date, owner-occupancy or landlord-size limits or exemptions for Rockville, as the coverage summary says."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "Rockville City Code § 18-148 (effective January 1, 2027)",
+    "note": "The citation matches. The alias 'Rockville City Code ch. 18' is not stated in the document but is only an alias."
+   }
+  ]
+ }
+}

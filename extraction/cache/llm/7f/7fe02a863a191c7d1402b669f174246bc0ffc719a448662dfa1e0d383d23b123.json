@@ -1,0 +1,178 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D073:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 43339,
+  "output_tokens": 6404
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": {
+    "years": 15,
+    "basis": "certificate of occupancy issued within the previous 15 years (rolling); not applicable to mobilehomes",
+    "requires_owner_filing": false
+   },
+   "owner_occupied_exemption_max_units": 2,
+   "requires_unknown_facts": true,
+   "unverifiable_exemptions": [
+    "Housing restricted by deed, regulatory agreement or other document as affordable housing for very low, low or moderate income households",
+    "Housing subject to an affordable housing subsidy agreement (Section 8 tenancies are not exempt)",
+    "Separately alienable residential property (including mobilehomes) whose landlord is not a REIT, corporation, LLC with a corporate member or mobilehome park management, where the tenants received the prescribed written exemption notice (in the lease for tenancies commenced or renewed on or after Jan. 1, 2024)",
+    "Housing in a nonprofit hospital, religious facility, extended care facility, licensed residential care facility for the elderly, adult residential facility or non-profit transitional housing",
+    "Dormitories owned and operated by a higher education or K-12 institution",
+    "Tenant shares a bathroom or kitchen with a landlord who lives there as principal residence",
+    "Owner-occupied single-family residence renting no more than two bedrooms, two ADUs or two JADUs, or a mobilehome",
+    "Duplex in a single structure where the landlord occupied one unit as principal residence at the start of the tenancy and continues to"
+   ],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Tenancies of more than 30 days in residential rental property in the City of San Diego, including mobilehome park units. Fixed-term leases of 3 months or less are not covered. Exempt: housing with a certificate of occupancy issued within the previous 15 years (except mobilehomes), plus the listed exempt property types and owner situations.",
+   "construction_date_basis": "certificate_of_occupancy",
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": 15,
+   "owner_conditions": "Exempt: a landlord-occupied single-family residence renting no more than two bedrooms, two ADUs or two JADUs. Exempt: a duplex where the landlord occupies one unit as principal residence from the start of the tenancy and continues to. Exempt: a separately alienable unit whose landlord is not a REIT, corporation, LLC with a corporate member or mobilehome park management, and that gave the prescribed written notice.",
+   "other_conditions": "Also exempt: transient and tourist hotel occupancy, short-term residential occupancy, and mobilehomes subject to the Mobilehome Residency Law. A covered tenancy is a right to occupy for more than 30 days. Fixed-term leases of three months or less, including extensions or renewals of that length, are not tenancies."
+  },
+  "evidence": [
+   {
+    "field": "new_construction_exemption",
+    "doc_id": "DX17",
+    "quoted_span": "L. Housing that has been issued a certificate of occupancy within the previous 15 years, unless the dwelling is a mobilehome."
+   },
+   {
+    "field": "new_construction_exemption",
+    "doc_id": "D073",
+    "quoted_span": "(k) housing that has been issued a certificate of occupancy within the previous"
+   },
+   {
+    "field": "construction_date_basis",
+    "doc_id": "DX17",
+    "quoted_span": "L. Housing that has been issued a certificate of occupancy within the previous 15 years, unless the dwelling is a mobilehome."
+   },
+   {
+    "field": "min_building_age_years",
+    "doc_id": "DX17",
+    "quoted_span": "L. Housing that has been issued a certificate of occupancy within the previous 15 years, unless the dwelling is a mobilehome."
+   },
+   {
+    "field": "owner_occupied_exemption_max_units",
+    "doc_id": "D073",
+    "quoted_span": "(j) a property containing two separate dwelling units within a single structure in"
+   },
+   {
+    "field": "requires_unknown_facts",
+    "doc_id": "D073",
+    "quoted_span": "(2) The tenants have been provided written notice that the residential"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "DX17",
+    "quoted_span": "C. Housing restricted by deed (LITHC), regulatory restriction contained in an agreement with a government agency, or other recorded document as affordable housing for individuals and families of very low, low, or moderate income;"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "DX17",
+    "quoted_span": "D. Housing that is subject to an agreement that provides housing subsidies for affordable housing for the same individuals previously described. This exclusion does NOT apply to a Tenant with a Section 8 Housing Choice Voucher;"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D073",
+    "quoted_span": "(l) residential rental property, including a mobilehome, that is alienable separate"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D073",
+    "quoted_span": "renewed on or after January 1, 2024, the notice required above shall be"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D073",
+    "quoted_span": "(f) housing accommodations in a nonprofit hospital, religious facility, extended"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D073",
+    "quoted_span": "adult residential facility, as defined in Title 22, Division 6, Chapter 6 of the"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D073",
+    "quoted_span": "(g) dormitories owned and operated by an institution of higher education or an"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D073",
+    "quoted_span": "(h) residential rental property in which the tenant shares bathroom or kitchen"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D073",
+    "quoted_span": "than two bedrooms, two accessory dwelling units, or two junior"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D073",
+    "quoted_span": "(j) a property containing two separate dwelling units within a single structure in"
+   },
+   {
+    "field": "owner_conditions",
+    "doc_id": "D073",
+    "quoted_span": "than two bedrooms, two accessory dwelling units, or two junior"
+   },
+   {
+    "field": "owner_conditions",
+    "doc_id": "DX17",
+    "quoted_span": "J. A property containing two separate dwelling units within a single structure in which the Owner occupies one of the units as the Owner’s principal place of residence at the beginning of the Tenancy, so long as the Owner continues in occupancy"
+   },
+   {
+    "field": "owner_conditions",
+    "doc_id": "D073",
+    "quoted_span": "(C) a limited liability company in which at least one member is a"
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D073",
+    "quoted_span": "(a) transient and tourist hotel occupancy as defined in California Civil Code"
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D073",
+    "quoted_span": "(b) short-term residential occupancy, as defined in and subject to Chapter 5,"
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D073",
+    "quoted_span": "(e) mobilehomes subject to the Mobilehome Residency Law (California Civil"
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D073",
+    "quoted_span": "occupy a residential rental property for more than 30 days. A tenancy does not"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D073",
+    "quoted_span": "habitation, including any dwelling or unit in a mobilehome park."
+   },
+   {
+    "field": "summary",
+    "doc_id": "D073",
+    "quoted_span": "include a lease for a fixed-term of three months or less, including any extensions or"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D073",
+    "quoted_span": "occupy a residential rental property for more than 30 days. A tenancy does not"
+   }
+  ],
+  "notes": "Changes made:\n\n1. supersedes_state_rule set to null (was true). The captured code says only that the Division requires just cause \"consistent with California Civil Code section 1946.2\" and that its rights are \"in addition to\" state rights. No document contains a binding finding that the ordinance is more protective, which is what Civ. Code § 1946.2(i) requires. Precedence cannot be verified from these documents.\n\n2. other_conditions: removed the comparison with state law's 12-month occupancy threshold. No provided document contains state law text. Replaced it with the code's own tenancy definition (more than 30 days; fixed-term leases of 3 months or less excluded).\n\n3. Unchanged fields:\n- new_construction_exemption (15 years, certificate of occupancy, rolling). requires_owner_filing is kept false because § 98.0703(k) is self-executing, with no notice or filing condition. Contrast (l), which requires written notice.\n- min_building_age_years 15, which is equivalent to the rolling certificate-of-occupancy exemption.\n- owner_occupied_exemption_max_units 2 (duplex, § 98.0703(j)).\n- owner_conditions, unverifiable_exemptions and summary are each supported by the code text.\n\n4. DX17's statement that neither duplex unit may be an ADU or JADU, and its 'two units or bedrooms' wording, do not appear in the code. They are not adopted.\n\n5. D076 and DX05 (the algorithmic rent-setting ordinance) are not relevant to this rule's coverage."
+ }
+}

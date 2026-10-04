@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D083:c4",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 4002,
+  "output_tokens": 693
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "partly_supported",
+    "quoted_span": "Relocation payments for tenants evicted under the Ellis Act",
+    "note": "The document supports a per-tenant amount, a per-unit maximum, an additional amount for elderly (62+) or disabled tenants, and dependence on the notice service date. It does not say that amounts adjust each March 1, although the rate periods run March 1 to February 28."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "3/01/26 – 2/28/27\n$11,110.05\n$33,330.13\n$7,443.90",
+    "note": "The current and prior-period amounts ($10,863.45 / $32,590.33 / $7,278.67) match the table in the document."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "partly_supported",
+    "quoted_span": "3/01/26 – 2/28/27",
+    "note": "The document shows the current rate period beginning 3/1/2026 for notices served in that window. It does not state an enactment date or the 2006 start of the rule."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "3/01/26 – 2/28/27\n$11,110.05\n$33,330.13\n$7,443.90",
+    "note": "The current rate table lists the payments for notices served in the current period, which implies the rule is in force."
+   },
+   {
+    "field": "coverage",
+    "verdict": "partly_supported",
+    "quoted_span": "Relocation payments for tenants evicted under the Ellis Act",
+    "note": "The document supports coverage of tenants evicted under the Ellis Act. It says nothing about the withdrawal of all units in a building, the June 13, 1979 Certificate of Occupancy exemption, or the rule applying to rental units under the Rent Ordinance's eviction provisions."
+   },
+   {
+    "field": "citation",
+    "verdict": "partly_supported",
+    "quoted_span": "578 Multilingual Relocation Payments 37.9A",
+    "note": "The section number 37.9A appears only in a link label placed next to the Ellis Act table. The document does not give the 'S.F. Admin. Code' form of the citation."
+   }
+  ]
+ }
+}

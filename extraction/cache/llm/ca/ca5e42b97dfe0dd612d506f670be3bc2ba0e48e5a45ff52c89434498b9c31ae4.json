@@ -1,0 +1,83 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D067:c2",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 74998,
+  "output_tokens": 3385
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": 3,
+   "requires_unknown_facts": true,
+   "unverifiable_exemptions": [
+    "Unit held in trust for a developmentally disabled immediate family member who permanently occupies it",
+    "Hotel, motel or guest house rented to a transient or seasonal guest"
+   ],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Applies to most residential rentals: single-family homes, mobile homes and mobile home park sites, apartment buildings and complexes, and rooming and boarding houses. Owner-occupied two- and three-family dwellings fall outside the full good-cause list and are subject only to a narrower list of causes.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": "Owner-occupied (landlord-occupied) two- and three-family dwellings are excluded from the full good-cause list and follow a narrower list of eviction causes.",
+   "other_conditions": "Hotel and motel guests are covered if they have no alternate residence and live at the hotel or motel on a continual basis."
+  },
+  "evidence": [
+   {
+    "field": "owner_occupied_exemption_max_units",
+    "doc_id": "D067",
+    "quoted_span": "This law may not apply to two - or three-unit owner-occupied premises with two (2) or"
+   },
+   {
+    "field": "owner_conditions",
+    "doc_id": "D067",
+    "quoted_span": "Tenants of landlord-occupied two- and three-family dwellings can be removed only when "
+   },
+   {
+    "field": "summary",
+    "doc_id": "D067",
+    "quoted_span": "The Anti-Eviction Act applies to most residential rental properties including single-family "
+   },
+   {
+    "field": "summary",
+    "doc_id": "D067",
+    "quoted_span": "homes, mobile homes and land in a mobile home park, apartment buildings, and complexes."
+   },
+   {
+    "field": "summary",
+    "doc_id": "D067",
+    "quoted_span": "law also applies to rooming and boarding homes (N.J.S.A. 2A:18-53 to -84)."
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D067",
+    "quoted_span": "the occupant has no alternate residence and resides at the hotel or motel on a continual basis."
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D067",
+    "quoted_span": "Additionally, this law does not apply to a unit held in trust on behalf of a member of the immediate "
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D067",
+    "quoted_span": "It does not apply to hotel guests, motel guests, or guest houses rented to a "
+   },
+   {
+    "field": "requires_unknown_facts",
+    "doc_id": "D067",
+    "quoted_span": "family, if that family member is developmentally disabled, and permanently occupies the dwelling "
+   }
+  ],
+  "notes": "I removed the landlord-registration condition from other_conditions because it describes landlord conduct (failing to register), not covered buildings or units. I also removed the list of eviction causes and notice periods from owner_conditions for the same reason; that field now states only the owner-occupancy scope. I set requires_unknown_facts to true because coverage depends on facts usually not on record: owner occupancy, transient or seasonal status, and trust arrangements for a disabled family member. owner_occupied_exemption_max_units=3 is kept. It is based on the guide's statement about two- or three-unit owner-occupied premises, but the guide's wording ('with two (2) or fewer rental units') is ambiguous."
+ }
+}

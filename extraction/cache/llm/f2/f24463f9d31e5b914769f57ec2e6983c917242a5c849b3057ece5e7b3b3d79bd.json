@@ -1,0 +1,64 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "extract",
+ "subject": "D016",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 8108,
+  "output_tokens": 2006
+ },
+ "result": {
+  "rules": [
+   {
+    "candidate_id": "c1",
+    "jurisdiction": "CA",
+    "category": "screening_restrictions",
+    "status": "in_force",
+    "title": "California FEHA limits on tenant screening: criminal history and source of income",
+    "requirement": "Housing providers and tenant screening companies may not discriminate on source of income, including Section 8 and other rental assistance. Refusing to complete subsidy paperwork or advertising \"No Section 8\" is treated as discrimination. Providers may check criminal history but may not consider arrests that did not lead to conviction, sealed or expunged records, or juvenile justice records. Blanket bans on applicants with any criminal history are prohibited. A denial based on a conviction must be directly related to the applicant's ability to be a good tenant and not a threat to the health and safety of others or the property. Providers should weigh the nature and severity of the crime and the time elapsed since it.",
+    "key_value": null,
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Applies to most housing providers and housing-related services in California, including landlords, property managers, and tenant screening companies.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": "An owner occupying the home and renting to one additional person may exclude applicants based on protected characteristics, but still may not publish discriminatory statements or advertisements.",
+     "other_conditions": "Housing specifically for seniors may be limited by age. Shared living areas in a single dwelling may be limited to one sex."
+    },
+    "exemptions": "Owner-occupied home with one additional renter; qualifying senior housing; shared living area limited to one sex.",
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "The page gives no effective dates for these protections.",
+    "effective_date_formula": null,
+    "citation": "California Fair Employment and Housing Act (FEHA)",
+    "citation_aliases": [
+     "FEHA",
+     "California fair housing law"
+    ],
+    "quoted_span": "Housing  providers cannot consider some types of criminal history including arrests that did not lead to a conviction, records that are sealed or expunged, or records or matters processed in the juvenile justice system.",
+    "confidence": 0.6,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "The page names FEHA but gives no section numbers, so the citation is at the act level. Source of income and criminal history are folded into one record because they come from the same law and category.",
+    "source_notes": "Secondary summary by the enforcing agency (CRD fair housing page and FAQ), not statutory text."
+   }
+  ],
+  "no_rule_findings": [],
+  "doc_summary": "California Civil Rights Department overview of state fair housing law under FEHA: protected characteristics, remedies, complaint process and FAQ. Relevant to screening restrictions are the source-of-income protections (including Section 8 vouchers) and the criminal-history limits (no consideration of non-conviction arrests, sealed or expunged records, or juvenile records, and no blanket bans). The page says CRD has no jurisdiction over evictions, rent control or security deposit return when unrelated to discrimination, but it states no substantive rules in those areas."
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D014:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 4269,
+  "output_tokens": 1522
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "partly_supported",
+    "quoted_span": "The HSNA also requires landlords and foreclosing owners to send a copy of the\nNotice to Quit or Notice of Non-renewal of Lease, together with a Certificate of\nCompliance/Service, to the City of Boston’s Office of Housing Stability",
+    "note": "The notice duty, the copy to the Office of Housing Stability, non-waiver, enforcement entities, the penalty schedule and the eviction not being halted are all in the document. Not in D014: the City's online portal, the tenant's contact information being sent to the City, and the fine for failing to submit to the portal. Those come from D013."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "2nd and Subsequent Offenses: $300 per day",
+    "note": "The document also supports the other elements: the notice served with the Notice to Quit, the copy to the Office of Housing Stability, the first-offense warning, non-waivability, and that a violation DOES NOT halt the eviction process."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "supported",
+    "quoted_span": "The HSNA becomes effective on November 6, 2020.",
+    "note": "The document gives the October 2020 passage and the November 6, 2020 effective date."
+   },
+   {
+    "field": "status",
+    "verdict": "partly_supported",
+    "quoted_span": "The HSNA becomes effective on November 6, 2020.",
+    "note": "The document says the ordinance takes effect and describes it as operative. It does not explicitly state its current in-force status, so that is inferred."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "The Ordinance applies to all landlords/foreclosing owners intending to end a\ntenancy or post-foreclosure occupancy of a unit in the City of Boston.",
+    "note": "The two exemptions (hospital, skilled nursing or health facility; non-profit short-term substance abuse treatment facility) are listed as the only exempt properties."
+   },
+   {
+    "field": "citation",
+    "verdict": "partly_supported",
+    "quoted_span": "Housing Stability Notification Act (Sec. 10-11.7)",
+    "note": "The section number 10-11.7 and the name HSNA appear. The document does not say \"Boston City Code\" and does not mention the alias \"ch. 10-11\"; it refers only to City of Boston Ordinances."
+   }
+  ]
+ }
+}

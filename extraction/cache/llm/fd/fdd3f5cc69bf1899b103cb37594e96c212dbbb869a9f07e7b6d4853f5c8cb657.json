@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D043:c4",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 557,
+  "output_tokens": 198
+ },
+ "result": {
+  "en": "In Los Angeles, a landlord who demolishes a property or converts it to condos, stock co-ops, community apartment projects, hotels or commercial use must pay relocation assistance, whether or not the property is covered by the RSO or JCO.",
+  "es": "En Los Ángeles, un arrendador que demuele una propiedad o la convierte en condominios, cooperativas de acciones, proyectos de apartamentos comunitarios, hoteles o uso comercial debe pagar asistencia de reubicación, esté o no la propiedad sujeta a la RSO o la JCO."
+ }
+}

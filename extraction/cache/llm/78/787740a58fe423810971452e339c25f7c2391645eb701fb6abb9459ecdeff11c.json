@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D003:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 817,
+  "output_tokens": 214
+ },
+ "result": {
+  "en": "In Berkeley, landlords generally cannot ask about or use your criminal history when advertising, taking applications, choosing tenants, or deciding to end a tenancy, and violations can bring fines of $1,000 to $10,000 per violation or civil damages.",
+  "es": "En Berkeley, los arrendadores por lo general no pueden preguntar sobre sus antecedentes penales ni usarlos al anunciar, recibir solicitudes, elegir inquilinos o decidir terminar un arrendamiento, y las infracciones pueden conllevar multas de $1,000 a $10,000 por infracción o daños civiles."
+ }
+}

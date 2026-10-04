@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D016:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 9932,
+  "output_tokens": 740
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "Generally, a housing provider may check the criminal history of an applicant, but there are some limitations. Housing  providers cannot consider some types of criminal history including arrests that did not lead to a conviction, records that are sealed or expunged, or records or matters processed in the juvenile justice system. Housing providers are also prohibited from having “blanket bans” of all people with a criminal history.",
+    "note": "All bullets are in the document. The tenant screening companies are covered by the FEHA scope statements. The closing sentence about limits on what history may be sought is only loosely supported by the factsheet pointer."
+   },
+   {
+    "field": "key_value",
+    "verdict": "partly_supported",
+    "quoted_span": "Housing providers are also prohibited from having “blanket bans” of all people with a criminal history.",
+    "note": "The substantive parts (no blanket bans, no arrests without conviction, sealed/expunged, juvenile records, denial directly related) are supported. The 'in effect since Jan. 1, 2020' element is not in D016."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_supported",
+    "quoted_span": null,
+    "note": "D016 gives no effective date for the criminal history rules. The 2020-01-01 date comes only from DX07, not this document."
+   },
+   {
+    "field": "status",
+    "verdict": "partly_supported",
+    "quoted_span": "Generally, a housing provider may check the criminal history of an applicant, but there are some limitations.",
+    "note": "The page describes the limits in the present tense as current law, which implies they are in force, but it says nothing explicit about status."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "The Fair Employment and Housing Act (FEHA) covers the sale, rental, or occupancy of most housing accommodations in California",
+    "note": "The summary matches D016, which also lists landlords, tenant screening companies and property managers as covered. No exemptions or conditions are structured, which is consistent with the null fields."
+   },
+   {
+    "field": "citation",
+    "verdict": "not_supported",
+    "quoted_span": null,
+    "note": "D016 never cites Cal. Code Regs. tit. 2, § 12264. It mentions only FEHA generally, and the criminal history regulations are not cited by section."
+   }
+  ]
+ }
+}

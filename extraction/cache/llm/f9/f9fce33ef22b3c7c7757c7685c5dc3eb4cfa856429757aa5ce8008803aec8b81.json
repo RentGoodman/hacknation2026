@@ -1,0 +1,13 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "qa",
+ "subject": "D069:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 75419,
+  "output_tokens": 638
+ },
+ "result": {
+  "changes": []
+ }
+}

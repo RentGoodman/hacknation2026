@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D010:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 4331,
+  "output_tokens": 806
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "partly_supported",
+    "quoted_span": "will not impose a blanket policy that denies \nhousing to anyone with arrests and or convictions. Housing providers will consider applicants on \na case-by-case basis.",
+    "note": "Most points are accurate: the scope, the four excluded categories, the credit rules, and preemption. But the exemptions are overstated. The document does not list 'current criminal behavior' as an exception to the arrest and conviction limits in the same way; it says the guidance does not apply to it. It also says 'and or' for direct relationship/unreasonable risk. The requirement also says providers 'must assess applicants case by case' and 'should weigh mitigating factors', which is mostly consistent. Pairing a short 'considering eviction' clause is fine. The appeals language ('where feasible') is accurately hedged."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "The agent agrees not to use the applicant credit score to approve or deny housing",
+    "note": "The summary matches the document: no blanket ban, no use of non-conviction arrests, relieved convictions, juvenile records or convictions over 5 years old, and no credit-score decisions."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The field is empty. The document is dated February 2017 but states no effective date, as the rule's own note says."
+   },
+   {
+    "field": "status",
+    "verdict": "partly_supported",
+    "quoted_span": "Under this policy, housing providers agree to the following:",
+    "note": "The document says nothing about repeal, sunset or current status. 'in_force' is an inference from the present-tense policy language and the lack of any sunset, and the rule's review note admits this."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "Housing providers receiving Department of Neighborhood Development (DND) funding and/or \nland, or that have income restricted units created under the Boston Planning and Development \nAgency (BPDA) Inclusionary Development Policy",
+    "note": "The owner conditions, the extension to the Office of Fair Housing and Equity Affirmative Marketing Program, and the preemption condition all appear in the document."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "BOSTON FAIR CHANCE TENANT SELECTION POLICY",
+    "note": "The title and the February 2017 date on each page match the DND policy citation."
+   }
+  ]
+ }
+}

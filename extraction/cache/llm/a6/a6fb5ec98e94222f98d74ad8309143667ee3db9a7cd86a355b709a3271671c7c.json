@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D010:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 925,
+  "output_tokens": 353
+ },
+ "result": {
+  "en": "In Boston, housing providers that get city DND funding or land, or that run income-restricted inclusionary units, can't ban applicants outright over a criminal record, must review each case individually, can't consider non-conviction arrests, relieved convictions, juvenile records or convictions over 5 years old (unless a direct link to the housing, unreasonable risk to others' safety, or current criminal behavior applies), and can't use credit scores.",
+  "es": "En Boston, los proveedores de vivienda que reciben fondos o terrenos del DND de la ciudad, o que administran unidades inclusionarias con ingresos restringidos, no pueden prohibir por completo a solicitantes por antecedentes penales, deben revisar cada caso individualmente, no pueden considerar arrestos sin condena, condenas con alivio judicial, registros juveniles ni condenas de más de 5 años (salvo relación directa con la vivienda, riesgo irrazonable para la seguridad de otros o conducta criminal actual), y no pueden usar puntajes de crédito."
+ }
+}

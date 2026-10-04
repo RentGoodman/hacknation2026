@@ -1,0 +1,67 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D029:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 8923,
+  "output_tokens": 1181
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": 2,
+   "requires_unknown_facts": true,
+   "unverifiable_exemptions": [
+    "owner-occupied 2-family dwelling (scope of the exemption as applied to source-of-income claims not stated)"
+   ],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Applies to rental housing transactions in Cambridge. The official page notes an exemption for 2-family dwellings where the owner lives there.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": "Exemption for 2-family dwellings when the owner lives there.",
+   "other_conditions": null
+  },
+  "evidence": [
+   {
+    "field": "owner_occupied_exemption_max_units",
+    "doc_id": "D029",
+    "quoted_span": "NOTE: there is an exemption for 2-family dwellings, when the owner lives there"
+   },
+   {
+    "field": "owner_conditions",
+    "doc_id": "D029",
+    "quoted_span": "NOTE: there is an exemption for 2-family dwellings, when the owner lives there"
+   },
+   {
+    "field": "requires_unknown_facts",
+    "doc_id": "D029",
+    "quoted_span": "NOTE: there is an exemption for 2-family dwellings, when the owner lives there"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D029",
+    "quoted_span": "NOTE: there is an exemption for 2-family dwellings, when the owner lives there"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D029",
+    "quoted_span": "viewing or renting an apartment"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D029",
+    "quoted_span": "NOTE: there is an exemption for 2-family dwellings, when the owner lives there"
+   }
+  ],
+  "notes": "Every existing coverage value is supported by D029's Fair Housing FAQ section, so no changes were needed. The owner-occupied exemption is stated only as '2-family dwellings, when the owner lives there.' Its application to source-of-income claims is not stated, so it remains listed as unverifiable. Applying it to a given unit depends on owner-occupancy and dwelling type, so requires_unknown_facts=true. D031 (Tenants Rights notification ordinance, ch. 8.71) and DX10 (news article on short-term rentals and algorithmic pricing) do not bear on ch. 14.04 coverage. No unit thresholds, construction cutoffs or preemption relationships are stated in the documents."
+ }
+}

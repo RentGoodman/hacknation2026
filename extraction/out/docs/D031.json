@@ -1,0 +1,9 @@
+{
+  "doc_id": "D031",
+  "source_url": "https://www.cambridgema.gov/tenantrights",
+  "model": "anthropic:claude-sonnet-5-5",
+  "query_date": "2026-10-01",
+  "chunks": 1,
+  "rules": [],
+  "rejected": []
+}

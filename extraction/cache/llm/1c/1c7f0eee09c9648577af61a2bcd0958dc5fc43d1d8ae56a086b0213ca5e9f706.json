@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D083:c2",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 553,
+  "output_tokens": 240
+ },
+ "result": {
+  "en": "In San Francisco, landlords who hold a tenant's security deposit must pay interest on it at the rate the Rent Board publishes, which is 4.2% per year for March 1, 2026 through February 28, 2027 (down from 5.0% in 2025-26 and 5.2% in 2024-25).",
+  "es": "En San Francisco, los propietarios que conservan el depósito de seguridad de un inquilino deben pagar intereses sobre este según la tasa que publica la Junta de Alquileres, que es del 4.2% anual del 1 de marzo de 2026 al 28 de febrero de 2027 (menos que el 5.0% de 2025-26 y el 5.2% de 2024-25)."
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D040:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 6360,
+  "output_tokens": 1602
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "partly_supported",
+    "quoted_span": "It prohibits terminations of tenancies without just cause and requires relocation assistance for no-fault evictions.",
+    "note": "D040 supports the at-fault and no-fault cause lists, annual registration, the Right to Counsel and Renters' Protections notices, the Fair Market Rent nonpayment rule, the 3-business-day filing and the point that the JCO does not regulate rent increases. It does not mention the Declaration of Intent to Evict, the Chart A relocation parity, the 15-day payment or escrow timing, the one-month single-family rule or the rent offset. Those come only from the D043 bulletins."
+   },
+   {
+    "field": "key_value",
+    "verdict": "partly_supported",
+    "quoted_span": "All eviction notices issued to tenants in the City of Los Angeles must be filed with LAHD within three (3) business days of service on the tenant.",
+    "note": "The 3-business-day filing and the six-month or lease-expiry coverage trigger are in D040. The Chart A dollar amounts, the single-family one-month rent rule and the 15-day payment are not in D040."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The field is empty. D040 gives no effective date for the JCO itself. The dates in the effective_date_note belong to sub-rules and are not an effective date for the JCO."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "It prohibits terminations of tenancies without just cause and requires relocation assistance for no-fault evictions.",
+    "note": "The page describes the JCO in the present tense as operative law, which is consistent with in_force."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "The JCO covers most residential properties in the City of Los Angeles that are not regulated by the City’s Rent Stabilization Ordinance (RSO).",
+    "note": "The RSO exclusion, buildings newer than October 1, 1978, single-family dwellings, the six-month or lease-expiry condition and the list of other exceptions all appear in D040."
+   },
+   {
+    "field": "citation",
+    "verdict": "not_supported",
+    "quoted_span": null,
+    "note": "D040 names the Just Cause For Eviction Ordinance (JCO) but never cites L.A. Mun. Code § 165.03 or any other code section."
+   }
+  ]
+ }
+}

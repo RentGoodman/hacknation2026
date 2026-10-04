@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D073:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 1492,
+  "output_tokens": 248
+ },
+ "result": {
+  "en": "In San Diego, a landlord can't end a covered tenancy without just cause, and for no-fault evictions the landlord must give 30 or 60 days' written notice and pay 2 months' actual rent (3 months for seniors 62+ or disabled tenants) within 15 days of the notice or waive that rent.",
+  "es": "En San Diego, un propietario no puede terminar un alquiler cubierto sin causa justificada, y en los desalojos sin culpa del inquilino debe dar un aviso escrito de 30 o 60 días y pagar 2 meses de renta real (3 meses para personas mayores de 62 años o inquilinos con discapacidad) dentro de los 15 días del aviso, o perdonar esa renta."
+ }
+}

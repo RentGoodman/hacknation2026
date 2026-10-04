@@ -1,0 +1,62 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D052:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 37548,
+  "output_tokens": 1287
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": false,
+   "unverifiable_exemptions": [
+    "Leases, rentals, occupancies or tenancies of 100 days or less in duration for a vacation or recreational purpose"
+   ],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Residential leases and tenancies at will statewide, except vacation or recreational rentals of 100 days or less.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": null,
+   "other_conditions": "Does not apply to a lease, rental, occupancy or tenancy of 100 days or less for a vacation or recreational purpose."
+  },
+  "evidence": [
+   {
+    "field": "summary",
+    "doc_id": "D052",
+    "quoted_span": "Any lessor of residential real property, or his agent, who accepts a security deposit from a tenant or prospective tenant"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D052",
+    "quoted_span": "The lessor shall, within thirty days after the termination of occupancy under a tenancy-at-will or the end of the tenancy as specified in a valid written lease agreement, return to the tenant the security deposit or any balance thereof"
+   },
+   {
+    "field": "requires_unknown_facts",
+    "doc_id": "D052",
+    "quoted_span": "No lease relating to residential real property shall contain a provision"
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D052",
+    "quoted_span": "The provisions of this section shall not apply to any lease, rental, occupancy or tenancy of one hundred days or less in duration which lease or rental is for a vacation or recreational purpose."
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D052",
+    "quoted_span": "The provisions of this section shall not apply to any lease, rental, occupancy or tenancy of one hundred days or less in duration which lease or rental is for a vacation or recreational purpose."
+   }
+  ],
+  "notes": "Coverage is otherwise correct. I set requires_unknown_facts to false because the law covers ordinary residential rentals statewide. I also listed the vacation/recreational short-term exemption under unverifiable_exemptions, because assessor data cannot identify a tenancy's purpose or duration. The statute has no unit-count, construction-date, owner-occupancy or landlord-size limits."
+ }
+}

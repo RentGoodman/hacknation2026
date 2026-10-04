@@ -1,0 +1,83 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "extract",
+ "subject": "D073",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 14036,
+  "output_tokens": 3545
+ },
+ "result": {
+  "rules": [
+   {
+    "candidate_id": "c1",
+    "jurisdiction": "San Diego, CA",
+    "category": "just_cause_eviction",
+    "status": "in_force",
+    "title": "San Diego Residential Tenant Protections (Tenants' Right to Know Regulations) – just cause, relocation assistance, buyouts",
+    "requirement": "A landlord may not terminate a tenancy without just cause, either at-fault (e.g. nonpayment, material lease breach, nuisance, waste, criminal activity) or no-fault (owner or relative move-in, withdrawal from the rental market, government or court orders to vacate, demolition or substantial remodel). No-fault terminations need 30 or 60 days' written notice (per Civ. Code § 1946.1) in at least 12-point font, stating the basis, the relocation assistance and the right to re-rent. The landlord must give relocation assistance of 2 months' rent (3 months if the tenant is a senior or disabled), paid directly within 15 days of the notice or taken as a rent waiver. Notice to the Housing Commission is due within 3 business days, but only after the Commission opens a submission portal. A tenant displaced by a no-fault termination under (b)(1), (3) or (4) has a right of first offer for 5 years. Landlords must give all covered tenants a protections notice and the Tenant Protection Guide. Buyout offers require a prior written disclosure and a compliant written agreement for more than the relocation amount. Retaliation is prohibited. Non-compliance voids the termination notice.",
+    "key_value": "No-fault: relocation of 2 months' rent (3 months for senior/disabled), paid within 15 days or as rent waiver; 30/60-day notice; 5-year right to re-rent offer (30 days to accept); remedies of at least 3x actual economic damages for wrongful eviction and at least 3x required relocation assistance plus actual damages; at-fault: written notice to cure then 3-day notice to quit",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": {
+      "years": 15,
+      "basis": "certificate of occupancy issued within the previous 15 years (not applicable to mobilehomes)",
+      "requires_owner_filing": false
+     },
+     "owner_occupied_exemption_max_units": 2,
+     "requires_unknown_facts": false,
+     "unverifiable_exemptions": [
+      "Housing restricted by deed, regulatory agreement or other document as affordable housing for very low, low or moderate income households",
+      "Housing subject to an affordable housing subsidy agreement (Section 8 not exempt)",
+      "Separately alienable residential property (including mobilehomes) whose landlord is not a REIT, corporation, LLC with a corporate member or mobilehome park management and where the tenants were given the required written exemption notice",
+      "Housing in nonprofit hospitals, religious facilities, extended care facilities, licensed residential care facilities for the elderly, adult residential facilities, or non-profit transitional housing",
+      "Dormitories owned and operated by higher education or K-12 institutions",
+      "Property where tenant shares bathroom or kitchen with a landlord who lives there as principal residence",
+      "Owner-occupied single-family residence renting no more than two bedrooms, two ADUs or two JADUs, or a duplex where the landlord occupies one unit"
+     ],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Applies to residential rental properties (tenancies over 30 days) in San Diego, except housing with a certificate of occupancy issued within the previous 15 years and the listed exempt categories.",
+     "construction_date_basis": "certificate of occupancy",
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": 15,
+     "owner_conditions": "Exempt: single-family residence occupied by the landlord as principal residence (renting no more than two bedrooms, two ADUs or two JADUs); duplex where landlord occupies one unit as principal residence at the start of the tenancy and continues to; separately alienable property whose landlord is not a REIT, corporation, LLC with a corporate member or mobilehome park management and which gave the required written notice.",
+     "other_conditions": "Mobilehomes under the Mobilehome Residency Law, transient/tourist hotel and short-term residential occupancy are exempt. Mobilehomes are excluded from the 15-year new construction exemption."
+    },
+    "exemptions": "Division does not apply to: transient/tourist hotel and short-term residential occupancy; deed-restricted or subsidized affordable housing (Section 8 excluded from the exemption); mobilehomes under the Mobilehome Residency Law; nonprofit hospital, religious, extended care, residential care facility for the elderly, adult residential facility, non-profit transitional housing; dormitories; shared-facility rentals with a resident landlord; owner-occupied single-family residences and duplexes; housing with a certificate of occupancy issued within the previous 15 years; separately alienable property with a qualifying non-corporate landlord who gave written notice.",
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": "2023-06-24",
+    "enacted_date": "2023-05-25",
+    "sunset_date": null,
+    "effective_date_note": "Division retitled and substantially amended by O-21647 N.S., adopted 5-25-2023, effective 6-24-2023. Further amended by O-21769 N.S. on 2-27-2024, effective 3-28-2024. The original Tenants' Right to Know Regulations were added 3-30-2004 by O-19269 N.S. The enacted date is taken from the 'added 5-25-2023' history note.",
+    "effective_date_formula": null,
+    "citation": "S.D. Mun. Code § 98.0704",
+    "citation_aliases": [
+     "S.D. Mun. Code ch. 9, art. 8, div. 7",
+     "S.D. Mun. Code §§ 98.0701–98.0710",
+     "S.D. Mun. Code § 98.0706",
+     "S.D. Mun. Code § 98.0707",
+     "O-21647 N.S.",
+     "O-21769 N.S.",
+     "O-19269 N.S.",
+     "Tenants' Right to Know Regulations",
+     "Residential Tenant Protections"
+    ],
+    "quoted_span": "A landlord shall not terminate a tenancy without just cause.",
+    "confidence": 0.93,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "Per-section commission-notice requirements (§ 98.0706(a)(2), (b)(2)) are deferred until 30 days after the Housing Commission announces a submission portal. Relocation assistance (§ 98.0706(c)) and buyouts (§ 98.0707) are folded into this record because they are subsections of the same Division.",
+    "source_notes": "Official municipal code text (3-2024 version). No later amendments after O-21769 N.S. are reflected."
+   }
+  ],
+  "no_rule_findings": [],
+  "doc_summary": "San Diego Municipal Code Chapter 9, Article 8, Division 7 (Residential Tenant Protections, formerly Tenants' Right to Know) requires just cause to terminate covered tenancies. It lists at-fault and no-fault causes, with notice content, relocation assistance of 2 months' rent (3 for seniors or disabled tenants), a 5-year right to re-rent, buyout agreement rules, anti-retaliation protection and remedies of at least 3x damages. It exempts the 15-year-new-construction housing and various owner-occupied, affordable, institutional and similar categories. The document does not address rent caps, deposits, screening fees or screening restrictions, or algorithmic rent-setting."
+ }
+}

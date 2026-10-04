@@ -1,0 +1,73 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "cell",
+ "subject": "Los Angeles, CA|rent_increase_limits",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 4660,
+  "output_tokens": 2445
+ },
+ "result": {
+  "cell_status": "rules_found",
+  "no_rule_quote": null,
+  "no_rule_passage_id": null,
+  "basis_citation": null,
+  "rules": [
+   {
+    "jurisdiction": "Los Angeles, CA",
+    "category": "rent_increase_limits",
+    "status": "in_force",
+    "title": "Los Angeles Rent Stabilization Ordinance (RSO) annual allowable rent increase",
+    "requirement": "For RSO units, rent may be increased once every 12 months by the annual allowable percentage set by LAHD. Since February 2, 2026, landlords can no longer add an extra percentage for utilities. The 10% add-on for an additional dependent is also no longer permitted. A 10% increase for an additional non-dependent tenant who moves in is still allowed. Rent may be reset to market rate when the tenancy ends in one of the listed ways (voluntary move-out, eviction for nonpayment or lease violation, and similar). State law requires 30 days' written notice for increases under 10%.",
+    "key_value": "3% annual allowable increase for July 1, 2025 through June 30, 2026; one increase per 12 months; no utility add-on from Feb 2, 2026; no 10% add-on for an added dependent from Feb 2, 2026; 30 days' written notice for increases under 10% (state law)",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": {
+      "basis": "year_built",
+      "covered_if": "on_or_before",
+      "date": "1978-10-01"
+     },
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Applies to rental properties first built on or before October 1, 1978, plus replacement units under LAMC 151.28. Covers apartments, duplexes, two or more single-family units on one parcel, hotel and rooming-house rooms occupied over 30 days, ADUs and JADUs, and mobile homes. Condominiums and townhomes are not rent-regulated for tenancies that commenced after December 31, 1995.",
+     "construction_date_basis": "first built",
+     "built_on_or_before": "1978-10-01",
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": "Condos and townhomes: rent not regulated for tenancies commencing after 12/31/1995. Rent may go to market rate after voluntary move-out, certain evictions, or a tenant buyout agreement."
+    },
+    "exemptions": "Condominiums and townhomes with tenancies commencing after December 31, 1995 are not rent-regulated.",
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "The passages give no original effective date for the RSO. They state that the utility add-on and dependent add-on removals took effect February 2, 2026. The 3% figure applies to July 1, 2025 through June 30, 2026, and rent increases were prohibited from March 30, 2020 through January 31, 2024.",
+    "effective_date_formula": null,
+    "citation": "L.A. Mun. Code § 151.06",
+    "citation_aliases": [
+     "L.A. Mun. Code ch. XV, art. 1",
+     "Los Angeles Rent Stabilization Ordinance",
+     "RSO",
+     "LARSO",
+     "LAMC § 151.28"
+    ],
+    "quoted_span": "Rent may be increased once every 12 months by the allowable rent increase percentage",
+    "confidence": 0.8,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "The 3% figure covers a period that ended June 30, 2026, before the query date. The passages do not state the rate for July 1, 2026 onward. The section number is not stated in the passages; the citation follows the LAMC ch. 151 references they contain.",
+    "source_notes": "Official LAHD pages (RSO Rent Increase Calculator and RSO Overview).",
+    "passage_id": "p2"
+   }
+  ]
+ }
+}

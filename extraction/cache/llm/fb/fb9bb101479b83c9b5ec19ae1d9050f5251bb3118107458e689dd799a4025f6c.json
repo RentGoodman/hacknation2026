@@ -1,0 +1,18 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "date_audit",
+ "subject": "D041:c2",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 26865,
+  "output_tokens": 738
+ },
+ "result": {
+  "requirement_is_new": false,
+  "in_force_since": null,
+  "in_force_since_evidence": null,
+  "current_version_effective": "2026-07-01",
+  "prior_version_note": "The documents do not give the RSO's original effective date or earlier relocation amounts; they say only that amounts 'Increases every July 1st.' Two elements were added later. From March 27, 2023, nonpayment evictions require the tenant to owe more than the Fair Market Rent (D040: 'Effective March 27, 2023...'). From August 20, 2025, the Notice of Right to Counsel requirement applies. The earlier rules are therefore implied to have had no FMR threshold and no Right to Counsel notice, but the documents do not describe them directly.",
+  "effective_date_formula": null
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D016:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 44607,
+  "output_tokens": 1497
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": null,
+   "unverifiable_exemptions": [],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Most housing providers and housing-related services in California covered by FEHA, including landlords, property management companies and tenant screening companies, for the rental of most housing accommodations in California.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": null,
+   "other_conditions": null
+  },
+  "evidence": [
+   {
+    "field": "summary",
+    "doc_id": "D016",
+    "quoted_span": "California’s Fair Employment and Housing Act (also known as FEHA) applies to most providers of housing and services related to housing such as landlords, tenant screening companies, real estate agents, home sellers, builders, mortgage lenders, and housing authorities."
+   },
+   {
+    "field": "summary",
+    "doc_id": "D016",
+    "quoted_span": "The law applies to landlords, tenant screening companies, property management companies, real estate agents, home sellers, builders, mortgage lenders, housing authorities, and others."
+   },
+   {
+    "field": "summary",
+    "doc_id": "D016",
+    "quoted_span": "The Fair Employment and Housing Act (FEHA) covers the sale, rental, or occupancy of most housing accommodations in California"
+   }
+  ],
+  "notes": "Set other_conditions to null. No document mentions Berkeley's Fair Chance Access to Housing Ordinance, or any local criminal-history ordinance operating alongside these limits. Revised the summary so it uses only the D016 wording ('property management companies' rather than 'property managers') and added the housing-accommodation scope. D016 also describes a FEHA carve-out: an owner who occupies a home and rents to one additional person may exclude applicants based on protected characteristics. No document says this carve-out applies to the criminal-history limits, and it is not expressed as a unit count, so owner_conditions and owner_occupied_exemption_max_units are left null. No document gives a unit, construction-date, landlord-size or preemption condition for this rule."
+ }
+}

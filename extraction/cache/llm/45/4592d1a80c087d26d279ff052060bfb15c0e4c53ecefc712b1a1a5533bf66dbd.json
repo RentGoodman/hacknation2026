@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D076:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 10605,
+  "output_tokens": 760
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "It is unlawful for a landlord to use an algorithmic device to set rental rates\nor occupancy levels for residential rental property.",
+    "note": "Sale/license ban, use ban, definition, per-month/per-property violations, and tenant remedies with fees are all in §§98.1102-98.1104. The document words the sale ban as 'sell, license, or otherwise provide', which matches the rule."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "A tenant may seek injunctive relief, damages, or civil penalties of up to\n$1,000 per violation of this Division, in a civil action against a landlord.",
+    "note": "The $1,000 cap, the separate monthly/per-property violations, prevailing-tenant fees and the 30-day effect all appear in the document (§98.1103, §98.1104, Section 3)."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "Effective_date is empty. The document gives only a formula (thirtieth day after final passage) and leaves the passage date blank, so no date can be stated. The formula is captured elsewhere."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "DATE OF FINAL PASSAGE __________________",
+    "note": "Passage date, Council adoption certification, and mayoral approval/veto are all blank, and the document is a staff report proposing the ordinance. This is consistent with 'pending'."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "Landlord has the same meaning as in San Diego Municipal Code section 98.0702,\nas may be amended.",
+    "note": "Terms are defined by reference to §98.0702, and the definition applies to residential rental property in the City of San Diego. No unit, age, owner or size limits are stated. The rule's description of §98.0702's definition of residential rental property (including mobilehome park units) is not in this document, since the document only cross-references that section."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "§98.1103  Use and Sale of Algorithmic Devices Prohibited",
+    "note": "The document also supports the aliases: Division 11, §§98.1101-98.1104, and O-2025-107."
+   }
+  ]
+ }
+}

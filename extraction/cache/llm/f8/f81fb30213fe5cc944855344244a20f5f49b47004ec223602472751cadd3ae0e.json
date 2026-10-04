@@ -1,0 +1,160 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "consolidate",
+ "subject": "Jersey City, NJ",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 41359,
+  "output_tokens": 6345
+ },
+ "result": {
+  "rules": [
+   {
+    "candidate_id": "D036:c1",
+    "jurisdiction": "Jersey City, NJ",
+    "category": "rent_increase_limits",
+    "status": "in_force",
+    "title": "Jersey City Rent Control Ordinance (Chapter 260)",
+    "requirement": "Jersey City regulates rents through its Rent Control Ordinance, Chapter 260 of the Municipal Code. The Office of Landlord/Tenant Relations administers and enforces it, and a Rent Leveling Board hears matters under it. All properties with 1-4 units are exempt. Owners may file a Rent Control Exemption Request for the other exemptions the ordinance permits. Landlords may apply for rent increases above the regular limit: capital improvement, vacancy capital improvement and hardship increases. Tenants may file an Illegal Rent Petition, or a Failure to Maintain Service Petition seeking a rent reduction. Owners of five or more units file annual landlord registration statements with a rent roll. The city page links a Consumer Price Index chart as a resource but does not state the cap formula or percentage.",
+    "key_value": null,
+    "coverage": {
+     "min_units": 5,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": true,
+     "unverifiable_exemptions": [
+      "Other exemptions permitted by Chapter 260, granted on a Rent Control Exemption Request reviewed by the Office of Landlord/Tenant Relations"
+     ],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Covers rental properties with 5 or more units. All 1-4 unit properties are exempt. Further exemptions under the ordinance are available on request but are not described in the captured page.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": "Further exemptions require a Rent Control Exemption Request and review by the Office."
+    },
+    "exemptions": "All 1-4 unit properties are exempt. Other permitted exemptions apply on an owner's Rent Control Exemption Request; their criteria are not stated in the captured source.",
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "The captured source gives no enactment or effective date for Chapter 260. It is described as the city's operative rent control ordinance.",
+    "effective_date_formula": null,
+    "citation": "Jersey City Code ch. 260",
+    "citation_aliases": [
+     "Jersey City Mun. Code ch. 260",
+     "Jersey City Municipal Code Chapter 260",
+     "Jersey City Rent Control Ordinance",
+     "Chapter 260"
+    ],
+    "quoted_span": "All 1-4 Unit Properties are exempt from rent control",
+    "confidence": 0.6,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "The only source is the official city Office of Landlord/Tenant Relations page. It gives no cap formula or percentage, no section-level citation, and no effective date. Verify all of these against the Chapter 260 text. New Jersey has no statewide rent cap: the state Anti-Eviction Act only requires that rent increases not be unconscionable and comply with municipal rent control. This local ordinance is therefore the operative rent limit.",
+    "source_notes": "Merged the document-level and cell-level candidates, both drawn from the same city page (D036).",
+    "source_doc_id": "D036",
+    "from_candidates": [
+     "D036:c1",
+     "cell:Jersey City, NJ:rent_increase_limits:1"
+    ],
+    "also_supported_by": []
+   },
+   {
+    "candidate_id": "DX02:c1",
+    "jurisdiction": "Jersey City, NJ",
+    "category": "algorithmic_rent_setting",
+    "status": "in_force",
+    "title": "Preventing Algorithmic Rent-Fixing in the Rental Housing Market (Jersey City Code § 218-12, as amended by Ord. 25-076)",
+    "requirement": "Real estate lessors, their agents and subcontractors may not subscribe to, contract with, exchange anything of value for, or (after Ord. 25-076) otherwise utilize the services of a Service Provider. A service provider performs a coordinating function in three steps. First, it collects nonpublic competitor information from real estate lessors, or collects historical or contemporaneous prices, price changes, supply levels, occupancy rates, or lease termination and renewal dates from two or more lessors or from public databases. Second, it analyzes or processes that information using computation. Third, it recommends rental prices, lease terms or occupancy levels. Nonpublic competitor information means data less than 365 days old that is not widely and readily available to the public at no cost. No service provider may facilitate an agreement not to compete among lessors on any aspect of residential dwelling units, including rental pricing, fees or other rental terms. Enforcement is threefold. The Attorney General or a municipal or county attorney may sue as parens patriae. The Office of Landlord-Tenant Affairs and the Office of Code Compliance enforce the section, and residents may report suspected violations to the Office of Landlord/Tenant Relations. Any injured person also has a private right of action. A successful plaintiff recovers costs and reasonable attorney fees.",
+    "key_value": "First violation punishable under Jersey City Code § 1-25; subsequent violations fined $100 to $2,000; each day a separate violation; costs and reasonable attorney fees to successful plaintiffs; private right of action",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Applies to real estate lessors of residential dwelling units in Jersey City, meaning units intended as a person's primary residence, and to their agents, subcontractors and service providers. Inpatient medical care, licensed long-term care, and detention or correctional facilities are excluded.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": "The definition of coordinating exempts owners of multiple properties for actions related exclusively to multiple properties controlled by the same rental property owner.",
+     "other_conditions": "Licensed real estate agents are excluded from the coordination and service-provider definitions while operating in accordance with applicable state regulations."
+    },
+    "exemptions": "Owners of multiple properties, for actions related exclusively to their own properties. Licensed real estate agents operating in accordance with state regulations. Inpatient medical care, licensed long-term care, and detention or correctional facilities are not residential dwelling units.",
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": "2025-05-21",
+    "sunset_date": null,
+    "effective_date_note": "Ord. 25-057 states no effective date. It was adopted on final reading on May 21, 2025 and approved by the Mayor on May 22, 2025. The amending Ord. 25-076 was adopted on July 16, 2025 and approved by the Mayor on July 17, 2025, also with no stated effective date. A secondary law-firm table gives 'effective June 2025' (month only). That is consistent with the adoption dates but is not an official date. The law is in force on the query date either way.",
+    "effective_date_formula": null,
+    "citation": "Jersey City Code § 218-12",
+    "citation_aliases": [
+     "Ord. 25-057",
+     "Ord. 25-076",
+     "Jersey City Code ch. 218",
+     "Jersey City Code § 218-12(2)",
+     "Chapter 218 (Multiple Dwellings)",
+     "Preventing Algorithmic Rent-Fixing in the Rental Housing Market",
+     "Jersey City RealPage ban"
+    ],
+    "quoted_span": "It is unlawful for any real estate lessor, agent, or subcontractor thereof, to subscribe to, contract with, or otherwise\nexchange anything of value in return for the services of a Service Provider.",
+    "confidence": 0.88,
+    "conflict_flag": true,
+    "conflict_note": "Organizer open question: New Jersey's FAIR Act (P.L.2026, c.43) may preempt this ordinance once it takes effect on July 1, 2027. The state act bars municipal ordinances that conflict with it. This ordinance differs in its definitions, penalties and private right of action, and whether it conflicts is unresolved.",
+    "review_note": "The quoted prohibition is the original Ord. 25-057 wording. Ord. 25-076 amended § 218-12(2) to add 'or otherwise utilize the services of' a Service Provider and left subsection 1 (definitions) unchanged. The penalty for a first violation is set by Jersey City Code § 1-25, which was not captured. The ordinance says it amends Chapter 218 'Multiple Dwellings' in its title but 'Fees and Charges' in its enacting clause. It renumbers the existing sections 218-12 through 218-18 (including 'Conflicts with state law', whose content is not reproduced). The text also refers in places to 'this Act' and 'this chapter'.",
+    "source_notes": "Official adopted ordinance (DX02) and its official amendment (DX04). The secondary sources (DX06 law-firm table; DX11 Hudson County View report of the 9-0 vote) are consistent. The '$2,000 daily fine' in DX11 came from a public commenter, and the official text sets $100 to $2,000 per violation for subsequent violations, with each day a separate violation. DX11's report that amendments might follow is borne out by Ord. 25-076.",
+    "source_doc_id": "DX02",
+    "from_candidates": [
+     "DX02:c1",
+     "DX04:c1",
+     "DX06:c8",
+     "DX11:c1",
+     "cell:Jersey City, NJ:algorithmic_rent_setting:1"
+    ],
+    "also_supported_by": [
+     {
+      "doc_id": "DX04",
+      "quoted_span": "otherwise exchange anything of value in return for or otherwise utilize the services of a Service"
+     },
+     {
+      "doc_id": "DX06",
+      "quoted_span": "Prohibits a landlord’s use of algorithmic rent coordination services; includes public and private enforcement; fines up to $2,000 per day."
+     },
+     {
+      "doc_id": "DX11",
+      "quoted_span": "The Jersey City Council unanimously approved (9-0) a measure banning rent-setting algorithms such as RealPage, as well as increasing benefits for laborers, at last night’s meeting."
+     }
+    ]
+   }
+  ],
+  "dropped_candidates": [],
+  "known_gaps": [
+   {
+    "category": "rent_increase_limits",
+    "law": "Jersey City Code ch. 260 (Rent Control Ordinance)",
+    "reason": "The city page names the ordinance and links its text and a CPI chart, but the ordinance text was not captured. The cap formula, section-level citation, effective date and the full list of exemptions are unknown."
+   },
+   {
+    "category": "algorithmic_rent_setting",
+    "law": "Jersey City Code § 1-25 (General Provisions penalties)",
+    "reason": "Section 218-12 sets the first-violation penalty by reference to § 1-25, whose text was not captured."
+   }
+  ]
+ }
+}

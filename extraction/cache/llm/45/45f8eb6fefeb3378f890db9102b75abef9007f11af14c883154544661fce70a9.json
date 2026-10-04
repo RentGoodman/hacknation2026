@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D014:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 833,
+  "output_tokens": 313
+ },
+ "result": {
+  "en": "In Boston, a landlord or foreclosing owner ending a tenancy must give the tenant a Notice of Tenants' Rights and Resources along with the Notice to Quit or non-renewal, and send the City's Office of Housing Stability a copy; this cannot be waived, and a violation brings a warning for the first offense and $300 per day after that but does not halt the eviction.",
+  "es": "En Boston, un propietario o dueño que ejecuta una hipoteca y quiere terminar un arrendamiento debe entregar al inquilino un Aviso de Derechos y Recursos de los Inquilinos junto con el Aviso de Desalojo o de no renovación, y enviar una copia a la Oficina de Estabilidad de Vivienda de la ciudad; no se puede renunciar a este requisito, y una infracción conlleva una advertencia la primera vez y $300 por día después, pero no detiene el desalojo."
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "date_audit",
+ "subject": "D046:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 37110,
+  "output_tokens": 712
+ },
+ "result": {
+  "requirement_is_new": true,
+  "in_force_since": null,
+  "in_force_since_evidence": null,
+  "current_version_effective": null,
+  "prior_version_note": "No earlier enacted version appears in the documents. S.2983 was reported on March 12, 2026 from two unenacted petitions: S.994, to prohibit algorithmic rent setting, and S.1016, to establish the Preventing Algorithmic Rent Fixing in the Rental Housing Market Act. Neither took effect. The bill is pending in Senate Ways and Means, and no effective date is stated.",
+  "effective_date_formula": null
+ }
+}

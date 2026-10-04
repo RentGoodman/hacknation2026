@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D049:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 624,
+  "output_tokens": 168
+ },
+ "result": {
+  "en": "In Massachusetts, a landlord or anyone else offering rental housing cannot discriminate against you because you receive public assistance or a housing subsidy such as rental assistance, or because of a requirement of that program.",
+  "es": "En Massachusetts, un arrendador u otra persona que ofrezca viviendas en alquiler no puede discriminarlo por recibir asistencia pública o un subsidio de vivienda, como ayuda para el alquiler, ni por un requisito de ese programa."
+ }
+}

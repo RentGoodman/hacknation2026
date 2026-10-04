@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D025:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 1197,
+  "output_tokens": 248
+ },
+ "result": {
+  "en": "In California, a landlord generally can't charge more than one month's rent as a security deposit (two months for qualifying small landlords, but never for service members), and must return the balance with an itemized statement within 21 calendar days after you move out, or face damages of up to twice the deposit for bad-faith retention.",
+  "es": "En California, un arrendador por lo general no puede cobrar más de un mes de renta como depósito de seguridad (dos meses para ciertos arrendadores pequeños, pero nunca a militares en servicio), y debe devolver el saldo con una relación detallada de deducciones dentro de los 21 días naturales después de que usted se mude, o enfrentar daños de hasta el doble del depósito por retenerlo de mala fe."
+ }
+}

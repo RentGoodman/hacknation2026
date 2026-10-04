@@ -1,0 +1,60 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "DX05:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 40929,
+  "output_tokens": 2099
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": false,
+   "unverifiable_exemptions": [],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Proposed ordinance. It would apply citywide in the City of San Diego to residential rental property, which it defines by reference to SDMC § 98.0702: any dwelling or unit intended for human habitation, including any dwelling or unit in a mobilehome park. It states no unit-count, construction-date, owner-occupancy or landlord-size limits. The Division 7 exemptions in § 98.0703 apply only to Division 7 and are not incorporated.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": null,
+   "other_conditions": null
+  },
+  "evidence": [
+   {
+    "field": "summary",
+    "doc_id": "D076",
+    "quoted_span": "Residential rental property has the same meaning as in San Diego Municipal"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D073",
+    "quoted_span": "Residential rental property means any dwelling or unit that is intended for human"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D076",
+    "quoted_span": "property in the City of San Diego. Algorithmic device does not include either of"
+   },
+   {
+    "field": "requires_unknown_facts",
+    "doc_id": "D076",
+    "quoted_span": "or occupancy levels for residential rental property."
+   },
+   {
+    "field": "requires_unknown_facts",
+    "doc_id": "D073",
+    "quoted_span": "Residential rental property means any dwelling or unit that is intended for human"
+   }
+  ],
+  "notes": "Removed other_conditions. It described which software is prohibited, which is conduct, not building, unit or owner coverage. The software carve-outs in § 98.1102(a)-(b) (reports from aggregated data more than 90 days old or from public information; affordable-housing program rent-setting) are exclusions from the definition of 'algorithmic device'. They are not building exemptions, so they are not listed in unverifiable_exemptions. Division 11 borrows only the definitions of § 98.0702. The § 98.0703 exemptions, such as certificate of occupancy within 15 years, owner-occupied duplexes and deed-restricted affordable housing, are limited to 'This Division' (Division 7) and do not carry over. requires_unknown_facts is set to false because the rule covers ordinary rental dwellings. The ordinance remains a draft with a blank number and passage date, so the status is pending."
+ }
+}

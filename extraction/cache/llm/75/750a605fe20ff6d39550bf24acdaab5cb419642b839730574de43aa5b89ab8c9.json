@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D065:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 9036,
+  "output_tokens": 1874
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "A housing provider shall not, either before\nor after the issuance of a conditional offer, evaluate an applicant based on\nany of the following types of criminal records:",
+    "note": "Each element of the summary traces to the act: the pre-offer inquiry ban and its two exceptions, the barred record types, the post-offer limits, the withdrawal standard, notice, the six factors, the 30-day request and 10-day free response, the fee disclosure, the advertising, drug-test and treatment-records bans, the complaint-only enforcement, the 14-day mediation, the tiered penalties, and the fee return and up-to-$1,000 payment."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "an amount not to exceed $10,000 if the housing",
+    "note": "Lookbacks are 6 years (first degree), 4 years (second or third degree) and 1 year (fourth degree). Listed serious crimes and lifetime-registration crimes carry no time limit. Penalty caps are $1,000, $5,000 and $10,000."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "supported",
+    "quoted_span": "This act shall take effect on the first day of the\nseventh month next following the date of enactment",
+    "note": "The act was approved June 18, 2021. The first day of the seventh month after that is January 1, 2022."
+   },
+   {
+    "field": "status",
+    "verdict": "partly_supported",
+    "quoted_span": "This act shall take effect on the first day of the\nseventh month next following the date of enactment",
+    "note": "The document shows the act took effect on a fixed date. It says nothing about later amendment or repeal, so 'in_force' as a current status cannot be confirmed from the document alone."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "“Rental dwelling unit” means a dwelling unit offered\nfor rent by a housing provider for residential purposes,\nother than a dwelling unit in an\nowner-occupied premises of not more than four dwelling units.",
+    "note": "The definition supports the owner-occupied exemption (four units or fewer) and the coverage summary. The other coverage fields are null, and the document states no conditions for them."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "C.46:8-55  Application process.",
+    "note": "The act is P.L. 2021, c.110 (S250), the Fair Chance in Housing Act. The cited section 46:8-55 is the application-process section. The aliases (46:8-52 to 46:8-64 and the individual sections) match the section headings."
+   }
+  ]
+ }
+}

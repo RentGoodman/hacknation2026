@@ -1,0 +1,50 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D022:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 45028,
+  "output_tokens": 1764
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": false,
+   "unverifiable_exemptions": [],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "General statewide antitrust rule, not specific to housing. It applies to any person, other than the end consumer of a product or service, who uses or distributes a common pricing algorithm. That includes residential rental owners regardless of building size, age or owner type. The statute sets no unit-count, construction-date or owner-type limits.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": null,
+   "other_conditions": null
+  },
+  "evidence": [
+   {
+    "field": "summary",
+    "doc_id": "D022",
+    "quoted_span": "“Person” has the same meaning as defined in Section 16702 and does not include the end consumer of a product or service."
+   },
+   {
+    "field": "summary",
+    "doc_id": "D022",
+    "quoted_span": "(a) It shall be unlawful for a person to use or distribute a common pricing algorithm as part of a contract, combination in the form of a trust, or conspiracy to restrain trade or commerce in violation of this chapter."
+   },
+   {
+    "field": "requires_unknown_facts",
+    "doc_id": "D022",
+    "quoted_span": "(a) It shall be unlawful for a person to use or distribute a common pricing algorithm as part of a contract, combination in the form of a trust, or conspiracy to restrain trade or commerce in violation of this chapter."
+   }
+  ],
+  "notes": "Changes to coverage:\n- Removed other_conditions ('two or more persons and competitor data'). That text is part of the definition of the prohibited conduct, i.e. what counts as a common pricing algorithm. It does not limit which buildings, units or owners are covered, so it belongs in requirement, not coverage.\n- Removed from the summary the claims about city bans in Berkeley, San Francisco and Santa Ana and San Diego's proposed ban. No document supports them.\n- Removed the DX09 single-firm-algorithm note from the summary, because it describes conduct.\n- Did not set may_preempt_local_rules. § 16729(c) only preserves 'antitrust laws', which (d)(1) defines as the provisions of this part; it says nothing about local rules.\n- Set requires_unknown_facts to false. The rule reaches ordinary rental owners generally, and its trigger is landlord conduct, not a building class that assessor data cannot identify."
+ }
+}

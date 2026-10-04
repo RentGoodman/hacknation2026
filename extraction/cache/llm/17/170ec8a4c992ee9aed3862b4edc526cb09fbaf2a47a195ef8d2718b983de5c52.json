@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D067:c2",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 60651,
+  "output_tokens": 1202
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "partly_supported",
+    "quoted_span": "No residential landlord may evict or fail to renew a \nlease, whether it is a written or an oral lease without good cause.",
+    "note": "The core good-cause rule, the list of causes, the Notice to Quit rules, the court-judgment requirement, the ban on self-help eviction, 6x relocation, the treble damages and $10,000 penalty, and the rooming house rules are all in the document. Several details are off. The owner-occupied holdover periods differ slightly: the guide says 1 month for \"other types of tenancies\" as well as month-to-month. The 3-day notice for owner-occupied cases is omitted. The 5-year reuse rule applies to board-up, demolition or retirement. The owner-occupancy misuse remedy, stated as treble damages, comes with a 6-month occupancy requirement that the requirement field does not mention. The requirement's list of causes also omits public-housing lease breach, and the 18-month period applies only to retirement."
+   },
+   {
+    "field": "key_value",
+    "verdict": "partly_supported",
+    "quoted_span": "A Notice to Quit must be served on the tenant at least three months before filing a suit \nfor eviction.",
+    "note": "The notice periods match the document: 3 days for disorderly conduct, damage, employment and criminal causes; 1 month for rules, lease breach, rent increase, lease changes and late payment; 2 months for post-conversion occupancy; 3 months for health and safety; 18 months for retirement; 3 years for conversion; 6x monthly rent relocation for illegal occupancy. The 3-month and 3-year periods are correct, but the value is a compressed summary that omits the cause-specific caveats."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The rule's effective_date is null, and the document states no effective date for the Anti-Eviction Act."
+   },
+   {
+    "field": "status",
+    "verdict": "partly_supported",
+    "quoted_span": "The Anti-Eviction Act,  N.J.S.A. 2A:18-61.1 to 61.12, was created to protect \nblameless tenants from eviction and was adopted in recognition of the housing shortage in \nthe State.",
+    "note": "The guide presents the Act as current law that applies and is enforced. It does not use the words \"in force\", so the in_force status is inferred from the present-tense description."
+   },
+   {
+    "field": "coverage",
+    "verdict": "partly_supported",
+    "quoted_span": "The Anti-Eviction Act applies to most residential rental properties including single-family \nhomes, mobile homes and land in a mobile home park, apartment buildings, and complexes. This \nlaw also applies to rooming and boarding homes",
+    "note": "The summary, the hotel/motel exemption, the trust exemption, and the owner-occupied limits are all supported. The Exceptions paragraph, however, is ambiguous and says the law \"may not apply\" to certain owner-occupied premises. The coverage field instead treats those premises as subject to a narrower list of causes, which the document's owner-occupied section supports."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "The Anti-Eviction Act,  N.J.S.A. 2A:18-61.1 to 61.12, was created to protect",
+    "note": "The main citation and the aliases appear in the document: 2A:18-53, 2A:18-61.2, 2A:18-61.6, N.J.A.C. 5:27-3.3(c), 5:26-3.4(c). The alias P.L.1974, c.49 is not found in the guide, though only the main citation needs support."
+   }
+  ]
+ }
+}

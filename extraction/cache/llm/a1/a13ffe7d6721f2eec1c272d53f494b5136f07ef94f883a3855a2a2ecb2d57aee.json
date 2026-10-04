@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D027:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 882,
+  "output_tokens": 244
+ },
+ "result": {
+  "en": "In California, a landlord cannot discriminate against or harass you because of your source of income, including Section 8 and HUD-VASH vouchers, and if you have a government rent subsidy, income standards must be based on your portion of the rent and the landlord must consider other proof of ability to pay instead of credit history.",
+  "es": "En California, un arrendador no puede discriminarte ni acosarte por tu fuente de ingresos, incluidos los vales de Section 8 y HUD-VASH, y si tienes un subsidio de renta del gobierno, los requisitos de ingresos deben basarse en tu parte de la renta y el arrendador debe considerar otras pruebas de capacidad de pago en lugar del historial de crédito."
+ }
+}

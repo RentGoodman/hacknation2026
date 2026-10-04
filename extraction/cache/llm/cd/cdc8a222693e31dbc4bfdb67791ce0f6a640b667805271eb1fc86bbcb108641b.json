@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D011:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 1928,
+  "output_tokens": 499
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "partly_supported",
+    "quoted_span": "that the city of Boston be authorized to implement rent stabilization and tenant eviction protections",
+    "note": "Petition, mayor/council approval, and the study order are supported. The claims that no enactment is shown and that Boston has no rent stabilization in force are not stated in the document. The document also mentions eviction protections, which the requirement omits."
+   },
+   {
+    "field": "key_value",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The field is empty and the document states no cap or formula."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The field is empty and the document gives no effective date."
+   },
+   {
+    "field": "status",
+    "verdict": "partly_supported",
+    "quoted_span": "Accompanied a study order, see",
+    "note": "The study order is stated, which is consistent with 'failed'. The document does not say the bill failed or that the session ended without enactment."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "that the city of Boston be authorized to implement rent stabilization and tenant eviction protections",
+    "note": "The summary correctly says the bill was not enacted and was sent to a study order, and that the bill text is not captured. All structured coverage fields are null, which fits."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "Bill H.3744",
+    "note": "H.3744 and H.5035 (the study order) are both in the document. Other aliases are descriptive."
+   }
+  ]
+ }
+}

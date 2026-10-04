@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D083:c3",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 811,
+  "output_tokens": 338
+ },
+ "result": {
+  "en": "In San Francisco, if a landlord serves a notice to end your tenancy for owner or relative move-in, demolition, temporary capital improvements, or substantial rehabilitation, they must pay relocation of $8,245.00 per tenant (up to $24,733.00 per unit), plus $5,497.00 more for each elderly (60+) or disabled tenant or household with a minor child, for notices served 3/1/2026-2/28/2027.",
+  "es": "En San Francisco, si un propietario entrega un aviso para terminar su arrendamiento por mudanza del propietario o de un familiar, demolición, mejoras de capital temporales o rehabilitación sustancial, debe pagar una reubicación de $8,245.00 por inquilino (hasta $24,733.00 por unidad), más $5,497.00 adicionales por cada inquilino mayor (60+) o con discapacidad, o por cada hogar con un menor, para avisos entregados del 3/1/2026 al 2/28/2027."
+ }
+}

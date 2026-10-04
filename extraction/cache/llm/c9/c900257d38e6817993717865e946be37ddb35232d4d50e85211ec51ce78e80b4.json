@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D043:c3",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 15479,
+  "output_tokens": 1048
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "partly_supported",
+    "quoted_span": "Owners who demolish a Protected Unit for the purpose of new construction within 5 years after the\nfiling of the Notice of Intent to Withdraw or Declaration of Intent to Evict with LAHD are required to\ncomply with relocation requirements under the RPO.",
+    "note": "Core trigger, three options, 6-month remain right, 3-business-day filing, 15-day Chart A payments and $250,000 penalties are all supported. However, the document does not say the owner pays 'the higher of' state and City amounts in those words (it says 'highest of the applicable relocation amounts'), which is close. The record's 'right to remain... including a 6-month notice' and the 'right of first refusal for some tenants' are supported. Option 3's 15-day timing is tied to filing, not the termination notice, and the record states Option 2 as an approved replacement unit without noting the LAHD approval letter requirement. Minor deviations only."
+   },
+   {
+    "field": "key_value",
+    "verdict": "partly_supported",
+    "quoted_span": "Tenants Displaced by\nNew Development $115,480 $96,750 $87,450",
+    "note": "Chart B amounts for Extremely Low, Very Low and Low are correct for 7/1/2026-6/30/2027, and above-low households follow Chart A. Penalties 'starting at $250,000 per displaced unit' and the 5-year window are supported. The '5-year look-back from filing' is mis-described: the document gives a 5-year window after the filing within which demolition must occur (a look-forward), and the 5-year look-back applies to Protected Unit status."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "supported",
+    "quoted_span": "effective 2/11/2025\nunder Ordinances # 188481 and #188482",
+    "note": "Document gives 2/11/2025 as the effective date; it also says the Council adopted the RPO on that date."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "which must be enhanced for lower income\ntenants if the project is subject to the Resident Protections Ordinance (RPO), effective 2/11/2025",
+    "note": "The bulletin (rev. 07.01.2026) presents the RPO as currently operative, consistent with in_force."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "The RPO only applies to Protected Units that will be demolished for the\npurpose of new construction.",
+    "note": "Coverage summary, RSO units being Protected Units, the four Protected Unit categories (5-year covenant/rent control/lower-income rental, 10-year Ellis Act) and the Chart B/Chart A income split are all in the document. Flagged unverifiable exemptions are reasonable."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "effective 2/11/2025\nunder Ordinances # 188481 and #188482",
+    "note": "Ordinance numbers 188481 and 188482 appear in the document; the 'Resident Protections Ordinance (RPO)' alias is also used. The record cites only 188481 as primary but lists 188482 as an alias, which is acceptable."
+   }
+  ]
+ }
+}

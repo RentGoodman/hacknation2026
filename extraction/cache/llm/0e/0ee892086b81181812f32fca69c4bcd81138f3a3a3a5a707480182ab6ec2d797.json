@@ -1,0 +1,120 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "cell",
+ "subject": "MA|rent_increase_limits",
+ "prompt_version": "v10",
+ "usage": {},
+ "result": {
+  "cell_status": "rules_found",
+  "no_rule_quote": null,
+  "no_rule_passage_id": null,
+  "basis_citation": null,
+  "rules": [
+   {
+    "jurisdiction": "MA",
+    "category": "rent_increase_limits",
+    "status": "in_force",
+    "title": "Statewide prohibition on rent control",
+    "requirement": "Massachusetts law broadly prohibits any regulatory scheme based on or implementing rent control. Rent control is defined to include any regulation that in any way requires below-market rents for residential properties. No local rent cap is permitted.",
+    "key_value": null,
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": false,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": true,
+     "landlord_size_condition": null,
+     "summary": "Statewide bar on rent control, applying to residential properties.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": null
+    },
+    "exemptions": null,
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "The passages do not state when the prohibition took effect.",
+    "effective_date_formula": null,
+    "citation": "G.L. c. 40P, § 2",
+    "citation_aliases": [
+     "G.L. c. 40P",
+     "G.L. c. 40P, § 3",
+     "G.L. c. 40P, § 4"
+    ],
+    "quoted_span": "\"broadly prohibits any regulatory scheme based upon or implementing rent control.\"",
+    "confidence": 0.85,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "The section is described in a quotation from an SJC opinion, not the statute text. The passage also cites c. 40P, §§ 3 and 4.",
+    "source_notes": "Described in Cella v. Attorney General, SJC-13893 (June 23, 2026).",
+    "passage_id": "p2"
+   },
+   {
+    "jurisdiction": "MA",
+    "category": "rent_increase_limits",
+    "status": "failed",
+    "title": "Initiative Petition 25-21: statewide cap on annual rent increases",
+    "requirement": "The petition would have repealed the statewide rent control prohibition (G.L. c. 40P) and capped annual rent increases. The SJC held that art. 48 bars the petition from the November 2026 ballot because its exemption for religious facilities makes it relate to religion.",
+    "key_value": "Cap would have been the lesser of the annual CPI increase or 5%; barred from the November 2026 ballot",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": {
+      "years": 10,
+      "basis": "newly constructed units less than 10 years old",
+      "requires_owner_filing": null
+     },
+     "owner_occupied_exemption_max_units": 4,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [
+      "certain publicly regulated units",
+      "dwelling units in facilities operated solely for educational, religious, or non[profit] purposes"
+     ],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": true,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Would have covered most residential rental units. Exemptions: owner-occupied buildings with four or fewer units, units less than 10 years old, certain publicly regulated units, short-term rentals, and units in educational, religious or non[profit] facilities.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": 10,
+     "owner_conditions": "Owner-occupied buildings with four or fewer units exempt",
+     "other_conditions": "Exemptions also cover short-term rentals and certain publicly regulated units"
+    },
+    "exemptions": "Owner-occupied buildings with four or fewer units; newly constructed units less than 10 years old; certain publicly regulated units; short-term rentals; units in facilities operated solely for educational, religious, or non[profit] purposes",
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "The petition was never enacted.",
+    "effective_date_formula": null,
+    "citation": "Initiative Petition 25-21",
+    "citation_aliases": [
+     "Cella v. Attorney General, SJC-13893",
+     "An Initiative Petition to Protect Tenants by Limiting Rent Increases",
+     "Mass. Const. Amend. art. 48"
+    ],
+    "quoted_span": "art. 48 bars placement of the petition on the November 2026 Statewide election ballot.",
+    "confidence": 0.9,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "The CPI-or-5% cap and the exemption details come from passage p7, a secondary source. Passage p2 is truncated at \"five p\".",
+    "source_notes": "Official SJC opinion dated June 23, 2026 (p1, p2). The secondary summary (p7) matches it.",
+    "passage_id": "p2"
+   }
+  ]
+ }
+}

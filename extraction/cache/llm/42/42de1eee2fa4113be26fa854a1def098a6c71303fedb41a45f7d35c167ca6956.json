@@ -1,0 +1,18 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "date_audit",
+ "subject": "DX21:c1",
+ "prompt_version": "v10",
+ "usage": {},
+ "result": {
+  "requirement_is_new": false,
+  "in_force_since": "1985-09-04",
+  "in_force_since_evidence": {
+   "doc_id": "DX21",
+   "quoted_span": "All rent for the rental of housing space and services in dwellings to which this chapter is applicable are hereby controlled at the rent level received by the landlord, as of the first date that this chapter was adopted, on September 4, 1985, and no rental increases shall hereafter be instituted, except as provided in this chapter as amended and supplemented."
+  },
+  "current_version_effective": "2024-09-18",
+  "prior_version_note": null,
+  "effective_date_formula": null
+ }
+}

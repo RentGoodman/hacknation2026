@@ -1,0 +1,47 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "DX21:c1",
+ "prompt_version": "v10",
+ "usage": {},
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "partly_supported",
+    "quoted_span": "no landlord may request or receive an increase greater than the percentage increase in the Consumer Price Index (CPI) from the CPI 15 months prior to the month of the proposed rent increase to the CPI three months prior to the month of the proposed rent increase. In no case shall the allowable rent increase exceed 4%.",
+    "note": "The core cap, the measurement window, the 12-month limit, the 30-day notice, the compliance and registration conditions, the rebate, the fines and the Board penalty are all supported in §§ 19:2-3.1 to 19:2-4, 19:2-10.2, 19:2-19 and 19:2-22. Three details are off. (1) The requirement says the 12-month limit applies 'regardless of tenant turnover'. The text ties the cap to lease expiration or termination, but § 19:2-3.2 does apply the 12-month limit irrespective of tenant changes, so this part is fine. (2) The requirement says the 25% limit covers 'Board-granted increases'. § 19:2-22(b) also counts annual increases under § 19:2-3, which the Board does not grant, so the characterization is imprecise. (3) The requirement says the landlord's registration is under § 19:2-9.8, but the text of § 19:2-7.1 cites 19:1-10. The record notes this discrepancy."
+   },
+   {
+    "field": "key_value",
+    "verdict": "partly_supported",
+    "quoted_span": "In no case shall the allowable rent increase exceed 4%.",
+    "note": "The CPI-U cap with a 4% maximum, one increase per 12 months, 30 days' written notice to the tenant and the Rent Regulation Officer, and the 25% limit in 19:2-22 are supported. The phrase 'Board-granted increases capped at 25% per year' is imprecise, because § 19:2-22(b) aggregates § 19:2-3 annual increases, § 19:2-7 improvements and § 19:2-8 hardship increases. The 25% limit also applies to the rent in the prior month, not to the year's rent. The record also uses 'one increase per 12 months' as shorthand for a cap on total increases in any 12 consecutive months, which is not strictly a limit of one increase."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "partly_supported",
+    "quoted_span": "All rent for the rental of housing space and services in dwellings to which this chapter is applicable are hereby controlled at the rent level received by the landlord, as of the first date that this chapter was adopted, on September 4, 1985, and no rental increases shall hereafter be instituted, except as provided in this chapter as amended and supplemented.",
+    "note": "The document supports 1985-09-04 as the date the chapter was first adopted and controlled rents. It does not say when the CPI/4% cap itself took effect, and the record admits this in its effective_date_note. The § 19:2-3.1 header shows the cap section was last amended 9-18-2024. The date 1985-09-04 is therefore the date of the chapter, not of the cap."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "This chapter shall continue in full force and effect from October 19, 1988.",
+    "note": "The chapter is stated to be in force and § 19:2-3.1 shows amendment on 9-18-2024. Nothing in the document suggests repeal or a sunset."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "All multiple dwellings, as defined in subsection 19:2-5, are subject to Rent Control pursuant to this Title XIX Rent Control",
+    "note": "The quoted span is the document's text for the applicability rule except that I wrote '19:2-5' instead of the actual '19:2-2'. The correct span is 'All multiple dwellings, as defined in subsection 19:2-2, are subject to Rent Control pursuant to this Title XIX Rent Control'. The coverage summary, the exemption list (public housing, transient hotel/motel space, commercial use, new construction, vacant rehabilitated dwellings for 5 years, Section 8 Rental Rehabilitation units, governmental agency rent-regulation contracts), the new-construction exemption (shorter of initial mortgage amortization or 30 years, Certificate of Occupancy, Board certification, 30 years if no mortgage) and the owner-occupied definition (four units or fewer) all match §§ 19:2-2, 19:2-2.1 and 19:2-18.1. The 'no inspection fee for owner-occupied units' statement is in § 19:2-23(f)."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "§ 19:2-3.1. Determination of Rents.",
+    "note": "§ 19:2-3.1 holds the CPI/4% cap, and the aliases (ch. 19:2, §§ 19:2-3.2, 19:2-22, 19:2-2.1, 19:2-18.1, Ord. 6 PSF-A(S), Ord. No. 6PSF-I) all appear in the document. The Ord. 6PSF-B alias appears in amendment histories, for example for § 19:2-2 on 5-20-2026."
+   }
+  ]
+ }
+}

@@ -1,0 +1,32 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "extract",
+ "subject": "DX10",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 1374,
+  "output_tokens": 1013
+ },
+ "result": {
+  "rules": [],
+  "no_rule_findings": [
+   {
+    "jurisdiction": "Cambridge, MA",
+    "category": "algorithmic_rent_setting",
+    "finding": "The City Council unanimously passed a policy order that starts steps toward banning property managers from contracting with algorithmic or AI rent-pricing services. It directs the city manager to draft policy options or ordinance language and present them to council later this term. No ordinance has been adopted, so this is a motion and not a rule.",
+    "kind": "motion",
+    "quoted_span": "City council also unanimously passed a policy order initiating steps to ban residential property management companies from contracting companies that use algorithmic and AI-driven models to recommend what they should charge for rent.",
+    "basis_citation": null
+   },
+   {
+    "jurisdiction": "MA",
+    "category": "algorithmic_rent_setting",
+    "finding": "The article says bills banning algorithmic rent-setting are pending in the Massachusetts House and Senate. It gives no bill numbers or text, so no rule record is created.",
+    "kind": "other",
+    "quoted_span": "Bills banning the practice in the rental market are also working their way through the Massachusetts state House and Senate.",
+    "basis_citation": null
+   }
+  ],
+  "doc_summary": "A Cambridge Day news article on a Cambridge City Council meeting. The council accepted a short-term rental ordinance petition aimed at booking platforms, which falls outside the six rule categories. It also unanimously passed a policy order directing the city manager to develop options or ordinance language to ban algorithmic rent-setting software. That is a motion, not an enacted rule. The article also notes that Berkeley and Providence are pursuing bans and that bills are pending in the Massachusetts Legislature. No enforceable rule record can be extracted."
+ }
+}

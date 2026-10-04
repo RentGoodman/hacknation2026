@@ -1,0 +1,96 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D006:c2",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 22230,
+  "output_tokens": 3510
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": false,
+   "unverifiable_exemptions": [
+    "Golden Duplex: duplex owner-occupied on December 31, 1979 with an owner currently living in one unit",
+    "Unit where the owner shares a kitchen or bath with the tenant and lived on the property when the tenancy started",
+    "Tenancy started after Nov 7, 2018 on a property where one unit is an ADU and either unit is owner-occupied",
+    "University rental units such as dormitories",
+    "Nonprofit cooperative"
+   ],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Just cause protections apply to all rental units fully or partially covered by the Rent Ordinance. These include most units in multifamily properties built before 1980, single-family homes with any tenancy start date, rooming houses, new construction (certificate of occupancy after June 1980), most condominiums, and government-subsidized units. Only the listed exempt types fall outside it: Golden Duplex, owner-shared kitchen/bath where the owner lived there at the start of the tenancy, post-Nov 7, 2018 tenancies on owner-occupied ADU properties, university housing, and nonprofit cooperatives.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": "The shared kitchen/bath exemption applies only if the landlord lived on the property at the start of the tenancy. The Golden Duplex and ADU-property exemptions require owner occupancy.",
+   "other_conditions": null
+  },
+  "evidence": [
+   {
+    "field": "summary",
+    "doc_id": "D006",
+    "quoted_span": "tenants in units that are fully or partially covered by the Rent Ordinance cannot be evicted unless there is"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D009",
+    "quoted_span": "Most condominiums** Partially Covered Yes No Yes Yes"
+   },
+   {
+    "field": "requires_unknown_facts",
+    "doc_id": "D009",
+    "quoted_span": "Most units in multifamily properties built before 1980** Fully Covered Yes Yes Yes Yes"
+   },
+   {
+    "field": "owner_conditions",
+    "doc_id": "D006",
+    "quoted_span": "the unit will be exempt from the Rent Ordinance only if the landlord lived in a unit on the same property at the start of the tenancy."
+   },
+   {
+    "field": "owner_conditions",
+    "doc_id": "D009",
+    "quoted_span": "currently has an owner living in one of the units"
+   },
+   {
+    "field": "owner_conditions",
+    "doc_id": "D009",
+    "quoted_span": "an ADU and either unit is owner-occupied."
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D009",
+    "quoted_span": "“Golden Duplex”: duplex that was owner-occupied on December 31,"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D009",
+    "quoted_span": "Unit where the owner shares a kitchen or bath with the tenant if the"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D009",
+    "quoted_span": "Tenancies started after Nov 7, 2018, on properties where one unit is"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D009",
+    "quoted_span": "University rental units such as dormitories."
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D009",
+    "quoted_span": "Nonprofit Cooperative"
+   }
+  ],
+  "notes": "requires_unknown_facts changed from true to false: the rule covers ordinary rental buildings (pre-1980 multifamily, single-family homes, condos, new construction), and its exemptions are listed in unverifiable_exemptions. supersedes_state_rule set to null: no document mentions Civ. Code § 1946.2 or any relationship to state law, and that claim was removed from the summary. other_conditions set to null and the qualifying-household item removed from unverifiable_exemptions: both describe the relocation payment amount (landlord conduct), not building or unit coverage. owner_occupied_exemption_max_units set to null: the Golden Duplex exemption depends on owner occupancy as of December 31, 1979, not on a general owner-occupied unit-count threshold, so it is kept as an unverifiable exemption instead. No construction cutoff applies, because both pre-1980 and post-1980 units are subject to just cause."
+ }
+}

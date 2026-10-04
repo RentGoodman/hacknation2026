@@ -1,0 +1,529 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "consolidate",
+ "subject": "Berkeley, CA",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 60745,
+  "output_tokens": 23341
+ },
+ "result": {
+  "rules": [
+   {
+    "candidate_id": "D001:c1",
+    "jurisdiction": "Berkeley, CA",
+    "category": "algorithmic_rent_setting",
+    "status": "in_force",
+    "title": "Berkeley ban on the sale or use of coordinated pricing algorithms to set rents or manage occupancy (BMC ch. 13.63)",
+    "requirement": "Two acts are unlawful. (1) Selling, licensing or otherwise providing to Berkeley landlords a coordinated pricing algorithm that sets or recommends rents or occupancy levels for residential dwelling units in Berkeley (§ 13.63.030(A)). (2) A landlord using such an algorithm when setting rents or occupancy levels for Berkeley units (§ 13.63.030(B)). A coordinated pricing algorithm is any analytical or computational process that uses Competitor Data to calculate and recommend rents, fees, occupancy rates or other lease terms for future leases in coordination between a Berkeley landlord and one or more competitors, including through a third-party vendor. Competitor Data is non-public data on actual rents, occupancy and lease dates for other landlords' properties, when the data is less than 90 days old. For landlord use, each month a violation continues and each unit is a separate violation. The City Attorney may sue for damages, injunctive relief, restitution of illegal profits and civil penalties of up to $1,000 per violation. An aggrieved tenant may sue over landlord use for injunctive relief, money damages and civil penalties of up to $1,000 per violation. The prevailing City Attorney or tenant is awarded attorney's fees and costs, and a lease clause limiting tenant fees is unenforceable. The chapter does not regulate the amount of rent and does not bar general property-management software or tools using public data.",
+    "key_value": "Civil penalties up to $1,000 per violation; each month and each unit is a separate violation; mandatory fee award to the prevailing City Attorney or tenant; Competitor Data = non-public data less than 90 days old",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Applies to all residential dwelling units in Berkeley, to landlords setting rents or occupancy there, and to vendors providing coordinated pricing algorithms to Berkeley landlords. No unit-count, building-age or landlord-size limits are stated. California's Cartwright Act ban on common pricing algorithms (Bus. & Prof. Code § 16729) operates alongside this chapter.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": "The definition excludes (a) aggregated, anonymous rental data reports that make no recommendations; (b) products that set rent or income limits under government affordable-housing guidelines; (c) information used for market research for project financing, appraisals, or research, testing or training for software development, provided Competitor Data is not an input when a recommendation is calculated."
+    },
+    "exemptions": "Excluded from 'coordinated pricing algorithm': aggregated and anonymous reports that make no recommendations; affordable-housing rent or income limit tools; market research for project financing, appraisals, and software research, testing or training (Competitor Data may not be a live input at recommendation time).",
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "The ordinance text (D001) has no effective-date clause and no final adoption date. It records only that the ordinance was passed to print on November 18, 2025 (8 ayes, 0 noes, 1 absent). The document URL refers to a December 2, 2025 Council item. The secondary alert DX06 (August 2026) lists the chapter as 'effective January 2026'. Under any of these dates the ordinance is in force on the query date.",
+    "effective_date_formula": null,
+    "citation": "Berkeley Mun. Code § 13.63.030",
+    "citation_aliases": [
+     "Berkeley Mun. Code ch. 13.63",
+     "Berkeley Mun. Code § 13.63.020",
+     "Berkeley Mun. Code § 13.63.040",
+     "Ordinance No. 7,992-N.S.",
+     "Ord. 7,992-N.S."
+    ],
+    "quoted_span": "It shall be unlawful for a landlord to use a coordinated pricing algorithm described \nin subsection A when setting rents or occupancy levels for residential dwelling units in \nthe City of Berkeley.",
+    "confidence": 0.85,
+    "conflict_flag": true,
+    "conflict_note": "Organizer open question: Berkeley's algorithmic ban (ch. 13.63) has two published effective dates. The captured ordinance text (D001) contains no effective-date clause. The only dated source is the secondary DX06 alert ('effective January 2026'). The documents cannot settle which effective date is correct.",
+    "review_note": "Check the adopted ordinance or the City Clerk record for the effective date and the final adoption date. Status in_force does not depend on which candidate date is right.",
+    "source_notes": "The official ordinance text (D001) is primary. The Morgan Lewis alert (DX06, secondary) summarizes the chapter (recurring unit/month violations, private remedies). It also reports that RealPage, Inc. v. City of Berkeley (N.D. Cal.) was voluntarily dismissed with prejudice on January 14, 2026.",
+    "source_doc_id": "D001",
+    "from_candidates": [
+     "D001:c1",
+     "DX06:c3",
+     "cell:Berkeley, CA:algorithmic_rent_setting:1"
+    ],
+    "also_supported_by": [
+     {
+      "doc_id": "D001",
+      "quoted_span": "civil penalties of up to $1,000 per violation"
+     },
+     {
+      "doc_id": "DX06",
+      "quoted_span": "Berkeley Mun. Code ch. 13.63 (effective January 2026)"
+     },
+     {
+      "doc_id": "DX06",
+      "quoted_span": "Prohibits coordinated pricing algorithms; recurring unit/month violations and private remedies"
+     }
+    ]
+   },
+   {
+    "candidate_id": "D003:c1",
+    "jurisdiction": "Berkeley, CA",
+    "category": "screening_restrictions",
+    "status": "in_force",
+    "title": "Ronald V. Dellums Fair Chance Access to Housing Ordinance (BMC ch. 13.106)",
+    "requirement": "Rental housing providers may not ask about or use criminal history or criminal background checks in advertising, applications, tenant selection or decision-making. Unlawful acts toward current or prospective tenants:\n- inquiring about criminal history;\n- indicating that people with criminal backgrounds will not be considered;\n- refusing to rent, or terminating a tenancy, based on criminal history;\n- requiring disclosure of, or authorization to release, criminal history;\n- demanding a higher deposit or rent based on criminal history;\n- refusing to add an immediate family member based on that person's criminal history;\n- disqualifying tenants from rental assistance programs such as Section 8 based on criminal history, subject to exceptions;\n- treating applicants or tenants differently based on criminal history.\nA landlord who takes any action based on criminal history must give the applicant or tenant written notice and an opportunity to respond. Housing providers must post the Notice to Rental Applicants and Tenants prominently on application materials, on websites and at locations under their control that applicants frequently visit. The Rent Board administers complaints.",
+    "key_value": "Administrative fines of $1,000 to $10,000 per violation; actual damages or 3x one month's rent; punitive damages; attorneys' fees and costs; injunctive relief",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": 3,
+     "requires_unknown_facts": true,
+     "unverifiable_exemptions": [
+      "Lifetime sex offenders",
+      "Public housing/Section 8 properties (limited exemptions)",
+      "Owner-occupied property of 1-3 units where an owner of record resides in one unit as primary residence",
+      "Units under a rental agreement allowing owners to move back under BMC 13.76.130 A.9",
+      "Units occupied by existing tenant(s) seeking to sublet or add/replace roommates"
+     ],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Applies to rental housing providers in Berkeley for current and prospective tenants. Owner-occupied 1-3 unit properties and other listed situations are exempt. The rule is stricter than the statewide FEHA criminal-history regulations, which allow limited consideration of convictions.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": "Exempt if the property has 1-3 units and an owner of record resides in one unit as their primary residence.",
+     "other_conditions": null
+    },
+    "exemptions": "Lifetime sex offenders; limited exemptions for public housing/Section 8 properties; owner-occupied 1-3 unit properties; units under owner move-back agreements (BMC 13.76.130 A.9); existing tenants subletting or adding/replacing roommates.",
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": "2020-04-14",
+    "sunset_date": null,
+    "effective_date_note": "The Rent Board page gives the Council passage date (April 14, 2020) but no effective date. The page describes the ordinance as currently administered.",
+    "effective_date_formula": null,
+    "citation": "Berkeley Mun. Code ch. 13.106",
+    "citation_aliases": [
+     "BMC 13.106",
+     "Fair Chance Access to Housing Ordinance",
+     "Ronald V. Dellums Fair Chance Access to Housing Ordinance"
+    ],
+    "quoted_span": "The Fair Chance Access to Housing Ordinance prohibits rental housing providers in Berkeley from asking about and using criminal history and/or criminal background checks in their rental housing advertising, applications, tenant selection process, or decision-making.",
+    "confidence": 0.85,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "The source is the Rent Board overview page, not the ordinance text. No section-level citation is available, and the precise conditions for each exemption are in the ordinance. Administrative Regulation 1.18 governs complaint procedure only.",
+    "source_notes": "Official Berkeley Rent Board page (D003).",
+    "source_doc_id": "D003",
+    "from_candidates": [
+     "D003:c1",
+     "cell:Berkeley, CA:screening_restrictions:1"
+    ],
+    "also_supported_by": [
+     {
+      "doc_id": "D003",
+      "quoted_span": "Any landlord found to be in violation of the Ordinance shall be subject to administrative fines of at least $1,000 and up to $10,000 per violation"
+     }
+    ]
+   },
+   {
+    "candidate_id": "D005:c2",
+    "jurisdiction": "Berkeley, CA",
+    "category": "application_screening_fees",
+    "status": "in_force",
+    "title": "Berkeley tenant screening fee disclosure and ban on non-refundable fees for existing tenancies (BMC ch. 13.78)",
+    "requirement": "Disclosure (BMC 13.78.010):\n- Applies when an owner or agent charges a fee to buy a consumer credit report and to validate, review or process an application for Berkeley residential property.\n- The owner must give a clear and conspicuous Tenant Screening Fee Rights Statement and a statement of the maximum fee cap under Cal. Civ. Code § 1950.6(b).\n- The disclosure must appear in the rental application or in a separate disclosure before the fee is received.\n\nRenewal and roommate fees (BMC 13.78.016):\n- An owner or agent may not charge an existing tenant a non-refundable fee to renew a tenancy, in whole or in part.\n- This includes fees for a roommate's departure or for a request to add or replace a roommate.\n\nApplicability (BMC 13.78.018):\n- The chapter applies to all residential rental agreements regardless of contrary lease language.\n- Lease provisions that violate it are unenforceable.",
+    "key_value": "Fee-rights statement and fee-cap disclosure before the fee is collected; no non-refundable renewal or roommate fees for existing tenants. The dollar cap is state law (Civ. Code § 1950.6); the Rent Board lists $68.96 for 2026.",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Applies to owners of Berkeley residential rental property and their agents, and to all residential rental agreements. It adds to the state fee cap, receipt and refund rules in Civ. Code § 1950.6 and does not replace them.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": null
+    },
+    "exemptions": null,
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "The Rent Board page gives no effective date for BMC ch. 13.78.",
+    "effective_date_formula": null,
+    "citation": "Berkeley Mun. Code § 13.78.010",
+    "citation_aliases": [
+     "Berkeley Mun. Code ch. 13.78",
+     "Berkeley Mun. Code § 13.78.016",
+     "Berkeley Mun. Code § 13.78.018",
+     "BMC 13.78.010",
+     "BMC 13.78.016",
+     "BMC 13.78.018"
+    ],
+    "quoted_span": "When an owner or the owner’s agent gets a request to rent residential property in Berkeley from an applicant and the owner charges a fee to purchase a consumer credit report and to validate, review, or otherwise process an application, the owner must provide, either in the rental application or in a separate disclosure before receiving the fee, a clear and conspicuous tenant screening fee rights statement and a statement of the maximum fee cap permitted under",
+    "confidence": 0.85,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "The City has not yet supplied the URL that the rights statement must include. No penalty is stated. The 2026 dollar figure belongs to the state record (Civ. Code § 1950.6), which carries the organizer open question on the cap. The fee cap, receipt and refund rules on the same page are state law and are excluded from this record.",
+    "source_notes": "Official Berkeley Rent Board page (D005), which names BMC 13.78.010, 13.78.016 and 13.78.018.",
+    "source_doc_id": "D005",
+    "from_candidates": [
+     "D005:c2",
+     "cell:Berkeley, CA:application_screening_fees:1"
+    ],
+    "also_supported_by": [
+     {
+      "doc_id": "D005",
+      "quoted_span": "An owner of residential rental property (or the owner’s agent) cannot charge a non-refundable fee to any existing tenant for the purpose of renewing a tenancy, in whole or in part, including any fee associated with the departure of a roommate or to request to add or replace a roommate in a pre-existing household."
+     }
+    ]
+   },
+   {
+    "candidate_id": "D007:c2",
+    "jurisdiction": "Berkeley, CA",
+    "category": "security_deposits",
+    "status": "in_force",
+    "title": "Berkeley Rent Ordinance security deposit interest requirement",
+    "requirement": "For tenancies in units fully or partially covered by Berkeley's Rent Ordinance, landlords must pay tenants interest on the security deposit at the end of each year. If the tenant moves out before year end, the landlord must pay a prorated amount. Exempt units are not covered.",
+    "key_value": "Interest paid annually at year end; prorated on move-out (rate not stated in the documents)",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": true,
+     "unverifiable_exemptions": [
+      "Golden Duplex: owner-occupied on December 31, 1979 and currently owner-occupied",
+      "Owner shares kitchen or bath with tenant and lived on the property when the tenancy started",
+      "Tenancies started after Nov 7, 2018 on properties where one unit is an ADU and either unit is owner-occupied",
+      "University rental units such as dormitories",
+      "Nonprofit cooperative"
+     ],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Applies to units fully or partially covered by the Rent Ordinance. These include pre-1980 multifamily units, post-June 1980 new construction, single-family homes, most condominiums and subsidized units. Exempt unit types are not covered. The rule adds to the state deposit cap and return rules (Civ. Code § 1950.5).",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": "Golden Duplex, shared kitchen/bath with the owner, and owner-occupied ADU properties (tenancies after Nov 7, 2018) are exempt.",
+     "other_conditions": "University rental units and nonprofit cooperatives are exempt."
+    },
+    "exemptions": "Units exempt from the Rent Ordinance: Golden Duplex; owner shares kitchen/bath; ADU-property tenancies started after Nov 7, 2018 with an owner-occupied unit; university rental units; nonprofit cooperatives.",
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "No effective date is given in the documents.",
+    "effective_date_formula": null,
+    "citation": "Berkeley Mun. Code ch. 13.76",
+    "citation_aliases": [
+     "Berkeley Rent Ordinance",
+     "Berkeley Rent Stabilization and Eviction for Just Cause Ordinance",
+     "Berkeley Rent Stabilization and Good Cause for Eviction Ordinance"
+    ],
+    "quoted_span": "For tenancies in units fully or partially covered by Berkeley's Rent Ordinance, landlords must pay tenants interest on their security deposit at the end of each year and a prorated amount if the tenant moves out before the end of the year.",
+    "confidence": 0.75,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "No section number or interest rate is given; D007 refers to a separate Security Deposit Interest & Calculator page that is not captured. The ch. 13.76 citation is supported only indirectly: D008 and D003 cite BMC 13.76 sections for the Rent Ordinance. The deposit cap, 21-day return, itemization and photo rules on D007 are state law and are excluded.",
+    "source_notes": "Official Rent Board page (D007). Coverage comes from the Rent Board coverage guide (D009), whose Security Deposit Interest column is 'Yes' for fully and partially covered units.",
+    "source_doc_id": "D007",
+    "from_candidates": [
+     "D007:c2",
+     "D009:c3",
+     "cell:Berkeley, CA:security_deposits:1"
+    ],
+    "also_supported_by": [
+     {
+      "doc_id": "D009",
+      "quoted_span": "Most condominiums** Partially Covered Yes No Yes Yes"
+     }
+    ]
+   },
+   {
+    "candidate_id": "D008:c1",
+    "jurisdiction": "Berkeley, CA",
+    "category": "rent_increase_limits",
+    "status": "in_force",
+    "title": "Berkeley Rent Ordinance Annual General Adjustment (AGA) limit on rent increases, including the Measure BB 5% cap and the 2026 AGA",
+    "requirement": "Landlords of fully covered units may raise rent ceilings each year only by the Annual General Adjustment (AGA) that the Rent Board sets under the Rent Ordinance formula. The formula is 65% of the Bay Area CPI-U increase, approved by voters in November 2004 (BMC 13.76.110A).\n\nMeasure BB (passed November 2024):\n- caps the AGA at 5% even if the formula yields more;\n- still lets landlords with banked (unused) AGAs raise rent above 5% up to the rent ceiling;\n- limits petitions to completed capital improvements, not planned ones;\n- gives government-owned or -subsidized fully covered units a rent ceiling limited by the AGA;\n- for tenancies starting on or after February 6, 2024, allows utilities to be charged in a fully covered unit only if included in base rent or separately metered in the tenant's name.\n\nThe 2026 AGA Order (Rent Board Regulation 1148, adopted October 16, 2025):\n- lets eligible landlords raise 2025 permanent rent ceilings by 1.0% no earlier than January 1, 2026;\n- 1.0% is 65% of the 1.5% CPI increase from July 1, 2024 to June 30, 2025;\n- the AGA may not adjust rents for tenancies that began on or after January 1, 2025 whose rents were set under the Costa-Hawkins Rental Housing Act;\n- Regulation 1148 sets qualifying conditions and the required tenant notice.",
+    "key_value": "2026 AGA 1.0% (65% of 1.5% CPI-U), no earlier than Jan 1, 2026; AGA maximum 5% (Measure BB); banked AGAs may exceed 5% up to the rent ceiling",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": {
+      "basis": "certificate_of_occupancy",
+      "covered_if": "on_or_before",
+      "date": "1980-06-30"
+     },
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": true,
+     "unverifiable_exemptions": [
+      "Single-family home: rent control only if the current tenancy began before 1996",
+      "Most condominiums are only partially covered (no rent control)",
+      "Section 202 and Section 811 subsidized units, and Rent Supplement / Section 8 Loan Management Set Aside / Project-based Section 8 units in projects with HUD-insured or HUD-held mortgages, are partially covered (no rent control)",
+      "Golden Duplex: owner-occupied on December 31, 1979 and currently owner-occupied (exempt)",
+      "Owner shares kitchen or bath with tenant and lived on the property when the tenancy started (exempt)",
+      "Tenancies started after Nov 7, 2018 on properties where one unit is an ADU and either unit is owner-occupied (exempt)",
+      "University rental units and nonprofit cooperatives (exempt)",
+      "Tenancies beginning on or after Jan 1, 2025 with rents set under Costa-Hawkins are not adjusted by the 2026 AGA"
+     ],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": true,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Rent control (rent ceilings limited by the AGA) applies only to fully covered units: most multifamily units built before 1980, single-family homes with tenancies that began before 1996, and rooming houses (single-family homes with five or more rooms rented on separate leases). This includes units with Section 8, Shelter Plus Care, VASH, LIHTC, HOME and similar subsidies. Partially covered units have registration and just cause but no rent control: new construction with a certificate of occupancy after June 1980, single-family tenancies from Jan 1, 1996, most condominiums and certain HUD subsidies. Where Berkeley's AGA applies, Cal. Civ. Code § 1947.12 exempts the unit as housing under stricter local rent control. Partially covered units fall back to the state cap if they meet its conditions, including its rolling 15-year new-construction exemption.",
+     "construction_date_basis": "certificate of occupancy",
+     "built_on_or_before": "1980-06-30",
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": "Golden Duplex (owner-occupied since Dec 31, 1979), shared kitchen/bath with the owner who lived there when the tenancy began, and owner-occupied ADU properties (tenancies after Nov 7, 2018) are exempt.",
+     "other_conditions": "Single-family homes are fully covered only if the current tenancy began before 1996. Under Costa-Hawkins, tenancies beginning on or after Jan 1, 2025 with rents set at the start of tenancy are not adjusted by the 2026 AGA."
+    },
+    "exemptions": "Partially covered (no rent control): new construction with a certificate of occupancy after June 1980; single-family tenancies beginning on or after Jan 1, 1996; most condominiums; Section 202/811 units; Rent Supplement, Section 8 LMSA and project-based Section 8 units in HUD-mortgage projects. Exempt: Golden Duplex; owner shares kitchen/bath; ADU-property tenancies after Nov 7, 2018 with an owner-occupied unit; university rental units; nonprofit cooperatives.",
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": "2026-01-01",
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "2026-01-01 is the earliest date the 2026 AGA (adopted by the Rent Board on Oct 16, 2025; notice dated Oct 17, 2025) may be applied. The documents give no effective date for the underlying Rent Ordinance or for Measure BB's 5% cap; Measure BB passed in the November 2024 election. The candidate date of 2024-12-20 is the start date for the Notice of Tenant Rights requirement, not the AGA cap, and is not used.",
+    "effective_date_formula": null,
+    "citation": "Berkeley Mun. Code § 13.76.110",
+    "citation_aliases": [
+     "Berkeley Mun. Code ch. 13.76",
+     "Berkeley Mun. Code § 13.76.110A",
+     "Berkeley Rent Board Reg. 1148",
+     "2026 AGA Order",
+     "Annual General Adjustment",
+     "AGA",
+     "Measure BB",
+     "Berkeley Rent Ordinance",
+     "Berkeley Rent Stabilization and Eviction for Just Cause Ordinance",
+     "Berkeley Rent Stabilization and Good Cause for Eviction Ordinance"
+    ],
+    "quoted_span": "adopted the Annual General Adjustment (AGA) Order for Year 2026 which will allow \neligible landlords to increase the 2025 permanent rent ceilings by 1.0% no earlier than \nJanuary 1, 2026.",
+    "confidence": 0.88,
+    "conflict_flag": true,
+    "conflict_note": "Official Rent Board sources disagree on the new-construction cutoff for rent control. The coverage guide (D009) says units that received a certificate of occupancy after June 1980 are partially covered, while the Measure BB page (D006) says units with a certificate of occupancy issued after 1980. Both list fully covered multifamily as 'built before 1980'. The ordinance text is not captured, so the cutoff is unresolved; the record uses D009's June 1980 date.",
+    "review_note": "The full conditions and notice requirements of Regulation 1148 are not reproduced. Whether a unit is fully covered depends on unit type, tenancy start date, subsidy type and owner occupancy, none of which can be checked from an address.",
+    "source_notes": "Official Rent Board public notice (D008) for the 2026 AGA, citing BMC 13.76.110A. Official Rent Board Measure BB explainer (D006) for the 5% cap. Official Rent Board coverage guide (D009) for unit coverage.",
+    "source_doc_id": "D008",
+    "from_candidates": [
+     "D008:c1",
+     "D006:c1",
+     "D009:c1",
+     "cell:Berkeley, CA:rent_increase_limits:1"
+    ],
+    "also_supported_by": [
+     {
+      "doc_id": "D006",
+      "quoted_span": "The maximum AGA is 5%. This means that, if the formula in the Rent Ordinance results in an AGA that is greater than 5%, the AGA approved by the Board for that year can be no more than 5%."
+     },
+     {
+      "doc_id": "D009",
+      "quoted_span": "Most units in multifamily properties built before 1980** Fully Covered Yes Yes Yes Yes"
+     },
+     {
+      "doc_id": "D006",
+      "quoted_span": "New Construction Units (units with a certificate of occupancy issued after 1980)"
+     }
+    ]
+   },
+   {
+    "candidate_id": "D006:c2",
+    "jurisdiction": "Berkeley, CA",
+    "category": "just_cause_eviction",
+    "status": "in_force",
+    "title": "Berkeley Rent Ordinance just cause for eviction, notice requirements and owner move-in relocation assistance",
+    "requirement": "Tenants in units fully or partially covered by the Rent Ordinance cannot be evicted without just cause (formerly called good cause). Measure BB made these changes:\n- Nonpayment evictions require rental debt of at least one month's HUD Fair Market Rent for an equivalent unit in the Oakland-Fremont metro area.\n- Tenants may not be evicted for failing to sign a substantially similar lease when a fixed-term lease expires.\n\nLease-breach evictions:\n- The breached term must be mutually agreed.\n- The breach must cause substantial actual damage to the landlord.\n- The landlord must show the tenant's behavior was unreasonable.\n- The prior notice to stop must specify the lease term and describe the violation and harm.\n\nNotices and filings:\n- Any termination notice must state that Rent Board advice is available and give the Board's counseling phone number and website.\n- Copies of termination notices, notices to quit and summons and complaints must be filed with the Rent Board within three business days of service.\n- For tenancies starting on or after Dec 20, 2024, landlords must give a Notice of Tenant Rights within 15 days of the tenancy start and post it in any interior common area.\n\nOwner move-in relocation:\n- Owners must pay relocation assistance for owner move-in evictions.\n- The amounts are indexed to inflation and adjusted by the Rent Board every year, as Measure BB now requires.\n- From Jan 1, 2026 the standard payment is $19,413 and the additional payment for qualifying households is $6,471, a 1.5% CPI-U adjustment approved on Oct 16, 2025.",
+    "key_value": "Nonpayment eviction only if debt is at least 1 month of HUD FMR; notices and lawsuits filed with the Rent Board within 3 business days; Notice of Tenant Rights within 15 days; owner move-in relocation $19,413 standard + $6,471 for qualifying households (from Jan 1, 2026)",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": true,
+     "unverifiable_exemptions": [
+      "Golden Duplex: owner-occupied on December 31, 1979 and currently owner-occupied",
+      "Owner shares kitchen or bath with tenant and lived on the property when the tenancy started",
+      "Tenancies started after Nov 7, 2018 on properties where one unit is an ADU and either unit is owner-occupied",
+      "University rental units such as dormitories",
+      "Nonprofit cooperative",
+      "Qualifying-household criteria for the additional relocation payment are not defined in the documents"
+     ],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Applies to fully and partially covered units regardless of construction date. That includes pre-1980 multifamily units, post-June 1980 new construction, single-family homes, rooming houses, most condominiums and government-subsidized units. Only exempt unit types are outside it. Cal. Civ. Code § 1946.2 does not apply to property subject to a qualifying local just-cause ordinance.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": "Under Measure BB, the shared kitchen/bath exemption applies only if the landlord lived on the property at the start of the tenancy. Golden Duplex and owner-occupied ADU properties (tenancies after Nov 7, 2018) are exempt.",
+     "other_conditions": "Government-owned or -subsidized units (Section 8, Shelter Plus Care, LIHTC, etc.) are now fully or partially covered."
+    },
+    "exemptions": "Exempt units: Golden Duplex; owner shares kitchen/bath and lived on the property before the tenancy; ADU-property tenancies after Nov 7, 2018 with an owner-occupied unit; university rental units; nonprofit cooperatives.",
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "No effective date is given for the just-cause ordinance or for Measure BB (passed November 2024). The Notice of Tenant Rights applies to tenancies starting on or after Dec 20, 2024. The 2026 relocation amounts took effect Jan 1, 2026.",
+    "effective_date_formula": null,
+    "citation": "Berkeley Mun. Code § 13.76.130",
+    "citation_aliases": [
+     "Berkeley Mun. Code ch. 13.76",
+     "Berkeley Rent Stabilization and Good Cause for Eviction Ordinance",
+     "Berkeley Rent Stabilization and Eviction for Just Cause Ordinance",
+     "Berkeley Rent Ordinance",
+     "Measure BB"
+    ],
+    "quoted_span": "tenants in units that are fully or partially covered by the Rent Ordinance cannot be evicted unless there is",
+    "confidence": 0.8,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "The § 13.76.130 section cite is inferred from D003's reference to 'BMC 13.76.130 A.9' (owner move-back). The full list of just causes and the qualifying-household criteria are not in the documents. The fines for late tenancy reporting require Rent Board regulations that have not been adopted. Whether Berkeley meets Civ. Code § 1946.2(i) is not shown in the documents.",
+    "source_notes": "Official Rent Board Measure BB explainer (D006), relocation notice (D004) and coverage guide (D009). The owner move-in relocation payment comes from the same Rent Ordinance and is merged into this record.",
+    "source_doc_id": "D006",
+    "from_candidates": [
+     "D006:c2",
+     "D009:c2",
+     "cell:Berkeley, CA:just_cause_eviction:1",
+     "D004:c1",
+     "cell:Berkeley, CA:just_cause_eviction:2"
+    ],
+    "also_supported_by": [
+     {
+      "doc_id": "D006",
+      "quoted_span": "For a landlord to evict a tenant for nonpayment of rent, the tenant must owe an amount of rental debt equal to or greater than one month of the Fair Market Rent (FMR) value for a unit of equivalent size in the metro area Oakland-Fremont, CA HUD Metro FMR as determined by the US Department of Housing and Urban Development for the fiscal year in which the rent is demanded."
+     },
+     {
+      "doc_id": "D004",
+      "quoted_span": "The Rent Stabilization and Good Cause for Eviction Ordinance requires owners to pay tenants relocation assistance in the event of an owner move-in eviction."
+     },
+     {
+      "doc_id": "D004",
+      "quoted_span": "At its October 16, 2025 Special Meeting, the Rent Board approved relocation assistance payment increases that will go into effect on January 1, 2026."
+     },
+     {
+      "doc_id": "D009",
+      "quoted_span": "Most condominiums** Partially Covered Yes No Yes Yes"
+     }
+    ]
+   },
+   {
+    "candidate_id": "D004:c2",
+    "jurisdiction": "Berkeley, CA",
+    "category": "just_cause_eviction",
+    "status": "in_force",
+    "title": "Berkeley Ellis Implementation Ordinance relocation assistance",
+    "requirement": "When an owner evicts tenants to remove a property from the rental housing market (Ellis Act withdrawal), the owner must pay the same relocation assistance as for an owner move-in eviction. The payments are indexed to inflation, and the Rent Board publishes the yearly increase. From Jan 1, 2026 the standard payment is $19,413 and the additional payment for qualifying households is $6,471. This is a 1.5% adjustment based on the San Francisco-Oakland-San Jose CPI-U.",
+    "key_value": "$19,413 standard; $6,471 additional for qualifying households (effective Jan 1, 2026)",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": true,
+     "unverifiable_exemptions": [
+      "Qualifying-household criteria for the additional payment are not defined in the documents"
+     ],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Applies only when an owner withdraws a Berkeley property from the rental housing market and evicts the tenants.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": "Triggered only by an Ellis Act withdrawal from the rental market."
+    },
+    "exemptions": null,
+    "event_only": true,
+    "applies_only_in": null,
+    "effective_date": "2026-01-01",
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "2026-01-01 is the effective date of the 2026 adjusted amounts, approved by the Rent Board on Oct 16, 2025. The underlying ordinance predates this, and its original effective date is not stated.",
+    "effective_date_formula": null,
+    "citation": "Berkeley Ellis Implementation Ordinance",
+    "citation_aliases": [
+     "Ellis Implementation Ordinance",
+     "Berkeley Ellis Act eviction relocation assistance"
+    ],
+    "quoted_span": "The Ellis Implementation Ordinance requires the same relocation assistance payments for tenants evicted so the owner can remove a property from the rental housing market.",
+    "confidence": 0.8,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "No municipal code section is given in the documents; verify the codified citation.",
+    "source_notes": "Official Rent Board news notice (D004), published Oct 27, 2025.",
+    "source_doc_id": "D004",
+    "from_candidates": [
+     "D004:c2",
+     "cell:Berkeley, CA:just_cause_eviction:3"
+    ],
+    "also_supported_by": [
+     {
+      "doc_id": "D004",
+      "quoted_span": "At its October 16, 2025 Special Meeting, the Rent Board approved relocation assistance payment increases that will go into effect on January 1, 2026."
+     }
+    ]
+   }
+  ],
+  "dropped_candidates": [],
+  "known_gaps": [
+   {
+    "category": "rent_increase_limits",
+    "law": "Berkeley Rent Stabilization Board Regulation 1148 (2026 AGA Order), full text",
+    "reason": "D008 says Regulation 1148 sets the qualifying conditions and the required tenant notice, but its text is not captured."
+   },
+   {
+    "category": "rent_increase_limits",
+    "law": "Costa-Hawkins Rental Housing Act",
+    "reason": "D008 names it as the basis for excluding tenancies begun on or after Jan 1, 2025 from the 2026 AGA, but the statute text is not captured. It is reflected only as coverage of the Berkeley AGA record."
+   }
+  ]
+ }
+}

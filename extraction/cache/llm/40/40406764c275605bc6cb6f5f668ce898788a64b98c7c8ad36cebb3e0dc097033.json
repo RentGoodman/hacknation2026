@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D043:c3",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 944,
+  "output_tokens": 270
+ },
+ "result": {
+  "en": "When an owner demolishes a protected Los Angeles unit for new construction within 5 years after filing a notice to withdraw it or evict, tenants get relocation payments, the right to stay up to 6 months before construction, and the right to return if the demolition does not proceed, and owners face penalties starting at $250,000 per displaced unit.",
+  "es": "Cuando un propietario demuele una unidad protegida de Los Ángeles para nueva construcción dentro de 5 años después de presentar un aviso de retiro o de desalojo, los inquilinos reciben pagos de reubicación, el derecho a permanecer hasta 6 meses antes de la construcción y el derecho a regresar si la demolición no avanza, y los propietarios enfrentan multas desde $250,000 por unidad desplazada."
+ }
+}

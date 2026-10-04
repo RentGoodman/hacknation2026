@@ -1,0 +1,78 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D040:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 25707,
+  "output_tokens": 3234
+ },
+ "result": {
+  "coverage": {
+   "built_after": null,
+   "built_on_or_before": null,
+   "construction_cutoff": null,
+   "construction_date_basis": null,
+   "landlord_size_condition": null,
+   "max_units": null,
+   "may_preempt_local_rules": null,
+   "min_building_age_years": null,
+   "min_units": null,
+   "new_construction_exemption": null,
+   "other_conditions": "Covers residential rental units in the City of Los Angeles that are not regulated by the RSO. The RSO generally covers properties first built on or before October 1, 1978. The JCO therefore reaches newer buildings and also older non-RSO properties, such as a lone single-family dwelling. Applies to a tenancy only once the tenant has lived in the unit at least six months or the original lease has expired, whichever comes first.",
+   "owner_conditions": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": false,
+   "summary": "Covers most residential property in the City of Los Angeles that is not regulated by the RSO. This includes buildings newer than October 1, 1978 and a property containing only one single-family dwelling. Coverage turns on RSO status rather than year built alone.",
+   "supersedes_state_rule": null,
+   "unverifiable_exemptions": [
+    "transient hotels",
+    "licensed care facilities",
+    "fraternity or sorority houses",
+    "owner's roommate",
+    "cooperatives under certain circumstances",
+    "some non-profit facilities for the homeless or short-term treatment centers for substance abuse",
+    "some properties owned by HACLA or the government"
+   ],
+   "yields_to_local_rule": null
+  },
+  "evidence": [
+   {
+    "field": "summary",
+    "doc_id": "D040",
+    "quoted_span": "The JCO covers most residential properties in the City of Los Angeles that are not regulated by the City’s Rent Stabilization Ordinance (RSO)."
+   },
+   {
+    "field": "summary",
+    "doc_id": "D040",
+    "quoted_span": "The JCO can apply to buildings that are newer than October 1, 1978.  The JCO can apply to a property that contains only one single-family dwelling."
+   },
+   {
+    "field": "requires_unknown_facts",
+    "doc_id": "D040",
+    "quoted_span": "The JCO covers most residential properties in the City of Los Angeles that are not regulated by the City’s Rent Stabilization Ordinance (RSO)."
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D040",
+    "quoted_span": "In order to apply to a tenancy, it requires that the tenant either has lived in the same unit for at least six months or that their original lease expired, whichever comes first."
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D041",
+    "quoted_span": "Generally, the RSO applies to rental properties that were first built on or before October 1, 1978"
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D040",
+    "quoted_span": "The JCO can apply to a property that contains only one single-family dwelling."
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D040",
+    "quoted_span": "There are other specific exceptions to the JCO including, but not limited to, transient hotels, licensed care facilities, fraternity or sorority houses, owner’s roommate, cooperatives under certain circumstances, some non-profit facilities for the homeless or short-term treatment centers for substance abuse, and some properties owned by HACLA or the government."
+   }
+  ],
+  "notes": "Changes to the coverage object:\n- construction_cutoff and built_after (after 1978-10-01) removed. D040 says only that the JCO 'can apply' to buildings newer than October 1, 1978, and it also reaches older non-RSO properties such as a lone single-family dwelling. A year-built cutoff would wrongly exclude those properties. Coverage is the complement of RSO status, which is described in other_conditions.\n- construction_date_basis removed. Its value ('complementary to the RSO') is not a date basis.\n- requires_unknown_facts set to false. The JCO covers ordinary non-RSO rental housing; the specific exceptions are listed in unverifiable_exemptions instead.\n- landlord_size_condition removed. The natural-person / no-more-than-four-units condition only reduces the relocation amount for single-family dwellings and does not limit which properties the JCO covers.\n- supersedes_state_rule removed. No document states that the JCO displaces Civ. Code § 1946.2. D040 says only that certain single-family homes exempt from state law are not exempt from the JCO.\n- Summary trimmed to coverage content."
+ }
+}

@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D050:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 624,
+  "output_tokens": 276
+ },
+ "result": {
+  "en": "If rent under a written lease goes unpaid, a landlord can end the lease with 14 days' written notice to quit, but the tenancy is not terminated if the tenant pays all rent due, with interest and costs, by the day the answer is due in the possession action, and if a government payment was delayed, the court must continue the hearing at least 7 days.",
+  "es": "Si no se paga el alquiler de un contrato escrito, el propietario puede terminar el contrato con un aviso escrito de 14 días, pero el arrendamiento no se da por terminado si el inquilino paga todo el alquiler adeudado, con intereses y costos, a más tardar el día en que vence la respuesta en la acción de posesión, y si un pago del gobierno se retrasó, el tribunal debe aplazar la audiencia al menos 7 días."
+ }
+}

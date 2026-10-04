@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D014:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 4747,
+  "output_tokens": 913
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "partly_supported",
+    "quoted_span": "The Notice of Tenants’ Rights and Resources must be delivered at the same time as the\nNotice to Quit.",
+    "note": "D014 supports the core duties: notice at the same time as the Notice to Quit, a copy with Certificate of Compliance/Service to the Office of Housing Stability, non-waivability, FHE investigation, ISD enforcement, the warning then $300/day schedule, and that a violation does not halt eviction. It does not support the online portal, the tenant contact information submission, or the portal fine of up to $300/day; those come from D013, which is not in this document. The document names a mailing address, not a portal. Delivery with the notice of lease non-renewal or expiration is supported only in the tenant section."
+   },
+   {
+    "field": "key_value",
+    "verdict": "partly_supported",
+    "quoted_span": "1st Offense: Warning \n2nd and Subsequent Offenses: $300 per day",
+    "note": "The notice, the copy to the Office of Housing Stability, the penalty schedule, non-waivability and eviction not halted are all in D014. The portal non-submission fine up to $300/day is not in D014."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "supported",
+    "quoted_span": "The HSNA becomes effective on November 6, 2020.",
+    "note": "Matches 2020-11-06."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "The HSNA becomes effective on November 6, 2020.",
+    "note": "The document is framed as a current FAQ with the effective date given and no repeal or suspension. The in_force status is consistent with it."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "The Ordinance applies to all landlords/foreclosing owners intending to end a\ntenancy or post-foreclosure occupancy of a unit in the City of Boston.\nThe only exempt properties are residences:\n1. in any hospital, skilled nursing facility or health facility;  and\n2. in a non-profit facility whose primary purpose is providing short-term\ntreatment, assistance or therapy for alcohol, drug, or other substance\nabuse.",
+    "note": "The universal applicability and the two exemptions match the coverage summary. The absence of any size threshold is consistent with the document."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "Housing Stability Notification Act (Sec. 10-11.7)",
+    "note": "The document gives Sec. 10-11.7 in the enforcement table but not the 'Boston City Code' prefix. The aliases HSNA and Housing Stability Notification Act are supported. The chapter aliases 'ch. 10-11' and 'ch. 10' are not stated in the document."
+   }
+  ]
+ }
+}

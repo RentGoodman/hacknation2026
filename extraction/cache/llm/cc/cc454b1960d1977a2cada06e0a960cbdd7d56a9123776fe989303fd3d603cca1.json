@@ -1,0 +1,70 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D076:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 33823,
+  "output_tokens": 2472
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": false,
+   "unverifiable_exemptions": [],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Covers all residential rental property in the City of San Diego, citywide. No unit-count, construction-date, owner-occupancy or landlord-size limits are stated.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": null,
+   "other_conditions": "Residential rental property takes the § 98.0702 definition: any dwelling or unit intended for human habitation, including units in a mobilehome park. Landlord also takes the § 98.0702 definition. Only the definitions are borrowed; the Division 7 exemptions in § 98.0703 (for example, the 15-year certificate-of-occupancy exemption) are not incorporated."
+  },
+  "evidence": [
+   {
+    "field": "summary",
+    "doc_id": "DX05",
+    "quoted_span": "occupancy levels that may be achieved for a residential rental property in the City of"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D076",
+    "quoted_span": "It is unlawful for a landlord to use an algorithmic device to set rental rates"
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D076",
+    "quoted_span": "Residential rental property has the same meaning as in San Diego Municipal"
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D076",
+    "quoted_span": "Landlord has the same meaning as in San Diego Municipal Code section 98.0702,"
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D073",
+    "quoted_span": "Residential rental property means any dwelling or unit that is intended for human"
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D073",
+    "quoted_span": "habitation, including any dwelling or unit in a mobilehome park."
+   },
+   {
+    "field": "requires_unknown_facts",
+    "doc_id": "D073",
+    "quoted_span": "Residential rental property means any dwelling or unit that is intended for human"
+   }
+  ],
+  "notes": "The coverage values were left largely unchanged. I set requires_unknown_facts to false because the rule reaches ordinary residential rental property, not a class of buildings that assessor data cannot identify. The exclusions in § 98.1102 cover types of software, not buildings or units, so they are not listed as unverifiable_exemptions. One of them excludes affordable-housing-program rent-setting software. DX05, the codified Division 11, shows the ordinance was adopted as O-21955 N.S. on 5-22-2025, effective 6-21-2025. The rule's status of pending and its null effective date should therefore be updated. The enacted text also differs from the draft in three ways: the algorithmic device definition is narrowed to nonpublic competitor data 'of two or more landlords'; an appraisal-software exclusion (c) is added; and § 98.1104 adds landlord fee recovery and City enforcement. None of these changes affect building coverage."
+ }
+}

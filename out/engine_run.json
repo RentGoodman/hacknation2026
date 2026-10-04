@@ -1,0 +1,3389 @@
+{
+  "as_of": "2026-10-01",
+  "rules_source": "out/rules.json",
+  "rules_sha256": "291cbca45e7f52c2c96eef9c78edd4d97bfd82ed1eea6d8f9020d705d02b9bbe",
+  "test_only_fixture": false,
+  "rule_count": 68,
+  "rules_evaluated": 68,
+  "excluded": [],
+  "duplicates": [],
+  "canonical_duplicates": [],
+  "remapped_references": {},
+  "regime_inheritance": [],
+  "links_source": "out/links.json",
+  "links_count": 36,
+  "supersedes": 22,
+  "conflicts": 9,
+  "uncertain": 5,
+  "result_counts": {
+    "applies": 4790,
+    "superseded": 393,
+    "unknown": 705,
+    "not_yet_effective": 140,
+    "pending": 220
+  },
+  "result_counts_with_previous_fallback": {
+    "applies": 4401,
+    "superseded": 393,
+    "unknown": 1094,
+    "not_yet_effective": 140,
+    "pending": 220
+  },
+  "condition_classifications": [
+    {
+      "team_rule_id": "r-0001",
+      "classifier": "heuristic (Claude call unavailable)",
+      "conditions": [
+        {
+          "field": "exemptions",
+          "effect": "excludes_coverage",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "exemption"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0007",
+      "classifier": "heuristic (Claude call unavailable)",
+      "conditions": [
+        {
+          "field": "other_conditions",
+          "effect": "modifies_terms",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "condition"
+        },
+        {
+          "field": "exemptions",
+          "effect": "informational",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "condition"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0029",
+      "classifier": "heuristic (Claude call unavailable)",
+      "conditions": [
+        {
+          "field": "owner_conditions",
+          "effect": "informational",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "condition"
+        },
+        {
+          "field": "other_conditions",
+          "effect": "informational",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "condition"
+        },
+        {
+          "field": "exemptions",
+          "effect": "excludes_coverage",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "exemption"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0034",
+      "classifier": "heuristic (Claude call unavailable)",
+      "conditions": [
+        {
+          "field": "exemptions",
+          "effect": "excludes_coverage",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "exemption"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0036",
+      "classifier": "heuristic (Claude call unavailable)",
+      "conditions": [
+        {
+          "field": "owner_conditions",
+          "effect": "modifies_terms",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "small-landlord exception"
+        },
+        {
+          "field": "other_conditions",
+          "effect": "excludes_coverage",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "exemption"
+        },
+        {
+          "field": "exemptions",
+          "effect": "modifies_terms",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "small-landlord exception"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0039",
+      "classifier": "heuristic (Claude call unavailable)",
+      "conditions": [
+        {
+          "field": "owner_conditions",
+          "effect": "excludes_coverage",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "small-landlord exception"
+        },
+        {
+          "field": "other_conditions",
+          "effect": "modifies_terms",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "condition"
+        },
+        {
+          "field": "exemptions",
+          "effect": "modifies_terms",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "small-landlord exception"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0040",
+      "classifier": "heuristic (Claude call unavailable)",
+      "conditions": [
+        {
+          "field": "other_conditions",
+          "effect": "modifies_terms",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "condition"
+        },
+        {
+          "field": "exemptions",
+          "effect": "modifies_terms",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "small-landlord exception"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0054",
+      "classifier": "heuristic (Claude call unavailable)",
+      "conditions": [
+        {
+          "field": "exemptions",
+          "effect": "informational",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "small-landlord exception"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0069",
+      "classifier": "heuristic (Claude call unavailable)",
+      "conditions": [
+        {
+          "field": "other_conditions",
+          "effect": "modifies_terms",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "condition"
+        },
+        {
+          "field": "exemptions",
+          "effect": "informational",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "small-landlord exception"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0081",
+      "classifier": "heuristic (Claude call unavailable)",
+      "conditions": [
+        {
+          "field": "other_conditions",
+          "effect": "excludes_coverage",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "exemption"
+        },
+        {
+          "field": "exemptions",
+          "effect": "modifies_terms",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "condition"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0088",
+      "classifier": "heuristic (Claude call unavailable)",
+      "conditions": [
+        {
+          "field": "exemptions",
+          "effect": "excludes_coverage",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "exemption"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0089",
+      "classifier": "heuristic (Claude call unavailable)",
+      "conditions": [
+        {
+          "field": "owner_conditions",
+          "effect": "informational",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "small-landlord exception"
+        },
+        {
+          "field": "exemptions",
+          "effect": "informational",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "small-landlord exception"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0096",
+      "classifier": "heuristic (Claude call unavailable)",
+      "conditions": [
+        {
+          "field": "exemptions",
+          "effect": "excludes_coverage",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "small-landlord exception"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0097",
+      "classifier": "heuristic (Claude call unavailable)",
+      "conditions": [
+        {
+          "field": "owner_conditions",
+          "effect": "excludes_coverage",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "small-landlord exception"
+        },
+        {
+          "field": "other_conditions",
+          "effect": "excludes_coverage",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "exemption"
+        },
+        {
+          "field": "exemptions",
+          "effect": "excludes_coverage",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "small-landlord exception"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0108",
+      "classifier": "heuristic (Claude call unavailable)",
+      "conditions": [
+        {
+          "field": "owner_conditions",
+          "effect": "excludes_coverage",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "small-landlord exception"
+        },
+        {
+          "field": "other_conditions",
+          "effect": "informational",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "condition"
+        },
+        {
+          "field": "exemptions",
+          "effect": "informational",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "small-landlord exception"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0114",
+      "classifier": "heuristic (Claude call unavailable)",
+      "conditions": [
+        {
+          "field": "owner_conditions",
+          "effect": "excludes_coverage",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "small-landlord exception"
+        },
+        {
+          "field": "exemptions",
+          "effect": "informational",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "small-landlord exception"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0116",
+      "classifier": "heuristic (Claude call unavailable)",
+      "conditions": [
+        {
+          "field": "other_conditions",
+          "effect": "modifies_terms",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "condition"
+        },
+        {
+          "field": "exemptions",
+          "effect": "informational",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "condition"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0126",
+      "classifier": "heuristic (Claude call unavailable)",
+      "conditions": [
+        {
+          "field": "exemptions",
+          "effect": "modifies_terms",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "condition"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0141",
+      "classifier": "heuristic (Claude call unavailable)",
+      "conditions": [
+        {
+          "field": "other_conditions",
+          "effect": "modifies_terms",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "condition"
+        },
+        {
+          "field": "exemptions",
+          "effect": "modifies_terms",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "condition"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0143",
+      "classifier": "heuristic (Claude call unavailable)",
+      "conditions": [
+        {
+          "field": "other_conditions",
+          "effect": "modifies_terms",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "condition"
+        },
+        {
+          "field": "exemptions",
+          "effect": "informational",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "condition"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0146",
+      "classifier": "heuristic (Claude call unavailable)",
+      "conditions": [
+        {
+          "field": "exemptions",
+          "effect": "informational",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "small-landlord exception"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0148",
+      "classifier": "heuristic (Claude call unavailable)",
+      "conditions": [
+        {
+          "field": "owner_conditions",
+          "effect": "excludes_coverage",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "small-landlord exception"
+        },
+        {
+          "field": "other_conditions",
+          "effect": "excludes_coverage",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "exemption"
+        },
+        {
+          "field": "exemptions",
+          "effect": "informational",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "small-landlord exception"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0150",
+      "classifier": "heuristic (Claude call unavailable)",
+      "conditions": [
+        {
+          "field": "owner_conditions",
+          "effect": "excludes_coverage",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "small-landlord exception"
+        },
+        {
+          "field": "exemptions",
+          "effect": "excludes_coverage",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "small-landlord exception"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0151",
+      "classifier": "heuristic (Claude call unavailable)",
+      "conditions": [
+        {
+          "field": "owner_conditions",
+          "effect": "excludes_coverage",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "small-landlord exception"
+        },
+        {
+          "field": "other_conditions",
+          "effect": "modifies_terms",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "condition"
+        },
+        {
+          "field": "exemptions",
+          "effect": "modifies_terms",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "small-landlord exception"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0152",
+      "classifier": "heuristic (Claude call unavailable)",
+      "conditions": [
+        {
+          "field": "owner_conditions",
+          "effect": "excludes_coverage",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "small-landlord exception"
+        },
+        {
+          "field": "exemptions",
+          "effect": "informational",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "small-landlord exception"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0153",
+      "classifier": "heuristic (Claude call unavailable)",
+      "conditions": [
+        {
+          "field": "exemptions",
+          "effect": "excludes_coverage",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "small-landlord exception"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0154",
+      "classifier": "heuristic (Claude call unavailable)",
+      "conditions": [
+        {
+          "field": "exemptions",
+          "effect": "informational",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "condition"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0159",
+      "classifier": "heuristic (Claude call unavailable)",
+      "conditions": [
+        {
+          "field": "other_conditions",
+          "effect": "excludes_coverage",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "exemption"
+        },
+        {
+          "field": "exemptions",
+          "effect": "informational",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "condition"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0160",
+      "classifier": "heuristic (Claude call unavailable)",
+      "conditions": [
+        {
+          "field": "owner_conditions",
+          "effect": "informational",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "small-landlord exception"
+        },
+        {
+          "field": "exemptions",
+          "effect": "informational",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "small-landlord exception"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0161",
+      "classifier": "heuristic (Claude call unavailable)",
+      "conditions": [
+        {
+          "field": "other_conditions",
+          "effect": "informational",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "condition"
+        },
+        {
+          "field": "exemptions",
+          "effect": "excludes_coverage",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "exemption"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0162",
+      "classifier": "heuristic (Claude call unavailable)",
+      "conditions": [
+        {
+          "field": "exemptions",
+          "effect": "informational",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "condition"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0163",
+      "classifier": "heuristic (Claude call unavailable)",
+      "conditions": [
+        {
+          "field": "other_conditions",
+          "effect": "modifies_terms",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "condition"
+        },
+        {
+          "field": "exemptions",
+          "effect": "informational",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "small-landlord exception"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0165",
+      "classifier": "heuristic (Claude call unavailable)",
+      "conditions": [
+        {
+          "field": "other_conditions",
+          "effect": "excludes_coverage",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "exemption"
+        },
+        {
+          "field": "exemptions",
+          "effect": "informational",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "condition"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0166",
+      "classifier": "heuristic (Claude call unavailable)",
+      "conditions": [
+        {
+          "field": "other_conditions",
+          "effect": "informational",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "condition"
+        },
+        {
+          "field": "exemptions",
+          "effect": "informational",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "condition"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0167",
+      "classifier": "heuristic (Claude call unavailable)",
+      "conditions": [
+        {
+          "field": "other_conditions",
+          "effect": "informational",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "condition"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0168",
+      "classifier": "heuristic (Claude call unavailable)",
+      "conditions": [
+        {
+          "field": "other_conditions",
+          "effect": "excludes_coverage",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "small-landlord exception"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0169",
+      "classifier": "heuristic (Claude call unavailable)",
+      "conditions": [
+        {
+          "field": "other_conditions",
+          "effect": "excludes_coverage",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "exemption"
+        },
+        {
+          "field": "exemptions",
+          "effect": "modifies_terms",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "condition"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0170",
+      "classifier": "heuristic (Claude call unavailable)",
+      "conditions": [
+        {
+          "field": "other_conditions",
+          "effect": "informational",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "condition"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0171",
+      "classifier": "heuristic (Claude call unavailable)",
+      "conditions": [
+        {
+          "field": "other_conditions",
+          "effect": "informational",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "condition"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0172",
+      "classifier": "heuristic (Claude call unavailable)",
+      "conditions": [
+        {
+          "field": "other_conditions",
+          "effect": "informational",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "condition"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0173",
+      "classifier": "heuristic (Claude call unavailable)",
+      "conditions": [
+        {
+          "field": "exemptions",
+          "effect": "excludes_coverage",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "exemption"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0174",
+      "classifier": "heuristic (Claude call unavailable)",
+      "conditions": [
+        {
+          "field": "other_conditions",
+          "effect": "informational",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "condition"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0175",
+      "classifier": "heuristic (Claude call unavailable)",
+      "conditions": [
+        {
+          "field": "owner_conditions",
+          "effect": "excludes_coverage",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "small-landlord exception"
+        },
+        {
+          "field": "exemptions",
+          "effect": "informational",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "small-landlord exception"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0177",
+      "classifier": "heuristic (Claude call unavailable)",
+      "conditions": [
+        {
+          "field": "other_conditions",
+          "effect": "informational",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "small-landlord exception"
+        },
+        {
+          "field": "exemptions",
+          "effect": "excludes_coverage",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "exemption"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0179",
+      "classifier": "heuristic (Claude call unavailable)",
+      "conditions": [
+        {
+          "field": "exemptions",
+          "effect": "modifies_terms",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "condition"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0181",
+      "classifier": "heuristic (Claude call unavailable)",
+      "conditions": [
+        {
+          "field": "exemptions",
+          "effect": "informational",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "condition"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0182",
+      "classifier": "heuristic (Claude call unavailable)",
+      "conditions": [
+        {
+          "field": "other_conditions",
+          "effect": "informational",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "condition"
+        },
+        {
+          "field": "exemptions",
+          "effect": "excludes_coverage",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "exemption"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0185",
+      "classifier": "heuristic (Claude call unavailable)",
+      "conditions": [
+        {
+          "field": "owner_conditions",
+          "effect": "informational",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "small-landlord exception"
+        },
+        {
+          "field": "other_conditions",
+          "effect": "excludes_coverage",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "exemption"
+        },
+        {
+          "field": "exemptions",
+          "effect": "informational",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "condition"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0186",
+      "classifier": "heuristic (Claude call unavailable)",
+      "conditions": [
+        {
+          "field": "other_conditions",
+          "effect": "informational",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "condition"
+        },
+        {
+          "field": "exemptions",
+          "effect": "modifies_terms",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "condition"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0187",
+      "classifier": "heuristic (Claude call unavailable)",
+      "conditions": [
+        {
+          "field": "owner_conditions",
+          "effect": "excludes_coverage",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "small-landlord exception"
+        },
+        {
+          "field": "other_conditions",
+          "effect": "excludes_coverage",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "exemption"
+        },
+        {
+          "field": "exemptions",
+          "effect": "excludes_coverage",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "small-landlord exception"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0189",
+      "classifier": "heuristic (Claude call unavailable)",
+      "conditions": [
+        {
+          "field": "owner_conditions",
+          "effect": "informational",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "small-landlord exception"
+        },
+        {
+          "field": "other_conditions",
+          "effect": "informational",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "condition"
+        },
+        {
+          "field": "exemptions",
+          "effect": "modifies_terms",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "condition"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0190",
+      "classifier": "heuristic (Claude call unavailable)",
+      "conditions": [
+        {
+          "field": "owner_conditions",
+          "effect": "excludes_coverage",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "small-landlord exception"
+        },
+        {
+          "field": "other_conditions",
+          "effect": "informational",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "condition"
+        },
+        {
+          "field": "exemptions",
+          "effect": "informational",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "small-landlord exception"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0191",
+      "classifier": "heuristic (Claude call unavailable)",
+      "conditions": [
+        {
+          "field": "owner_conditions",
+          "effect": "modifies_terms",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "small-landlord exception"
+        },
+        {
+          "field": "exemptions",
+          "effect": "modifies_terms",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "condition"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0192",
+      "classifier": "heuristic (Claude call unavailable)",
+      "conditions": [
+        {
+          "field": "exemptions",
+          "effect": "modifies_terms",
+          "units_max": null,
+          "units_clause": null,
+          "can_exclude_apartment_building": null,
+          "situation": null,
+          "references": null,
+          "label": "condition"
+        }
+      ]
+    }
+  ],
+  "condition_classifications_v6": [
+    {
+      "team_rule_id": "r-0001",
+      "key": "r-0001:v6:268f26d0804d7e69",
+      "source": "heuristic_v6",
+      "conditions": [
+        {
+          "field": "exemptions",
+          "nature": "exemption",
+          "owner_linked": false,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [],
+          "affordable_targeted": true,
+          "situation": "ordinary",
+          "references": null,
+          "label": "exemption"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0007",
+      "key": "r-0007:v6:5c15f48de4904759",
+      "source": "heuristic_v6",
+      "conditions": [
+        {
+          "field": "other_conditions",
+          "nature": "modifies_terms",
+          "owner_linked": false,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [],
+          "affordable_targeted": false,
+          "situation": null,
+          "references": null,
+          "label": "condition"
+        },
+        {
+          "field": "exemptions",
+          "nature": "informational",
+          "owner_linked": false,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [],
+          "affordable_targeted": false,
+          "situation": null,
+          "references": null,
+          "label": "condition"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0029",
+      "key": "r-0029:v6:c9a8a9c762600331",
+      "source": "heuristic_v6",
+      "conditions": [
+        {
+          "field": "owner_conditions",
+          "nature": "informational",
+          "owner_linked": false,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [],
+          "affordable_targeted": false,
+          "situation": null,
+          "references": null,
+          "label": "condition"
+        },
+        {
+          "field": "other_conditions",
+          "nature": "informational",
+          "owner_linked": false,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [],
+          "affordable_targeted": false,
+          "situation": null,
+          "references": null,
+          "label": "condition"
+        },
+        {
+          "field": "exemptions",
+          "nature": "exemption",
+          "owner_linked": false,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [],
+          "affordable_targeted": false,
+          "situation": "ordinary",
+          "references": null,
+          "label": "exemption"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0034",
+      "key": "r-0034:v6:2d5d710a4661069d",
+      "source": "heuristic_v6",
+      "conditions": [
+        {
+          "field": "exemptions",
+          "nature": "exemption",
+          "owner_linked": false,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [],
+          "affordable_targeted": false,
+          "situation": "ordinary",
+          "references": null,
+          "label": "exemption"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0036",
+      "key": "r-0036:v6:375f7b8a6ea5eb7c",
+      "source": "heuristic_v6",
+      "conditions": [
+        {
+          "field": "owner_conditions",
+          "nature": "modifies_terms",
+          "owner_linked": false,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [],
+          "affordable_targeted": false,
+          "situation": null,
+          "references": null,
+          "label": "small-landlord exception"
+        },
+        {
+          "field": "other_conditions",
+          "nature": "exemption",
+          "owner_linked": false,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [
+            "mobile_home"
+          ],
+          "affordable_targeted": false,
+          "situation": "ordinary",
+          "references": null,
+          "label": "exemption"
+        },
+        {
+          "field": "exemptions",
+          "nature": "modifies_terms",
+          "owner_linked": false,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [],
+          "affordable_targeted": false,
+          "situation": null,
+          "references": null,
+          "label": "small-landlord exception"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0039",
+      "key": "r-0039:v6:c2aeb8861cab5302",
+      "source": "heuristic_v6",
+      "conditions": [
+        {
+          "field": "owner_conditions",
+          "nature": "exemption",
+          "owner_linked": true,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [
+            "mobile_home",
+            "duplex"
+          ],
+          "affordable_targeted": false,
+          "situation": "ordinary",
+          "references": null,
+          "label": "small-landlord exception"
+        },
+        {
+          "field": "other_conditions",
+          "nature": "modifies_terms",
+          "owner_linked": false,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [],
+          "affordable_targeted": false,
+          "situation": null,
+          "references": null,
+          "label": "condition"
+        },
+        {
+          "field": "exemptions",
+          "nature": "modifies_terms",
+          "owner_linked": false,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [],
+          "affordable_targeted": false,
+          "situation": null,
+          "references": null,
+          "label": "small-landlord exception"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0040",
+      "key": "r-0040:v6:d357d351bb408393",
+      "source": "heuristic_v6",
+      "conditions": [
+        {
+          "field": "other_conditions",
+          "nature": "modifies_terms",
+          "owner_linked": false,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [],
+          "affordable_targeted": false,
+          "situation": null,
+          "references": null,
+          "label": "condition"
+        },
+        {
+          "field": "exemptions",
+          "nature": "modifies_terms",
+          "owner_linked": false,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [],
+          "affordable_targeted": false,
+          "situation": null,
+          "references": null,
+          "label": "small-landlord exception"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0054",
+      "key": "r-0054:v6:6f259f321306c83e",
+      "source": "heuristic_v6",
+      "conditions": [
+        {
+          "field": "exemptions",
+          "nature": "informational",
+          "owner_linked": false,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [],
+          "affordable_targeted": false,
+          "situation": null,
+          "references": null,
+          "label": "small-landlord exception"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0069",
+      "key": "r-0069:v6:f2594732a382ada7",
+      "source": "heuristic_v6",
+      "conditions": [
+        {
+          "field": "other_conditions",
+          "nature": "modifies_terms",
+          "owner_linked": false,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [],
+          "affordable_targeted": false,
+          "situation": null,
+          "references": null,
+          "label": "condition"
+        },
+        {
+          "field": "exemptions",
+          "nature": "informational",
+          "owner_linked": false,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [],
+          "affordable_targeted": false,
+          "situation": null,
+          "references": null,
+          "label": "small-landlord exception"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0081",
+      "key": "r-0081:v6:1b69a0063d28e8fe",
+      "source": "heuristic_v6",
+      "conditions": [
+        {
+          "field": "other_conditions",
+          "nature": "exemption",
+          "owner_linked": false,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [],
+          "affordable_targeted": false,
+          "situation": "unusual",
+          "references": null,
+          "label": "exemption"
+        },
+        {
+          "field": "exemptions",
+          "nature": "modifies_terms",
+          "owner_linked": false,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [],
+          "affordable_targeted": false,
+          "situation": null,
+          "references": null,
+          "label": "condition"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0088",
+      "key": "r-0088:v6:18a37e5dbe86169c",
+      "source": "heuristic_v6",
+      "conditions": [
+        {
+          "field": "exemptions",
+          "nature": "exemption",
+          "owner_linked": false,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [],
+          "affordable_targeted": false,
+          "situation": "ordinary",
+          "references": null,
+          "label": "exemption"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0089",
+      "key": "r-0089:v6:ba69c26e8a4fd9f6",
+      "source": "heuristic_v6",
+      "conditions": [
+        {
+          "field": "owner_conditions",
+          "nature": "informational",
+          "owner_linked": false,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [],
+          "affordable_targeted": false,
+          "situation": null,
+          "references": null,
+          "label": "small-landlord exception"
+        },
+        {
+          "field": "exemptions",
+          "nature": "informational",
+          "owner_linked": false,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [],
+          "affordable_targeted": false,
+          "situation": null,
+          "references": null,
+          "label": "small-landlord exception"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0096",
+      "key": "r-0096:v6:389932f8852baac7",
+      "source": "heuristic_v6",
+      "conditions": [
+        {
+          "field": "exemptions",
+          "nature": "exemption",
+          "owner_linked": false,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [
+            "single_family",
+            "duplex"
+          ],
+          "affordable_targeted": false,
+          "situation": "ordinary",
+          "references": null,
+          "label": "small-landlord exception"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0097",
+      "key": "r-0097:v6:6df0133ea140c9ea",
+      "source": "heuristic_v6",
+      "conditions": [
+        {
+          "field": "owner_conditions",
+          "nature": "exemption",
+          "owner_linked": true,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [
+            "triplex"
+          ],
+          "affordable_targeted": false,
+          "situation": "ordinary",
+          "references": null,
+          "label": "small-landlord exception"
+        },
+        {
+          "field": "other_conditions",
+          "nature": "exemption",
+          "owner_linked": false,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [],
+          "affordable_targeted": false,
+          "situation": "unusual",
+          "references": null,
+          "label": "exemption"
+        },
+        {
+          "field": "exemptions",
+          "nature": "exemption",
+          "owner_linked": true,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [
+            "triplex"
+          ],
+          "affordable_targeted": false,
+          "situation": "unusual",
+          "references": null,
+          "label": "small-landlord exception"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0108",
+      "key": "r-0108:v6:e1ee7052579d7890",
+      "source": "heuristic_v6",
+      "conditions": [
+        {
+          "field": "owner_conditions",
+          "nature": "exemption",
+          "owner_linked": true,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [
+            "triplex"
+          ],
+          "affordable_targeted": false,
+          "situation": "ordinary",
+          "references": null,
+          "label": "small-landlord exception"
+        },
+        {
+          "field": "other_conditions",
+          "nature": "informational",
+          "owner_linked": false,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [],
+          "affordable_targeted": false,
+          "situation": null,
+          "references": null,
+          "label": "condition"
+        },
+        {
+          "field": "exemptions",
+          "nature": "informational",
+          "owner_linked": false,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [],
+          "affordable_targeted": false,
+          "situation": null,
+          "references": null,
+          "label": "small-landlord exception"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0114",
+      "key": "r-0114:v6:366bcbf1e44b0024",
+      "source": "heuristic_v6",
+      "conditions": [
+        {
+          "field": "owner_conditions",
+          "nature": "exemption",
+          "owner_linked": true,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [
+            "triplex"
+          ],
+          "affordable_targeted": false,
+          "situation": "ordinary",
+          "references": null,
+          "label": "small-landlord exception"
+        },
+        {
+          "field": "exemptions",
+          "nature": "informational",
+          "owner_linked": false,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [],
+          "affordable_targeted": false,
+          "situation": null,
+          "references": null,
+          "label": "small-landlord exception"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0116",
+      "key": "r-0116:v6:29d68b56f9d4dd32",
+      "source": "heuristic_v6",
+      "conditions": [
+        {
+          "field": "other_conditions",
+          "nature": "modifies_terms",
+          "owner_linked": false,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [],
+          "affordable_targeted": false,
+          "situation": null,
+          "references": null,
+          "label": "condition"
+        },
+        {
+          "field": "exemptions",
+          "nature": "informational",
+          "owner_linked": false,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [],
+          "affordable_targeted": false,
+          "situation": null,
+          "references": null,
+          "label": "condition"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0126",
+      "key": "r-0126:v6:7046dd3c4949487b",
+      "source": "heuristic_v6",
+      "conditions": [
+        {
+          "field": "exemptions",
+          "nature": "modifies_terms",
+          "owner_linked": false,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [],
+          "affordable_targeted": false,
+          "situation": null,
+          "references": null,
+          "label": "condition"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0141",
+      "key": "r-0141:v6:9f8fc832d42a4e64",
+      "source": "heuristic_v6",
+      "conditions": [
+        {
+          "field": "other_conditions",
+          "nature": "modifies_terms",
+          "owner_linked": false,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [],
+          "affordable_targeted": false,
+          "situation": null,
+          "references": null,
+          "label": "condition"
+        },
+        {
+          "field": "exemptions",
+          "nature": "modifies_terms",
+          "owner_linked": false,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [],
+          "affordable_targeted": false,
+          "situation": null,
+          "references": null,
+          "label": "condition"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0143",
+      "key": "r-0143:v6:1f8f71c391b0606d",
+      "source": "heuristic_v6",
+      "conditions": [
+        {
+          "field": "other_conditions",
+          "nature": "modifies_terms",
+          "owner_linked": false,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [],
+          "affordable_targeted": false,
+          "situation": null,
+          "references": null,
+          "label": "condition"
+        },
+        {
+          "field": "exemptions",
+          "nature": "informational",
+          "owner_linked": false,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [],
+          "affordable_targeted": false,
+          "situation": null,
+          "references": null,
+          "label": "condition"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0146",
+      "key": "r-0146:v6:a96bac36b9b90d86",
+      "source": "heuristic_v6",
+      "conditions": [
+        {
+          "field": "exemptions",
+          "nature": "informational",
+          "owner_linked": false,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [],
+          "affordable_targeted": false,
+          "situation": null,
+          "references": null,
+          "label": "small-landlord exception"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0148",
+      "key": "r-0148:v6:5a39fa566468c723",
+      "source": "heuristic_v6",
+      "conditions": [
+        {
+          "field": "owner_conditions",
+          "nature": "exemption",
+          "owner_linked": true,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [],
+          "affordable_targeted": false,
+          "situation": "ordinary",
+          "references": null,
+          "label": "small-landlord exception"
+        },
+        {
+          "field": "other_conditions",
+          "nature": "exemption",
+          "owner_linked": false,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [],
+          "affordable_targeted": false,
+          "situation": "ordinary",
+          "references": null,
+          "label": "exemption"
+        },
+        {
+          "field": "exemptions",
+          "nature": "informational",
+          "owner_linked": false,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [],
+          "affordable_targeted": false,
+          "situation": null,
+          "references": null,
+          "label": "small-landlord exception"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0150",
+      "key": "r-0150:v6:9effd5119b27a48a",
+      "source": "heuristic_v6",
+      "conditions": [
+        {
+          "field": "owner_conditions",
+          "nature": "exemption",
+          "owner_linked": true,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [
+            "duplex"
+          ],
+          "affordable_targeted": false,
+          "situation": "unusual",
+          "references": null,
+          "label": "small-landlord exception"
+        },
+        {
+          "field": "exemptions",
+          "nature": "exemption",
+          "owner_linked": true,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [
+            "duplex"
+          ],
+          "affordable_targeted": false,
+          "situation": "unusual",
+          "references": null,
+          "label": "small-landlord exception"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0151",
+      "key": "r-0151:v6:03cbe5c7d5bd717d",
+      "source": "heuristic_v6",
+      "conditions": [
+        {
+          "field": "owner_conditions",
+          "nature": "exemption",
+          "owner_linked": true,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [
+            "duplex"
+          ],
+          "affordable_targeted": false,
+          "situation": "unusual",
+          "references": null,
+          "label": "small-landlord exception"
+        },
+        {
+          "field": "other_conditions",
+          "nature": "modifies_terms",
+          "owner_linked": false,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [],
+          "affordable_targeted": false,
+          "situation": null,
+          "references": null,
+          "label": "condition"
+        },
+        {
+          "field": "exemptions",
+          "nature": "modifies_terms",
+          "owner_linked": false,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [],
+          "affordable_targeted": false,
+          "situation": null,
+          "references": null,
+          "label": "small-landlord exception"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0152",
+      "key": "r-0152:v6:c2a3d3a1fa089f48",
+      "source": "heuristic_v6",
+      "conditions": [
+        {
+          "field": "owner_conditions",
+          "nature": "exemption",
+          "owner_linked": true,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [],
+          "affordable_targeted": false,
+          "situation": "ordinary",
+          "references": null,
+          "label": "small-landlord exception"
+        },
+        {
+          "field": "exemptions",
+          "nature": "informational",
+          "owner_linked": false,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [],
+          "affordable_targeted": false,
+          "situation": null,
+          "references": null,
+          "label": "small-landlord exception"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0153",
+      "key": "r-0153:v6:32109718837f53e0",
+      "source": "heuristic_v6",
+      "conditions": [
+        {
+          "field": "exemptions",
+          "nature": "exemption",
+          "owner_linked": true,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [
+            "duplex"
+          ],
+          "affordable_targeted": false,
+          "situation": "unusual",
+          "references": null,
+          "label": "small-landlord exception"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0154",
+      "key": "r-0154:v6:6f3f31b9f5462746",
+      "source": "heuristic_v6",
+      "conditions": [
+        {
+          "field": "exemptions",
+          "nature": "informational",
+          "owner_linked": false,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [],
+          "affordable_targeted": false,
+          "situation": null,
+          "references": null,
+          "label": "condition"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0159",
+      "key": "r-0159:v6:d3028c5803146d6c",
+      "source": "heuristic_v6",
+      "conditions": [
+        {
+          "field": "other_conditions",
+          "nature": "exemption",
+          "owner_linked": false,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [
+            "care_facility"
+          ],
+          "affordable_targeted": false,
+          "situation": "ordinary",
+          "references": null,
+          "label": "exemption"
+        },
+        {
+          "field": "exemptions",
+          "nature": "informational",
+          "owner_linked": false,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [],
+          "affordable_targeted": false,
+          "situation": null,
+          "references": null,
+          "label": "condition"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0160",
+      "key": "r-0160:v6:b0b6befe386df56c",
+      "source": "heuristic_v6",
+      "conditions": [
+        {
+          "field": "owner_conditions",
+          "nature": "informational",
+          "owner_linked": false,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [],
+          "affordable_targeted": false,
+          "situation": null,
+          "references": null,
+          "label": "small-landlord exception"
+        },
+        {
+          "field": "exemptions",
+          "nature": "informational",
+          "owner_linked": false,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [],
+          "affordable_targeted": false,
+          "situation": null,
+          "references": null,
+          "label": "small-landlord exception"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0161",
+      "key": "r-0161:v6:f8aa090db8cf0a41",
+      "source": "heuristic_v6",
+      "conditions": [
+        {
+          "field": "other_conditions",
+          "nature": "informational",
+          "owner_linked": false,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [],
+          "affordable_targeted": false,
+          "situation": null,
+          "references": null,
+          "label": "condition"
+        },
+        {
+          "field": "exemptions",
+          "nature": "exemption",
+          "owner_linked": false,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [
+            "care_facility"
+          ],
+          "affordable_targeted": false,
+          "situation": "unusual",
+          "references": null,
+          "label": "exemption"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0162",
+      "key": "r-0162:v6:9636f6cf54f445ec",
+      "source": "heuristic_v6",
+      "conditions": [
+        {
+          "field": "exemptions",
+          "nature": "informational",
+          "owner_linked": false,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [],
+          "affordable_targeted": false,
+          "situation": null,
+          "references": null,
+          "label": "condition"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0163",
+      "key": "r-0163:v6:64a7b36e4b45aaf8",
+      "source": "heuristic_v6",
+      "conditions": [
+        {
+          "field": "other_conditions",
+          "nature": "modifies_terms",
+          "owner_linked": false,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [],
+          "affordable_targeted": false,
+          "situation": null,
+          "references": null,
+          "label": "condition"
+        },
+        {
+          "field": "exemptions",
+          "nature": "informational",
+          "owner_linked": false,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [],
+          "affordable_targeted": false,
+          "situation": null,
+          "references": null,
+          "label": "small-landlord exception"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0165",
+      "key": "r-0165:v6:d43c8e892f8376a4",
+      "source": "heuristic_v6",
+      "conditions": [
+        {
+          "field": "other_conditions",
+          "nature": "exemption",
+          "owner_linked": false,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [],
+          "affordable_targeted": false,
+          "situation": "ordinary",
+          "references": null,
+          "label": "exemption"
+        },
+        {
+          "field": "exemptions",
+          "nature": "informational",
+          "owner_linked": false,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [],
+          "affordable_targeted": false,
+          "situation": null,
+          "references": null,
+          "label": "condition"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0166",
+      "key": "r-0166:v6:75b2a5d78a595ecd",
+      "source": "heuristic_v6",
+      "conditions": [
+        {
+          "field": "other_conditions",
+          "nature": "informational",
+          "owner_linked": false,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [],
+          "affordable_targeted": false,
+          "situation": null,
+          "references": null,
+          "label": "condition"
+        },
+        {
+          "field": "exemptions",
+          "nature": "informational",
+          "owner_linked": false,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [],
+          "affordable_targeted": false,
+          "situation": null,
+          "references": null,
+          "label": "condition"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0167",
+      "key": "r-0167:v6:a601f6eded19fcac",
+      "source": "heuristic_v6",
+      "conditions": [
+        {
+          "field": "other_conditions",
+          "nature": "informational",
+          "owner_linked": false,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [],
+          "affordable_targeted": false,
+          "situation": null,
+          "references": null,
+          "label": "condition"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0168",
+      "key": "r-0168:v6:20b999c302d29467",
+      "source": "heuristic_v6",
+      "conditions": [
+        {
+          "field": "other_conditions",
+          "nature": "exemption",
+          "owner_linked": false,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [],
+          "affordable_targeted": false,
+          "situation": "ordinary",
+          "references": null,
+          "label": "small-landlord exception"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0169",
+      "key": "r-0169:v6:34b8b00e66f49aee",
+      "source": "heuristic_v6",
+      "conditions": [
+        {
+          "field": "other_conditions",
+          "nature": "exemption",
+          "owner_linked": false,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [],
+          "affordable_targeted": false,
+          "situation": "unusual",
+          "references": null,
+          "label": "exemption"
+        },
+        {
+          "field": "exemptions",
+          "nature": "modifies_terms",
+          "owner_linked": false,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [],
+          "affordable_targeted": false,
+          "situation": null,
+          "references": null,
+          "label": "condition"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0170",
+      "key": "r-0170:v6:24dacf705531af0b",
+      "source": "heuristic_v6",
+      "conditions": [
+        {
+          "field": "other_conditions",
+          "nature": "informational",
+          "owner_linked": false,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [],
+          "affordable_targeted": false,
+          "situation": null,
+          "references": null,
+          "label": "condition"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0171",
+      "key": "r-0171:v6:24f4904eab6c102f",
+      "source": "heuristic_v6",
+      "conditions": [
+        {
+          "field": "other_conditions",
+          "nature": "informational",
+          "owner_linked": false,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [],
+          "affordable_targeted": false,
+          "situation": null,
+          "references": null,
+          "label": "condition"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0172",
+      "key": "r-0172:v6:1c12b1162e0badb3",
+      "source": "heuristic_v6",
+      "conditions": [
+        {
+          "field": "other_conditions",
+          "nature": "informational",
+          "owner_linked": false,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [],
+          "affordable_targeted": false,
+          "situation": null,
+          "references": null,
+          "label": "condition"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0173",
+      "key": "r-0173:v6:08a08da3a37c41dd",
+      "source": "heuristic_v6",
+      "conditions": [
+        {
+          "field": "exemptions",
+          "nature": "exemption",
+          "owner_linked": false,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [
+            "care_facility"
+          ],
+          "affordable_targeted": false,
+          "situation": "unusual",
+          "references": null,
+          "label": "exemption"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0174",
+      "key": "r-0174:v6:f9e135f3c7cde082",
+      "source": "heuristic_v6",
+      "conditions": [
+        {
+          "field": "other_conditions",
+          "nature": "informational",
+          "owner_linked": false,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [],
+          "affordable_targeted": false,
+          "situation": null,
+          "references": null,
+          "label": "condition"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0175",
+      "key": "r-0175:v6:ccac12965bdd3769",
+      "source": "heuristic_v6",
+      "conditions": [
+        {
+          "field": "owner_conditions",
+          "nature": "exemption",
+          "owner_linked": true,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [
+            "duplex",
+            "room_in_owner_home"
+          ],
+          "affordable_targeted": false,
+          "situation": "ordinary",
+          "references": null,
+          "label": "small-landlord exception"
+        },
+        {
+          "field": "exemptions",
+          "nature": "informational",
+          "owner_linked": false,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [],
+          "affordable_targeted": false,
+          "situation": null,
+          "references": null,
+          "label": "small-landlord exception"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0177",
+      "key": "r-0177:v6:6aed54d4e0639660",
+      "source": "heuristic_v6",
+      "conditions": [
+        {
+          "field": "other_conditions",
+          "nature": "informational",
+          "owner_linked": false,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [],
+          "affordable_targeted": false,
+          "situation": null,
+          "references": null,
+          "label": "small-landlord exception"
+        },
+        {
+          "field": "exemptions",
+          "nature": "exemption",
+          "owner_linked": false,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [],
+          "affordable_targeted": true,
+          "situation": "ordinary",
+          "references": null,
+          "label": "exemption"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0179",
+      "key": "r-0179:v6:dcf639942555ffc5",
+      "source": "heuristic_v6",
+      "conditions": [
+        {
+          "field": "exemptions",
+          "nature": "modifies_terms",
+          "owner_linked": false,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [],
+          "affordable_targeted": false,
+          "situation": null,
+          "references": null,
+          "label": "condition"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0181",
+      "key": "r-0181:v6:fbd4614fb632cd79",
+      "source": "heuristic_v6",
+      "conditions": [
+        {
+          "field": "exemptions",
+          "nature": "informational",
+          "owner_linked": false,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [],
+          "affordable_targeted": false,
+          "situation": null,
+          "references": null,
+          "label": "condition"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0182",
+      "key": "r-0182:v6:fd17e118c4397d94",
+      "source": "heuristic_v6",
+      "conditions": [
+        {
+          "field": "other_conditions",
+          "nature": "informational",
+          "owner_linked": false,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [],
+          "affordable_targeted": false,
+          "situation": null,
+          "references": null,
+          "label": "condition"
+        },
+        {
+          "field": "exemptions",
+          "nature": "exemption",
+          "owner_linked": false,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [],
+          "affordable_targeted": true,
+          "situation": "ordinary",
+          "references": null,
+          "label": "exemption"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0185",
+      "key": "r-0185:v6:31fd85d405a9f5f1",
+      "source": "heuristic_v6",
+      "conditions": [
+        {
+          "field": "owner_conditions",
+          "nature": "informational",
+          "owner_linked": false,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [],
+          "affordable_targeted": false,
+          "situation": null,
+          "references": null,
+          "label": "small-landlord exception"
+        },
+        {
+          "field": "other_conditions",
+          "nature": "exemption",
+          "owner_linked": false,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [],
+          "affordable_targeted": false,
+          "situation": "ordinary",
+          "references": null,
+          "label": "exemption"
+        },
+        {
+          "field": "exemptions",
+          "nature": "informational",
+          "owner_linked": false,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [],
+          "affordable_targeted": false,
+          "situation": null,
+          "references": null,
+          "label": "condition"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0186",
+      "key": "r-0186:v6:5068db86ddfc1a20",
+      "source": "heuristic_v6",
+      "conditions": [
+        {
+          "field": "other_conditions",
+          "nature": "informational",
+          "owner_linked": false,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [],
+          "affordable_targeted": false,
+          "situation": null,
+          "references": null,
+          "label": "condition"
+        },
+        {
+          "field": "exemptions",
+          "nature": "modifies_terms",
+          "owner_linked": false,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [],
+          "affordable_targeted": false,
+          "situation": null,
+          "references": null,
+          "label": "condition"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0187",
+      "key": "r-0187:v6:be101bd1104ed81f",
+      "source": "heuristic_v6",
+      "conditions": [
+        {
+          "field": "owner_conditions",
+          "nature": "exemption",
+          "owner_linked": true,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [
+            "single_family",
+            "mobile_home",
+            "duplex"
+          ],
+          "affordable_targeted": false,
+          "situation": "ordinary",
+          "references": null,
+          "label": "small-landlord exception"
+        },
+        {
+          "field": "other_conditions",
+          "nature": "exemption",
+          "owner_linked": false,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [
+            "mobile_home",
+            "hotel"
+          ],
+          "affordable_targeted": false,
+          "situation": "unusual",
+          "references": null,
+          "label": "exemption"
+        },
+        {
+          "field": "exemptions",
+          "nature": "exemption",
+          "owner_linked": true,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [
+            "single_family",
+            "mobile_home",
+            "duplex",
+            "hotel",
+            "care_facility",
+            "dormitory"
+          ],
+          "affordable_targeted": true,
+          "situation": "unusual",
+          "references": null,
+          "label": "small-landlord exception"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0189",
+      "key": "r-0189:v6:0643d4e310fdae97",
+      "source": "heuristic_v6",
+      "conditions": [
+        {
+          "field": "owner_conditions",
+          "nature": "informational",
+          "owner_linked": false,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [],
+          "affordable_targeted": false,
+          "situation": null,
+          "references": null,
+          "label": "small-landlord exception"
+        },
+        {
+          "field": "other_conditions",
+          "nature": "informational",
+          "owner_linked": false,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [],
+          "affordable_targeted": false,
+          "situation": null,
+          "references": null,
+          "label": "condition"
+        },
+        {
+          "field": "exemptions",
+          "nature": "modifies_terms",
+          "owner_linked": false,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [],
+          "affordable_targeted": false,
+          "situation": null,
+          "references": null,
+          "label": "condition"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0190",
+      "key": "r-0190:v6:e1ee7052579d7890",
+      "source": "heuristic_v6",
+      "conditions": [
+        {
+          "field": "owner_conditions",
+          "nature": "exemption",
+          "owner_linked": true,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [
+            "triplex"
+          ],
+          "affordable_targeted": false,
+          "situation": "ordinary",
+          "references": null,
+          "label": "small-landlord exception"
+        },
+        {
+          "field": "other_conditions",
+          "nature": "informational",
+          "owner_linked": false,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [],
+          "affordable_targeted": false,
+          "situation": null,
+          "references": null,
+          "label": "condition"
+        },
+        {
+          "field": "exemptions",
+          "nature": "informational",
+          "owner_linked": false,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [],
+          "affordable_targeted": false,
+          "situation": null,
+          "references": null,
+          "label": "small-landlord exception"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0191",
+      "key": "r-0191:v6:123461556a5b84a3",
+      "source": "heuristic_v6",
+      "conditions": [
+        {
+          "field": "owner_conditions",
+          "nature": "modifies_terms",
+          "owner_linked": false,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [],
+          "affordable_targeted": false,
+          "situation": null,
+          "references": null,
+          "label": "small-landlord exception"
+        },
+        {
+          "field": "exemptions",
+          "nature": "modifies_terms",
+          "owner_linked": false,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [],
+          "affordable_targeted": false,
+          "situation": null,
+          "references": null,
+          "label": "condition"
+        }
+      ]
+    },
+    {
+      "team_rule_id": "r-0192",
+      "key": "r-0192:v6:65b3f4f2881b72f8",
+      "source": "heuristic_v6",
+      "conditions": [
+        {
+          "field": "exemptions",
+          "nature": "modifies_terms",
+          "owner_linked": false,
+          "owner_exemption_max_units": null,
+          "owner_units_clause": null,
+          "property_types_targeted": [],
+          "affordable_targeted": false,
+          "situation": null,
+          "references": null,
+          "label": "condition"
+        }
+      ]
+    }
+  ],
+  "condition_classifier_error": null,
+  "conditions_classified_by_claude": 0,
+  "conditions_heuristic": 54,
+  "overrides_audit_counts": {
+    "NOT_AUDITED": 14
+  },
+  "overrides_audit_error": null,
+  "temporal_periods": [],
+  "omitted_after_law_sunset": [],
+  "period_figures": [],
+  "rules_without_annotation": [
+    "r-0001",
+    "r-0006",
+    "r-0007",
+    "r-0029",
+    "r-0034",
+    "r-0036",
+    "r-0039",
+    "r-0040",
+    "r-0054",
+    "r-0069",
+    "r-0076",
+    "r-0077",
+    "r-0080",
+    "r-0081",
+    "r-0088",
+    "r-0089",
+    "r-0096",
+    "r-0097",
+    "r-0108",
+    "r-0114",
+    "r-0116",
+    "r-0126",
+    "r-0129",
+    "r-0141",
+    "r-0143",
+    "r-0146",
+    "r-0148",
+    "r-0149",
+    "r-0150",
+    "r-0151",
+    "r-0152",
+    "r-0153",
+    "r-0154",
+    "r-0155",
+    "r-0156",
+    "r-0158",
+    "r-0159",
+    "r-0160",
+    "r-0161",
+    "r-0162",
+    "r-0163",
+    "r-0164",
+    "r-0165",
+    "r-0166",
+    "r-0167",
+    "r-0168",
+    "r-0169",
+    "r-0170",
+    "r-0171",
+    "r-0172",
+    "r-0174",
+    "r-0175",
+    "r-0177",
+    "r-0179",
+    "r-0180",
+    "r-0181",
+    "r-0182",
+    "r-0183",
+    "r-0184",
+    "r-0186",
+    "r-0187",
+    "r-0188",
+    "r-0189",
+    "r-0190",
+    "r-0191",
+    "r-0192"
+  ],
+  "part1_annotation_disagreements": [],
+  "precedence_rejected_edges": [
+    {
+      "winner": "r-0002",
+      "loser": "r-0003",
+      "reason": "rule id not in rules",
+      "sources": [
+        "links.json"
+      ]
+    },
+    {
+      "winner": "r-0008",
+      "loser": "r-0039",
+      "reason": "rule id not in rules",
+      "sources": [
+        "links.json"
+      ]
+    },
+    {
+      "winner": "r-0012",
+      "loser": "r-0036",
+      "reason": "rule id not in rules",
+      "sources": [
+        "links.json"
+      ]
+    },
+    {
+      "winner": "r-0025",
+      "loser": "r-0039",
+      "reason": "rule id not in rules",
+      "sources": [
+        "links.json"
+      ]
+    },
+    {
+      "winner": "r-0027",
+      "loser": "r-0036",
+      "reason": "rule id not in rules",
+      "sources": [
+        "links.json"
+      ]
+    },
+    {
+      "winner": "r-0039",
+      "loser": "r-0062",
+      "reason": "rule id not in rules",
+      "sources": [
+        "links.json"
+      ]
+    },
+    {
+      "winner": "r-0041",
+      "loser": "r-0040",
+      "reason": "rule id not in rules",
+      "sources": [
+        "links.json"
+      ]
+    },
+    {
+      "winner": "r-0059",
+      "loser": "r-0104",
+      "reason": "rule id not in rules",
+      "sources": [
+        "links.json"
+      ]
+    },
+    {
+      "winner": "r-0063",
+      "loser": "r-0039",
+      "reason": "rule id not in rules",
+      "sources": [
+        "links.json"
+      ]
+    },
+    {
+      "winner": "r-0063",
+      "loser": "r-0062",
+      "reason": "rule id not in rules",
+      "sources": [
+        "links.json"
+      ]
+    },
+    {
+      "winner": "r-0065",
+      "loser": "r-0036",
+      "reason": "rule id not in rules",
+      "sources": [
+        "links.json"
+      ]
+    },
+    {
+      "winner": "r-0067",
+      "loser": "r-0039",
+      "reason": "rule id not in rules",
+      "sources": [
+        "links.json"
+      ]
+    },
+    {
+      "winner": "r-0067",
+      "loser": "r-0062",
+      "reason": "rule id not in rules",
+      "sources": [
+        "links.json"
+      ]
+    },
+    {
+      "winner": "r-0074",
+      "loser": "r-0069",
+      "reason": "rule id not in rules",
+      "sources": [
+        "links.json"
+      ]
+    },
+    {
+      "winner": "r-0103",
+      "loser": "r-0059",
+      "reason": "rule id not in rules",
+      "sources": [
+        "links.json"
+      ]
+    },
+    {
+      "winner": "r-0116",
+      "loser": "r-0111",
+      "reason": "rule id not in rules",
+      "sources": [
+        "links.json"
+      ]
+    },
+    {
+      "winner": "r-0128",
+      "loser": "r-0039",
+      "reason": "rule id not in rules",
+      "sources": [
+        "links.json"
+      ]
+    },
+    {
+      "winner": "r-0132",
+      "loser": "r-0039",
+      "reason": "rule id not in rules",
+      "sources": [
+        "links.json"
+      ]
+    },
+    {
+      "winner": "r-0136",
+      "loser": "r-0134",
+      "reason": "rule id not in rules",
+      "sources": [
+        "links.json"
+      ]
+    },
+    {
+      "winner": "r-0137",
+      "loser": "r-0039",
+      "reason": "rule id not in rules",
+      "sources": [
+        "links.json"
+      ]
+    }
+  ],
+  "precedence_rejected_pairs": [
+    {
+      "pair": [
+        "r-0007",
+        "r-0050"
+      ],
+      "reason": "rule id not in rules"
+    },
+    {
+      "pair": [
+        "r-0018",
+        "r-0041"
+      ],
+      "reason": "rule id not in rules"
+    },
+    {
+      "pair": [
+        "r-0036",
+        "r-0060"
+      ],
+      "reason": "rule id not in rules"
+    },
+    {
+      "pair": [
+        "r-0036",
+        "r-0119"
+      ],
+      "reason": "rule id not in rules"
+    },
+    {
+      "pair": [
+        "r-0036",
+        "r-0143"
+      ],
+      "reason": "settled by yields_to_local / supersedes_state (B1)"
+    },
+    {
+      "pair": [
+        "r-0037",
+        "r-0120"
+      ],
+      "reason": "rule id not in rules"
+    },
+    {
+      "pair": [
+        "r-0037",
+        "r-0144"
+      ],
+      "reason": "rule id not in rules"
+    },
+    {
+      "pair": [
+        "r-0063",
+        "r-0067"
+      ],
+      "reason": "rule id not in rules"
+    },
+    {
+      "pair": [
+        "r-0065",
+        "r-0070"
+      ],
+      "reason": "rule id not in rules"
+    },
+    {
+      "pair": [
+        "r-0081",
+        "r-0082"
+      ],
+      "reason": "rule id not in rules"
+    },
+    {
+      "pair": [
+        "r-0101",
+        "r-0107"
+      ],
+      "reason": "rule id not in rules"
+    },
+    {
+      "pair": [
+        "r-0146",
+        "r-0173"
+      ],
+      "reason": "flagged by may_preempt_local (B3)"
+    },
+    {
+      "pair": [
+        "r-0161",
+        "r-0173"
+      ],
+      "reason": "flagged by may_preempt_local (B3)"
+    }
+  ],
+  "precedence_kept_edges": [
+    [
+      "r-0069",
+      "r-0036"
+    ],
+    [
+      "r-0069",
+      "r-0184"
+    ],
+    [
+      "r-0126",
+      "r-0036"
+    ],
+    [
+      "r-0141",
+      "r-0039"
+    ],
+    [
+      "r-0143",
+      "r-0036"
+    ],
+    [
+      "r-0150",
+      "r-0036"
+    ],
+    [
+      "r-0151",
+      "r-0039"
+    ],
+    [
+      "r-0163",
+      "r-0036"
+    ],
+    [
+      "r-0166",
+      "r-0039"
+    ],
+    [
+      "r-0179",
+      "r-0039"
+    ],
+    [
+      "r-0187",
+      "r-0036"
+    ]
+  ],
+  "precedence_actions": {
+    "superseded|r-0036|by r-0069": 47,
+    "superseded|r-0036|by r-0126": 79,
+    "superseded|r-0036|by r-0150": 40,
+    "superseded|r-0036|by r-0163": 29,
+    "superseded|r-0039|by r-0166": 47,
+    "superseded|r-0039|by r-0179": 71,
+    "superseded|r-0184|by r-0126": 80,
+    "unknown_cascade|r-0036|by r-0187": 50,
+    "unknown_cascade|r-0039|by r-0151": 40,
+    "unknown_cascade|r-0039|by r-0166": 8,
+    "unknown_cascade|r-0039|by r-0179": 2
+  },
+  "rule_decisions": [
+    {
+      "team_rule_id": null,
+      "decision": "unchanged",
+      "checked_against": "quoted_span: 'newly constructed multiple dwellings shall be exempt from any local rent control ordinances for a period of 30 years following completion of construction of the building.'",
+      "reason": "Exempt for the first 30 years means local rent control covers the building only from age 30, so coverage_conditions.min_building_age_years = 30 matches the span.",
+      "rule_key": "NJ|rent_increase_limits|n.j.s.a. 2a:42-84.5"
+    },
+    {
+      "team_rule_id": null,
+      "decision": "no valid_until",
+      "checked_against": "quoted_span: 'Beginning February 2, 2026, a landlord can no longer include any additional percentage increase for utilities.'",
+      "reason": "The text states a start date and no end of period; valid_until is never guessed, so the rule can still apply after 2026-06-30 (unlike r-0067).",
+      "rule_key": "Los Angeles, CA|rent_increase_limits|los angeles rent stabilization ordinance"
+    },
+    {
+      "team_rule_id": null,
+      "decision": "effective_date null",
+      "checked_against": "DX01: 'This Ordinance shall take effect immediately upon passage and publication as provided by law.'",
+      "reason": "Passage (2025-07-09) and publication are both required; the publication date is not in the text. Numbering discrepancy (158-2 vs 154-8) kept in conflict_note.",
+      "rule_key": "Hoboken, NJ|algorithmic_rent_setting|hoboken city code \u00a7 154-8"
+    },
+    {
+      "team_rule_id": "r-0146",
+      "decision": "replaced by amended text",
+      "checked_against": "DX04 (Ord. 25-076) section 2.1",
+      "reason": "Section 218-12 as amended in July 2025 adds 'or otherwise utilize the services of a Service Provider'.",
+      "rule_key": "Jersey City, NJ|algorithmic_rent_setting|jersey city code \u00a7 218-12"
+    }
+  ],
+  "t5_check": "passed: failed petition 25-21 is absent from every Boston and Cambridge lookup; unrelated present or future rent laws are outside this guard"
+}

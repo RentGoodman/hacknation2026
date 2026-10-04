@@ -1,0 +1,50 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "DX19:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 6911,
+  "output_tokens": 1296
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": false,
+   "unverifiable_exemptions": [],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Residential rental property within Santa Ana city limits.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": null,
+   "other_conditions": "Limited to residential rental property within Santa Ana city limits."
+  },
+  "evidence": [
+   {
+    "field": "summary",
+    "doc_id": "DX19",
+    "quoted_span": "Defines a limited scope, covering residential rental property within Santa Ana city limits"
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "DX19",
+    "quoted_span": "Defines a limited scope, covering residential rental property within Santa Ana city limits"
+   },
+   {
+    "field": "requires_unknown_facts",
+    "doc_id": "DX19",
+    "quoted_span": "The new algorithmic rent-setting ordinance is limited to residential rental property"
+   }
+  ],
+  "notes": "I removed 'operates alongside state antitrust laws' from the summary. It describes how the ordinance relates to state antitrust law, not which buildings it covers. It also does not support supersedes_state_rule, which stays null. I set requires_unknown_facts to false because the rule covers ordinary residential rental property citywide. The exemptions for software using only public or aggregate historical data, or affordable-housing compliance tools, concern the landlord's choice of software, not building or unit characteristics. They are therefore not listed as unverifiable_exemptions. The documents give no unit-count, construction-date or owner-occupancy limits for this ordinance. The Feb. 1, 1995 cutoff and the 15-year exclusion in D085 belong to the separate Rent Stabilization and Just Cause ordinances. On status: DX18 reports that a final vote was held, saying 'Tuesday's vote was the final step to officially put the ordinance into effect.' Reviewers should reconsider the 'pending' status."
+ }
+}

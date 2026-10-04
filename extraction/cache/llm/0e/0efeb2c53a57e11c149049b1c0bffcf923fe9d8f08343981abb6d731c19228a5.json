@@ -1,0 +1,18 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "date_audit",
+ "subject": "D001:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 22149,
+  "output_tokens": 786
+ },
+ "result": {
+  "requirement_is_new": false,
+  "in_force_since": null,
+  "in_force_since_evidence": null,
+  "current_version_effective": "2026-01",
+  "prior_version_note": "D001 (Ord. 7,992-N.S.) amends an existing Chapter 13.63 ('Berkeley Municipal Code 13.63 is amended to read as follows'), so an earlier version of the chapter existed. DX06 also notes the chapter was 'previously at issue' in RealPage, Inc. v. City of Berkeley (dismissed Jan. 14, 2026), which suggests an earlier prohibition was in place. The documents do not give the earlier version's text, its specific requirements or its effective date. The January 2026 date in DX06 is month-only and most likely reflects the amended version; the documents do not confirm this.",
+  "effective_date_formula": null
+ }
+}

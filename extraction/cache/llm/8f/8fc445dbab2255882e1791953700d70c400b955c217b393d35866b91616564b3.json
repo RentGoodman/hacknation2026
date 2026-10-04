@@ -1,0 +1,78 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D040:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 25596,
+  "output_tokens": 3134
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": false,
+   "unverifiable_exemptions": [
+    "transient hotels",
+    "licensed care facilities",
+    "fraternity or sorority houses",
+    "owner's roommate",
+    "cooperatives under certain circumstances",
+    "some non-profit facilities for the homeless or short-term treatment centers for substance abuse",
+    "some properties owned by HACLA or the government"
+   ],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Covers most residential properties in the City of Los Angeles that are not regulated by the RSO. It can apply to buildings newer than October 1, 1978, and to a property containing only one single-family dwelling. It applies to a tenancy once the tenant has lived in the unit at least six months or the original lease has expired, whichever comes first.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": null,
+   "other_conditions": "Units regulated by the City's RSO are excluded. Construction date is not an exclusive cutoff: newer buildings and properties containing only one single-family dwelling can be covered. Applies to a tenancy only after the tenant has lived in the unit at least six months or the original lease has expired, whichever comes first."
+  },
+  "evidence": [
+   {
+    "field": "requires_unknown_facts",
+    "doc_id": "D040",
+    "quoted_span": "The JCO covers most residential properties in the City of Los Angeles that are not regulated by the City’s Rent Stabilization Ordinance (RSO)."
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D040",
+    "quoted_span": "There are other specific exceptions to the JCO including, but not limited to, transient hotels, licensed care facilities, fraternity or sorority houses, owner’s roommate, cooperatives under certain circumstances, some non-profit facilities for the homeless or short-term treatment centers for substance abuse, and some properties owned by HACLA or the government."
+   },
+   {
+    "field": "summary",
+    "doc_id": "D040",
+    "quoted_span": "The JCO covers most residential properties in the City of Los Angeles that are not regulated by the City’s Rent Stabilization Ordinance (RSO)."
+   },
+   {
+    "field": "summary",
+    "doc_id": "D040",
+    "quoted_span": "The JCO can apply to buildings that are newer than October 1, 1978."
+   },
+   {
+    "field": "summary",
+    "doc_id": "D040",
+    "quoted_span": "The JCO can apply to a property that contains only one single-family dwelling."
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D040",
+    "quoted_span": "it requires that the tenant either has lived in the same unit for at least six months or that their original lease expired, whichever comes first"
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D040",
+    "quoted_span": "The JCO can apply to a property that contains only one single-family dwelling."
+   }
+  ],
+  "notes": "Six corrections were made to the original coverage.\n\n1. requires_unknown_facts changed from true to false. The JCO covers ordinary rental property: most residential properties not regulated by the RSO. Its exceptions (transient hotels, care facilities, etc.) are listed in unverifiable_exemptions instead.\n\n2. construction_cutoff and built_after removed. D040 says the JCO 'can apply' to buildings newer than October 1, 1978, which is not an exclusive cutoff. Pre-1978 non-RSO property, such as a lot with a single single-family dwelling, can also be covered, so a hard 'after 1978-10-01' cutoff would wrongly exclude it. Coverage instead follows RSO status, which ZIMAS can identify.\n\n3. construction_date_basis removed. It was an inference with no verbatim support.\n\n4. landlord_size_condition removed. The natural-person, four-unit condition (D043, LAMC 165.06.A(6)) only reduces the relocation amount to one month's rent. It does not determine whether a property is covered.\n\n5. The six-month or original-lease tenancy condition was moved from unverifiable_exemptions to other_conditions.\n\n6. supersedes_state_rule left null. D040 notes that single-family homes and condos may be exempt from state law but still covered by the JCO. The documents do not establish the JCO's adoption date or its formal relationship to Civ. Code § 1946.2."
+ }
+}

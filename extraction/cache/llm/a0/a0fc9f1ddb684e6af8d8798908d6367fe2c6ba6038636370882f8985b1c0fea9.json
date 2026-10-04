@@ -1,0 +1,34 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D045:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 36788,
+  "output_tokens": 449
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": null,
+   "unverifiable_exemptions": [],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": null,
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": null,
+   "other_conditions": null
+  },
+  "evidence": [],
+  "notes": "D045 contains only the bill's title, committee assignment and docket references (H1564). It does not include bill text, so no coverage terms such as unit thresholds, construction dates, owner conditions or exemptions can be supported verbatim. The original summary ('Coverage unknown; the bill text is not in the documents') is a meta-statement rather than a quoted coverage term, so it is set to null. The other documents (S.2983 pages, c.40P, c.151B, c.186, the Cella opinion and the secondary articles) cover different measures. They cannot be attributed to H.5222. The exemptions in the rent-control initiative petition (Cella) belong to Initiative Petition 25-21, not this bill."
+ }
+}

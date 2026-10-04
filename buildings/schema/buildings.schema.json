@@ -1,0 +1,482 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "out/buildings.json (Part 2)",
+  "type": "object",
+  "propertyNames": {
+    "pattern": "^A\\d{4}$"
+  },
+  "minProperties": 500,
+  "maxProperties": 500,
+  "additionalProperties": {
+    "$ref": "#/$defs/building"
+  },
+  "$defs": {
+    "building": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "address_id": {
+          "type": "string",
+          "pattern": "^A\\d{4}$"
+        },
+        "state": {
+          "enum": [
+            "CA",
+            "NJ",
+            "MA"
+          ]
+        },
+        "legal_city": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^.+, (CA|NJ|MA)$"
+        },
+        "legal_city_candidate": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^.+, (CA|NJ|MA)$"
+        },
+        "city_status": {
+          "description": "Closed list. confirmed: resolved, resolved_by_source_dataset, resolved_by_mod_iv_municipality. candidate: postal_only, postal_fallback (legal_city holds the postal city only as a candidate). unknown: no_place, not_geocoded. buildings.api raises on any other value.",
+          "enum": [
+            "no_place",
+            "not_geocoded",
+            "postal_fallback",
+            "postal_only",
+            "resolved",
+            "resolved_by_mod_iv_municipality",
+            "resolved_by_source_dataset"
+          ]
+        },
+        "place_geoid": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "county": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "lat": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "lon": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "year_built": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "units": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "units_min": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "use_code": {
+          "type": "string"
+        },
+        "use_description": {
+          "type": "string"
+        },
+        "source_dataset": {
+          "type": "string"
+        },
+        "property_type": {
+          "enum": [
+            null,
+            "multifamily",
+            "multifamily_5plus",
+            "multifamily_2_4",
+            "single_family",
+            "condo",
+            "mixed_use",
+            "commercial",
+            "vacant",
+            "other"
+          ]
+        },
+        "missing_facts": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "year_built",
+              "units",
+              "property_type",
+              "owner_type",
+              "certificate_of_occupancy_date"
+            ]
+          },
+          "allOf": [
+            {
+              "contains": {
+                "const": "owner_type"
+              }
+            }
+          ]
+        },
+        "threshold_year_case": {
+          "type": "boolean"
+        },
+        "input_address": {
+          "type": "string"
+        },
+        "postal_city": {
+          "type": "string"
+        },
+        "zip": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "zip_suspect": {
+          "type": "boolean"
+        },
+        "sent_address": {
+          "type": "string"
+        },
+        "normalized_address": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "geocode_status": {
+          "enum": [
+            "exact",
+            "approximate",
+            "failed",
+            "manual_review"
+          ]
+        },
+        "batch_match_status": {
+          "enum": [
+            "Match",
+            "No_Match",
+            "Tie",
+            "missing",
+            "Rejected"
+          ]
+        },
+        "batch_match_type": {
+          "enum": [
+            "Exact",
+            "Non_Exact",
+            null
+          ]
+        },
+        "jurisdiction_mismatch": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "unincorporated": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "flags": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "ambiguous_match",
+              "ambiguous_year",
+              "approximate_match",
+              "city_from_mod_iv_municipality",
+              "city_from_source_dataset",
+              "geocode_failed",
+              "jurisdiction_mismatch",
+              "manual_review",
+              "no_place",
+              "not_geocoded",
+              "outside_study_cities",
+              "postal_fallback",
+              "postal_only",
+              "threshold_year_case",
+              "units_conflict",
+              "zip_suspect"
+            ]
+          },
+          "uniqueItems": true
+        },
+        "geocoded_at": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "city_confidence": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 1
+        },
+        "units_raw": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "units_max": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "units_method": {
+          "type": "string"
+        },
+        "year_built_max": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "year_built_max_method": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "co_date_min": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "co_date_max": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "co_date_method": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "subsidized": {
+          "enum": [
+            true,
+            null
+          ]
+        },
+        "subsidized_source": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "elderly_housing": {
+          "enum": [
+            true,
+            null
+          ]
+        },
+        "elderly_housing_source": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "tenancy_in_common": {
+          "enum": [
+            true,
+            null
+          ]
+        },
+        "tenancy_in_common_source": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "address_id",
+        "state",
+        "legal_city",
+        "legal_city_candidate",
+        "city_status",
+        "place_geoid",
+        "county",
+        "lat",
+        "lon",
+        "year_built",
+        "units",
+        "units_min",
+        "use_code",
+        "use_description",
+        "source_dataset",
+        "property_type",
+        "missing_facts",
+        "threshold_year_case",
+        "input_address",
+        "postal_city",
+        "zip",
+        "zip_suspect",
+        "sent_address",
+        "normalized_address",
+        "geocode_status",
+        "batch_match_status",
+        "batch_match_type",
+        "jurisdiction_mismatch",
+        "unincorporated",
+        "flags",
+        "geocoded_at",
+        "city_confidence",
+        "units_raw",
+        "units_max",
+        "units_method",
+        "year_built_max",
+        "year_built_max_method",
+        "co_date_min",
+        "co_date_max",
+        "co_date_method",
+        "subsidized",
+        "subsidized_source",
+        "elderly_housing",
+        "elderly_housing_source",
+        "tenancy_in_common",
+        "tenancy_in_common_source"
+      ],
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "city_status": {
+                "enum": [
+                  "postal_fallback",
+                  "resolved",
+                  "resolved_by_mod_iv_municipality",
+                  "resolved_by_source_dataset"
+                ]
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "legal_city": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "city_status": {
+                "const": "postal_only"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "legal_city": {
+                "type": "null"
+              },
+              "legal_city_candidate": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "city_status": {
+                "enum": [
+                  "no_place",
+                  "not_geocoded"
+                ]
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "legal_city": {
+                "type": "null"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "year_built": {
+                "type": "integer"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "co_date_min": {
+                "type": "string"
+              },
+              "co_date_max": {
+                "type": "string"
+              },
+              "missing_facts": {
+                "not": {
+                  "contains": {
+                    "const": "certificate_of_occupancy_date"
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "year_built": {
+                "type": "null"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "co_date_min": {
+                "type": "null"
+              },
+              "missing_facts": {
+                "contains": {
+                  "const": "certificate_of_occupancy_date"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

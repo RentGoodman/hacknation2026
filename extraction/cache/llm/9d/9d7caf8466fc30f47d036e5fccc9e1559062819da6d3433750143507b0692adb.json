@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D067:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 60229,
+  "output_tokens": 1814
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "Within 30 days after the termination of a tenancy, a landlord must return the security deposit, plus interest earned less deductions, to the tenant",
+    "note": "Each element of the requirement appears in the guide's Security Deposits section: the 1.5x cap, pet and prepaid rent counting toward it, the 2.5x inception limit, the 10% yearly increase cap, trust and interest-bearing account rules, notice and 7% remedy, the 30-day, 5-business-day and 15-business-day return deadlines, double damages with costs and fees, and new-owner responsibility."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "may not exceed 10% of the current security deposit",
+    "note": "The 1.5x cap, 2.5x inception total, 30-day return and double damages for wrongful withholding are all stated in the document."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The field is empty and the guide gives no effective date for the law."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "The Security Deposit Law applies to most  residential rental properties, including mobile homes.",
+    "note": "The guide describes the law in the present tense as currently operative. No repeal or sunset is mentioned."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "The exception is an owner-occupied two-, or three-family dwelling.",
+    "note": "The document also supports the 30-day written-request opt-in by the tenant, and the 125-consecutive-day seasonal rental carve-out from the account provisions. It covers mobile homes."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "N.J.S.A. 46:8-21.2",
+    "note": "The guide cites this section for the 1.5x maximum deposit. The aliases (46:8-19, -19.1, -21, -21.1, -21.4, -21.5, -25, -26) also appear in the security deposit discussion."
+   }
+  ]
+ }
+}

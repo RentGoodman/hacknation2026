@@ -1,0 +1,38 @@
+{
+  "doc_id": "D036",
+  "source_url": "https://www.jerseycitynj.gov/landlordtenant",
+  "model": "anthropic:claude-sonnet-5-5",
+  "query_date": "2026-10-01",
+  "chunks": 1,
+  "rules": [
+    {
+      "jurisdiction": "Jersey City, NJ",
+      "level": "city",
+      "category": "rent_increase_limits",
+      "status": "in_force",
+      "title": "Jersey City Rent Control Ordinance (Chapter 260)",
+      "requirement": "Jersey City regulates rents under its Rent Control Ordinance, which the Office of Landlord/Tenant Relations administers and enforces. The page names the ordinance and says properties with 1-4 units are exempt. It gives no increase formula.",
+      "key_value": null,
+      "coverage_conditions": {
+        "summary": "Rental properties with five or more units are covered. Properties with 1-4 units are exempt. Other exemptions may be granted on request.",
+        "construction_date_basis": null,
+        "built_on_or_before": null,
+        "built_after": null,
+        "min_building_age_years": null,
+        "min_units": 5,
+        "max_units": null,
+        "owner_conditions": null,
+        "other_conditions": "The ordinance provides other permitted exemptions, which owners can request through a Rent Control Exemption Request. The page does not list them."
+      },
+      "exemptions": "All 1-4 unit properties are exempt. Owners meeting criteria for other permitted exemptions may submit a Rent Control Exemption Request.",
+      "interaction": null,
+      "effective_date": null,
+      "citation": "Jersey City Municipal Code, Chapter 260",
+      "quoted_span": "(Please Note: All 1-4 Unit Properties are exempt from rent control)",
+      "confidence": 0.55,
+      "conflict_flag": false,
+      "conflict_note": null
+    }
+  ],
+  "rejected": []
+}

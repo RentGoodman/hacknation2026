@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D067:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 835,
+  "output_tokens": 260
+ },
+ "result": {
+  "en": "In New Jersey, a landlord can collect a security deposit of at most 1.5 times one month's rent (no more than 2.5 months' rent total at lease start, including the first month), must return it within 30 days after the tenancy ends minus itemized deductions, and owes double the amount if it is wrongfully withheld.",
+  "es": "En Nueva Jersey, el propietario puede cobrar un depósito de seguridad de como máximo 1.5 veces el alquiler de un mes (no más de 2.5 meses de alquiler en total al inicio del contrato, incluido el primer mes), debe devolverlo dentro de 30 días después de que termine el arrendamiento, menos las deducciones detalladas, y debe pagar el doble si lo retiene indebidamente."
+ }
+}

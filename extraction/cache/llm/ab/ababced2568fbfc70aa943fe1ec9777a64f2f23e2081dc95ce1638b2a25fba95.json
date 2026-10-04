@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D067:c2",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 1172,
+  "output_tokens": 258
+ },
+ "result": {
+  "en": "In New Jersey, a landlord can only evict a tenant or refuse to renew a lease for a good cause listed in the law, must give a written Notice to Quit (3 days to 3 years depending on the cause) for every cause except nonpayment, and can only remove a tenant through a court judgment and warrant of removal.",
+  "es": "En Nueva Jersey, un propietario solo puede desalojar a un inquilino o negarse a renovar un contrato de arrendamiento por una causa justificada que figure en la ley, debe dar un aviso de desalojo por escrito (de 3 días a 3 años según la causa) en todos los casos excepto la falta de pago, y solo puede sacar al inquilino mediante una sentencia judicial y una orden de desalojo."
+ }
+}

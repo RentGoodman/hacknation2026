@@ -1,0 +1,65 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D027:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 45230,
+  "output_tokens": 1698
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": null,
+   "unverifiable_exemptions": [],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Owners of any housing accommodation in California. The subsidy-specific income-standard and credit-history rules apply only where there is a government rent subsidy.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": "Per the CRD FAQ (not the statute text): an owner-occupant renting to one additional person may exclude applicants on protected characteristics but may not publish discriminatory statements or ads.",
+   "other_conditions": "Per the CRD FAQ: shared living areas in a single dwelling may be limited to one sex, and housing specifically for seniors may be limited by age."
+  },
+  "evidence": [
+   {
+    "field": "summary",
+    "doc_id": "D027",
+    "quoted_span": "For the owner of any housing accommodation to discriminate against or harass any person because of the race"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D027",
+    "quoted_span": "In instances in which there is a government rent subsidy, to do either of the following:"
+   },
+   {
+    "field": "owner_conditions",
+    "doc_id": "D016",
+    "quoted_span": "When an owner is occupying a home and is renting to one additional person, the owner may exclude applicants based on protected characteristics."
+   },
+   {
+    "field": "owner_conditions",
+    "doc_id": "D016",
+    "quoted_span": "However, the owner still cannot make, print, or publish discriminatory statements, notices, or advertisements."
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D016",
+    "quoted_span": "When sharing a living area in a single dwelling, the owner or occupant may state or imply that the housing is available only to person of one sex."
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D016",
+    "quoted_span": "Housing specifically for seniors may be limited based on age."
+   }
+  ],
+  "notes": "Three coverage fields are set: summary, owner_conditions and other_conditions. Each has verbatim support. The summary is supported by D027 subdivisions (a) and (o)(1). The owner-occupant, single-sex shared living and senior housing limits come from the CRD FAQ (D016), not the statute text. In other_conditions, 'qualifying senior housing' was reworded to 'housing specifically for seniors' to match the source wording. owner_occupied_exemption_max_units stays null: the FAQ says 'one additional person', not a unit count. No construction-date, unit-count, landlord-size or preemption terms appear in the documents for this rule."
+ }
+}

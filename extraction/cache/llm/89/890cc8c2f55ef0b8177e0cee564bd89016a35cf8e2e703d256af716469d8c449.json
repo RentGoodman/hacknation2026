@@ -1,0 +1,17 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "cell",
+ "subject": "Cambridge, MA|application_screening_fees",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 4140,
+  "output_tokens": 164
+ },
+ "result": {
+  "cell_status": "silent",
+  "no_rule_quote": null,
+  "no_rule_passage_id": null,
+  "basis_citation": null,
+  "rules": []
+ }
+}

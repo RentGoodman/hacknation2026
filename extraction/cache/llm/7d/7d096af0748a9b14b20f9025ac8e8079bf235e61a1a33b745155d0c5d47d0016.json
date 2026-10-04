@@ -1,0 +1,87 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "DX12:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 24314,
+  "output_tokens": 2595
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": {
+    "basis": "year_built",
+    "covered_if": "on_or_before",
+    "date": "1978-10-01"
+   },
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": false,
+   "unverifiable_exemptions": [
+    "Luxury exemption (RSO exemption granted on application, based on monthly rent charged on or before May 31, 1978)",
+    "Temporary exemptions from the RSO"
+   ],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Rental units in the City of Los Angeles subject to the RSO: rental properties first built on or before October 1, 1978, plus replacement units under LAMC 151.28.",
+   "construction_date_basis": "first built (RSO coverage per LAHD)",
+   "built_on_or_before": "1978-10-01",
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": null,
+   "other_conditions": "Property must be located in the City of Los Angeles and subject to the RSO. Replacement units under LAMC 151.28 are covered regardless of construction date."
+  },
+  "evidence": [
+   {
+    "field": "construction_cutoff",
+    "doc_id": "D041",
+    "quoted_span": "Generally, the RSO applies to rental properties that were first built on or before October 1, 1978, as well as replacement units under"
+   },
+   {
+    "field": "built_on_or_before",
+    "doc_id": "D041",
+    "quoted_span": "first built on or before October 1, 1978"
+   },
+   {
+    "field": "construction_date_basis",
+    "doc_id": "D041",
+    "quoted_span": "rental properties that were first built on or before October 1, 1978"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D041",
+    "quoted_span": "Generally, the RSO applies to rental properties that were first built on or before October 1, 1978, as well as replacement units under"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D041",
+    "quoted_span": "Interest Payments on Security Deposits"
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "DX12",
+    "quoted_span": "Landlords of properties located within the City of Los Angeles that are subject to the Los Angeles Rent Stabilization Ordinance (LARSO), also known as Rent Control, are required to pay tenants interest on their security deposits"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D041",
+    "quoted_span": "A landlord can apply for an exemption from the RSO if they can establish the monthly rent charged on or before May 31, 1978,*."
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D041",
+    "quoted_span": "Temporary exemptions"
+   },
+   {
+    "field": "requires_unknown_facts",
+    "doc_id": "D041",
+    "quoted_span": "Generally, the RSO applies to rental properties that were first built on or before October 1, 1978, as well as replacement units under"
+   }
+  ],
+  "notes": "Three corrections were made. (1) requires_unknown_facts changed from true to false. The RSO covers ordinary rental buildings identified by construction date, which is expressed through construction_cutoff. The luxury and temporary exemptions are applied-for exemptions that an address lookup cannot check, so they belong in unverifiable_exemptions, now split into separate items. (2) supersedes_state_rule changed from false to null. No document states how this rule relates to Civ. Code 1950.5. (3) other_conditions now also notes replacement units under LAMC 151.28. These can postdate 1978, so the construction cutoff alone will miss them. The construction_cutoff basis stays year_built, the closest available enum to LAHD's 'first built' language."
+ }
+}

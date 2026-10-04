@@ -1,0 +1,60 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D069:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 74883,
+  "output_tokens": 2215
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": false,
+   "unverifiable_exemptions": [],
+   "yields_to_local_rule": false,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": true,
+   "landlord_size_condition": "Applies to any rental property owner owning, directly or indirectly, one or more rental residential dwelling units.",
+   "summary": "Covers residential dwelling units (houses, apartments, accessory units and other primary residences) in New Jersey. Inpatient medical care, licensed long-term care and detention or correctional facilities are excluded.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": null,
+   "other_conditions": null
+  },
+  "evidence": [
+   {
+    "field": "landlord_size_condition",
+    "doc_id": "D069",
+    "quoted_span": "means a person that owns, directly or indirectly, one or more\nrental residential dwelling units."
+   },
+   {
+    "field": "summary",
+    "doc_id": "D069",
+    "quoted_span": "“Residential dwelling unit” means any house, apartment,\naccessory unit, or other unit intended to be used as a primary residence in the\nState. “Residential dwelling unit” shall not include inpatient medical care,\nlicensed long-term care, or detention or correctional facilities."
+   },
+   {
+    "field": "requires_unknown_facts",
+    "doc_id": "D069",
+    "quoted_span": "“Residential dwelling unit” means any house, apartment,\naccessory unit, or other unit intended to be used as a primary residence in the\nState."
+   },
+   {
+    "field": "may_preempt_local_rules",
+    "doc_id": "D069",
+    "quoted_span": "A municipality shall be prohibited from enacting\nan ordinance that conflicts with this act."
+   },
+   {
+    "field": "yields_to_local_rule",
+    "doc_id": "D069",
+    "quoted_span": "A municipality shall be prohibited from enacting\nan ordinance that conflicts with this act."
+   }
+  ],
+  "notes": "Changes:\n- other_conditions is now null. The removed text listed what is not an algorithmic device and what is not a coordinating function. Those carve-outs describe landlord conduct and technology, not the buildings, units or owners covered, so they do not belong in coverage. They remain in the rule's exemptions field.\n- requires_unknown_facts is now false. The act covers any house, apartment, accessory unit or other primary-residence unit in the State, so it applies to ordinary rental buildings.\n- unverifiable_exemptions stays empty. The excluded facility types (inpatient medical care, licensed long-term care, detention or correctional facilities) are not ordinary rental housing and are reflected in the summary.\n- yields_to_local_rule false and may_preempt_local_rules true both rest on section 6(b). Section 6(b) bars conflicting municipal ordinances but names no specific cities. Whether it actually conflicts with the Jersey City and Hoboken ordinances remains unresolved, per the conflict note."
+ }
+}

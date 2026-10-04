@@ -1,0 +1,55 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D057:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 36984,
+  "output_tokens": 1307
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": false,
+   "unverifiable_exemptions": [],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Applies statewide to rental residential property (dwelling accommodations) where a licensed broker or salesperson is engaged for a fee to find a tenant or a dwelling. The statute sets no building-size, construction-date or owner-type limits.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": null,
+   "other_conditions": "Applies only to rentals where a broker or salesperson is engaged for a fee to find a tenant or a dwelling."
+  },
+  "evidence": [
+   {
+    "field": "summary",
+    "doc_id": "D057",
+    "quoted_span": "No person shall engage in the business of finding dwelling accommodations for prospective tenants for a fee unless such person is a licensed broker or salesman"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D057",
+    "quoted_span": "may solely contract with a prospective tenant to find rental residential real property for a tenant"
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D057",
+    "quoted_span": "Any fee shall only be paid by the party, lessor or tenant who originally engaged and entered into a contract with the licensed broker or salesperson."
+   },
+   {
+    "field": "requires_unknown_facts",
+    "doc_id": "D057",
+    "quoted_span": "may solely contract with a landlord or landlord's agent to find a tenant for a property"
+   }
+  ],
+  "notes": "Coverage is confirmed against D057, the statute text, and is essentially unchanged. requires_unknown_facts is set to false. The rule reaches ordinary rental residential property statewide. Its trigger is whether a broker is engaged for a fee, which is a transaction condition, not a class of buildings that assessor data cannot identify. The statute gives no unit thresholds, construction-date limits, owner-occupancy exemptions or preemption language. The broker disclosure rules in 254 CMR 7 are described only in a secondary source (DX13) and are not part of this coverage."
+ }
+}

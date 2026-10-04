@@ -1,0 +1,65 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "extract",
+ "subject": "D045",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 317,
+  "output_tokens": 1032
+ },
+ "result": {
+  "rules": [
+   {
+    "candidate_id": "c1",
+    "jurisdiction": "MA",
+    "category": "algorithmic_rent_setting",
+    "status": "pending",
+    "title": "H.5222, An Act relative to preventing algorithmic rent fixing in the rental housing market",
+    "requirement": "Pending Massachusetts bill, per its title, aimed at preventing algorithmic rent fixing in the rental housing market. The page gives no bill text, so covered software, prohibited conduct, penalties and effective date are not stated. The bill is in House Ways and Means.",
+    "key_value": null,
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": null,
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": null
+    },
+    "exemptions": null,
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": null,
+    "effective_date_formula": null,
+    "citation": "H.5222",
+    "citation_aliases": [
+     "H1564",
+     "Bill H.5222",
+     "194th General Court H.5222"
+    ],
+    "quoted_span": "An Act relative to preventing algorithmic rent fixing in the rental housing market",
+    "confidence": 0.6,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "The page shows only the title, committee (House Ways and Means) and 3 actions, including H1564. It has no bill text, so substantive terms need the full bill text. Status is pending because no enactment is shown.",
+    "source_notes": "Official legislature bill page. H1564 appears in the action history and is likely the earlier or related House docket number, which the page does not confirm."
+   }
+  ],
+  "no_rule_findings": [],
+  "doc_summary": "Massachusetts legislature page for Bill H.5222 (194th General Court), 'An Act relative to preventing algorithmic rent fixing in the rental housing market', with the House Committee on Ways and Means and 3 listed actions including H1564. The page gives no bill text, so only the title and pending status can be captured."
+ }
+}

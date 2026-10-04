@@ -1,0 +1,18 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "date_audit",
+ "subject": "D043:c3",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 25359,
+  "output_tokens": 1185
+ },
+ "result": {
+  "requirement_is_new": false,
+  "in_force_since": null,
+  "in_force_since_evidence": null,
+  "current_version_effective": "2025-02-11",
+  "prior_version_note": "Before the RPO, the state Housing Crisis Act of 2019 (introduced by SB 330, later updated by SB 8 and AB 1218) already imposed replacement requirements and occupant protections. These included relocation benefits for lower-income households displaced by demolition for new construction, consistent with Gov. Code Chapter 16 relocation benefits (Gov. Code 66300.6(b)(4)(A)). The RPO, adopted February 11, 2025, 'codified and expanded upon' those HCA protections. The documents do not give the date the HCA requirement first applied, so in_force_since is left null. Regular RSO/JCO no-fault relocation amounts also applied separately.",
+  "effective_date_formula": null
+ }
+}

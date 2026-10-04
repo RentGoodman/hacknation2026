@@ -1,0 +1,24 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "qa",
+ "subject": "D008:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 24815,
+  "output_tokens": 1080
+ },
+ "result": {
+  "changes": [
+   {
+    "field": "conflict_flag",
+    "after_json": "true",
+    "reason": "Two official Rent Board sources disagree on the construction cutoff: D009 says new construction means a Certificate of Occupancy 'after June 1980', while D006 says a certificate of occupancy 'issued after 1980'."
+   },
+   {
+    "field": "conflict_note",
+    "after_json": "\"Construction cutoff conflict between official Rent Board sources: the coverage guide (D009) treats units built and receiving a Certificate of Occupancy after June 1980 as partially covered (no rent control), implying a cutoff of 1980-06-30. The Measure BB page (D006) defines new construction as units with a certificate of occupancy issued after 1980, implying 1980-12-31. The record follows D009; units with a Certificate of Occupancy dated July-December 1980 should be verified against BMC ch. 13.76.\"",
+    "reason": "The note records the conflicting cutoff dates in D009 and D006 so the flagged conflict is explained."
+   }
+  ]
+ }
+}

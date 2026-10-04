@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D027:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 5992,
+  "output_tokens": 1579
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "partly_supported",
+    "quoted_span": "(a) For the owner of any housing accommodation to discriminate against or harass any person because of the race, color, religion, sex, gender, gender identity, gender expression, sexual orientation, marital status, national origin, ancestry, familial status, source of income, disability, veteran or military status, or genetic information of that person.",
+    "note": "The statute supports the core duties: the source-of-income definition including Section 8 and HUD-VASH, the aggregate-income rule in (n), the subsidy income standard and credit-history alternative evidence in (o), and the inquiry and verification carve-outs in (o)(2) and (p)(2). Subd. (c) bans discriminatory advertisements generally, but the document never mentions 'No Section 8'. The statement that CRD treats refusing to complete subsidy paperwork as discrimination is not in D027."
+   },
+   {
+    "field": "key_value",
+    "verdict": "partly_supported",
+    "quoted_span": "Effective January 1, 2024.",
+    "note": "The SB 267 subsidized-applicant rules (income test on the tenant's share of rent, alternative evidence instead of credit history) and the Jan. 1, 2024 effective date are supported. The Jan. 1, 2020 SB 329 date and the CAA attribution are not in D027."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "supported",
+    "quoted_span": "Effective January 1, 2024.",
+    "note": "The amendment note for Stats. 2023, Ch. 776 (SB 267) gives an effective date of January 1, 2024."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "Effective January 1, 2024.",
+    "note": "The page presents the section as current codified text, last amended effective 2024-01-01, with no repeal or sunset. In-force status is inferred from that."
+   },
+   {
+    "field": "coverage",
+    "verdict": "partly_supported",
+    "quoted_span": "(o) (1) In instances in which there is a government rent subsidy, to do either of the following:",
+    "note": "Coverage of owners of any housing accommodation and the limit of subd. (o) to government rent subsidies are supported. Tenant screening companies are not mentioned in D027. The owner-occupant exemption comes from the CRD FAQ and is not in D027."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "12955.",
+    "note": "The document is Cal. Gov. Code § 12955. The aliases (FEHA, SB 267, Stats. 2023, ch. 776) are partly present, and the SB 267 amendment note is in the document."
+   }
+  ]
+ }
+}

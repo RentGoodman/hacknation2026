@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D010:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 4346,
+  "output_tokens": 748
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "will not impose a blanket policy that denies \nhousing to anyone with arrests and or convictions. Housing providers will consider applicants on \na case-by-case basis.",
+    "note": "Covers the covered providers, the four excluded categories, the exceptions, the credit rules, the appeals and preemption provisions, and the Affirmative Marketing Program. Minor point: the document says 'direct relationship ... and or unreasonable risk' and a separate sentence says the guidance does not apply to current criminal behavior, which the requirement reflects."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "The agent agrees not to use the applicant credit score to approve or deny housing    \napplications.",
+    "note": "The summary is consistent with the document: no blanket ban, no consideration of non-conviction arrests, relieved convictions, juvenile records or convictions over 5 years old, and no credit score use."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The field is empty. The document is dated February 2017 but states no effective date, as the rule's own note says."
+   },
+   {
+    "field": "status",
+    "verdict": "partly_supported",
+    "quoted_span": "Under this policy, housing providers agree to the following:",
+    "note": "The document is phrased as a current policy, but it gives no effective date and says nothing about repeal or sunset. 'in_force' is an inference and cannot be confirmed from the document alone."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "Housing providers receiving Department of Neighborhood Development (DND) funding and/or \nland, or that have income restricted units created under the Boston Planning and Development \nAgency (BPDA) Inclusionary Development Policy",
+    "note": "The scope, the Affirmative Marketing Program extension and the preemption condition are all in the document. The 'not a citywide rule for private landlords' statement is a reasonable reading of the limited scope."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "BOSTON FAIR CHANCE TENANT SELECTION POLICY",
+    "note": "The title and the 'February 2017' date and DND attribution appear in the document header."
+   }
+  ]
+ }
+}

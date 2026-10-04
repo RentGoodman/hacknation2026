@@ -1,0 +1,40 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "DX06:c12",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 5513,
+  "output_tokens": 981
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": null,
+   "unverifiable_exemptions": [],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "The only available source is a secondary law-firm summary. It states no building, unit-count, construction-date or landlord-size limits, and describes the prohibition as applying to landlords generally. The ordinance text was not reviewed, so any exemptions or coverage limits are unknown.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": null,
+   "other_conditions": null
+  },
+  "evidence": [
+   {
+    "field": "summary",
+    "doc_id": "DX06",
+    "quoted_span": "Prohibits landlords from purchasing algorithmic coordinating services"
+   }
+  ],
+  "notes": "Only one source exists: a one-line table row in a secondary source (Morgan Lewis LawFlash, Aug. 21, 2026). It gives no unit thresholds, construction cutoffs, owner-occupancy exemptions or landlord-size conditions for Spokane, so all structured coverage fields stay null. I reworded the summary so it describes only coverage and flags that the ordinance text is missing. Verify any exemptions against Spokane Mun. Code § 10.57.180 before relying on this rule."
+ }
+}

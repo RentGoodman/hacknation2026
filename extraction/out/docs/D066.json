@@ -1,0 +1,38 @@
+{
+  "doc_id": "D066",
+  "source_url": "https://pub.njleg.gov/bills/2024/PL25/405_.HTM",
+  "model": "anthropic:claude-sonnet-5-5",
+  "query_date": "2026-10-01",
+  "chunks": 1,
+  "rules": [
+    {
+      "jurisdiction": "NJ",
+      "level": "state",
+      "category": "application_screening_fees",
+      "status": "in_force",
+      "title": "Residential rental application fee cap (P.L. 2025, c.405)",
+      "requirement": "A landlord or agent may not require an application or similar fee to apply to lease or sublease a residential rental property that exceeds $50. The cap is adjusted each year for CPI increases, and violators face civil penalties and must refund the amount wrongfully charged.",
+      "key_value": "$50 maximum application fee, adjusted annually by CPI (NY-Northern NJ-Long Island) when the change is greater than zero",
+      "coverage_conditions": {
+        "summary": "Residential rental properties other than dwelling units in one- or two-family dwellings; real estate licensees acting as agents are not bound unless they are the landlord.",
+        "construction_date_basis": null,
+        "built_on_or_before": null,
+        "built_after": null,
+        "min_building_age_years": null,
+        "min_units": 3,
+        "max_units": null,
+        "owner_conditions": "Does not apply to a licensee of the New Jersey Real Estate Commission unless the licensee is the landlord of the property.",
+        "other_conditions": "Dwelling units in a one-family or two-family dwelling offered for rent are exempt."
+      },
+      "exemptions": "A dwelling unit located in a one-family or two-family dwelling that is offered for rent; a licensee of the New Jersey Real Estate Commission, unless the licensee is the landlord of the residential rental property.",
+      "interaction": null,
+      "effective_date": "2026-05-01",
+      "citation": "N.J.S.A. 46:8-18.1",
+      "quoted_span": "A landlord, or\nagent thereof, shall not require an application or other similar fee to apply\nto lease or sublease a residential rental property for dwelling purposes, which\nexceeds $50.",
+      "confidence": 0.9,
+      "conflict_flag": false,
+      "conflict_note": null
+    }
+  ],
+  "rejected": []
+}

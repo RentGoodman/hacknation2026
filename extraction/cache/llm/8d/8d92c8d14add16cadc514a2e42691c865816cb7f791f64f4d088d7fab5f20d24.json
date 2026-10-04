@@ -1,0 +1,11 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "DX20:c1",
+ "prompt_version": "v10",
+ "usage": {},
+ "result": {
+  "en": "Hoboken landlords generally can't raise your rent at lease renewal by more than the lesser of 5% or the CPI change, they must give 30 days' written notice with reasons, and a violation can bring a fine of up to $2,000 per unit.",
+  "es": "En general, los propietarios de Hoboken no pueden subir su alquiler al renovar el contrato más que el menor entre 5% o el cambio del IPC, deben dar un aviso por escrito con 30 días de anticipación y con los motivos, y una infracción puede castigarse con una multa de hasta $2,000 por unidad."
+ }
+}

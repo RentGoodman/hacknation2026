@@ -1,0 +1,63 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "extract",
+ "subject": "DX16",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 719,
+  "output_tokens": 1143
+ },
+ "result": {
+  "rules": [
+   {
+    "candidate_id": "c1",
+    "jurisdiction": "NJ",
+    "category": "algorithmic_rent_setting",
+    "status": "not_yet_effective",
+    "title": "New Jersey Forbidding the Algorithmic Inflation of Rent (FAIR) Act",
+    "requirement": "Residential rental property owners may not use algorithmic revenue management software that collects or processes competitors' nonpublic leasing information to set or recommend rental prices. Software providers and other \"coordinators\" may not use such software to facilitate agreements or coordinate pricing among competing residential landlords. The Attorney General must set up a complaint portal, and existing remedies under the New Jersey Antitrust Act are preserved.",
+    "key_value": "Effective July 1, 2027; Attorney General complaint portal; Antitrust Act remedies preserved",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Applies to residential rental property owners, property managers, software providers and other coordinators using algorithmic revenue management software with nonpublic competitor data.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": null
+    },
+    "exemptions": "The act does not prohibit spreadsheets requiring human analysis, publicly available rent estimation tools, traditional real estate listing databases, and government-administered affordable housing programs.",
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": "2027-07-01",
+    "enacted_date": "2026-07-20",
+    "sunset_date": null,
+    "effective_date_note": "Signed July 20 (2026) by Governor Sherrill; takes effect July 1, 2027 per law-firm alert.",
+    "effective_date_formula": null,
+    "citation": "P.L. 2026, c. 43",
+    "citation_aliases": [
+     "FAIR Act",
+     "Forbidding the Algorithmic Inflation of Rent Act"
+    ],
+    "quoted_span": "The FAIR Act takes effect on July 1, 2027, providing affected property owners, managers, and software providers time to review and, if necessary, modify their pricing practices before the law becomes effective.",
+    "confidence": 0.8,
+    "conflict_flag": true,
+    "conflict_note": "The FAIR Act may preempt local algorithmic rent-setting ordinances (e.g., Jersey City, Hoboken) once effective; the document does not address preemption.",
+    "review_note": "Secondary source (law-firm alert); the codified section is not given. The year of signing is inferred from the P.L. 2026 citation."
+   }
+  ],
+  "no_rule_findings": [],
+  "doc_summary": "A Day Pitney alert reports that Governor Sherrill signed New Jersey's FAIR Act (P.L. 2026, c. 43) on July 20. It bars landlords from using algorithmic revenue management software built on competitors' nonpublic data, and bars coordinators from facilitating coordinated pricing. It has stated technology exclusions, an Attorney General complaint portal, and preserved Antitrust Act remedies, and takes effect July 1, 2027."
+ }
+}

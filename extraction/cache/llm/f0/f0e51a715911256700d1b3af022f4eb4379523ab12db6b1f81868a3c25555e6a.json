@@ -1,0 +1,74 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "cell",
+ "subject": "Berkeley, CA|rent_increase_limits",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 4725,
+  "output_tokens": 2568
+ },
+ "result": {
+  "cell_status": "rules_found",
+  "no_rule_quote": null,
+  "no_rule_passage_id": null,
+  "basis_citation": null,
+  "rules": [
+   {
+    "jurisdiction": "Berkeley, CA",
+    "category": "rent_increase_limits",
+    "status": "in_force",
+    "title": "Berkeley Rent Stabilization Ordinance: Annual General Adjustment (AGA) cap on rent increases",
+    "requirement": "Landlords of fully covered units may raise rent ceilings each year only by the Annual General Adjustment set by the Rent Board. The AGA is 65% of the Bay Area CPI-U increase (formula approved by voters in 2004). It is capped at 5% a year, though landlords may still use banked (unused) AGAs from earlier years. The 2026 AGA is 1.0%, usable no earlier than January 1, 2026. It may not adjust rents for tenancies that began on or after January 1, 2025 and had their rents set under Costa-Hawkins. Landlords may petition only for completed capital improvements, not planned ones.",
+    "key_value": "2026 AGA 1.0% (65% of 1.5% CPI); AGA maximum 5%; usable no earlier than 1/1/2026",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": {
+      "basis": "certificate_of_occupancy",
+      "covered_if": "before",
+      "date": "1980-06"
+     },
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [
+      "Units with certain government subsidies are fully or partially covered depending on unit type and whether federal or state law exempts them"
+     ],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Fully covered units (rent ceilings) include most multifamily units built before 1980, single-family homes with tenancies that began before 1996, and rooming houses. Partially covered units, with no rent control, include new construction with a Certificate of Occupancy after June 1980, single-family homes with tenancies that began on or after 1/1/1996, and most condominiums.",
+     "construction_date_basis": "Certificate of Occupancy (June 1980)",
+     "built_on_or_before": "1980",
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": "Single-family homes are covered only if the current tenancy began before 1996. Tenancies that began on or after 1/1/2025 and had rents set under Costa-Hawkins are not adjusted by the 2026 AGA."
+    },
+    "exemptions": "New construction with a Certificate of Occupancy after June 1980, single-family homes with tenancies that began on or after Jan 1, 1996, and most condominiums are partially covered (registration only, no rent control). Units subject to federal or state exemption or subsidy rules vary.",
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": "2025-10-16",
+    "sunset_date": null,
+    "effective_date_note": "The Rent Board adopted the 2026 AGA Order on Oct 16, 2025. It may be applied no earlier than Jan 1, 2026. The 5% maximum AGA and the elimination of petitions for planned capital improvements are described as new changes, but the passage gives no effective date.",
+    "effective_date_formula": null,
+    "citation": "Berkeley Mun. Code § 13.76.110",
+    "citation_aliases": [
+     "Berkeley Mun. Code ch. 13.76",
+     "Berkeley Rent Stabilization and Good Cause for Eviction Ordinance",
+     "Rent Board Regulation 1148",
+     "2026 AGA Order"
+    ],
+    "quoted_span": "The maximum AGA is 5%. This means that, if the formula in the Rent Ordinance results in an AGA that is greater than 5%, the AGA approved by the Board for that year can be no more than 5%.",
+    "confidence": 0.85,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "Coverage is drawn from the Rent Board's coverage guide table (p8). The 2026 AGA figures come from the Rent Board public notice (p1). The notice cites BMC 13.76.110A for AGA rules.",
+    "source_notes": "Passages p1, p2, p5 and p8 are official Berkeley Rent Board documents. The p2 text is truncated.",
+    "passage_id": "p2"
+   }
+  ]
+ }
+}

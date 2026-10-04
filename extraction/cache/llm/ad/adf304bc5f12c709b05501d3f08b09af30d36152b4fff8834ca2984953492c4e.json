@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "DX06:c7",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 5817,
+  "output_tokens": 729
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "The ordinance authorizes the city solicitor to bring enforcement actions and provides for civil penalties of up to $500 per day per violation, as well as costs and attorney fees in a successful enforcement action.",
+    "note": "Prohibition, solicitor enforcement, and penalties are supported. The phrase 'algorithmic rent-setting devices to set rental prices' is slightly paraphrased from 'ban on algorithmic rent-setting devices' and 'Prohibits the use of rent-setting algorithms', but is consistent."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "provides for civil penalties of up to $500 per day per violation, as well as costs and attorney fees in a successful enforcement action",
+    "note": null
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The effective_date field is empty. The document gives only 'effective May 2025' (month only), which the rule records in in_force_since and the effective_date_note, so no exact date is stated."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "Providence Code of Ordinances ch. 13, art. X, §§ 13-69–13-73 (effective May 2025)",
+    "note": "Ordinance is described as effective May 2025 and is being enforced in City of Providence v. Audubon Capital Partners, supporting in_force."
+   },
+   {
+    "field": "coverage",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "Coverage fields are empty/null; the document states no unit thresholds, exemptions, or other coverage conditions for the Providence ordinance."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "under Providence Code § 13-70, alleging that Audubon used a dynamic pricing system to coordinate rental prices at 95 Lofts in violation of the city’s ban on algorithmic rent-setting devices",
+    "note": "§ 13-70 for the prohibition, §§ 13-71 & 13-72 for enforcement/penalties, and ch. 13, art. X, §§ 13-69–13-73 all appear in the document."
+   }
+  ]
+ }
+}

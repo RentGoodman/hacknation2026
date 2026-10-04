@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D068:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 744,
+  "output_tokens": 278
+ },
+ "result": {
+  "en": "In New Jersey, a landlord cannot refuse to rent to you because of your source of lawful income or rent payment, such as a Section 8 voucher, or because of protected traits like race or disability; you can file a complaint within 180 days with the Division on Civil Rights or within two years in Superior Court, and fines can reach $10,000 for a first offense.",
+  "es": "En Nueva Jersey, un arrendador no puede negarse a alquilarle por su fuente de ingresos legales o de pago del alquiler, como un voucher de Sección 8, ni por características protegidas como la raza o la discapacidad; puede presentar una queja dentro de 180 días ante la División de Derechos Civiles o dentro de dos años en el Tribunal Superior, y las multas pueden llegar a $10,000 por una primera infracción."
+ }
+}

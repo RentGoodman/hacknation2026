@@ -1,0 +1,101 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D007:c2",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 21361,
+  "output_tokens": 2829
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": 2,
+   "requires_unknown_facts": true,
+   "unverifiable_exemptions": [
+    "Golden Duplex: owner-occupied on Dec. 31, 1979 and currently owner-occupied",
+    "Owner shares kitchen or bath with the tenant and lived on the property when the tenancy started",
+    "Tenancy started after Nov. 7, 2018 on a property with an ADU where either unit is owner-occupied",
+    "University rental units such as dormitories",
+    "Nonprofit cooperatives"
+   ],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "All fully and partially covered units, including pre-1980 multifamily, post-June 1980 new construction, single-family homes, rooming houses, most condominiums and subsidized units. Exempt units are excluded.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": "Golden Duplex and owner-shared kitchen/bath units are exempt.",
+   "other_conditions": null
+  },
+  "evidence": [
+   {
+    "field": "owner_occupied_exemption_max_units",
+    "doc_id": "D009",
+    "quoted_span": "duplex that was owner-occupied on December 31,"
+   },
+   {
+    "field": "requires_unknown_facts",
+    "doc_id": "D009",
+    "quoted_span": "This table is intended as a guide. Individual circumstances may differ."
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D009",
+    "quoted_span": "1979, and currently has an owner living in one of the units"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D009",
+    "quoted_span": "Unit where the owner shares a kitchen or bath with the tenant if the"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D009",
+    "quoted_span": "Tenancies started after Nov 7, 2018, on properties where one unit is"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D009",
+    "quoted_span": "University rental units such as dormitories."
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D009",
+    "quoted_span": "Nonprofit Cooperative Exempt No No No No"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D007",
+    "quoted_span": "For tenancies in units fully or partially covered by Berkeley's Rent Ordinance, landlords must pay tenants interest on their security deposit at the end of each year"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D009",
+    "quoted_span": "Most condominiums** Partially Covered Yes No Yes Yes"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D009",
+    "quoted_span": "New construction: units that were built and received a Certificate of"
+   },
+   {
+    "field": "owner_conditions",
+    "doc_id": "D009",
+    "quoted_span": "duplex that was owner-occupied on December 31,"
+   },
+   {
+    "field": "owner_conditions",
+    "doc_id": "D009",
+    "quoted_span": "Unit where the owner shares a kitchen or bath with the tenant if the"
+   }
+  ],
+  "notes": "I set other_conditions to null. No document passage says the interest rule is 'complementary' to Cal. Civ. Code § 1950.5. That is also a relationship between laws, not a building, unit or owner condition. The remaining values are supported by the D009 coverage table and the D007 statement that interest applies to fully and partially covered units. No construction cutoff applies, because both pre-1980 and post-June 1980 units are covered. The AB 12 landlord-size condition in D007 belongs to the state deposit cap, not this rule, so landlord_size_condition stays null. owner_occupied_exemption_max_units=2 rests on the Golden Duplex row. That exemption also requires owner occupancy on Dec. 31, 1979, so it is not a general cap on owner-occupied buildings."
+ }
+}

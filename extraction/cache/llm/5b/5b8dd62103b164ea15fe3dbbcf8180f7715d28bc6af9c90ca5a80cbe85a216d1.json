@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D048:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 711,
+  "output_tokens": 278
+ },
+ "result": {
+  "en": "Massachusetts bans cities and towns from having rent control, except that a town accepting chapter 40P could adopt limited rent control that becomes voluntary for owners after six months, does not cover owners of fewer than ten rental units or units with a fair market rent above $400, and requires the town to pay owners the difference from general funds.",
+  "es": "Massachusetts prohíbe que las ciudades y pueblos tengan control de alquileres, salvo que un municipio que acepte el capítulo 40P podría adoptar un control limitado que pasa a ser voluntario para los propietarios después de seis meses, no cubre a propietarios de menos de diez unidades de alquiler ni unidades con un alquiler justo de mercado superior a $400, y obliga al municipio a pagar a los propietarios la diferencia con fondos generales."
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "date_audit",
+ "subject": "D052:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 37857,
+  "output_tokens": 643
+ },
+ "result": {
+  "requirement_is_new": false,
+  "in_force_since": null,
+  "in_force_since_evidence": null,
+  "current_version_effective": "2025-08-01",
+  "prior_version_note": "Before August 1, 2025, the introductory paragraph of clause (1)(b) read: \"At or prior to the commencement of any tenancy, no lessor may require a tenant or prospective tenant to pay any amount in excess of the following.\" It reached only the lessor, not agents of the lessor or payments made to an agent. The documents do not show whether the fee-in-lieu language in (iii) is new. A secondary source (DX13) says only that the law has been in effect since the 1970s and gives no exact first-effective date.",
+  "effective_date_formula": null
+ }
+}

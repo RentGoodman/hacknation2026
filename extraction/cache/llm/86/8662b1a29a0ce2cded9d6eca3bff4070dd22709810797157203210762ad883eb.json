@@ -1,0 +1,18 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "date_audit",
+ "subject": "D041:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 26935,
+  "output_tokens": 457
+ },
+ "result": {
+  "requirement_is_new": false,
+  "in_force_since": null,
+  "in_force_since_evidence": null,
+  "current_version_effective": "2026-02-02",
+  "prior_version_note": "Before February 2, 2026, landlords could add an additional percentage increase for utilities on top of the allowable annual increase, and could add an extra 10% for an additional dependent added to the tenancy (D041, D042). Separately, RSO rent increases were prohibited from March 30, 2020 through January 31, 2024. The documents do not state when the RSO increase rule first applied.",
+  "effective_date_formula": null
+ }
+}

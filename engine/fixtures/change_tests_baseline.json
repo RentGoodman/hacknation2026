@@ -1,0 +1,25 @@
+{
+  "established_after_pr": 38,
+  "reference_commit": "eee4779",
+  "serialization": "sha256 of sorted address ids joined with newline and a final newline",
+  "T1": {
+    "affected_address_ids": {"count": 250, "sha256": "789a48d95eef736ff15db0fdde8aa1df51dd690e314aeaa6596daadc536a73e2"},
+    "conflict_flag_address_ids": {"count": 0, "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"}
+  },
+  "T2": {
+    "affected_address_ids": {"count": 90, "sha256": "43afb87e86314f5c0d182336bb375bc1530d2c644972d9df3244fe6a31f59a42"},
+    "conflict_flag_address_ids": {"count": 0, "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"}
+  },
+  "T3": {
+    "affected_address_ids": {"count": 140, "sha256": "e82b83a315e0840a91c91d82ea1197d0913956fc214d9ebcbca9b67ecf5822f0"},
+    "conflict_flag_address_ids": {"count": 90, "sha256": "43afb87e86314f5c0d182336bb375bc1530d2c644972d9df3244fe6a31f59a42"}
+  },
+  "T4": {
+    "affected_address_ids": {"count": 110, "sha256": "dc23863ec28decbf4f029408d7a67e107c17262b4348406f505d0ad65d9bec89"},
+    "conflict_flag_address_ids": {"count": 0, "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"}
+  },
+  "T5": {
+    "affected_address_ids": {"count": 0, "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"},
+    "conflict_flag_address_ids": {"count": 0, "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"}
+  }
+}

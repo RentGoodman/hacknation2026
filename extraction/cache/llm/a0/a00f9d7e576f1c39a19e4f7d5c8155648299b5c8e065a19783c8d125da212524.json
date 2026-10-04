@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D051:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 2224,
+  "output_tokens": 615
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "Estates at will may be determined by either party by three months' notice in writing for that purpose given to the other party",
+    "note": "All elements of the requirement (three months' notice, shorter-interval rule, offer of new tenancy, 14-day nonpayment notice, 10-day cure, required notification, extension of time if omitted, 7-day continuance) match the statute."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "fourteen days' notice to quit, given in writing by the landlord to the tenant, shall be sufficient to determine the tenancy",
+    "note": "The 3 months / interval or 30 days / 14 days / 10 days / 7-day continuance values all appear in the text. The 'once per 12 months' wording is a fair paraphrase of the no-similar-notice-in-12-months condition."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The field is empty and the document states no effective date."
+   },
+   {
+    "field": "status",
+    "verdict": "partly_supported",
+    "quoted_span": "Estates at will may be determined by either party by three months' notice in writing for that purpose given to the other party",
+    "note": "The document is the current codified text and contains no repeal or sunset language, which is consistent with in_force. It does not state its status expressly."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "Estates at will may be determined by either party by three months' notice in writing for that purpose given to the other party",
+    "note": "The statute concerns only estates (tenancies) at will and states no unit-count, building-age or owner-occupancy limits."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "General Law - Part II, Title I, Chapter 186, Section 12",
+    "note": "The document header matches G.L. c. 186, § 12."
+   }
+  ]
+ }
+}

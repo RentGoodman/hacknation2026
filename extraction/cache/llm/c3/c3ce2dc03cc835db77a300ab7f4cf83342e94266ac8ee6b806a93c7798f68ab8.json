@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "DX04:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 886,
+  "output_tokens": 246
+ },
+ "result": {
+  "en": "Jersey City bars landlords, their agents and subcontractors from using a service provider that collects nonpublic competitor information, analyzes it with software, and recommends rents, lease terms or occupancy levels, and it bars those providers from helping landlords agree not to compete on rents, fees or other terms.",
+  "es": "Jersey City prohíbe que los arrendadores, sus agentes y subcontratistas usen un proveedor de servicios que recopile información no pública de competidores, la analice con software y recomiende alquileres, condiciones de arrendamiento o niveles de ocupación, y prohíbe que esos proveedores ayuden a los arrendadores a acordar no competir en alquileres, cargos u otras condiciones."
+ }
+}

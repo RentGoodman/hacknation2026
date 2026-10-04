@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D005:c2",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 775,
+  "output_tokens": 269
+ },
+ "result": {
+  "en": "In Berkeley, a landlord who charges an applicant a fee for a credit report and application processing must give a Tenant Screening Fee Rights Statement and the maximum fee cap before receiving the fee, and cannot charge existing tenants a non-refundable fee to renew or to add or replace a roommate.",
+  "es": "En Berkeley, un propietario que cobra a un solicitante una tarifa por un informe de crédito y el trámite de la solicitud debe entregar una Declaración de Derechos sobre la Tarifa de Evaluación de Inquilinos y el límite máximo de la tarifa antes de recibirla, y no puede cobrar a los inquilinos actuales una tarifa no reembolsable por renovar o por agregar o reemplazar a un compañero de cuarto."
+ }
+}

@@ -1,0 +1,55 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D067:c4",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 73754,
+  "output_tokens": 1122
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": 3,
+   "requires_unknown_facts": null,
+   "unverifiable_exemptions": [],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Applies to all rental properties used for dwelling purposes, including mobile homes, except owner-occupied two- or three-family dwellings.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": "Owner-occupied two- or three-family dwellings are exempt.",
+   "other_conditions": null
+  },
+  "evidence": [
+   {
+    "field": "owner_occupied_exemption_max_units",
+    "doc_id": "D067",
+    "quoted_span": "including mobile homes, except owner-occupied two- or three-family dwellings"
+   },
+   {
+    "field": "owner_conditions",
+    "doc_id": "D067",
+    "quoted_span": "including mobile homes, except owner-occupied two- or three-family dwellings"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D067",
+    "quoted_span": "The law against reprisal applies to all rental properties used for dwelling purposes,"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D067",
+    "quoted_span": "including mobile homes, except owner-occupied two- or three-family dwellings"
+   }
+  ],
+  "notes": "The existing coverage is supported by the D067 DCA guide's Reprisal section. No other fields are evidenced in the provided documents, so they remain null. Line-internal spans were used because the source passage breaks across lines."
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "DX06:c11",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 5702,
+  "output_tokens": 644
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "Injured renters may seek actual damages, up to $7,500 per violation and attorney fees.",
+    "note": "The remedy is stated in the table. The phrase 'algorithmic rent-pricing chapter' is an inference from the document's context, since the table row itself does not describe the chapter's subject."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "Injured renters may seek actual damages, up to $7,500 per violation and attorney fees.",
+    "note": "The $7,500 per violation cap, actual damages and attorney fees all match the document."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The field is empty. The document gives only 'effective October 2025' with no exact day, and the rule's effective_date_note explains this. Nothing contradicts leaving the field empty."
+   },
+   {
+    "field": "status",
+    "verdict": "partly_supported",
+    "quoted_span": "King County Code ch. 12.23 (effective October 2025)",
+    "note": "The document says the chapter is effective as of October 2025, and the document is dated August 2026. It does not explicitly say the law remains in force, but in_force is a reasonable inference."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "King County, WA | King County Code ch. 12.23 (effective October 2025) | Injured renters may seek actual damages, up to $7,500 per violation and attorney fees.",
+    "note": "The document states no building, unit-count, construction-date or landlord-size limits for King County, so empty coverage conditions are consistent. The summary accurately says the source states none."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "King County Code ch. 12.23 (effective October 2025)",
+    "note": "The chapter citation matches. The alias 'K.C.C. ch. 12.23' is a standard abbreviation not appearing in the document."
+   }
+  ]
+ }
+}

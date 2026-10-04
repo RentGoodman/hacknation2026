@@ -1,0 +1,19 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "qa",
+ "subject": "D051:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 37247,
+  "output_tokens": 383
+ },
+ "result": {
+  "changes": [
+   {
+    "field": "category",
+    "after_json": "\"termination_notice\"",
+    "reason": "G.L. c. 186, § 12 lets either party end a tenancy at will on notice without stating cause, so it is a termination-notice rule rather than a just-cause eviction rule, as the record's own review note says."
+   }
+  ]
+ }
+}

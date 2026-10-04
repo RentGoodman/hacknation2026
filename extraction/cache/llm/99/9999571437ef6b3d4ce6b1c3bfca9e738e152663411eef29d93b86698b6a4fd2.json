@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D067:c3",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 720,
+  "output_tokens": 273
+ },
+ "result": {
+  "en": "In New Jersey, foreclosure alone is not grounds for eviction: a buyer who wants to live in the property must give a 90-day notice to quit, tenants with longer leases stay until the lease ends, and new owners must tell tenants in English and Spanish within 10 business days after the sale that they need not move.",
+  "es": "En Nueva Jersey, la ejecución hipotecaria por sí sola no es motivo de desalojo: un comprador que quiera vivir en la propiedad debe dar un aviso de 90 días para desocupar, los inquilinos con contratos más largos se quedan hasta que termine el contrato, y los nuevos propietarios deben informar a los inquilinos en inglés y español, dentro de los 10 días hábiles posteriores a la venta, que no tienen que mudarse."
+ }
+}

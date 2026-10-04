@@ -1,0 +1,69 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "consolidate",
+ "subject": "Minneapolis, MN",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 5318,
+  "output_tokens": 1523
+ },
+ "result": {
+  "rules": [
+   {
+    "candidate_id": "DX06:c6",
+    "jurisdiction": "Minneapolis, MN",
+    "category": "algorithmic_rent_setting",
+    "status": "in_force",
+    "title": "Minneapolis ban on algorithmic rent-setting devices using nonpublic competitor data",
+    "requirement": "Landlords may not use algorithmic devices that use nonpublic competitor data to advise on vacancy or rental rates. Tenants may bring civil actions.",
+    "key_value": "Prohibition on algorithmic devices using nonpublic competitor data; private civil action",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Citywide prohibition. The available source states no building-size, age or landlord-size limits.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": null
+    },
+    "exemptions": null,
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": "2026-03-01",
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "The effective date of March 1, 2026 comes only from a secondary law-firm alert dated August 21, 2026.",
+    "effective_date_formula": null,
+    "citation": "Minneapolis Code of Ordinances § 244.2070",
+    "citation_aliases": [
+     "Minneapolis Code § 244.2070",
+     "Minneapolis Code of Ordinances ch. 244"
+    ],
+    "quoted_span": "Effective March 1, 2026. Prohibits algorithmic devices using nonpublic competitor data to advise on vacancy or rental rates; tenants may pursue civil actions.",
+    "confidence": 0.6,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "The only support is a secondary law-firm alert (Morgan Lewis, August 2026). The official ordinance text was not captured, so these items are unverified: ordinance number, enactment date, definitions, exemptions, penalties and coverage limits. Verify against the official Minneapolis Code.",
+    "source_notes": "Secondary source: law-firm alert summary table.",
+    "source_doc_id": "DX06",
+    "from_candidates": [
+     "DX06:c6"
+    ],
+    "also_supported_by": []
+   }
+  ],
+  "dropped_candidates": [],
+  "known_gaps": []
+ }
+}

@@ -1,0 +1,68 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "cell",
+ "subject": "San Diego, CA|algorithmic_rent_setting",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 4147,
+  "output_tokens": 1929
+ },
+ "result": {
+  "cell_status": "rules_found",
+  "no_rule_quote": null,
+  "no_rule_passage_id": null,
+  "basis_citation": null,
+  "rules": [
+   {
+    "jurisdiction": "San Diego, CA",
+    "category": "algorithmic_rent_setting",
+    "status": "pending",
+    "title": "Anti-Competitive Automated Rent Price-Fixing Prohibition (use and sale of algorithmic devices)",
+    "requirement": "Unlawful for any person to sell, license, or otherwise provide an algorithmic device to a landlord. Unlawful for a landlord to use an algorithmic device to set rental rates or occupancy levels for residential rental property. An algorithmic device is software that uses nonpublic competitor data to recommend rents or occupancy levels for San Diego residential rental property. Excluded are (a) reports built from aggregated historical nonpublic data more than 90 days old, or from public information, that do not recommend future rents, and (b) tools used to set rents or income limits under affordable housing program guidelines. The Division also gives tenants remedies for violations.",
+    "key_value": null,
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Applies to sellers and licensors of algorithmic devices and to landlords using them for residential rental property in the City of San Diego. No unit-count or building-age limits stated.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": null
+    },
+    "exemptions": "Excludes software that publishes reports from aggregated historical nonpublic competitor data more than 90 days old, or from public information, and does not recommend future rents or occupancy. Also excludes software used to set rents or income limits under local, state, or federal affordable housing program guidelines.",
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "The passages state no adoption or effective date. Passages describe the measure as a proposed ordinance (O-2025-107). Confirm adoption and effective date.",
+    "effective_date_formula": null,
+    "citation": "San Diego Mun. Code § 98.1103",
+    "citation_aliases": [
+     "San Diego Mun. Code ch. 9, art. 8, div. 11",
+     "San Diego Mun. Code §§ 98.1101-98.1103",
+     "O-2025-107",
+     "Anti-Competitive Automated Rent Price-Fixing Prohibition Ordinance"
+    ],
+    "quoted_span": "(b) It is unlawful for a landlord to use an algorithmic device to set rental rates",
+    "confidence": 0.6,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "Status set to pending because the passages do not show adoption (the staff report calls it a 'proposed ordinance'). It may be in force if adopted. The penalty and remedy text in § 98.1103 is truncated in the passages.",
+    "source_notes": "Definitions from § 98.1102 appear in both the staff-report version (D076) and the ordinance text (DX05).",
+    "passage_id": "p5"
+   }
+  ]
+ }
+}

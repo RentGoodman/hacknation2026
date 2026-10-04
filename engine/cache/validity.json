@@ -1,0 +1,578 @@
+{
+  "r-0001:v1:73befb915cd4ae4f": {
+    "clause": null,
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": null
+  },
+  "r-0002:v1:80ce4c4cd4550940": {
+    "clause": null,
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": null
+  },
+  "r-0004:v1:57ed114580d6368a": {
+    "clause": null,
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": null
+  },
+  "r-0005:v1:72bb04b3082f3fa6": {
+    "clause": null,
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": null
+  },
+  "r-0006:v1:f55dc8d63a490197": {
+    "clause": "Maximum tenant screening fee for 2026: $68.96",
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": "2026-12-31"
+  },
+  "r-0007:v1:4c923e86c3e6aaff": {
+    "clause": "$68.96 maximum for 2026",
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": "2026-12-31"
+  },
+  "r-0008:v1:2c2f2894ac0e17a7": {
+    "clause": null,
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": null
+  },
+  "r-0010:v1:724a69eb0d9f8d7b": {
+    "clause": null,
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": null
+  },
+  "r-0011:v1:55d88dabbcfeb1a9": {
+    "clause": null,
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": null
+  },
+  "r-0013:v1:b7abbdc48644c8c5": {
+    "clause": null,
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": null
+  },
+  "r-0018:v1:d7ed2e3b2770b8dd": {
+    "clause": null,
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": null
+  },
+  "r-0019:v1:4a071d49b7fe36e1": {
+    "clause": null,
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": null
+  },
+  "r-0021:v1:3eb8a1bc78a448d2": {
+    "clause": null,
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": null
+  },
+  "r-0022:v1:3fe07ca749622628": {
+    "clause": null,
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": null
+  },
+  "r-0025:v1:0fb1275584ffde99": {
+    "clause": null,
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": null
+  },
+  "r-0026:v1:7422d91df63c9df6": {
+    "clause": null,
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": null
+  },
+  "r-0027:v1:bd958fd1b48984ae": {
+    "clause": null,
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": null
+  },
+  "r-0029:v1:752e96835c1217e3": {
+    "clause": null,
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": null
+  },
+  "r-0030:v1:9ce886253b2eeba4": {
+    "clause": null,
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": null
+  },
+  "r-0031:v1:d8a21c1d60426eee": {
+    "clause": null,
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": null
+  },
+  "r-0032:v1:5127ceb116423dc3": {
+    "clause": null,
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": null
+  },
+  "r-0033:v1:0cffe8881184de4f": {
+    "clause": null,
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": null
+  },
+  "r-0036:v1:a89ff1fc6f12a411": {
+    "clause": null,
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": null
+  },
+  "r-0039:v1:21daadf42b54c31d": {
+    "clause": null,
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": null
+  },
+  "r-0040:v1:5481fc81a079a665": {
+    "clause": null,
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": null
+  },
+  "r-0041:v1:74288f179dcc0155": {
+    "clause": null,
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": null
+  },
+  "r-0043:v1:ad120dc84e9291eb": {
+    "clause": null,
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": null
+  },
+  "r-0046:v1:bc9c59d7f9590ab1": {
+    "clause": null,
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": null
+  },
+  "r-0047:v1:772c603746f80840": {
+    "clause": null,
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": null
+  },
+  "r-0048:v1:366c8fe0817d2a3d": {
+    "clause": null,
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": null
+  },
+  "r-0049:v1:dde60c54fb1c4f14": {
+    "clause": null,
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": null
+  },
+  "r-0050:v1:55e5f07845078408": {
+    "clause": null,
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": null
+  },
+  "r-0051:v1:90c4c5fd35836385": {
+    "clause": null,
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": null
+  },
+  "r-0052:v1:c66adaaf11c05d2a": {
+    "clause": null,
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": null
+  },
+  "r-0054:v1:4e6a0662539f0f1b": {
+    "clause": null,
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": null
+  },
+  "r-0056:v1:08f3b4ec5853efaa": {
+    "clause": null,
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": null
+  },
+  "r-0058:v1:8a57ee5431a37420": {
+    "clause": null,
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": null
+  },
+  "r-0060:v1:db271e15c6cdfda8": {
+    "clause": null,
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": null
+  },
+  "r-0061:v1:b6cc0438f733de2f": {
+    "clause": null,
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": null
+  },
+  "r-0062:v1:9ecc9f9a73ac2485": {
+    "clause": null,
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": null
+  },
+  "r-0063:v1:a6661ae51e194fef": {
+    "clause": null,
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": null
+  },
+  "r-0064:v1:a37eae9c4df70f23": {
+    "clause": null,
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": null
+  },
+  "r-0065:v1:ceccb95c965fcb10": {
+    "clause": null,
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": null
+  },
+  "r-0067:v1:d4fd0067431d86b2": {
+    "clause": "For July 1, 2025 through June 30, 2026 that percentage is 3%.",
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": "2026-06-30"
+  },
+  "r-0068:v1:be7d30ce35e217da": {
+    "clause": null,
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": null
+  },
+  "r-0069:v1:ab649b439b0480a7": {
+    "clause": "July 1, 2026\u2013June 30, 2027",
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": "2027-06-30"
+  },
+  "r-0070:v1:1f54c58326f1c8fd": {
+    "clause": null,
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": null
+  },
+  "r-0071:v1:60739bf77133b540": {
+    "clause": "July 1, 2026\u2013June 30, 2027",
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": "2027-06-30"
+  },
+  "r-0074:v1:286cedcef5f933da": {
+    "clause": "July 1, 2026\u2013June 30, 2027",
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": "2027-06-30"
+  },
+  "r-0075:v1:e5d2f9ad2a4573ba": {
+    "clause": null,
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": null
+  },
+  "r-0081:v1:8b25806ac2032587": {
+    "clause": null,
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": null
+  },
+  "r-0082:v1:2ba51444e3126b86": {
+    "clause": null,
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": null
+  },
+  "r-0084:v1:090c685bc64b0aa1": {
+    "clause": null,
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": null
+  },
+  "r-0086:v1:7efce36f7993f946": {
+    "clause": null,
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": null
+  },
+  "r-0088:v1:e346d7f92b99e1c8": {
+    "clause": null,
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": null
+  },
+  "r-0089:v1:f6c6d699ed65ce98": {
+    "clause": null,
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": null
+  },
+  "r-0090:v1:8edabe22007191fa": {
+    "clause": null,
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": null
+  },
+  "r-0091:v1:ac91f7e24972698c": {
+    "clause": null,
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": null
+  },
+  "r-0092:v1:4b234f2f38145fba": {
+    "clause": null,
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": null
+  },
+  "r-0093:v1:e971b439b6b9fc6e": {
+    "clause": null,
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": null
+  },
+  "r-0094:v1:3beb01282cacbb8f": {
+    "clause": null,
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": null
+  },
+  "r-0095:v1:a2ee026c8ed8c194": {
+    "clause": null,
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": null
+  },
+  "r-0096:v1:caf3b025f694b4f1": {
+    "clause": null,
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": null
+  },
+  "r-0097:v1:d727b914ae58ab0a": {
+    "clause": null,
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": null
+  },
+  "r-0098:v1:71311061bd624012": {
+    "clause": null,
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": null
+  },
+  "r-0101:v1:1bbd5a1f92d6cd84": {
+    "clause": null,
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": null
+  },
+  "r-0103:v1:cc2c8ad371fe1291": {
+    "clause": null,
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": null
+  },
+  "r-0106:v1:ce930f679a29f7c1": {
+    "clause": null,
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": null
+  },
+  "r-0107:v1:adb1b8f00ea1754d": {
+    "clause": null,
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": null
+  },
+  "r-0108:v1:83f404b0f626d35d": {
+    "clause": null,
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": null
+  },
+  "r-0109:v1:87841b793de6237a": {
+    "clause": null,
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": null
+  },
+  "r-0110:v1:1b09eb47004bbf12": {
+    "clause": null,
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": null
+  },
+  "r-0114:v1:87f5be3fb0267939": {
+    "clause": null,
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": null
+  },
+  "r-0116:v1:2cc18562b1773288": {
+    "clause": null,
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": null
+  },
+  "r-0119:v1:068cb0c6f86bfb22": {
+    "clause": null,
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": null
+  },
+  "r-0121:v1:ffc0055cd2b7e94d": {
+    "clause": null,
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": null
+  },
+  "r-0124:v1:065209272bfddc92": {
+    "clause": null,
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": null
+  },
+  "r-0126:v1:50e79728b0f2351b": {
+    "clause": null,
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": null
+  },
+  "r-0127:v1:d81eca862676c4a0": {
+    "clause": null,
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": null
+  },
+  "r-0128:v1:7a4efd7a2099f62f": {
+    "clause": "effective March 1, 2026 through February 28, 2027",
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": "2027-02-28"
+  },
+  "r-0129:v1:388ea0a85b51f82d": {
+    "clause": null,
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": null
+  },
+  "r-0131:v1:ce8c0a83c611ee33": {
+    "clause": "For notices served 3/01/26\u20132/28/27",
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": "2027-02-28"
+  },
+  "r-0133:v1:7be0b4e3df45427f": {
+    "clause": "4.2% for March 1, 2026 through February 28, 2027",
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": "2027-02-28"
+  },
+  "r-0134:v1:06fba39b466b8d69": {
+    "clause": "For notices served 3/1/26-2/28/27 the amount is $8,245 per tenant",
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": "2027-02-28"
+  },
+  "r-0135:v1:f793dc38d5a20cdd": {
+    "clause": "For notices served 3/1/26-2/28/27",
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": "2027-02-28"
+  },
+  "r-0136:v1:134865e00f82e848": {
+    "clause": "For notices served 3/1/26-2/28/27 the amount is $446.00 per day.",
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": "2027-02-28"
+  },
+  "r-0137:v1:f392710eee633a48": {
+    "clause": "The current maximum is 2.87% for September 1, 2026 through August 31, 2027.",
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": "2027-08-31"
+  },
+  "r-0139:v1:20de83e999cc6173": {
+    "clause": null,
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": null
+  },
+  "r-0140:v1:b706a5f737f6981e": {
+    "clause": null,
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": null
+  },
+  "r-0141:v1:c7fb1512d959fd82": {
+    "clause": null,
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": null
+  },
+  "r-0142:v1:2be9fc9dddff43d3": {
+    "clause": null,
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": null
+  },
+  "r-0145:v1:1b15d8154984426a": {
+    "clause": null,
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": null
+  },
+  "r-0146:v1:c23ab5aa22a098a2": {
+    "clause": null,
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": null
+  },
+  "r-0147:v1:339c28fe50917f8a": {
+    "clause": null,
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": null
+  },
+  "r-0148:v1:7e7227b96446ccf9": {
+    "clause": null,
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": null
+  },
+  "r-0148:v1:c76168ec92418bb6": {
+    "clause": null,
+    "model": "claude-sonnet-5-5",
+    "rejected": null,
+    "valid_until": null
+  }
+}

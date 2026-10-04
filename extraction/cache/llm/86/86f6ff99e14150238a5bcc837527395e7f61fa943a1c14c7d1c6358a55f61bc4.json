@@ -1,0 +1,67 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "cell",
+ "subject": "CA|application_screening_fees",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 4144,
+  "output_tokens": 1701
+ },
+ "result": {
+  "cell_status": "rules_found",
+  "no_rule_quote": null,
+  "no_rule_passage_id": null,
+  "basis_citation": null,
+  "rules": [
+   {
+    "jurisdiction": "CA",
+    "category": "application_screening_fees",
+    "status": "in_force",
+    "title": "California tenant application screening fee cap and conditions",
+    "requirement": "A landlord or agent may not charge an application screening fee above $30 per applicant, adjustable annually with the CPI beginning January 1, 1998. No fee may be charged when no unit is or will soon be available. A fee may be charged only if the landlord offers either (A) first-qualified-applicant processing in the order applications are received, with written screening criteria and no fee charged unless the application is actually considered, or (B) a refund of the entire fee to any applicant not selected, within 7 days of selecting a tenant or 30 days of the application, whichever is first. The landlord must give an itemized receipt, return any unused portion of the fee if no reference check or credit report is obtained, and give the applicant a copy of the credit report within 7 days of receiving it. A reusable screening report may be accepted.",
+    "key_value": "Cap $30 per applicant, CPI-adjustable annually since 1/1/1998; refund of full fee within 7 days of selection or 30 days of application (whichever first) if the landlord does not use first-qualified processing; itemized receipt; refund of unused portion; credit report copy within 7 days",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Applies to landlords (owners of residential rental property) and their agents charging application screening fees to rental applicants.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": null
+    },
+    "exemptions": null,
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "The passages do not state an effective date for the current text.",
+    "effective_date_formula": null,
+    "citation": "Cal. Civ. Code § 1950.6",
+    "citation_aliases": [
+     "Cal. Civ. Code § 1950.6(b)",
+     "Civil Code Section 1950.6",
+     "Cal. Civ. Code ch. 2, tit. 5, div. 3, pt. 4"
+    ],
+    "quoted_span": "In no case shall the amount of the application screening fee charged by the landlord or their agent be greater than thirty dollars ($30) per applicant. The thirty dollar ($30) application screening fee may be adjusted annually by the landlord or their agent commensurate with an increase in the Consumer Price Index, beginning on January 1, 1998.",
+    "confidence": 0.9,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "The statute text gives only the $30 base, CPI-adjusted. A Berkeley Rent Board page lists $68.96 as the 2026 maximum, but that figure is not a state-published figure in these passages. The section number comes from references in the Berkeley page and Civ. Code § 1950.5, not from a heading in the statute passages.",
+    "source_notes": "Statute text is from official passage D026, with matching text in secondary source DX08. The Berkeley local notice rule (BMC 13.78.010) is a local law and is not included here.",
+    "passage_id": "p2"
+   }
+  ]
+ }
+}

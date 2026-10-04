@@ -1,0 +1,65 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "DX04:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 19060,
+  "output_tokens": 2870
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": null,
+   "unverifiable_exemptions": [],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Applies to real estate lessors of residential dwelling units, meaning units intended as a person's primary residence, and to their agents and subcontractors. Also applies to service providers that perform coordination. Inpatient medical care, licensed long-term care, and detention or correctional facilities are not residential dwelling units. No unit-count or building-age limits are stated.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": "The coordination definition exempts owners of multiple properties for actions related exclusively to multiple properties controlled by the same rental property owner.",
+   "other_conditions": "Licensed real estate agents are excluded from the coordination and service-provider definitions while operating in accordance with all applicable state regulations."
+  },
+  "evidence": [
+   {
+    "field": "summary",
+    "doc_id": "DX02",
+    "quoted_span": "“Residential dwelling unit” means any house, apartment, accessory unit, or other unit intended to be used as a\nperson’s primary residence; and does not include inpatient medical care, licensed long-term care, and detention or\ncorrectional facilities."
+   },
+   {
+    "field": "summary",
+    "doc_id": "DX02",
+    "quoted_span": "“Real estate lessor” means any individual, corporation, partnership, association, joint-stock company, trust, or\nunincorporated organization that owns real property and leases such property or any portion thereof in the form of a\nresidential dwelling unit."
+   },
+   {
+    "field": "summary",
+    "doc_id": "DX04",
+    "quoted_span": "It is unlawful for any real estate lessor, agent, or subcontractor thereof, to subscribe to, contract with, or"
+   },
+   {
+    "field": "summary",
+    "doc_id": "DX02",
+    "quoted_span": "“Service provider” means any person that performs a coordination function"
+   },
+   {
+    "field": "owner_conditions",
+    "doc_id": "DX02",
+    "quoted_span": "This definition exempts owners of multiple properties for actions related exclusively to multiple properties\ncontrolled by the same rental property owner"
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "DX02",
+    "quoted_span": "Licensed Real Estate Agents are not included in this definition so long as they are operating in accordance with all\napplicable state regulations."
+   }
+  ],
+  "notes": "The existing coverage is supported by Ord. 25-057 (DX02) and Ord. 25-076 (DX04), and I left it unchanged. No unit-count, construction-date, building-age or owner-occupancy limits appear in the ordinance text. D036's statement that 1-4 unit properties are exempt applies to the rent control ordinance (Chapter 260), not to § 218-12, so I did not import it. Chapter 218 also has a renumbered '§ 218-13 Exempt dwellings' section, but its text is not reproduced in the documents. Whether it reaches § 218-12 cannot be verified, so I listed no exemption from it. The owner_conditions exemption is framed in the ordinance as a carve-out within the coordination definition, covering actions confined to a single owner's own properties."
+ }
+}

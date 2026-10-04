@@ -1,0 +1,22 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "probe",
+ "subject": "NJ",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 76758,
+  "output_tokens": 603
+ },
+ "result": {
+  "verdicts": [
+   {
+    "category": "rent_increase_limits",
+    "verdict": "no_rule",
+    "doc_id": "D067",
+    "quoted_span": "The State of New Jersey has no laws that establish, govern or control rents.",
+    "basis_citation": null,
+    "reason": "The official NJ DCA Truth in Renting guide states there is no statewide rent control or rent-increase cap. Rent control is left to municipal ordinances. The guide also notes that increases must not be 'unconscionable' under the Anti-Eviction Act (N.J.S.A. 2A:18-61.1(f)), but that is a case-by-case judicial standard rather than a statutory cap. The retrieved passages concern other jurisdictions (CA, MA) and do not bear on NJ."
+   }
+  ]
+ }
+}

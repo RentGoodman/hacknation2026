@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D067:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 852,
+  "output_tokens": 246
+ },
+ "result": {
+  "en": "In New Jersey, a landlord can't take a security deposit of more than 1.5 times one month's rent, must hold it in an interest-bearing account for you, must return it with interest within 30 days after the tenancy ends (less itemized deductions), and can owe you double the amount wrongfully withheld.",
+  "es": "En Nueva Jersey, un propietario no puede cobrar un depósito de seguridad de más de 1.5 veces el alquiler de un mes, debe guardarlo en una cuenta que genere intereses a su favor, debe devolverlo con intereses dentro de los 30 días posteriores al fin del contrato (menos deducciones detalladas) y puede deberle el doble de lo retenido indebidamente."
+ }
+}

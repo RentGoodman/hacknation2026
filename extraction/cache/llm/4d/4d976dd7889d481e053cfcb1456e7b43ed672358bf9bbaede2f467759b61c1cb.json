@@ -1,0 +1,13 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "qa",
+ "subject": "cell:San Diego, CA:algorithmic_rent_setting:1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 40922,
+  "output_tokens": 313
+ },
+ "result": {
+  "changes": []
+ }
+}

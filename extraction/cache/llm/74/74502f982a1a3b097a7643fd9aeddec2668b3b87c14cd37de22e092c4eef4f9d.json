@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D067:c3",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 59570,
+  "output_tokens": 924
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "partly_supported",
+    "quoted_span": "Foreclosure alone is not grounds for eviction in New Jersey.",
+    "note": "Most of the requirement matches the Foreclosure section: the 90-day notice to quit, the longer-lease rule, the English and Spanish notice within 10 business days, posting in buildings with more than 10 units, the court-rule notice for foreclosing creditors, and the separate notice for buyout offers with the five-day review period and the pressure-tactics ban. Two details are off. The guide ties the 90-day notice to a buyer who wants to personally occupy the property as a primary residence, and the rule's wording on this is loose. The guide also says month-to-month tenants are not exempt from the notice. The rule says a tenant whose lease runs longer cannot be evicted until it expires; the guide adds that the 90-day notice must still be given, which the rule omits."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "within 10 business days after the sale, letting tenants know that ownership has changed hands",
+    "note": "The 90-day notice to quit appears in the Foreclosure section (\"90 -day notice to qui t\"). The English and Spanish notice within 10 business days and the five-day review period for buyout offers both appear in the guide. The key_value matches."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The rule's effective_date is empty and the guide states no effective date for the Foreclosure Fairness Act provisions."
+   },
+   {
+    "field": "status",
+    "verdict": "partly_supported",
+    "quoted_span": "Any person acquiring a foreclosed property containing one or more residential rental units must provide notices to the tenants in English and Spanish",
+    "note": "The guide presents these requirements in the present tense as current obligations, which is consistent with in_force. It states no explicit status or repeal information."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "Month-\nto-month tenants and two- and three-family owner-occupied units are not exempt from the 90-day notice requirements.",
+    "note": "The guide supports min_units of 1 (\"one or more residential rental units\"). It also supports the foreclosed-property condition and the point that owner-occupied two- and three-family units are not exempt from the 90-day notice."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "(N.J.S.A. 2A:50-69 et seq.)",
+    "note": "The guide cites N.J.S.A. 2A:50-69 et seq. and names the New Jersey Foreclosure Fairness Act. It also cites 2A:50-70(c)2 and 2A:50-71(b), which fit the listed aliases 2A:50-70 and 2A:50-71."
+   }
+  ]
+ }
+}

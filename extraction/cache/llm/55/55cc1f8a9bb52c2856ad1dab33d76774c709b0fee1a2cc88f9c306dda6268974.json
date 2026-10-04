@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D050:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 618,
+  "output_tokens": 288
+ },
+ "result": {
+  "en": "If you don't pay rent due under a written lease in Massachusetts, a landlord can end the lease with 14 days' written notice to quit, but you can stop the eviction by paying all rent due, plus interest and costs, by the answer date, and if a government payment was delayed in the mail the court must continue the hearing at least 7 days to allow that payment.",
+  "es": "Si no paga el alquiler adeudado bajo un contrato escrito en Massachusetts, el propietario puede terminar el contrato con un aviso escrito de desalojo de 14 días, pero usted puede detener el desalojo pagando todo el alquiler adeudado, más intereses y costos, antes de la fecha de respuesta, y si un pago del gobierno se retrasó en el correo, el tribunal debe aplazar la audiencia al menos 7 días para permitir ese pago."
+ }
+}

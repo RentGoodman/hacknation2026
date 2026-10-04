@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D079:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 5428,
+  "output_tokens": 1533
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "partly_supported",
+    "quoted_span": "In order to evict a tenant from a rental unit covered by the Rent Ordinance, a landlord must have a \"just cause\" reason that is the dominant motive for pursuing the eviction.",
+    "note": "The 17 just causes, the dominant-motive rule, the housing-services rule and the § 37.2(r) soft-story carve-out are all in D079. The § 37.9C and Ellis Act relocation payments, the amounts, the 3/1 reset and the Civ. Code § 1947.9 carve-out are not in D079 and rest on other documents."
+   },
+   {
+    "field": "key_value",
+    "verdict": "partly_supported",
+    "quoted_span": "The 17 just cause reasons for eviction under",
+    "note": "D079 supports the 17 just causes and the dominant-motive requirement. It contains none of the relocation dollar amounts or notice-date periods in the key_value."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The field is empty and D079 states no effective date for the Ordinance or its just cause provisions."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "In order to evict a tenant from a rental unit covered by the Rent Ordinance, a landlord must have a \"just cause\" reason that is the dominant motive for pursuing the eviction.",
+    "note": "D079 presents the requirement in the present tense as current law. It gives no explicit status statement."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "This includes tenancies in newly constructed rental units that first obtained a Certificate of Occupancy after June 13, 1979",
+    "note": "D079 also supports the Costa-Hawkins and agency-regulated tenancies. It states that some rent-increase-exempt tenancies remain subject to the eviction provisions, so no construction cutoff applies."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "Ordinance Section 37.9(a)",
+    "note": "D079 supports § 37.9(a) and § 37.2(r). It does not mention §§ 37.9A or 37.9C, and it does not say the Ordinance is in the S.F. Admin. Code, apart from a reference to Chapter 56 of the Administrative Code."
+   }
+  ]
+ }
+}

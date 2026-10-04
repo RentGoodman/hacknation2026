@@ -1,0 +1,21 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "date_audit",
+ "subject": "D057:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 37067,
+  "output_tokens": 549
+ },
+ "result": {
+  "requirement_is_new": true,
+  "in_force_since": "2025-08-01",
+  "in_force_since_evidence": {
+   "doc_id": "D057",
+   "quoted_span": "Text of section as amended by 2025, 9, Sec. 43 effective August 1, 2025."
+  },
+  "current_version_effective": "2025-08-01",
+  "prior_version_note": "Before August 1, 2025, the section only required that anyone in the business of finding dwelling accommodations for prospective tenants for a fee be a licensed broker or salesman. It contained no single-party contracting rule and no rule on who pays the fee. The licensing sentence carries over unchanged into the current text.",
+  "effective_date_formula": null
+ }
+}

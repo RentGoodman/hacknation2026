@@ -1,0 +1,18 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "date_audit",
+ "subject": "D004:c2",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 21249,
+  "output_tokens": 421
+ },
+ "result": {
+  "requirement_is_new": false,
+  "in_force_since": null,
+  "in_force_since_evidence": null,
+  "current_version_effective": "2026-01-01",
+  "prior_version_note": "The documents say the 2026 amounts ($19,413 standard; $6,471 additional) are a 1.5% upward adjustment of the previous amounts. They do not state the prior dollar amounts or when the Ellis Implementation Ordinance was originally enacted or first took effect.",
+  "effective_date_formula": null
+ }
+}

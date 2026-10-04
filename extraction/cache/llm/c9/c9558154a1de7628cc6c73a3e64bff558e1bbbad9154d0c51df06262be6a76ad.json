@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D052:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 9721,
+  "output_tokens": 883
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "A receipt shall be given to the tenant within thirty days after such deposit is received by the lessor which receipt shall indicate the name and location of the bank in which the security deposit has been deposited and the amount and account number of said deposit.",
+    "note": "The requirement summary matches the statute's provisions: cap, separate account, receipts, statement of condition, interest, 30-day return, deductions, records, transfer, forfeiture and treble damages, void waivers, and the fee-in-lieu amendment. One minor point: the 2-year record retention applies to the lessor or agent, and the deposit-return rule is as stated."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "a security deposit equal to the first month's rent provided that such security deposit is deposited as required by subsection (3)",
+    "note": "Cap of first month's rent, 30-day return, 5% interest or lesser bank rate, treble damages, and the fee-plus-deposit cap of 1 month's rent are all stated in the document."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The field is null. The document gives no original effective date. It only notes that the amended text of clause (1)(b) takes effect August 1, 2025, which the rule records in effective_date_note and current_version_effective."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "[ Introductory paragraph of clause (b) of subsection (1) as amended by 2025, 9, Secs. 54 and 55 effective August 1, 2025.  See 2025, 9, Sec. 136.  For text effective until August 1, 2025, see above.]",
+    "note": "The statute text is presented as current law, with the amended version effective August 1, 2025, consistent with in_force."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "The provisions of this section shall not apply to any lease, rental, occupancy or tenancy of one hundred days or less in duration which lease or rental is for a vacation or recreational purpose.",
+    "note": "The 100-day vacation/recreational exclusion is correct, and no other exemptions are stated. The 'statewide' scope is consistent with a state statute. The subsection 9 reference is correct."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "General Law - Part II, Title I, Chapter 186, Section 15B",
+    "note": "The document header matches G.L. c. 186, § 15B. The aliases for subsection (1)(b)(iii), subsection (4) and St. 2025, c. 9, §§ 54-55 are consistent with the document."
+   }
+  ]
+ }
+}

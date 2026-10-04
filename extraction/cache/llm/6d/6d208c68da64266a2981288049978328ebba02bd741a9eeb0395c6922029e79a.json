@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D001:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 999,
+  "output_tokens": 242
+ },
+ "result": {
+  "en": "In Berkeley, it is unlawful for landlords to use, or for anyone to provide them, a pricing algorithm that uses nonpublic competitor data less than 90 days old to set or recommend rents or occupancy levels, with civil penalties up to $1,000 per violation and each month and each unit counting as a separate violation.",
+  "es": "En Berkeley, es ilegal que los propietarios usen, o que alguien les proporcione, un algoritmo de precios que utilice datos no públicos de la competencia con menos de 90 días para fijar o recomendar alquileres u ocupación, con multas civiles de hasta $1,000 por infracción y cada mes y cada unidad cuenta como una infracción separada."
+ }
+}

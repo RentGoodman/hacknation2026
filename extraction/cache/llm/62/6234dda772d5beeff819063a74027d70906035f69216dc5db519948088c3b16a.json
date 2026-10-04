@@ -1,0 +1,76 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D085:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 8051,
+  "output_tokens": 1869
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": {
+    "basis": "year_built",
+    "covered_if": "on_or_before",
+    "date": "1995-02-01"
+   },
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": false,
+   "unverifiable_exemptions": [
+    "Mobile home spaces offered for rent after January 1, 1990"
+   ],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Covers residential rental buildings constructed on or before February 1, 1995, and mobile home spaces offered for rent on or before January 1, 1990. Buildings constructed after February 1, 1995 and mobile home spaces offered for rent after January 1, 1990 are exempt.",
+   "construction_date_basis": "Construction date ('constructed'); the documents do not say whether the certificate of occupancy or another record controls",
+   "built_on_or_before": "1995-02-01",
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": null,
+   "other_conditions": "Mobile home spaces are covered only if offered for rent on or before January 1, 1990."
+  },
+  "evidence": [
+   {
+    "field": "construction_cutoff",
+    "doc_id": "D085",
+    "quoted_span": "The rent cap does not apply to residential buildings constructed after February 1, 1995, or to mobile home spaces offered for rent after January 1, 1990."
+   },
+   {
+    "field": "built_on_or_before",
+    "doc_id": "D085",
+    "quoted_span": "The rent cap does not apply to residential buildings constructed after February 1, 1995"
+   },
+   {
+    "field": "construction_date_basis",
+    "doc_id": "D085",
+    "quoted_span": "residential buildings constructed after February 1, 1995"
+   },
+   {
+    "field": "requires_unknown_facts",
+    "doc_id": "D085",
+    "quoted_span": "Increase in residential rents are limited to the lower of 3% per year, or 80% of the percent change in the Consumer Price Index over the most recent 12-month period."
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D085",
+    "quoted_span": "or to mobile home spaces offered for rent after January 1, 1990"
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D085",
+    "quoted_span": "or to mobile home spaces offered for rent after January 1, 1990"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D085",
+    "quoted_span": "The rent cap does not apply to residential buildings constructed after February 1, 1995, or to mobile home spaces offered for rent after January 1, 1990."
+   }
+  ],
+  "notes": "requires_unknown_facts changed from true to false. The cap covers ordinary residential rental buildings, and the construction-date limit is already captured by construction_cutoff. The mobile-home offered-for-rent date cannot be checked through an address lookup, so it is listed in unverifiable_exemptions. supersedes_state_rule set to null: none of the supplied documents says the ordinance displaces the state cap, so the state-cap sentences were also removed from the summary. The fair-return petition was removed from other_conditions because it describes owner relief, not coverage. The Just Cause Ordinance exemptions in D085 (housing produced in the last 15 years, deed-restricted affordable housing, etc.) belong to the eviction ordinance, not the rent cap, so they are not included."
+ }
+}

@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D065:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 1153,
+  "output_tokens": 245
+ },
+ "result": {
+  "en": "In New Jersey, a landlord cannot ask about your criminal record until after making you a conditional offer, and afterward can consider only certain serious convictions and indictable offenses within set lookback periods (6, 4 or 1 years depending on offense degree), with no time limit for crimes like murder or arson.",
+  "es": "En Nueva Jersey, un arrendador no puede preguntar sobre sus antecedentes penales hasta después de hacerle una oferta condicional, y luego solo puede considerar ciertas condenas graves y delitos mayores dentro de plazos de revisión definidos (6, 4 o 1 años según el grado del delito), sin límite de tiempo para delitos como asesinato o incendio provocado."
+ }
+}

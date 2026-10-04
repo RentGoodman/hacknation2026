@@ -1,0 +1,21 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "date_audit",
+ "subject": "D022:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 45313,
+  "output_tokens": 601
+ },
+ "result": {
+  "requirement_is_new": true,
+  "in_force_since": "2026-01-01",
+  "in_force_since_evidence": {
+   "doc_id": "DX09",
+   "quoted_span": "Last October, California Governor Newsom signed into law Assembly Bill 325 (AB 325) and Senate Bill 763 (SB 763), amending the Act.[1] These laws, described below, took effect on January 1, 2026."
+  },
+  "current_version_effective": "2026-01-01",
+  "prior_version_note": null,
+  "effective_date_formula": null
+ }
+}

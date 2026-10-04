@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "DX02:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 973,
+  "output_tokens": 278
+ },
+ "result": {
+  "en": "In Jersey City, landlords, their agents and subcontractors cannot use a service provider that collects competitors' rental data, processes it by computation, and recommends rents, lease terms or occupancy levels, and violators can be fined $100 to $2,000 for repeat violations, with each day counted separately, or sued by any injured person.",
+  "es": "En Jersey City, los arrendadores, sus agentes y subcontratistas no pueden usar un proveedor de servicios que reúna datos de alquiler de la competencia, los procese mediante cálculos y recomiende precios, condiciones de contrato u niveles de ocupación, y quienes lo infrinjan pueden recibir multas de $100 a $2,000 por infracciones posteriores, contando cada día por separado, o ser demandados por cualquier persona perjudicada."
+ }
+}

@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D076:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 682,
+  "output_tokens": 273
+ },
+ "result": {
+  "en": "Under this San Diego rule, landlords could not use software that analyzes nonpublic competitor data to set rents or occupancy levels, and selling or providing such software to a landlord would also be unlawful; each month and each property counts as a separate violation with civil penalties up to $1,000, and a tenant who sues and wins recovers costs and attorney's fees.",
+  "es": "Según esta regla de San Diego, los arrendadores no podrían usar programas que analizan datos no públicos de competidores para fijar rentas o niveles de ocupación, y vender o proporcionar ese software a un arrendador también sería ilegal; cada mes y cada propiedad cuenta como una infracción separada con multas civiles de hasta $1,000, y el inquilino que demande y gane recupera costos y honorarios de abogado."
+ }
+}

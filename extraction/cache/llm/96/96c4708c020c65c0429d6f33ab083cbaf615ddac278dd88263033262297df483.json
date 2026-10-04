@@ -1,0 +1,18 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "date_audit",
+ "subject": "D041:c2",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 26491,
+  "output_tokens": 840
+ },
+ "result": {
+  "requirement_is_new": false,
+  "in_force_since": null,
+  "in_force_since_evidence": null,
+  "current_version_effective": "2026-07-01",
+  "prior_version_note": "The documents do not state when the RSO eviction controls first applied or what earlier relocation amounts were. They mark later components as additions: the Fair Market Rent threshold for nonpayment evictions has applied since March 27, 2023, and the Right to Counsel notice since August 20, 2025. This implies neither requirement applied before those dates. The current relocation amounts (Chart A) are effective July 1, 2026 through June 30, 2027 and increase every July 1.",
+  "effective_date_formula": null
+ }
+}

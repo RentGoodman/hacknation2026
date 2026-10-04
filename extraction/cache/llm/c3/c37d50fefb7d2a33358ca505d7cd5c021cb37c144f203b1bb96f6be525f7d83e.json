@@ -1,0 +1,76 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "extract",
+ "subject": "D065",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 6755,
+  "output_tokens": 2697
+ },
+ "result": {
+  "rules": [
+   {
+    "candidate_id": "c1",
+    "jurisdiction": "NJ",
+    "category": "screening_restrictions",
+    "status": "in_force",
+    "title": "Fair Chance in Housing Act",
+    "requirement": "Housing providers may not ask about criminal records on applications or orally or in writing before a conditional offer, except for methamphetamine manufacture on federally assisted premises and lifetime sex-offender registration. At no point may they evaluate arrests or charges without conviction, expunged, pardoned, vacated, juvenile or sealed records. After a conditional offer they may consider only convictions for listed serious crimes or lifetime registration offenses, and indictable offenses within lookback periods. A conditional offer may be withdrawn only on a preponderance-of-evidence finding of a substantial, legitimate, nondiscriminatory interest, after an individualized assessment. Withdrawal requires written notice with specific reasons and an opportunity to appeal. The applicant may request the information relied on within 30 days, and the provider must supply it free within 10 days. Written disclosure about criminal-history review is required before any application fee is accepted. Providers may not require drug or alcohol tests or consent to obtain drug-treatment facility information. Enforcement is through the Division on Civil Rights, not in court. Penalties are capped at $1,000, $5,000 and $10,000 by prior violations, and the director may require return of the application fee.",
+    "key_value": "Post-offer lookback: 6 years (first-degree indictable), 4 years (second/third degree), 1 year (fourth degree); no lookback limit for murder, aggravated sexual assault, kidnapping, arson, human trafficking and similar offenses or lifetime sex-offender registration. Applicant may request relied-upon records within 30 days; provider must supply them free within 10 days. Penalties up to $1,000 / $5,000 / $10,000; division mediation window of 14 days.",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": 4,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Applies to rental dwelling units offered for rent by housing providers, other than units in owner-occupied premises of not more than four dwelling units.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": "Exempts dwelling units in owner-occupied premises of not more than four dwelling units.",
+     "other_conditions": null
+    },
+    "exemptions": "Dwelling units in owner-occupied premises of not more than four dwelling units are not 'rental dwelling units'.",
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": "2021-06-18",
+    "sunset_date": null,
+    "effective_date_note": "Section 14 sets a formula date. Computed from approval on June 18, 2021, the effective date is January 1, 2022. Code computes the date.",
+    "effective_date_formula": {
+     "kind": "first_day_of_nth_month_following",
+     "n": 7,
+     "anchor": "enactment",
+     "anchor_date": "2021-06-18",
+     "verbatim": "This act shall take effect on the first day of the seventh month next following the date of enactment"
+    },
+    "citation": "N.J.S.A. 46:8-52 to 46:8-64",
+    "citation_aliases": [
+     "P.L. 2021, c.110",
+     "P.L.2021, c.110",
+     "S250",
+     "S250 3R",
+     "Fair Chance in Housing Act",
+     "N.J.S.A. 46:8-55",
+     "N.J.S.A. 46:8-56",
+     "N.J.S.A. 46:8-63"
+    ],
+    "quoted_span": "A housing provider shall not make any oral or written inquiry regarding an applicant’s criminal record prior to making a conditional offer.",
+    "confidence": 0.9,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "The act also touches application fees (disclosure before accepting a fee; fee refund as a remedy) but sets no fee cap, so it is recorded only under screening_restrictions.",
+    "source_notes": null
+   }
+  ],
+  "no_rule_findings": [],
+  "doc_summary": "P.L. 2021, c.110 is New Jersey's Fair Chance in Housing Act (N.J.S.A. 46:8-52 to 46:8-64). It limits when and how housing providers may consider applicants' criminal records. It bars criminal-history inquiries before a conditional offer and bars consideration of non-conviction, expunged, sealed and similar records. After an offer, only specified convictions within set lookback periods may be considered, with an individualized assessment and withdrawal notice. It also bars drug and alcohol testing requirements, sets Division on Civil Rights enforcement with tiered penalties up to $10,000, and takes effect on the first day of the seventh month after its June 18, 2021 approval."
+ }
+}

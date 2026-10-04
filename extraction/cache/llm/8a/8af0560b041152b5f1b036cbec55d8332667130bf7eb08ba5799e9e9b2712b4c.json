@@ -1,0 +1,75 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "extract",
+ "subject": "D069",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 3527,
+  "output_tokens": 1625
+ },
+ "result": {
+  "rules": [
+   {
+    "candidate_id": "c1",
+    "jurisdiction": "NJ",
+    "category": "algorithmic_rent_setting",
+    "status": "not_yet_effective",
+    "title": "Forbidding the Algorithmic Inflation of Rent (FAIR) Act",
+    "requirement": "Makes it unlawful, and a violation of the New Jersey Antitrust Act, for any person to perform a coordinating function (algorithmic or automated rent-setting that uses nonpublic competitively sensitive information of multiple owners, or common algorithms for two or more owners), for rental property owners or their agents to pay for or subscribe to the services of a coordinator, for coordinators to facilitate agreements restricting competition, or for persons to engage in or facilitate parallel pricing coordination. The Antitrust Act remedies in sections 6 through 17 of P.L.1970, c.73 remain applicable. The Attorney General receives complaints and may adopt rules. Municipalities are barred from enacting conflicting ordinances.",
+    "key_value": "Effective first day of the twelfth month next following enactment (approved July 20, 2026); violations are treated as New Jersey Antitrust Act violations; municipal ordinances that conflict are prohibited.",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": false,
+     "supersedes_state_rule": false,
+     "may_preempt_local_rules": true,
+     "landlord_size_condition": "Applies to any rental property owner owning one or more rental residential dwelling units.",
+     "summary": "Covers residential dwelling units (houses, apartments, accessory units, other primary residences) in NJ; excludes inpatient medical care, licensed long-term care, and detention or correctional facilities. Government affordability-control programs are not coordinators.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": "Excluded from the definition of coordinating function: research/statistical/testing use not used to set rents; free public rent estimates; equal-terms real estate brokerage databases that do not set or recommend rents; government affordability controls. Spreadsheets operating without AI that require human analysis, and databases that only query unprocessed data, are not algorithmic devices."
+    },
+    "exemptions": "Excluded from coordinating function: research, statistical analysis or testing not used in setting rents; publicly available free rent estimates; equal-terms brokerage listing databases; government affordability controls. Residential dwelling unit excludes inpatient medical care, licensed long-term care, and detention or correctional facilities.",
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": "2026-07-20",
+    "sunset_date": null,
+    "effective_date_note": "Approved July 20, 2026; effective on the first day of the twelfth month next following enactment, which is computed in code.",
+    "effective_date_formula": {
+     "kind": "first_day_of_nth_month_following",
+     "n": 12,
+     "anchor": "enactment",
+     "anchor_date": "2026-07-20",
+     "verbatim": "This act shall take effect on the first day of the twelfth month next following the date of enactment."
+    },
+    "citation": "P.L.2026, c.43",
+    "citation_aliases": [
+     "P.L. 2026, c.043",
+     "A3497",
+     "Assembly Committee Substitute for Assembly, No. 3497 (First Reprint)",
+     "FAIR Act",
+     "Forbidding the Algorithmic Inflation of Rent Act",
+     "C.56:9-20 to 56:9-26",
+     "N.J.S.A. 56:9-20 et seq."
+    ],
+    "quoted_span": "It shall be unlawful and a violation of the “New Jersey Antitrust Act,” P.L.1970, c.73 (C.56:9-1 et seq.) for:",
+    "confidence": 0.93,
+    "conflict_flag": true,
+    "conflict_note": "Section 6(b) prohibits municipalities from enacting ordinances that conflict with the act, so it may preempt existing local algorithmic rent-setting ordinances (e.g., Jersey City, Hoboken) once effective; whether any conflict exists is unresolved.",
+    "review_note": "Section 6(b) bars conflicting municipal ordinances but does not name specific cities.",
+    "source_notes": null
+   }
+  ],
+  "no_rule_findings": [],
+  "doc_summary": "Official text of New Jersey P.L. 2026, c.43 (A3497 1R), the FAIR Act, approved July 20, 2026. It bars algorithmic and coordinated rent-setting software, treats violations as New Jersey Antitrust Act violations, prohibits conflicting municipal ordinances, and takes effect on the first day of the twelfth month after enactment."
+ }
+}

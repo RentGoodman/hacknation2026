@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D085:c2",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 4232,
+  "output_tokens": 784
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "After 30 days, an owner shall not terminate a tenancy without just cause, which shall be stated in a written notice.",
+    "note": "All parts of the requirement (causes, notice and cure, relocation assistance or rent waiver, tenant notification before Dec. 19, 2021) match the document."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "Under a no-fault just cause termination, the owner shall either provide 3 months of relocation assistance or waive payment of rent for the final 3 months of the tenancy.",
+    "note": "The 30-day threshold, notice and time to cure, and 3-month relocation or rent waiver are all stated in the document."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "supported",
+    "quoted_span": "The new ordinances are not effective until November 19, 2021.",
+    "note": "The document gives Nov. 19, 2021 as the effective date. It does not date the adoption beyond 'Tuesday night', which matches the rule's note."
+   },
+   {
+    "field": "status",
+    "verdict": "partly_supported",
+    "quoted_span": "The new ordinances are not effective until November 19, 2021.",
+    "note": "The document supports that the ordinance took effect on Nov. 19, 2021. It is a 2021 news release, so it does not state the ordinance is currently in force, though nothing in it suggests repeal."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "The Just Cause Ordinance shall not apply to certain types of residential property, including housing produced in the last 15 years; deed-restricted affordable housing; hotel and transient occupancy; hospital and care facilities; dormitories; and other shared living quarters.",
+    "note": "The exemption list, the 15-year new-construction exemption with no reference date given, and the 30-day threshold are all accurately reflected. The rule also flags that the list may not be exhaustive and that facts are unknown."
+   },
+   {
+    "field": "citation",
+    "verdict": "partly_supported",
+    "quoted_span": "a Just Cause Eviction Ordinance, which limits the allowed reasons for which a renter can be evicted",
+    "note": "The document names the Just Cause Eviction Ordinance and the 2021 timing. It gives no formal citation, and the aliases and 'Rent Stabilization and Just Cause Ordinance' naming are not stated as such."
+   }
+  ]
+ }
+}

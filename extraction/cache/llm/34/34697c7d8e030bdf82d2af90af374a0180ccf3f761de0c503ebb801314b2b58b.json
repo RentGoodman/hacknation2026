@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D057:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 585,
+  "output_tokens": 148
+ },
+ "result": {
+  "en": "In Massachusetts, a licensed broker or salesperson can work for either the tenant or the landlord but not both, and any broker fee must be paid only by the party who originally hired that broker.",
+  "es": "En Massachusetts, un corredor o vendedor con licencia puede trabajar para el inquilino o para el propietario, pero no para ambos, y cualquier comisión solo la paga la parte que contrató originalmente al corredor."
+ }
+}

@@ -1,0 +1,112 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "extract",
+ "subject": "D004",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 876,
+  "output_tokens": 2691
+ },
+ "result": {
+  "rules": [
+   {
+    "candidate_id": "c1",
+    "jurisdiction": "Berkeley, CA",
+    "category": "just_cause_eviction",
+    "status": "in_force",
+    "title": "Berkeley owner move-in eviction relocation assistance (Rent Stabilization and Good Cause for Eviction Ordinance), 2026 adjustment",
+    "requirement": "Owners must pay tenants relocation assistance when evicting for an owner move-in. The payments are indexed to inflation, and the Rent Board publishes the yearly increase. The 2026 amounts took effect January 1, 2026, after the Rent Board approved them on October 16, 2025.",
+    "key_value": "Standard payment $19,413; additional payment for qualifying households $6,471 (effective Jan. 1, 2026); a 1.5% increase tied to the 12-month CPI-U change for the San Francisco-Oakland-San Jose region",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Applies to tenants evicted for an owner move-in under Berkeley's Rent Stabilization and Good Cause for Eviction Ordinance. The additional payment applies to qualifying households. The page does not define the qualifying criteria.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": "The additional payment applies only to qualifying households."
+    },
+    "exemptions": null,
+    "event_only": true,
+    "applies_only_in": null,
+    "effective_date": "2026-01-01",
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "The 2026 adjusted amounts took effect Jan. 1, 2026. The underlying relocation requirement predates this and its original effective date is not stated.",
+    "effective_date_formula": null,
+    "citation": "Berkeley Rent Stabilization and Good Cause for Eviction Ordinance",
+    "citation_aliases": [
+     "Rent Ordinance",
+     "Berkeley Rent Stabilization and Good Cause for Eviction Ordinance, relocation assistance provisions"
+    ],
+    "quoted_span": "The Rent Stabilization and Good Cause for Eviction Ordinance requires owners to pay tenants relocation assistance in the event of an owner move-in eviction.",
+    "confidence": 0.8,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "The page gives no municipal code section number. Verify the codified citation.",
+    "source_notes": "Official Rent Board news notice published Oct. 27, 2025."
+   },
+   {
+    "candidate_id": "c2",
+    "jurisdiction": "Berkeley, CA",
+    "category": "just_cause_eviction",
+    "status": "in_force",
+    "title": "Berkeley Ellis Act eviction relocation assistance (Ellis Implementation Ordinance), 2026 adjustment",
+    "requirement": "Owners must pay tenants the same relocation assistance as for an owner move-in when evicting so the owner can remove the property from the rental housing market. The payments are indexed to inflation, and the Rent Board publishes the yearly increase. The 2026 amounts took effect January 1, 2026.",
+    "key_value": "Standard payment $19,413; additional payment for qualifying households $6,471 (effective Jan. 1, 2026); a 1.5% increase tied to the 12-month CPI-U change for the San Francisco-Oakland-San Jose region",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Applies to tenants evicted so the owner can withdraw the property from the rental market under Berkeley's Ellis Implementation Ordinance. The additional payment applies to qualifying households. The page does not define the qualifying criteria.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": "The additional payment applies only to qualifying households."
+    },
+    "exemptions": null,
+    "event_only": true,
+    "applies_only_in": null,
+    "effective_date": "2026-01-01",
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "The 2026 adjusted amounts took effect Jan. 1, 2026. The underlying relocation requirement predates this and its original effective date is not stated.",
+    "effective_date_formula": null,
+    "citation": "Berkeley Ellis Implementation Ordinance",
+    "citation_aliases": [
+     "Ellis Implementation Ordinance",
+     "Berkeley Ellis Act eviction relocation assistance"
+    ],
+    "quoted_span": "The Ellis Implementation Ordinance requires the same relocation assistance payments for tenants evicted so the owner can remove a property from the rental housing market.",
+    "confidence": 0.8,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "The page gives no municipal code section number. Verify the codified citation.",
+    "source_notes": "Official Rent Board news notice published Oct. 27, 2025."
+   }
+  ],
+  "no_rule_findings": [],
+  "doc_summary": "A Berkeley Rent Board notice (published Oct. 27, 2025) announcing the 2026 inflation adjustments to relocation assistance payments for owner move-in and Ellis Act evictions. The standard payment rises to $19,413 and the additional payment for qualifying households to $6,471, a 1.5% CPI-based increase effective January 1, 2026. The notice cites the Rent Stabilization and Good Cause for Eviction Ordinance and the Ellis Implementation Ordinance but gives no code section numbers."
+ }
+}

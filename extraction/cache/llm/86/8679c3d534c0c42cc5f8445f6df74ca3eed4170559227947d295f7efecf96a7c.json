@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D027:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 756,
+  "output_tokens": 187
+ },
+ "result": {
+  "en": "In California, a landlord cannot discriminate against or harass you because of your lawful, verifiable income, including Section 8 and HUD-VASH vouchers, and if the landlord checks credit history you can offer other proof of ability to pay.",
+  "es": "En California, un arrendador no puede discriminar ni acosarte por tu ingreso legal y verificable, incluidos los vales de Section 8 y HUD-VASH, y si el arrendador revisa el historial de crédito, puedes ofrecer otra prueba de tu capacidad de pago."
+ }
+}

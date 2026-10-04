@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D026:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 4094,
+  "output_tokens": 1399
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "In no case shall the amount of the application screening fee charged by the landlord or their agent be greater than thirty dollars ($30) per applicant.",
+    "note": "The fee cap, the two permitted screening processes, the receipt, the return of unused fees, the credit report copy within 7 days, the reusable report provision and the 'not security' rule all appear in the statute text."
+   },
+   {
+    "field": "key_value",
+    "verdict": "partly_supported",
+    "quoted_span": "The thirty dollar ($30) application screening fee may be adjusted annually by the landlord or their agent commensurate with an increase in the Consumer Price Index, beginning on January 1, 1998.",
+    "note": "The $30 base, the CPI adjustment, the itemized receipt, the 7-day credit report copy and the refund timing are all in the statute. The Berkeley Rent Board $68.96 figure for 2026 is not in this document."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "supported",
+    "quoted_span": "Effective January 1, 2026.",
+    "note": "The current text, as amended by Stats. 2025, Ch. 67, is effective 2026-01-01."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "(Amended by Stats. 2025, Ch. 67, Sec. 29.   (AB 1170)   Effective January 1, 2026.)",
+    "note": "The section is current law as amended. It carries no repeal or sunset language."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "“landlord” means an owner of residential rental property.",
+    "note": "Applicants are defined to include guarantors and cosigners. Subdivision (l) states the section is not intended to preempt federal or state housing assistance program fee rules."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "(Amended by Stats. 2025, Ch. 67, Sec. 29.",
+    "note": "The document is headed Cal. Code CIV 1950.6 and sits in Chapter 2, Hiring of Real Property. AB 1170 and Stats. 2025, Ch. 67 both appear."
+   }
+  ]
+ }
+}

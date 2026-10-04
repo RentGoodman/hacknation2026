@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D041:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 7300,
+  "output_tokens": 1557
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "partly_supported",
+    "quoted_span": "Rent may be increased once every 12 months by the allowable rent increase percentage",
+    "note": "The document supports the once-per-12-months rule, the removal of the utility and dependent add-ons, the 10% non-dependent tenant allowance within 60 days, the LAHD-approval programs, the market-rate reset triggers, the $1.61 and $3.00 surcharges, and the moratorium dates. It does not state the 3% rate, which is in a linked PDF. It does not give the $2.83 SCEP amount, only 1/12 of 50% of the annual fee. It does not mention the state 30-day notice rule."
+   },
+   {
+    "field": "key_value",
+    "verdict": "partly_supported",
+    "quoted_span": "A $1.61 monthly surcharge may be collected by the landlord as the tenant’s portion of the",
+    "note": "The document supports once per 12 months, the removal of the utility and dependent add-ons from Feb 2, 2026, the 10% for an added non-dependent tenant within 60 days, the $1.61 surcharge and the $3.00 smoke detector surcharge. The 3% rate for July 2025-June 2026 and the $2.83 SCEP surcharge do not appear in this document."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "supported",
+    "quoted_span": "Effective February 2, 2026, the landlord can no longer include an additional percentage increase for utilities.",
+    "note": "The document gives February 2, 2026 for the removal of the utility add-on and the dependent add-on."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "Rent may be increased once every 12 months by the allowable rent increase percentage",
+    "note": "The page, dated September 22, 2026, describes the rule as current, which is consistent with in_force. It does not use the phrase 'in force'."
+   },
+   {
+    "field": "coverage",
+    "verdict": "partly_supported",
+    "quoted_span": "Generally, the RSO applies to rental properties that were first built on or before October 1, 1978, as well as replacement units under",
+    "note": "The document supports the 1978 cutoff, replacement units under LAMC 151.28, the covered property types, the hotel and rooming house 30-day condition, the condominium and townhome 1995 limit, the luxury exemption and temporary exemptions. The claim that RSO units are outside the state AB 1482 cap is not in this document."
+   },
+   {
+    "field": "citation",
+    "verdict": "not_supported",
+    "quoted_span": null,
+    "note": "The document never cites L.A. Mun. Code § 151.06. It cites only LAMC Section 151.28 (replacement units) and 151.09.C.9 (eviction notice filing), plus RAC Regs and Ord. No. 187,108."
+   }
+  ]
+ }
+}

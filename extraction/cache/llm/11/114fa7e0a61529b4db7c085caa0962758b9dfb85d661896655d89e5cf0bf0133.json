@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D011:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 529,
+  "output_tokens": 202
+ },
+ "result": {
+  "en": "H.3744 was a petition from Boston's mayor and city council asking the Legislature to let the city adopt rent stabilization, but it was not enacted in the 2023-2024 session, so no Boston rent cap is in force under it.",
+  "es": "H.3744 fue una petición del alcalde y el concejo municipal de Boston para pedir a la Legislatura que permitiera a la ciudad adoptar la estabilización de alquileres, pero no fue aprobada en la sesión 2023-2024, así que no hay ningún límite de alquiler en Boston en vigor bajo esta medida."
+ }
+}

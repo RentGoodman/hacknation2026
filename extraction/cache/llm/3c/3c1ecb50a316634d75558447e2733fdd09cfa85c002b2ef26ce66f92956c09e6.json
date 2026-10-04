@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D066:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 3383,
+  "output_tokens": 1370
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "A landlord, or\nagent thereof, shall not require an application or other similar fee to apply\nto lease or sublease a residential rental property for dwelling purposes, which\nexceeds $50.",
+    "note": "The $50 cap, the $500/$750/$1,000 penalties, the Special Civil Part enforcement, remittance to the applicant, the CPI adjustment and the rulemaking all match the text. The document has the State Treasurer determine the adjustment amount, which the summary omits. This is a minor point."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "up to $500 for a\nfirst offense, up to $750 for a second offense, and up to $1,000 for each\nsubsequent offense",
+    "note": "The $50 cap and the penalty tiers match the document. The overcharge is remitted to the applicant. The January 1, 2027 start of CPI adjustment follows from the enactment date (January 20, 2026) and the 'January 1 of the year next following enactment' language."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "supported",
+    "quoted_span": "This act shall take effect on the first day of the\nfourth month next following the date of enactment",
+    "note": "Approved January 20, 2026, so the fourth month following is May, and the effective date is 2026-05-01."
+   },
+   {
+    "field": "status",
+    "verdict": "partly_supported",
+    "quoted_span": "This act shall take effect on the first day of the\nfourth month next following the date of enactment",
+    "note": "The document supports an effective date of May 1, 2026. It does not state a query date, so whether the rule is currently in force cannot be confirmed from the document alone."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "a dwelling unit\nlocated in a one-family or two-family dwelling that is offered for rent; or\n(2)  a licensee of the New Jersey Real Estate\nCommission, unless the licensee is the landlord of the residential rental\nproperty.",
+    "note": "One- and two-family dwellings are exempt, so min_units of 3 is a fair inference. The real estate licensee exemption is accurately captured."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "C.46:8-18.1  Residential rental property application fee not\nto exceed $50.",
+    "note": "The document gives the compiled citation C.46:8-18.1. The aliases C.46:8-18.2, P.L. 2025, c.405 and A4899 all appear in the document."
+   }
+  ]
+ }
+}

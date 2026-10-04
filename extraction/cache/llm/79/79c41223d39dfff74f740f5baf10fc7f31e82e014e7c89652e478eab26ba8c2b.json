@@ -1,0 +1,46 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "probe",
+ "subject": "Jersey City, NJ",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 31249,
+  "output_tokens": 937
+ },
+ "result": {
+  "verdicts": [
+   {
+    "category": "just_cause_eviction",
+    "verdict": "undetermined",
+    "doc_id": null,
+    "quoted_span": null,
+    "basis_citation": null,
+    "reason": "The Jersey City documents (D036, DX02, DX04, DX06, DX11) cover rent control (Chapter 260) and the algorithmic rent-fixing ban, and none says whether a just-cause eviction rule exists or is barred. The retrieved just-cause passages concern other jurisdictions (Los Angeles, San Diego, California state law and an unidentified city), not Jersey City."
+   },
+   {
+    "category": "security_deposits",
+    "verdict": "undetermined",
+    "doc_id": null,
+    "quoted_span": null,
+    "basis_citation": null,
+    "reason": "No document states that Jersey City lacks a security deposit rule. The retrieved D067 passages appear to describe New Jersey state security deposit requirements (e.g., return within 30 days, N.J.S.A. 46:8-21.1), which points against 'no rule' rather than supporting it. Whether and how that applies here is not settled by the documents."
+   },
+   {
+    "category": "application_screening_fees",
+    "verdict": "undetermined",
+    "doc_id": null,
+    "quoted_span": null,
+    "basis_citation": null,
+    "reason": "None of the Jersey City documents addresses application or screening fees. The retrieved passages concern California, Berkeley and Massachusetts rules, not Jersey City or New Jersey."
+   },
+   {
+    "category": "screening_restrictions",
+    "verdict": "undetermined",
+    "doc_id": null,
+    "quoted_span": null,
+    "basis_citation": null,
+    "reason": "No document addresses tenant screening restrictions (criminal history, credit, source of income) in Jersey City. The retrieved passages concern California and other jurisdictions, and the New Jersey guide excerpts retrieved cover tax rebates and legal services contacts, not screening."
+   }
+  ]
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "probe",
+ "subject": "San Diego, CA",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 46954,
+  "output_tokens": 949
+ },
+ "result": {
+  "verdicts": [
+   {
+    "category": "rent_increase_limits",
+    "verdict": "undetermined",
+    "doc_id": null,
+    "quoted_span": null,
+    "basis_citation": null,
+    "reason": "The San Diego ordinance's required notice (SDMC §98.0705) points tenants to state law (Civ. Code §1947.12) on rent increase limits. However, no document states that the City lacks or is barred from having its own rent increase limit, so the documents do not settle the question."
+   },
+   {
+    "category": "security_deposits",
+    "verdict": "undetermined",
+    "doc_id": null,
+    "quoted_span": null,
+    "basis_citation": null,
+    "reason": "SDMC §98.0706(c)(3) only mentions returning deposits alongside relocation assistance. No document addresses whether San Diego has or lacks a local security deposit rule."
+   },
+   {
+    "category": "application_screening_fees",
+    "verdict": "undetermined",
+    "doc_id": null,
+    "quoted_span": null,
+    "basis_citation": null,
+    "reason": "The retrieved passages on screening fees cover California state law and other jurisdictions (e.g., Berkeley, Massachusetts). None states whether San Diego has or lacks a local screening fee rule."
+   },
+   {
+    "category": "screening_restrictions",
+    "verdict": "undetermined",
+    "doc_id": null,
+    "quoted_span": null,
+    "basis_citation": null,
+    "reason": "SDMC §98.0706(d) only lets a landlord screen a displaced tenant who is offered re-rental, using industry accepted methods. No document says San Diego has no general tenant screening restrictions or is barred from adopting them."
+   }
+  ]
+ }
+}

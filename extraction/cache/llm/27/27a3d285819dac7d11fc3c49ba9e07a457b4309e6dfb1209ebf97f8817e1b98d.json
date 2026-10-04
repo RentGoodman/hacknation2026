@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D053:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 2349,
+  "output_tokens": 577
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "Such presumption shall be rebutted only by clear and convincing evidence that such person's action was not a reprisal against the tenant",
+    "note": "All elements of the requirement (protected activities, damages, six-month presumption, clear and convincing rebuttal, void waivers) match the statute text."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "shall be liable for damages which shall not be less than one month's rent or more than three month's rent, or the actual damages sustained by the tenant, whichever is greater, and the costs of the suit, including a reasonable attorney's fee.",
+    "note": "The six-month rebuttable presumption is also stated in the second paragraph."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The document gives no effective or enactment date and the field is empty."
+   },
+   {
+    "field": "status",
+    "verdict": "partly_supported",
+    "quoted_span": "Any waiver of this provision in any lease or other rental agreement shall be void and unenforceable.",
+    "note": "The text is presented as current codified law, but it contains no explicit statement of in-force status. The in_force value is only implied."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "Any person or agent thereof who threatens to or takes reprisals against any tenant of residential premises",
+    "note": "The summary correctly says there are no unit-count, building-age or owner-occupancy limits; the section states none. Null condition fields are consistent."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "General Law - Part II, Title I, Chapter 186, Section 18",
+    "note": "The document header matches G.L. c. 186, § 18."
+   }
+  ]
+ }
+}

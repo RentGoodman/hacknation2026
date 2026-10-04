@@ -1,0 +1,24 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "qa",
+ "subject": "D041:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 26742,
+  "output_tokens": 849
+ },
+ "result": {
+  "changes": [
+   {
+    "field": "conflict_flag",
+    "after_json": "false",
+    "reason": "Both official LAHD pages (D041, D042) give February 2, 2026, and no document, including the landlord association item DX12, gives 2026-01-24, so the documents show no conflict."
+   },
+   {
+    "field": "conflict_note",
+    "after_json": "null",
+    "reason": "The note rests only on an organizer report of a source outside the documents, and every document that addresses the date agrees on February 2, 2026."
+   }
+  ]
+ }
+}

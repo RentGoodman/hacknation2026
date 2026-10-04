@@ -1,0 +1,50 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D083:c5",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 46605,
+  "output_tokens": 1892
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": null,
+   "unverifiable_exemptions": [],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": true,
+   "landlord_size_condition": null,
+   "summary": "San Francisco tenant households temporarily displaced for less than 20 days for capital improvement work. The SF Rent Board states that relocation amounts for these displacements are governed by Cal. Civ. Code § 1947.9 rather than local Rent Ordinance § 37.9C.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": null,
+   "other_conditions": null
+  },
+  "evidence": [
+   {
+    "field": "may_preempt_local_rules",
+    "doc_id": "D083",
+    "quoted_span": "The amount of relocation payments for temporary capital improvement evictions for less than 20 days is governed by California Civil Code Section 1947.9 and not by Rent Ordinance Section 37.9C."
+   },
+   {
+    "field": "summary",
+    "doc_id": "D083",
+    "quoted_span": "Relocation payments for temporary displacement for less than 20 days"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D083",
+    "quoted_span": "Relocation Amount Due Per Tenant Household"
+   }
+  ],
+  "notes": "supersedes_state_rule was true and has been removed. This rule is itself the state statute. D083 says it displaces the local ordinance (§ 37.9C), not that it supersedes a state rule, so the displacement is now recorded as may_preempt_local_rules = true. other_conditions has been cleared: the less-than-20-day capital-improvement displacement is the triggering eviction event, which is landlord conduct and not a building, unit or owner attribute. The rule is event_only, and that trigger is already in the requirement. requires_unknown_facts is left null because the text of § 1947.9 is not in the documents, so its unit or building scope cannot be verified. No unit-count, construction-date, owner-occupancy or exemption limits appear in any document."
+ }
+}

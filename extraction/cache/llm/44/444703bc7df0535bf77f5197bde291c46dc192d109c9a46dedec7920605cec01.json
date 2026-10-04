@@ -1,0 +1,19 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "qa",
+ "subject": "D014:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 11914,
+  "output_tokens": 577
+ },
+ "result": {
+  "changes": [
+   {
+    "field": "category",
+    "after_json": "\"notice_requirement\"",
+    "reason": "D013 and D014 describe the HSNA only as a duty to serve a Notice of Tenants' Rights and Resources and file a copy with the City; it does not restrict the grounds for eviction, so just_cause_eviction is the wrong category."
+   }
+  ]
+ }
+}

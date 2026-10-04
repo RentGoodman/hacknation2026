@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D079:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 1516,
+  "output_tokens": 396
+ },
+ "result": {
+  "en": "In San Francisco, a landlord of a unit covered by the Rent Ordinance can evict only for one of 17 listed just causes, which must be the main motive, and for notices served 3/1/2026–2/28/2027 certain no-fault evictions require relocation payments of $8,245 per tenant (up to $24,733 per unit) or, for Ellis Act withdrawals, $11,110.05 per tenant (up to $33,330.13 per unit), with extra amounts for elderly or disabled tenants.",
+  "es": "En San Francisco, el propietario de una unidad cubierta por la Ordenanza de Alquileres solo puede desalojar por una de 17 causas justas, que debe ser el motivo principal, y para avisos entregados entre el 3/1/2026 y el 2/28/2027 ciertos desalojos sin culpa del inquilino exigen pagos de reubicación de $8,245 por inquilino (hasta $24,733 por unidad) o, en retiros bajo la Ley Ellis, $11,110.05 por inquilino (hasta $33,330.13 por unidad), con montos adicionales para inquilinos mayores o con discapacidad."
+ }
+}

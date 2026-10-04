@@ -1,0 +1,19 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "qa",
+ "subject": "D031:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 10352,
+  "output_tokens": 819
+ },
+ "result": {
+  "changes": [
+   {
+    "field": "category",
+    "after_json": "\"tenant_disclosure\"",
+    "reason": "D031 shows that Chapter 8.71 only requires landlords to give the City's Tenants Rights and Resources Guide at tenancy start and termination, and says it 'does not prevent a landlord from initiating an eviction action if otherwise allowed by law', so it is a tenant notice/disclosure rule rather than a just-cause eviction rule."
+   }
+  ]
+ }
+}

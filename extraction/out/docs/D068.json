@@ -1,0 +1,38 @@
+{
+  "doc_id": "D068",
+  "source_url": "https://www.nj.gov/oag/dcr/downloads/kyrhousing02.pdf",
+  "model": "anthropic:claude-sonnet-5-5",
+  "query_date": "2026-10-01",
+  "chunks": 1,
+  "rules": [
+    {
+      "jurisdiction": "NJ",
+      "level": "state",
+      "category": "screening_restrictions",
+      "status": "in_force",
+      "title": "Source-of-lawful-income discrimination ban (NJ Law Against Discrimination)",
+      "requirement": "The NJ Law Against Discrimination prohibits housing discrimination based on the source of lawful income or the source of lawful rent or mortgage payment. A landlord cannot deny a Section 8 voucher holder the right to rent solely because of that income source.",
+      "key_value": null,
+      "coverage_conditions": {
+        "summary": "Applies to the sale or rental of all property, business or residential, except the listed exemptions (owner-occupied two-family unit, room rentals in an owner-occupied one-family dwelling, religious organization preference).",
+        "construction_date_basis": null,
+        "built_on_or_before": null,
+        "built_after": null,
+        "min_building_age_years": null,
+        "min_units": null,
+        "max_units": null,
+        "owner_conditions": "Exempt: rental of a single apartment in a two-family dwelling where the owner occupies the other unit as a residence; rental of rooms by the owner or occupant of an owner-occupied one-family dwelling.",
+        "other_conditions": "Religious organizations may give preference to persons of the same religion."
+      },
+      "exemptions": "Rental of a single apartment or flat in a two-family dwelling where the owner lives in the other unit; rental of a room or rooms in an owner-occupied one-family dwelling; religious organization preference for persons of the same religion in sale, lease or rental.",
+      "interaction": null,
+      "effective_date": null,
+      "citation": "New Jersey Law Against Discrimination (LAD)",
+      "quoted_span": "This\nmeans, for example, that a landlord cannot deny the\nlawful recipient of a Section 8 HUD voucher the right to\nrent an apartment based solely on that source of lawful\nincome.",
+      "confidence": 0.6,
+      "conflict_flag": false,
+      "conflict_note": null
+    }
+  ],
+  "rejected": []
+}

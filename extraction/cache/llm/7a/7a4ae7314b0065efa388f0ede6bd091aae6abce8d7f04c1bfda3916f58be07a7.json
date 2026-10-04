@@ -1,0 +1,17 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "cell",
+ "subject": "Los Angeles, CA|algorithmic_rent_setting",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 3826,
+  "output_tokens": 231
+ },
+ "result": {
+  "cell_status": "silent",
+  "no_rule_quote": null,
+  "no_rule_passage_id": null,
+  "basis_citation": null,
+  "rules": []
+ }
+}

@@ -1,0 +1,19 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "qa",
+ "subject": "D043:c3",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 25568,
+  "output_tokens": 583
+ },
+ "result": {
+  "changes": [
+   {
+    "field": "in_force_since",
+    "after_json": "\"2025-02-11\"",
+    "reason": "D043 says the RPO has been in effect since 2/11/2025 under Ordinances #188481 and #188482, and the record already marks it in_force with that effective date, so in_force_since should not be null."
+   }
+  ]
+ }
+}

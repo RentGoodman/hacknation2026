@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D004:c2",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 2264,
+  "output_tokens": 730
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "The Ellis Implementation Ordinance requires the same relocation assistance payments for tenants evicted so the owner can remove a property from the rental housing market.",
+    "note": "Same-payments-as-OMI, inflation indexing, Rent Board publication, $19,413/$6,471, 1.5% CPI-U SF-Oakland-San Jose, and Oct 16, 2025 approval are all in the document."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "The standard relocation assistance payment will increase to\n$19,413\n.",
+    "note": "The additional $6,471 for qualifying households and Jan 1, 2026 effective date are also stated."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "supported",
+    "quoted_span": "Annual increases for owner move-in and Ellis Act eviction relocation assistance payments go into effect January 1, 2026.",
+    "note": "Matches the effective date of the adjusted amounts; the note correctly says the original ordinance date is not stated."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "Annual increases for owner move-in and Ellis Act eviction relocation assistance payments go into effect January 1, 2026.",
+    "note": "The document treats the Ellis Implementation Ordinance as currently operative and requiring these payments; 'in_force' is a reasonable inference."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "The Ellis Implementation Ordinance requires the same relocation assistance payments for tenants evicted so the owner can remove a property from the rental housing market.",
+    "note": "Coverage summary matches. Other coverage fields are null and the document states no further conditions or exemptions."
+   },
+   {
+    "field": "citation",
+    "verdict": "partly_supported",
+    "quoted_span": "The Ellis Implementation Ordinance requires the same relocation assistance payments",
+    "note": "The document names the 'Ellis Implementation Ordinance' but not 'Berkeley' in the name or any code section. The alias 'Berkeley Ellis Act eviction relocation assistance' is not a document-stated title. The review note acknowledges the missing code section."
+   }
+  ]
+ }
+}

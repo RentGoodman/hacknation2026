@@ -1,0 +1,119 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "extract",
+ "subject": "D006",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 4976,
+  "output_tokens": 4218
+ },
+ "result": {
+  "rules": [
+   {
+    "candidate_id": "c1",
+    "jurisdiction": "Berkeley, CA",
+    "category": "rent_increase_limits",
+    "status": "in_force",
+    "title": "Measure BB: 5% cap on Annual General Adjustment (Berkeley Rent Ordinance)",
+    "requirement": "The Annual General Adjustment (AGA), the yearly amount a landlord of a fully covered unit may raise rent, is set by the Rent Board using a CPI-linked formula. Measure BB caps it at 5%. Landlords with banked (unused) prior AGAs may still raise rent above 5% to reach the rent ceiling. Government-owned or -subsidized units registered as fully covered now have a rent ceiling limited by the AGA. Utility charges for fully covered units must be in base rent or separately metered in the tenant's name (tenancies from Feb. 6, 2024). Rent ceiling increases for capital improvements require a petition and only for completed improvements.",
+    "key_value": "AGA maximum 5% (CPI-based formula, capped); banked AGAs may exceed 5% up to the rent ceiling",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [
+      "Government-subsidized units whose federal/state law or regulation prohibits rent control (Section 202, Section 811, HUD-insured project-based subsidies) are only partially covered and have no rent ceiling"
+     ],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Applies to fully covered units under the Rent Ordinance (rent ceiling units); partially covered and exempt units are not subject to the AGA.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": "Fully covered units include most units in multifamily properties built before 1980; new construction (certificate of occupancy after 1980), most single-family homes and most condominiums are partially covered (the document gives this table for subsidized units)."
+    },
+    "exemptions": "Partially covered and exempt units; subsidized units barred by federal/state law from rent control.",
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": "2024-12-20",
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "Document says Measure BB passed in the November 2024 election and gives no headline effective date. 2024-12-20 is inferred from the tenancy-start date in the Notice of Tenant Rights section. The utilities provision refers to tenancies starting on or after 2024-02-06.",
+    "effective_date_formula": null,
+    "citation": "Berkeley Mun. Code ch. 13.76",
+    "citation_aliases": [
+     "Measure BB",
+     "Berkeley Rent Ordinance",
+     "Annual General Adjustment"
+    ],
+    "quoted_span": "The maximum AGA is 5%. This means that, if the formula in the Rent Ordinance results in an AGA that is greater than 5%, the AGA approved by the Board for that year can be no more than 5%.",
+    "confidence": 0.8,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "Chapter citation not stated in the document; the Rent Ordinance is named instead. Exact AGA percentage each year is set by the Board and not given here.",
+    "source_notes": "Official Rent Board explainer of Measure BB."
+   },
+   {
+    "candidate_id": "c2",
+    "jurisdiction": "Berkeley, CA",
+    "category": "just_cause_eviction",
+    "status": "in_force",
+    "title": "Measure BB: just cause eviction changes and eviction notice requirements (Berkeley Rent Ordinance)",
+    "requirement": "Tenants in fully or partially covered units cannot be evicted without just cause. Measure BB bars eviction for nonpayment unless rental debt is at least one month of HUD Fair Market Rent for an equivalent unit. It bars eviction for refusing to sign a substantially similar new fixed-term lease. Lease-breach evictions require a mutually agreed material term, substantial actual damage to the landlord and unreasonable tenant behavior, and the notice to stop must specify the term and describe the violation and harm. Any termination notice must say Rent Board advice is available and give the Board's housing counseling phone number and website. Copies of termination notices, notices to quit and summons and complaints must be filed with the Rent Board within 3 business days of service. Landlords must give a Notice of Tenant Rights within 15 days of the start of tenancies beginning on or after Dec. 20, 2024, and post it in any interior common area. Owner move-in relocation assistance must be adjusted for inflation each year. Government-owned or -subsidized units are now fully or partially covered. Shared-kitchen or bath units are exempt only if the landlord lived on the property before the tenancy began.",
+    "key_value": "Nonpayment eviction only if debt is at least 1 month HUD FMR (Oakland-Fremont metro); file notices and lawsuits with Rent Board within 3 business days; tenant rights notice within 15 days of tenancy start",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [
+      "Units exempt from the Rent Ordinance",
+      "Government-subsidized units (Section 8, Shelter Plus Care, LIHTC, etc.)"
+     ],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Applies to units fully or partially covered by the Rent Ordinance; exempt units are outside it. Shared kitchen/bath units with the landlord are exempt only if the landlord lived on the property at the start of the tenancy.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": "Shared-facility exemption applies only if the landlord resided on the same property before the tenant.",
+     "other_conditions": null
+    },
+    "exemptions": "Units exempt from the Rent Ordinance.",
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": "2024-12-20",
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "Document says Measure BB passed in the November 2024 election and gives no headline effective date. 2024-12-20 is inferred from the tenancy-start date in the Notice of Tenant Rights section.",
+    "effective_date_formula": null,
+    "citation": "Berkeley Mun. Code ch. 13.76",
+    "citation_aliases": [
+     "Measure BB",
+     "Berkeley Rent Ordinance",
+     "Just Cause for Eviction"
+    ],
+    "quoted_span": "For a landlord to evict a tenant for nonpayment of rent, the tenant must owe an amount of rental debt equal to or greater than one month of the Fair Market Rent (FMR) value for a unit of equivalent size in the metro area Oakland-Fremont, CA HUD Metro FMR as determined by the US Department of Housing and Urban Development for the fiscal year in which the rent is demanded.",
+    "confidence": 0.8,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "Chapter citation not stated in the document. Owner move-in relocation dollar amounts are not given. Fines for late tenancy reporting require Board regulations that have not been adopted.",
+    "source_notes": "Official Rent Board explainer of Measure BB."
+   }
+  ],
+  "no_rule_findings": [],
+  "doc_summary": "Official Berkeley Rent Board page explaining the amendments Measure BB made to the Rent Ordinance after the November 2024 election. It caps the Annual General Adjustment at 5%. It also changes just cause eviction rules (nonpayment threshold, lease-breach standards, notice contents, 3-business-day filing with the Rent Board, Notice of Tenant Rights) and brings subsidized units under the ordinance. It also covers utility charges, tenant organizing, capital improvement petitions and tenancy reporting."
+ }
+}

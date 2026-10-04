@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D011:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 532,
+  "output_tokens": 188
+ },
+ "result": {
+  "en": "H.3744 was a petition asking the Legislature to let Boston adopt rent stabilization, but it was not enacted before the 193rd General Court (2023–2024) ended, so it put no rent stabilization in force in Boston.",
+  "es": "H.3744 fue una petición para que la Legislatura permitiera a Boston adoptar la estabilización de alquileres, pero no se aprobó antes de que terminara la 193.ª Corte General (2023–2024), por lo que no puso en vigor ninguna estabilización de alquileres en Boston."
+ }
+}

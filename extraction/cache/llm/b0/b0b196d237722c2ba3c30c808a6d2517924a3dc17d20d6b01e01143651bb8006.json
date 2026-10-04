@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "DX12:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 530,
+  "output_tokens": 273
+ },
+ "result": {
+  "en": "Landlords of RSO units in Los Angeles must pay tenants interest on security deposits, accruing monthly from November 1, 1990 at a rate the City sets each year, paid directly or as a rent credit (the landlord's choice, told to the tenant in writing) monthly or yearly, not just at the end of the tenancy.",
+  "es": "Los propietarios de unidades RSO en Los Ángeles deben pagar a los inquilinos intereses sobre los depósitos de seguridad, que se acumulan mensualmente desde el 1 de noviembre de 1990 a una tasa que la Ciudad fija cada año, y se pagan directamente o como crédito en la renta (a elección del propietario, informada al inquilino por escrito) cada mes o cada año, no solo al final del arrendamiento."
+ }
+}

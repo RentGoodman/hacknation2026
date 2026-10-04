@@ -1,0 +1,45 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "DX06:c5",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 5705,
+  "output_tokens": 1170
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": false,
+   "unverifiable_exemptions": [],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Applies to Philadelphia residential rentals, as invoked by tenant classes against landlords. The only source, a secondary one, states no building-type, unit-count, construction-date or landlord-size limits for Phila. Code § 9-813.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": null,
+   "other_conditions": null
+  },
+  "evidence": [
+   {
+    "field": "summary",
+    "doc_id": "DX06",
+    "quoted_span": "a class of Philadelphia tenants allege that Willow Bridge subscribed to and used RealPage services in violation of Philadelphia Code § 9-813"
+   },
+   {
+    "field": "requires_unknown_facts",
+    "doc_id": "DX06",
+    "quoted_span": "Philadelphia’s ordinance permits an aggrieved person to elect statutory damages of $2,000 per violation or treble actual damages, together with equitable relief, interest and attorney fees and costs."
+   }
+  ],
+  "notes": "DX06 is a secondary law-firm alert and does not reproduce the ordinance's coverage provisions. All coverage limits are therefore null. requires_unknown_facts is set to false because nothing in the source limits the ordinance to a class of buildings that assessor data cannot identify, such as subsidized units; it reads as a general restriction on landlords' use of algorithmic rent coordination. This should be checked against the official text of Phila. Code § 9-813, including any unit-count or landlord-size thresholds (compare Portland's 16-unit threshold, which the same alert mentions) and any exemptions. The original summary described the absence of coverage limits, which cannot be supported by a verbatim quote, so it was rewritten to rest on the source's description of tenant claims."
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "cell",
+ "subject": "San Francisco, CA|security_deposits",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 4343,
+  "output_tokens": 1338
+ },
+ "result": {
+  "cell_status": "rules_found",
+  "no_rule_quote": null,
+  "no_rule_passage_id": null,
+  "basis_citation": null,
+  "rules": [
+   {
+    "jurisdiction": "San Francisco, CA",
+    "category": "security_deposits",
+    "status": "in_force",
+    "title": "San Francisco Rent Board annual security deposit interest rate",
+    "requirement": "The SF Rent Board publishes an annual rate of interest on tenant security deposits. For March 1, 2026 through February 28, 2027 the rate is 4.2%. Prior periods were 5.0% (Mar 2025–Feb 2026) and 5.2% (Mar 2024–Feb 2025).",
+    "key_value": "Security deposit interest 4.2% for March 1, 2026 – February 28, 2027 (5.0% for 2025–26; 5.2% for 2024–25)",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Coverage is not stated in the passage; it is a Rent Board rate bulletin for security deposit interest.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": null
+    },
+    "exemptions": null,
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": "2026-03-01",
+    "enacted_date": null,
+    "sunset_date": "2027-02-28",
+    "effective_date_note": "The rate applies for the period March 1, 2026 – February 28, 2027, and the Rent Board resets it each year.",
+    "effective_date_formula": null,
+    "citation": "S.F. Rent Board Security Deposit Interest Rate (Mar. 1, 2026–Feb. 28, 2027)",
+    "citation_aliases": [
+     "SF Rent Board Current Rates: Security Deposit Interest"
+    ],
+    "quoted_span": "4.2% for March 1, 2026 – February 28, 2027",
+    "confidence": 0.6,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "The passage does not name the ordinance section that authorizes the interest requirement, so the citation is the rate bulletin itself. The passage gives no deposit cap, return deadline or deduction rules for San Francisco.",
+    "source_notes": "Official SF.gov Rent Board rates page.",
+    "passage_id": "p1"
+   }
+  ]
+ }
+}

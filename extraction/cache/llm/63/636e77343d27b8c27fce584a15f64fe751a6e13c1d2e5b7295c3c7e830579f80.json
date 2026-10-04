@@ -1,0 +1,18 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "date_audit",
+ "subject": "D004:c2",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 21192,
+  "output_tokens": 365
+ },
+ "result": {
+  "requirement_is_new": false,
+  "in_force_since": null,
+  "in_force_since_evidence": null,
+  "current_version_effective": "2026-01-01",
+  "prior_version_note": "The 2026 amounts are a 1.5% upward adjustment of the previous amounts, which the documents do not state. Ellis Act relocation payments were required before 2026, but the original effective date of the Ellis Implementation Ordinance is not given.",
+  "effective_date_formula": null
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D058:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 2306,
+  "output_tokens": 778
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "partly_supported",
+    "quoted_span": "A notice to quit for nonpayment of rent given in writing by a landlord to a residential tenant pursuant to this chapter shall be accompanied by a form that shall include, but not be limited to:",
+    "note": "The core requirement is supported, but some details are off. The 'RAFT' name is not in the text (it says 'residential assistance for families in transition program'). 'Most common non-English languages' is a paraphrase of 'the 5 most common languages... in addition to English'. The form must display the statement, which the rule restates in paraphrase. 'Posts' stands in for 'make it publicly available on its website'."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "No court having jurisdiction over an action for summary process pursuant to chapter 239, including the Boston municipal court department, shall, in an eviction for nonpayment of rent for a residential dwelling unit, accept for filing a writ, summons or complaint without proof of delivery of the form required under this section.",
+    "note": "The mandatory form and the filing bar without proof of delivery are both in the text."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The field is empty and the document states no effective date."
+   },
+   {
+    "field": "status",
+    "verdict": "partly_supported",
+    "quoted_span": "Section 31. (a) A notice to quit for nonpayment of rent given in writing by a landlord to a residential tenant pursuant to this chapter shall be accompanied by a form",
+    "note": "The document is the codified section in present-tense text, which is consistent with in_force. It states no explicit status, repeal, or effective-date information."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "in an eviction for nonpayment of rent for a residential dwelling unit",
+    "note": "The text is limited to residential tenants and dwelling units and states no unit-count, construction-date, landlord-size, or owner-occupancy exemptions. 'Statewide' is inferred from the general-law context."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "General Law - Part II, Title I, Chapter 186, Section 31",
+    "note": "The citation G.L. c. 186, § 31 matches. The alias c. 239 is supported by the text's reference to 'chapter 239'."
+   }
+  ]
+ }
+}

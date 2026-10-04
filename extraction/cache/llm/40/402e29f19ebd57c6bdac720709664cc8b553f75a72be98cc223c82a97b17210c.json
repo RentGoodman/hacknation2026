@@ -1,0 +1,47 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "DX21:c2",
+ "prompt_version": "v10",
+ "usage": {},
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "No landlord shall bring any action to recover possession of a dwelling unit as a reprisal for the tenant's efforts to secure or enforce any right under this chapter.",
+    "note": "The policy statement in § 19:2-1(d) does mention fear of eviction without just cause. Section 19:2-14 and the rest of the chapter list no eviction causes, notice periods or relocation assistance."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "No landlord shall bring any action to recover possession of a dwelling unit as a reprisal for the tenant's efforts to secure or enforce any right under this chapter.",
+    "note": "The key_value is a faithful short form of the operative sentence."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The field is empty. The document gives only the adoption and amendment history for § 19:2-14 (9-5-2017; amended 9-18-2024) and states no separate effective date."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "§ 19:2-14. RETALIATORY EVICTION.\n[Ord. 6 PSF-A(S), 9-5-2017; amended 9-18-2024 by Ord. No. 6PSF-I, 09-18-2024]",
+    "note": "The section appears as current code text in a document dated October 3, 2026. No repeal or sunset is shown, so in_force is consistent with the document."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "All multiple dwellings, as defined in subsection 19:2-2, are subject to Rent Control pursuant to this Title XIX Rent Control,",
+    "note": "The summary matches the § 19:2-2.1 applicability rule and the § 19:2-2 exemptions list. The 30-year new-construction exemption is a cap, \"whichever is less\" than the initial mortgage amortization period. It requires a Certificate of Occupancy and an owner application or filing. The unverifiable exemptions match the exemption text and § 19:2-18.2."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "§ 19:2-14. RETALIATORY EVICTION.",
+    "note": "The section number and ordinance references (Ord. 6 PSF-A(S), Ord. No. 6PSF-I) appear in the document. The \"Revised General Ordinances\" naming appears in § 19:2-18.5. \"Newark Rent Control Ordinance\" is a descriptive alias that the document does not state verbatim."
+   }
+  ]
+ }
+}

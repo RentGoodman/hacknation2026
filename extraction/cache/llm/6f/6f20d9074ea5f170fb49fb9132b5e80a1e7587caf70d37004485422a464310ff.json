@@ -1,0 +1,573 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "consolidate",
+ "subject": "CA",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 168224,
+  "output_tokens": 23911
+ },
+ "result": {
+  "rules": [
+   {
+    "candidate_id": "D024:c1",
+    "jurisdiction": "CA",
+    "category": "rent_increase_limits",
+    "status": "in_force",
+    "title": "California statewide rent cap (Tenant Protection Act, Civ. Code § 1947.12)",
+    "requirement": "Over any 12-month period, an owner of residential real property may not raise the gross rental rate by more than 5% plus the percentage change in the cost of living, or 10%, whichever is lower. The base is the lowest gross rental rate charged in the 12 months before the increase. Accepted discounts, incentives, concessions and credits are excluded from that base, and they must be listed separately in the lease. If the same tenant stays in the unit, the rent may be raised in no more than two increments in 12 months. When no tenant from the prior tenancy remains, the owner may set the initial rent for the new tenancy. Increase notices follow Civ. Code § 827. Tenants may not sublease for more than the allowed rent. The CPI used is the regional CPI-U (April-to-April), or the California CPI where no regional index is published, rounded to the nearest 0.1%. Waivers are void. An owner who collects rent above the cap is liable for injunctive relief, the excess rent, and attorney's fees. Damages rise to up to 3x the excess if the owner acted willfully, oppressively, fraudulently or maliciously. The Attorney General, city attorney or county counsel may also enforce. Suits must be brought within 3 years.",
+    "key_value": "Lower of 5% + regional CPI change or 10% per 12 months; max 2 increments per 12 months; LAHD lists 8.9% for 8/1/2024-7/31/2025 and 8.8% for 8/1/2023-7/31/2024 (Los Angeles area); current-period figure not stated in the documents; repealed Jan. 1, 2030",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": {
+      "years": 15,
+      "basis": "certificate of occupancy issued within the previous 15 years (rolling; mobilehomes not exempt on this basis)",
+      "requires_owner_filing": false
+     },
+     "owner_occupied_exemption_max_units": 2,
+     "requires_unknown_facts": true,
+     "unverifiable_exemptions": [
+      "Housing restricted by deed, regulatory agreement or recorded document as affordable housing, or subject to an affordable-housing subsidy agreement",
+      "Dormitories owned and operated by a higher-education institution or K-12 school",
+      "Separately alienable property (e.g. single-family home or condo) whose owner is not a REIT, corporation, LLC with a corporate member or mobilehome park management, where tenants received the statutory written exemption notice",
+      "Owner-occupied two-unit structure (owner occupied one unit at the start of the tenancy and still does; neither unit an ADU or JADU)"
+     ],
+     "yields_to_local_rule": true,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": false,
+     "landlord_size_condition": null,
+     "summary": "Statewide cap on residential dwellings and units, including units in mobilehome parks. Exempt: housing with a certificate of occupancy issued within the previous 15 years (rolling), housing under a valid local rent control that limits annual increases below this cap, and the listed exemptions. Where a stricter local rent ordinance applies (e.g. Los Angeles RSO, San Francisco, Berkeley, Santa Ana), the local rule governs. Homeowners of mobilehomes are not covered.",
+     "construction_date_basis": "certificate_of_occupancy (rolling 15-year window)",
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": 15,
+     "owner_conditions": "Separately alienable property is exempt only for a non-REIT, non-corporate owner (and not an LLC with a corporate member or mobilehome park management) that gave the written exemption notice. An owner-occupied duplex is exempt while the owner continues in occupancy.",
+     "other_conditions": "Does not authorize local limits beyond Civ. Code ch. 2.7 (§ 1954.50 et seq.) and does not limit existing local rent-control authority. Applies to increases on or after March 15, 2019, or on or after Feb. 18, 2021 for mobilehome tenancies."
+    },
+    "exemptions": "Deed-restricted or subsidized affordable housing; school and university dormitories; housing under stricter local rent or price control; housing with a certificate of occupancy within the previous 15 years (except mobilehomes); separately alienable property with a qualifying non-corporate owner and written notice; owner-occupied duplex; homeowners of mobilehomes.",
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": "2024-04-01",
+    "enacted_date": null,
+    "sunset_date": "2030-01-01",
+    "effective_date_note": "The current version (Stats. 2023, ch. 290, SB 567) was effective Jan. 1, 2024 and is operative April 1, 2024 by its own terms (subd. (n)). The cap applies to rent increases on or after March 15, 2019 (Feb. 18, 2021 for mobilehome tenancies). Repealed as of Jan. 1, 2030 (subd. (o)).",
+    "effective_date_formula": null,
+    "citation": "Cal. Civ. Code § 1947.12",
+    "citation_aliases": [
+     "AB 1482",
+     "Tenant Protection Act of 2019",
+     "SB 567",
+     "Stats. 2023, ch. 290",
+     "Cal. Civ. Code § 1947.12(a)",
+     "Cal. Civ. Code div. 3, pt. 4, tit. 5, ch. 2"
+    ],
+    "quoted_span": "an owner of residential real property shall not, over the course of any 12-month period, increase the gross rental rate for a dwelling or a unit more than 5 percent plus the percentage change in the cost of living, or 10 percent, whichever is lower, of the lowest gross rental rate charged for that dwelling or unit at any time during the 12 months prior to the effective date of the increase.",
+    "confidence": 0.95,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "The percentage cap changes each August 1 by CPI region. The LAHD page lists LA-area figures only through July 31, 2025, so the current figure must be computed from the CPI.",
+    "source_notes": "Official statute text (D024). LAHD's JCO page (D040) describes the same cap and exemptions under the name AB 1482.",
+    "source_doc_id": "D024",
+    "from_candidates": [
+     "D024:c1",
+     "D040:c2",
+     "cell:CA:rent_increase_limits:1"
+    ],
+    "also_supported_by": [
+     {
+      "doc_id": "D040",
+      "quoted_span": "limited to no more than 5% plus the percentage change in the cost of living for the region in which the property is located, or 10% whichever is lower"
+     }
+    ]
+   },
+   {
+    "candidate_id": "D023:c1",
+    "jurisdiction": "CA",
+    "category": "just_cause_eviction",
+    "status": "in_force",
+    "title": "California Tenant Protection Act just-cause eviction (Civ. Code § 1946.2)",
+    "requirement": "Once a tenant has lawfully occupied a unit for 12 months, the owner may terminate the tenancy only for just cause, which must be stated in the written notice. If an adult tenant was added before 24 months, the rule applies when all tenants have 12 months or any tenant has 24 months.\n\nAt-fault causes: nonpayment, material lease breach, nuisance, waste, refusal to renew a similar lease, criminal activity, unauthorized assignment or subletting, refusal of lawful entry, unlawful use, an employee's failure to vacate, and failure to deliver possession after the tenant's own notice. A curable violation requires a notice to cure before a 3-day notice to quit.\n\nNo-fault causes:\n- Owner or relative move-in. The occupant must move in within 90 days and stay 12 months. For leases from July 1, 2020, the tenant must agree or the lease must allow it.\n- Withdrawal from the rental market.\n- Government or court vacate order.\n- Demolition or substantial remodel requiring at least 30 consecutive days of vacancy, with the specified notice contents.\n\nFor any no-fault termination, the owner must either pay relocation of one month's rent within 15 days or waive the final month's rent, and must state this right in the notice.\n\nOwners must give tenants a prescribed notice of these rights. Noncompliance voids the notice. Tenants may recover actual damages, attorney's fees, and up to 3x damages for willful violations. The Attorney General and local prosecutors may seek injunctions. Waivers are void.",
+    "key_value": "Just cause after 12 months (24 months if an adult tenant was added); no-fault relocation = 1 month's rent within 15 calendar days or waiver of the final month's rent; owner move-in occupant within 90 days for 12 months; remodel requires at least 30 consecutive days vacated; up to 3x actual damages for willful violations; repealed Jan. 1, 2030",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": {
+      "years": 15,
+      "basis": "certificate of occupancy issued within the previous 15 years (rolling; not applicable to mobilehomes)",
+      "requires_owner_filing": false
+     },
+     "owner_occupied_exemption_max_units": 2,
+     "requires_unknown_facts": true,
+     "unverifiable_exemptions": [
+      "Housing restricted by deed, regulatory agreement or recorded document as affordable housing, or subject to a housing subsidy agreement",
+      "Separately alienable property whose owner is not a REIT, corporation, LLC with a corporate member or mobilehome park management, where tenants received the written exemption notice",
+      "Owner-occupied single-family residence renting no more than two units or bedrooms; owner-occupied duplex (neither unit an ADU or JADU)",
+      "Tenant shares a bathroom or kitchen with an owner who lives there",
+      "Transient hotels; nonprofit hospital, religious, extended care, RCFE and adult residential facilities; school dormitories"
+     ],
+     "yields_to_local_rule": true,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Statewide just-cause rule for residential real property, including units in mobilehome parks, after 12 months of occupancy. Exempt: housing with a certificate of occupancy within the previous 15 years and the listed categories. Property covered by a local just-cause ordinance adopted on or before Sept. 1, 2019, or by a more protective later ordinance (e.g. LA JCO/RSO, San Francisco, Berkeley, San Diego, Santa Ana), follows the local ordinance instead. A property is never subject to both.",
+     "construction_date_basis": "certificate_of_occupancy (rolling 15-year window)",
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": 15,
+     "owner_conditions": "The separately alienable property exemption requires a non-corporate, non-REIT owner and the written notice. The owner-occupied duplex exemption lasts only while the owner remains in occupancy.",
+     "other_conditions": "A local ordinance adopted after Sept. 1, 2019 that is less protective than this section is not enforced unless this section is repealed. Does not apply to homeowners of mobilehomes."
+    },
+    "exemptions": "Transient and tourist hotels; nonprofit hospital, religious, extended care, RCFE and adult residential facilities; school dormitories; shared bathroom or kitchen with a resident owner; owner-occupied single-family residence (up to two units or bedrooms rented) or mobilehome; owner-occupied duplex; housing with a certificate of occupancy within 15 years (except mobilehomes); qualifying separately alienable property with notice; deed-restricted or subsidized affordable housing; property under a qualifying local just-cause ordinance.",
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": "2024-04-01",
+    "enacted_date": null,
+    "sunset_date": "2030-01-01",
+    "effective_date_note": "Subdivision (m) makes this version operative April 1, 2024. It was most recently amended by Stats. 2025, ch. 203 (AB 1529), effective Jan. 1, 2026. Repealed as of Jan. 1, 2030 (subd. (n)). The original 2020 start date is not stated in the document; it refers to leases and notices from July 1, 2020 (July 1, 2022 for mobilehomes).",
+    "effective_date_formula": null,
+    "citation": "Cal. Civ. Code § 1946.2",
+    "citation_aliases": [
+     "AB 1482",
+     "Tenant Protection Act of 2019",
+     "AB 1529",
+     "Stats. 2025, ch. 203",
+     "Cal. Civ. Code § 1946.2(d)",
+     "Cal. Civ. Code div. 3, pt. 4, tit. 5, ch. 2"
+    ],
+    "quoted_span": "after a tenant has continuously and lawfully occupied a residential real property for 12 months, the owner of the residential real property shall not terminate a tenancy without just cause, which shall be stated in the written notice to terminate tenancy.",
+    "confidence": 0.93,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "Relocation assistance under subd. (d) is folded into this record. The state relocation is credited against any other relocation required by law, such as local amounts.",
+    "source_notes": "Official statute text (D023).",
+    "source_doc_id": "D023",
+    "from_candidates": [
+     "D023:c1",
+     "cell:CA:just_cause_eviction:1"
+    ],
+    "also_supported_by": []
+   },
+   {
+    "candidate_id": "D083:c5",
+    "jurisdiction": "CA",
+    "category": "just_cause_eviction",
+    "status": "in_force",
+    "title": "Relocation payments for temporary capital-improvement displacement of less than 20 days (Civ. Code § 1947.9)",
+    "requirement": "For temporary capital improvement evictions lasting less than 20 days, relocation payments are governed by Civ. Code § 1947.9, not S.F. Rent Ordinance § 37.9C. The San Francisco Rent Board publishes a per-day payment per tenant household plus actual moving expenses, set by the date the notice is served.",
+    "key_value": "Notices served 3/1/2026-2/28/2027: $446.00/day per tenant household plus actual moving expenses (3/1/2025-2/28/2026: $436.00/day)",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": true,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Tenant households temporarily displaced for less than 20 days for capital improvement work. The only document is the San Francisco Rent Board rate page, which applies the statute in place of the local § 37.9C amounts.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": "Triggered only by a temporary capital-improvement displacement of less than 20 days."
+    },
+    "exemptions": null,
+    "event_only": true,
+    "applies_only_in": "San Francisco, CA",
+    "effective_date": null,
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "The statute's effective date is not in the documents. The $446/day rate applies to notices served 3/1/2026-2/28/2027 and is reset each March 1.",
+    "effective_date_formula": null,
+    "citation": "Cal. Civ. Code § 1947.9",
+    "citation_aliases": [
+     "California Civil Code Section 1947.9",
+     "Cal. Civ. Code div. 3, pt. 4, tit. 5, ch. 2"
+    ],
+    "quoted_span": "The amount of relocation payments for temporary capital improvement evictions for less than 20 days is governed by California Civil Code Section 1947.9 and not by Rent Ordinance Section 37.9C.",
+    "confidence": 0.55,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "The statute text is not in the documents. The daily rate and its application come only from the SF Rent Board page, so applies_only_in is limited to San Francisco. The statute's statewide scope is not stated in the documents and should be checked against its text.",
+    "source_notes": "Official SF Rent Board rate report (D083). The candidate's 2027-02-28 sunset was the end of a rate period, not a repeal, and has been removed.",
+    "source_doc_id": "D083",
+    "from_candidates": [
+     "D083:c5"
+    ],
+    "also_supported_by": []
+   },
+   {
+    "candidate_id": "D025:c1",
+    "jurisdiction": "CA",
+    "category": "security_deposits",
+    "status": "in_force",
+    "title": "California residential security deposit law (Civ. Code § 1950.5, as amended by AB 12 and AB 414)",
+    "requirement": "Security is any payment, fee, deposit or charge imposed at the start of a tenancy, including advance rent and new-tenant processing charges, but not § 1950.6 screening fees. It is capped at one month's rent in addition to first month's rent.\n\nSmall landlords may take up to two months' rent. A small landlord is a natural person (including a family-trust settlor or beneficiary) or an LLC whose members are all natural persons, owning no more than two residential rental properties with no more than four units for rent. This higher cap does not apply when the prospective tenant is a service member, and a landlord may not refuse to rent to a service member because of it. Advance payment of six months' rent is allowed on leases of six months or more.\n\nFrom April 1, 2025, a higher-than-standard security charged to a service member must be explained in writing and the extra returned after six months without arrears.\n\nDeductions are limited to amounts reasonably necessary for:\n- unpaid rent\n- damage beyond ordinary wear and tear\n- cleaning to the move-in level\n- restoring personal property, if the lease allows\n\nInspections and photos:\n- The landlord must notify the tenant of the right to an initial pre-move-out inspection, held no earlier than two weeks before the end of the tenancy.\n- Photographs are required at move-in for tenancies beginning on or after July 1, 2025.\n- From April 1, 2025, photographs are also required after possession is returned and after repairs.\n\nReturn: within 21 calendar days after the tenant vacates, the landlord must give an itemized statement with invoices, receipts and photos and return the balance. Deposits received electronically are returned electronically.\n\nSecurity may not be called 'nonrefundable'. Bad-faith retention can bring statutory damages of up to twice the security plus actual damages. Successors in interest are liable for the deposit if it was not properly transferred.",
+    "key_value": "1 month's rent cap (2 months for qualifying small landlords, never for service members); return with itemized statement within 21 calendar days; documentation not required if deductions are $125 or less (unless the tenant requests it within 14 days); bad-faith damages up to 2x the security; before July 1, 2024 the caps were 2 months unfurnished and 3 months furnished (per Berkeley Rent Board)",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": true,
+     "unverifiable_exemptions": [
+      "Two-month small-landlord cap depends on the landlord being a natural person, family-trust settlor or beneficiary, or an all-natural-person LLC that owns no more than two residential rental properties with no more than four units for rent"
+     ],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": "Two-month cap only for a natural person (including a family-trust settlor or beneficiary) or an all-natural-person LLC owning no more than two residential rental properties with no more than four dwelling units offered for rent.",
+     "summary": "Applies to security for rental agreements for residential property used as the tenant's dwelling, statewide. Local deposit-interest rules (e.g. Berkeley, Los Angeles RSO, San Francisco) operate alongside it.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": "Small-landlord ownership structure raises the cap to two months' rent; this does not apply to service-member tenants.",
+     "other_conditions": "The cap does not apply to security collected or demanded before July 1, 2024. Initial-inspection duties do not apply to terminations under CCP § 1161(2), (3) or (4)."
+    },
+    "exemptions": "Two-month cap for qualifying small landlords (not for service members); six-month advance rent on leases of six months or longer; tenant-requested paid alterations; documentation exemption for deductions of $125 or less or a valid tenant waiver.",
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": "2024-07-01",
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "The one-month cap applies to security collected or demanded on or after July 1, 2024 (subd. (c)(6)). Later-starting provisions: service-member written statement April 1, 2025; move-out photographs April 1, 2025; move-in photographs for tenancies beginning on or after July 1, 2025. The section was last amended by Stats. 2025, ch. 340 (AB 414), effective Jan. 1, 2026.",
+    "effective_date_formula": null,
+    "citation": "Cal. Civ. Code § 1950.5",
+    "citation_aliases": [
+     "AB 12",
+     "Assembly Bill 12",
+     "AB 414",
+     "Stats. 2025, ch. 340",
+     "Civil Code section 1950.5",
+     "Cal. Civ. Code div. 3, pt. 4, tit. 5, ch. 2"
+    ],
+    "quoted_span": "Except as provided in paragraph (2), (3), or (5), a landlord shall not demand or receive security, however denominated, in an amount or value in excess of an amount equal to one month’s rent, in addition to any rent for the first month paid on or before initial occupancy.",
+    "confidence": 0.93,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "The Berkeley Rent Board says it cannot determine whether a landlord may charge one or two months for a given tenancy, because that depends on ownership facts.",
+    "source_notes": "Official code text (D025). The Berkeley Rent Board page (D007) describes the AB 12 change and the pre-July 2024 caps. It omits the service-member exception, which the statute text resolves. AB 12 is merged here because it amended this section and is not a separate law.",
+    "source_doc_id": "D025",
+    "from_candidates": [
+     "D025:c1",
+     "D007:c1",
+     "cell:CA:security_deposits:1"
+    ],
+    "also_supported_by": [
+     {
+      "doc_id": "D007",
+      "quoted_span": "Starting July 1, 2024, many landlords may only charge one month's rent for unfurnished and furnished units"
+     }
+    ]
+   },
+   {
+    "candidate_id": "D026:c1",
+    "jurisdiction": "CA",
+    "category": "application_screening_fees",
+    "status": "in_force",
+    "title": "California application screening fee cap, receipt and refund rules (Civ. Code § 1950.6)",
+    "requirement": "A landlord or agent may charge an applicant, including a guarantor or cosigner, an application screening fee only to cover actual out-of-pocket costs of gathering information, plus the reasonable value of time. The fee may not exceed $30 per applicant, adjustable annually by CPI from January 1, 1998.\n\nNo fee may be charged when the landlord knows or should know that no unit is available or will be available within a reasonable time.\n\nA fee may be charged only if the landlord offers one of two processes:\n(A) First-qualified-applicant processing. Applications are considered in the order received under written criteria, and no fee is charged until an application is actually considered. Fees collected inadvertently from concurrent submissions are refunded within 7 days.\n(B) Full refund to every applicant not selected, within 7 days of selecting a tenant or 30 days of application, whichever is first.\n\nAfter collecting a fee, the landlord must:\n- give an itemized receipt\n- return any unused fee if no reference check or credit report is obtained\n- give the applicant a copy of the credit report within 7 days of receiving it\n\nA reusable screening report may be accepted. The fee is not 'security' under § 1950.5. Rules for federal or state housing-assistance programs are not preempted.",
+    "key_value": "$30 per applicant base cap, CPI-adjustable annually from Jan. 1, 1998; no state-published 2026 figure in the documents (Berkeley Rent Board lists $68.96 as the 2026 maximum); credit report copy within 7 days; refund within 7 days of selection or 30 days of application",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Applies to owners of residential rental property and their agents charging applicants (including guarantors and cosigners) statewide. No unit-count, age or owner-type limits. Local disclosure rules (e.g. Berkeley BMC ch. 13.78) operate alongside it.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": "Does not preempt deposit and fee rules of federal or state housing-assistance programs."
+    },
+    "exemptions": "No refund owed under the first-qualified process to an applicant denied after consideration for failing the screening criteria; housing-assistance program rules not preempted.",
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": "2026-01-01",
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "2026-01-01 is the effective date of the current text as amended by Stats. 2025, ch. 67 (AB 1170). The fee cap itself predates this; the CPI adjustment runs from Jan. 1, 1998. The original effective date is not stated.",
+    "effective_date_formula": null,
+    "citation": "Cal. Civ. Code § 1950.6",
+    "citation_aliases": [
+     "Civil Code section 1950.6",
+     "Cal. Civ. Code § 1950.6(b)",
+     "AB 1170",
+     "Stats. 2025, ch. 67, § 29",
+     "Cal. Civ. Code div. 3, pt. 4, tit. 5, ch. 2"
+    ],
+    "quoted_span": "In no case shall the amount of the application screening fee charged by the landlord or their agent be greater than thirty dollars ($30) per applicant. The thirty dollar ($30) application screening fee may be adjusted annually by the landlord or their agent commensurate with an increase in the Consumer Price Index, beginning on January 1, 1998.",
+    "confidence": 0.9,
+    "conflict_flag": true,
+    "conflict_note": "Organizer open question: California's screening-fee cap has no single official 2026 dollar figure. The statute gives only the $30 base adjusted by CPI. The only 2026 figure in the documents is $68.96, published by the Berkeley Rent Board, a city page and not a state source.",
+    "review_note": "Confirm the current CPI-adjusted cap from a state source before quoting a dollar amount.",
+    "source_notes": "Official statute text (D026). The public.law mirror (DX08) reproduces the same text but omits clause (c)(2)(A)(iii); the official text is used. The Berkeley Rent Board page (D005) summarizes the same rules.",
+    "source_doc_id": "D026",
+    "from_candidates": [
+     "D026:c1",
+     "D005:c1",
+     "DX08:c1",
+     "cell:CA:application_screening_fees:1"
+    ],
+    "also_supported_by": [
+     {
+      "doc_id": "D005",
+      "quoted_span": "Prospective tenants should expect to receive a copy of their credit report within 7 days of receipt by the landlord"
+     },
+     {
+      "doc_id": "DX08",
+      "quoted_span": "In no case shall the amount of the application screening fee charged by the landlord or their agent be greater than thirty dollars ($30) per applicant."
+     }
+    ]
+   },
+   {
+    "candidate_id": "D027:c1",
+    "jurisdiction": "CA",
+    "category": "screening_restrictions",
+    "status": "in_force",
+    "title": "FEHA housing discrimination: source of income and subsidized-applicant screening limits (Gov. Code § 12955)",
+    "requirement": "Housing owners may not discriminate against or harass any person because of source of income or other protected characteristics. Source of income means lawful, verifiable income, including public assistance and housing subsidies such as Section 8 and HUD-VASH vouchers. Advertising a source-of-income preference ('No Section 8') is unlawful. CRD treats refusing to complete subsidy paperwork as discrimination.\n\nIncome standards must count the aggregate income of persons living together on the same basis as married persons.\n\nWhere there is a government rent subsidy:\n- Income standards must be based on the tenant's portion of the rent.\n- An owner who uses credit history must offer the applicant the option to provide lawful, verifiable alternative evidence of ability to pay, such as benefit payments, pay records or bank statements.\n- The owner must give reasonable time to provide that evidence and reasonably consider it in place of credit history.\n\nOwners may still ask about the level or source of income, verify employment, request landlord references and verify identity.",
+    "key_value": "Source of income (including Section 8 and HUD-VASH) protected since Jan. 1, 2020 (SB 329, per CAA); subsidized applicants: income test on the tenant's share of rent and an alternative-evidence option in place of credit history (SB 267, effective Jan. 1, 2024)",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [
+      "Owner occupying the home and renting to one additional person (per CRD FAQ; may not publish discriminatory advertisements)"
+     ],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Applies to owners of any housing accommodation and to tenant screening companies statewide. The credit-history and income-standard rules in subd. (o) apply only where there is a government rent subsidy.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": "Per CRD, an owner-occupant renting to one additional person may exclude applicants on protected characteristics, but may not publish discriminatory statements or advertisements.",
+     "other_conditions": "Subd. (o) applies only where there is a government rent subsidy."
+    },
+    "exemptions": "Inquiring about the level or source of income is not discrimination (subd. (p)(2)). Verifying employment, landlord references and identity is preserved (subd. (o)(2)). The owner-occupant with one renter exemption is described by CRD.",
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": "2024-01-01",
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "Current text is as amended by Stats. 2023, ch. 776 (SB 267), effective Jan. 1, 2024. Per CAA, the SB 329 source-of-income change covering housing subsidies took effect Jan. 1, 2020.",
+    "effective_date_formula": null,
+    "citation": "Cal. Gov. Code § 12955",
+    "citation_aliases": [
+     "Fair Employment and Housing Act",
+     "FEHA",
+     "Cal. Gov. Code § 12955(o)",
+     "Cal. Gov. Code § 12955(p)",
+     "SB 267",
+     "Stats. 2023, ch. 776",
+     "SB 329",
+     "Cal. Gov. Code tit. 2, div. 3, pt. 2.8, ch. 6, art. 2"
+    ],
+    "quoted_span": "(a) For the owner of any housing accommodation to discriminate against or harass any person because of the race, color, religion, sex, gender, gender identity, gender expression, sexual orientation, marital status, national origin, ancestry, familial status, source of income, disability, veteran or military status, or genetic information of that person.",
+    "confidence": 0.88,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "SB 329 and SB 267 amended FEHA and are merged here as amendments of the same statute. The SB 329 codified sections are not shown in the documents.",
+    "source_notes": "Official statute text (D027). The CAA article (DX07) is undated and refers to 'last year's SB 267'; D027 shows SB 267 is Stats. 2023, effective Jan. 1, 2024, so the '(2024)' in the candidate citation is not used. CRD page (D016) corroborates.",
+    "source_doc_id": "D027",
+    "from_candidates": [
+     "D027:c1",
+     "cell:CA:screening_restrictions:1",
+     "DX07:c2",
+     "DX07:c3"
+    ],
+    "also_supported_by": [
+     {
+      "doc_id": "D016",
+      "quoted_span": "Refusing to rent to a tenant with a section 8 voucher."
+     },
+     {
+      "doc_id": "DX07",
+      "quoted_span": "This change meant that, as of Jan. 1, 2020, state law prohibits landlords from refusing to participate in such programs."
+     }
+    ]
+   },
+   {
+    "candidate_id": "DX07:c1",
+    "jurisdiction": "CA",
+    "category": "screening_restrictions",
+    "status": "in_force",
+    "title": "California Civil Rights Council fair housing regulations on criminal history",
+    "requirement": "Housing providers, including tenant screening companies, may check an applicant's criminal history, but with limits:\n- They may not consider arrests that did not lead to conviction, sealed or expunged records, or juvenile justice records.\n- Blanket bans on applicants with any criminal history are prohibited.\n- A denial based on a conviction must be directly related to the applicant's ability to be a good tenant and to not threaten the health and safety of others or property.\n- In deciding whether a conviction is directly related, providers should weigh the nature and severity of the crime and the time elapsed since the conduct.",
+    "key_value": "No consideration of arrests without conviction, sealed or expunged records, or juvenile records; no blanket bans; conviction-based denials must be directly related; effective Jan. 1, 2020",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Applies to housing providers and tenant screening companies statewide. Stricter local fair-chance ordinances (e.g. Berkeley BMC ch. 13.106) operate alongside it.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": null
+    },
+    "exemptions": null,
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": "2020-01-01",
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "Per CAA (secondary), the Civil Rights Council (formerly Fair Employment and Housing Council) adopted the regulations in 2019 and they took effect Jan. 1, 2020.",
+    "effective_date_formula": null,
+    "citation": "Cal. Code Regs. tit. 2, § 12264",
+    "citation_aliases": [
+     "Cal. Code Regs. tit. 2, § 12265",
+     "Cal. Code Regs. tit. 2, § 12266",
+     "Civil Rights Council criminal history regulations",
+     "FEHA housing regulations"
+    ],
+    "quoted_span": "Housing providers are also prohibited from having “blanket bans” of all people with a criminal history.",
+    "confidence": 0.6,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "Neither document gives the regulation section numbers; the citation must be verified against the regulation text, which was not captured.",
+    "source_notes": "Official CRD FAQ (D016) is the primary support; the CAA compliance reminder (DX07) supplies the adoption year and effective date.",
+    "source_doc_id": "D016",
+    "from_candidates": [
+     "D016:c1",
+     "DX07:c1",
+     "cell:CA:screening_restrictions:2"
+    ],
+    "also_supported_by": [
+     {
+      "doc_id": "DX07",
+      "quoted_span": "Blanket bans on applicants with a criminal record are prohibited, as are policies that consider arrests without convictions."
+     }
+    ]
+   },
+   {
+    "candidate_id": "D022:c1",
+    "jurisdiction": "CA",
+    "category": "algorithmic_rent_setting",
+    "status": "in_force",
+    "title": "Cartwright Act prohibition on common pricing algorithms (AB 325, Bus. & Prof. Code § 16729)",
+    "requirement": "It is unlawful to use or distribute a common pricing algorithm as part of a contract, combination in the form of a trust, or conspiracy to restrain trade or commerce.\n\nIt is also unlawful to use or distribute a common pricing algorithm while coercing another person to adopt its recommended price or commercial term for the same or similar products or services in California.\n\nDefinitions:\n- A common pricing algorithm is any methodology, including software or other technology, used by two or more persons that uses competitor data to recommend, align, stabilize, set or otherwise influence a price or commercial term.\n- Commercial terms include level of service, availability and output.\n- 'Distribute' includes licensing and subscriptions.\n\nThe rule is general antitrust law, not housing-specific; per Cleary Gottlieb, apartment rental companies have been targets of federal algorithmic pricing claims. A companion section (§ 16756.1) lets a Cartwright Act complaint plead only plausible facts, without excluding the possibility of independent action. The section does not limit other antitrust law.",
+    "key_value": "Ban on use or distribution of common pricing algorithms in a restraint of trade or with coercion; Cartwright Act violations are punishable as a crime; per secondary source, criminal fines up to the greater of $6M (corporations) or $1M (individuals) or twice the gain or loss, and civil fines up to $1M in AG/DA actions (SB 763)",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": false,
+     "landlord_size_condition": null,
+     "summary": "Applies to any person (as defined in § 16702, excluding end consumers) who uses or distributes a common pricing algorithm, including landlords and rent-pricing vendors. Not limited by building type. Local rent-algorithm bans (Berkeley, San Francisco, San Diego, Santa Ana) operate alongside it.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": "The algorithm must be used by two or more persons and use competitor data. Per secondary source, single-firm algorithms using only the business's own data are not covered."
+    },
+    "exemptions": "End consumers are excluded from 'person'. Per secondary source, proprietary algorithms using only the business's own data are not covered.",
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": "2026-01-01",
+    "enacted_date": "2025-10-06",
+    "sunset_date": null,
+    "effective_date_note": "The chaptered bill was approved and filed Oct. 6, 2025 (Stats. 2025, ch. 338) and states no operative date. The Cleary Gottlieb alert (Jan. 6, 2026) says AB 325 took effect Jan. 1, 2026.",
+    "effective_date_formula": null,
+    "citation": "Cal. Bus. & Prof. Code § 16729",
+    "citation_aliases": [
+     "AB 325",
+     "Stats. 2025, ch. 338",
+     "Cal. Bus. & Prof. Code § 16756.1",
+     "Cartwright Act",
+     "Cal. Bus. & Prof. Code § 16700 et seq."
+    ],
+    "quoted_span": "(a) It shall be unlawful for a person to use or distribute a common pricing algorithm as part of a contract, combination in the form of a trust, or conspiracy to restrain trade or commerce in violation of this chapter.",
+    "confidence": 0.88,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "Penalty amounts come from SB 763 (Bus. & Prof. Code §§ 16755, 16755.1), described only by a secondary source; that bill's text is not captured (see known_gaps).",
+    "source_notes": "Official chaptered bill text (D022); the Cleary Gottlieb alert (DX09) supplies the effective date and penalty summary.",
+    "source_doc_id": "D022",
+    "from_candidates": [
+     "D022:c1",
+     "DX09:c1",
+     "cell:CA:algorithmic_rent_setting:1"
+    ],
+    "also_supported_by": [
+     {
+      "doc_id": "DX09",
+      "quoted_span": "The Cartwright Act now expressly prohibits (1) using or distributing common algorithms to collude on pricing, and (2) coercing users to adopt algorithmic recommendations."
+     }
+    ]
+   }
+  ],
+  "dropped_candidates": [
+   {
+    "candidate_id": "D027:c2",
+    "reason": "Gov. Code § 12955(f) is a fair-housing anti-retaliation clause within FEHA, not a just-cause, eviction-notice or relocation rule. Out of category scope; the FEHA record covers the statute."
+   }
+  ],
+  "known_gaps": [
+   {
+    "category": "algorithmic_rent_setting",
+    "law": "SB 763 (Cartwright Act penalties, Cal. Bus. & Prof. Code §§ 16755, 16755.1)",
+    "reason": "Named by the Cleary Gottlieb alert as raising criminal fines and adding civil penalties; bill text not captured in the documents."
+   },
+   {
+    "category": "rent_increase_limits",
+    "law": "Cal. Civ. Code § 1954.50 et seq. (Costa-Hawkins Rental Housing Act, Civ. Code ch. 2.7)",
+    "reason": "Referenced in § 1947.12 as the limit on local rent control; text not captured. It does not itself cap rents."
+   },
+   {
+    "category": "just_cause_eviction",
+    "law": "Cal. Civ. Code § 1947.9",
+    "reason": "Named by the SF Rent Board as governing relocation for temporary displacement of less than 20 days; the statute's own text and scope are not captured."
+   },
+   {
+    "category": "screening_restrictions",
+    "law": "Cal. Code Regs. tit. 2 (Civil Rights Council criminal-history housing regulations)",
+    "reason": "Described by the CRD FAQ and a CAA article; regulation text and section numbers not captured."
+   },
+   {
+    "category": "application_screening_fees",
+    "law": "Cal. Civ. Code § 1950.1 (reusable tenant screening reports)",
+    "reason": "Referenced in § 1950.6(g); text not captured."
+   }
+  ]
+ }
+}

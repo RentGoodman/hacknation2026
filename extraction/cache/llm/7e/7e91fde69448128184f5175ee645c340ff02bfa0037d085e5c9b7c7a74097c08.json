@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "DX06:c12",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 5688,
+  "output_tokens": 585
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "Prohibits landlords from purchasing algorithmic coordinating services; city enforcement includes civil penalties of up to $5,000 per violation.",
+    "note": "The document states both the purchase ban and city enforcement with penalties."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "civil penalties of up to $5,000 per violation",
+    "note": "Matches the stated penalty cap."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The field is empty. The document gives only 'effective January 2026' with no exact day, and the rule's effective_date_note says as much, so leaving it null is consistent."
+   },
+   {
+    "field": "status",
+    "verdict": "partly_supported",
+    "quoted_span": "Spokane Mun. Code § 10.57.180 (effective January 2026)",
+    "note": "The document gives January 2026 as the effective date and is dated August 2026, so 'in force' is a reasonable inference. It does not say outright that the rule is currently in force. The query date of 2026-10-01 is not in the document."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "Prohibits landlords from purchasing algorithmic coordinating services",
+    "note": "The document states no size, building-age or other limits for Spokane, and describes the prohibition as applying to landlords. The summary's account of a secondary source with no ordinance text matches the document."
+   },
+   {
+    "field": "citation",
+    "verdict": "partly_supported",
+    "quoted_span": "Spokane Mun. Code § 10.57.180 (effective January 2026)",
+    "note": "The section citation is supported. The alias 'Spokane Mun. Code ch. 10.57' is not stated in the document."
+   }
+  ]
+ }
+}

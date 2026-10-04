@@ -1,0 +1,19 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "qa",
+ "subject": "D053:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 37290,
+  "output_tokens": 504
+ },
+ "result": {
+  "changes": [
+   {
+    "field": "category",
+    "after_json": "\"retaliation\"",
+    "reason": "G.L. c. 186, § 18 (D053) prohibits reprisals against tenants and creates a six-month presumption of retaliation, but it does not list permitted grounds for eviction, so it is an anti-retaliation rule rather than a just-cause eviction rule."
+   }
+  ]
+ }
+}

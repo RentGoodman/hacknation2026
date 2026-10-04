@@ -1,0 +1,66 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "cell",
+ "subject": "CA|just_cause_eviction",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 4505,
+  "output_tokens": 1774
+ },
+ "result": {
+  "cell_status": "rules_found",
+  "no_rule_quote": null,
+  "no_rule_passage_id": null,
+  "basis_citation": null,
+  "rules": [
+   {
+    "applies_only_in": null,
+    "category": "just_cause_eviction",
+    "citation": "Cal. Civ. Code § 1946.2",
+    "citation_aliases": [
+     "Cal. Civ. Code § 1946.2(d)",
+     "Cal. Code Civ. Proc. § 1161"
+    ],
+    "coverage": {
+     "built_after": null,
+     "built_on_or_before": null,
+     "construction_cutoff": null,
+     "construction_date_basis": null,
+     "landlord_size_condition": null,
+     "max_units": null,
+     "may_preempt_local_rules": null,
+     "min_building_age_years": null,
+     "min_units": null,
+     "new_construction_exemption": null,
+     "other_conditions": "For leases entered into on or after July 1, 2020 (July 1, 2022 for mobilehome tenancies), the owner-occupancy cause applies to mobilehome tenancies only if the tenant agrees in writing or the lease allows it. The passages do not state the statute's covered-property exemptions.",
+     "owner_conditions": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "summary": "Statewide just-cause termination rules for residential tenancies. The passages show at-fault and no-fault causes, a cure notice for curable violations, and relocation assistance or a rent waiver for no-fault terminations.",
+     "supersedes_state_rule": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null
+    },
+    "confidence": 0.6,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "effective_date": null,
+    "effective_date_formula": null,
+    "effective_date_note": "The passages do not state an effective date.",
+    "enacted_date": null,
+    "event_only": false,
+    "exemptions": null,
+    "jurisdiction": "CA",
+    "key_value": "No-fault just cause: relocation assistance equal to one month's rent, paid within 15 calendar days of service of the notice, or waiver of the final month's rent. The termination notice must state the right to assistance or waiver. Curable violations require a notice to cure before a 3-day notice to quit.",
+    "passage_id": "p1",
+    "quoted_span": "The amount of relocation assistance or rent waiver shall be equal to one month of the tenant’s rent that was in effect when the owner issued the notice to terminate the tenancy.",
+    "requirement": "An owner may terminate a covered residential tenancy only for just cause, either at-fault or no-fault. For a curable lease violation, the owner must first give notice and an opportunity to cure under CCP § 1161(3). A 3-day notice to quit may follow only if the violation is not cured. For no-fault just cause, the owner must either pay relocation assistance equal to one month's rent or waive the final month's rent, and must state this right in the written termination notice. Recognized no-fault causes include owner or family occupancy and substantial remodel.",
+    "review_note": "The passages are excerpts and do not name the section number. The citation is Civ. Code § 1946.2 as inferred from the text of the statute. They also omit the full list of at-fault causes, the covered tenancies, the exemptions, the notice periods, and the effective date.",
+    "source_notes": "Other passages in the set (San Diego, Los Angeles, and a city page for another jurisdiction) are local law and are excluded from this state-level record.",
+    "status": "in_force",
+    "sunset_date": null,
+    "title": "California Tenant Protection Act – just cause for termination of residential tenancy"
+   }
+  ]
+ }
+}

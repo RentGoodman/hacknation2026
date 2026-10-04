@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D043:c4",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 566,
+  "output_tokens": 346
+ },
+ "result": {
+  "en": "In Los Angeles, a landlord who demolishes a rental property or converts it to condominiums, stock cooperatives, community apartment projects, hotels or commercial uses must pay relocation assistance, whether or not the property is under the RSO or JCO, and once the City approves a tentative parcel or tract map for a condominium conversion, a tenant may choose to relocate without a termination notice while the landlord still owes that assistance.",
+  "es": "En Los Ángeles, un propietario que demuele una propiedad de alquiler o la convierte en condominios, cooperativas de acciones, proyectos de apartamentos comunitarios, hoteles o usos comerciales debe pagar asistencia de reubicación, esté o no la propiedad bajo el RSO o el JCO, y una vez que la Ciudad aprueba un mapa tentativo de parcela o de tracto para una conversión a condominios, el inquilino puede elegir mudarse sin un aviso de terminación y el propietario aún debe pagar esa asistencia."
+ }
+}

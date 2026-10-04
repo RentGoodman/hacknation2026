@@ -1,0 +1,68 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "cell",
+ "subject": "Los Angeles, CA|rent_increase_limits",
+ "prompt_version": "v10",
+ "usage": {},
+ "result": {
+  "cell_status": "rules_found",
+  "no_rule_quote": null,
+  "no_rule_passage_id": null,
+  "basis_citation": null,
+  "rules": [
+   {
+    "jurisdiction": "Los Angeles, CA",
+    "category": "rent_increase_limits",
+    "status": "in_force",
+    "title": "Los Angeles Rent Stabilization Ordinance (RSO) annual allowable rent increase",
+    "requirement": "For RSO units, rent may be increased once every 12 months by the annual allowable rent increase percentage set by LAHD. Since February 2, 2026 the landlord may no longer add an additional percentage for utilities. The 10% add-on for an additional dependent is also no longer permitted, but a 10% add-on for an additional tenant who is not a dependent is still allowed. Rent may be reset to market rate after certain vacancies and evictions, or after a tenant buyout agreement. State law requires 30 days' written notice of increases under 10%.",
+    "key_value": "3% annual allowable increase (July 1, 2025 through June 30, 2026); once every 12 months; no utility add-on from Feb 2, 2026; 30 days' notice for increases under 10%",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": {
+      "basis": "year_built",
+      "covered_if": "on_or_before",
+      "date": "1978-10-01"
+     },
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Applies to rental properties first built on or before October 1, 1978, plus replacement units. Covered types include apartments, duplexes, two or more single-family units on one parcel, hotel or rooming-house rooms occupied over 30 days, ADUs, JADUs and mobile homes. Condominiums and townhomes are covered, but rent is not regulated for tenancies that commenced after December 31, 1995.",
+     "construction_date_basis": "first built",
+     "built_on_or_before": "1978-10-01",
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": "Condominium and townhome rent is not regulated for tenancies commenced after December 31, 1995."
+    },
+    "exemptions": "Condominiums and townhomes with tenancies commenced after December 31, 1995 have unregulated rent.",
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "The passages give no original effective date for the RSO. Feb 2, 2026 is the date the utility and dependent add-ons ended. The 3% figure is stated for July 1, 2025 to June 30, 2026, and the passages give no figure for the period starting July 1, 2026.",
+    "effective_date_formula": null,
+    "citation": "Los Angeles Rent Stabilization Ordinance (RSO)",
+    "citation_aliases": [
+     "RSO",
+     "LARSO",
+     "Los Angeles Rent Stabilization Ordinance"
+    ],
+    "quoted_span": "Rent may be increased once every 12 months by the allowable rent increase percentage",
+    "confidence": 0.7,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "The 3% figure is stated only for July 1, 2025 through June 30, 2026, which ended before the query date of 2026-10-01. The current-year percentage should be checked against LAHD. The passages do not give a code section for the rent increase rule.",
+    "source_notes": "Taken from LAHD official pages (RSO Overview D041 and the RSO Rent Increase Calculator D042).",
+    "passage_id": "p4"
+   }
+  ]
+ }
+}

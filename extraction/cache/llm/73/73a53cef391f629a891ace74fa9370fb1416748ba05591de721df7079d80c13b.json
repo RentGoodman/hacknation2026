@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D011:c2",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 1968,
+  "output_tokens": 602
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "that the city of Boston be authorized to implement rent stabilization and tenant eviction protections",
+    "note": "The document supports the authorization of tenant eviction protections, no stated causes/notice/relocation terms, and the 9/9/2024 study order. The claim that it was 'not enacted in the 193rd General Court' is an inference from the study order, not an explicit statement; 'same home-rule petition' also asked for rent stabilization, which is in the title."
+   },
+   {
+    "field": "key_value",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "Field is empty and the document states no numeric or key values for eviction protections."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "Field is null; the document states no effective date. The note that it was never enacted is consistent with the study order action."
+   },
+   {
+    "field": "status",
+    "verdict": "partly_supported",
+    "quoted_span": "Accompanied a study order, see",
+    "note": "The document shows the bill was sent to a study order on 9/9/2024, which is consistent with failure, but it does not explicitly say the bill failed or was not enacted."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "that the city of Boston be authorized to implement rent stabilization and tenant eviction protections",
+    "note": "The document contains only the title and description, with no unit, building, age or owner coverage terms, so null coverage fields and the 'unknown' summary are consistent. The study order action is also in the document."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "Bill H.3744",
+    "note": "The primary citation H.3744 is stated. The aliases 'House, No. 3744' and '193rd' appear in the document; H5035 is correctly identified as the study order."
+   }
+  ]
+ }
+}

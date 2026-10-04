@@ -1,0 +1,11 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "DX21:c2",
+ "prompt_version": "v10",
+ "usage": {},
+ "result": {
+  "en": "This Newark rent control rule bars a landlord from bringing an eviction action to take back a unit as payback for a tenant's efforts to secure or enforce rights under the rent control chapter.",
+  "es": "Esta norma de control de alquileres de Newark prohíbe que un propietario inicie una acción de desalojo para recuperar la vivienda como represalia por los esfuerzos de un inquilino para obtener o hacer valer derechos bajo el capítulo de control de alquileres."
+ }
+}

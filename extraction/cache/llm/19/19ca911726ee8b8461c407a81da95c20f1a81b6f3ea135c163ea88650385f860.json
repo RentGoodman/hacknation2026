@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D004:c2",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 634,
+  "output_tokens": 248
+ },
+ "result": {
+  "en": "In Berkeley, when an owner evicts tenants to take a property off the rental market under the Ellis Act, the owner must pay the same relocation assistance as for an owner move-in eviction, which from Jan. 1, 2026 is $19,413 as the standard payment plus $6,471 more for qualifying households.",
+  "es": "En Berkeley, cuando un propietario desaloja a inquilinos para retirar una propiedad del mercado de alquiler bajo la Ley Ellis, debe pagar la misma ayuda de reubicación que en un desalojo por mudanza del propietario, que desde el 1 de enero de 2026 es de $19,413 como pago estándar más $6,471 adicionales para los hogares que califican."
+ }
+}

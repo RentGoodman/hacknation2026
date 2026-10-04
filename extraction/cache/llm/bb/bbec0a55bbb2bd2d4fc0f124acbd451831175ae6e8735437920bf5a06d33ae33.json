@@ -1,0 +1,45 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D011:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 10210,
+  "output_tokens": 839
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": null,
+   "unverifiable_exemptions": [],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Home-rule petition, never enacted, that would have authorized rent stabilization in Boston only. It was sent to a study order. The bill text is not in the documents, so no coverage terms (unit counts, construction dates, exemptions) are known.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": null,
+   "other_conditions": null
+  },
+  "evidence": [
+   {
+    "field": "summary",
+    "doc_id": "D011",
+    "quoted_span": "that the city of Boston be authorized to implement rent stabilization and tenant eviction protections"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D011",
+    "quoted_span": "Accompanied a study order, see"
+   }
+  ],
+  "notes": "D011 is only the bill-history page, and the bill text is absent, so every coverage field except summary stays null. I did not set requires_unknown_facts because there is no basis for it. D010, D012, D013 and D014 cover other Boston policies (fair chance tenant selection, fair housing, HSNA) and give no coverage terms for H.3744. I clarified the summary to say the bill failed and was sent to study."
+ }
+}

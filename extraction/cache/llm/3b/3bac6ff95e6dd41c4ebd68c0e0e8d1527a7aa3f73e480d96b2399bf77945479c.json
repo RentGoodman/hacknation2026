@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D058:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 695,
+  "output_tokens": 280
+ },
+ "result": {
+  "en": "When a landlord gives a written notice to quit for nonpayment of rent, it must come with a state form that explains it is not an eviction, that the tenant need not leave immediately, that the tenant is entitled to a legal proceeding, and that only a court order can force the tenant out, and no court may accept a nonpayment eviction filing without proof the form was delivered.",
+  "es": "Cuando un propietario entrega un aviso escrito de desalojo por falta de pago del alquiler, debe incluir un formulario estatal que explique que no es un desalojo, que el inquilino no tiene que irse de inmediato, que tiene derecho a un proceso legal y que solo una orden judicial puede obligarlo a salir, y ningún tribunal puede aceptar una demanda por falta de pago sin prueba de que el formulario fue entregado."
+ }
+}

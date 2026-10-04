@@ -1,0 +1,111 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "extract",
+ "subject": "D084",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 1595,
+  "output_tokens": 1742
+ },
+ "result": {
+  "rules": [
+   {
+    "candidate_id": "c1",
+    "jurisdiction": "Santa Ana, CA",
+    "category": "rent_increase_limits",
+    "status": "in_force",
+    "title": "Santa Ana Rent Stabilization Ordinance - annual maximum rent increase",
+    "requirement": "A landlord may raise rent only once a year by no more than the lesser of 3% of current rent or 80% of the CPI change. The City publishes the maximum allowable increase for each period; it is 2.87% for September 1, 2026 through August 31, 2027. Tenants and landlords may petition for review of increases, rent reductions and pass-through costs. Landlords may charge a registration-fee pass-through of up to $50 per rental unit (not per tenant) and must reimburse any overcharge.",
+    "key_value": "Lesser of 3% or 80% of CPI change; 2.87% for 9/1/2026-8/31/2027; registration fee pass-through max $50 per unit",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Page does not state coverage or exemptions; refers readers to the ordinance.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": null
+    },
+    "exemptions": null,
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "sunset_date": "2027-08-31",
+    "effective_date_note": "The current 2.87% rate applies September 1, 2026 through August 31, 2027. The page gives no original effective date for the ordinance.",
+    "effective_date_formula": null,
+    "citation": "Santa Ana Rent Stabilization and Just Cause Eviction Ordinance",
+    "citation_aliases": [
+     "Santa Ana Rent Stabilization Ordinance",
+     "Santa Ana Rent Stabilization and Just Cause Ordinance"
+    ],
+    "quoted_span": "The increase cannot be more than 3% of your current rent or 80% of the Consumer Price Index (CPI) change, whichever is less.",
+    "confidence": 0.8,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "Municipal code section number not given on the page. Sunset date is the end of the current annual rate period, not a repeal of the rule.",
+    "source_notes": "Official city web page summarizing the ordinance."
+   },
+   {
+    "candidate_id": "c2",
+    "jurisdiction": "Santa Ana, CA",
+    "category": "just_cause_eviction",
+    "status": "in_force",
+    "title": "Santa Ana Just Cause Eviction and relocation assistance",
+    "requirement": "A landlord must have a valid reason to evict, such as non-payment of rent, breach of the lease, or the landlord wanting to move into the property. For certain evictions the landlord may have to help pay the tenant's moving costs (relocation assistance).",
+    "key_value": null,
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Page does not state coverage or exemptions.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": null
+    },
+    "exemptions": null,
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": null,
+    "effective_date_formula": null,
+    "citation": "Santa Ana Rent Stabilization and Just Cause Eviction Ordinance",
+    "citation_aliases": [
+     "Santa Ana Rent Stabilization and Just Cause Ordinance"
+    ],
+    "quoted_span": "Your landlord must have a valid reason to evict you. This could be for not paying rent, breaking the lease, or if the landlord wants to move into the property themselves.",
+    "confidence": 0.75,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "The page gives no relocation amounts, notice periods or complete list of causes.",
+    "source_notes": "Official city web page summarizing the ordinance."
+   }
+  ],
+  "no_rule_findings": [],
+  "doc_summary": "Official City of Santa Ana Rent Stabilization Office page summarizing the Rent Stabilization and Just Cause Eviction Ordinance: the annual rent increase cap (lesser of 3% or 80% of CPI; 2.87% for 9/1/2026-8/31/2027), just cause eviction with possible relocation assistance, petitions, and a $50-per-unit registration fee pass-through limit. It gives no coverage details or code section numbers."
+ }
+}

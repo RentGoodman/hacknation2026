@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D052:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 898,
+  "output_tokens": 214
+ },
+ "result": {
+  "en": "In Massachusetts, a landlord can't charge a security deposit of more than the first month's rent, must return it within 30 days after the tenancy ends (with 5% yearly interest or the lesser bank rate while held), and faces treble damages for violations.",
+  "es": "En Massachusetts, el propietario no puede cobrar un depósito de seguridad mayor que el alquiler del primer mes, debe devolverlo dentro de los 30 días después de terminar el arrendamiento (con un interés anual del 5% o la tasa bancaria menor mientras lo guarda), y enfrenta el triple de daños por incumplimientos."
+ }
+}

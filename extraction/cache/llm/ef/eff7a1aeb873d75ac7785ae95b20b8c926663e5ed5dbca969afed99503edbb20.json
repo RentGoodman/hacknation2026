@@ -1,0 +1,67 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "cell",
+ "subject": "San Francisco, CA|just_cause_eviction",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 4493,
+  "output_tokens": 1428
+ },
+ "result": {
+  "cell_status": "rules_found",
+  "no_rule_quote": null,
+  "no_rule_passage_id": null,
+  "basis_citation": null,
+  "rules": [
+   {
+    "jurisdiction": "San Francisco, CA",
+    "category": "just_cause_eviction",
+    "status": "in_force",
+    "title": "San Francisco Rent Ordinance just cause eviction requirement (Section 37.9(a))",
+    "requirement": "A landlord of a unit covered by the Rent Ordinance may evict only for one of 17 enumerated just causes, and the just cause must be the dominant motive for the eviction. Lease expiration or a change in ownership is not just cause. Causes include non-payment or habitual late payment of rent, uncured substantial breach, nuisance, illegal use, and owner or relative move-in. They also include substantial rehabilitation of a building at least 50 years old (cost at least 75% of new construction), Ellis Act withdrawal, lead remediation, development-agreement demolition, expiry of a Good Samaritan occupancy agreement (notice within 60 days), and demolition under Planning Code § 317.",
+    "key_value": "17 enumerated just causes; just cause must be the dominant motive; Good Samaritan eviction notice within 60 days of agreement expiration; substantial rehabilitation requires a building at least 50 years old and cost at least 75% of new construction",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Rental units covered by the San Francisco Rent Ordinance.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": "Applies to units covered by the Rent Ordinance; the passages do not list specific exemptions."
+    },
+    "exemptions": null,
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": null,
+    "effective_date_formula": null,
+    "citation": "S.F. Admin. Code § 37.9(a)",
+    "citation_aliases": [
+     "S.F. Admin. Code ch. 37",
+     "San Francisco Rent Ordinance",
+     "Rent Ordinance Section 37.9(a)"
+    ],
+    "quoted_span": "In order to evict a tenant from a rental unit covered by the Rent Ordinance, a landlord must have a \"just cause\" reason that is the dominant motive for pursuing the eviction.",
+    "confidence": 0.8,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "The passages are excerpts of an SF Rent Board overview page. They do not give notice content, relocation amounts, or exemptions, so those are not captured. Passages from other jurisdictions (CA state, San Diego, Los Angeles, and an unidentified 2021 ordinance) were excluded.",
+    "source_notes": "Official SF.gov Rent Board info page summarizing Ordinance Section 37.9(a).",
+    "passage_id": "p1"
+   }
+  ]
+ }
+}

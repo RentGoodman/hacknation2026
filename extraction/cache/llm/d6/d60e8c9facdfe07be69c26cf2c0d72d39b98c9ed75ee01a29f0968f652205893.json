@@ -1,0 +1,50 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "DX02:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 18975,
+  "output_tokens": 2394
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": null,
+   "unverifiable_exemptions": [],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Applies to real estate lessors, meaning owners of real property that lease all or part of it as a residential dwelling unit. A residential dwelling unit is a house, apartment, accessory unit or other unit intended to be used as a person's primary residence.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": null,
+   "other_conditions": "Covered units must be intended as a person's primary residence. Inpatient medical care, licensed long-term care, and detention or correctional facilities are not residential dwelling units."
+  },
+  "evidence": [
+   {
+    "field": "summary",
+    "doc_id": "DX02",
+    "quoted_span": "unincorporated organization that owns real property and leases such property or any portion thereof in the form of a"
+   },
+   {
+    "field": "summary",
+    "doc_id": "DX02",
+    "quoted_span": "“Residential dwelling unit” means any house, apartment, accessory unit, or other unit intended to be used as a person’s primary residence"
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "DX02",
+    "quoted_span": "other unit intended to be used as a person’s primary residence; and does not include inpatient medical care, licensed long-term care, and detention or"
+   }
+  ],
+  "notes": "I removed two items from coverage because they describe conduct or service providers rather than buildings, units or owners.\n- owner_conditions: the same-owner exemption ('exempts owners of multiple properties for actions related exclusively to multiple properties controlled by the same rental property owner') is part of the definition of coordinating conduct. It is a conduct carve-out, not an owner characteristic. It remains relevant to the rule's exemptions and to the FAIR Act conflict note.\n- other_conditions: the licensed real estate agent exclusion limits who counts as a coordinator or service provider. It is not a property or owner condition.\n\nThe ordinance states no unit-count, building-age or landlord-size threshold. The prior summary's statement 'No unit-count or building-age limits' is an absence claim, so I dropped it rather than quote it.\n\nThe renumbered pre-existing Chapter 218 sections (e.g., § 218-13 'Exempt dwellings') are listed only as 'No changes'. Their text is not in the documents, so it cannot be verified whether they limit § 218-12."
+ }
+}

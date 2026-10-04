@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D008:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 1029,
+  "output_tokens": 202
+ },
+ "result": {
+  "en": "In Berkeley, landlords of fully covered units can raise the permanent rent ceiling each year only by the Annual General Adjustment, which is capped at 5%, and for 2026 it is 1.0%, allowed no earlier than January 1, 2026.",
+  "es": "En Berkeley, los propietarios de unidades totalmente cubiertas solo pueden aumentar cada año el límite permanente de renta según el Ajuste General Anual, que tiene un tope del 5%, y para 2026 es del 1.0%, permitido a partir del 1 de enero de 2026 como pronto."
+ }
+}

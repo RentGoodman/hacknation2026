@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "DX06:c13",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 5875,
+  "output_tokens": 630
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "Prohibits algorithm-assisted rental price coordination; for owners of 16 or more units, private remedies include the greater of treble damages or $1,000 per violation.",
+    "note": "The requirement restates the table entry. Describing the prohibition as applying to 'landlords' is a mild inference, and the document does not detail its scope."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "for owners of 16 or more units, private remedies include the greater of treble damages or $1,000 per violation",
+    "note": null
+   },
+   {
+    "field": "effective_date",
+    "verdict": "partly_supported",
+    "quoted_span": "Portland City Code § 30.01.088 (effective February 2026)",
+    "note": "The effective_date field is null, but the document gives a month-only effective date (February 2026). The rule records it in in_force_since and the effective_date_note. Nothing in the document gives an exact day."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "Portland City Code § 30.01.088 (effective February 2026)",
+    "note": "The document is dated Aug. 21, 2026 and lists the ordinance as effective February 2026, so 'in force' is a reasonable reading. The document does not explicitly say 'in force'."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "for owners of 16 or more units, private remedies include the greater of treble damages or $1,000 per violation",
+    "note": "The coverage section correctly says the document ties the 16-unit threshold only to private remedies and gives no building-level limits. Coverage fields such as min_units are appropriately null."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "Portland City Code § 30.01.088 (effective February 2026)",
+    "note": "The citation matches. The alias 'Portland City Code ch. 30.01' is not stated in the document."
+   }
+  ]
+ }
+}

@@ -1,0 +1,63 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "cell",
+ "subject": "CA|rent_increase_limits",
+ "prompt_version": "v10",
+ "usage": {},
+ "result": {
+  "cell_status": "rules_found",
+  "no_rule_quote": null,
+  "no_rule_passage_id": null,
+  "basis_citation": null,
+  "rules": [
+   {
+    "jurisdiction": "CA",
+    "category": "rent_increase_limits",
+    "status": "in_force",
+    "title": "California statewide limit on gross rental rate increases",
+    "requirement": "The Legislature establishes statewide limitations on gross rental rate increases to address rent gouging during the current housing crisis. The section is intended to apply only for the limited time needed to address that crisis. It is not intended to expand or limit local governments' authority to adopt rent regulation consistent with Chapter 2.7 (commencing with Section 1954.50). Waivers of rights under the section are void as contrary to public policy. The retrieved passage does not state the cap formula, covered buildings, exemptions or effective date.",
+    "key_value": null,
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": null,
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": null
+    },
+    "exemptions": null,
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": null,
+    "effective_date_formula": null,
+    "citation": "Cal. Civ. Code § 1947.12",
+    "citation_aliases": [
+     "Cal. Civ. Code § 1947.12(m)",
+     "Cal. Civ. Code § 1954.50 et seq. (Chapter 2.7)"
+    ],
+    "quoted_span": "(m) (1) The Legislature finds and declares that the unique circumstances of the current housing crisis require a statewide response to address rent gouging by establishing statewide limitations on gross rental rate increases.",
+    "confidence": 0.6,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "The passage is a truncated excerpt (subdivisions (k)-(m)) and omits the cap amount, coverage and exemptions. Section number is inferred from the Legislature's intent language and the reference to Chapter 2.7; the passage does not print the section heading. In-force status is inferred from the query date and the absence of a stated sunset in the passage.",
+    "source_notes": "Passages on Santa Ana, Berkeley, Los Angeles and San Francisco describe city-level rent regulation and were excluded from this state-level record.",
+    "passage_id": "p8"
+   }
+  ]
+ }
+}

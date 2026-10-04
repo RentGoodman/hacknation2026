@@ -1,0 +1,60 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D057:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 36987,
+  "output_tokens": 1442
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": false,
+   "unverifiable_exemptions": [],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Rental residential property (dwelling accommodations) where a broker or salesperson is engaged for a fee to find a tenant for a property or to find a dwelling for a prospective tenant.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": null,
+   "other_conditions": "Applies only where a broker or salesperson is engaged, for a fee, by either the prospective tenant or the landlord (or landlord's agent) to find dwelling accommodations or a tenant."
+  },
+  "evidence": [
+   {
+    "field": "summary",
+    "doc_id": "D057",
+    "quoted_span": "No person shall engage in the business of finding dwelling accommodations for prospective tenants for a fee unless such person is a licensed broker or salesman"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D057",
+    "quoted_span": "may solely contract with a landlord or landlord's agent to find a tenant for a property"
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D057",
+    "quoted_span": "A licensed broker or salesperson may solely contract with a prospective tenant to find rental residential real property for a tenant"
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D057",
+    "quoted_span": "Any fee shall only be paid by the party, lessor or tenant who originally engaged and entered into a contract with the licensed broker or salesperson."
+   },
+   {
+    "field": "requires_unknown_facts",
+    "doc_id": "D057",
+    "quoted_span": "to find rental residential real property for a tenant"
+   }
+  ],
+  "notes": "The statute sets no limits by unit count, construction date, owner type or landlord size, so those fields stay null. Whether a broker is engaged is a fact about the transaction, not about the building. The rule reaches ordinary rental housing, so requires_unknown_facts is false. other_conditions was reworded to reflect the text more closely: either the tenant or the landlord (or the landlord's agent) may be the engaging party. No exemptions appear in the section."
+ }
+}

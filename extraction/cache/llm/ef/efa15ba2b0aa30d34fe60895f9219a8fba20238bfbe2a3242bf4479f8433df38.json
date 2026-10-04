@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D052:c2",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 9847,
+  "output_tokens": 940
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "partly_supported",
+    "quoted_span": "(b) At or prior to the commencement of any tenancy, no lessor or agent of the lessor may require a tenant or prospective tenant to pay, to the lessor or to an agent of the lessor, any amount in excess of the following:",
+    "note": "The statute supports the list (first month, last month, security deposit, key and lock), the post-commencement bar on excess advance rent or deposit, and the 30-day late-penalty bar. The statute does not name application, screening, pet, cleaning or amenity fees; that reading comes from a secondary source (DX13) that is not in this document. The rule flags this as the secondary source's reading."
+   },
+   {
+    "field": "key_value",
+    "verdict": "partly_supported",
+    "quoted_span": "(c) No lease or other rental agreement shall impose any interest or penalty for failure to pay rent until thirty days after such rent shall have been due.",
+    "note": "The first/last month, deposit and key/lock list and the 30-day late rule are supported. The deposit cap of one month's rent is supported, though the statute also allows a fee in lieu of deposit. The statement that application and other fees are not permitted is not in this document, and 'no late fee' paraphrases 'interest or penalty'."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The field is null. The document gives no original effective date, only the August 1, 2025 amendment, which the effective_date_note covers."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "[ Introductory paragraph of clause (b) of subsection (1) as amended by 2025, 9, Secs. 54 and 55 effective August 1, 2025.  See 2025, 9, Sec. 136.  For text effective until August 1, 2025, see above.]",
+    "note": "The amended text of clause (b) is shown as effective from August 1, 2025, with the prior version marked as effective only until then. This is consistent with the rule being in force."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "(9) The provisions of this section shall not apply to any lease, rental, occupancy or tenancy of one hundred days or less in duration which lease or rental is for a vacation or recreational purpose.",
+    "note": "The vacation/recreational exclusion of 100 days or less is supported. The statute has no building-size or owner-type limits and covers residential real property generally, which matches the broad statewide summary."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "Section 15B. (1) (a) No lease relating to residential real property shall contain a provision",
+    "note": "The document is G.L. c. 186, § 15B, and clause (b) is under subsection (1). The 2025 amendment reference (2025, 9, Secs. 54 and 55) also appears in the document."
+   }
+  ]
+ }
+}

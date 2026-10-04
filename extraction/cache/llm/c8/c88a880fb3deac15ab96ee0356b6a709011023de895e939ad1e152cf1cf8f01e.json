@@ -1,0 +1,72 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D025:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 45469,
+  "output_tokens": 2298
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": false,
+   "unverifiable_exemptions": [
+    "Higher two-month cap for a small landlord: a natural person (including a family-trust settlor or beneficiary) or an LLC whose members are all natural persons, owning no more than two residential rental properties with no more than four dwelling units offered for rent. The higher cap does not apply if the prospective tenant is a service member."
+   ],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Applies statewide to security for rental agreements for residential property used as the tenant's dwelling.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": null,
+   "other_conditions": "The one-month security cap (subdivision (c)) does not apply to security collected or demanded before July 1, 2024."
+  },
+  "evidence": [
+   {
+    "field": "summary",
+    "doc_id": "D025",
+    "quoted_span": "This section applies to security for a rental agreement for residential property that is used as the dwelling of the tenant."
+   },
+   {
+    "field": "requires_unknown_facts",
+    "doc_id": "D025",
+    "quoted_span": "This section applies to security for a rental agreement for residential property that is used as the dwelling of the tenant."
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D025",
+    "quoted_span": "The landlord is a natural person or a limited liability company in which all members are natural persons."
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D025",
+    "quoted_span": "landlord owns no more than two residential rental properties that collectively include no more than four dwelling units offered for rent."
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D025",
+    "quoted_span": "“Natural person” includes any natural person who is a"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D025",
+    "quoted_span": "Subparagraph (A) shall not apply if the prospective tenant is a service member."
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D025",
+    "quoted_span": "This subdivision shall not apply to a security collected or demanded by the landlord before July 1, 2024."
+   }
+  ],
+  "notes": "Set requires_unknown_facts to false. Section 1950.5 covers security for all ordinary residential rentals. Only the higher two-month small-landlord cap turns on ownership facts that assessor data cannot check, so it belongs in unverifiable_exemptions. Cleared landlord_size_condition and owner_conditions because the ownership test does not limit which buildings are covered; it only changes the cap amount, and it is captured as an unverifiable exemption. Removed the summary's claim about local deposit-interest rules (Berkeley, LA RSO, SF) because no provided document supports it (D007 is not among the documents). Removed the CCP § 1161 initial-inspection carve-out from other_conditions because it concerns landlord procedure on termination, not building, unit or owner coverage."
+ }
+}

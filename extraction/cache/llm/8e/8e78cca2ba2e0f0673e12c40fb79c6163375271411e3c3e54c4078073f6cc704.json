@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D085:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 837,
+  "output_tokens": 257
+ },
+ "result": {
+  "en": "In Santa Ana, yearly rent increases are capped at the lower of 3% or 80% of the 12-month CPI change (no increase if CPI is negative), the cap is 2.87% for September 1, 2026 through August 31, 2027, and landlords may pass through a registration fee of up to $50 per rental unit.",
+  "es": "En Santa Ana, los aumentos anuales de alquiler están limitados al menor entre 3% u 80% del cambio del IPC de 12 meses (sin aumento si el IPC es negativo), el límite es 2.87% del 1 de septiembre de 2026 al 31 de agosto de 2027, y los propietarios pueden trasladar una tarifa de registro de hasta $50 por unidad de alquiler."
+ }
+}

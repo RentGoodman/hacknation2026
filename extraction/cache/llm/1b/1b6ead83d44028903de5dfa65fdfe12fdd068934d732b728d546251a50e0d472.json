@@ -1,0 +1,67 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "extract",
+ "subject": "DX12",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 1834,
+  "output_tokens": 1206
+ },
+ "result": {
+  "rules": [
+   {
+    "candidate_id": "c1",
+    "jurisdiction": "Los Angeles, CA",
+    "category": "security_deposits",
+    "status": "in_force",
+    "title": "Los Angeles RSO security deposit interest requirement",
+    "requirement": "Landlords of properties subject to the Los Angeles Rent Stabilization Ordinance must pay tenants interest on security deposits, accruing monthly from November 1, 1990. The accrued interest is paid either directly or as a rent credit. The landlord chooses the method, notifies the tenant in writing, and pays monthly or yearly, not only at the end of the tenancy. The City sets the rate annually.",
+    "key_value": "Interest accrues monthly from Nov. 1, 1990; paid monthly or yearly (direct payment or rent credit); written notice of method; annual rate set by City (5.000% for Nov. 1990-2000; 4.320% for calendar year 2025; no 2026 rate stated)",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Applies to rental properties in the City of Los Angeles that are subject to the Los Angeles Rent Stabilization Ordinance (LARSO).",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": "Property must be subject to the Los Angeles Rent Stabilization Ordinance."
+    },
+    "exemptions": null,
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": "1990-11-01",
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "Interest began accruing on November 1, 1990 per the quoted LAMC text.",
+    "effective_date_formula": null,
+    "citation": "L.A. Mun. Code § 151.06.02",
+    "citation_aliases": [
+     "LAMC 151.06.02",
+     "L.A. Mun. Code § 151.06",
+     "Los Angeles Rent Stabilization Ordinance",
+     "LARSO",
+     "RSO"
+    ],
+    "quoted_span": "Interest shall begin accruing on November 1, 1990, on a monthly basis. A tenant shall be given the unpaid accrued interest in the form of either a direct payment or a credit against the tenant’s rent. The landlord shall choose between these two methods of payment and notify the tenant in writing of his or her choice. The landlord may elect to pay the accrued interest on a monthly or yearly basis.",
+    "confidence": 0.8,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "The rate table was last updated 5/21/25 and ends at calendar year 2025. The current-year (2026) rate is not given in the document.",
+    "source_notes": "Secondary source (landlord association article) quoting the LAMC. The article gives rates through 2025 and says the City sets the rate annually."
+   }
+  ],
+  "no_rule_findings": [],
+  "doc_summary": "A landlord association (AAGLA) article on the Los Angeles Rent Stabilization Ordinance security deposit interest requirement under LAMC § 151.06.02. It explains that interest must be paid monthly or yearly, directly or as a rent credit, with written notice of the chosen method. It also gives a table of annual City interest rates from 1990 through 2025 (updated 5/21/25)."
+ }
+}

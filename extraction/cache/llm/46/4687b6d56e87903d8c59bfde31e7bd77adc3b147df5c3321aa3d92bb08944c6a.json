@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D052:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 9999,
+  "output_tokens": 1989
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "partly_supported",
+    "quoted_span": "a security deposit equal to the first month's rent provided that such security deposit is deposited as required by subsection (3) and that the tenant is given the statement of condition as required by subsection (2);",
+    "note": "The deposit cap, holding, receipt, statement-of-condition, record-keeping, interest, return, deduction, successor, forfeiture, treble-damages and waiver provisions all match the statute. The fee-in-lieu option is described as arising 'As amended effective August 1, 2025'. The document marks only the introductory paragraph of clause (1)(b) as amended on that date. It does not say when the fee-in-lieu language in clause (iii) was added, so that attribution is unsupported. Interest is also owed only when the deposit is held for a year or longer, which the requirement omits."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "a security deposit equal to the first month's rent provided that such security deposit is deposited as required by subsection (3) and that the tenant is given the statement of condition as required by subsection (2);",
+    "note": "The 30-day return, 5% interest or lesser bank rate, and treble damages are in subsections (3)(b), (4), (6) and (7)."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The field is empty. The document gives no original effective date. It states only the August 1, 2025 effective date for the amended introductory paragraph of clause (1)(b)."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "Introductory paragraph of clause (b) of subsection (1) as amended by 2025, 9, Secs. 54 and 55 effective August 1, 2025.",
+    "note": "The document is the current statutory text with no repeal or sunset, which is consistent with in_force."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "The provisions of this section shall not apply to any lease, rental, occupancy or tenancy of one hundred days or less in duration which lease or rental is for a vacation or recreational purpose.",
+    "note": "The statute applies to residential real property leases and tenancies at will, with the vacation or recreational exemption of 100 days or less. 'Statewide' is implied by this being a state statute."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "General Law - Part II, Title I, Chapter 186, Section 15B",
+    "note": "The document also references the 2025 amendment ('2025, 9, Secs. 54 and 55'), which matches the St. 2025, c. 9, §§ 54-55 alias."
+   }
+  ]
+ }
+}

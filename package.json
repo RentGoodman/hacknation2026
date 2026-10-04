@@ -1,0 +1,15 @@
+{
+  "name": "parcel-vercel",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {"node": "24.x"},
+  "scripts": {
+    "dev": "node mockup/server.mjs",
+    "start": "node mockup/server.mjs",
+    "build": "node mockup/scripts/build-vercel.mjs",
+    "check": "npm --prefix mockup run check && node --check api/chat.js && node --check api/version.js && node --check mockup/api-handlers.mjs",
+    "pretest": "npm run build",
+    "test": "node --test mockup/scripts/*.test.mjs && python3 -m unittest discover -s mockup/scripts -p test_lookup.py"
+  }
+}

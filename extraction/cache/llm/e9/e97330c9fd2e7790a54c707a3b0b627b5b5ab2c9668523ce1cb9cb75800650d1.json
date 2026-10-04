@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "DX06:c11",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 475,
+  "output_tokens": 147
+ },
+ "result": {
+  "en": "Under King County's algorithmic rent-pricing chapter, a renter who is injured by a violation may seek actual damages, up to $7,500 per violation, and attorney fees.",
+  "es": "Según el capítulo del condado de King sobre fijación algorítmica de alquileres, un inquilino perjudicado por una infracción puede reclamar daños reales, hasta $7,500 por infracción, y honorarios de abogado."
+ }
+}

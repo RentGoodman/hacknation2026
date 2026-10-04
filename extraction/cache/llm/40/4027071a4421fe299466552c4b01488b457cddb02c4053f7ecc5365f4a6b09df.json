@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D067:c2",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 60844,
+  "output_tokens": 1731
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "No residential landlord may evict or fail to renew a \nlease, whether it is a written or an oral lease without good cause.",
+    "note": "The listed causes, the Notice to Quit and Notice to Cease rules, the self-help ban, the relocation assistance, the owner-occupied and rooming-house provisions and the misuse penalties all match the guide."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "Any tenant evicted under G 3) (illegal occupancy) is entitled to relocation assistance in \nan amount equal to six times the tenant’s monthly rent.",
+    "note": "The notice periods (3 days, 1 month, 2 months, 3 months, 18 months, 3 years) match the guide's cause-by-cause provisions. Treble damages and the $10,000 civil penalty are also stated."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The guide gives no effective date for the Act, and the field is null."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "The Anti-Eviction Act applies to most residential rental properties including single-family",
+    "note": "The guide presents the Act as currently applicable law. It does not use the words 'in force'."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "Tenants of landlord-occupied two- and three-family dwellings can be removed only when ",
+    "note": "The covered property types, the owner-occupied limit of 3 units, the hotel and motel rule and the trust-unit exemption all match the guide."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "N.J.S.A. 2A:18-61.1 to 61.12",
+    "note": "The primary citation matches. Most aliases appear in the guide. P.L.1974, c.49 does not appear in the document."
+   }
+  ]
+ }
+}

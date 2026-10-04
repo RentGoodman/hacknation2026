@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "DX07:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 654,
+  "output_tokens": 271
+ },
+ "result": {
+  "en": "In California, landlords and screening companies may check your criminal history but cannot consider arrests that did not lead to conviction, sealed or expunged records, or juvenile records, cannot use blanket bans, and can deny you over a conviction only if it is directly related to being a good tenant and not threatening the health and safety of others or property.",
+  "es": "En California, los arrendadores y las empresas de evaluación pueden revisar sus antecedentes penales, pero no pueden considerar arrestos que no resultaron en condena, registros sellados o eliminados, ni registros de menores, no pueden aplicar prohibiciones generales, y solo pueden rechazarle por una condena si está directamente relacionada con ser un buen inquilino y con no amenazar la salud y la seguridad de otras personas ni la propiedad."
+ }
+}

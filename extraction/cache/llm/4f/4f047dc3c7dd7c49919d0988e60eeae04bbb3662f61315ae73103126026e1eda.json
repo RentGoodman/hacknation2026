@@ -1,0 +1,11 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "DX21:c1",
+ "prompt_version": "v10",
+ "usage": {},
+ "result": {
+  "en": "When a lease ends, a Newark landlord can raise your rent only by the change in the regional consumer price index (CPI-U), never more than 4%, only once in any 12 months, and only after giving you and the Rent Regulation Officer 30 days' written notice.",
+  "es": "Cuando termina el contrato de alquiler, el propietario en Newark solo puede subir su renta según el cambio en el índice regional de precios al consumidor (CPI-U), nunca más del 4%, solo una vez cada 12 meses y únicamente después de avisarle a usted y al Funcionario de Regulación de Rentas con 30 días de aviso por escrito."
+ }
+}

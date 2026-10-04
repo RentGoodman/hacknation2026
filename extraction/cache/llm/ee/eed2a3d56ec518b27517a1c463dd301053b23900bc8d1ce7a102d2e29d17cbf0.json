@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D083:c2",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 598,
+  "output_tokens": 197
+ },
+ "result": {
+  "en": "The San Francisco Rent Board publishes an annual interest rate on tenant security deposits: 4.2% for March 1, 2026 to February 28, 2027, after 5.0% for 2025-26 and 5.2% for 2024-25.",
+  "es": "La Junta de Alquileres de San Francisco publica una tasa de interés anual sobre los depósitos de seguridad de los inquilinos: 4.2% del 1 de marzo de 2026 al 28 de febrero de 2027, después de 5.0% para 2025-26 y 5.2% para 2024-25."
+ }
+}

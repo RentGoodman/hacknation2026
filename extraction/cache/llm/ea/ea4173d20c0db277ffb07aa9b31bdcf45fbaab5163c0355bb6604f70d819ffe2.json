@@ -1,0 +1,74 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "extract",
+ "subject": "D076",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 8747,
+  "output_tokens": 2551
+ },
+ "result": {
+  "rules": [
+   {
+    "candidate_id": "c1",
+    "jurisdiction": "San Diego, CA",
+    "category": "algorithmic_rent_setting",
+    "status": "pending",
+    "title": "Prohibition of Anti-Competitive Automated Rent Price-Fixing Ordinance (proposed)",
+    "requirement": "It would be unlawful for any person to sell, license or otherwise provide an algorithmic device to a landlord. It would also be unlawful for a landlord to use an algorithmic device to set rental rates or occupancy levels for residential rental property. An algorithmic device is software that runs calculations on nonpublic competitor data to advise or recommend rental rates or occupancy levels. Each month a landlord's use continues, and each property where it is used, counts as a separate violation. A tenant may sue a landlord for injunctive relief, damages or civil penalties, and a prevailing tenant recovers costs and attorney's fees.",
+    "key_value": "Civil penalties up to $1,000 per violation; each month and each property is a separate violation; prevailing tenant recovers costs and attorney's fees; effective 30 days after final passage",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Applies citywide to landlords of residential rental property in San Diego and to anyone who sells, licenses or provides algorithmic devices to them. No unit-count or construction-date limits are stated.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": "Definitions of landlord, lease, residential rental property and tenant are taken from S.D. Mun. Code § 98.0702."
+    },
+    "exemptions": "Excluded from 'algorithmic device': (a) software used to publish reports on rental rates or occupancy levels from aggregated historical nonpublic competitor data more than 90 days old, or from public information, that does not recommend rates or occupancy levels for future leases or renewals; (b) software used to set rental rates or income limits under local, state or federal affordable housing program guidelines.",
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "The document is a staff report with a draft ordinance whose date of final passage and Council adoption are blank. The ordinance takes effect on the thirtieth day after final passage, so the effective date cannot be computed from this document.",
+    "effective_date_formula": {
+     "kind": "days_after",
+     "n": 30,
+     "anchor": "enactment",
+     "anchor_date": null,
+     "verbatim": "thirtieth day from and after its final passage"
+    },
+    "citation": "S.D. Mun. Code § 98.1103",
+    "citation_aliases": [
+     "S.D. Mun. Code ch. 9, art. 8, div. 11",
+     "S.D. Mun. Code §§ 98.1101-98.1104",
+     "S.D. Mun. Code § 98.1102",
+     "S.D. Mun. Code § 98.1104",
+     "O-2025-107",
+     "Prohibition of Anti-Competitive Automated Rent Price-Fixing Ordinance"
+    ],
+    "quoted_span": "It is unlawful for a landlord to use an algorithmic device to set rental rates or occupancy levels for residential rental property.",
+    "confidence": 0.8,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "Status is pending because the draft shows no passage, adoption or mayoral action. Check whether the Council has since adopted it, and if so use the passage date to compute the effective date.",
+    "source_notes": "Official city staff report (issued Feb. 27, 2025) with the draft ordinance, City Attorney digest and strikeout version. The text is the same in all three versions."
+   }
+  ],
+  "no_rule_findings": [],
+  "doc_summary": "San Diego Council District 9 staff report (Feb. 27, 2025) and draft ordinance O-2025-107. The ordinance would add Division 11 (§§ 98.1101-98.1104) to Chapter 9, Article 8 of the San Diego Municipal Code. It bans selling, licensing or using algorithmic rent-setting software that relies on nonpublic competitor data. It exempts reports built on public or aged aggregated data and affordable-housing program software, and gives tenants a private right of action with civil penalties of up to $1,000 per violation. The draft has blank passage and adoption dates and takes effect 30 days after final passage, so it is treated as pending."
+ }
+}

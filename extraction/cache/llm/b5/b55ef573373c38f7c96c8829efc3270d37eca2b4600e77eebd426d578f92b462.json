@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D026:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 988,
+  "output_tokens": 347
+ },
+ "result": {
+  "en": "In California, a landlord can charge a rental applicant a screening fee only for actual out-of-pocket costs, capped at $30 per applicant and adjusted annually with the CPI since Jan. 1, 1998, must give an itemized receipt and a copy of any credit report within 7 days, and must either consider applications in order received or refund the fee to non-selected applicants within 7 days of selection or 30 days of application, whichever comes first.",
+  "es": "En California, un arrendador solo puede cobrar a un solicitante una tarifa de evaluación por los costos reales de su bolsillo, con un tope de $30 por solicitante ajustado cada año con el CPI desde el 1 de enero de 1998, debe dar un recibo detallado y una copia de cualquier informe de crédito dentro de 7 días, y debe considerar las solicitudes por orden de llegada o devolver la tarifa a los solicitantes no seleccionados dentro de 7 días de la selección o 30 días de la solicitud, lo que ocurra primero."
+ }
+}

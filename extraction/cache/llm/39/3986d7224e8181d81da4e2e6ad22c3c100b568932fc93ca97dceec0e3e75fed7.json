@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D050:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 1792,
+  "output_tokens": 631
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "fourteen days' notice to quit, given in writing by the landlord to the tenant, shall be sufficient to determine the lease, unless the tenant, on or before the day the answer is due, in an action by the landlord to recover possession of the premises, pays or tenders to the landlord or to his attorney all rent then due, with interest and costs of suit.",
+    "note": "The summary of the government-delay continuance of at least 7 days and treating the tenancy as not terminated matches the second sentence."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "fourteen days' notice to quit, given in writing by the landlord to the tenant, shall be sufficient to determine the lease",
+    "note": "The 7-day minimum continuance for government payment delay appears in the text as 'continue the hearing not less than seven days'."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The rule's effective date is empty, and the document states no effective date."
+   },
+   {
+    "field": "status",
+    "verdict": "partly_supported",
+    "quoted_span": "Upon the neglect or refusal to pay the rent due under a written lease, fourteen days' notice to quit",
+    "note": "The document is the current codified text and is consistent with in_force, but it does not state its status explicitly."
+   },
+   {
+    "field": "coverage",
+    "verdict": "partly_supported",
+    "quoted_span": "Upon the neglect or refusal to pay the rent due under a written lease",
+    "note": "The written lease condition is supported. The statement that tenancies at will are handled separately in § 12 is not in the document, though the absence of unit-count, age, or owner limits is consistent with the text."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "General Law - Part II, Title I, Chapter 186, Section 11",
+    "note": "The document header matches G.L. c. 186, § 11."
+   }
+  ]
+ }
+}

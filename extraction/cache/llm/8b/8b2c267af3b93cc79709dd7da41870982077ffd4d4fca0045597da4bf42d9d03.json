@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D043:c4",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 14163,
+  "output_tokens": 713
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "The landlord demolishes the property or converts the use of the property to condominiums, \nstock cooperatives, community apartment projects, hotels, and commercial uses, regardless \nof whether the property is subject to the RSO OR JCO (LAMC 47.06 & 47.07).",
+    "note": "Relocation assistance for demolition/conversion regardless of RSO/JCO is stated, as is the tentative map election with the landlord still owing relocation assistance. 'Must pay relocation assistance' is inferred from the bulletin's opening statement that no-fault evictions require it, and the list item is under 'Not-At-Fault Reasons for Eviction'."
+   },
+   {
+    "field": "key_value",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The key_value is empty. The document gives no amount for this rule specifically; it only provides general relocation charts."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The effective_date is empty. The document gives no effective date for LAMC 47.06/47.07; the July 1, 2026 dates relate to the chart amounts, not this rule."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "All tenant not- at-fault evictions require payment of relocation assistance",
+    "note": "The bulletin, dated 07/01/2026, presents the requirement as current, so in_force is consistent."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "regardless \nof whether the property is subject to the RSO OR JCO (LAMC 47.06 & 47.07)",
+    "note": "The summary matches the document: coverage applies in the City of Los Angeles regardless of RSO/JCO status. Other coverage fields are null, and nothing in the document contradicts that."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "(LAMC 47.06 & 47.07)",
+    "note": "The document cites LAMC 47.06 and 47.07 and, for the tentative map election, 47.06.D.2, which matches the main citation and its aliases."
+   }
+  ]
+ }
+}

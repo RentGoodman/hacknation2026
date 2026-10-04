@@ -1,0 +1,45 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D050:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 36990,
+  "output_tokens": 935
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": null,
+   "unverifiable_exemptions": [],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Applies to tenancies held under a written lease.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": null,
+   "other_conditions": "Written leases only."
+  },
+  "evidence": [
+   {
+    "field": "other_conditions",
+    "doc_id": "D050",
+    "quoted_span": "rent due under a written lease"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D050",
+    "quoted_span": "rent due under a written lease, fourteen days' notice to quit, given in writing by the landlord to the tenant, shall be sufficient to determine the lease"
+   }
+  ],
+  "notes": "I removed 'nonpayment ground only' from other_conditions and 'where rent is unpaid' from summary. Nonpayment is the event that triggers the notice rule, not a feature of the building, unit or owner, so it does not belong in coverage. The written-lease limitation is kept because it defines which tenancies the section reaches. D051 (c. 186, § 12) covers tenants at will separately. D050 gives no unit-count, construction-date, owner-occupancy or landlord-size limits, and no preemption language, so those fields stay null."
+ }
+}

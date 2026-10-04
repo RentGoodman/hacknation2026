@@ -1,0 +1,67 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "extract",
+ "subject": "D025",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 8493,
+  "output_tokens": 2327
+ },
+ "result": {
+  "rules": [
+   {
+    "candidate_id": "c1",
+    "jurisdiction": "CA",
+    "category": "security_deposits",
+    "status": "in_force",
+    "title": "California residential security deposit law (Civ. Code § 1950.5)",
+    "requirement": "Caps security (any payment, fee, deposit or charge imposed at the start of a tenancy, including tenant-processing costs and advance rent) at one month's rent, in addition to first month's rent. A landlord who is a natural person, or an LLC whose members are all natural persons, and who owns no more than two rental properties with no more than four units collectively, may collect up to two months' rent, but not from a service member. Security must be held for the tenant. Deductions are limited to reasonably necessary amounts for unpaid rent, damage beyond ordinary wear and tear, cleaning, and restoring personal property. The landlord must offer an initial inspection on request and take photographs at move-in and move-out. Within 21 calendar days after the tenant vacates, the landlord must return the remaining security with an itemized statement and supporting documents. Security may not be called 'nonrefundable'. Bad-faith retention can bring statutory damages of up to twice the deposit.",
+    "key_value": "Cap: 1 month's rent (2 months for qualifying small landlords, not for service members); itemized statement and return within 21 calendar days after tenant vacates; documentation not required if deductions total $125 or less, unless the tenant requests it within 14 days; bad-faith damages up to 2x the security plus actual damages; no 'nonrefundable' clauses.",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": "Higher 2-month cap applies only if the landlord is a natural person (including a settlor or beneficiary of a family trust) or an LLC whose members are all natural persons, and owns no more than two residential rental properties with no more than four dwelling units offered for rent in total.",
+     "summary": "Applies to security for rental agreements for residential property used as the tenant's dwelling.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": "Small-landlord condition raises the cap to two months' rent.",
+     "other_conditions": "Does not apply to a security collected or demanded before July 1, 2024. The service-member provisions apply on or after April 1, 2025. The move-in photograph requirement applies to tenancies beginning on or after July 1, 2025."
+    },
+    "exemptions": "The two-month cap does not apply if the prospective tenant is a service member. The initial-inspection requirements do not apply when the tenancy is terminated under CCP § 1161(2), (3) or (4). Itemized documentation is not required if deductions are $125 or less or the tenant waived it.",
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": "2024-07-01",
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "The one-month cap applies to security collected or demanded on or after July 1, 2024 (subd. (c)(6)). The section was most recently amended by Stats. 2025, Ch. 340 (AB 414), effective January 1, 2026. Some provisions have later dates: April 1, 2025 for the service-member provisions and move-out photographs, July 1, 2025 for move-in photographs.",
+    "effective_date_formula": null,
+    "citation": "Cal. Civ. Code § 1950.5",
+    "citation_aliases": [
+     "Cal. Civ. Code § 1950.5",
+     "Civil Code section 1950.5",
+     "Stats. 2025, ch. 340",
+     "AB 414",
+     "Cal. Civ. Code div. 3, pt. 4, tit. 5, ch. 2"
+    ],
+    "quoted_span": "Except as provided in paragraph (2), (3), or (5), a landlord shall not demand or receive security, however denominated, in an amount or value in excess of an amount equal to one month’s rent, in addition to any rent for the first month paid on or before initial occupancy.",
+    "confidence": 0.93,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "The section's definition of security includes tenant-processing charges, but it carves out Civ. Code § 1950.6 (screening fees). No separate screening-fee record is created, because that section is not in this document.",
+    "source_notes": "Official code text as amended by AB 414, effective January 1, 2026."
+   }
+  ],
+  "no_rule_findings": [],
+  "doc_summary": "Official text of California Civil Code § 1950.5, the statewide residential security deposit law as amended by AB 414 (effective Jan. 1, 2026). It caps security at one month's rent, or two months for qualifying small landlords. It also covers permitted deductions, initial inspections, photographs, a 21-day itemized return, successor-landlord duties, and bad-faith damages of up to twice the deposit."
+ }
+}

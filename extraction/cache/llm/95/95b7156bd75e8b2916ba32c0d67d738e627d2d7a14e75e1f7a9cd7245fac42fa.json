@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "DX01:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 794,
+  "output_tokens": 287
+ },
+ "result": {
+  "en": "Hoboken landlords may not use software or data-sharing platforms that analyze nonpublic competitor information (data less than 365 days old and not free to the public) to coordinate rents, lease terms or occupancy levels, and violators can face penalties under N.J.S.A. 40:49-5, a fine of up to $2,000, or community service of up to 90 days.",
+  "es": "Los propietarios de Hoboken no pueden usar programas o plataformas de datos que analicen información no pública de competidores (datos de menos de 365 días que no estén disponibles gratis para el público) para coordinar alquileres, condiciones de arrendamiento u ocupación, y quienes infrinjan pueden enfrentar sanciones según N.J.S.A. 40:49-5, una multa de hasta $2,000 o servicio comunitario de hasta 90 días."
+ }
+}

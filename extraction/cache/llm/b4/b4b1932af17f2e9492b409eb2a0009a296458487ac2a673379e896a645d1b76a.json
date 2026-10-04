@@ -1,0 +1,83 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "DX03:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 37768,
+  "output_tokens": 2941
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": {
+    "years": 10,
+    "basis": "newly constructed units less than 10 years old (secondary source DX14 only)",
+    "requires_owner_filing": null
+   },
+   "owner_occupied_exemption_max_units": 4,
+   "requires_unknown_facts": false,
+   "unverifiable_exemptions": [
+    "dwelling units in facilities operated solely for educational, religious, or nonprofit purposes",
+    "certain publicly regulated units",
+    "short-term rentals"
+   ],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Proposed statewide measure, never in effect. It would have repealed G.L. c. 40P and capped annual rent increases for all 'covered dwelling units', meaning ordinary residential rental units statewide. The SJC opinion names one exclusion: facilities operated solely for educational, religious, or nonprofit purposes. A secondary source adds: owner-occupied buildings of four or fewer units, units less than 10 years old, certain publicly regulated units, and short-term rentals.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": "Owner-occupied buildings with four or fewer units exempt (secondary source DX14 only).",
+   "other_conditions": null
+  },
+  "evidence": [
+   {
+    "field": "new_construction_exemption",
+    "doc_id": "DX14",
+    "quoted_span": "The petition included several exemptions, including owner-occupied buildings with four or fewer units, newly constructed units less than 10 years old, certain publicly regulated units, short-term rentals, and dwelling units in facilities operated solely for educational, religious, or nonprofit purposes."
+   },
+   {
+    "field": "owner_occupied_exemption_max_units",
+    "doc_id": "DX14",
+    "quoted_span": "The petition included several exemptions, including owner-occupied buildings with four or fewer units, newly constructed units less than 10 years old, certain publicly regulated units, short-term rentals, and dwelling units in facilities operated solely for educational, religious, or nonprofit purposes."
+   },
+   {
+    "field": "owner_conditions",
+    "doc_id": "DX14",
+    "quoted_span": "The petition included several exemptions, including owner-occupied buildings with four or fewer units, newly constructed units less than 10 years old, certain publicly regulated units, short-term rentals, and dwelling units in facilities operated solely for educational, religious, or nonprofit purposes."
+   },
+   {
+    "field": "requires_unknown_facts",
+    "doc_id": "DX03",
+    "quoted_span": "Initiative Petition 25-21 subjects all \"covered dwelling units\" to rent control."
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "DX03",
+    "quoted_span": "However, the petition excludes several categories of residential properties from its definition of \"covered dwelling units,\" including those in \"facilities operated solely for educational, religious, or nonprofit purposes.\""
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "DX14",
+    "quoted_span": "The petition included several exemptions, including owner-occupied buildings with four or fewer units, newly constructed units less than 10 years old, certain publicly regulated units, short-term rentals, and dwelling units in facilities operated solely for educational, religious, or nonprofit purposes."
+   },
+   {
+    "field": "summary",
+    "doc_id": "DX03",
+    "quoted_span": "The petition, if enacted, would end the Statewide prohibition on rent control \"by striking out [G. L. c. 40P]\" and instituting in its place \"a limit on any annual rent increase\" set at \"the annual increase in Consumer Price Index or [five percent], whichever is lower.\""
+   },
+   {
+    "field": "summary",
+    "doc_id": "DX14",
+    "quoted_span": "The petition would have repealed the Commonwealth's existing statutory ban on rent control, G.L. c. 40P, and replaced it with a statewide cap on annual rent increases for most residential rental units."
+   }
+  ],
+  "notes": "Removed min_building_age_years=10. It double-counted the rolling 10-year new-construction exemption, which is already captured in new_construction_exemption, and that exemption concerns unit age rather than a fixed building age. Moved 'short-term rentals' out of other_conditions into unverifiable_exemptions, since assessor data cannot identify short-term rental use. Set requires_unknown_facts=false: the petition covers ordinary rental units generally and only carves out exemptions. All exemptions except the educational/religious/nonprofit facilities rest solely on secondary source DX14, because the petition text is not in the corpus. The DX14 summary quote uses a curly apostrophe in the source ('Commonwealth's'), which may need to be matched exactly. The measure never took effect, so coverage is descriptive only."
+ }
+}

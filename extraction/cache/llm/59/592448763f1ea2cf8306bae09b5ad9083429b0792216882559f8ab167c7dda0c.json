@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D079:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 4843,
+  "output_tokens": 1567
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "partly_supported",
+    "quoted_span": "In order to evict a tenant from a rental unit covered by the Rent Ordinance, a landlord must have a \"just cause\" reason that is the dominant motive for pursuing the eviction.",
+    "note": "The document supports the 17 just causes, the dominant-motive rule, the expiration/ownership-change point, housing-service removal and the § 37.2(r) soft-story exception. It says nothing about § 37.9C or § 37.9A relocation payments, the March 1 adjustment, or Civ. Code § 1947.9."
+   },
+   {
+    "field": "key_value",
+    "verdict": "partly_supported",
+    "quoted_span": "The 17 just cause reasons for eviction under",
+    "note": "The 17 just causes and the dominant-motive requirement are supported. All relocation dollar amounts and notice-period dates are absent from this document."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The field is empty and the document states no enactment or effective date."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "a landlord must have a \"just cause\" reason that is the dominant motive for pursuing the eviction",
+    "note": "The page states the requirement in the present tense as current law. It gives no explicit status label."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "Some tenancies that are exempt from the rent increase limitations of the Ordinance are still subject to the eviction provisions of the Ordinance",
+    "note": "The document supports the covered-unit scope, the post-June 13, 1979 Certificate of Occupancy units, the Costa-Hawkins-eligible tenancies and the tenancies regulated by another government agency."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "Ordinance Section 37.9(a)",
+    "note": "The document cites Section 37.9(a) for the 17 just causes and Section 37.2(r) for the soft-story exception. The 'S.F. Admin. Code' prefix is not stated for these sections, and §§ 37.9A and 37.9C are not mentioned."
+   }
+  ]
+ }
+}

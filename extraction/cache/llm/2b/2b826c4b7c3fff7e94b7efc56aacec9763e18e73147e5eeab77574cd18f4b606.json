@@ -1,0 +1,54 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "probe",
+ "subject": "Seattle, WA",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 17507,
+  "output_tokens": 623
+ },
+ "result": {
+  "verdicts": [
+   {
+    "category": "rent_increase_limits",
+    "verdict": "undetermined",
+    "doc_id": null,
+    "quoted_span": null,
+    "basis_citation": null,
+    "reason": "No Seattle-specific document addresses rent increase limits. The Seattle passages (DX06) cover only the algorithmic coordinating-services ordinance (SMC ch. 7.34), and the other retrieved passages concern other jurisdictions."
+   },
+   {
+    "category": "just_cause_eviction",
+    "verdict": "undetermined",
+    "doc_id": null,
+    "quoted_span": null,
+    "basis_citation": null,
+    "reason": "The retrieved just-cause passages concern Santa Ana, San Diego, Los Angeles and California state law. None addresses Seattle, so the documents do not settle this category."
+   },
+   {
+    "category": "security_deposits",
+    "verdict": "undetermined",
+    "doc_id": null,
+    "quoted_span": null,
+    "basis_citation": null,
+    "reason": "The security deposit passages concern Massachusetts, New Jersey and Berkeley. The only Seattle mentions (DX06) are about algorithmic rent coordination, so nothing establishes either the presence or absence of a Seattle rule."
+   },
+   {
+    "category": "application_screening_fees",
+    "verdict": "undetermined",
+    "doc_id": null,
+    "quoted_span": null,
+    "basis_citation": null,
+    "reason": "The screening fee passages concern California, Berkeley and Massachusetts. No document addresses Seattle or Washington screening fees."
+   },
+   {
+    "category": "screening_restrictions",
+    "verdict": "undetermined",
+    "doc_id": null,
+    "quoted_span": null,
+    "basis_citation": null,
+    "reason": "The screening restriction passages concern California rules and a credit-screening policy document. None addresses Seattle, so the documents do not settle whether a rule exists."
+   }
+  ]
+ }
+}

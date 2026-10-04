@@ -1,0 +1,81 @@
+{
+  "source": "https://drive.google.com/drive/folders/14TT6AEH8TStzoT5c5fZ45Bt4grODsowR",
+  "inspection_scope": "Full address CSV, full manifest, schema, participant guide, templates and five change tests; 50 corpus text files downloaded from first Drive listing page, selected texts inspected; no complete legal validation or extraction performed.",
+  "address_count": 500,
+  "fields": [
+    "address_id",
+    "street_address",
+    "postal_city",
+    "state",
+    "zip",
+    "year_built",
+    "units",
+    "use_code",
+    "use_description",
+    "source_dataset",
+    "retrieved_at"
+  ],
+  "missing_values": {
+    "address_id": 0,
+    "street_address": 0,
+    "postal_city": 0,
+    "state": 0,
+    "zip": 130,
+    "year_built": 212,
+    "units": 242,
+    "use_code": 0,
+    "use_description": 0,
+    "source_dataset": 0,
+    "retrieved_at": 0
+  },
+  "manifest_documents": 87,
+  "manifest_status_counts": {
+    "ok": 54,
+    "link-only": 32,
+    "manual: 403 Client Error: Forbidden for url: https://www.mass.gov/doc/803-cmr-5-criminal-offender-record-information-cori-housing/download": 1
+  },
+  "downloaded_text_count": 50,
+  "by_source_dataset": {
+    "Alameda County parcels": {
+      "rows": 40,
+      "missing_year": 40,
+      "missing_units": 40
+    },
+    "Boston Property Assessment FY2026": {
+      "rows": 60,
+      "missing_year": 8,
+      "missing_units": 60
+    },
+    "Cambridge Property Database FY2026 (waa7-ibdu)": {
+      "rows": 50,
+      "missing_year": 0,
+      "missing_units": 0
+    },
+    "DataSF wv5m-vpq2 (2025 roll)": {
+      "rows": 80,
+      "missing_year": 2,
+      "missing_units": 0
+    },
+    "LA County eGIS parcels": {
+      "rows": 80,
+      "missing_year": 6,
+      "missing_units": 3
+    },
+    "NJOGIS Parcels & MOD-IV Composite": {
+      "rows": 140,
+      "missing_year": 106,
+      "missing_units": 139
+    },
+    "SANDAG/SanGIS parcels": {
+      "rows": 50,
+      "missing_year": 50,
+      "missing_units": 0
+    }
+  },
+  "missing_from_download": [
+    "D082",
+    "D083",
+    "D084",
+    "D085"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "DX06:c14",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 5762,
+  "output_tokens": 573
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "Prohibits landlords from using algorithmic devices and shared competitor information to set rent, fees, or other rental terms.",
+    "note": "The requirement text matches the table row for Rockville exactly."
+   },
+   {
+    "field": "key_value",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "Key value is empty. The document gives no dollar amount or numeric value for Rockville."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "supported",
+    "quoted_span": "Rockville City Code § 18-148 (effective January 1, 2027)",
+    "note": "The effective date of January 1, 2027 is stated in the table."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "Rockville City Code § 18-148 (effective January 1, 2027)",
+    "note": "The document is dated August 21, 2026 and gives a future effective date of January 1, 2027, so not_yet_effective is consistent with it. The document does not use the status label itself."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "Prohibits landlords from using algorithmic devices and shared competitor information to set rent, fees, or other rental terms.",
+    "note": "The coverage summary says the document states no limits on buildings, units or landlords and describes the prohibition as applying to landlords generally. This matches the table row, and all other coverage fields are null, which is consistent with the document."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "Rockville City Code § 18-148 (effective January 1, 2027)",
+    "note": "The primary citation is stated. The alias 'Rockville City Code ch. 18' is not in the document but is flagged as inferred in the review note."
+   }
+  ]
+ }
+}

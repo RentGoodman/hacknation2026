@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D083:c5",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 588,
+  "output_tokens": 224
+ },
+ "result": {
+  "en": "If a renter is temporarily displaced for under 20 days for capital improvements, the landlord must pay relocation under Civ. Code § 1947.9, which for notices served 3/1/2026-2/28/2027 is $446.00 per day per tenant household plus actual moving expenses.",
+  "es": "Si un inquilino es desplazado temporalmente por menos de 20 días por mejoras de capital, el arrendador debe pagar la reubicación según el Civ. Code § 1947.9, que para avisos entregados del 3/1/2026 al 2/28/2027 es de $446.00 por día por hogar inquilino más los gastos reales de mudanza."
+ }
+}

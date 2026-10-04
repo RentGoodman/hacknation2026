@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D045:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 1320,
+  "output_tokens": 526
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "partly_supported",
+    "quoted_span": "An Act relative to preventing algorithmic rent fixing in the rental housing market",
+    "note": "The title supports the description of the bill's aim and the committee (House Committee on Ways and Means). The document has no bill text, so the statements about unknown terms are consistent, but nothing more is verifiable."
+   },
+   {
+    "field": "key_value",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "Field is null and the document states no key value."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "Field is null and the document states no effective date. The note that none is stated is consistent with the document."
+   },
+   {
+    "field": "status",
+    "verdict": "partly_supported",
+    "quoted_span": "House Ways and Means",
+    "note": "The document shows the bill in House Ways and Means with the 194th (Current) session label, consistent with pending. It does not state 'pending' explicitly."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "An Act relative to preventing algorithmic rent fixing in the rental housing market",
+    "note": "The summary says the bill concerns the rental housing market generally and that no text is captured. The document has no coverage details, and all structured coverage fields are null, which matches."
+   },
+   {
+    "field": "citation",
+    "verdict": "partly_supported",
+    "quoted_span": "Bill H.5222",
+    "note": "H.5222 is supported. The alias H1564 appears in the action list, but the document does not link it as H.1564 or as the original docket. The other aliases are only variants of the bill name."
+   }
+  ]
+ }
+}

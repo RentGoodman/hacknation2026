@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D066:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 3445,
+  "output_tokens": 641
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "A landlord, or\nagent thereof, shall not require an application or other similar fee to apply\nto lease or sublease a residential rental property for dwelling purposes, which\nexceeds $50.",
+    "note": "Cap, CPI adjustment, penalties, enforcement, remittance and rulemaking all match the text."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "shall be liable for a penalty of up to $500 for a\nfirst offense, up to $750 for a second offense, and up to $1,000 for each\nsubsequent offense",
+    "note": "The $50 cap appears in subsection a; CPI adjustment begins January 1 of the year after enactment (2027)."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "supported",
+    "quoted_span": "This act shall take effect on the first day of the\nfourth month next following the date of enactment",
+    "note": "Approved January 20, 2026; the first day of the fourth month following is May 1, 2026."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "This act shall take effect on the first day of the\nfourth month next following the date of enactment",
+    "note": "Enacted January 20, 2026, effective May 1, 2026. In force is consistent assuming the query date is after May 1, 2026, which the document does not state."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "located in a one-family or two-family dwelling that is offered for rent; or",
+    "note": "The exclusion of one- and two-family dwellings and the licensee carve-out are both stated. The min_units of 3 is a reasonable inference."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "C.46:8-18.1  Residential rental property application fee not\nto exceed $50.",
+    "note": "The document also shows P.L. 2025, c.405, A4899 and C.46:8-18.2."
+   }
+  ]
+ }
+}

@@ -1,0 +1,21 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "date_audit",
+ "subject": "D043:c3",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 25358,
+  "output_tokens": 952
+ },
+ "result": {
+  "requirement_is_new": true,
+  "in_force_since": "2025-02-11",
+  "in_force_since_evidence": {
+   "doc_id": "D043",
+   "quoted_span": "effective 2/11/2025 under Ordinances # 188481 and #188482"
+  },
+  "current_version_effective": "2025-02-11",
+  "prior_version_note": null,
+  "effective_date_formula": null
+ }
+}

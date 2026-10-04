@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D067:c2",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 60870,
+  "output_tokens": 1138
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "No residential landlord may evict or fail to renew a \nlease, whether it is a written or an oral lease without good cause.",
+    "note": "The guide supports the core requirement and the listed causes (A–R). It also supports the Notice to Quit rule, the self-help ban, relocation of six times monthly rent with 18% interest, treble damages, the $10,000 penalty, rooming house notice, and landlord registration. The 'illegal occupancy' relocation point and the 'treble damages for misuse after owner-occupancy eviction' point are both in the document."
+   },
+   {
+    "field": "key_value",
+    "verdict": "partly_supported",
+    "quoted_span": "A Notice to Quit must be served on the tenant at least three months before filing a suit \nfor eviction. The tenant can’t be evicted until relocation assistance is provided.",
+    "note": "Most periods match: 3 days, 1 month, 2 months, 3 months, 18 months, 3 years, 6x rent relocation and the $10,000 penalty. One mismatch: the 3-day group is lumped with 'criminal causes' and the 2-month group is described loosely. The 1-month group correctly includes habitual late payment. The 3-day group omits drug, assault, theft offenses by name but 'criminal causes' covers them. The 'penalty up to $10,000' applies only to the retirement/demolition re-use violation, which the summary does not make clear."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The rule's effective_date is null, and the guide states no effective date for the Anti-Eviction Act."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "The Anti-Eviction Act,  N.J.S.A. 2A:18-61.1 to 61.12, was created to protect \nblameless tenants from eviction",
+    "note": "The guide presents the Act as current law with no sign of repeal or sunset, which is consistent with 'in_force'."
+   },
+   {
+    "field": "coverage",
+    "verdict": "partly_supported",
+    "quoted_span": "The Anti-Eviction Act applies to most residential rental properties including single-family \nhomes, mobile homes and land in a mobile home park, apartment buildings, and complexes. This \nlaw also applies to rooming and boarding homes",
+    "note": "Single-family, mobile homes, apartments, rooming/boarding, the hotel/motel continual-residence rule, and the trust exemption are all supported. The owner-occupied exclusion is stated hedgily ('may not apply to two- or three-unit owner-occupied premises with two (2) or fewer rental units'), and the guide separately says those tenants are covered by 2A:18-61.2(a), which the rule reflects. The rule states 'excluded' more firmly than the guide's 'may not apply'."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "The Anti-Eviction Act,  N.J.S.A. 2A:18-61.1 to 61.12, was created to protect",
+    "note": "The primary citation 2A:18-61.1 and the aliases (2A:18-53, 2A:18-61.2, 2A:18-61.6, N.J.A.C. 5:27-3.3(c), 5:26-3.4(c)) all appear in the guide. 'P.L.1974, c.49' does not appear in the document, but it is only an alias."
+   }
+  ]
+ }
+}

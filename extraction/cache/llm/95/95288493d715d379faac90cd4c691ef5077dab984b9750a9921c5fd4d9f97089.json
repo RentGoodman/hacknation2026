@@ -1,0 +1,17 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "cell",
+ "subject": "San Diego, CA|screening_restrictions",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 4346,
+  "output_tokens": 312
+ },
+ "result": {
+  "cell_status": "silent",
+  "no_rule_quote": null,
+  "no_rule_passage_id": null,
+  "basis_citation": null,
+  "rules": []
+ }
+}

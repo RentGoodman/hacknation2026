@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D057:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 586,
+  "output_tokens": 189
+ },
+ "result": {
+  "en": "In Massachusetts, only a licensed broker or salesperson may charge a fee for finding a home for a tenant, and the broker may work for only the tenant or only the landlord, with any fee paid only by the party who hired the broker.",
+  "es": "En Massachusetts, solo un corredor o vendedor con licencia puede cobrar una tarifa por encontrarle vivienda a un inquilino, y el corredor puede trabajar solo para el inquilino o solo para el propietario, y la tarifa la paga únicamente la parte que contrató al corredor."
+ }
+}

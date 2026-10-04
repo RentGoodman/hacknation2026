@@ -1,0 +1,38 @@
+{
+  "doc_id": "D053",
+  "source_url": "https://malegislature.gov/Laws/GeneralLaws/PartII/TitleI/Chapter186/Section18",
+  "model": "anthropic:claude-sonnet-5-5",
+  "query_date": "2026-10-01",
+  "chunks": 1,
+  "rules": [
+    {
+      "jurisdiction": "MA",
+      "level": "state",
+      "category": "just_cause_eviction",
+      "status": "in_force",
+      "title": "Anti-retaliation protection and presumption (M.G.L. c. 186, § 18)",
+      "requirement": "Landlords and their agents may not threaten or take reprisals against a residential tenant for enforcing housing laws, reporting code violations, or organizing or joining a tenants' union. A notice of termination, rent increase, or substantial change in tenancy terms within six months after such activity is presumed to be a reprisal, and the landlord can rebut the presumption only by clear and convincing evidence. Violators are liable for 1 to 3 months' rent or actual damages, whichever is greater, plus costs and attorney's fees.",
+      "key_value": "Rebuttable presumption of reprisal within 6 months; damages of at least 1 and at most 3 months' rent, or actual damages if greater",
+      "coverage_conditions": {
+        "summary": "Tenants of residential premises and any person or agent who takes reprisal against them. The text states no exemptions.",
+        "construction_date_basis": null,
+        "built_on_or_before": null,
+        "built_after": null,
+        "min_building_age_years": null,
+        "min_units": null,
+        "max_units": null,
+        "owner_conditions": null,
+        "other_conditions": "Presumption does not apply to notices of termination for nonpayment of rent. Any waiver in a lease or rental agreement is void and unenforceable."
+      },
+      "exemptions": "Notice of termination for nonpayment of rent is excluded from the presumption. No other exemptions stated.",
+      "interaction": null,
+      "effective_date": null,
+      "citation": "M.G.L. c. 186, § 18",
+      "quoted_span": "The receipt of any notice of termination of tenancy, except for nonpayment of rent, or, of increase in rent, or, of any substantial alteration in the terms of tenancy within six months after the tenant has commenced, proceeded with, or obtained relief in such action, exercised such rights, made such report or complaint, or organized or joined such tenants' union",
+      "confidence": 0.6,
+      "conflict_flag": false,
+      "conflict_note": null
+    }
+  ],
+  "rejected": []
+}

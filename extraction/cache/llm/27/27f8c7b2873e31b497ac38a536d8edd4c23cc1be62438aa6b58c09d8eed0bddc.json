@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D067:c2",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 60653,
+  "output_tokens": 1162
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "No residential landlord may evict or fail to renew a \nlease, whether it is a written or an oral lease without good cause.",
+    "note": "The listed causes, Notice to Quit and Notice to Cease rules, self-help ban, relocation assistance (6x rent), rooming house rules, treble damages and the $10,000 penalty all appear in the guide. One nuance: the guide says the $10,000 penalty and treble damages apply to residential reuse within 5 years after a retirement or board-up/demolition eviction. The requirement's phrasing is consistent with this."
+   },
+   {
+    "field": "key_value",
+    "verdict": "partly_supported",
+    "quoted_span": "A Notice to Quit must be served on the tenant at least three months before filing a suit \nfor eviction.",
+    "note": "Most periods match: 3 days (disorderly conduct, damage, employment, criminal offenses), 1 month (rules, lease breach, rent increase, lease changes, habitual late payment), 2 months (owner/buyer occupancy), 3 months (health and safety), 18 months (retirement), 3 years (conversion), and 6x rent relocation for illegal occupancy. The 3-day period for drug, assault and theft offenses is stated in the document. However, the summary omits other periods, such as the 3-month/1-month periods for owner-occupied two- and three-family dwellings. The grouping also attributes 'post-conversion/small-building' occupancy to 2 months correctly. Overall it is a condensed but accurate summary, not exhaustive."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The field is null, and the guide states no effective date for the Act."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "The Anti-Eviction Act,  N.J.S.A. 2A:18-61.1 to 61.12, was created to protect \nblameless tenants from eviction and was adopted in recognition of the housing shortage in \nthe State.",
+    "note": "The guide describes the Act as current law and applies it in the present tense; nothing indicates repeal or suspension, so 'in_force' is consistent."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "The Anti-Eviction Act applies to most residential rental properties including single-family homes, mobile homes and land in a mobile home park, apartment buildings, and complexes. This \nlaw also applies to rooming and boarding homes (N.J.S.A. 2A:18-53 to -84).",
+    "note": "The hotel/motel continual-residence coverage, transient/seasonal exclusion, developmentally disabled trust exemption and the owner-occupied two/three-family narrower grounds are all stated. The exceptions paragraph is ambiguous about the owner-occupied scope, but the later section supports the narrower-grounds treatment."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "The Anti-Eviction Act,  N.J.S.A. 2A:18-61.1 to 61.12",
+    "note": "The primary citation and aliases N.J.S.A. 2A:18-53, 2A:18-61.2, 2A:18-61.3 and 2A:18-61.6 appear in the document. The alias 'P.L.1974, c.49' does not appear in the document; the guide only cites P.L. 2005, c.77 for human trafficking. This alias is not supported, but the primary citation is."
+   }
+  ]
+ }
+}

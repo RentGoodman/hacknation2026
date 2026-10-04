@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "DX05:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 841,
+  "output_tokens": 219
+ },
+ "result": {
+  "en": "In San Diego, landlords cannot use software that analyzes nonpublic competitor data from two or more landlords to set rents or occupancy levels, and tenants can sue for civil penalties of up to $1,000 per violation, with each month and each property counting as a separate violation.",
+  "es": "En San Diego, los arrendadores no pueden usar software que analice datos no públicos de la competencia de dos o más arrendadores para fijar alquileres o niveles de ocupación, y los inquilinos pueden demandar por sanciones civiles de hasta $1,000 por infracción, y cada mes y cada propiedad cuenta como una infracción separada."
+ }
+}

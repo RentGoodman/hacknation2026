@@ -1,0 +1,18 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "date_audit",
+ "subject": "DX04:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 19709,
+  "output_tokens": 788
+ },
+ "result": {
+  "requirement_is_new": false,
+  "in_force_since": null,
+  "in_force_since_evidence": null,
+  "current_version_effective": null,
+  "prior_version_note": "As enacted by Ord. 25-057 (adopted May 21, 2025; Mayor approved May 22, 2025), § 218-12(2)(a) made it unlawful for any real estate lessor, agent, or subcontractor to \"subscribe to, contract with, or otherwise exchange anything of value in return for the services of a Service Provider.\" Ord. 25-076 (adopted July 16, 2025; Mayor approved July 17, 2025) added \"or otherwise utilize\", so mere use of a Service Provider's services is also prohibited. Neither ordinance states an effective date. A secondary source (DX06) lists the section only as \"effective June 2025\", so no exact first-application date can be fixed from the documents.",
+  "effective_date_formula": null
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "DX01:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 4597,
+  "output_tokens": 838
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "Landlords who rent any residential dwelling unit (defined as any primary residence excluding medical/long-term care or detention facilities) in the City of Hoboken are prohibited from price fixing using algorithmic pricing.",
+    "note": "The prohibition, the definitions of algorithmic price fixing and nonpublic competitor information (365 days), enforcement by the Division of Housing or aggrieved private citizens in Municipal Court, and the penalties all match the text."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "1. Penalties as prescribed under N.J.S.A. 40:49-5; or,\n2. By a fine not exceeding $2,000.00; or,\n3. By a period of community service not exceeding ninety (90) days.",
+    "note": "The penalties and the 365-day definition of nonpublic competitor information both match the document."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The effective_date field is empty. The document gives only a formula (effective on passage and publication) and no publication date, which the rule captures in effective_date_formula and effective_date_note."
+   },
+   {
+    "field": "status",
+    "verdict": "partly_supported",
+    "quoted_span": "This Ordinance shall take effect immediately upon passage and publication as provided by law.",
+    "note": "The document shows the ordinance was adopted on Jul 9, 2025 and takes effect on passage and publication. It does not confirm publication or that the ordinance remains in force now, so in_force is only inferred."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "Landlords who rent any residential dwelling unit (defined as any primary residence excluding medical/long-term care or detention facilities) in the City of Hoboken",
+    "note": "The scope and exclusions match. The document sets no unit-count, building-age or landlord-size limits, and the null fields are consistent with that."
+   },
+   {
+    "field": "citation",
+    "verdict": "partly_supported",
+    "quoted_span": "ORDINANCE AMENDING AND SUPPLEMENTING CHAPTER 158 (RENT INCREASES) OF THE HOBOKEN CITY CODE BY ADDING A NEW SECTION 158-2",
+    "note": "Title and Section One say new § 158-2, while the body heading reads \"§ 154-8\". The rule's primary citation and aliases reflect this inconsistency. The codified number is not confirmed, and Section Five allows renumbering."
+   }
+  ]
+ }
+}

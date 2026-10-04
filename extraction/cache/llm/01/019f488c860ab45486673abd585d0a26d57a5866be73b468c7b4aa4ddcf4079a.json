@@ -1,0 +1,18 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "date_audit",
+ "subject": "D001:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 22276,
+  "output_tokens": 733
+ },
+ "result": {
+  "requirement_is_new": false,
+  "in_force_since": null,
+  "in_force_since_evidence": null,
+  "current_version_effective": "2026-01",
+  "prior_version_note": "D001 (Ord. 7,992-N.S.) is titled 'AMENDING CHAPTER 13.63' and states 'Berkeley Municipal Code 13.63 is amended to read as follows', so an earlier version of the chapter already existed. The documents do not say what that earlier version required or when it took effect. The current version was passed to print on November 18, 2025. Its final adoption date and effective-date clause are not in the captured text. The month 'effective January 2026' comes only from the secondary DX06 alert, and it is unclear whether that date refers to the amended version or the original chapter.",
+  "effective_date_formula": null
+ }
+}

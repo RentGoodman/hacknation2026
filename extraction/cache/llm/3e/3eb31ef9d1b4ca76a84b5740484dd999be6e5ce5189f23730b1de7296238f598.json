@@ -1,0 +1,75 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "consolidate",
+ "subject": "Providence, RI",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 5441,
+  "output_tokens": 1995
+ },
+ "result": {
+  "rules": [
+   {
+    "candidate_id": "DX06:c7",
+    "jurisdiction": "Providence, RI",
+    "category": "algorithmic_rent_setting",
+    "status": "in_force",
+    "title": "Providence ban on algorithmic rent-setting devices",
+    "requirement": "Prohibits the use of rent-setting algorithms and algorithmic rent-setting devices to set rental prices. The city solicitor may bring enforcement actions. Penalties are civil fines of up to $500 per day per violation, plus costs and attorney fees in a successful enforcement action.",
+    "key_value": "Civil penalties up to $500 per day per violation, plus costs and attorney fees",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "The source states no building, unit-count or landlord-size limits. The definitions of covered devices and any exclusions are not captured.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": null
+    },
+    "exemptions": null,
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "The only source gives the effective date as 'May 2025' (month only). No exact day is available. The law is in force by the query date in either case.",
+    "effective_date_formula": null,
+    "citation": "Providence Code § 13-70",
+    "citation_aliases": [
+     "Providence Code of Ordinances ch. 13, art. X, §§ 13-69–13-73",
+     "Providence Code § 13-71",
+     "Providence Code § 13-72"
+    ],
+    "quoted_span": "Prohibits the use of rent-setting algorithms; the city expressly linked the measure to software such as RealPage",
+    "confidence": 0.65,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "Supported only by a secondary law-firm alert (Morgan Lewis, Aug. 21, 2026). The ordinance text has not been captured, so the following are unverified: definitions of 'algorithmic rent-setting device', any exclusions, the exact effective date and the enactment date. The alert also says unspecified Rhode Island measures remain pending. No state text is captured, so no precedence issue can be assessed.",
+    "source_notes": "The alert cites Providence Code § 13-70 for the prohibition and §§ 13-71 & 13-72 for enforcement and penalties. The ordinance is at issue in City of Providence v. Audubon Capital Partners, LLC (Providence Mun. Ct.), a public enforcement action alleging use of a dynamic pricing system at 95 Lofts.",
+    "source_doc_id": "DX06",
+    "from_candidates": [
+     "DX06:c7"
+    ],
+    "also_supported_by": [
+     {
+      "doc_id": "DX06",
+      "quoted_span": "The ordinance authorizes the city solicitor to bring enforcement actions and provides for civil penalties of up to $500 per day per violation, as well as costs and attorney fees in a successful enforcement action."
+     }
+    ]
+   }
+  ],
+  "dropped_candidates": [],
+  "known_gaps": []
+ }
+}

@@ -1,0 +1,72 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "cell",
+ "subject": "Santa Ana, CA|just_cause_eviction",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 4550,
+  "output_tokens": 1783
+ },
+ "result": {
+  "cell_status": "rules_found",
+  "no_rule_quote": null,
+  "no_rule_passage_id": null,
+  "basis_citation": null,
+  "rules": [
+   {
+    "jurisdiction": "Santa Ana, CA",
+    "category": "just_cause_eviction",
+    "status": "in_force",
+    "title": "Santa Ana Just Cause Eviction Ordinance",
+    "requirement": "After a tenancy has lasted 30 days, an owner may not terminate it without just cause stated in a written notice. At-fault causes include non-payment of rent, material lease breach, nuisance and criminal activity. No-fault causes include owner move-in, removal from the rental market, and demolition or substantial remodel. For a curable violation, the owner must first give notice of the violation and time to fix it. For a no-fault termination, the owner must either pay 3 months of relocation assistance or waive rent for the final 3 months. Owners had to give existing tenants written notice of these protections before Dec. 19, 2021, or at lease commencement or renewal.",
+    "key_value": "Just cause required after 30 days; no-fault termination requires 3 months' relocation assistance or waiver of the final 3 months' rent; notice and opportunity to cure before an at-fault termination notice",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": {
+      "years": 15,
+      "basis": "housing produced in the last 15 years",
+      "requires_owner_filing": null
+     },
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [
+      "deed-restricted affordable housing"
+     ],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Applies to residential rental property in Santa Ana except housing produced in the last 15 years, deed-restricted affordable housing, hotel and transient occupancy, hospital and care facilities, dormitories and other shared living quarters.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": 15,
+     "owner_conditions": null,
+     "other_conditions": "The exemption list in the source is truncated after 'dormito[ries]'."
+    },
+    "exemptions": "Housing produced in the last 15 years; deed-restricted affordable housing; hotel and transient occupancy; hospital and care facilities; dormitories; other shared living quarters.",
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": "2021-11-19",
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "The ordinance was adopted on a Tuesday in 2021 and took effect Nov. 19, 2021. The exact adoption date is not stated.",
+    "effective_date_formula": null,
+    "citation": "Santa Ana Just Cause Eviction Ordinance (eff. Nov. 19, 2021)",
+    "citation_aliases": [
+     "Santa Ana Rent Stabilization and Just Cause Eviction Ordinances",
+     "Santa Ana JCO"
+    ],
+    "quoted_span": "After 30 days, an owner shall not terminate a tenancy without just cause, which shall be stated in a written notice.",
+    "confidence": 0.8,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "The passages are city summaries and do not give the municipal code section number. The 3-month relocation figure is the city's description of the ordinance.",
+    "source_notes": "Official City of Santa Ana news release and web page, which are secondary summaries of the ordinance. The state just cause law (Cal. Civ. Code § 1946.2) and the Los Angeles and San Diego provisions in the other passages are not Santa Ana law and are excluded.",
+    "passage_id": "p1"
+   }
+  ]
+ }
+}

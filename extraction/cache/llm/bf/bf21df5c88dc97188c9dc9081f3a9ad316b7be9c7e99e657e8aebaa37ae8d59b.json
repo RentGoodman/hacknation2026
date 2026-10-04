@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D031:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 5031,
+  "output_tokens": 658
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "If you do begin an eviction process through a notice to quit or other action, it is required that you offer the Guide about rights and resources at the same time.",
+    "note": "Both delivery points, the tenant-at-will coverage, no renewal requirement, no signature requirement, the eviction-not-barred point and the $300 per-day fine are all stated in the FAQ."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "You may be fined $300 for each day’s violation.",
+    "note": "The $300 per day fine and the timing of the Guide at tenancy start and at termination steps are both in the document."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The record's effective_date is null. The document gives only page posting and modification dates, not an ordinance effective date, so the null value is correct."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "The Ordinance requires owners, landlords, and management companies to provide you with information at the start of your lease or tenancy as well as when your tenancy is being terminated.",
+    "note": "The FAQ describes the ordinance in the present tense as a current requirement, which is consistent with in_force."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "Yes, the Ordinance applies to a residential rental agreements, including single residential dwelling unit.",
+    "note": "The coverage text matches the document, including the exemptions for hospital, skilled nursing and health facilities, non-profit short-term substance-abuse facilities, and Short Term Rental Units under § 4.60."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "The City of Cambridge Tenants Rights and Resources Ordinance, Chapter 8.71 of the Cambridge Municipal Code",
+    "note": "Chapter 8.71 and the section references to §§ 8.71.030 and 8.71.070 appear in the document."
+   }
+  ]
+ }
+}

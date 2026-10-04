@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D067:c5",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 735,
+  "output_tokens": 392
+ },
+ "result": {
+  "en": "In New Jersey, when a building converts to condominium, cooperative or fee-simple ownership, qualifying tenants (aged 62 or older, permanently disabled, or service-disabled veterans rated 60% or higher, who lived there at least one year before the recording date and meet the income limit) can apply, generally within 60 days, for protected tenancy that shields them from eviction for up to 40 years, and no tenant's rent may be raised to cover costs resulting solely from the conversion.",
+  "es": "En Nueva Jersey, cuando un edificio se convierte en condominio, cooperativa o propiedad en dominio absoluto, los inquilinos que califiquen (de 62 años o más, con discapacidad permanente o veteranos con discapacidad por servicio de 60% o más, que vivieron allí al menos un año antes de la fecha de registro y cumplen el límite de ingresos) pueden solicitar, generalmente dentro de 60 días, un arrendamiento protegido que los resguarda del desalojo por hasta 40 años, y a ningún inquilino se le puede subir el alquiler para cubrir costos que resulten únicamente de la conversión."
+ }
+}

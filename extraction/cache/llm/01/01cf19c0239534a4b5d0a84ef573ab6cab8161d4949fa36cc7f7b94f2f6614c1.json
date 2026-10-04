@@ -1,0 +1,67 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "cell",
+ "subject": "CA|rent_increase_limits",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 4819,
+  "output_tokens": 1513
+ },
+ "result": {
+  "cell_status": "rules_found",
+  "no_rule_quote": null,
+  "no_rule_passage_id": null,
+  "basis_citation": null,
+  "rules": [
+   {
+    "jurisdiction": "CA",
+    "category": "rent_increase_limits",
+    "status": "in_force",
+    "title": "California statewide limit on gross rental rate increases (Tenant Protection Act)",
+    "requirement": "The Legislature declares that a statewide response is needed to address rent gouging, and the section sets statewide limits on gross rental rate increases. The passages describe CPI-based measurement (the percentage change in the applicable Consumer Price Index for All Urban Consumers). The section is intended to apply only for the limited time needed to address the housing crisis. It is not intended to expand or limit local governments' authority to regulate rents consistent with Civ. Code ch. 2.7 (§ 1954.50 et seq.). Waivers of the section's rights are void.",
+    "key_value": null,
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Statewide cap on gross rental rate increases; the retrieved excerpts do not state the coverage, exemptions, or dollar/percentage cap.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": null
+    },
+    "exemptions": null,
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "The retrieved excerpts do not state an effective date or sunset date; they say only that the section is meant to apply for a limited time.",
+    "effective_date_formula": null,
+    "citation": "Cal. Civ. Code § 1947.12",
+    "citation_aliases": [
+     "AB 1482",
+     "Tenant Protection Act of 2019",
+     "Cal. Civ. Code § 1954.50 et seq."
+    ],
+    "quoted_span": "(m) (1) The Legislature finds and declares that the unique circumstances of the current housing crisis require a statewide response to address rent gouging by establishing statewide limitations on gross rental rate increases.",
+    "confidence": 0.55,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "The passages are fragments and do not name the section number. The citation to § 1947.12 comes from the organizer context and the passages' internal references, not from the text itself. The cap percentage, exemptions and dates are not in the retrieved text. City ordinances in the other passages (Santa Ana, Berkeley, Los Angeles, San Francisco) are local law and are excluded.",
+    "source_notes": null,
+    "passage_id": "p7"
+   }
+  ]
+ }
+}

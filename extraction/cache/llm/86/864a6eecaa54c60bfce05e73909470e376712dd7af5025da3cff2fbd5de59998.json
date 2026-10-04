@@ -1,0 +1,17 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "cell",
+ "subject": "Boston, MA|application_screening_fees",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 4138,
+  "output_tokens": 253
+ },
+ "result": {
+  "cell_status": "silent",
+  "no_rule_quote": null,
+  "no_rule_passage_id": null,
+  "basis_citation": null,
+  "rules": []
+ }
+}

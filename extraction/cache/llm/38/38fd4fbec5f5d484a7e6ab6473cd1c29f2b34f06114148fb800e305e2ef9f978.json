@@ -1,0 +1,108 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "DX20:c1",
+ "prompt_version": "v10",
+ "usage": {},
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": {
+    "years": 30,
+    "basis": "Multiple dwellings built after June 25, 1987 under N.J.S.A. 2A:42-84.1 et seq. are exempt for the initial mortgage amortization period or 30 years after construction is completed, whichever is shorter. With no initial mortgage, the exemption is 30 years. The landlord must have notified the Construction Code Official and put a provision in the lease. Newly constructed dwellings are also exempt for their first rental only, if registered with the Rent Regulation Officer before that rental.",
+    "requires_owner_filing": true
+   },
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": false,
+   "unverifiable_exemptions": [
+    "Newly constructed dwellings registered with the Rent Regulation Officer before their first rental (first rental only)",
+    "Buildings completely vacant on or before and since January 1, 1984, and registered with the Rent Regulation Officer (first rental only)",
+    "Multiple dwellings built after June 25, 1987 that meet the N.J.S.A. 2A:42-84.1 notice and lease-provision requirements, during the exemption period",
+    "Units under a contract with a governmental agency that regulates rent and preempts the city",
+    "A new tenant's initial rental after vacancy decontrol of a registered dwelling",
+    "The initial rental after a bona fide condo/co-op owner/occupant vacates"
+   ],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Applies to all dwelling units in Hoboken except: motels and hotels; newly constructed dwellings (first rental only); industrial property; nonresidential and commercial property; student housing owned or controlled by a school; housing owned and operated by other government agencies; buildings vacant since January 1, 1984 (first rental only); and multiple dwellings built after June 25, 1987 during the statutory exemption period.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": "A condo/co-op unit occupied by a bona fide owner/occupant (two years of continuous principal residence, with an affidavit filed) is decontrolled only for the initial rental after the owner vacates.",
+   "other_conditions": "Rent in units regulated by a governmental agency under a contract is preempted from this chapter during the regulation period."
+  },
+  "evidence": [
+   {
+    "field": "summary",
+    "doc_id": "DX20",
+    "quoted_span": "This chapter shall apply to all dwelling units as defined in § 155-1 above, except that the following shall be exempt:"
+   },
+   {
+    "field": "requires_unknown_facts",
+    "doc_id": "DX20",
+    "quoted_span": "This chapter shall apply to all dwelling units as defined in § 155-1 above, except that the following shall be exempt:"
+   },
+   {
+    "field": "new_construction_exemption.basis",
+    "doc_id": "DX20",
+    "quoted_span": "the provisions of this chapter shall not apply to multiple dwellings, as defined in the statute, constructed after June 25, 1987, for a period not to exceed the period of amortization of any initial mortgage loan obtained for the multiple dwelling or for 30 years following completion of construction, whichever is less."
+   },
+   {
+    "field": "new_construction_exemption.years",
+    "doc_id": "DX20",
+    "quoted_span": "In the event that there is no initial mortgage financing, the period of exemption from this chapter shall be 30 years."
+   },
+   {
+    "field": "new_construction_exemption.requires_owner_filing",
+    "doc_id": "DX20",
+    "quoted_span": "This exemption only applies where a landlord complied with all requirements contained in N.J.S.A. 2A:42-84.1 et seq., including but not limited to notice to the Construction Code Official at least 30 days before a certificate of occupancy is issued and notification to tenants by way of a provision in their lease."
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "DX20",
+    "quoted_span": "In order to qualify for the exemption, the newly constructed dwelling must be registered by an applicant, on forms provided by the Rent Regulation Officer, with said Officer before the first rental for said dwelling."
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "DX20",
+    "quoted_span": "A building completely vacant on or before and since January 1, 1984, provided that said building did not become vacant through unlawful means which can be attributed to the applicant for this exemption."
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "DX20",
+    "quoted_span": "the apartment unit shall become decontrolled and exempt from the provisions of this chapter for the new tenant's initial rental"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "DX20",
+    "quoted_span": "then the application of this chapter shall be preempted during the period of governmental agency regulation specified in the contract."
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "DX20",
+    "quoted_span": "said unit is decontrolled solely for the purpose of establishing the initial rent subsequent to the bona fide CCOO vacating."
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "DX20",
+    "quoted_span": "If a contract between a landlord and a governmental agency duly provides for that governmental agency to regulate the amount of rent received by that landlord, and if the authority of that governmental agency supersedes the authority of the City of Hoboken to regulate such rents, then the application of this chapter shall be preempted during the period of governmental agency regulation specified in the contract."
+   },
+   {
+    "field": "owner_conditions",
+    "doc_id": "DX20",
+    "quoted_span": "In the event that an owner of a condo/co-op unit has continuously occupied said unit as his/her principal residence for the previous two years, the owner may file an affidavit with, and on the form provided by, the Rent Regulation Officer documenting his/her use."
+   },
+   {
+    "field": "owner_conditions",
+    "doc_id": "DX20",
+    "quoted_span": "Said unit is decontrolled for the purpose of establishing the initial rental only and otherwise is fully subject to Chapter 155."
+   }
+  ],
+  "notes": "Coverage is mostly confirmed against DX20 § 155-2, § 155-2.1, § 155-31 and §§ 155-35 to 155-37. The chapter has no unit-count threshold and no fixed construction-date cutoff: the post-June 25, 1987 exemption is a temporary exemption period, not a permanent cutoff, so construction_cutoff stays null. requires_unknown_facts stays false because the rule covers ordinary rental dwellings. The summary now includes the exact school-housing and government-housing wording. The basis and other_conditions text was tightened to match the source. The unverifiable_exemptions entries were split so that vacancy decontrol and condo/co-op owner/occupant decontrol each match their own source section. DX01 is about algorithmic rent-fixing (landlord conduct) and gives no coverage evidence."
+ }
+}

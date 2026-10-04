@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D051:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 683,
+  "output_tokens": 325
+ },
+ "result": {
+  "en": "In Massachusetts, a landlord or tenant ending a tenancy at will must give 3 months' written notice (or the rental interval or 30 days if rent is paid at shorter intervals, whichever is longer), while nonpayment of rent needs 14 days' written notice, and a tenant with no similar notice in the prior 12 months can stop the termination by paying all rent due within 10 days.",
+  "es": "En Massachusetts, el propietario o el inquilino que termina un arrendamiento a voluntad debe dar un aviso por escrito de 3 meses (o el intervalo de pago del alquiler o 30 días, lo que sea más largo, si el alquiler se paga en intervalos más cortos), mientras que por falta de pago se requieren 14 días de aviso por escrito, y un inquilino que no recibió un aviso similar en los 12 meses anteriores puede evitar la terminación pagando todo el alquiler adeudado dentro de 10 días."
+ }
+}

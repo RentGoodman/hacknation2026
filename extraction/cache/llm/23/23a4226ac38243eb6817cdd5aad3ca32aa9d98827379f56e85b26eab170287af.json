@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "DX12:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 4067,
+  "output_tokens": 864
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "partly_supported",
+    "quoted_span": "Interest shall begin accruing on November 1, 1990, on a monthly basis. A tenant shall be given the unpaid accrued interest in the form of either a direct payment or a credit against the tenant’s rent.",
+    "note": "Most of the requirement is supported: RSO landlords must pay interest, the City sets the rate annually, the method is direct payment or rent credit, the landlord chooses and gives written notice, payment is monthly or yearly, and waiting until the end of the tenancy does not comply. The final sentence, that this adds to the state cap in Civ. Code § 1950.5 and does not replace it, is not in the document."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "Calendar Year 2025 | 4.320%",
+    "note": "Monthly accrual from Nov. 1, 1990, the payment methods, the written notice and the annual City-set rate are all in the document. The 4.320% rate for 2025 appears in the table, and the table ends at 2025 with no 2026 rate, as the rule says."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "supported",
+    "quoted_span": "Interest shall begin accruing on November 1, 1990, on a monthly basis.",
+    "note": "The 1990-11-01 date is the date interest began accruing under the quoted code text."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "are required to pay tenants interest on their security deposits",
+    "note": "The article describes the requirement in the present tense as current law. It also carries a general disclaimer that laws may have changed since publication."
+   },
+   {
+    "field": "coverage",
+    "verdict": "partly_supported",
+    "quoted_span": "Landlords of properties located within the City of Los Angeles that are subject to the Los Angeles Rent Stabilization Ordinance (LARSO), also known as Rent Control, are required to pay tenants interest on their security deposits",
+    "note": "The document supports coverage of RSO-subject properties in the City of Los Angeles. It does not state the October 1, 1978 construction cutoff, the LAMC 151.28 replacement units, or the luxury and temporary exemptions. Those come from D041, which is not the document under review."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "The relevant regulation is the Los Angeles Municipal Code (LAMC) Section 151.06.02.",
+    "note": "The document supports the citation to LAMC 151.06.02 and the LARSO name. The 'ch. XV, art. 1' alias and the 'RSO' abbreviation are not in the document."
+   }
+  ]
+ }
+}

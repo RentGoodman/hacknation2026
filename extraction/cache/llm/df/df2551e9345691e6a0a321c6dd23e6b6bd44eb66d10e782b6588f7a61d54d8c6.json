@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "DX06:c13",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 5896,
+  "output_tokens": 571
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "Prohibits algorithm-assisted rental price coordination; for owners of 16 or more units, private remedies include the greater of treble damages or $1,000 per violation.",
+    "note": "Prohibition and the private remedy for owners of 16+ units both appear in the table row."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "for owners of 16 or more units, private remedies include the greater of treble damages or $1,000 per violation",
+    "note": "Matches the stated remedy."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The rule's effective_date is empty. The document gives only 'effective February 2026', with no day, which the rule records in in_force_since and effective_date_note."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "Portland City Code § 30.01.088 (effective February 2026)",
+    "note": "Effective February 2026 and the document is dated August 2026, so in force. The document does not say outright that it remains in force, but nothing suggests otherwise."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "for owners of 16 or more units, private remedies include the greater of treble damages or $1,000 per violation",
+    "note": "The 16+ unit condition on private remedies is stated. The rule correctly says the document is silent on thresholds for the prohibition itself and on building or construction limits."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "Portland City Code § 30.01.088 (effective February 2026)",
+    "note": "The citation matches. The alias 'ch. 30.01' is not in the document, but it is only an alias."
+   }
+  ]
+ }
+}

@@ -1,0 +1,78 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D067:c2",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 74814,
+  "output_tokens": 2821
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": 3,
+   "requires_unknown_facts": null,
+   "unverifiable_exemptions": [
+    "Unit held in trust for a developmentally disabled immediate family member who permanently occupies it",
+    "Hotel, motel or guest house rented to a transient or seasonal guest"
+   ],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Applies to most residential rentals, including single-family homes, mobile homes and parks, apartment buildings, and rooming and boarding houses. Owner-occupied two- and three-family dwellings are subject only to a narrower list of causes.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": "Owner-occupied two- and three-family dwellings: eviction only for holdover after lease expiry, nonpayment, disorderly conduct, willful damage, constant rule violations, or lease violations where re-entry is reserved.",
+   "other_conditions": "Hotel and motel occupants with no alternate residence who live there continuously are covered."
+  },
+  "evidence": [
+   {
+    "field": "owner_occupied_exemption_max_units",
+    "doc_id": "D067",
+    "quoted_span": "This law may not apply to two - or three-unit owner-occupied premises with two (2) or fewer rental units."
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D067",
+    "quoted_span": "Additionally, this law does not apply to a unit held in trust on behalf of a member of the immediate"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D067",
+    "quoted_span": "It does not apply to hotel guests, motel guests, or guest houses rented to a"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D067",
+    "quoted_span": "The Anti-Eviction Act applies to most residential rental properties including single-family"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D067",
+    "quoted_span": "law also applies to rooming and boarding homes"
+   },
+   {
+    "field": "owner_conditions",
+    "doc_id": "D067",
+    "quoted_span": "Tenants of landlord-occupied two- and three-family dwellings can be removed only when"
+   },
+   {
+    "field": "owner_conditions",
+    "doc_id": "D067",
+    "quoted_span": "(a) is staying after the expiration of the term of the lease, (b) is staying after a failure to pay rent,"
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D067",
+    "quoted_span": "occupant has no alternate residence and resides at the hotel or motel on a continual basis."
+   }
+  ],
+  "notes": "I removed the sentence in other_conditions saying unregistered landlords cannot evict. It describes landlord conduct, and it comes from the separate Landlord Identity Law (N.J.S.A. 46:8-27 to -37), not from the coverage of this Act. The other coverage values are kept, each supported by a verbatim passage from D067. The owner-occupied cap of 3 reflects the guide's two- and three-family owner-occupied carve-out. Those dwellings are only partly exempt: they remain subject to a narrower list of causes. requires_unknown_facts is left null for lack of a direct passage."
+ }
+}

@@ -1,0 +1,55 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D022:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 44926,
+  "output_tokens": 1675
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": false,
+   "unverifiable_exemptions": [],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "General antitrust rule, not specific to housing. It applies to any person (as defined in § 16702, excluding end consumers) who uses or distributes a common pricing algorithm, including landlords and rent-pricing vendors. It is not limited by building type, unit count, construction date or owner type.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": null,
+   "other_conditions": null
+  },
+  "evidence": [
+   {
+    "field": "summary",
+    "doc_id": "D022",
+    "quoted_span": "(a) It shall be unlawful for a person to use or distribute a common pricing algorithm as part of a contract, combination in the form of a trust, or conspiracy to restrain trade or commerce in violation of this chapter."
+   },
+   {
+    "field": "summary",
+    "doc_id": "D022",
+    "quoted_span": "“Person” has the same meaning as defined in Section 16702 and does not include the end consumer of a product or service."
+   },
+   {
+    "field": "summary",
+    "doc_id": "DX09",
+    "quoted_span": "Businesses in these industries should expect possible scrutiny under state law, but any business relying on a common pricing algorithm could be a target."
+   },
+   {
+    "field": "requires_unknown_facts",
+    "doc_id": "D022",
+    "quoted_span": "“Person” has the same meaning as defined in Section 16702 and does not include the end consumer of a product or service."
+   }
+  ],
+  "notes": "Changes from the original coverage: (1) may_preempt_local_rules changed from false to null, because no document addresses the rule's relationship to local rules. (2) The summary's reference to local rent-algorithm bans in Berkeley, San Francisco, San Diego and Santa Ana was removed, because no captured document mentions them. (3) other_conditions set to null: the 'two or more persons' and 'competitor data' elements define the prohibited algorithm (conduct), not the covered buildings or owners. The single-firm/own-data carve-out from DX09 is likewise conduct-scope, so it belongs in exemptions or requirement rather than coverage. (4) requires_unknown_facts set to false: the rule applies to any person using or distributing a common pricing algorithm, not to a class of buildings that assessor data cannot identify. The rule has no building, unit-count or construction-date limits."
+ }
+}

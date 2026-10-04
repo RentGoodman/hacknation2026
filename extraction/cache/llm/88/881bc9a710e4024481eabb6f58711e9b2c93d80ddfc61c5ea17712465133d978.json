@@ -1,0 +1,82 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D025:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 45465,
+  "output_tokens": 2253
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": false,
+   "unverifiable_exemptions": [
+    "Two-month small-landlord cap depends on the owner being a natural person (including a family-trust settlor or beneficiary) or an LLC whose members are all natural persons, owning no more than two residential rental properties with no more than four dwelling units offered for rent; not available if the prospective tenant is a service member"
+   ],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": "Higher 2-month cap applies only to a landlord who is a natural person (including a family-trust settlor or beneficiary) or an LLC whose members are all natural persons, and who owns no more than two residential rental properties with no more than four dwelling units offered for rent. The higher cap does not apply if the prospective tenant is a service member.",
+   "summary": "Applies statewide to security for a rental agreement for residential property that is used as the tenant's dwelling.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": "A small-landlord ownership structure (natural person, family trust, or all-natural-person LLC) raises the cap to two months' rent.",
+   "other_conditions": "The cap does not apply to security collected or demanded before July 1, 2024."
+  },
+  "evidence": [
+   {
+    "field": "summary",
+    "doc_id": "D025",
+    "quoted_span": "This section applies to security for a rental agreement for residential property that is used as the dwelling of the tenant."
+   },
+   {
+    "field": "requires_unknown_facts",
+    "doc_id": "D025",
+    "quoted_span": "This section applies to security for a rental agreement for residential property that is used as the dwelling of the tenant."
+   },
+   {
+    "field": "landlord_size_condition",
+    "doc_id": "D025",
+    "quoted_span": "The landlord is a natural person or a limited liability company in which all members are natural persons."
+   },
+   {
+    "field": "landlord_size_condition",
+    "doc_id": "D025",
+    "quoted_span": "landlord owns no more than two residential rental properties that collectively include no more than four dwelling units offered for rent."
+   },
+   {
+    "field": "landlord_size_condition",
+    "doc_id": "D025",
+    "quoted_span": "Subparagraph (A) shall not apply if the prospective tenant is a service member."
+   },
+   {
+    "field": "owner_conditions",
+    "doc_id": "D025",
+    "quoted_span": "settlor or beneficiary of a family trust."
+   },
+   {
+    "field": "owner_conditions",
+    "doc_id": "D025",
+    "quoted_span": "The landlord is a natural person or a limited liability company in which all members are natural persons."
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D025",
+    "quoted_span": "landlord owns no more than two residential rental properties that collectively include no more than four dwelling units offered for rent."
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D025",
+    "quoted_span": "This subdivision shall not apply to a security collected or demanded by the landlord before July 1, 2024."
+   }
+  ],
+  "notes": "requires_unknown_facts is changed to false. The rule covers ordinary residential rentals statewide. The small-landlord two-month cap is an owner-based variation that an address lookup cannot verify, so it stays in unverifiable_exemptions. The summary's claim that Berkeley, Los Angeles (RSO) and San Francisco deposit-interest rules add to this cap is removed: no supplied document supports it, and D007 was not provided. The service-member April 1, 2025 date is removed from other_conditions because it concerns landlord conduct (the written-statement duty), not coverage."
+ }
+}

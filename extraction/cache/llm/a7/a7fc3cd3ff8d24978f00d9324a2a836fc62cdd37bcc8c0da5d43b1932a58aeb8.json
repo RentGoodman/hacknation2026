@@ -1,0 +1,65 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "extract",
+ "subject": "D058",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 729,
+  "output_tokens": 1310
+ },
+ "result": {
+  "rules": [
+   {
+    "candidate_id": "c1",
+    "jurisdiction": "MA",
+    "category": "just_cause_eviction",
+    "status": "in_force",
+    "title": "Notice to quit for nonpayment of rent must be accompanied by state-developed tenant-rights form",
+    "requirement": "A written notice to quit for nonpayment of rent given to a residential tenant must be accompanied by a form containing documentation of any repayment agreements between tenant and landlord, and information on rental assistance programs (including the residential assistance for families in transition program), applicable trial court rules, standing orders or emergency administrative orders for summary process, and relevant federal or state eviction restrictions. The form must prominently display a statement that the notice to quit is not an eviction, the tenant need not immediately leave, the tenant is entitled to a legal proceeding, and only a court order can force the tenant to leave. The executive office of housing and livable communities develops the form and posts it online, with clause (ii) information available in the 5 most common languages in the commonwealth besides English. Courts, including the Boston municipal court department, may not accept for filing a summary process writ, summons or complaint for nonpayment of rent without proof of delivery of the form.",
+    "key_value": "Form must accompany nonpayment notice to quit; court may not accept summary process filing without proof of delivery; info available in 5 most common languages plus English",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Applies to written notices to quit for nonpayment of rent given by a landlord to a residential tenant under G.L. c. 186; no unit-count, age or owner exemptions stated.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": "Nonpayment-of-rent evictions only; residential dwelling units."
+    },
+    "exemptions": null,
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "The document does not state an enactment or effective date.",
+    "effective_date_formula": null,
+    "citation": "G.L. c. 186, § 31",
+    "citation_aliases": [
+     "G.L. c. 186 § 31",
+     "M.G.L. c. 186, § 31",
+     "G.L. c. 239"
+    ],
+    "quoted_span": "A notice to quit for nonpayment of rent given in writing by a landlord to a residential tenant pursuant to this chapter shall be accompanied by a form that shall include, but not be limited to: (i) documentation of any agreements between the tenant and landlord for the tenant to repay the landlord for nonpayment of rent; and (ii) information on: (1) rental assistance programs including, but not limited to, the residential assistance for families in transition program; (2) applicable trial court rules, standing orders or emergency administrative orders pertaining to actions for summary process; and (3) any relevant federal or state legal restrictions on residential evictions.",
+    "confidence": 0.9,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "Effective date not stated in the text; status judged in force as the current official statute.",
+    "source_notes": "Official statute text from malegislature.gov."
+   }
+  ],
+  "no_rule_findings": [],
+  "doc_summary": "Massachusetts G.L. c. 186, § 31 requires that a written notice to quit for nonpayment of rent be accompanied by a state-developed form with repayment-agreement documentation, rental assistance and legal information, and a prominent statement that the notice is not an eviction. Courts may not accept summary process filings for nonpayment without proof the form was delivered."
+ }
+}

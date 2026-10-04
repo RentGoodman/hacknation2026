@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D046:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 1849,
+  "output_tokens": 688
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "partly_supported",
+    "quoted_span": "The committee on Housing, to whom was referred the petitions (accompanied by bill, Senate, No. 994) of Cindy F. Friedman and Julian Cyr for legislation to prohibit algorithmic rent setting",
+    "note": "The title, the March 12, 2026 committee report, the petitions S.994 and S.1016, and their sponsors are supported. The document gives no bill text, as the rule itself says. The statement that the bill is now before Senate Ways and Means is only implied by the 'Senate Ways and Means' listing, and the document has no explicit statement of it."
+   },
+   {
+    "field": "key_value",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The field is empty, and the document states no key value such as a dollar amount or percentage."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The field is empty. The document states no effective date. The note that the bill is not enacted is consistent with the document showing only a committee report."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "Senate Ways and Means",
+    "note": "The bill was reported out of Housing on March 12, 2026 and the action list shows Senate Ways and Means, so 'pending' is consistent. The document does not state enactment status explicitly."
+   },
+   {
+    "field": "coverage",
+    "verdict": "partly_supported",
+    "quoted_span": "An Act prohibiting algorithmic rent setting",
+    "note": "The summary's statement that the documents give only the title and committee action, with no stated coverage terms, matches the document. All the coverage fields are null, which is consistent."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "Bill S.2983",
+    "note": "S.2983 is supported. The aliases S.994 and S.1016, Senate No. 994, Senate No. 1016, and the Preventing Algorithmic Rent Fixing in the Rental Housing Market Act are all in the text. The '194th (Current)' label supports the 194th General Court alias."
+   }
+  ]
+ }
+}

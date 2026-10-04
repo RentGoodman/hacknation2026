@@ -1,0 +1,55 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "cell:San Diego, CA:algorithmic_rent_setting:1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 40634,
+  "output_tokens": 2022
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": false,
+   "unverifiable_exemptions": [],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Covers residential rental property in the City of San Diego. Residential rental property is defined by reference to § 98.0702 as any dwelling or unit intended for human habitation, including units in a mobilehome park. The ordinance states no unit-count, building-age, construction-date, owner-occupancy or landlord-size limits. The Division 7 exemptions in § 98.0703 are not incorporated into this Division; only the definitions are.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": null,
+   "other_conditions": null
+  },
+  "evidence": [
+   {
+    "field": "requires_unknown_facts",
+    "doc_id": "D076",
+    "quoted_span": "It is unlawful for a landlord to use an algorithmic device to set rental rates"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D076",
+    "quoted_span": "rental rates or occupancy levels that may be achieved for a residential rental"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D076",
+    "quoted_span": "Residential rental property has the same meaning as in San Diego Municipal"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D073",
+    "quoted_span": "Residential rental property means any dwelling or unit that is intended for human"
+   }
+  ],
+  "notes": "The summary was revised to describe covered buildings rather than conduct by sellers and landlords. Division 11 adopts only the § 98.0702 definitions (landlord, lease, residential rental property, tenant). It does not incorporate the § 98.0703 exemptions, which by their terms apply only to Division 7, such as the 15-year certificate-of-occupancy, owner-occupied and affordable-housing exemptions. So no building-level exemptions apply. requires_unknown_facts is set to false because the rule covers ordinary rental buildings. The exclusions for affordable-housing-guideline software and aggregated historical or public data reports define which devices are covered, not which buildings, so they are not listed as unverifiable exemptions. The measure is a proposed ordinance (O-2025-107) with a blank passage date in the documents. It takes effect 30 days after final passage, so its status remains pending. The remedies appear in § 98.1104, which is present in full in D076 and DX05."
+ }
+}

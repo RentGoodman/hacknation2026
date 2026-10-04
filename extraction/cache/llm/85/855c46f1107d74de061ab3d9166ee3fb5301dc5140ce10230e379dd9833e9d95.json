@@ -1,0 +1,66 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "extract",
+ "subject": "D057",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 682,
+  "output_tokens": 1299
+ },
+ "result": {
+  "rules": [
+   {
+    "candidate_id": "c1",
+    "jurisdiction": "MA",
+    "category": "application_screening_fees",
+    "status": "in_force",
+    "title": "Broker fee allocation: only the party who engaged the broker pays the fee",
+    "requirement": "A person may not engage in the business of finding dwelling accommodations for prospective tenants for a fee unless licensed as a broker or salesperson. A licensed broker or salesperson may contract solely with the prospective tenant or solely with the landlord or landlord's agent. Any fee must be paid only by the party (lessor or tenant) who originally engaged and contracted with the broker or salesperson.",
+    "key_value": "Broker fee payable only by the party (landlord or tenant) who engaged the broker; broker may act for only one side",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Applies to rental residential property where a licensed broker or salesperson is engaged to find a tenant or a dwelling for a fee.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": "Applies where a licensed broker or salesperson is engaged for a fee."
+    },
+    "exemptions": null,
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": "2025-08-01",
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "The amended text is effective August 1, 2025 under 2025, 9, Sec. 136. The prior text, effective until then, contained only the licensing requirement.",
+    "effective_date_formula": null,
+    "citation": "G.L. c. 112, § 87DDD½",
+    "citation_aliases": [
+     "G.L. c. 112, § 87DDD1/2",
+     "G.L. c. 112, § 87DDD.5",
+     "St. 2025, c. 9, § 43",
+     "2025, 9, Sec. 43"
+    ],
+    "quoted_span": "Any fee shall only be paid by the party, lessor or tenant who originally engaged and entered into a contract with the licensed broker or salesperson.",
+    "confidence": 0.9,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "The section's first sentence (licensing requirement) predates the 2025 amendment. Coverage is not limited by the text beyond rental residential property.",
+    "source_notes": "Official state legislature page showing both the pre-August 1, 2025 text and the amended text."
+   }
+  ],
+  "no_rule_findings": [],
+  "doc_summary": "Massachusetts G.L. c. 112, § 87DDD½ requires a license to find dwelling accommodations for tenants for a fee. In the version effective August 1, 2025 (2025, c. 9, § 43), a broker may represent only the tenant or only the landlord, and only the party who engaged the broker pays the fee. This is a broker-fee allocation rule."
+ }
+}

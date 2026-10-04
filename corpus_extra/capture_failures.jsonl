@@ -1,0 +1,4 @@
+{"target":"Newark NJ rent control ordinance (Title 19 ch. 2)","url":"https://www.newarknj.gov/DocumentCenter/View/1019","error":"official PDF retrieved but is a Rent Control FAQ, not ordinance text; no official ordinance text URL located","at":"2026-10-03T22:30Z"}
+{"target":"Hoboken City Code ch. 155","url":"https://ecode360.com/print/HO0741?guid=15252535","error":"HTTP 403 from ecode360 (city's linked code host); no city PDF located","at":"2026-10-03T22:30Z"}
+{"target":"Jersey City ch. 260","url":"https://library.municode.com/nj/jersey_city/codes/code_of_ordinances?nodeId=CH260RECO","error":"municode is a JS single-page app; HTML returned contains no chapter text; no official city PDF located","at":"2026-10-03T22:30Z"}
+{"target":"Santa Ana Ordinance NS-3090","url":"https://publicdocs.santa-ana.org/weblink/1/doc/549791/Page1.aspx","error":"Laserfiche WebLink returns cookie/session error page; PDF download not obtainable non-interactively","at":"2026-10-03T22:30Z"}

@@ -1,0 +1,63 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "cell",
+ "subject": "NJ|algorithmic_rent_setting",
+ "prompt_version": "v10",
+ "usage": {},
+ "result": {
+  "cell_status": "rules_found",
+  "no_rule_quote": null,
+  "no_rule_passage_id": null,
+  "basis_citation": null,
+  "rules": [
+   {
+    "jurisdiction": "NJ",
+    "category": "algorithmic_rent_setting",
+    "status": "in_force",
+    "title": "Forbidding the Algorithmic Inflation of Rent (FAIR) Act",
+    "requirement": "Residential rental property owners may not use algorithmic revenue management software that collects or processes competitors' nonpublic leasing information to set or recommend rental prices. Software providers and other \"coordinators\" may not use such software to facilitate agreements or coordinate pricing among competing residential landlords (parallel pricing coordination).",
+    "key_value": null,
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Applies to residential rental property owners and to coordinators (persons operating algorithmic revenue management software or algorithmic devices that perform a coordinating function). The passages state no unit-count, building-age or owner-occupancy limits.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": "A government entity setting or limiting rents through affordability controls is not a coordinator."
+    },
+    "exemptions": "Not an algorithmic device: a spreadsheet that operates without AI and requires human analysis, or a database that only uses an algorithm to query unprocessed data. Not a coordinating function: research, statistical analysis or testing that does not feed rent-setting; a rent estimate made public at no cost; a real estate brokerage database available on equal terms that does not set or recommend rents; a government entity setting or limiting rents through affordability controls.",
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": "2026-07-20",
+    "sunset_date": null,
+    "effective_date_note": "The passages give the signing date (July 20) but no effective date. Status is inferred as in_force from the signing, so confirm the effective date against the act text.",
+    "effective_date_formula": null,
+    "citation": "P.L.2026, c.43",
+    "citation_aliases": [
+     "FAIR Act",
+     "Forbidding the Algorithmic Inflation of Rent Act"
+    ],
+    "quoted_span": "The FAIR Act prohibits residential rental property owners from using algorithmic revenue management software that collects or processes competitors' nonpublic leasing information to set or recommend rental prices.",
+    "confidence": 0.7,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "The enacted-law description comes from a secondary law-firm alert (DX16). The definitions and exclusions come from the official bill text (D069), which is a partial excerpt. No penalties or enforcement provisions appear in the passages.",
+    "source_notes": "D069 is the bill text with definitions. DX16 is a secondary source reporting that Governor Mikie Sherrill signed the act on July 20 as P.L. 2026, c. 43.",
+    "passage_id": "p7"
+   }
+  ]
+ }
+}

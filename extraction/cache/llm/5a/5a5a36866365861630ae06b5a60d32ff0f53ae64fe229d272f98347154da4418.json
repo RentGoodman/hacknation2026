@@ -1,0 +1,151 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "consolidate",
+ "subject": "Hoboken, NJ",
+ "prompt_version": "v10",
+ "usage": {},
+ "result": {
+  "rules": [
+   {
+    "candidate_id": "existing:r-0161",
+    "jurisdiction": "Hoboken, NJ",
+    "category": "algorithmic_rent_setting",
+    "status": "in_force",
+    "title": "Prohibition Against Algorithmic Rent-Fixing in the Rental Housing Market",
+    "requirement": "Landlords renting any residential dwelling unit in Hoboken may not price-fix using algorithmic pricing. This means using software, algorithms or data-sharing platforms to collect and analyze nonpublic competitor information from other real estate lessors in order to coordinate, recommend or implement rental prices, lease terms or occupancy levels among competing lessors. Nonpublic competitor information includes prices, supply levels, security deposits, ideal occupancy levels, lease termination and renewal dates, and other material terms that are less than 365 days old and not widely and readily available to the public at no cost. The Division of Housing, or any private citizen claiming to be aggrieved, may bring alleged violations to the Hoboken Municipal Court. On conviction, a violator faces one or more of the following: penalties under N.J.S.A. 40:49-5, a fine of up to $2,000, or community service of up to 90 days.",
+    "key_value": "Penalties on conviction, one or more of: N.J.S.A. 40:49-5 penalties; fine up to $2,000; community service up to 90 days. Nonpublic competitor information = data less than 365 days old and not publicly available at no cost.",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": false,
+     "unverifiable_exemptions": [
+      "Units that are not a primary residence (coverage is limited to primary residences)"
+     ],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Applies to landlords who rent any residential dwelling unit in Hoboken. A residential dwelling unit is defined as any primary residence. Medical/long-term care and detention facilities are excluded. There are no unit-count, building-age or landlord-size limits.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": "Residential dwelling unit is defined as any primary residence, excluding medical/long-term care or detention facilities."
+    },
+    "exemptions": "Medical/long-term care and detention facilities are excluded from the definition of residential dwelling unit.",
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": "2025-07-09",
+    "sunset_date": null,
+    "effective_date_note": "The ordinance was adopted unanimously on July 9, 2025. Section Four makes it effective immediately upon passage and publication as provided by law. The publication date is not in the documents, so no exact effective date is recorded. The ordinance has been in force since 2025, well before the 2026-10-01 query date.",
+    "effective_date_formula": null,
+    "citation": "Hoboken City Code § 158-2",
+    "citation_aliases": [
+     "Hoboken City Code ch. 158",
+     "Hoboken City Code ch. 158, Art. II",
+     "Hoboken City Code ch. 158-2",
+     "Hoboken City Code § 154-8",
+     "Hoboken Ordinance Amending and Supplementing ch. 158 (Rent Increases) by Adding a New Section 158-2"
+    ],
+    "quoted_span": "Landlords who rent any residential dwelling unit (defined as any primary residence excluding medical/long-term care or detention facilities) in the City of Hoboken are prohibited from price fixing using algorithmic pricing.",
+    "confidence": 0.93,
+    "conflict_flag": true,
+    "conflict_note": "Organizer open question: New Jersey's FAIR Act (P.L.2026, c.43) may preempt this Hoboken ordinance once it takes effect on July 1, 2027. The Act prohibits municipal ordinances that conflict with it but names no cities. Whether § 158-2 conflicts with the Act is unresolved.",
+    "review_note": "The ordinance text is internally inconsistent on its section number. The title and Section One say new § 158-2 of Chapter 158 (Rent Increases), while the body heading reads § 154-8. The official code (DX20) lists Chapter 158 as 'Rooming houses' and Chapter 154 as 'Rental housing', so the codified number may be § 154-8. Section Five authorizes renumbering at codification, so confirm the codified number (code publisher pages D033/D034 are link-only). A county-jail term of up to 90 days was removed before first reading on June 4, 2025, and the adopted text uses community service instead. The FAIR Act was not yet effective on the query date, so the ordinance applies in full for now.",
+    "source_notes": "The official city legislative record (DX01) gives the adopted text and meeting history. The secondary Morgan Lewis alert (DX06) cites the ordinance as \"ch. 158-2 (effective July 2025)\" with a month-only date. That is consistent with the July 9, 2025 adoption. One candidate's truncated penalty list is resolved by the full official text.",
+    "source_doc_id": "DX01",
+    "from_candidates": [
+     "existing:r-0161"
+    ],
+    "also_supported_by": [
+     {
+      "doc_id": "DX06",
+      "quoted_span": "Prohibits landlords from using software, algorithms or data-sharing platforms to coordinate or recommend rents, lease terms, or occupancy."
+     }
+    ]
+   },
+   {
+    "candidate_id": "DX20:c1",
+    "jurisdiction": "Hoboken, NJ",
+    "category": "rent_increase_limits",
+    "status": "in_force",
+    "title": "Hoboken Rent Control Ordinance: annual rent increase cap (lesser of 5% or CPI)",
+    "requirement": "At lease expiration or termination of a periodic tenancy, a landlord may not request or receive a rent increase greater than the lesser of 5% or the CPI percentage change. CPI is measured from three months before the lease commenced to three months before it expires or terminates. Periodic tenants, and tenants with leases under one year, cannot be charged more than one such increase in any 12-month period. Only one cost-of-living increase is allowed per housing space in any 12-month period, regardless of tenant turnover. Rents are controlled at the base rent received on October 1, 1985. Any increase made at a time other than lease expiration or termination, or above what the chapter allows, is void. Landlords must give at least 30 days' written notice explaining the reason for an increase. The notice must include a certification of substantial compliance with housing, building and fire codes, or it is invalid. Landlords must provide documented proof of previous rent paid to impose an increase. Landlords must also register annually by June 30 and give tenants a disclosure statement. Separately approved surcharges are allowed: tax, water/sewer, capital improvement (base rent may not rise more than 33 1/3% in 12 months) and hardship. On vacancy decontrol of a registered dwelling, the next tenant's initial rent is limited to a 25% increase over the prior rent, at most once in any three-year period. Violations are punishable under N.J.S.A. 40:49-5, including a fine of up to $2,000 per unit per violation.",
+    "key_value": "Rent increase capped at the lesser of 5% or the CPI percentage change (CPI measured from 3 months before lease commencement to 3 months before expiration); one increase per 12 months; 30 days' written notice with reasons; vacancy decontrol limited to a 25% increase on initial rent for the new tenant, once per 3 years; fines up to $2,000 per unit.",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": {
+      "years": 30,
+      "basis": "Multiple dwellings constructed after June 25, 1987 under N.J.S.A. 2A:42-84.1 et seq. are exempt for the shorter of the initial mortgage amortization period or 30 years after completion of construction (30 years if no initial mortgage). The landlord must have given notice to the Construction Code Official and included a lease provision. Newly constructed dwellings are also exempt for the first rental only, if registered before that rental.",
+      "requires_owner_filing": true
+     },
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": false,
+     "unverifiable_exemptions": [
+      "Newly constructed dwellings registered with the Rent Regulation Officer before first rental (first rental only)",
+      "Buildings completely vacant since January 1, 1984, registered with the Rent Regulation Officer",
+      "Multiple dwellings built after June 25, 1987 meeting N.J.S.A. 2A:42-84.1 notice and lease-provision requirements",
+      "Units under a contract with a governmental agency that regulates rent and preempts the city",
+      "Units decontrolled on vacancy, or initial rental by a bona fide condo/co-op owner/occupant"
+     ],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Applies to all dwelling units in Hoboken except motels and hotels, newly constructed dwellings (first rental only), industrial and nonresidential property, school-owned student housing, government-owned housing, buildings vacant since January 1, 1984 (first rental only), and post-June 25, 1987 multiple dwellings during the statutory exemption period.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": "Condo/co-op units occupied by a bona fide owner/occupant (two years continuous principal residence, affidavit filed) are decontrolled for the initial rental after the owner vacates.",
+     "other_conditions": "Rents in units whose rent is regulated by a governmental agency under contract are preempted during that regulation period."
+    },
+    "exemptions": "Motels and hotels; newly constructed dwellings for first rental; industrial property; nonresidential and commercial units; student housing owned by schools; government-owned housing; buildings completely vacant since January 1, 1984 (first rental); multiple dwellings constructed after June 25, 1987, for up to 30 years or the mortgage amortization period, whichever is less.",
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": "1984-01-16",
+    "sunset_date": null,
+    "effective_date_note": "Chapter adopted 1-16-1984 by Ord. No. C329. The text gives no effective date for the headline cap. The § 155-5 cap language was last amended 2-1-2023 by Ord. No. B-532. Proof-of-previous-rent requirements were added 10-22-2025 by Ord. No. B-818. Long in force on the query date.",
+    "effective_date_formula": null,
+    "citation": "Hoboken City Code § 155-5",
+    "citation_aliases": [
+     "Hoboken City Code ch. 155",
+     "Hoboken City Code § 155-2",
+     "Hoboken City Code § 155-4",
+     "Hoboken City Code § 155-31",
+     "Ord. No. C329",
+     "Ord. No. B-532",
+     "Ord. No. B-818",
+     "Hoboken Rent Control Ordinance"
+    ],
+    "quoted_span": "At the expiration of a lease or at the termination of a lease of a periodic tenant, no landlord may request or receive a percentage increase in rent which is greater than 5% or the percentage difference between the consumer price index three months prior to the expiration or termination of the lease and three months prior to the commencement of the lease term, whichever is less.",
+    "confidence": 0.9,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "The chapter has no unit-count threshold. The CPI is defined as the all-items index (base year 1967=100) for Hoboken's region, so the yearly percentage must be computed. The COVID-19 rent moratorium (Art. IX) expired May 7, 2022 and is not a separate in-force rule. The state 30-year new-construction exemption (N.J.S.A. 2A:42-84.1 et seq.) is reflected in coverage as incorporated by § 155-2H. There is no state general rent cap, so no state-local precedence question arises.",
+    "source_notes": "Official municipal code (ecode360, DX20), page dated October 3, 2026.",
+    "source_doc_id": "DX20",
+    "from_candidates": [
+     "DX20:c1"
+    ],
+    "also_supported_by": []
+   }
+  ],
+  "dropped_candidates": [],
+  "known_gaps": [
+   {
+    "category": "algorithmic_rent_setting",
+    "law": "Hoboken City Code ch. 154 (Rental housing)",
+    "reason": "DX20 cross-references ch. 154, and the algorithmic ordinance's body heading reads § 154-8. The codified text (code publisher pages D033/D034) is link-only, so the codified section number and any other ch. 154 rental rules are not captured."
+   }
+  ]
+ }
+}

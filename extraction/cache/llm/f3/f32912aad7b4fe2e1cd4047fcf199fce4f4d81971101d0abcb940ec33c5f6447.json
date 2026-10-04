@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D041:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 6831,
+  "output_tokens": 1534
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "partly_supported",
+    "quoted_span": "Rent may be increased once every 12 months by the allowable rent increase percentage",
+    "note": "The core rule, add-on changes, LAHD-approval programs, market-rate triggers, the 2020-2024 prohibition, the $1.61 registration surcharge and the $3.00 detector surcharge are all in the document. The 3% rate for 7/1/2025-6/30/2026, the $2.83 SCEP figure and the state-law 30-day notice for increases under 10% do not appear. The document gives the SCEP charge only as 1/12 of 50% of the annual fee, and the allowable-percentage PDF is not captured."
+   },
+   {
+    "field": "key_value",
+    "verdict": "partly_supported",
+    "quoted_span": "Rent may be increased once every 12 months by the allowable rent increase percentage",
+    "note": "The once-per-12-months rule, the end of the utility and dependent add-ons, the 10% non-dependent tenant add-on within 60 days, and the $1.61 and $3.00 surcharges are supported. The 3% rate and the SCEP $2.83/mo figure are not in the document."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "supported",
+    "quoted_span": "Effective February 2, 2026, the landlord can no longer include an additional percentage increase for utilities.",
+    "note": "The document gives 2026-02-02 as the date the utility and dependent add-ons ended."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "Rent may be increased once every 12 months by the allowable rent increase percentage",
+    "note": "The page describes the RSO increase rules as current, with no sunset or repeal."
+   },
+   {
+    "field": "coverage",
+    "verdict": "partly_supported",
+    "quoted_span": "Generally, the RSO applies to rental properties that were first built on or before October 1, 1978",
+    "note": "The cutoff, replacement units under LAMC 151.28, covered unit types, the condo/townhome 12/31/1995 carve-out, the luxury exemption and temporary exemptions are all supported. The summary's statement that RSO units are excluded from the state AB 1482 cap, and the supersedes_state_rule flag, are not in this document."
+   },
+   {
+    "field": "citation",
+    "verdict": "not_supported",
+    "quoted_span": null,
+    "note": "The document never cites L.A. Mun. Code § 151.06. It cites only LAMC Section 151.28 and 151.09.C.9, plus RAC regulations."
+   }
+  ]
+ }
+}

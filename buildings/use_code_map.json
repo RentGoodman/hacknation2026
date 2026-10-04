@@ -1,0 +1,40 @@
+{
+  "_doc": "Explicit use_code -> property_type mapping per source_dataset. Codes not listed map to null (unknown). Values: multifamily (unit count range straddles 2-4 / 5+), multifamily_5plus, multifamily_2_4, single_family, condo, mixed_use, commercial, vacant, other.",
+  "Alameda County parcels": {
+    "7200": "multifamily_5plus",
+    "7700": "multifamily_5plus",
+    "7800": "multifamily_5plus"
+  },
+  "Boston Property Assessment FY2026": {
+    "A/112": "multifamily_5plus",
+    "A/120": "multifamily_5plus",
+    "A/118": "other",
+    "A/125": "multifamily_5plus"
+  },
+  "Cambridge Property Database FY2026 (waa7-ibdu)": {
+    "112": "multifamily_5plus",
+    "111": "multifamily"
+  },
+  "DataSF wv5m-vpq2 (2025 roll)": {
+    "A15": "multifamily_5plus",
+    "A5": "multifamily_5plus",
+    "F5": "multifamily_5plus",
+    "FS5": "mixed_use",
+    "TIC": "multifamily_2_4"
+  },
+  "LA County eGIS parcels": {
+    "0500": "multifamily_5plus",
+    "0501": "multifamily_5plus",
+    "050C": "multifamily_5plus",
+    "050V": "multifamily_5plus",
+    "0551": "multifamily_5plus"
+  },
+  "NJOGIS Parcels & MOD-IV Composite": {
+    "4C": "multifamily_5plus"
+  },
+  "SANDAG/SanGIS parcels": {
+    "14": "multifamily_5plus",
+    "15": "multifamily_5plus",
+    "16": "multifamily_5plus"
+  }
+}

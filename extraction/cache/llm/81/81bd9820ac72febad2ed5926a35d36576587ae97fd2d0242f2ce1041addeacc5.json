@@ -1,0 +1,113 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "extract",
+ "subject": "D082",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 2130,
+  "output_tokens": 3164
+ },
+ "result": {
+  "rules": [
+   {
+    "candidate_id": "c1",
+    "jurisdiction": "San Francisco, CA",
+    "category": "just_cause_eviction",
+    "status": "in_force",
+    "title": "San Francisco relocation payments for owner/relative move-in, demolition/permanent removal, temporary capital improvement and substantial rehabilitation evictions",
+    "requirement": "Landlords who serve a notice of termination of tenancy for owner or relative move-in, demolition or permanent removal of a unit from housing use, temporary capital improvement work, or substantial rehabilitation must pay relocation to the tenant. The amount is set per tenant, capped per unit, and increased for elderly (60+) or disabled tenants and for households with minor children. Amounts adjust each March 1 and depend on the date the eviction notice is served. Temporary capital improvement evictions lasting under 20 days are governed by Civil Code § 1947.9 instead.",
+    "key_value": "For notices served 3/01/26–2/28/27: $8,245 per tenant; maximum $24,733 per unit; plus $5,497 for each elderly (60+) or disabled tenant or household with minor child(ren). Prior year (3/01/25–2/28/26): $8,062 / $24,184 / $5,375.",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Applies to tenancies terminated by notice for owner/relative move-in, demolition/permanent removal from housing use, temporary capital improvement work, or substantial rehabilitation. Rate depends on date of service of the eviction notice.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": null
+    },
+    "exemptions": "Temporary capital improvement evictions for less than 20 days are governed by California Civil Code Section 1947.9, not Rent Ordinance Section 37.9C.",
+    "event_only": true,
+    "applies_only_in": null,
+    "effective_date": "2006-08-10",
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "Earliest rate row in the archive begins 8/10/06; the current rate period runs 3/01/26–2/28/27. The underlying enactment date is not stated in the document.",
+    "effective_date_formula": null,
+    "citation": "S.F. Admin. Code § 37.9C",
+    "citation_aliases": [
+     "S.F. Rent Ordinance § 37.9C",
+     "S.F. Admin. Code ch. 37",
+     "Rent Ordinance Section 37.9C"
+    ],
+    "quoted_span": "*The amount of relocation payments for temporary capital improvement evictions for less than 20 days is governed by California Civil Code Section 1947.9 and not by Rent Ordinance Section 37.9C.",
+    "confidence": 0.8,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "The document is a rate archive and does not state the full coverage or causes. The Admin. Code form of the citation is inferred from the Rent Ordinance reference.",
+    "source_notes": "Official SF Rent Board archive page. The ordinance's code section is named only in the footnote."
+   },
+   {
+    "candidate_id": "c2",
+    "jurisdiction": "San Francisco, CA",
+    "category": "just_cause_eviction",
+    "status": "in_force",
+    "title": "San Francisco relocation payments for Ellis Act evictions",
+    "requirement": "Tenants evicted under the Ellis Act are owed relocation payments per tenant, capped per unit, plus an additional amount for each elderly (62+) or disabled tenant. Amounts adjust annually on March 1 and are determined by the date the eviction notice is served.",
+    "key_value": "For notices served 3/01/26–2/28/27: $11,110.05 per tenant; maximum $33,330.13 per unit; plus $7,443.90 for each elderly (62+) or disabled tenant. Prior year (3/01/25–2/28/26): $10,863.45 / $32,590.33 / $7,278.67.",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Applies to tenants evicted under the Ellis Act; rate depends on date of service of the notice of termination of tenancy.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": null
+    },
+    "exemptions": null,
+    "event_only": true,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "Earliest listed rate row begins 3/01/06; the current rate period runs 3/01/26–2/28/27. The enactment date is not stated in the document.",
+    "effective_date_formula": null,
+    "citation": "S.F. Admin. Code ch. 37",
+    "citation_aliases": [
+     "S.F. Rent Ordinance",
+     "Ellis Act relocation payments"
+    ],
+    "quoted_span": "Relocation payments for tenants evicted under the Ellis Act",
+    "confidence": 0.7,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "The document does not name the specific Rent Ordinance section for Ellis Act relocation, so the citation is at chapter level.",
+    "source_notes": "Official SF Rent Board archive page."
+   }
+  ],
+  "no_rule_findings": [],
+  "doc_summary": "San Francisco Rent Board archive of annual relocation payment rates for evictions. It covers two tables: no-fault evictions (owner/relative move-in, demolition/permanent removal, temporary capital improvement, substantial rehabilitation) and Ellis Act evictions. The current rates apply to notices served 3/01/26–2/28/27, with historical rates back to 2006. A footnote says temporary capital improvement evictions under 20 days fall under Civil Code § 1947.9 rather than Rent Ordinance § 37.9C."
+ }
+}

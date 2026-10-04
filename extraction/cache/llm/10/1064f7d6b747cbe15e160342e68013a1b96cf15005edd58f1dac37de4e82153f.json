@@ -1,0 +1,21 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "date_audit",
+ "subject": "D052:c2",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 37879,
+  "output_tokens": 698
+ },
+ "result": {
+  "requirement_is_new": false,
+  "in_force_since": null,
+  "in_force_since_evidence": {
+   "doc_id": "DX13",
+   "quoted_span": "The law has been in effect since the 1970s."
+  },
+  "current_version_effective": "2025-08-01",
+  "prior_version_note": "Before August 1, 2025, clause (b) bound only the lessor: \"At or prior to the commencement of any tenancy, no lessor may require a tenant or prospective tenant to pay any amount in excess of the following.\" St. 2025, c. 9, §§ 54-55 (effective August 1, 2025 per § 136) extended it to an 'agent of the lessor' and to payments made to an agent. The original enactment date is not stated in the documents; a secondary source says only that the law has been in effect since the 1970s.",
+  "effective_date_formula": null
+ }
+}

@@ -1,0 +1,82 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D080:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 11248,
+  "output_tokens": 2264
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": {
+    "basis": "certificate_of_occupancy",
+    "covered_if": "on_or_before",
+    "date": "1979-06-13"
+   },
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": false,
+   "unverifiable_exemptions": [
+    "Tenancies eligible for a rent increase under the Costa-Hawkins Rental Housing Act",
+    "Some tenancies where the rent is regulated by another government agency"
+   ],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Rental units covered by the San Francisco Rent Ordinance (rent-controlled units). Units that first obtained a Certificate of Occupancy after June 13, 1979 are exempt from the rent increase limits. Tenancies eligible for a rent increase under the Costa-Hawkins Rental Housing Act are also exempt, as are some tenancies whose rent is regulated by another government agency. All of these remain subject to the just-cause eviction rules.",
+   "construction_date_basis": "certificate_of_occupancy",
+   "built_on_or_before": "1979-06-13",
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": null,
+   "other_conditions": null
+  },
+  "evidence": [
+   {
+    "field": "construction_cutoff",
+    "doc_id": "D079",
+    "quoted_span": "This includes tenancies in newly constructed rental units that first obtained a Certificate of Occupancy after June 13, 1979"
+   },
+   {
+    "field": "construction_date_basis",
+    "doc_id": "D079",
+    "quoted_span": "first obtained a Certificate of Occupancy after June 13, 1979"
+   },
+   {
+    "field": "built_on_or_before",
+    "doc_id": "D079",
+    "quoted_span": "first obtained a Certificate of Occupancy after June 13, 1979"
+   },
+   {
+    "field": "requires_unknown_facts",
+    "doc_id": "D079",
+    "quoted_span": "Some tenancies that are exempt from the rent increase limitations of the Ordinance are still subject to the eviction provisions of the Ordinance"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D079",
+    "quoted_span": "Costa-Hawkins Rental Housing Act,"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D079",
+    "quoted_span": "and some tenancies where the rent is regulated by another government agency"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D080",
+    "quoted_span": "For rent-controlled units, the annual allowable increase amount effective March 1, 2026 through February 28, 2027 is 1.6%."
+   },
+   {
+    "field": "summary",
+    "doc_id": "D079",
+    "quoted_span": "This includes tenancies in newly constructed rental units that first obtained a Certificate of Occupancy after June 13, 1979"
+   }
+  ],
+  "notes": "Changed requires_unknown_facts from true to false. The rule covers ordinary rental units built under a Certificate of Occupancy issued on or before 1979-06-13, so construction_cutoff already expresses the date limit. The Costa-Hawkins and government-regulated-rent exemptions cannot be checked by an address lookup, so they stay in unverifiable_exemptions. Set supersedes_state_rule to null because no document mentions Civ. Code § 1947.12 or any relationship between the local and state caps. For the same reason I removed the state-cap sentence from the summary. The construction cutoff and Certificate of Occupancy basis are confirmed by D079."
+ }
+}

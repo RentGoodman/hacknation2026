@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D066:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 719,
+  "output_tokens": 230
+ },
+ "result": {
+  "en": "In New Jersey, a landlord or agent can't charge more than $50 as an application fee to apply to rent a home, and breaking this rule can bring penalties of up to $500, $750, or $1,000 depending on whether it is a first, second, or later offense, with the overcharge paid back to the applicant.",
+  "es": "En Nueva Jersey, un propietario o agente no puede cobrar más de $50 como tarifa de solicitud para alquilar una vivienda, y violar esta regla puede conllevar multas de hasta $500, $750 o $1,000 según sea la primera, la segunda o una posterior infracción, y el cobro excesivo se devuelve al solicitante."
+ }
+}

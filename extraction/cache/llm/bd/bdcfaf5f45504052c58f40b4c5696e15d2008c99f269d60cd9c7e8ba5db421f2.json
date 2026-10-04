@@ -1,0 +1,60 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D083:c3",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 11127,
+  "output_tokens": 2387
+ },
+ "result": {
+  "coverage": {
+   "built_after": null,
+   "built_on_or_before": null,
+   "construction_cutoff": null,
+   "construction_date_basis": null,
+   "landlord_size_condition": null,
+   "max_units": null,
+   "may_preempt_local_rules": null,
+   "min_building_age_years": null,
+   "min_units": null,
+   "new_construction_exemption": null,
+   "other_conditions": null,
+   "owner_conditions": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": false,
+   "summary": "Covers rental units subject to the San Francisco Rent Ordinance's eviction provisions where the tenant is served a termination notice for owner/relative move-in, demolition or permanent removal, temporary capital improvement work, or substantial rehabilitation. This includes units exempt from the rent-increase limits, such as units first certified for occupancy after June 13, 1979, because they remain subject to the just-cause eviction provisions.",
+   "supersedes_state_rule": null,
+   "unverifiable_exemptions": [],
+   "yields_to_local_rule": null
+  },
+  "evidence": [
+   {
+    "field": "summary",
+    "doc_id": "D079",
+    "quoted_span": "In order to evict a tenant from a rental unit covered by the Rent Ordinance, a landlord must have a \"just cause\" reason that is the dominant motive for pursuing the eviction."
+   },
+   {
+    "field": "summary",
+    "doc_id": "D079",
+    "quoted_span": "Some tenancies that are exempt from the rent increase limitations of the Ordinance are still subject to the eviction provisions of the Ordinance, and tenants in these categories can only be evicted for one of the “just cause” reasons listed in the Ordinance."
+   },
+   {
+    "field": "summary",
+    "doc_id": "D079",
+    "quoted_span": "This includes tenancies in newly constructed rental units that first obtained a Certificate of Occupancy after June 13, 1979"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D083",
+    "quoted_span": "Relocation Payments for Evictions based on Owner/Relative Move-in OR Demolition/Permanent Removal of Unit from Housing Use OR Temporary Capital Improvement Work* OR Substantial Rehabilitation"
+   },
+   {
+    "field": "requires_unknown_facts",
+    "doc_id": "D079",
+    "quoted_span": "In order to evict a tenant from a rental unit covered by the Rent Ordinance, a landlord must have a \"just cause\" reason that is the dominant motive for pursuing the eviction."
+   }
+  ],
+  "notes": "I removed other_conditions. The Civ. Code § 1947.9 carve-out for temporary capital improvement evictions under 20 days changes the payment amount for one type of eviction; it does not limit which buildings or units are covered. It is already recorded in the rule's exemptions and requirement text. I set no construction cutoff. Per D079, units exempt from rent-increase limits, including those with a certificate of occupancy after June 13, 1979, are still subject to the just-cause eviction provisions. The rate pages (D082, D083) do not themselves restate coverage, so applying the D079 eviction-provision scope to § 37.9C relocation is an inference. The 50-year building age requirement for substantial rehabilitation is a condition of that eviction ground, not of the relocation rule as a whole, so I did not set min_building_age_years."
+ }
+}

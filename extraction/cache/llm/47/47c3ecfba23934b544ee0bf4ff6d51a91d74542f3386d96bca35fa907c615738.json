@@ -1,0 +1,60 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D069:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 74884,
+  "output_tokens": 2111
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": false,
+   "unverifiable_exemptions": [],
+   "yields_to_local_rule": false,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": true,
+   "landlord_size_condition": "Applies to any rental property owner owning one or more rental residential dwelling units. A person holding a controlling interest in an owning entity is treated as a single owner with that entity.",
+   "summary": "Covers residential dwelling units in New Jersey: houses, apartments, accessory units and other units intended as a primary residence. Excludes inpatient medical care, licensed long-term care, and detention or correctional facilities.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": null,
+   "other_conditions": null
+  },
+  "evidence": [
+   {
+    "field": "summary",
+    "doc_id": "D069",
+    "quoted_span": "“Residential dwelling unit” means any house, apartment,\naccessory unit, or other unit intended to be used as a primary residence in the\nState. “Residential dwelling unit” shall not include inpatient medical care,\nlicensed long-term care, or detention or correctional facilities."
+   },
+   {
+    "field": "requires_unknown_facts",
+    "doc_id": "D069",
+    "quoted_span": "“Residential dwelling unit” means any house, apartment,\naccessory unit, or other unit intended to be used as a primary residence in the\nState."
+   },
+   {
+    "field": "landlord_size_condition",
+    "doc_id": "D069",
+    "quoted_span": "property owner” means a person that owns, directly or indirectly, one or more\nrental residential dwelling units.  Any person that holds a controlling\ninterest in an entity that owns a rental residential dwelling unit shall be\ndeemed to constitute a single rental property owner with that entity."
+   },
+   {
+    "field": "may_preempt_local_rules",
+    "doc_id": "D069",
+    "quoted_span": "A municipality shall be prohibited from enacting\nan ordinance that conflicts with this act."
+   },
+   {
+    "field": "yields_to_local_rule",
+    "doc_id": "D069",
+    "quoted_span": "A municipality shall be prohibited from enacting\nan ordinance that conflicts with this act."
+   }
+  ],
+  "notes": "Removed other_conditions. Its content (the coordinating-function and algorithmic-device exclusions) defines regulated conduct, not covered buildings, units or owners. It is already reflected in the rule's exemptions field. requires_unknown_facts is set to false because the act covers ordinary residential rental units statewide. The Section 6(b) preemption supports may_preempt_local_rules=true and yields_to_local_rule=false. Whether the act actually conflicts with the Jersey City and Hoboken ordinances remains unresolved, as the conflict_note states."
+ }
+}

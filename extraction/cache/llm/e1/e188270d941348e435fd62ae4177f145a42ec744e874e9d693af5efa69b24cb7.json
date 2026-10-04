@@ -1,0 +1,45 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D051:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 37027,
+  "output_tokens": 776
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": null,
+   "unverifiable_exemptions": [],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Applies to tenancies (estates) at will; no unit-count, building-age or owner-occupancy limits stated.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": null,
+   "other_conditions": "Tenancies at will only."
+  },
+  "evidence": [
+   {
+    "field": "summary",
+    "doc_id": "D051",
+    "quoted_span": "Estates at will may be determined by either party by three months' notice in writing for that purpose given to the other party"
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D051",
+    "quoted_span": "Estates at will may be determined by either party by three months' notice in writing for that purpose given to the other party"
+   }
+  ],
+  "notes": "The coverage was confirmed against D051 (G.L. c. 186, § 12), and no changes were needed. The section applies only to estates (tenancies) at will. Nonpayment terminations under written leases fall under § 11 (D050). The text sets no limits on unit count, construction date, owner occupancy or landlord size, so those fields stay null."
+ }
+}

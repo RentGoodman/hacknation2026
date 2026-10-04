@@ -1,0 +1,18 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "date_audit",
+ "subject": "D079:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 12257,
+  "output_tokens": 522
+ },
+ "result": {
+  "requirement_is_new": false,
+  "in_force_since": null,
+  "in_force_since_evidence": null,
+  "current_version_effective": "2026-03-01",
+  "prior_version_note": "The documents give only earlier relocation amounts, not when the just-cause requirement itself began. For notices served 3/01/25–2/28/26, § 37.9C relocation was $8,062.00 per tenant, $24,184.00 maximum per unit, plus $5,375.00 for each elderly (60+) or disabled tenant or household with minor children. Ellis Act relocation for that period was $10,863.45 per tenant, $32,590.33 maximum per unit, plus $7,278.67 for each elderly (62+) or disabled tenant. The archive's earliest rows (8/10/06 for § 37.9C and 3/01/06 for Ellis Act) are only the start of the rate history, not enactment dates.",
+  "effective_date_formula": null
+ }
+}

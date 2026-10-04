@@ -1,0 +1,73 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D043:c3",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 24640,
+  "output_tokens": 2898
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": false,
+   "unverifiable_exemptions": [
+    "Non-RSO units are covered only if they meet the Protected Unit definition: an affordability covenant or rent/price control within the past 5 years, occupancy by lower or very low income households within the past 5 years, or Ellis Act withdrawal within the past 10 years",
+    "Enhanced RPO relocation payments apply only to lower-income households (Low, Very Low and Extremely Low Income); other households receive the regular RSO/JCO amounts"
+   ],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Applies only to Protected Units in the City of Los Angeles. All RSO units are Protected Units. Other units are Protected Units if, within the past 5 years, they had an affordability covenant or rent control or were rented by lower-income households, or if they were withdrawn under the Ellis Act within the past 10 years. Enhanced payments go only to lower-income households.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": null,
+   "other_conditions": "All RSO units are Protected Units. Non-RSO units are covered only if they meet the Protected Unit definition."
+  },
+  "evidence": [
+   {
+    "field": "requires_unknown_facts",
+    "doc_id": "D043",
+    "quoted_span": "All RSO units are Protected Units."
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D043",
+    "quoted_span": "1 Protected Units: (1) Residential dwelling units that are or were subject to a recorded covenant, ordinance, or law that restricts"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D043",
+    "quoted_span": "Residential dwelling units that were withdrawn from rent or lease in"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D043",
+    "quoted_span": "(Only for Low, Very Low and Extremely Low Income Households)"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D043",
+    "quoted_span": "The RPO only applies to Protected Units that will be demolished for the"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D043",
+    "quoted_span": "All RSO units are Protected Units."
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D043",
+    "quoted_span": "All RSO units are Protected Units."
+   }
+  ],
+  "notes": "I removed the original other_conditions trigger (demolition for new construction within 5 years of the filing) because it describes landlord conduct and the rule's event, not the buildings covered. It remains in the requirement text.\n\nI set requires_unknown_facts to false. All RSO units are always Protected Units, and that class is identifiable from assessor data because it covers buildings built on or before October 1, 1978. The rule therefore covers ordinary rental buildings. Protected Unit status for non-RSO units and the household income tier cannot be checked by an address lookup, so they are listed as unverifiable conditions instead.\n\nI did not set a construction_cutoff because non-RSO units can also be Protected Units.\n\nThe state Housing Crisis Act and the City rules operate together, with the owner paying the higher amount. That is not a supersession, so supersedes_state_rule and yields_to_local_rule stay null."
+ }
+}

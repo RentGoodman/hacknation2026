@@ -1,0 +1,99 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D067:c5",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 74684,
+  "output_tokens": 3600
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": true,
+   "unverifiable_exemptions": [
+    "Tenant eligibility: age 62+ before the recording date, permanent disability, or qualifying disabled veteran status",
+    "Income eligibility test",
+    "Tenant Protection Act of 1992 eligibility (Hudson County only)"
+   ],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Applies to buildings being converted to condominium, cooperative or fee-simple ownership. Protected tenancy covers eligible senior, disabled or veteran tenants; the conversion-cost rent bar covers all tenants. The Tenant Protection Act of 1992 extension applies only in Hudson County.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": null,
+   "other_conditions": "Triggered only by conversion. Protected tenants must have lived in the building at least one year before the conversion recording date."
+  },
+  "evidence": [
+   {
+    "field": "requires_unknown_facts",
+    "doc_id": "D067",
+    "quoted_span": "If a building is converted to a condominium or cooperative form of ownership, or to fee"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D067",
+    "quoted_span": "Senior Citizens and Disabled Tenants in Condominium or Cooperative Conversion"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D067",
+    "quoted_span": "If a building is converted to a condominium or cooperative form of ownership, or to fee"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D067",
+    "quoted_span": "This prohibition applies to all tenants in the building"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D067",
+    "quoted_span": "the only qualified county is Hudson County"
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D067",
+    "quoted_span": "being converted to a condominium, cooperative; or fee simple ownership of units at least one (1)"
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D067",
+    "quoted_span": "year prior to the conversion recording date"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D067",
+    "quoted_span": "(1) be at least 62 years of age before the d ate of the conversion recording"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D067",
+    "quoted_span": "or (2) be permanently disabled"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D067",
+    "quoted_span": "Armed Forces and disabled at 60% or higher resulting from said service"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D067",
+    "quoted_span": "if their family income is not more than three (3) times the average per person income in their"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D067",
+    "quoted_span": "the only qualified county is Hudson County"
+   }
+  ],
+  "notes": "Coverage is confirmed as stated against D067. requires_unknown_facts stays true because the rule applies only to buildings undergoing condominium, cooperative or fee-simple conversion, which assessor data cannot identify. No unit-count, construction-date or owner limits are stated for this act. The 'two or more dwelling units' language in D067 belongs to the Anti-Eviction Act conversion ground (N.J.S.A. 2A:18-61.1(k)), not to this act, so min_units stays null. The quoted span 'd ate' reproduces the source's spacing typo. D065, D066, D068, D069 and DX16 do not address this rule."
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D029:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 5989,
+  "output_tokens": 675
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "Under the law, landlords, sellers and rental agents may use any reasonable standard to determine which applicants are selected, as long as that standard is applied equally and uniformly to all applicants.",
+    "note": "All elements of the requirement (prohibited areas, protected categories, reasonable selection standard, accommodation, $300 fines, injunctive relief and damages) appear in the document."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "levying civil fines of up to $300 for each violation",
+    "note": "Source of income including Section 8 and public benefits is listed as protected; the uniform and reasonable standard and the $300 fine are also stated."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The field is empty and the document gives no effective or adoption date for the ordinance. Only the Commission's 1984 establishment is mentioned."
+   },
+   {
+    "field": "status",
+    "verdict": "partly_supported",
+    "quoted_span": "The Commission enforces two ordinances: the\nCambridge Human Rights Ordinance, chapter 2.76\nand the\nCambridge Fair Housing Ordinance, chapter 14.04",
+    "note": "The Commission currently enforces the ordinance, which implies it is in force. The document has no explicit statement of status."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "NOTE: there is an exemption for 2-family dwellings, when the owner lives there",
+    "note": "The coverage of rental housing and the owner-occupied 2-family exemption are both stated. The other coverage fields are null, and the document states nothing on them."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "Cambridge Fair Housing Ordinance, chapter 14.04",
+    "note": "The document identifies the Fair Housing Ordinance as chapter 14.04. The 'Cambridge Mun. Code' prefix is not stated, but the citation is consistent with the document."
+   }
+  ]
+ }
+}

@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D029:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 807,
+  "output_tokens": 217
+ },
+ "result": {
+  "en": "In Cambridge, landlords cannot discriminate against renters based on source of income (including Section 8 and public benefits) or other protected traits, must apply any reasonable selection standards equally to all applicants, and can face civil fines of up to $300 per violation.",
+  "es": "En Cambridge, los propietarios no pueden discriminar a los inquilinos por su fuente de ingresos (incluidos Section 8 y los beneficios públicos) ni por otras características protegidas, deben aplicar cualquier criterio de selección razonable por igual a todos los solicitantes y pueden recibir multas civiles de hasta $300 por infracción."
+ }
+}

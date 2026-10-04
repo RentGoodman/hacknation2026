@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D046:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 1872,
+  "output_tokens": 608
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "partly_supported",
+    "quoted_span": "The committee on Housing, to whom was referred the petitions (accompanied by bill, Senate, No. 994) of Cindy F. Friedman and Julian Cyr for legislation to prohibit algorithmic rent setting",
+    "note": "Document supports the pending bill, the March 12, 2026 Housing committee report, the two petitions and their sponsors, and the Ways and Means referral. It does not say the bill is a 'redraft', and the date of 'now before Senate Ways and Means' rests only on the committee label. The statement that no operative text appears is consistent with the page."
+   },
+   {
+    "field": "key_value",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "Field is empty and the document states no numeric or key value."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "Field is empty and the document states no effective date."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "Senate Committee on Ways and Means",
+    "note": "Bill is shown as current in the 194th session and sits with Senate Ways and Means, with no enactment indicated, so 'pending' fits."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "An Act prohibiting algorithmic rent setting",
+    "note": "Coverage fields are all null, and the summary correctly says the page has only docket and history and no bill text on covered buildings, units or owners."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "Bill S.2983",
+    "note": "S.2983 is shown, and the aliases Senate No. 994, Senate No. 1016, S994, S1016 and the Preventing Algorithmic Rent Fixing in the Rental Housing Market Act all appear on the page."
+   }
+  ]
+ }
+}

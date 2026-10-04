@@ -1,0 +1,55 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D050:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 36982,
+  "output_tokens": 1378
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": false,
+   "unverifiable_exemptions": [],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Applies statewide to tenancies held under a written lease. The section states no building size, construction-date or owner limits.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": null,
+   "other_conditions": "Tenancies under a written lease only. Tenancies at will are governed by G.L. c. 186, § 12."
+  },
+  "evidence": [
+   {
+    "field": "summary",
+    "doc_id": "D050",
+    "quoted_span": "Upon the neglect or refusal to pay the rent due under a written lease, fourteen days' notice to quit, given in writing by the landlord to the tenant, shall be sufficient to determine the lease"
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D050",
+    "quoted_span": "the rent due under a written lease"
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D051",
+    "quoted_span": "In case of neglect or refusal to pay the rent due from a tenant at will, fourteen days' notice to quit, given in writing by the landlord to the tenant, shall be sufficient to determine the tenancy"
+   },
+   {
+    "field": "requires_unknown_facts",
+    "doc_id": "D050",
+    "quoted_span": "Upon the neglect or refusal to pay the rent due under a written lease, fourteen days' notice to quit, given in writing by the landlord to the tenant, shall be sufficient to determine the lease"
+   }
+  ],
+  "notes": "I removed 'nonpayment of rent only' from other_conditions. It is the event that triggers the rule (tenant conduct), not a building, unit or owner attribute. The rule's requirement and key_value already capture it. The coverage limit that remains is that a written lease must exist. That limits a type of tenancy, not a class of buildings, so requires_unknown_facts is false. Section 11 sets no unit-count, construction-date or owner conditions, so those fields stay null. Tenancies at will fall under § 12 (D051), so I noted that in other_conditions."
+ }
+}

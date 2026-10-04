@@ -1,0 +1,80 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D068:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 74446,
+  "output_tokens": 2815
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": 2,
+   "requires_unknown_facts": false,
+   "unverifiable_exemptions": [
+    "Rental of a room or rooms by the owner or occupant of a one-family dwelling occupied as their residence",
+    "Preference for persons of the same religion by a religious organization",
+    "Housing for older persons, as to familial status",
+    "Residences planned exclusively for and occupied by one sex"
+   ],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Applies to the sale or rental of all property, residential or business. Exceptions: a single unit in an owner-occupied two-family dwelling; rooms in an owner- or occupant-occupied one-family home; same-religion preference by religious organizations; single-sex residences; and, as to familial status, housing for older persons.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": "Rental of a single apartment in a two-family dwelling whose other unit the owner occupies as a residence at the time of rental is exempt.",
+   "other_conditions": null
+  },
+  "evidence": [
+   {
+    "field": "owner_conditions",
+    "doc_id": "D068",
+    "quoted_span": "The rental of a single apartment or flat in a two-family\ndwelling, the other occupancy unit of which is occupied\nby the owner as his/her residence at the time of such\nrentals"
+   },
+   {
+    "field": "owner_occupied_exemption_max_units",
+    "doc_id": "D068",
+    "quoted_span": "The rental of a single apartment or flat in a two-family\ndwelling, the other occupancy unit of which is occupied\nby the owner as his/her residence at the time of such\nrentals"
+   },
+   {
+    "field": "requires_unknown_facts",
+    "doc_id": "D068",
+    "quoted_span": "The provisions of the LAD apply to the sale or rental of all\nproperty including open land, whether for business or\nresidential purposes, with the following exceptions:"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D068",
+    "quoted_span": "The provisions of the LAD apply to the sale or rental of all\nproperty including open land, whether for business or\nresidential purposes, with the following exceptions:"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D068",
+    "quoted_span": "The rental of a room or rooms to another person or\npersons by the owner or occupant of a one-family\ndwelling occupied by him/her as his/her residence"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D068",
+    "quoted_span": "preference\ngiven to persons of the same religion by a religious\norganization"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D068",
+    "quoted_span": "The prohibition against discrimination on the basis of\nfamilial status does not apply to housing for older\npersons"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D067",
+    "quoted_span": "planned exclusively for and occupied by one sex, i.e. YMCA and age -restricted housing"
+   }
+  ],
+  "notes": "I set requires_unknown_facts to false because the LAD covers ordinary rental property generally. The single-sex residence exemption appears only in the DCA guide (D067), so I listed it separately from the older-persons familial-status exemption, which is supported by D068. D067's wording ties the single-sex exemption to familial status only ambiguously. No unit-count, construction-date or preemption limits are stated."
+ }
+}

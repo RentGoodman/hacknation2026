@@ -1,0 +1,92 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D067:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 150857,
+  "output_tokens": 4859
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": 3,
+   "requires_unknown_facts": false,
+   "unverifiable_exemptions": [
+    "Seasonal use or rental (a term of not more than 125 consecutive days by a person with a permanent residence elsewhere) is exempt from the interest-bearing account section"
+   ],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Applies to most residential rentals, including mobile homes. Owner-occupied two- or three-family dwellings are exempt unless the tenant opts in by written request.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": "Owner-occupied two- or three-family dwellings are exempt. The tenant can make the law apply 30 days after sending the landlord a written request.",
+   "other_conditions": "The interest-bearing account section does not apply to seasonal rentals of 125 consecutive days or less by persons with a permanent residence elsewhere."
+  },
+  "evidence": [
+   {
+    "field": "owner_occupied_exemption_max_units",
+    "doc_id": "D067",
+    "quoted_span": "The exception is an owner-occupied two-, or three-family dwelling."
+   },
+   {
+    "field": "requires_unknown_facts",
+    "doc_id": "D067",
+    "quoted_span": "The Security Deposit Law applies to most  residential rental properties, including mobile"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D067",
+    "quoted_span": "section of the Security Deposit Law does not apply to security deposits for seasonal use or rental."
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D067",
+    "quoted_span": "rental means use or rental for a term of not more than 125 consecutive days for residential purposes by a person having a permanent"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D067",
+    "quoted_span": "The Security Deposit Law applies to most  residential rental properties, including mobile"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D067",
+    "quoted_span": "The exception is an owner-occupied two-, or three-family dwelling."
+   },
+   {
+    "field": "owner_conditions",
+    "doc_id": "D067",
+    "quoted_span": "The exception is an owner-occupied two-, or three-family dwelling."
+   },
+   {
+    "field": "owner_conditions",
+    "doc_id": "D067",
+    "quoted_span": "may, however, make this provision applicable to their"
+   },
+   {
+    "field": "owner_conditions",
+    "doc_id": "D067",
+    "quoted_span": "tenancy 30 days  after sending a  written  request  to the landlord"
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D067",
+    "quoted_span": "section of the Security Deposit Law does not apply to security deposits for seasonal use or rental."
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D067",
+    "quoted_span": "rental means use or rental for a term of not more than 125 consecutive days for residential purposes by a person having a permanent"
+   }
+  ],
+  "notes": "I set landlord_size_condition to null. The 10-unit threshold only decides which kind of account the landlord may use to hold deposits, which is landlord conduct rather than a limit on covered buildings. The guide also states it inconsistently ('ten or less' vs '10 or more'). I set requires_unknown_facts to false because the law covers ordinary residential rentals. I added the seasonal-rental exclusion, which applies only to the account section, to unverifiable_exemptions. All values are supported by the D067 Security Deposits section."
+ }
+}

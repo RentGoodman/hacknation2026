@@ -1,0 +1,45 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D005:c2",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 21506,
+  "output_tokens": 1045
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": null,
+   "unverifiable_exemptions": [],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Owners of residential rental property in Berkeley and their agents; chapter 13.78 applies to all residential rental agreements regardless of contrary lease or rental agreement language.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": null,
+   "other_conditions": null
+  },
+  "evidence": [
+   {
+    "field": "summary",
+    "doc_id": "D005",
+    "quoted_span": "When an owner or the owner’s agent gets a request to rent residential property in Berkeley from an applicant"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D005",
+    "quoted_span": "Chapter 13.78 applies to all residential rental agreements regardless of any contractual language in any rental agreement or lease to the contrary."
+   }
+  ],
+  "notes": "I cleared other_conditions (now null). It described how the rule relates to state law under Cal. Civ. Code § 1950.6 (fee cap, receipt, credit-report and refund rules). That is about landlord conduct and the legal framework, not about which buildings, units or owners are covered. D005 also has no passage stating that the local rule is 'complementary' to state law. The summary is kept and is backed by D005. None of the documents give unit-count, construction-date, owner-occupancy or landlord-size limits for BMC ch. 13.78, so those fields stay null."
+ }
+}

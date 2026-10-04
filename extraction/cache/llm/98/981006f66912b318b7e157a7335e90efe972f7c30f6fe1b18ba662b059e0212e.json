@@ -1,0 +1,65 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "extract",
+ "subject": "D051",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 963,
+  "output_tokens": 1171
+ },
+ "result": {
+  "rules": [
+   {
+    "candidate_id": "c1",
+    "jurisdiction": "MA",
+    "category": "just_cause_eviction",
+    "status": "in_force",
+    "title": "Notice to determine estate at will (tenancy at will termination notice)",
+    "requirement": "A tenancy at will may be ended by either party with three months' written notice (or, where rent is payable at intervals under three months, the payment interval or 30 days, whichever is longer). For nonpayment of rent, the landlord may end the tenancy with 14 days' written notice to quit. A tenant who has not received a similar notice in the prior 12 months may stop termination by paying or tendering all rent due within 10 days of receipt. Every nonpayment notice must contain the statutory right-to-cure notification; if it is omitted, the tenant's time to pay is extended to the day the answer is due in a possession action, but the notice is otherwise valid. If nonpayment was caused by a government delay in mailing or delivering a subsistence or rental payment, the court must continue the hearing at least 7 days and treat the tenancy as not terminated if all rent, interest and costs are tendered within that time.",
+    "key_value": "3 months' written notice (or rental interval/30 days if longer); 14 days' notice to quit for nonpayment; 10-day right to cure once per 12 months; court continuance of at least 7 days for government payment delay",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Applies to estates (tenancies) at will; no unit-count, building-age or owner-occupancy limits stated.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": "Tenancies at will only"
+    },
+    "exemptions": null,
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "Text gives no effective date; statute is currently codified.",
+    "effective_date_formula": null,
+    "citation": "G.L. c. 186, § 12",
+    "citation_aliases": [
+     "M.G.L. c. 186, § 12",
+     "Chapter 186, Section 12",
+     "Notice to determine estate at will"
+    ],
+    "quoted_span": "In case of neglect or refusal to pay the rent due from a tenant at will, fourteen days' notice to quit, given in writing by the landlord to the tenant, shall be sufficient to determine the tenancy;",
+    "confidence": 0.9,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "Statute governs notice to terminate tenancies at will and does not list just-cause grounds; categorized as eviction/termination notice requirements.",
+    "source_notes": null
+   }
+  ],
+  "no_rule_findings": [],
+  "doc_summary": "Massachusetts G.L. c. 186, § 12 sets the notice required to end a tenancy at will: three months' written notice (or the rent interval/30 days if longer), and 14 days' notice to quit for nonpayment of rent. It includes a 10-day right to cure once per 12 months, a mandatory tenant-rights notification in nonpayment notices with a remedy if omitted, and a court continuance for delays in government payments."
+ }
+}

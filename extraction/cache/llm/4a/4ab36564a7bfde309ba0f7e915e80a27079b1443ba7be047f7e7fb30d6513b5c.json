@@ -1,0 +1,77 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "extract",
+ "subject": "DX20",
+ "prompt_version": "v11-new-documents",
+ "usage": {},
+ "result": {
+  "rules": [
+   {
+    "candidate_id": "c1",
+    "jurisdiction": "Hoboken, NJ",
+    "category": "rent_increase_limits",
+    "status": "in_force",
+    "title": "Hoboken Rent Control Ordinance: annual rent increase cap (lesser of 5% or CPI)",
+    "requirement": "At lease expiration or termination of a periodic tenancy, a landlord may not request or receive a rent increase greater than the lesser of 5% or the CPI percentage change. Periodic tenants and tenants with leases under one year cannot be charged more than one such increase in any 12-month period. Rents are controlled at the base rent received on October 1, 1985. Any increase made at a time other than lease expiration or termination, or above what the chapter allows, is void. Landlords must give 30 days' written notice stating the reason for an increase, must include a certification of substantial compliance with the notice, and must provide proof of previous rent paid. Landlords must also register annually by June 30 and give tenants a disclosure statement. Separately approved surcharges (tax, water/sewer, capital improvement up to 33 1/3% in 12 months, hardship) are allowed. On vacancy decontrol, the next tenant's initial rent is limited to a 25% increase over the prior rent, once in any three-year period.",
+    "key_value": "Rent increase capped at the lesser of 5% or the CPI percentage change (CPI measured from 3 months before lease commencement to 3 months before expiration); one increase per 12 months; 30 days' written notice with reasons; vacancy decontrol limited to a 25% increase on initial rent for the new tenant.",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": {
+      "years": 30,
+      "basis": "Multiple dwellings constructed after June 25, 1987 under N.J.S.A. 2A:42-84.1 et seq. are exempt for the shorter of the initial mortgage amortization period or 30 years (30 years if no initial mortgage). Newly constructed dwellings are also exempt for the first rental only.",
+      "requires_owner_filing": true
+     },
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": false,
+     "unverifiable_exemptions": [
+      "Newly constructed dwellings registered with the Rent Regulation Officer before first rental",
+      "Buildings completely vacant since January 1, 1984, registered with the Rent Regulation Officer",
+      "Multiple dwellings built after June 25, 1987 meeting N.J.S.A. 2A:42-84.1 notice and lease-provision requirements",
+      "Units under a contract with a governmental agency that regulates rent and preempts the city",
+      "Units decontrolled on vacancy, or initial rental by a bona fide condo/co-op owner/occupant"
+     ],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Applies to all dwelling units in Hoboken except motels and hotels, newly constructed dwellings (first rental only), industrial and nonresidential property, school-owned student housing, government-owned housing, buildings vacant since January 1, 1984, and post-June 25, 1987 multiple dwellings during the statutory exemption period.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": "Condo/co-op units occupied by a bona fide owner/occupant (two years continuous principal residence) are decontrolled for the initial rental after the owner vacates.",
+     "other_conditions": "Rents in units whose rent is regulated by a governmental agency under contract are preempted during that regulation period."
+    },
+    "exemptions": "Motels and hotels; newly constructed dwellings for first rental; industrial property; nonresidential and commercial units; student housing owned by schools; government-owned housing; buildings completely vacant since January 1, 1984; multiple dwellings constructed after June 25, 1987 for up to 30 years or the mortgage amortization period, whichever is less.",
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": "1984-01-16",
+    "sunset_date": null,
+    "effective_date_note": "Chapter adopted 1-16-1984 by Ord. No. C329. The text gives no effective date for the headline cap. The § 155-5 cap language was last amended 2-1-2023 by Ord. No. B-532, and proof-of-previous-rent requirements were added 10-22-2025 by Ord. No. B-818.",
+    "effective_date_formula": null,
+    "citation": "Hoboken City Code § 155-5",
+    "citation_aliases": [
+     "Hoboken City Code ch. 155",
+     "Hoboken City Code § 155-4",
+     "Hoboken City Code § 155-31",
+     "Hoboken City Code § 155-2",
+     "Ord. No. C329",
+     "Ord. No. B-532",
+     "Ord. No. B-818",
+     "Hoboken Rent Control Ordinance"
+    ],
+    "quoted_span": "At the expiration of a lease or at the termination of a lease of a periodic tenant, no landlord may request or receive a percentage increase in rent which is greater than 5% or the percentage difference between the consumer price index three months prior to the expiration or termination of the lease and three months prior to the commencement of the lease term, whichever is less.",
+    "confidence": 0.9,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "The chapter has no unit-count threshold. The COVID-19 rent moratorium (Art. IX) expired May 7, 2022 and is not a separate in-force rule. The document does not address possible state preemption.",
+    "source_notes": "Official municipal code (ecode360), page dated October 3, 2026."
+   }
+  ],
+  "no_rule_findings": [],
+  "doc_summary": "Hoboken, NJ Code Chapter 155 (Rent Control), adopted 1984 and amended through Ord. B-818 (October 2025), caps rent increases at the lesser of 5% or CPI at lease expiration or termination. It sets a base rent as of October 1, 1985, and allows surcharges for taxes, water/sewer, capital improvements and hardship. It limits vacancy decontrol to a 25% increase once every three years, and it requires annual registration, a tenant disclosure statement, 30 days' written notice of increases, and proof of previous rent paid. It lists exemptions (hotels, new construction, post-1987 multiple dwellings, and others) and sets fines of up to $2,000. The COVID-19 moratorium expired May 7, 2022. The only reference to eviction is a definition of just cause that points to N.J.S.A. 2A:18-53, so no just-cause record is extracted. The document says nothing on security deposits, screening fees or restrictions, or algorithmic rent-setting."
+ }
+}

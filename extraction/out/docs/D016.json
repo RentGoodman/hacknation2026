@@ -1,0 +1,66 @@
+{
+  "doc_id": "D016",
+  "source_url": "https://calcivilrights.ca.gov/housing/",
+  "model": "anthropic:claude-sonnet-5-5",
+  "query_date": "2026-10-01",
+  "chunks": 1,
+  "rules": [
+    {
+      "jurisdiction": "CA",
+      "level": "state",
+      "category": "screening_restrictions",
+      "status": "in_force",
+      "title": "Source of income discrimination ban (FEHA)",
+      "requirement": "Housing providers may not refuse to rent to, or apply different terms to, applicants or tenants based on source of income, including Section 8 vouchers and other rental assistance. They must also comply with the paperwork and inspection requirements of subsidy programs.",
+      "key_value": null,
+      "coverage_conditions": {
+        "summary": "Most housing accommodations in California, including landlords, property managers and tenant screening companies.",
+        "construction_date_basis": null,
+        "built_on_or_before": null,
+        "built_after": null,
+        "min_building_age_years": null,
+        "min_units": null,
+        "max_units": null,
+        "owner_conditions": "An owner occupying the home and renting to one additional person may exclude applicants based on protected characteristics, per the document's general FEHA FAQ.",
+        "other_conditions": null
+      },
+      "exemptions": "Owner-occupied home renting to one additional person (per the general FEHA exclusion described); housing specifically for seniors may be limited by age.",
+      "interaction": null,
+      "effective_date": null,
+      "citation": "California Fair Employment and Housing Act (FEHA)",
+      "quoted_span": "Refusing to rent to a tenant with a section 8 voucher.",
+      "confidence": 0.6,
+      "conflict_flag": false,
+      "conflict_note": null
+    },
+    {
+      "jurisdiction": "CA",
+      "level": "state",
+      "category": "screening_restrictions",
+      "status": "in_force",
+      "title": "Criminal history screening limits (FEHA)",
+      "requirement": "Housing providers may not consider arrests that did not lead to conviction, sealed or expunged records, or juvenile justice records, and may not impose blanket bans on applicants with a criminal history. A denial based on a conviction must be directly related to the applicant's ability to be a good tenant and not a threat to the health and safety of others or the property.",
+      "key_value": null,
+      "coverage_conditions": {
+        "summary": "Housing providers and tenant screening companies covered by FEHA, for most housing in California.",
+        "construction_date_basis": null,
+        "built_on_or_before": null,
+        "built_after": null,
+        "min_building_age_years": null,
+        "min_units": null,
+        "max_units": null,
+        "owner_conditions": null,
+        "other_conditions": null
+      },
+      "exemptions": null,
+      "interaction": null,
+      "effective_date": null,
+      "citation": "California Fair Employment and Housing Act (FEHA)",
+      "quoted_span": "Housing  providers cannot consider some types of criminal history including arrests that did not lead to a conviction, records that are sealed or expunged, or records or matters processed in the juvenile justice system.",
+      "confidence": 0.6,
+      "conflict_flag": false,
+      "conflict_note": null
+    }
+  ],
+  "rejected": []
+}

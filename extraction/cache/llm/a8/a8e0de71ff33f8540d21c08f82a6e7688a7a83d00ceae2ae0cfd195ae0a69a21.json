@@ -1,0 +1,17 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "cell",
+ "subject": "Boston, MA|security_deposits",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 4387,
+  "output_tokens": 376
+ },
+ "result": {
+  "cell_status": "silent",
+  "no_rule_quote": null,
+  "no_rule_passage_id": null,
+  "basis_citation": null,
+  "rules": []
+ }
+}

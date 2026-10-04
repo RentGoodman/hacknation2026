@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D041:c2",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 1254,
+  "output_tokens": 250
+ },
+ "result": {
+  "en": "In Los Angeles, a landlord of a rent-stabilized unit can end a tenancy only for listed causes, must file each termination notice with LAHD within 3 business days, and for no-fault evictions must give 30 or 60 days' written notice and make relocation payment available within 15 days of the notice.",
+  "es": "En Los Ángeles, el propietario de una unidad con control de renta solo puede terminar un arrendamiento por las causas enumeradas, debe presentar cada aviso de terminación ante LAHD dentro de 3 días hábiles y, en los desalojos sin culpa, debe dar aviso por escrito de 30 o 60 días y poner a disposición el pago de reubicación dentro de 15 días del aviso."
+ }
+}

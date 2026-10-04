@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D041:c2",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 1257,
+  "output_tokens": 288
+ },
+ "result": {
+  "en": "In Los Angeles, landlords of rent-stabilized (RSO) units may evict only for listed at-fault or no-fault reasons, must file termination notices with LAHD within 3 business days, and for no-fault evictions must pay relocation assistance (for example $11,000 for an eligible tenant under 3 years) within 15 days of service.",
+  "es": "En Los Ángeles, los propietarios de unidades con control de renta (RSO) solo pueden desalojar por motivos específicos, con culpa o sin culpa del inquilino, deben presentar los avisos de terminación ante LAHD dentro de 3 días hábiles y, en desalojos sin culpa, deben pagar asistencia de reubicación (por ejemplo, $11,000 para un inquilino elegible con menos de 3 años) dentro de 15 días después de la notificación."
+ }
+}

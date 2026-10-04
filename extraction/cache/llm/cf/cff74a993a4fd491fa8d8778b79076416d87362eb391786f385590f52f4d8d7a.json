@@ -1,0 +1,45 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D011:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 10223,
+  "output_tokens": 887
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": null,
+   "unverifiable_exemptions": [],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Coverage unknown. Only the bill history page of this Boston rent stabilization home-rule petition is available, not the bill text. The bill accompanied a study order and was not enacted.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": null,
+   "other_conditions": null
+  },
+  "evidence": [
+   {
+    "field": "summary",
+    "doc_id": "D011",
+    "quoted_span": "An Act petition for a special law authorizing the city of Boston to implement rent stabilization and tenant eviction protections"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D011",
+    "quoted_span": "Accompanied a study order, see"
+   }
+  ],
+  "notes": "D011 is only the legislative history page for H.3744. It contains no bill text, so it states no unit thresholds, construction cutoffs, owner-occupancy or new-construction exemptions, or preemption terms. All substantive coverage fields stay null. The summary was reworded so that it rests only on what D011 shows: the bill title and the study-order disposition. D010, D012, D013 and D014 cover other Boston measures (Fair Chance policy, fair housing, HSNA) and contain nothing on H.3744's coverage."
+ }
+}

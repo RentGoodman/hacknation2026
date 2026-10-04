@@ -1,0 +1,69 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "cell",
+ "subject": "CA|security_deposits",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 4128,
+  "output_tokens": 2104
+ },
+ "result": {
+  "cell_status": "rules_found",
+  "no_rule_quote": null,
+  "no_rule_passage_id": null,
+  "basis_citation": null,
+  "rules": [
+   {
+    "jurisdiction": "CA",
+    "category": "security_deposits",
+    "status": "in_force",
+    "title": "California security deposit limits and return rules (Civ. Code § 1950.5, as amended by AB 12)",
+    "requirement": "A landlord may not demand or receive security, however denominated, above one month's rent, in addition to the first month's rent paid on or before initial occupancy. Last month's rent counts as part of the deposit. Small landlords may charge up to two months' rent (see coverage). The remainder of the deposit must be returned within 21 days after the tenant vacates. If deductions are made, the landlord must give an itemized statement with copies of supporting documents. From Jan. 1, 2025, the landlord must also provide proof that necessary repairs were completed. From Apr. 1, 2025, the landlord must photograph the unit after regaining possession and before any repairs or cleaning for which a deduction is claimed. Deposits received electronically must be returned electronically unless the parties agree otherwise in writing. Successors in interest are jointly and severally liable for returning the deposit.",
+    "key_value": "Cap of 1 month's rent (2 months for qualifying small landlords); return within 21 days with itemized statement; prepaid last month's rent counts as deposit",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [
+      "Landlord ownership facts (two rental properties or fewer, four units total or fewer, natural person/family trust/all-natural-person LLC) that cannot be checked from an address lookup"
+     ],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": "Landlords who own only two rental properties with no more than four residential units total, held by a natural person, family trust, or LLC whose members are all natural persons, may charge up to two months' rent",
+     "summary": "Applies to residential rental deposits statewide, with a higher two-month cap for qualifying small landlords.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": "Small-landlord two-month cap requires ownership of two properties or fewer, four units total or fewer, by a natural person, family trust, or all-natural-person LLC",
+     "other_conditions": "An advance payment of not less than six months' rent is permitted if the lease term is six months or longer"
+    },
+    "exemptions": "Six-month advance rent for leases of six months or longer; two-month cap for qualifying small landlords; the passage notes a mutual agreement for specified fee services at the tenant's request (text truncated)",
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": "2024-07-01",
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "The 1-month cap under AB 12 took effect July 1, 2024. Before then the caps were two months' rent (unfurnished) and three months (furnished). The repair-proof requirement began Jan. 1, 2025 and the photograph requirement Apr. 1, 2025, per the Berkeley Rent Board page.",
+    "effective_date_formula": null,
+    "citation": "Cal. Civ. Code § 1950.5",
+    "citation_aliases": [
+     "Civil Code section 1950.5",
+     "AB 12",
+     "Assembly Bill 12"
+    ],
+    "quoted_span": "(c) (1) Except as provided in paragraph (2), (3), or (5), a landlord shall not demand or receive security, however denominated, in an amount or value in excess of an amount equal to one month’s rent, in addition to any rent for the first month paid on or before initial occupancy.",
+    "confidence": 0.85,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "The statutory passages are truncated. The two-month small-landlord cap, the 21-day deadline, and the effective dates come from the Berkeley Rent Board page describing state law, not from the statute text itself.",
+    "source_notes": "Statute text from the official code passages (p1, p2, p4). The AB 12 effective dates, the small-landlord cap, and the 21-day return deadline come from the Berkeley Rent Board page (p7, p8).",
+    "passage_id": "p1"
+   }
+  ]
+ }
+}

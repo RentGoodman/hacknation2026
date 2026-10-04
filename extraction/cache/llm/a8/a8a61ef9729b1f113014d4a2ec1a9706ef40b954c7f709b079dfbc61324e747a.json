@@ -1,0 +1,19 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "qa",
+ "subject": "D031:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 10033,
+  "output_tokens": 769
+ },
+ "result": {
+  "changes": [
+   {
+    "field": "category",
+    "after_json": "\"required_disclosure\"",
+    "reason": "D031 shows the ordinance only requires landlords to give tenants the City's rights-and-resources Guide and states it 'does not prevent a landlord from initiating an eviction action if otherwise allowed by law,' so it is a disclosure rule, not a just-cause eviction rule."
+   }
+  ]
+ }
+}

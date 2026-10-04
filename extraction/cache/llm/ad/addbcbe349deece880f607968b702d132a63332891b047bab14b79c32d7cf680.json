@@ -1,0 +1,55 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D065:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 74645,
+  "output_tokens": 1283
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": 4,
+   "requires_unknown_facts": false,
+   "unverifiable_exemptions": [],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Applies to rental dwelling units offered for rent by housing providers for residential purposes, except units in owner-occupied premises of not more than four dwelling units.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": "Dwelling units in owner-occupied premises of not more than four dwelling units are excluded.",
+   "other_conditions": null
+  },
+  "evidence": [
+   {
+    "field": "owner_occupied_exemption_max_units",
+    "doc_id": "D065",
+    "quoted_span": "other than a dwelling unit in an\nowner-occupied premises of not more than four dwelling units."
+   },
+   {
+    "field": "owner_conditions",
+    "doc_id": "D065",
+    "quoted_span": "other than a dwelling unit in an\nowner-occupied premises of not more than four dwelling units."
+   },
+   {
+    "field": "summary",
+    "doc_id": "D065",
+    "quoted_span": "“Rental dwelling unit” means a dwelling unit offered\nfor rent by a housing provider for residential purposes,\nother than a dwelling unit in an\nowner-occupied premises of not more than four dwelling units."
+   },
+   {
+    "field": "requires_unknown_facts",
+    "doc_id": "D065",
+    "quoted_span": "“Rental dwelling unit” means a dwelling unit offered\nfor rent by a housing provider for residential purposes,"
+   }
+  ],
+  "notes": "The existing coverage is supported by the statutory definition of 'rental dwelling unit' in C.46:8-54. I set requires_unknown_facts to false because the act covers ordinary rental dwelling units generally. The only coverage exemption, owner-occupied premises of four or fewer units, is captured by owner_occupied_exemption_max_units. The documents contain no construction-date, unit-count minimum, landlord-size or preemption provisions for this act, so those fields remain null."
+ }
+}

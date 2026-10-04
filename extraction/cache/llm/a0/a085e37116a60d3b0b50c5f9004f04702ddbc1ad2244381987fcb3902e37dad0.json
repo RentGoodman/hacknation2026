@@ -1,0 +1,50 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D058:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 37226,
+  "output_tokens": 1173
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": false,
+   "unverifiable_exemptions": [],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Applies statewide to residential tenants in residential dwelling units. The text states no unit-count, construction-date, landlord-size or owner-occupancy exemptions.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": null,
+   "other_conditions": "Residential tenancies (residential dwelling units) only."
+  },
+  "evidence": [
+   {
+    "field": "summary",
+    "doc_id": "D058",
+    "quoted_span": "A notice to quit for nonpayment of rent given in writing by a landlord to a residential tenant pursuant to this chapter shall be accompanied by a form"
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D058",
+    "quoted_span": "in an eviction for nonpayment of rent for a residential dwelling unit"
+   },
+   {
+    "field": "requires_unknown_facts",
+    "doc_id": "D058",
+    "quoted_span": "A notice to quit for nonpayment of rent given in writing by a landlord to a residential tenant pursuant to this chapter shall be accompanied by a form"
+   }
+  ],
+  "notes": "Rewrote other_conditions to describe only covered units (residential dwelling units/tenancies). The original wording 'nonpayment-of-rent notices only' described landlord conduct, not coverage. Set requires_unknown_facts to false because the rule reaches all ordinary residential tenancies without any building class that assessor data cannot identify. The statute text lists no unit-count, age or owner exemptions, so those fields stay null and unverifiable_exemptions is empty."
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "DX01:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 4787,
+  "output_tokens": 840
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "Landlords who rent any residential dwelling unit (defined as any primary residence excluding medical/long-term care or detention facilities) in the City of Hoboken are prohibited from price fixing using algorithmic pricing.",
+    "note": "The requirement text matches the ordinance: definitions, 365-day limit, enforcement by the Division of Housing or aggrieved private citizens in Municipal Court, and the penalty options all appear in the document."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "2. By a fine not exceeding $2,000.00; or,\n3. By a period of community service not exceeding ninety (90) days.",
+    "note": "The $2,000 fine, 90-day community service, N.J.S.A. 40:49-5 penalties, 365-day data definition, and Municipal Court enforcement by the Division of Housing or an aggrieved private citizen are all in the text."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The effective_date field is null. The document gives only 'immediately upon passage and publication' and no publication date, so it states no exact date. The effective_date_formula and note correctly reflect this."
+   },
+   {
+    "field": "status",
+    "verdict": "partly_supported",
+    "quoted_span": "This Ordinance shall take effect immediately upon passage and publication as provided by law.",
+    "note": "The document shows the ordinance was adopted unanimously on Jul 9, 2025 and takes effect upon passage and publication. It does not confirm that publication occurred or that the ordinance is currently in force."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "Landlords who rent any residential dwelling unit (defined as any primary residence excluding medical/long-term care or detention facilities) in the City of Hoboken",
+    "note": "The scope is any primary residence in Hoboken, excluding medical/long-term care and detention facilities. The document sets no unit-count, building-age or landlord-size threshold."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "§ 154-8 PROHIBITION AGAINST ALGORITHMIC RENT-FIXING IN THE RENTAL HOUSING MARKET.",
+    "note": "The title and Section One add new § 158-2 to Chapter 158, while the body heading reads § 154-8. Section Five authorizes renumbering. The citation and aliases are consistent with this, though the codified location is not verifiable from the document."
+   }
+  ]
+ }
+}

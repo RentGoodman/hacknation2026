@@ -1,0 +1,198 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "consolidate",
+ "subject": "San Diego, CA",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 71105,
+  "output_tokens": 10302
+ },
+ "result": {
+  "rules": [
+   {
+    "candidate_id": "D073:c1",
+    "jurisdiction": "San Diego, CA",
+    "category": "just_cause_eviction",
+    "status": "in_force",
+    "title": "San Diego Residential Tenant Protections: just cause, relocation assistance, right to re-rent, buyouts (SDMC ch. 9, art. 8, div. 7)",
+    "requirement": "A landlord may not terminate a covered tenancy without just cause. Covered tenancies are those giving the right to occupy for more than 30 days, excluding fixed terms of 3 months or less.\n\nAt-fault just cause: nonpayment; material lease breach; nuisance; waste; refusal to sign a substantially similar renewal (leases ending on or after June 24, 2023); criminal activity; criminal threats; unauthorized assignment or sublet; refusal of lawful entry; unlawful use; an employee's failure to vacate; and failure to deliver possession after the tenant's own notice. For a curable violation, the landlord must first give written notice and an opportunity to cure, and may then serve a 3-day notice to quit.\n\nNo-fault just cause, taken in good faith:\n- Owner or relative move-in for at least 12 months. For leases from June 24, 2023, this requires the tenant's written agreement or a lease clause. The occupant must move in within 90 days, or the unit must be re-offered at the same rent.\n- Withdrawal from the rental market.\n- A government or court order, or a local ordinance, requiring vacancy.\n- Demolition or substantial remodel. Permits must be posted and secured, and the notice must be certified under penalty of perjury.\n\nNo-fault notice: at least 30 or 60 days per Civ. Code § 1946.1, in at least 12-point font. It must state the basis, the relocation assistance and the right to a renewal offer.\n\nRelocation assistance, regardless of income or length of tenancy: 2 months' actual rent, or 3 months if the tenant is a senior (62+) or disabled. It is paid directly within 15 days of the notice or given as a rent waiver for the final months.\n\nRight to re-rent: after a no-fault eviction under (b)(1), (3) or (4), if the unit is re-offered within 5 years, the landlord must first offer it to the displaced tenant if the tenant asked in writing within 30 days. The tenant has 30 days to accept.\n\nNotice to the Housing Commission within 3 business days applies only 30 days after the Commission announces a submission portal.\n\nOther duties: landlords must give every covered tenant a protections notice and the Tenant Protection Guide. Buyout offers require prior written disclosure, and a buyout agreement must be in writing and exceed the relocation amount, or it is void. Retaliation is prohibited.\n\nRemedies: wrongful eviction damages of at least 3x actual economic damages; failure to pay relocation brings at least 3x the required assistance plus actual damages. Any non-compliance voids the termination notice.",
+    "key_value": "No-fault relocation: 2 months' actual rent (3 months for seniors 62+ or disabled), paid within 15 days or as rent waiver; 30/60-day notice; 5-year right of first offer (30 days to accept); wrongful eviction liability at least 3x actual economic damages; failure to pay relocation at least 3x required assistance plus actual damages; 15-year rolling new-construction exemption",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": {
+      "years": 15,
+      "basis": "certificate of occupancy issued within the previous 15 years (rolling; not applicable to mobilehomes)",
+      "requires_owner_filing": false
+     },
+     "owner_occupied_exemption_max_units": 2,
+     "requires_unknown_facts": true,
+     "unverifiable_exemptions": [
+      "Housing restricted by deed, regulatory agreement or other document as affordable housing for very low, low or moderate income households",
+      "Housing subject to an affordable-housing subsidy agreement (Section 8 voucher tenancies not exempt)",
+      "Separately alienable residential property (including mobilehomes) whose landlord is not a REIT, corporation, LLC with a corporate member or mobilehome park management, where tenants received the prescribed written exemption notice (in the lease for tenancies commenced or renewed on or after Jan. 1, 2024)",
+      "Housing in a nonprofit hospital, religious facility, extended care facility, licensed residential care facility for the elderly, adult residential facility or non-profit transitional housing",
+      "Dormitories owned and operated by higher-education or K-12 institutions",
+      "Tenant shares bathroom or kitchen with a landlord who lives there as principal residence",
+      "Landlord-occupied single-family residence renting no more than two bedrooms, two ADUs or two JADUs, or a landlord-occupied two-unit structure"
+     ],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": true,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Applies to tenancies of more than 30 days (excluding fixed terms of 3 months or less) in residential rental property in the City of San Diego, including mobilehome park units. Exempt: housing with a certificate of occupancy issued within the previous 15 years (rolling, except mobilehomes) and the listed categories. The ordinance gives greater protection than Cal. Civ. Code § 1946.2 (e.g. 2-3 months' relocation versus 1), so it applies in place of the state just-cause rule.",
+     "construction_date_basis": "certificate_of_occupancy",
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": 15,
+     "owner_conditions": "Exempt: a single-family residence occupied by the landlord as principal residence, renting no more than two bedrooms, two ADUs or two JADUs. Exempt: a two-unit structure where the landlord occupies one unit as principal residence from the start of the tenancy and continues to. The separately alienable property exemption requires a non-REIT, non-corporate landlord (not an LLC with a corporate member, not mobilehome park management) plus the written notice.",
+     "other_conditions": "Exempt: transient and tourist hotel occupancy, short-term residential occupancy, and mobilehomes subject to the Mobilehome Residency Law."
+    },
+    "exemptions": "Transient/tourist hotel and short-term residential occupancy; deed-restricted or subsidized affordable housing (Section 8 not exempt); mobilehomes under the MRL; nonprofit hospital, religious, extended care, RCFE, adult residential facility and non-profit transitional housing; school dormitories; shared bath or kitchen with a resident landlord; owner-occupied single-family residence (no more than two bedrooms/ADUs/JADUs rented) and owner-occupied two-unit structure; housing with a certificate of occupancy issued within the previous 15 years (except mobilehomes); separately alienable property with a qualifying non-corporate landlord who gave the prescribed notice.",
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": "2023-06-24",
+    "enacted_date": "2023-05-25",
+    "sunset_date": null,
+    "effective_date_note": "Division 7 was originally added as the Tenants' Right to Know Regulations on 3-30-2004 by O-19269 N.S. It was retitled and substantially amended on 5-25-2023 by O-21647 N.S., effective 6-24-2023. It was further amended on 2-27-2024 by O-21769 N.S., effective 3-28-2024; that amendment added § 98.0710 and amended §§ 98.0702, 98.0704 and 98.0709. The ordinance has no sunset. Commission notice duties (§ 98.0706(a)(2) and (b)(2)) apply only 30 days after the Commission establishes a submission portal and gives public notice.",
+    "effective_date_formula": null,
+    "citation": "San Diego Mun. Code § 98.0704",
+    "citation_aliases": [
+     "San Diego Mun. Code ch. 9, art. 8, div. 7",
+     "San Diego Mun. Code §§ 98.0701–98.0710",
+     "San Diego Mun. Code § 98.0703",
+     "San Diego Mun. Code § 98.0705",
+     "San Diego Mun. Code § 98.0706",
+     "San Diego Mun. Code § 98.0707",
+     "San Diego Mun. Code § 98.0709",
+     "S.D. Mun. Code § 98.0704",
+     "SDMC § 98.0704",
+     "O-21647 N.S.",
+     "O-21769 N.S.",
+     "O-19269 N.S.",
+     "Residential Tenant Protections",
+     "Tenants' Right to Know Regulations",
+     "San Diego Tenant Protection Ordinance",
+     "Just Cause Eviction Ordinance"
+    ],
+    "quoted_span": "A landlord shall not terminate a tenancy without just cause.",
+    "confidence": 0.92,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "Code text is the 3-2024 version; amendments after O-21769 N.S. are not reflected. Under Civ. Code § 1946.2, a local ordinance adopted after Sept. 1, 2019 displaces the state rule only if it is more protective and contains a binding finding saying so. That finding is not shown in the documents, so supersedes_state_rule should be verified against the adopting ordinance. The Housing Commission portal status is unknown. The Legal Aid fact sheet (Sept. 2023) estimated a July 2024 launch. The 15-year certificate-of-occupancy exemption is rolling, so eligibility changes over time. Relocation assistance (§ 98.0706(c)), buyouts (§ 98.0707), retaliation and remedies are folded into this record as subsections of the same Division.",
+    "source_notes": "Official municipal code text (D073) is primary. The Legal Aid Society fact sheet (DX17, secondary) matches the code on coverage, causes, the 2/3-month relocation amounts and remedies. One discrepancy is resolved by the code: the cell candidate's '3 months' relocation figure for all tenants came from a 2021 City summary of the earlier ordinance, which is not among the documents. Current § 98.0706(c)(1)(A) sets 2 months, or 3 months for seniors and disabled tenants, and DX17 confirms this.",
+    "source_doc_id": "D073",
+    "from_candidates": [
+     "D073:c1",
+     "DX17:c1",
+     "cell:San Diego, CA:just_cause_eviction:1"
+    ],
+    "also_supported_by": [
+     {
+      "doc_id": "DX17",
+      "quoted_span": "There are two kinds of “Just Cause” or valid reasons to terminate a tenancy: (A) At Fault Just Cause and (B) No-Fault Just Cause as detailed below:"
+     },
+     {
+      "doc_id": "DX17",
+      "quoted_span": "The Ordinance goes into effect June 24, 2023."
+     },
+     {
+      "doc_id": "DX17",
+      "quoted_span": "A direct payment equal to two (2) months of the actual rent (contract rent)"
+     }
+    ]
+   },
+   {
+    "candidate_id": "D076:c1",
+    "jurisdiction": "San Diego, CA",
+    "category": "algorithmic_rent_setting",
+    "status": "in_force",
+    "title": "San Diego Prohibition of Anti-Competitive Automated Rent Price-Fixing (SDMC ch. 9, art. 8, div. 11)",
+    "requirement": "It is unlawful for any person to sell, license or otherwise provide an algorithmic device to a landlord. It is also unlawful for a landlord to use an algorithmic device to set rental rates or occupancy levels for residential rental property.\n\nAn algorithmic device is software or a product that uses algorithms to calculate nonpublic competitor data (e.g. actual rents, rent changes, supply, occupancy, lease dates) to advise or recommend rental rates or occupancy levels for San Diego residential rental property.\n\nEach month a landlord's use continues, and each property where a device is used, is a separate violation.\n\nA tenant may sue a landlord for injunctive relief, damages or civil penalties of up to $1,000 per violation. A prevailing tenant, including one granted an injunction, recovers costs and reasonable attorney's fees, and lease clauses limiting fee recovery are unenforceable. Remedies are cumulative.",
+    "key_value": "Civil penalties up to $1,000 per violation; each month and each property a separate violation; prevailing tenant recovers costs and reasonable attorney's fees; effective June 2025 per DX06 (30th day after final passage)",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": false,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Applies citywide to landlords of residential rental property in the City of San Diego and to any person who sells, licenses or provides algorithmic devices to them. Landlord, lease, residential rental property and tenant are defined by reference to SDMC § 98.0702. No unit-count or construction-date limits are stated. It operates alongside the state Cartwright Act common-pricing-algorithm ban (Bus. & Prof. Code § 16729).",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": "Covers only software or products that use nonpublic competitor data to advise or recommend rental rates or occupancy levels."
+    },
+    "exemptions": "Excluded from 'algorithmic device': (a) software used to publish reports on rental rates or occupancy levels from aggregated historical nonpublic competitor data more than 90 days old, or from public information, that does not recommend rates or occupancy for future leases or renewals; (b) software used to set rental rates or income limits under local, state or federal affordable housing program guidelines.",
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "The ordinance takes effect on the thirtieth day after final passage. The official documents are the February 27, 2025 staff report and draft ordinance (O-2025-107), in which the ordinance number and final passage date are blank. The Morgan Lewis alert of August 21, 2026 (DX06) lists §§ 98.1101–98.1104 as 'effective June 2025', which gives only a month. No exact date is stated in the documents.",
+    "effective_date_formula": {
+     "kind": "days_after",
+     "n": 30,
+     "anchor": "enactment",
+     "anchor_date": null,
+     "verbatim": "This Ordinance will take effect and be in force on the thirtieth day from and after its final passage."
+    },
+    "citation": "San Diego Mun. Code § 98.1103",
+    "citation_aliases": [
+     "San Diego Mun. Code ch. 9, art. 8, div. 11",
+     "San Diego Mun. Code §§ 98.1101–98.1104",
+     "San Diego Mun. Code § 98.1102",
+     "San Diego Mun. Code § 98.1104",
+     "S.D. Mun. Code § 98.1103",
+     "SDMC § 98.1103",
+     "O-2025-107",
+     "Prohibition of Anti-Competitive Automated Rent Price-Fixing Ordinance"
+    ],
+    "quoted_span": "It is unlawful for a landlord to use an algorithmic device to set rental rates\nor occupancy levels for residential rental property.",
+    "confidence": 0.72,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "Adoption is shown only by a secondary source. DX06 reports the Division as effective June 2025 and in litigation in Keller v. UDR Inc. (S.D. Cal.). The adopted ordinance number, final passage date and codified text are not captured; the code-publisher page D074 is link-only. The text here comes from the official draft, so verify the codified text and exact effective date against City Clerk records. O-2025-107 is the drafting reference, not the adopted ordinance number.",
+    "source_notes": "The official staff report and draft ordinance (D076; DX05 is the same PDF) are the text source. The draft and adopted versions are treated as one record. The candidates set status to pending only because the draft's passage fields were blank. The later secondary source (DX06, Aug. 2026) shows the Division codified at §§ 98.1101–98.1104, effective June 2025 and being litigated, which resolves the status to in_force as of the 2026-10-01 query date.",
+    "source_doc_id": "D076",
+    "from_candidates": [
+     "D076:c1",
+     "DX05:c1",
+     "DX06:c2",
+     "cell:San Diego, CA:algorithmic_rent_setting:1"
+    ],
+    "also_supported_by": [
+     {
+      "doc_id": "DX06",
+      "quoted_span": "Similar prohibition and private remedy of up to $1,000 per violation"
+     },
+     {
+      "doc_id": "DX06",
+      "quoted_span": "A San Diego tenant filed Keller v. UDR Inc. in the Southern District of California under San Diego Municipal Code § 98.1103, alleging that UDR improperly used RealPage products."
+     }
+    ]
+   }
+  ],
+  "dropped_candidates": [],
+  "known_gaps": [
+   {
+    "category": "screening_restrictions",
+    "law": "San Diego Mun. Code ch. 9, art. 8, div. 8 (Prohibition of Discrimination Based on a Tenant's Source of Income)",
+    "reason": "Named only by a link-only code-publisher source (D075); its text is not captured, so no rule was created."
+   },
+   {
+    "category": "algorithmic_rent_setting",
+    "law": "Adopted ordinance enacting San Diego Mun. Code §§ 98.1101–98.1104 (codified text)",
+    "reason": "Only the draft ordinance text is captured. The adopted ordinance number, final passage date and codified text (link-only D074) are not in the documents."
+   }
+  ]
+ }
+}

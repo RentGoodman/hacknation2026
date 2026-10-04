@@ -1,0 +1,70 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D067:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 74497,
+  "output_tokens": 2958
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": 3,
+   "requires_unknown_facts": null,
+   "unverifiable_exemptions": [],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Applies to most residential rentals, including mobile homes. Owner-occupied two- or three-family dwellings are exempt unless the tenant makes the law apply by written request to the landlord.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": "Owner-occupied two- or three-family dwellings are exempt. A tenant there may make the law apply 30 days after sending the landlord a written request.",
+   "other_conditions": "The deposit investment and account section does not apply to seasonal rentals. A seasonal rental is a term of not more than 125 consecutive days by a person with a permanent residence elsewhere."
+  },
+  "evidence": [
+   {
+    "field": "summary",
+    "doc_id": "D067",
+    "quoted_span": "The Security Deposit Law applies to most  residential rental properties, including mobile"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D067",
+    "quoted_span": "The exception is an owner-occupied two-, or three-family dwelling."
+   },
+   {
+    "field": "owner_conditions",
+    "doc_id": "D067",
+    "quoted_span": "The exception is an owner-occupied two-, or three-family dwelling."
+   },
+   {
+    "field": "owner_conditions",
+    "doc_id": "D067",
+    "quoted_span": "occupied two-, or three-family dwelling may, however, make this provision applicable to their"
+   },
+   {
+    "field": "owner_occupied_exemption_max_units",
+    "doc_id": "D067",
+    "quoted_span": "The exception is an owner-occupied two-, or three-family dwelling."
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D067",
+    "quoted_span": "section of the Security Deposit Law does not apply to security deposits for seasonal use or rental."
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D067",
+    "quoted_span": "Seasonal use or rental means use or rental for a term of not more than 125 consecutive days for"
+   }
+  ],
+  "notes": "landlord_size_condition was set to null. The 10-or-more-units rule only gives landlords a choice of where to invest deposits (a money market fund instead of a bank). That is landlord conduct, not a condition on which buildings, units or owners the law covers. other_conditions was narrowed: the guide says the seasonal exclusion applies to the deposit/investment section, and it does not clearly extend it to the interest provisions. The opt-in wording was kept close to the guide's text."
+ }
+}

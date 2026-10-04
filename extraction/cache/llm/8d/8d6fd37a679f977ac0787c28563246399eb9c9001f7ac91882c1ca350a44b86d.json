@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D008:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 1021,
+  "output_tokens": 293
+ },
+ "result": {
+  "en": "In Berkeley, for fully covered units, the rent ceiling can go up each year only by the Annual General Adjustment, which is 1.0% for 2026 (65% of a 1.5% CPI increase), can't be applied before January 1, 2026, and is capped at 5%, though a landlord's banked adjustments from earlier years may allow a larger increase up to the rent ceiling.",
+  "es": "En Berkeley, para las unidades totalmente cubiertas, el límite de renta solo puede subir cada año según el Ajuste General Anual, que es de 1.0% para 2026 (65% de un aumento de 1.5% del IPC), no puede aplicarse antes del 1 de enero de 2026 y tiene un tope de 5%, aunque los ajustes acumulados de años anteriores pueden permitir un aumento mayor hasta el límite de renta."
+ }
+}

@@ -1,0 +1,77 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "extract",
+ "subject": "D023",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 7859,
+  "output_tokens": 2999
+ },
+ "result": {
+  "rules": [
+   {
+    "candidate_id": "c1",
+    "jurisdiction": "CA",
+    "category": "just_cause_eviction",
+    "status": "in_force",
+    "title": "California Tenant Protection Act just-cause eviction (Civ. Code § 1946.2)",
+    "requirement": "After a tenant has continuously and lawfully occupied a unit for 12 months (or 24 months if an additional adult tenant was added), the owner may terminate the tenancy only for just cause stated in the written notice. At-fault causes include non-payment of rent, breach of a material lease term, nuisance, waste, refusal to renew a lease, criminal activity, unauthorized subletting, refusal of entry, unlawful use, and failure to vacate after termination. No-fault causes include owner or relative move-in, withdrawal from the rental market, compliance with a government or court vacate order, and demolition or substantial remodel. A curable violation requires a notice to cure before a three-day notice to quit. For no-fault terminations the owner must give relocation assistance equal to one month's rent or waive the final month's rent, and must state that right in the notice. Notices for owner move-in and for demolition or remodel must include specified content. Owners must give tenants a prescribed notice of these rights. Non-compliance voids the termination notice. Tenants have a civil remedy, and public enforcers may seek injunctive relief. Waivers are void.",
+    "key_value": "Just cause required after 12 months of occupancy (24 months if an adult tenant was added). No-fault termination: relocation payment of 1 month's rent within 15 calendar days of notice, or waiver of final month's rent. Owner move-in: occupant must move in within 90 days and stay 12 consecutive months. Remodel: tenant must need to vacate at least 30 consecutive days. Damages: actual damages, plus up to 3x for willful or malicious violations. Non-compliance voids the notice.",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": {
+      "years": 15,
+      "basis": "certificate of occupancy issued within the previous 15 years (not applicable to mobilehomes)",
+      "requires_owner_filing": false
+     },
+     "owner_occupied_exemption_max_units": 2,
+     "requires_unknown_facts": false,
+     "unverifiable_exemptions": [
+      "Housing restricted by deed, regulatory agreement or other recorded document as affordable housing for very low, low or moderate income, or subject to a housing subsidy agreement",
+      "Single-family or alienable-separate-title property exempt only if the owner is not a REIT, corporation, or LLC with a corporate member and the tenant was given the required written exemption notice",
+      "Owner-occupied residences and duplexes where the owner occupies a unit as principal residence",
+      "Housing where the tenant shares a bathroom or kitchen with the resident owner",
+      "Hotels, nonprofit hospital, religious, care facility and school dormitory housing"
+     ],
+     "yields_to_local_rule": true,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Applies to residential tenancies of 12 months or more statewide, except exempted housing and property covered by a local just-cause ordinance adopted on or before Sept 1, 2019 or a more protective local ordinance. Housing with a certificate of occupancy within the previous 15 years is exempt.",
+     "construction_date_basis": "certificate of occupancy",
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": 15,
+     "owner_conditions": "Single-family or separately alienable property is exempt only if the owner is not a REIT, corporation, or LLC with a corporate member and the tenants received the required written exemption notice. Owner-occupied single-family residences renting no more than two units or bedrooms are exempt. Owner-occupied duplexes are exempt while the owner stays in occupancy and neither unit is an ADU or JADU.",
+     "other_conditions": "Does not apply to a homeowner of a mobilehome. A local ordinance adopted after Sept 1, 2019 that is less protective is not enforced unless this section is repealed. A property is not subject to both a local ordinance and this section."
+    },
+    "exemptions": "Transient and tourist hotels; nonprofit hospital, religious, extended care, RCFE and adult residential facilities; school dormitories; shared bathroom or kitchen with the resident owner; single-family owner-occupied residences (up to two units or bedrooms rented, or a mobilehome); owner-occupied duplex; housing with a certificate of occupancy within the previous 15 years (except mobilehomes); separately alienable property with a non-corporate, non-REIT owner and the required notice; deed-restricted or subsidized affordable housing; property covered by a local just-cause ordinance adopted on or before Sept 1, 2019 or a more protective local ordinance.",
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": "2024-04-01",
+    "enacted_date": null,
+    "sunset_date": "2030-01-01",
+    "effective_date_note": "Subdivision (m) states this version is operative April 1, 2024. The footer says this version, as amended by Stats. 2025, Ch. 203 (AB 1529), is effective January 1, 2026, and the section is repealed as of January 1, 2030. The document refers to earlier lease and notice dates in 2020 and 2022 (mobilehomes) but does not state when the original statute first took effect.",
+    "effective_date_formula": null,
+    "citation": "Cal. Civ. Code § 1946.2",
+    "citation_aliases": [
+     "Cal. Civ. Code § 1946.2",
+     "AB 1529",
+     "Stats. 2025, ch. 203",
+     "Tenant Protection Act of 2019",
+     "California Code, CIV 1946.2"
+    ],
+    "quoted_span": "after a tenant has continuously and lawfully occupied a residential real property for 12 months, the owner of the residential real property shall not terminate a tenancy without just cause, which shall be stated in the written notice to terminate tenancy.",
+    "confidence": 0.93,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "The primary effective date uses the operative date in subdivision (m). The 2026-01-01 date is the effective date of the amending act. Whether the headline requirement is dated from the original 2020 enactment should be checked against other sources.",
+    "source_notes": "Official statute text from leginfo.legislature.ca.gov. The relocation assistance in subdivision (d) is part of the same section and is folded into this record."
+   }
+  ],
+  "no_rule_findings": [],
+  "doc_summary": "Official text of California Civil Code § 1946.2, the statewide just-cause eviction law, as amended by AB 1529 (effective Jan 1, 2026, repealed Jan 1, 2030 by its own terms). It covers the 12-month occupancy trigger, the at-fault and no-fault just causes, notice contents, one-month relocation assistance or rent waiver, exemptions, deference to local ordinances, tenant remedies and the required tenant-rights notice."
+ }
+}

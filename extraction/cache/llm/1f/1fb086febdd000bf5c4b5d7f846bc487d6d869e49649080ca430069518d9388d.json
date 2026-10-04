@@ -1,0 +1,90 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D068:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 74453,
+  "output_tokens": 3797
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": 2,
+   "requires_unknown_facts": false,
+   "unverifiable_exemptions": [
+    "Rental of a room or rooms by the owner or occupant of an owner-occupied one-family dwelling",
+    "Preference for persons of the same religion by a religious organization",
+    "Housing for older persons (familial-status protection only)",
+    "Residences planned exclusively for and occupied by one sex, e.g. YMCA"
+   ],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Applies to the sale or rental of all property except the listed exemptions. The main exemption is a single apartment in a two-family dwelling whose other unit the owner occupies.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": "Exempt: rental of a single apartment in a two-family dwelling whose other unit the owner occupies as a residence at the time of rental; rooms in an owner- or resident-occupied single home.",
+   "other_conditions": null
+  },
+  "evidence": [
+   {
+    "field": "owner_occupied_exemption_max_units",
+    "doc_id": "D068",
+    "quoted_span": "The rental of a single apartment or flat in a two-family\ndwelling, the other occupancy unit of which is occupied\nby the owner as his/her residence at the time of such\nrentals;"
+   },
+   {
+    "field": "owner_conditions",
+    "doc_id": "D068",
+    "quoted_span": "The rental of a single apartment or flat in a two-family\ndwelling, the other occupancy unit of which is occupied\nby the owner as his/her residence at the time of such\nrentals;"
+   },
+   {
+    "field": "owner_conditions",
+    "doc_id": "D067",
+    "quoted_span": "rooms in an owner or resident -occupied single home"
+   },
+   {
+    "field": "requires_unknown_facts",
+    "doc_id": "D068",
+    "quoted_span": "The provisions of the LAD apply to the sale or rental of all\nproperty including open land, whether for business or\nresidential purposes, with the following exceptions:"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D068",
+    "quoted_span": "The provisions of the LAD apply to the sale or rental of all\nproperty including open land, whether for business or\nresidential purposes, with the following exceptions:"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D067",
+    "quoted_span": "The law applies to all landlord -tenant relationships, except those involving two -family owner"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D068",
+    "quoted_span": "The rental of a room or rooms to another person or\npersons by the owner or occupant of a one-family\ndwelling occupied by him/her as his/her residence at\nthe time of such rental;"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D068",
+    "quoted_span": "preference\ngiven to persons of the same religion by a religious\norganization"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D068",
+    "quoted_span": "familial status does not apply to housing for older\npersons"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D067",
+    "quoted_span": "exclusively for and occupied by one sex, i.e. YMCA and age -restricted housing"
+   }
+  ],
+  "notes": "requires_unknown_facts is now false, changed from null. The LAD covers the sale or rental of all property, so ordinary rental buildings are covered. The single-sex/older-persons item is split into two exemptions. The older-persons exemption applies only to familial status. D067 (DCA guide) lists the one-sex residences exemption, but it is unclear from the text which protected class it is limited to. Neither summary document cites the statute section for the owner-occupied exemptions, and the statute (D061) is not in the corpus. It is therefore unconfirmed whether those exemptions reach source-of-income claims under N.J.S.A. 10:5-12(g)/(h). D065, D066, D069 and DX16 concern other statutes and give no coverage evidence for this rule."
+ }
+}

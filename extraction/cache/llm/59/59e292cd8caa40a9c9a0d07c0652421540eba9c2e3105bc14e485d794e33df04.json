@@ -1,0 +1,17 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "cell",
+ "subject": "Hoboken, NJ|screening_restrictions",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 4300,
+  "output_tokens": 268
+ },
+ "result": {
+  "cell_status": "silent",
+  "no_rule_quote": null,
+  "no_rule_passage_id": null,
+  "basis_citation": null,
+  "rules": []
+ }
+}

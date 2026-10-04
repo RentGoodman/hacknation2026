@@ -1,0 +1,38 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "probe",
+ "subject": "Los Angeles, CA",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 32692,
+  "output_tokens": 975
+ },
+ "result": {
+  "verdicts": [
+   {
+    "category": "application_screening_fees",
+    "verdict": "undetermined",
+    "doc_id": null,
+    "quoted_span": null,
+    "basis_citation": null,
+    "reason": "No Los Angeles document addresses application or screening fees. The retrieved passages (D026, DX08) describe a $30 CPI-adjusted screening fee cap that appears to be California state law (Berkeley's D005 cites Civil Code 1950.6), which would apply in LA. That suggests a rule may exist, and nothing shows LA has none."
+   },
+   {
+    "category": "screening_restrictions",
+    "verdict": "undetermined",
+    "doc_id": null,
+    "quoted_span": null,
+    "basis_citation": null,
+    "reason": "No Los Angeles document addresses tenant screening criteria. The retrieved passages describe California regulations limiting criminal-history screening (DX07) and source-of-income and credit-history provisions (D027) that may apply statewide. Nothing establishes that LA lacks such restrictions."
+   },
+   {
+    "category": "algorithmic_rent_setting",
+    "verdict": "undetermined",
+    "doc_id": null,
+    "quoted_span": null,
+    "basis_citation": null,
+    "reason": "D039 is a 2024 council motion asking LAHD to report on the feasibility of banning algorithmic rent-setting software. It shows no ban existed when the motion was filed but does not show whether one was later adopted. DX09 also describes a California prohibition on common pricing algorithms that may apply in LA. The status is not settled."
+   }
+  ]
+ }
+}

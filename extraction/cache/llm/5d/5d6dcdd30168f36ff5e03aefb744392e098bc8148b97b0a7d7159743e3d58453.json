@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D049:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 587,
+  "output_tokens": 165
+ },
+ "result": {
+  "en": "In Massachusetts, a landlord cannot reject or treat you differently as an applicant or tenant because you receive public assistance or a housing subsidy such as a voucher, or because of that program's requirements.",
+  "es": "En Massachusetts, un arrendador no puede rechazarle ni tratarle de manera diferente como solicitante o inquilino porque usted recibe asistencia pública o un subsidio de vivienda, como un voucher, ni por los requisitos de ese programa."
+ }
+}

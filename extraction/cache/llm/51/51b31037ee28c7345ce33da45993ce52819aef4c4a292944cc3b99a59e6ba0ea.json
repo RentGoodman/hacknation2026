@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D080:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 755,
+  "output_tokens": 268
+ },
+ "result": {
+  "en": "In San Francisco, for rent-controlled units, a landlord can raise rent by no more than 1.6% of base rent for March 1, 2026 through February 28, 2027 (for example, $2,000.00 becomes $2,032.00), and units that first got a Certificate of Occupancy after June 13, 1979 are exempt from this limit.",
+  "es": "En San Francisco, en las unidades con control de rentas, el propietario no puede subir la renta más del 1.6% de la renta base del 1 de marzo de 2026 al 28 de febrero de 2027 (por ejemplo, $2,000.00 pasan a $2,032.00), y las unidades que obtuvieron por primera vez un Certificado de Ocupación después del 13 de junio de 1979 están exentas de este límite."
+ }
+}

@@ -1,0 +1,21 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "date_audit",
+ "subject": "D073:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 37920,
+  "output_tokens": 1446
+ },
+ "result": {
+  "requirement_is_new": null,
+  "in_force_since": "2023-06-24",
+  "in_force_since_evidence": {
+   "doc_id": "D073",
+   "quoted_span": "(“Just Cause Required for Termination of Tenancy” added 5-25-2023 by O-21647 N.S.; effective 6-24-2023.)"
+  },
+  "current_version_effective": "2024-03-28",
+  "prior_version_note": "§ 98.0704 was added by O-21647 N.S. (adopted 5-25-2023, effective 6-24-2023) and amended by O-21769 N.S. (adopted 2-27-2024, effective 3-28-2024). The documents do not say what the 2023 version of § 98.0704 said before that amendment. The Division descends from the 'Tenants' Right to Know Regulations' added 3-30-2004 by O-19269 N.S., but the documents do not describe their content. It is therefore unknown whether a just-cause requirement existed before 2023, which is why requirement_is_new is null.",
+  "effective_date_formula": null
+ }
+}

@@ -1,0 +1,55 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D079:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 11908,
+  "output_tokens": 2054
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": false,
+   "unverifiable_exemptions": [],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Rental units covered by the San Francisco Rent Ordinance. Some tenancies exempt from the Ordinance's rent increase limits are still subject to its eviction provisions. These include units that first obtained a Certificate of Occupancy after June 13, 1979, tenancies eligible for a rent increase under the Costa-Hawkins Rental Housing Act, and some tenancies whose rent is regulated by another government agency.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": null,
+   "other_conditions": null
+  },
+  "evidence": [
+   {
+    "field": "requires_unknown_facts",
+    "doc_id": "D079",
+    "quoted_span": "In order to evict a tenant from a rental unit covered by the Rent Ordinance, a landlord must have a \"just cause\" reason that is the dominant motive for pursuing the eviction."
+   },
+   {
+    "field": "summary",
+    "doc_id": "D079",
+    "quoted_span": "Some tenancies that are exempt from the rent increase limitations of the Ordinance are still subject to the eviction provisions of the Ordinance, and tenants in these categories can only be evicted for one of the “just cause” reasons listed in the Ordinance."
+   },
+   {
+    "field": "summary",
+    "doc_id": "D079",
+    "quoted_span": "This includes tenancies in newly constructed rental units that first obtained a Certificate of Occupancy after June 13, 1979, tenancies that are eligible for a rent increase under the"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D079",
+    "quoted_span": "and some tenancies where the rent is regulated by another government agency."
+   }
+  ],
+  "notes": "Changes made: (1) supersedes_state_rule was changed from true to null. No document mentions Civ. Code § 1946.2 or any state/local precedence, and the summary sentence saying the state rule yields was removed for the same reason. (2) other_conditions was set to null. The 50-year/75% threshold is an element of one eviction ground (landlord conduct), not a coverage limit on buildings. The notice-date dependence of relocation amounts is also not a coverage condition. (3) requires_unknown_facts was set to false, because the rule covers ordinary rental units under the Rent Ordinance. (4) No construction cutoff applies. Post-June 13, 1979 new construction is expressly still subject to the eviction provisions. (5) unverifiable_exemptions is left empty because the documents state no exemptions from the eviction provisions."
+ }
+}

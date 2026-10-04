@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "cell:San Diego, CA:algorithmic_rent_setting:1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 10359,
+  "output_tokens": 837
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "(b) It is unlawful for a landlord to use an algorithmic device to set rental rates\nor occupancy levels for residential rental property.",
+    "note": "The requirement matches §98.1103(a)-(b), the §98.1102 definition and its two exclusions, and the §98.1104 tenant remedies. The requirement says exclusion (a) covers reports that 'do not recommend future rents', which paraphrases the text."
+   },
+   {
+    "field": "key_value",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The key_value field is empty. The document states no single numeric value for this rule. The $1,000 civil penalty is a remedy and is not a key value for this record."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The effective_date field is empty. The document gives only a relative effective date ('thirtieth day from and after its final passage'), and the date of final passage is blank. No calendar date can be stated."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "The proposed ordinance bans the sale, licensing, and use of an algorithmic device to set rental rates or\noccupancy levels for residential rental properties.",
+    "note": "The document is a staff report for a proposed ordinance. The date of final passage and the City Clerk's certification of adoption are blank, so 'pending' is consistent with it."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "Residential rental property has the same meaning as in San Diego Municipal\nCode section 98.0702, as may be amended.",
+    "note": "The ordinance sets no unit-count, age, owner-occupancy or landlord-size limits, and it incorporates only definitions from §98.0702. The summary's detail that §98.0702 includes mobilehome park units, and that the §98.0703 exemptions are not incorporated, comes from outside this document. The coverage_evidence also cites D073, which is not provided. Everything else in the summary matches D076."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "§98.1103  Use and Sale of Algorithmic Devices Prohibited",
+    "note": "§98.1103 is the correct section. The aliases are also correct: Division 11 is in Chapter 9, Article 8, §§98.1101-98.1104 are listed, O-2025-107 is the ordinance number, and the ordinance title matches. The §98.1101-98.1103 alias range omits §98.1104."
+   }
+  ]
+ }
+}

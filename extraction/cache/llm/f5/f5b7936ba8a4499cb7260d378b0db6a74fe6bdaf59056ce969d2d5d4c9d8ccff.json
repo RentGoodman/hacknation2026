@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D069:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 6045,
+  "output_tokens": 1594
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "It\nshall be unlawful and a violation of the “New Jersey Antitrust Act,” P.L.1970,\nc.73 (C.56:9-1 et seq.) for:",
+    "note": "Section 4 prohibitions, the coordinating function definition, section 5 remedies, section 6(b) preemption, section 7 complaint location and section 8 rulemaking all match the summary."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "A municipality shall be prohibited from enacting\nan ordinance that conflicts with this act.",
+    "note": "The Antitrust Act violation point comes from section 4. The July 1, 2027 date is not written in the document but follows from section 9 and the July 20, 2026 approval date."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "supported",
+    "quoted_span": "This act shall take effect on the first day of\nthe twelfth month next following the date of enactment.",
+    "note": "The document says the act was approved July 20, 2026. The first day of the twelfth month after that is July 1, 2027, so the date is derivable though not stated."
+   },
+   {
+    "field": "status",
+    "verdict": "partly_supported",
+    "quoted_span": "This act shall take effect on the first day of\nthe twelfth month next following the date of enactment.",
+    "note": "A future effective date supports not_yet_effective, but the document says nothing about the current or query date, so the status cannot be fully confirmed from it."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "“Residential dwelling unit” means any house, apartment,\naccessory unit, or other unit intended to be used as a primary residence in the\nState. “Residential dwelling unit” shall not include inpatient medical care,\nlicensed long-term care, or detention or correctional facilities.",
+    "note": "The one-or-more-units owner condition and controlling-interest aggregation match the 'Rental property owner' definition. The preemption flag matches section 6(b)."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "P.L. 2026, c.043 (A3497 1R ACS)",
+    "note": "The document gives the chapter as 43 and the codified range as C.56:9-20 to 56:9-26."
+   }
+  ]
+ }
+}

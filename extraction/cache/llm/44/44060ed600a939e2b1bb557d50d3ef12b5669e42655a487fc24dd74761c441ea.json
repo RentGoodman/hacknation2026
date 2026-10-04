@@ -1,0 +1,67 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "cell",
+ "subject": "MA|algorithmic_rent_setting",
+ "prompt_version": "v10",
+ "usage": {},
+ "result": {
+  "cell_status": "rules_found",
+  "no_rule_quote": null,
+  "no_rule_passage_id": null,
+  "basis_citation": null,
+  "rules": [
+   {
+    "jurisdiction": "MA",
+    "category": "algorithmic_rent_setting",
+    "status": "pending",
+    "title": "S.2983, An Act prohibiting algorithmic rent setting",
+    "requirement": "Pending Senate bill (194th General Court) to prohibit algorithmic rent setting. It combines S.994 and S.1016, the latter to establish the Preventing Algorithmic Rent Fixing in the Rental Housing Market Act. The Housing Committee reported it on March 12, 2026 and it sits with Senate Ways and Means. The passages give no operative text, so prohibited conduct, covered software, penalties and effective date are not stated.",
+    "key_value": null,
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": null,
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": null
+    },
+    "exemptions": null,
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "Bill not enacted; no effective date stated.",
+    "effective_date_formula": null,
+    "citation": "S.2983",
+    "citation_aliases": [
+     "Senate No. 2983",
+     "S.994",
+     "S.1016",
+     "Senate, No. 994",
+     "Senate, No. 1016",
+     "Preventing Algorithmic Rent Fixing in the Rental Housing Market Act"
+    ],
+    "quoted_span": "Senate, March 12, 2026 -- The committee on Housing, to whom was referred the petitions (accompanied by bill, Senate, No. 994) of Cindy F. Friedman and Julian Cyr for legislation to prohibit algorithmic rent setting; and (accompanied by bill, Senate, No. 1016) of Michael O. Moore, Patricia D. Jehlen and James B. Eldridge for legislation to establish the Preventing Algorithmic Rent Fixing in the Rental Housing Market Act., report the accompanying bill (Senate, No. 2983).",
+    "confidence": 0.8,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "The passage shows the bill was in Senate Ways and Means; status after that is not shown. Pending is assumed as of 2026-10-01.",
+    "source_notes": "The legislature website page appears in both D046 and D047.",
+    "passage_id": "p3"
+   }
+  ]
+ }
+}

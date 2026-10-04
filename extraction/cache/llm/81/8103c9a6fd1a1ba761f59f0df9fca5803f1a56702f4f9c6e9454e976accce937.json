@@ -1,0 +1,15 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "extract",
+ "subject": "D078",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 2571,
+  "output_tokens": 185
+ },
+ "result": {
+  "rules": [],
+  "no_rule_findings": [],
+  "doc_summary": "San Francisco Human Rights Commission landing page (listed at a Fair Chance Ordinance URL). It lists events, news, services and resources. The only housing-law reference is a one-line teaser: \"San Francisco's Fair Chance Ordinance protects residents with arrest or conviction history in affordable housing decisions.\" It states no requirements, dates, coverage or citation, so no rule records are extracted, and the page makes no statements about any jurisdiction having no rule."
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "date_audit",
+ "subject": "D006:c2",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 23610,
+  "output_tokens": 938
+ },
+ "result": {
+  "requirement_is_new": false,
+  "in_force_since": null,
+  "in_force_since_evidence": null,
+  "current_version_effective": "2026-01-01",
+  "prior_version_note": "Before Measure BB (passed November 2024), just cause was called 'good cause'. Under the earlier version, a landlord could evict for nonpayment of any amount of rent and could evict a tenant who failed to sign a new fixed-term lease. Lease-breach evictions did not require actual harm or unreasonable tenant behavior. The deadline for filing eviction documents with the Rent Board was longer, though the documents do not give the old deadline. Yearly inflation adjustments to owner move-in relocation payments were not mandatory. Measure BB eliminated one just cause and changed others. The pre-2026 relocation amounts were 1.5% lower than the 2026 figures; the documents do not give the exact prior amounts. The original enactment date of the just cause requirement is not stated in the documents.",
+  "effective_date_formula": null
+ }
+}

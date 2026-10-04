@@ -1,0 +1,68 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "consolidate",
+ "subject": "Spokane, WA",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 5320,
+  "output_tokens": 1285
+ },
+ "result": {
+  "rules": [
+   {
+    "candidate_id": "DX06:c12",
+    "jurisdiction": "Spokane, WA",
+    "category": "algorithmic_rent_setting",
+    "status": "in_force",
+    "title": "Spokane ban on purchasing algorithmic coordinating services",
+    "requirement": "Landlords may not purchase algorithmic coordinating services. The city enforces the ban, with civil penalties of up to $5,000 per violation.",
+    "key_value": "Civil penalties up to $5,000 per violation",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "The only available source states no building, unit-count or landlord-size limits. It describes the rule as applying to landlords generally.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": null
+    },
+    "exemptions": null,
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "The secondary source gives only the month: 'effective January 2026'. No exact day is available. The rule is in force as of the query date (2026-10-01).",
+    "effective_date_formula": null,
+    "citation": "Spokane Mun. Code § 10.57.180",
+    "citation_aliases": [
+     "Spokane Mun. Code ch. 10.57"
+    ],
+    "quoted_span": "Prohibits landlords from purchasing algorithmic coordinating services; city enforcement includes civil penalties of up to $5,000 per violation.",
+    "confidence": 0.55,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "The only support is a secondary law-firm alert (Morgan Lewis, Aug. 21, 2026). The ordinance text was not captured. Before relying on this rule, verify against the official Spokane Municipal Code: the exact effective date, the definition of 'algorithmic coordinating services', any exemptions, any private right of action, and the ordinance number.",
+    "source_notes": "Taken from the jurisdiction table in the Morgan Lewis LawFlash, which lists the rule as 'effective January 2026'.",
+    "source_doc_id": "DX06",
+    "from_candidates": [
+     "DX06:c12"
+    ],
+    "also_supported_by": []
+   }
+  ],
+  "dropped_candidates": [],
+  "known_gaps": []
+ }
+}

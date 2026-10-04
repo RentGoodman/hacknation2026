@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "DX04:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 5749,
+  "output_tokens": 727
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "partly_supported",
+    "quoted_span": "It is unlawful for any real estate lessor, agent, or subcontractor thereof, to subscribe to, contract with, or\n      otherwise exchange anything of value in return for or otherwise utilize the services of a Service\n      Provider.",
+    "note": "DX04 supports the core prohibition, the 'or otherwise utilize' amendment and the bar on facilitating non-compete agreements. The Service Provider and coordination definitions, nonpublic information, enforcement and penalty provisions are not in this document; they come from DX02."
+   },
+   {
+    "field": "key_value",
+    "verdict": "not_supported",
+    "quoted_span": null,
+    "note": "DX04 says nothing on penalties: § 1-25 first-violation treatment, the $100-$2,000 fines, daily violations, attorney fees and the private right of action. §218-15/16 'Violations and penalties' is only listed as 'No Changes'."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The field is empty and DX04 states no effective date, only adoption on Jul 16 2025 and mayoral approval on Jul 17 2025."
+   },
+   {
+    "field": "status",
+    "verdict": "partly_supported",
+    "quoted_span": "Adopted on second and final reading after hearing on Jul 16 2025",
+    "note": "The document shows adoption and mayoral approval (Approved: Jul 17 2025), which is consistent with in_force, but it states no effective date or in-force status explicitly."
+   },
+   {
+    "field": "coverage",
+    "verdict": "not_supported",
+    "quoted_span": null,
+    "note": "The coverage summary relies on definitions of residential dwelling unit, real estate lessor and exclusions, which are in DX02 and not in DX04. DX04 only refers to 'real estate lessor' and 'residential dwelling units' without defining them."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "§218-12 Preventing Algorithmic Rent Fixing in the Rental Housing Market:",
+    "note": "DX04 also identifies Ord. 25-076 and Chapter 218, and it references Ord. 25-057."
+   }
+  ]
+ }
+}

@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D050:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 626,
+  "output_tokens": 287
+ },
+ "result": {
+  "en": "If rent due under a written lease goes unpaid, a landlord can end the lease with 14 days' written notice to quit, but the tenant can stop the termination by paying all rent, interest and costs on or before the day the answer is due in the possession action, and if a government payment was delayed or not delivered, the court must continue the hearing at least 7 days.",
+  "es": "Si no se paga el alquiler adeudado bajo un contrato de arrendamiento escrito, el propietario puede terminarlo con un aviso escrito de desalojo de 14 días, pero el inquilino puede detener la terminación pagando todo el alquiler, los intereses y las costas a más tardar el día en que vence la contestación en la acción de posesión, y si hubo una demora o falla del gobierno en un pago, el tribunal debe aplazar la audiencia al menos 7 días."
+ }
+}

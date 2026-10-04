@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "DX06:c5",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 593,
+  "output_tokens": 219
+ },
+ "result": {
+  "en": "Philadelphia Code § 9-813 restricts landlords' use of algorithmic rent-coordination or revenue-management services, and an aggrieved person may choose either $2,000 per violation or treble actual damages, plus equitable relief, interest, attorney fees and costs.",
+  "es": "El Código de Filadelfia § 9-813 restringe que los propietarios usen servicios algorítmicos de coordinación de alquileres o de gestión de ingresos, y una persona afectada puede elegir entre $2,000 por infracción o el triple de los daños reales, además de medidas equitativas, intereses, honorarios de abogados y costos."
+ }
+}

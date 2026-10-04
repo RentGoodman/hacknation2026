@@ -1,0 +1,11 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "DX21:c1",
+ "prompt_version": "v10",
+ "usage": {},
+ "result": {
+  "en": "Newark limits a landlord's yearly rent increase to the change in the CPI-U, never more than 4%, allows only one increase in any 12 months, and requires 30 days' written notice to the tenant and the Rent Regulation Officer.",
+  "es": "Newark limita el aumento anual del alquiler al cambio del CPI-U, nunca más de 4%, permite solo un aumento en cualquier período de 12 meses y exige un aviso por escrito de 30 días al inquilino y al Funcionario de Regulación de Alquileres."
+ }
+}

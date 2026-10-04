@@ -1,0 +1,18 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "date_audit",
+ "subject": "DX20:c1",
+ "prompt_version": "v10",
+ "usage": {},
+ "result": {
+  "requirement_is_new": false,
+  "in_force_since": "1984-01-16",
+  "in_force_since_evidence": {
+   "doc_id": "DX20",
+   "quoted_span": "[HISTORY: Adopted by the City Council of the City of Hoboken 1-16-1984 by Ord. No. C329.[1] Amendments noted where applicable.]"
+  },
+  "current_version_effective": null,
+  "prior_version_note": null,
+  "effective_date_formula": null
+ }
+}

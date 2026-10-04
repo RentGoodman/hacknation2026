@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D027:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 6009,
+  "output_tokens": 1644
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "partly_supported",
+    "quoted_span": "Use a person’s credit history as part of the application process for a rental accommodation without offering the applicant the option, at the applicant’s discretion, of providing lawful, verifiable alternative evidence",
+    "note": "The statutory points are supported: the source-of-income ban, the ad ban in (c), the aggregate-income rule, the subsidy income standard, the credit-history alternative, and the permitted inquiries. The closing sentence is not in the document. It says that per the CRD, refusing Section 8 vouchers, refusing subsidy paperwork and 'No Section 8' ads are discrimination."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "Use a financial or income standard in assessing eligibility for the rental of housing that is not based on the portion of the rent to be paid by the tenant.",
+    "note": "Source of income covering Section 8 and HUD-VASH vouchers is in (p)(1). The subsidy income standard and the alternative-evidence rule are in (o)(1)."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "supported",
+    "quoted_span": "Effective January 1, 2024.",
+    "note": "The current text, as amended by SB 267, took effect 2024-01-01. The 2020 SB 329 date is not in this document, but the rule's effective_date field does not depend on it."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "Amended by Stats. 2023, Ch. 776, Sec. 1.   (SB 267)   Effective January 1, 2024.",
+    "note": "This is the current codified text, and nothing in the document indicates repeal or a sunset."
+   },
+   {
+    "field": "coverage",
+    "verdict": "partly_supported",
+    "quoted_span": "In instances in which there is a government rent subsidy, to do either of the following:",
+    "note": "The document supports the scope: owners of any housing accommodation, with the income-standard and credit-history rules limited to subsidized rentals. The owner-occupant, single-sex shared living and senior housing conditions come from a CRD FAQ that is not in this document."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "Amended by Stats. 2023, Ch. 776, Sec. 1.",
+    "note": "The document is Gov. Code § 12955 and identifies SB 267 and Stats. 2023, ch. 776. The aliases SB 329 and FEHA are not in the document, and the subdivision references (a), (n), (o) and (p) do appear."
+   }
+  ]
+ }
+}

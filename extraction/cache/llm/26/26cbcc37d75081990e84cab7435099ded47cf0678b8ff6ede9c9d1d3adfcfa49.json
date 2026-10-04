@@ -1,0 +1,14 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "resource",
+ "subject": "DX06:c4",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 6598,
+  "output_tokens": 71
+ },
+ "result": {
+  "replacement": null,
+  "reason": "Neither official document addresses algorithmic rent-setting software or Ordinance NS-3090. D084 and D085 cover only rent stabilization and just cause eviction."
+ }
+}

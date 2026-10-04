@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D031:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 715,
+  "output_tokens": 217
+ },
+ "result": {
+  "en": "In Cambridge, landlords must give you the City's Tenants Rights and Resources Guide when your tenancy starts and again when they send a notice to quit or begin summary process, and a landlord who doesn't can be fined $300 per day of violation.",
+  "es": "En Cambridge, los propietarios deben entregarle la Guía de Derechos y Recursos para Inquilinos de la Ciudad cuando comienza su arrendamiento y de nuevo cuando envían un aviso de desalojo (notice to quit) o inician un proceso sumario, y quien no lo haga puede recibir una multa de $300 por cada día de infracción."
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D058:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 2070,
+  "output_tokens": 659
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "A notice to quit for nonpayment of rent given in writing by a landlord to a residential tenant pursuant to this chapter shall be accompanied by a form that shall include, but not be limited to:",
+    "note": "All elements of the requirement (form contents, prominent statement, EOHLC development, languages, court filing bar) match the text. The statute says \"residential assistance for families in transition program\"; the rule's use of the acronym RAFT is a harmless gloss."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "The information in clause (ii) of subsection (a) shall be made available in the 5 most common languages spoken in the commonwealth in addition to English.",
+    "note": "The form is required with every nonpayment notice to quit, and the court filing bar rests on proof of delivery. The language requirement covers only the clause (ii) information."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The rule leaves effective_date empty and the document states no effective date."
+   },
+   {
+    "field": "status",
+    "verdict": "partly_supported",
+    "quoted_span": "Section 31. (a) A notice to quit for nonpayment of rent given in writing by a landlord to a residential tenant pursuant to this chapter shall be accompanied by a form",
+    "note": "The document is current statutory text with no repeal or sunset, which is consistent with in_force. It states no explicit status, so this is inferred."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "in an eviction for nonpayment of rent for a residential dwelling unit",
+    "note": "Coverage is limited to residential tenants and dwelling units, and the text contains no unit-count, age or owner exemptions."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "General Law - Part II, Title I, Chapter 186, Section 31",
+    "note": "G.L. c. 186, § 31 matches the document heading."
+   }
+  ]
+ }
+}

@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "DX03:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 626,
+  "output_tokens": 215
+ },
+ "result": {
+  "en": "This proposed Massachusetts ballot measure would have capped annual rent increases at the lower of the annual Consumer Price Index increase or 5%, but it never took effect because the state's highest court held it could not be placed on the November 2026 ballot.",
+  "es": "Esta propuesta de iniciativa electoral de Massachusetts habría limitado los aumentos anuales de alquiler al menor entre el aumento anual del Índice de Precios al Consumidor o el 5%, pero nunca entró en vigor porque el tribunal supremo del estado dictaminó que no podía incluirse en la boleta de noviembre de 2026."
+ }
+}

@@ -1,0 +1,38 @@
+{
+  "doc_id": "D045",
+  "source_url": "https://malegislature.gov/Bills/194/H5222",
+  "model": "anthropic:claude-sonnet-5-5",
+  "query_date": "2026-10-01",
+  "chunks": 1,
+  "rules": [
+    {
+      "jurisdiction": "MA",
+      "level": "state",
+      "category": "algorithmic_rent_setting",
+      "status": "pending",
+      "title": "Bill H.5222 - preventing algorithmic rent fixing",
+      "requirement": "The bill, titled as an act to prevent algorithmic rent fixing in the rental housing market, is aimed at algorithmic rent-setting. The page does not include the bill text, so the specific prohibitions are not stated.",
+      "key_value": null,
+      "coverage_conditions": {
+        "summary": null,
+        "construction_date_basis": null,
+        "built_on_or_before": null,
+        "built_after": null,
+        "min_building_age_years": null,
+        "min_units": null,
+        "max_units": null,
+        "owner_conditions": null,
+        "other_conditions": null
+      },
+      "exemptions": null,
+      "interaction": null,
+      "effective_date": null,
+      "citation": "H.5222",
+      "quoted_span": "An Act relative to preventing algorithmic rent fixing in the rental housing market",
+      "confidence": 0.35,
+      "conflict_flag": false,
+      "conflict_note": null
+    }
+  ],
+  "rejected": []
+}

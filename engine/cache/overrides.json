@@ -1,0 +1,342 @@
+{
+  "r-0002|r-0003:0ac5f79afa497987": {
+    "decision": "COEXISTS",
+    "model": "claude-sonnet-5-5",
+    "pair": [
+      "r-0002",
+      "r-0003"
+    ],
+    "reason": "r-0003's notice-and-response duty is a separate obligation that operates within r-0002's scope and exemptions, so it does not displace r-0002 and both apply together wherever the ordinance covers the building.",
+    "winner": null
+  },
+  "r-0008|r-0039:2bf9f1bfc6ef153c": {
+    "decision": "REAL_SUPERSESSION",
+    "model": "claude-sonnet-5-5",
+    "pair": [
+      "r-0008",
+      "r-0039"
+    ],
+    "reason": "The state cap (Civ. Code \u00a7 1947.12) exempts housing under local rent control that limits annual increases to less than the state cap, and Berkeley's AGA (CPI-based, max 5%) is stricter than 5% + CPI (up to 10%), so for fully covered Berkeley units the local rule governs and the state cap does not apply.",
+    "winner": "r-0008"
+  },
+  "r-0008|r-0039:38ee4eaa510531f8": {
+    "decision": "REAL_SUPERSESSION",
+    "model": "claude-sonnet-5-5",
+    "pair": [
+      "r-0008",
+      "r-0039"
+    ],
+    "reason": "Civ. Code \u00a7 1947.12 exempts units under a local ordinance that limits annual increases to less than the state cap, and Berkeley's AGA (max 5%) is below 5% + CPI, so for Berkeley rent-controlled units the local rule governs and the state cap does not apply.",
+    "winner": "r-0008"
+  },
+  "r-0012|r-0036:9ef0fb4de85202c9": {
+    "decision": "REAL_SUPERSESSION",
+    "model": "claude-sonnet-5-5",
+    "pair": [
+      "r-0012",
+      "r-0036"
+    ],
+    "reason": "Civ. Code \u00a7 1946.2 does not apply to property covered by a local just cause ordinance adopted on or before 9/1/2019, and Berkeley's Rent Ordinance just cause rules predate that date. Measure BB only amends them, so Berkeley governs the covered units and the state rule does not apply.",
+    "winner": "r-0012"
+  },
+  "r-0025|r-0039:79d881b97fa08ea1": {
+    "decision": "REAL_SUPERSESSION",
+    "model": "claude-sonnet-5-5",
+    "pair": [
+      "r-0025",
+      "r-0039"
+    ],
+    "reason": "Civ. Code \u00a7 1947.12 exempts housing under local rent control that limits annual increases below the state cap, so for Berkeley rent-stabilized units the 1.0% AGA governs and the state cap does not apply.",
+    "winner": "r-0025"
+  },
+  "r-0025|r-0039:833d991e1dd173c5": {
+    "decision": "REAL_SUPERSESSION",
+    "model": "claude-sonnet-5-5",
+    "pair": [
+      "r-0025",
+      "r-0039"
+    ],
+    "reason": "Civ. Code \u00a7 1947.12 exempts housing under local rent control that restricts annual increases below the state cap, so for Berkeley rent-stabilized units the 1.0% AGA governs and the state cap does not apply.",
+    "winner": "r-0025"
+  },
+  "r-0027|r-0036:3319adb90bbf2aaa": {
+    "decision": "REAL_SUPERSESSION",
+    "model": "claude-sonnet-5-5",
+    "pair": [
+      "r-0027",
+      "r-0036"
+    ],
+    "reason": "Civ. Code \u00a7 1946.2 by its terms does not apply where a local just cause ordinance adopted on or before 9/1/2019 covers the property, and Berkeley's ordinance (which predates that date) covers fully and partially covered units, so the state rule is displaced and a property cannot be subject to both.",
+    "winner": "r-0027"
+  },
+  "r-0036|r-0060:6cef46829f9cd981": {
+    "decision": "UNCERTAIN",
+    "model": "claude-sonnet-5-5",
+    "pair": [
+      "r-0036",
+      "r-0060"
+    ],
+    "reason": "Under \u00a71946.2 the state rule yields only to local ordinances adopted on or before 9/1/2019, or to later ones that are more protective with a binding local finding. The LA JCO appears to post-date 9/1/2019, and the records show no such finding. Rule B also says AB 1482 may separately apply to JCO units, which contradicts its own 'supersedes' claim, so the texts do not settle it.",
+    "winner": null
+  },
+  "r-0036|r-0065:143acfc701b9749f": {
+    "decision": "REAL_SUPERSESSION",
+    "model": "claude-sonnet-5-5",
+    "pair": [
+      "r-0036",
+      "r-0065"
+    ],
+    "reason": "Civ. Code \u00a7 1946.2 does not apply where a local just cause ordinance adopted on or before 9/1/2019 covers the property, and the LA RSO (enacted 1979) is such an ordinance, so RSO-covered units are governed by r-0065 and the state rule is displaced.",
+    "winner": "r-0065"
+  },
+  "r-0036|r-0119:6b2d36813c27c8f2": {
+    "decision": "COEXISTS",
+    "model": "claude-sonnet-5-5",
+    "pair": [
+      "r-0036",
+      "r-0119"
+    ],
+    "reason": "San Diego's ordinance post-dates 9/1/2019, so under \u00a7 1946.2 it displaces the state rule only if it is more protective with a binding local finding, which the records don't show. Its own text says it is consistent with \u00a7 1946.2, that its rights are in addition to state rights, and that relocation assistance is credited against other required assistance. Both therefore apply together, and the 'Supersedes' note is unsupported.",
+    "winner": null
+  },
+  "r-0036|r-0126:96d430915cc8486b": {
+    "decision": "REAL_SUPERSESSION",
+    "model": "claude-sonnet-5-5",
+    "pair": [
+      "r-0036",
+      "r-0126"
+    ],
+    "reason": "Section 1946.2 by its terms does not apply where a local just cause ordinance adopted on or before 9/1/2019 covers the property, and the SF Rent Ordinance's just cause provisions (\u00a7 37.9) predate that date, so the SF ordinance governs covered units and the state rule is displaced.",
+    "winner": "r-0126"
+  },
+  "r-0036|r-0143:6577ec6ee05644e8": {
+    "decision": "UNCERTAIN",
+    "model": "claude-sonnet-5-5",
+    "pair": [
+      "r-0036",
+      "r-0143"
+    ],
+    "reason": "Under \u00a7 1946.2 a post-9/1/2019 local ordinance displaces the state rule only if it is more protective and carries a binding local finding. Santa Ana's 30-day threshold looks more protective than the state's 12 months, but the records do not show the required finding, and the state law says a property cannot be subject to both.",
+    "winner": null
+  },
+  "r-0037|r-0120:9ca3cca0145613d2": {
+    "decision": "COEXISTS",
+    "model": "claude-sonnet-5-5",
+    "pair": [
+      "r-0037",
+      "r-0120"
+    ],
+    "reason": "Both rules apply together: the state rule sets a 1-month floor and San Diego adds a larger amount (2 months, or 3 for seniors or disabled tenants). Rule B's interaction field credits other state or local assistance against it, so the landlord does not pay twice. Rule A's note that it 'yields' depends on an unsettled question, so the texts do not show either rule displacing the other.",
+    "winner": null
+  },
+  "r-0037|r-0144:66ee33e05384c370": {
+    "decision": "UNCERTAIN",
+    "model": "claude-sonnet-5-5",
+    "pair": [
+      "r-0037",
+      "r-0144"
+    ],
+    "reason": "Santa Ana's 3 months is higher than the state's 1 month, and \u00a7 1946.2 lets a more protective local ordinance adopted after 9/1/2019 apply instead. But the texts don't show the ordinance's adoption date, its just-cause scope, or a binding finding that it is more protective overall, so displacement of r-0037 by r-0144 can't be confirmed.",
+    "winner": null
+  },
+  "r-0039|r-0062:a7cbc99089c61716": {
+    "decision": "REAL_SUPERSESSION",
+    "model": "claude-sonnet-5-5",
+    "pair": [
+      "r-0039",
+      "r-0062"
+    ],
+    "reason": "Rule B is the original AB 1482 version of the statewide cap in Civ. Code \u00a7 1947.12, and Rule A is the current version as amended by SB 567 (effective 2024-04-01). The amended statute replaces the earlier text, so r-0039 governs and r-0062 no longer applies as written.",
+    "winner": "r-0039"
+  },
+  "r-0039|r-0062:fa9a9203576cafbf": {
+    "decision": "REAL_SUPERSESSION",
+    "model": "claude-sonnet-5-5",
+    "pair": [
+      "r-0039",
+      "r-0062"
+    ],
+    "reason": "Rule A is the current version of Civ. Code \u00a7 1947.12 as amended by SB 567 (effective 2024-04-01) and replaces the original AB 1482 text in Rule B, which cites the same statute section; both rules state the same cap (lesser of 5% + CPI or 10%), so only the amended statute applies.",
+    "winner": "r-0039"
+  },
+  "r-0039|r-0063:16a709c99935a865": {
+    "decision": "REAL_SUPERSESSION",
+    "model": "claude-sonnet-5-5",
+    "pair": [
+      "r-0039",
+      "r-0063"
+    ],
+    "reason": "Rule A (Civ. Code \u00a7 1947.12) exempts housing under stricter local rent control, and LA's RSO allowable increase (about 3%, once per 12 months) is below the state cap, so for RSO-covered units the RSO governs and the state cap does not apply.",
+    "winner": "r-0063"
+  },
+  "r-0039|r-0063:882fbc98e54e4fac": {
+    "decision": "REAL_SUPERSESSION",
+    "model": "claude-sonnet-5-5",
+    "pair": [
+      "r-0039",
+      "r-0063"
+    ],
+    "reason": "Rule A (Civ. Code \u00a7 1947.12) exempts housing under stricter local rent control, and the LA RSO allowable increase (about 3%, once per 12 months) is stricter than the state cap, so for RSO-covered units the RSO governs and the state cap does not apply.",
+    "winner": "r-0063"
+  },
+  "r-0039|r-0067:2678dbe415ef47d9": {
+    "decision": "REAL_SUPERSESSION",
+    "model": "claude-sonnet-5-5",
+    "pair": [
+      "r-0039",
+      "r-0067"
+    ],
+    "reason": "Rule A exempts housing under local rent control that limits annual increases below the state cap, and the LA RSO's 3% allowable increase is stricter than the state cap of the lesser of 5% plus CPI or 10%. For RSO-covered units, the LA rule therefore governs and the state cap does not apply.",
+    "winner": "r-0067"
+  },
+  "r-0039|r-0067:f92220880db58cfb": {
+    "decision": "REAL_SUPERSESSION",
+    "model": "claude-sonnet-5-5",
+    "pair": [
+      "r-0039",
+      "r-0067"
+    ],
+    "reason": "Rule A's own interaction text exempts housing under stricter local rent control from the state cap, and LA's 3% RSO limit is stricter than the state cap, so for RSO-covered units the local rule governs and the state cap does not apply.",
+    "winner": "r-0067"
+  },
+  "r-0039|r-0128:4d65b46f50048894": {
+    "decision": "REAL_SUPERSESSION",
+    "model": "claude-sonnet-5-5",
+    "pair": [
+      "r-0039",
+      "r-0128"
+    ],
+    "reason": "Rule A exempts housing under local rent control that limits annual increases below the state cap. San Francisco's 1.6% limit for rent-controlled units is below that cap, so the local rule governs and the state cap does not apply to those units.",
+    "winner": "r-0128"
+  },
+  "r-0039|r-0128:5937787d0c4dce10": {
+    "decision": "REAL_SUPERSESSION",
+    "model": "claude-sonnet-5-5",
+    "pair": [
+      "r-0039",
+      "r-0128"
+    ],
+    "reason": "Rule A's own text exempts housing under local rent control that restricts annual increases below the state cap, so for SF rent-controlled units the 1.6% Rent Board limit governs and the statewide cap does not apply.",
+    "winner": "r-0128"
+  },
+  "r-0039|r-0137:28b3c87e060158ee": {
+    "decision": "REAL_SUPERSESSION",
+    "model": "claude-sonnet-5-5",
+    "pair": [
+      "r-0039",
+      "r-0137"
+    ],
+    "reason": "Rule A exempts housing under stricter local rent control from the state cap, and Santa Ana's lesser of 3% or 80% of CPI (currently 2.87%) is stricter than the state cap, so for covered Santa Ana units the local cap governs and the state cap does not apply.",
+    "winner": "r-0137"
+  },
+  "r-0039|r-0137:5d63f6c6d7f9ab7e": {
+    "decision": "REAL_SUPERSESSION",
+    "model": "claude-sonnet-5-5",
+    "pair": [
+      "r-0039",
+      "r-0137"
+    ],
+    "reason": "Civ. Code \u00a7 1947.12 exempts housing under local rent control that restricts annual increases to less than the state cap. Santa Ana's cap (lesser of 3% or 80% of CPI, currently 2.87%) is stricter, so for covered buildings the local cap governs and the state cap does not apply.",
+    "winner": "r-0137"
+  },
+  "r-0039|r-0141:8baa09767ed6d72f": {
+    "decision": "REAL_SUPERSESSION",
+    "model": "claude-sonnet-5-5",
+    "pair": [
+      "r-0039",
+      "r-0141"
+    ],
+    "reason": "Rule A's own text exempts housing under local rent control that restricts annual increases below the state cap, and Santa Ana's lower-of-3%-or-80%-of-CPI cap is stricter than the state cap, so for covered buildings (built on or before 1995-02-01) the local rule governs and the state cap does not apply.",
+    "winner": "r-0141"
+  },
+  "r-0039|r-0141:e8ae43b69dc3ed0a": {
+    "decision": "REAL_SUPERSESSION",
+    "model": "claude-sonnet-5-5",
+    "pair": [
+      "r-0039",
+      "r-0141"
+    ],
+    "reason": "Rule A's own text exempts housing under local rent control that restricts annual increases below the state cap, and Santa Ana's lower of 3% or 80% of CPI is stricter than the state cap for pre-1995-02-01 buildings, so the local ordinance governs and the state cap does not apply to those units.",
+    "winner": "r-0141"
+  },
+  "r-0040|r-0041:63b78baf67c93bc5": {
+    "decision": "REAL_SUPERSESSION",
+    "model": "claude-sonnet-5-5",
+    "pair": [
+      "r-0040",
+      "r-0041"
+    ],
+    "reason": "Paragraph (1)'s one-month cap is expressly 'except as provided in paragraph (5)', and paragraph (5) begins 'notwithstanding paragraph (1)', so for a qualifying small landlord the two-month cap replaces the one-month cap. Rule A still governs non-qualifying landlords and service-member tenants.",
+    "winner": "r-0041"
+  },
+  "r-0059|r-0103:2d45c6ecaf11f829": {
+    "decision": "REAL_SUPERSESSION",
+    "model": "claude-sonnet-5-5",
+    "pair": [
+      "r-0059",
+      "r-0103"
+    ],
+    "reason": "State law N.J.S.A. 2A:42-84.5 exempts newly constructed multiple dwellings from any local rent control for 30 years, so Jersey City's ordinance (r-0059) does not apply to those buildings; the state exemption displaces the local ordinance for them.",
+    "winner": "r-0103"
+  },
+  "r-0059|r-0104:e260c91221d64595": {
+    "decision": "COEXISTS",
+    "model": "claude-sonnet-5-5",
+    "pair": [
+      "r-0059",
+      "r-0104"
+    ],
+    "reason": "The state rule (r-0104) expressly requires increases to comply with municipal rent control ordinances and sets an unconscionability and notice floor, while Jersey City's ordinance (r-0059) adds local limits for covered buildings. Neither displaces the other, so both apply together.",
+    "winner": null
+  },
+  "r-0062|r-0063:03cafdcfe766ef7b": {
+    "decision": "REAL_SUPERSESSION",
+    "model": "claude-sonnet-5-5",
+    "pair": [
+      "r-0062",
+      "r-0063"
+    ],
+    "reason": "AB 1482 (Civ. Code \u00a7 1947.12) excludes units already subject to a stricter local rent control ordinance, so for units covered by the LA RSO the RSO allowable increase governs and the state cap does not apply.",
+    "winner": "r-0063"
+  },
+  "r-0062|r-0067:280bc00c6b2d2a18": {
+    "decision": "REAL_SUPERSESSION",
+    "model": "claude-sonnet-5-5",
+    "pair": [
+      "r-0062",
+      "r-0067"
+    ],
+    "reason": "AB 1482 (Civ. Code \u00a7 1947.12) excludes units already subject to the City of LA RSO, so for an RSO-covered building the RSO's 3% allowable increase governs and the state cap does not apply.",
+    "winner": "r-0067"
+  },
+  "r-0069|r-0074:ae6f7b1f0670feb7": {
+    "decision": "REAL_SUPERSESSION",
+    "model": "claude-sonnet-5-5",
+    "pair": [
+      "r-0069",
+      "r-0074"
+    ],
+    "reason": "For demolition for new construction of Protected Units, Rule A's own interaction field says the RPO/Housing Crisis Act amounts govern and the RSO/JCO amounts are only a minimum, so r-0074 displaces r-0069's standard amounts for that scenario; r-0069 continues to apply to other no-fault evictions.",
+    "winner": "r-0074"
+  },
+  "r-0111|r-0116:2697b5643828456f": {
+    "decision": "COEXISTS",
+    "model": "claude-sonnet-5-5",
+    "pair": [
+      "r-0111",
+      "r-0116"
+    ],
+    "reason": "Both rules apply together: r-0111 sets the 3-year Notice to Quit and stay requirements for conversions, while r-0116 adds a 40-year protected tenancy for eligible seniors and disabled tenants. r-0111 already bars possession suits against protected tenants, so r-0116 adds to it and does not displace it.",
+    "winner": null
+  },
+  "r-0134|r-0136:051853271da404d2": {
+    "decision": "REAL_SUPERSESSION",
+    "model": "claude-sonnet-5-5",
+    "pair": [
+      "r-0134",
+      "r-0136"
+    ],
+    "reason": "Both texts say temporary capital improvement displacements under 20 days are governed by Cal. Civ. Code 1947.9 (r-0136's $446/day plus moving expenses) and not by SF Rent Ordinance 37.9C, so r-0134's relocation amounts do not apply to that category. r-0134 still governs the other covered evictions and longer capital improvement displacements.",
+    "winner": "r-0136"
+  }
+}

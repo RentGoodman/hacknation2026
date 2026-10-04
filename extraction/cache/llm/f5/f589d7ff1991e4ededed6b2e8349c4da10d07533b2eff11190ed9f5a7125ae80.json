@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D045:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 1197,
+  "output_tokens": 465
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "partly_supported",
+    "quoted_span": "An Act relative to preventing algorithmic rent fixing in the rental housing market",
+    "note": "The title supports the aim of preventing algorithmic rent fixing, and the committee reference supports it being before House Ways and Means. The page gives no bill text, which the requirement itself acknowledges. 'Pending' is inferred from the page showing the bill as current and in committee."
+   },
+   {
+    "field": "key_value",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The field is empty and the document states no key value."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The field is empty and the document states no effective date."
+   },
+   {
+    "field": "status",
+    "verdict": "partly_supported",
+    "quoted_span": "House Committee on Ways and Means",
+    "note": "The bill is shown in the 194th (Current) session and referred to House Ways and Means, consistent with pending. The page has no explicit status label."
+   },
+   {
+    "field": "coverage",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The coverage fields are all empty and the document states no coverage conditions."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "Bill H.5222",
+    "note": "H.5222 is supported. The alias H1564 appears in the action list, but the document does not say it is a predecessor docket."
+   }
+  ]
+ }
+}

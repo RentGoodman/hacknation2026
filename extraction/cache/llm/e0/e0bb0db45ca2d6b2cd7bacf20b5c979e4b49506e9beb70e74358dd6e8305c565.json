@@ -1,0 +1,77 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D085:c2",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 7630,
+  "output_tokens": 1996
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": {
+    "years": 15,
+    "basis": "housing produced in the last 15 years (reference date and record not stated)",
+    "requires_owner_filing": null
+   },
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": true,
+   "unverifiable_exemptions": [
+    "deed-restricted affordable housing",
+    "housing produced in the last 15 years (reference date and record not stated)"
+   ],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Residential rental property in Santa Ana. Certain types of residential property are exempt, including housing produced in the last 15 years, deed-restricted affordable housing, hotel and transient occupancy, hospital and care facilities, dormitories, and other shared living quarters.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": null,
+   "other_conditions": "Protection applies once a tenancy has lasted 30 days. The exemption list is introduced with 'including', so it may not be exhaustive."
+  },
+  "evidence": [
+   {
+    "field": "new_construction_exemption",
+    "doc_id": "D085",
+    "quoted_span": "The Just Cause Ordinance shall not apply to certain types of residential property, including housing produced in the last 15 years"
+   },
+   {
+    "field": "requires_unknown_facts",
+    "doc_id": "D085",
+    "quoted_span": "The Just Cause Ordinance shall not apply to certain types of residential property, including housing produced in the last 15 years; deed-restricted affordable housing; hotel and transient occupancy; hospital and care facilities; dormitories; and other shared living quarters."
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D085",
+    "quoted_span": "deed-restricted affordable housing"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D085",
+    "quoted_span": "housing produced in the last 15 years"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D085",
+    "quoted_span": "The Just Cause Ordinance shall not apply to certain types of residential property, including housing produced in the last 15 years; deed-restricted affordable housing; hotel and transient occupancy; hospital and care facilities; dormitories; and other shared living quarters."
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D085",
+    "quoted_span": "After 30 days, an owner shall not terminate a tenancy without just cause, which shall be stated in a written notice."
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D085",
+    "quoted_span": "The Just Cause Ordinance shall not apply to certain types of residential property, including"
+   }
+  ],
+  "notes": "I set supersedes_state_rule to null. No document mentions Cal. Civ. Code § 1946.2, a binding finding, or displacement of state just-cause law, so I also removed that sentence from the summary. I set min_building_age_years to null because it duplicated the 15-year new-construction exemption. It also treated the exemption as a rolling age test, which the source does not establish: the source says 'housing produced in the last 15 years' with no reference date. I set construction_date_basis to null because the basis is not stated anywhere. The new-construction exemption, the unverifiable exemptions and the 30-day tenancy condition are kept, each supported by D085."
+ }
+}

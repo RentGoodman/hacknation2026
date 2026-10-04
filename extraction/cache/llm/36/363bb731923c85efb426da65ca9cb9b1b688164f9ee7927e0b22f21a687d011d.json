@@ -1,0 +1,21 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "date_audit",
+ "subject": "DX04:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 19616,
+  "output_tokens": 915
+ },
+ "result": {
+  "requirement_is_new": false,
+  "in_force_since": "2025-06",
+  "in_force_since_evidence": {
+   "doc_id": "DX06",
+   "quoted_span": "Jersey City Code § 218-12 (effective June 2025)"
+  },
+  "current_version_effective": null,
+  "prior_version_note": "As originally adopted by Ord. 25-057 (final passage May 21, 2025; Mayor approved May 22, 2025), § 218-12(2)(a) barred real estate lessors, agents or subcontractors from subscribing to, contracting with, or otherwise exchanging anything of value in return for the services of a Service Provider. Ord. 25-076 (adopted July 16, 2025; Mayor approved July 17, 2025) added 'or otherwise utilize' the services of a Service Provider. The § 218-12(2)(b) bar on service providers facilitating agreements not to compete was unchanged. Neither ordinance states an effective date. The June 2025 date for the original version comes only from a secondary law-firm alert and is month-only, and no effective date is given for the amended version.",
+  "effective_date_formula": null
+ }
+}

@@ -1,0 +1,64 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "extract",
+ "subject": "DX18",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 1320,
+  "output_tokens": 1603
+ },
+ "result": {
+  "rules": [
+   {
+    "candidate_id": "c1",
+    "jurisdiction": "Santa Ana, CA",
+    "category": "algorithmic_rent_setting",
+    "status": "in_force",
+    "title": "Santa Ana ordinance banning algorithmic rent-pricing devices",
+    "requirement": "Prohibits the sale, licensing and use of \"Algorithmic Devices\" (automated AI software, such as RealPage-type revenue management tools, that uses competitor data to set rents) by apartment owners and landlords. Enforced mostly through the existing code enforcement system.",
+    "key_value": "Fine of $1,000 for landlords caught using the banned software",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Applies to apartment owners and landlords in Santa Ana using algorithmic rent-setting software. The article states no size, age or owner exemptions.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": null
+    },
+    "exemptions": null,
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "The article says the first vote was Feb. 17 and that the final vote \"Tuesday\" officially put the ordinance into effect. It gives no year, no final-vote date and no operative date.",
+    "effective_date_formula": null,
+    "citation": "Santa Ana Mun. Code (Algorithmic Devices ordinance)",
+    "citation_aliases": [
+     "Santa Ana algorithmic device ordinance",
+     "Santa Ana ordinance banning AI rent-pricing software"
+    ],
+    "quoted_span": "The purpose and intent of this [ordinance] is to protect the residents of Santa Ana from artificially inflated rental rates and unfair rent increases by prohibiting the sale, licensing and use of Algorithmic Devices",
+    "confidence": 0.6,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "The secondary news source gives no ordinance number, code section, effective date or definition of Algorithmic Devices. Status in_force is inferred from the article saying the final vote put the ordinance into effect.",
+    "source_notes": "The article quotes an Apartment Association of Orange County representative who criticizes the ordinance and refers to recently adopted state regulations. The article does not describe those state regulations."
+   }
+  ],
+  "no_rule_findings": [],
+  "doc_summary": "A Business Journal news article reports that Santa Ana's City Council gave final approval to an ordinance banning landlords from using algorithmic or AI rent-pricing software, with a $1,000 fine and enforcement through code enforcement. The first vote was Feb. 17. The article gives no ordinance number, effective date or code citation. It also mentions the DOJ RealPage settlement and similar bans in San Francisco, San Diego and Berkeley."
+ }
+}

@@ -1,0 +1,66 @@
+{
+  "doc_id": "D076",
+  "source_url": "https://sandiego.gov/sites/default/files/2025-04/automated-rent-price-fixing-prohibition-ordinance-materials.pdf",
+  "model": "anthropic:claude-sonnet-5-5",
+  "query_date": "2026-10-01",
+  "chunks": 1,
+  "rules": [
+    {
+      "jurisdiction": "San Diego, CA",
+      "level": "city",
+      "category": "algorithmic_rent_setting",
+      "status": "pending",
+      "title": "Ban on selling or licensing algorithmic rent-setting devices (proposed SDMC § 98.1103(a))",
+      "requirement": "Prohibits any person from selling, licensing, or otherwise providing to a landlord an algorithmic device that uses nonpublic competitor data to advise or recommend rental rates or occupancy levels for residential rental property in San Diego.",
+      "key_value": null,
+      "coverage_conditions": {
+        "summary": "Applies to any person who provides an algorithmic device to a landlord for residential rental property in the City of San Diego. Software that publishes aggregated reports from public data or from historical nonpublic data more than 90 days old is excluded. So is software used to set rents or income limits under affordable housing program guidelines.",
+        "construction_date_basis": null,
+        "built_on_or_before": null,
+        "built_after": null,
+        "min_building_age_years": null,
+        "min_units": null,
+        "max_units": null,
+        "owner_conditions": null,
+        "other_conditions": "Applies only to software or products meeting the definition of 'algorithmic device' (calculations of nonpublic competitor data to advise or recommend rental rates or occupancy levels)."
+      },
+      "exemptions": "Software or products that publish reports from aggregated historical nonpublic competitor data more than 90 days old, or from public information, and do not recommend rates or occupancy for future leases or renewals. Software or products used to set rental rates or income limits under local, state, or federal affordable housing program guidelines.",
+      "interaction": "Tenant remedies are cumulative with other remedies at law, statute, or ordinance. The document notes ongoing DOJ and state Attorney General litigation against RealPage, and says the City can act while that litigation is pending.",
+      "effective_date": null,
+      "citation": "SDMC § 98.1103(a) (proposed; O-2025-107)",
+      "quoted_span": "It is unlawful for a person to sell, license, or otherwise provide an",
+      "confidence": 0.6,
+      "conflict_flag": true,
+      "conflict_note": "The ordinance in the document is a proposal. The date of final passage, the City Clerk certification, and the Mayor's approval or veto are all blank. The effective date is the 30th day after final passage, so no calendar date can be determined. Adoption status as of the query date is unverified.}"
+    },
+    {
+      "jurisdiction": "San Diego, CA",
+      "level": "city",
+      "category": "algorithmic_rent_setting",
+      "status": "pending",
+      "title": "Ban on landlord use of algorithmic rent-setting devices (proposed SDMC § 98.1103(b))",
+      "requirement": "Prohibits a landlord from using an algorithmic device to set rental rates or occupancy levels for residential rental property. Each month of continuing violation, for each property where the device is used, is a separate violation. Tenants may sue for injunctive relief, damages, or civil penalties of up to $1,000 per violation, plus costs and attorney's fees.",
+      "key_value": "Civil penalties up to $1,000 per violation",
+      "coverage_conditions": {
+        "summary": "Applies to landlords using an algorithmic device to set rents or occupancy levels for residential rental property in the City of San Diego. Software that publishes aggregated reports from public data or from historical nonpublic data more than 90 days old is excluded. So is software used to set rents or income limits under affordable housing program guidelines.",
+        "construction_date_basis": null,
+        "built_on_or_before": null,
+        "built_after": null,
+        "min_building_age_years": null,
+        "min_units": null,
+        "max_units": null,
+        "owner_conditions": "Applies to any 'landlord' as defined in SDMC § 98.0702; no owner-type carve-out is stated.",
+        "other_conditions": "Applies only to software or products meeting the definition of 'algorithmic device' (calculations of nonpublic competitor data to advise or recommend rental rates or occupancy levels)."
+      },
+      "exemptions": "Software or products that publish reports from aggregated historical nonpublic competitor data more than 90 days old, or from public information, and do not recommend rates or occupancy for future leases or renewals. Software or products used to set rental rates or income limits under affordable housing program guidelines.",
+      "interaction": "Remedies are cumulative with other remedies at law, statute, or ordinance. A lease provision limiting a tenant's recovery of attorney's fees is unenforceable against claims under this Division.",
+      "effective_date": null,
+      "citation": "SDMC §§ 98.1103(b), 98.1104 (proposed; O-2025-107)",
+      "quoted_span": "It is unlawful for a landlord to use an algorithmic device to set rental rates",
+      "confidence": 0.6,
+      "conflict_flag": true,
+      "conflict_note": "The ordinance in the document is a proposal. The date of final passage, the City Clerk certification, and the Mayor's approval or veto are all blank. The effective date is the 30th day after final passage, so no calendar date can be determined. Adoption status as of the query date is unverified."
+    }
+  ],
+  "rejected": []
+}

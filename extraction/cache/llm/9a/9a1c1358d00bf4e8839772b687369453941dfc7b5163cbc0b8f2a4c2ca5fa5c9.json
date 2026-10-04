@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D058:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 2087,
+  "output_tokens": 754
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "A notice to quit for nonpayment of rent given in writing by a landlord to a residential tenant pursuant to this chapter shall be accompanied by a form that shall include, but not be limited to: (i) documentation of any agreements between the tenant and landlord for the tenant to repay the landlord for nonpayment of rent;",
+    "note": "All elements of the requirement (form contents, statement, EOHLC development, languages, court filing bar) are in the text. RAFT is described as the 'residential assistance for families in transition program'."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "No court having jurisdiction over an action for summary process pursuant to chapter 239, including the Boston municipal court department, shall, in an eviction for nonpayment of rent for a residential dwelling unit, accept for filing a writ, summons or complaint without proof of delivery of the form required under this section.",
+    "note": "The key value says information is in English plus 5 languages. The document limits the multilingual requirement to the clause (ii) information, so the key value is slightly broader, but the core is accurate."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The field is empty and the document states no enactment or effective date."
+   },
+   {
+    "field": "status",
+    "verdict": "partly_supported",
+    "quoted_span": "A notice to quit for nonpayment of rent given in writing by a landlord to a residential tenant pursuant to this chapter shall be accompanied by a form",
+    "note": "The text is mandatory and states no sunset, which is consistent with in_force. The document does not itself state the current status."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "in an eviction for nonpayment of rent for a residential dwelling unit",
+    "note": "The statute applies to residential tenants and residential dwelling units and states no unit-count, construction-date, owner-occupancy or landlord-size limits. The coverage is limited to nonpayment notices, which the summary does not stress but is not contradicted."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "General Law - Part II, Title I, Chapter 186, Section 31",
+    "note": "The document header matches G.L. c. 186, § 31."
+   }
+  ]
+ }
+}

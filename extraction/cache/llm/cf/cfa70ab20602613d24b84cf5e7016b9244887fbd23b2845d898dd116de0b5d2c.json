@@ -1,0 +1,496 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "consolidate",
+ "subject": "Los Angeles, CA",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 56035,
+  "output_tokens": 19940
+ },
+ "result": {
+  "rules": [
+   {
+    "candidate_id": "D041:c1",
+    "jurisdiction": "Los Angeles, CA",
+    "category": "rent_increase_limits",
+    "status": "in_force",
+    "title": "Los Angeles Rent Stabilization Ordinance (RSO): annual allowable rent increase",
+    "requirement": "In RSO units, rent may be raised once every 12 months by the allowable percentage published by LAHD. That percentage was 3% for July 1, 2025 through June 30, 2026.\n\nAdd-ons:\n- From February 2, 2026, no extra percentage for utilities and no 10% add-on for an added dependent.\n- A 10% increase for an additional non-dependent tenant is still allowed if taken within 60 days of the landlord learning of that tenant.\n\nIncreases above the allowable percentage need LAHD approval. The approval programs are capital improvement, primary renovation, seismic retrofit, rehabilitation, and just and reasonable rent increase.\n\nRent may go to market rate after any of these:\n- a voluntary move-out\n- eviction for nonpayment, lease violation, Tenant Habitability Plan noncompliance or a City Attorney order\n- a Tenant Buyout Agreement\n\nRent increases were prohibited from March 30, 2020 through January 31, 2024.\n\nLandlords may pass through these surcharges, separate from rent, only after registering the units and giving written notice:\n- RSO registration surcharge: $1.61 per month\n- SCEP surcharge: $2.83 per month\n- smoke or CO detector surcharge: $3.00\n\nPer LAHD, state law requires 30 days' written notice for increases under 10%.",
+    "key_value": "One increase per 12 months at the LAHD allowable percentage. 3% for 7/1/2025-6/30/2026; the figure for 7/1/2026 onward is not in the documents. No utility or dependent add-on from 2026-02-02. +10% for an additional non-dependent tenant, within 60 days. Surcharges: RSO $1.61/mo, SCEP $2.83/mo, smoke detector $3.00.",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": {
+      "basis": "year_built",
+      "covered_if": "on_or_before",
+      "date": "1978-10-01"
+     },
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": true,
+     "unverifiable_exemptions": [
+      "Luxury exemption (landlord must establish the monthly rent charged on or before May 31, 1978)",
+      "Temporary exemptions filed with LAHD",
+      "Condominium or townhome tenancy commenced after December 31, 1995 (rent not regulated)"
+     ],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": true,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Covers rental properties first built on or before October 1, 1978, plus replacement units under LAMC 151.28. Included unit types:\n- apartments and duplexes\n- two or more single-family dwellings on one parcel\n- hotel, motel, rooming-house or boarding-house rooms occupied by the same tenant for more than 30 consecutive days\n- residential units attached to commercial buildings\n- ADUs and JADUs\n- mobile homes and RVs in mobile home parks\n\nCondominiums and townhomes are covered, but their rent is not regulated for tenancies commenced after December 31, 1995. RSO units are excluded from the state cap (Civ. Code § 1947.12), so the RSO governs them.",
+     "construction_date_basis": "first built (per LAHD)",
+     "built_on_or_before": "1978-10-01",
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": "Rent may reset to market after a voluntary vacancy, certain at-fault evictions or a buyout agreement. SCEP and RSO surcharges are collectible only after registration and written notice."
+    },
+    "exemptions": "Luxury exemption on application; temporary exemptions filed with LAHD; condominium and townhome tenancies commenced after 12/31/1995 are not rent-regulated.",
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": "2026-02-02",
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "2026-02-02 is the LAHD-published date the utility and dependent add-ons ended, which is the current version of the increase rules. The RSO's original effective date is not stated. The 3% rate applied July 1, 2025 through June 30, 2026. Increases were prohibited March 30, 2020 through January 31, 2024.",
+    "effective_date_formula": null,
+    "citation": "L.A. Mun. Code § 151.06",
+    "citation_aliases": [
+     "L.A. Mun. Code ch. XV, art. 1",
+     "Los Angeles Rent Stabilization Ordinance",
+     "RSO",
+     "LARSO",
+     "L.A. Mun. Code § 151.28 (replacement units)",
+     "RAC Reg 210",
+     "RAC Reg 220",
+     "RAC Reg 240",
+     "RAC Reg 250",
+     "Ord. No. 187,108 (SCEP surcharge)"
+    ],
+    "quoted_span": "Rent may be increased once every 12 months by the allowable rent increase percentage",
+    "confidence": 0.8,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "Section number not given in the documents; the citation follows the RSO's standard rent-increase section. The 3% rate expired before the query date (2026-10-01); the current rate is only in a linked LAHD PDF that was not captured. Organizer open question (two effective dates for LA's new RSO formula): every captured document gives 2026-02-02 (LAHD). The 2026-01-24 date attributed to a landlord association does not appear in any document, so no conflict is shown here. The new formula itself is not described in the documents.",
+    "source_notes": "Official LAHD RSO Overview (D041, modified Sept 22, 2026) and RSO Rent Increase Calculator (D042). SCEP ($67.94/unit/yr from 1/1/2022) and RSO ($38.75/unit/yr from 1/1/2020) fee pass-throughs are folded in.",
+    "source_doc_id": "D041",
+    "from_candidates": [
+     "D041:c1",
+     "D042:c1",
+     "cell:Los Angeles, CA:rent_increase_limits:1"
+    ],
+    "also_supported_by": [
+     {
+      "doc_id": "D042",
+      "quoted_span": "Beginning February 2, 2026, a landlord can no longer include any additional percentage increase for utilities."
+     },
+     {
+      "doc_id": "D042",
+      "quoted_span": "Annual rent increases for rental units subject to the City of Los Angeles Rent Stabilization Ordinance (RSO), effective"
+     },
+     {
+      "doc_id": "D041",
+      "quoted_span": "Effective February 2, 2026, an additonal 10% increase for an additional dependent added to the tenancy is no longer permitted."
+     }
+    ]
+   },
+   {
+    "candidate_id": "D041:c2",
+    "jurisdiction": "Los Angeles, CA",
+    "category": "just_cause_eviction",
+    "status": "in_force",
+    "title": "Los Angeles RSO eviction controls, notice filing and no-fault relocation assistance",
+    "requirement": "RSO tenancies may be terminated only for listed causes.\n\nAt-fault causes:\n- nonpayment\n- uncured lease violation\n- nuisance or damage\n- illegal use\n- refusal to renew a similar agreement\n- denial of reasonable access\n- unapproved subtenant\n\nPer LAHD, from March 27, 2023 a nonpayment eviction requires the tenant to owe more than the Fair Market Rent for the unit's bedroom size.\n\nNo-fault causes:\n- owner or relative move-in\n- resident manager, only if required by law, an affordable-housing covenant or a regulatory agreement\n- demolition or removal from rental use (Ellis Act, LAMC 151.22-151.28)\n- government order to vacate\n- HUD sale\n- residential hotel conversion\n- conversion to affordable housing\n\nFor a no-fault eviction, the landlord must:\n- file a Declaration of Intent to Evict with LAHD before serving any termination notice\n- give 30-day and 60-day written notice (some evictions need 120 days or up to a 1-year extension)\n- make relocation assistance available within 15 days of service, or place it in escrow within that period\n\nRelocation is paid per unit, split pro rata, at the higher amount if more than one applies. Accumulated rent may be offset, except for government vacate orders.\n\nEvery termination notice must be filed with LAHD within 3 business days of service.\n\nFrom August 20, 2025, the Notice of Right to Counsel must be posted, given at the start of the tenancy, and attached to any eviction notice.",
+    "key_value": "Chart A (7/1/2026-6/30/2027), per unit:\n- Eligible: $11,000 (<3 yrs) / $14,400 (3+ yrs or low income)\n- Qualified: $23,150 / $27,400\n- Mom & Pop, owner or family occupancy only: $10,550 eligible / $21,250 qualified\nAmounts increase every July 1.\nOther terms:\n- relocation paid within 15 days\n- Declaration of Intent to Evict filed before notice\n- notice copy filed with LAHD within 3 business days\n- 30/60-day notice (120 days or 1-year extension for some)\n- $75 owner/relative/manager occupancy declaration fee\n- nonpayment eviction only above FMR (from 3/27/2023)\n- Right to Counsel notice from 8/20/2025",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": {
+      "basis": "year_built",
+      "covered_if": "on_or_before",
+      "date": "1978-10-01"
+     },
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": true,
+     "unverifiable_exemptions": [
+      "Temporary exemptions filed with LAHD",
+      "Mom & Pop reduced amount (depends on the landlord's other holdings and on prior use of the provision)",
+      "Tenant qualified or low-income status"
+     ],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": true,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": "The reduced Mom & Pop amount applies only to owner or eligible-relative occupancy evictions, and only if all of these are true:\n- the building has four or fewer rental units\n- the landlord owns no more than four units plus a single-family home on a separate lot in the City\n- the landlord has not used the provision in the prior three years\n- the relative owns no residential property in the City",
+     "summary": "Rental units subject to the RSO: first built on or before October 1, 1978, plus replacement units. RSO units follow this local just-cause regime rather than Civ. Code § 1946.2.",
+     "construction_date_basis": "first built (per LAHD)",
+     "built_on_or_before": "1978-10-01",
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": "The relocation amount depends on the tenant's status: qualified (62+, disabled, or with minor children), eligible, length of tenancy, and low income (at or below 80% AMI)."
+    },
+    "exemptions": "No relocation is owed when replacing one resident manager with another, or for an eviction forced by natural-disaster hazards not caused by the landlord's negligence. Rent offset is not allowed for government vacate orders or unpermitted-dwelling orders.",
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "The original effective date of the RSO eviction provisions is not stated. Dates for the current elements:\n- relocation amounts: 7/1/2026-6/30/2027\n- FMR nonpayment threshold: 3/27/2023\n- Right to Counsel notice: 8/20/2025",
+    "effective_date_formula": null,
+    "citation": "L.A. Mun. Code § 151.09",
+    "citation_aliases": [
+     "L.A. Mun. Code ch. XV, art. 1",
+     "LAMC 151.09.A.8",
+     "LAMC 151.09.C.9",
+     "LAMC 151.09.G",
+     "LAMC 151.30",
+     "LAMC 151.22-151.28",
+     "RAC Regulations § 960.00",
+     "RSO",
+     "Rent Stabilization Ordinance"
+    ],
+    "quoted_span": "Give the tenant a 30-day and 60-day written notice (some evictions require 120-day notice or up to a 1-year extension).",
+    "confidence": 0.82,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "The code text is not captured; the rules come from official LAHD pages and bulletins. The Ellis Act withdrawal procedures (LAMC 151.22-151.28) are not described in detail (see known_gaps).",
+    "source_notes": "D041 (LAHD RSO Overview), D040 (FMR nonpayment rule, applies to RSO and JCO) and D043 (Relocation Bulletins A and B, rev. 07/01/2026). Bulletin A says the notice copy is due 'no later than 3 days'. D040, D041 and Bulletin B all say 3 business days, citing LAMC 151.09.C.9, so 3 business days is recorded. Bulletin B's fee table is labeled 2025-26 but shows the same fees as Bulletin A's 2026-27 table.",
+    "source_doc_id": "D041",
+    "from_candidates": [
+     "D041:c2",
+     "D043:c1",
+     "cell:Los Angeles, CA:just_cause_eviction:2"
+    ],
+    "also_supported_by": [
+     {
+      "doc_id": "D041",
+      "quoted_span": "per Los Angeles Municipal Code 151.09.C.9 & 165.05.B.5"
+     },
+     {
+      "doc_id": "D043",
+      "quoted_span": "All tenant not- at-fault evictions require payment of relocation assistance and the filing of a"
+     },
+     {
+      "doc_id": "D043",
+      "quoted_span": "Household $11,000 $14,400 $10,550"
+     },
+     {
+      "doc_id": "D043",
+      "quoted_span": "Household $23,150 $27,400 $21,250"
+     },
+     {
+      "doc_id": "D043",
+      "quoted_span": "Payment shall be made available within fifteen (15) days of service of the written notice of"
+     },
+     {
+      "doc_id": "D040",
+      "quoted_span": "Effective March 27, 2023, landlords may not evict a tenant who falls behind in rent unless the tenant owes an amount higher than the Fair Market Rent (FMR)."
+     }
+    ]
+   },
+   {
+    "candidate_id": "D040:c1",
+    "jurisdiction": "Los Angeles, CA",
+    "category": "just_cause_eviction",
+    "status": "in_force",
+    "title": "Los Angeles Just Cause for Eviction Ordinance (JCO)",
+    "requirement": "Landlords of covered non-RSO units may not terminate a tenancy without just cause.\n\nAt-fault causes:\n- nonpayment (from March 27, 2023, only if the tenant owes more than the Fair Market Rent for the bedroom size)\n- uncured lease violation\n- nuisance or damage\n- illegal use\n- refusal to renew a similar agreement\n- denial of reasonable access\n- unapproved subtenant\nAt-fault evictions carry no relocation.\n\nNo-fault causes:\n- owner or immediate family move-in\n- resident manager, when required by law, covenant or regulatory agreement\n- demolition, permanent removal or conversion to non-residential use\n- government vacate order\n- HUD sale\n- residential hotel conversion or demolition\n- conversion to affordable housing\n\nFor a no-fault eviction, the landlord must:\n- file a Declaration of Intent to Evict with LAHD before serving notice\n- pay relocation assistance at the RSO Chart A amounts within 15 days of service, or into escrow within that period\nFor a single-family dwelling owned by a natural person with no more than four units plus a separate-lot single-family home in the City, relocation is one month's rent, as a payment or a credit. Accumulated rent may be offset, except for government vacate or unpermitted-dwelling orders.\n\nEviction notices must be filed with LAHD within 3 business days of service.\n\nOther duties:\n- register properties annually\n- post the Notice of Right to Counsel from August 20, 2025, and give it at the start of the tenancy and with any eviction notice\n- give the Notice of Renters' Protections to tenancies beginning or renewing on or after January 27, 2023",
+    "key_value": "Chart A (7/1/2026-6/30/2027), per unit:\n- Eligible: $11,000 (<3 yrs) / $14,400 (3+ yrs or low income)\n- Qualified: $23,150 / $27,400\n- Single-family dwelling owned by a qualifying natural person: one month's rent\nOther terms:\n- relocation paid within 15 days\n- notice filed with LAHD within 3 business days\n- nonpayment eviction only above FMR (from 3/27/2023)\n- Right to Counsel notice from 8/20/2025\n- Renters' Protections notice from 1/27/2023",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": {
+      "basis": "year_built",
+      "covered_if": "after",
+      "date": "1978-10-01"
+     },
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": true,
+     "unverifiable_exemptions": [
+      "transient hotels",
+      "licensed care facilities",
+      "fraternity or sorority houses",
+      "owner's roommate",
+      "cooperatives under certain circumstances",
+      "some non-profit facilities for the homeless or short-term substance abuse treatment centers",
+      "some properties owned by HACLA or the government"
+     ],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": true,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": "The reduced one-month's-rent relocation applies to a single-family dwelling owned by a natural person (including through a trust or controlled entity) who owns no more than four dwelling units plus a single-family home on a separate lot in the City.",
+     "summary": "Covers most residential property in the City of Los Angeles that is not regulated by the RSO, complementing the RSO's October 1, 1978 cutoff. It can apply to buildings newer than October 1, 1978 and to a property with only one single-family dwelling.\n\nThe tenant must have lived in the unit at least six months, or the original lease must have expired, whichever comes first.\n\nCovered units follow the JCO rather than Civ. Code § 1946.2. Rent increases on JCO units are governed by state AB 1482, not the JCO.",
+     "construction_date_basis": "complementary to the RSO (non-RSO units)",
+     "built_on_or_before": null,
+     "built_after": "1978-10-01",
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": "Also covers pre-1978 properties not regulated by the RSO, e.g. a lone single-family dwelling. Tenancy must be at least six months old or past the original lease, whichever comes first."
+    },
+    "exemptions": "Units under the RSO, plus these categories:\n- transient hotels\n- licensed care facilities\n- fraternity or sorority houses\n- owner's roommate\n- certain cooperatives\n- some non-profit homeless facilities or short-term substance-abuse treatment centers\n- some HACLA or government-owned properties",
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "The JCO's original effective date is not stated. Dates for the current elements:\n- FMR nonpayment threshold: 3/27/2023\n- Renters' Protections notice: 1/27/2023\n- Right to Counsel notice: 8/20/2025\n- relocation amounts: 7/1/2026-6/30/2027",
+    "effective_date_formula": null,
+    "citation": "L.A. Mun. Code § 165.03",
+    "citation_aliases": [
+     "L.A. Mun. Code ch. XVI, art. 5",
+     "L.A. Mun. Code § 165.06",
+     "LAMC 165.03.H",
+     "LAMC 165.03.I",
+     "LAMC 165.05.B.5",
+     "LAMC 165.06.A(6)",
+     "LAMC 165.06.J",
+     "JCO",
+     "Just Cause Ordinance"
+    ],
+    "quoted_span": "It prohibits terminations of tenancies without just cause and requires relocation assistance for no-fault evictions.",
+    "confidence": 0.8,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "The code text is not captured. The construction_cutoff is the complement of the RSO's October 1, 1978 cutoff, but the JCO also reaches older non-RSO properties, so coverage turns on RSO status rather than year built alone. The 30/60-day notice periods appear only on the RSO page and are not attributed to the JCO here. Whether the Mom & Pop reduced amount (LAMC 151.30) applies to JCO units is not stated; the bulletin says § 151.30(E) does not apply to JCO single-family dwellings.",
+    "source_notes": "Official LAHD JCO page (D040, modified Sept 10, 2026) and LAHD Relocation Bulletins (D043). Bulletin A's '3 days' wording versus '3 business days' elsewhere: 3 business days is recorded.",
+    "source_doc_id": "D040",
+    "from_candidates": [
+     "D040:c1",
+     "D043:c2",
+     "cell:Los Angeles, CA:just_cause_eviction:1"
+    ],
+    "also_supported_by": [
+     {
+      "doc_id": "D040",
+      "quoted_span": "The JCO can apply to buildings that are newer than October 1, 1978."
+     },
+     {
+      "doc_id": "D040",
+      "quoted_span": "All eviction notices issued to tenants in the City of Los Angeles must be filed with LAHD within three (3) business days of service on the tenant."
+     },
+     {
+      "doc_id": "D043",
+      "quoted_span": "Eligible Tenant $11,000 $14,400"
+     },
+     {
+      "doc_id": "D043",
+      "quoted_span": "Qualified Tenant $23,150 $27,400"
+     },
+     {
+      "doc_id": "D043",
+      "quoted_span": "Payment shall be made available within fifteen (15) days of service of the written notice of"
+     }
+    ]
+   },
+   {
+    "candidate_id": "D043:c3",
+    "jurisdiction": "Los Angeles, CA",
+    "category": "just_cause_eviction",
+    "status": "in_force",
+    "title": "Los Angeles Resident Protections Ordinance (RPO): relocation and occupant protections for demolition for new construction",
+    "requirement": "This applies when a Protected Unit is demolished for new construction within 5 years after the Notice of Intent to Withdraw or Declaration of Intent to Evict is filed. All RSO units are Protected Units.\n\nThe owner must:\n- file with LAHD\n- serve notice and file a copy within 3 business days\n- pay the RSO or JCO relocation amounts within 15 days\n\nLower-income households (at or below 80% AMI) get enhanced relocation. The owner pays the higher of the state Housing Crisis Act or City amounts and chooses one of three options:\n- Option 1: standardized Chart B payment through the City's Relocation Consultant\n- Option 2: an approved comparable replacement unit plus Chart A amounts\n- Option 3: individualized relocation under an approved plan\n\nOccupant protections:\n- right to relocation\n- right to remain up to 6 months before construction, including a 6-month notice\n- right to return if demolition does not proceed\n- right of first refusal for some tenants\n- tenant notification\n\nNoncompliance may bring penalties starting at $250,000 per displaced unit and withholding of LAHD permit clearances.",
+    "key_value": "Chart B (7/1/2026-6/30/2027): Extremely Low $115,480; Very Low $96,750; Low $87,450; above low income per Chart A. Penalties from $250,000 per displaced unit. RSO/JCO base amounts paid within 15 days.",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": true,
+     "unverifiable_exemptions": [
+      "Protected Unit status: affordability covenant or rent control within 5 years, lower-income occupancy within 5 years, or Ellis Act withdrawal within 10 years",
+      "Household income tier"
+     ],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Only Protected Units demolished for new construction. Enhanced payments go only to lower-income households. Non-Protected Units, and units without lower-income tenants, follow the regular RSO or JCO relocation rules.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": "Triggered by demolition for new construction within 5 years after the withdrawal or eviction filing."
+    },
+    "exemptions": "Regular RSO/JCO rules apply instead when units are not Protected Units or are not occupied by lower-income tenants.",
+    "event_only": true,
+    "applies_only_in": null,
+    "effective_date": "2025-02-11",
+    "enacted_date": "2025-02-11",
+    "sunset_date": null,
+    "effective_date_note": "The bulletin says the Council adopted the RPO on February 11, 2025, and also gives 2/11/2025 as its effective date. Chart B amounts apply 7/1/2026-6/30/2027 and increase each July 1.",
+    "effective_date_formula": null,
+    "citation": "L.A. Ord. No. 188481",
+    "citation_aliases": [
+     "L.A. Ord. No. 188482",
+     "Resident Protections Ordinance",
+     "RPO"
+    ],
+    "quoted_span": "The RPO only applies to Protected Units that will be demolished for the",
+    "confidence": 0.75,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "The ordinance text and LAMC sections are not captured; the record relies on an LAHD bulletin. The bulletin gives the same date for adoption and effectiveness, which should be verified against the ordinance. The Chart B column alignment is garbled in the extraction; values are mapped in column order. The state Housing Crisis Act (Gov. Code § 66300.6) is a state law and operates alongside this ordinance; the higher amount applies.",
+    "source_notes": "Official LAHD Relocation Bulletin B (D043, rev. 07.01.2026).",
+    "source_doc_id": "D043",
+    "from_candidates": [
+     "D043:c3"
+    ],
+    "also_supported_by": [
+     {
+      "doc_id": "D043",
+      "quoted_span": "On February 11, 2025, the Los Angeles City Council adopted the RPO which codified and expanded upon"
+     },
+     {
+      "doc_id": "D043",
+      "quoted_span": "New Development $115,480 $96,750 $87,450"
+     }
+    ]
+   },
+   {
+    "candidate_id": "D043:c4",
+    "jurisdiction": "Los Angeles, CA",
+    "category": "just_cause_eviction",
+    "status": "in_force",
+    "title": "Los Angeles relocation assistance for demolition or conversion (LAMC 47.06 and 47.07)",
+    "requirement": "A landlord who demolishes a rental property, or converts it to condominiums, stock cooperatives, community apartment projects, hotels or commercial uses, must pay relocation assistance. This applies whether or not the property is under the RSO or JCO.\n\nOnce the City has approved a tentative parcel or tract map for a condominium conversion, the tenant may elect to relocate without receiving a termination notice. The landlord still owes relocation assistance.",
+    "key_value": null,
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Rental property in the City being demolished or converted to condominiums, cooperatives, community apartment projects, hotels or commercial use, regardless of RSO/JCO coverage.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": "Triggered only by demolition or conversion."
+    },
+    "exemptions": null,
+    "event_only": true,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "Not stated in the documents.",
+    "effective_date_formula": null,
+    "citation": "L.A. Mun. Code § 47.06",
+    "citation_aliases": [
+     "L.A. Mun. Code § 47.07",
+     "LAMC 47.06.D.2"
+    ],
+    "quoted_span": "The landlord demolishes the property or converts the use of the property to condominiums,",
+    "confidence": 0.5,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "The bulletin mentions these sections only in passing. It gives no amounts, timing or coverage details, so the section text should be checked.",
+    "source_notes": "Official LAHD Relocation Bulletin A (D043).",
+    "source_doc_id": "D043",
+    "from_candidates": [
+     "D043:c4"
+    ],
+    "also_supported_by": [
+     {
+      "doc_id": "D043",
+      "quoted_span": "stock cooperatives, community apartment projects, hotels, and commercial uses, regardless"
+     }
+    ]
+   },
+   {
+    "candidate_id": "DX12:c1",
+    "jurisdiction": "Los Angeles, CA",
+    "category": "security_deposits",
+    "status": "in_force",
+    "title": "Los Angeles RSO security deposit interest",
+    "requirement": "Landlords of RSO units must pay tenants interest on security deposits. Interest accrues monthly from November 1, 1990, at a rate the City sets each year.\n\nThe landlord chooses to pay the accrued interest either directly or as a credit against rent, and must notify the tenant of that choice in writing. Payment is made monthly or yearly. Waiting until the end of the tenancy does not comply.",
+    "key_value": "Interest accrues monthly from 11/1/1990 and is paid monthly or yearly, by direct payment or rent credit, with written notice of the method. Rate set annually by the City: 4.320% for calendar 2025 (per AAGLA); no 2026 rate in the documents.",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": {
+      "basis": "year_built",
+      "covered_if": "on_or_before",
+      "date": "1978-10-01"
+     },
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Rental units subject to the Los Angeles RSO. Operates alongside the state deposit cap and return rules (Civ. Code § 1950.5).",
+     "construction_date_basis": "RSO coverage (first built on or before Oct. 1, 1978, plus replacement units)",
+     "built_on_or_before": "1978-10-01",
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": "Property must be subject to the RSO."
+    },
+    "exemptions": null,
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": "1990-11-01",
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "November 1, 1990 is the date interest began accruing, per the LAMC text quoted by AAGLA.",
+    "effective_date_formula": null,
+    "citation": "L.A. Mun. Code § 151.06.02",
+    "citation_aliases": [
+     "LAMC 151.06.02",
+     "L.A. Mun. Code ch. XV, art. 1",
+     "Los Angeles Rent Stabilization Ordinance",
+     "RSO",
+     "LARSO"
+    ],
+    "quoted_span": "Interest Payments on Security Deposits",
+    "confidence": 0.72,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "The substantive code text comes only from a secondary article quoting LAMC § 151.06.02. The rate table was last updated 5/21/25. The 2026 rate is not given and should be confirmed with LAHD; the 2025 figure of 4.320% is far above prior years and should also be verified.",
+    "source_notes": "The official LAHD RSO Overview (D041) lists security deposit interest as an RSO subject. The rule text and rates come from the AAGLA article (DX12; the same URL is listed as link-only D044).",
+    "source_doc_id": "D041",
+    "from_candidates": [
+     "DX12:c1",
+     "cell:Los Angeles, CA:security_deposits:1"
+    ],
+    "also_supported_by": [
+     {
+      "doc_id": "DX12",
+      "quoted_span": "Interest shall begin accruing on November 1, 1990, on a monthly basis. A tenant shall be given the unpaid accrued interest in the form of either a direct payment or a credit against the tenant’s rent. The landlord shall choose between these two methods of payment and notify the tenant in writing of his or her choice. The landlord may elect to pay the accrued interest on a monthly or yearly basis."
+     }
+    ]
+   }
+  ],
+  "dropped_candidates": [],
+  "known_gaps": [
+   {
+    "category": "just_cause_eviction",
+    "law": "L.A. Mun. Code §§ 151.22-151.28 (RSO Ellis Act withdrawal provisions)",
+    "reason": "Named in the LAHD bulletins as governing RSO demolition and withdrawal evictions, but their notice, relocation and re-rental terms are not captured in the documents."
+   },
+   {
+    "category": "rent_increase_limits",
+    "law": "LAHD RSO allowable rent increase schedule for July 1, 2026 onward (new RSO formula)",
+    "reason": "The current allowable percentage appears only in a linked LAHD PDF that was not captured. The documents give only the 3% figure for 7/1/2025-6/30/2026."
+   },
+   {
+    "category": "algorithmic_rent_setting",
+    "law": "Council File 24-1031 motion on algorithm-based rent-setting software (D039)",
+    "reason": "A 2024 Council motion asking LAHD for a report and feasibility study. No adopted Los Angeles ordinance on algorithmic rent-setting appears in the documents."
+   }
+  ]
+ }
+}

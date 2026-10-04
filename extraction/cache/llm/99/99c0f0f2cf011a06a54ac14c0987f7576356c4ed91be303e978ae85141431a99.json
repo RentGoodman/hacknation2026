@@ -1,0 +1,75 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D068:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 74455,
+  "output_tokens": 2566
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": 2,
+   "requires_unknown_facts": null,
+   "unverifiable_exemptions": [
+    "Rental of a room or rooms by the owner or occupant of a one-family dwelling occupied as their residence",
+    "Preference for persons of the same religion by a religious organization",
+    "Residences planned exclusively for and occupied by one sex",
+    "Housing for older persons, as to familial status only"
+   ],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Applies to the sale or rental of all property, with listed exemptions. The main exemption is rental of the other unit in an owner-occupied two-family dwelling.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": "Exempt: rental of a single apartment in a two-family dwelling whose other unit is occupied by the owner as a residence.",
+   "other_conditions": null
+  },
+  "evidence": [
+   {
+    "field": "summary",
+    "doc_id": "D068",
+    "quoted_span": "The provisions of the LAD apply to the sale or rental of all\nproperty including open land, whether for business or\nresidential purposes, with the following exceptions:"
+   },
+   {
+    "field": "owner_conditions",
+    "doc_id": "D068",
+    "quoted_span": "The rental of a single apartment or flat in a two-family\ndwelling, the other occupancy unit of which is occupied\nby the owner as his/her residence at the time of such\nrentals;"
+   },
+   {
+    "field": "owner_occupied_exemption_max_units",
+    "doc_id": "D068",
+    "quoted_span": "The rental of a single apartment or flat in a two-family\ndwelling, the other occupancy unit of which is occupied\nby the owner as his/her residence at the time of such\nrentals;"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D068",
+    "quoted_span": "The rental of a room or rooms to another person or\npersons by the owner or occupant of a one-family\ndwelling occupied by him/her as his/her residence"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D068",
+    "quoted_span": "preference given to persons of the same religion by a\nreligious organization"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D067",
+    "quoted_span": "planned exclusively for and occupied by one sex, i.e. YMCA and age -restricted housing, as it"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D068",
+    "quoted_span": "The prohibition against discrimination on the basis of\nfamilial status does not apply to housing for older\npersons"
+   }
+  ],
+  "notes": "Coverage is largely confirmed by D068, the DCR brochure, and D067, the DCA Truth in Renting guide. The only change is that the combined 'single-sex residences; housing for older persons' exemption is split into two separate list items, each with its own supporting passage. Every other field stays null because neither source supports a unit count, construction date, landlord-size or preemption condition for the LAD."
+ }
+}

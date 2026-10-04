@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D076:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 11215,
+  "output_tokens": 873
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "It is unlawful for a landlord to use an algorithmic device to set rental rates\nor occupancy levels for residential rental property.",
+    "note": "The requirement summary matches §98.1103 and the definitions in §98.1102. It also matches the per-month and per-property violation rule and the §98.1104 remedies. Nothing in the summary goes beyond the text."
+   },
+   {
+    "field": "key_value",
+    "verdict": "partly_supported",
+    "quoted_span": "A tenant may seek injunctive relief, damages, or civil penalties of up to\n$1,000 per violation of this Division, in a civil action against a landlord.",
+    "note": "The penalty cap, the separate-violation rule and the fee recovery are all in the document. The 'effective June 2025 per DX06' part is not in D076, which says only that the ordinance takes effect on the thirtieth day after final passage. The passage date is blank in D076."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The effective_date field is null. D076 gives no calendar date, only 'the thirtieth day from and after its final passage', and the passage date is blank. The document states no exact date, so an empty field is consistent with it."
+   },
+   {
+    "field": "status",
+    "verdict": "partly_supported",
+    "quoted_span": "This Ordinance will take effect and be in force on the thirtieth day from\nand after its final passage.",
+    "note": "D076 is an unadopted draft with blank ordinance number, blank passage date and blank certification of adoption. It does not show the ordinance is in force. The in_force status depends on the secondary source DX06, which is not in this document."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "Residential rental property has the same meaning as in San Diego Municipal\nCode section 98.0702, as may be amended.",
+    "note": "The document defines 'algorithmic device' by reference to residential rental property in the City of San Diego. It borrows the §98.0702 definitions and states no unit-count, construction-date or owner-occupancy limits. The §98.0702 definition text and the §98.0703 exemptions are not in D076. The two stated exclusions (a) and (b) are in the definition of algorithmic device."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "§98.1103  Use and Sale of Algorithmic Devices Prohibited",
+    "note": "The ordinance adds Division 11, sections 98.1101-98.1104, to Chapter 9, Article 8, and §98.1103 is the prohibition. The O-2025-107 reference also appears in the document."
+   }
+  ]
+ }
+}

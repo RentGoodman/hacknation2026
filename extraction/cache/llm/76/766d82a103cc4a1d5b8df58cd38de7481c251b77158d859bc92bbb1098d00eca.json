@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D085:c2",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 4411,
+  "output_tokens": 799
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "After 30 days, an owner shall not terminate a tenancy without just cause, which shall be stated in a written notice.",
+    "note": "All elements of the requirement (at-fault and no-fault causes, notice and cure period, relocation assistance or rent waiver, and the notice to tenants before December 19, 2021 or at lease commencement or renewal) appear in the document."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "Under a no-fault just cause termination, the owner shall either provide 3 months of relocation assistance or waive payment of rent for the final 3 months of the tenancy.",
+    "note": "The 30-day threshold, the notice and opportunity to cure, and the 3-month relocation assistance or rent waiver are all stated in the document."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "supported",
+    "quoted_span": "The new ordinances are not effective until November 19, 2021.",
+    "note": "The date matches 2021-11-19. The document does not give the adoption date, only 'Tuesday night', which the rule acknowledges."
+   },
+   {
+    "field": "status",
+    "verdict": "partly_supported",
+    "quoted_span": "The new ordinances are not effective until November 19, 2021.",
+    "note": "The document confirms the ordinance was adopted with a Nov 19, 2021 effective date. It does not state that the ordinance is currently in force, although the page's recent-news items are dated 2026."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "The Just Cause Ordinance shall not apply to certain types of residential property, including housing produced in the last 15 years; deed-restricted affordable housing; hotel and transient occupancy; hospital and care facilities; dormitories; and other shared living quarters.",
+    "note": "The exemptions and the 30-day tenancy threshold match the document. The 15-year window has no stated reference date, which the rule also records. The word 'including' means the exemption list may not be exhaustive."
+   },
+   {
+    "field": "citation",
+    "verdict": "partly_supported",
+    "quoted_span": "Santa Ana City Council adopts rent stabilization and just cause eviction ordinances, effective Nov. 19 - City of Santa Ana",
+    "note": "The document names the 'Just Cause Eviction Ordinance' but gives no code section or ordinance number. The aliases such as 'Santa Ana JCO' are not in the document."
+   }
+  ]
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D067:c5",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 59712,
+  "output_tokens": 738
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "Tenants may be protected from eviction for 40 years if their family income is not more than three (3) times the average per person income in their county or $50,000.00, whichever  is greater (N.J.S.A. 2A:18-61.28).",
+    "note": "Eligibility (62+, permanent disability, veteran 60% disability), one-year residency before conversion recording, 40-year protection, income test, landlord notice duty and 60-day filing are all stated in the guide's Protected Tenancy section."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "Tenants may be protected from eviction for 40 years if their family income is not more than three (3) times the average per person income in their county or $50,000.00, whichever  is greater",
+    "note": "The 40 years, the 3x county average or $50,000 income limit, and the 60-day filing window ('Generally, applications for protected tenancy must be filed ... within 60 days') are all in the document."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The record's effective_date is null and the guide gives no effective date for the Act."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "The Senior Citizens and Disabled Protected Tenancy Act protects senior citizens who meet certain eligibility requirements",
+    "note": "The guide describes the Act in the present tense as operative law, consistent with in_force."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "live in a building being converted to a condominium, cooperative; or fee simple ownership of units at least one (1) year prior to the conversion recording date.",
+    "note": "Coverage of buildings being converted, the one-year residency condition, and the age, disability and veteran eligibility and income tests are all in the document."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "(N.J.S.A. 2A:18-61.22 to -61.39; N.J.A.C. 5:24-2.1 to -2.11)",
+    "note": "The guide cites N.J.S.A. 2A:18-61.28 for the 40-year protection and income test and gives the full range and N.J.A.C. aliases."
+   }
+  ]
+ }
+}

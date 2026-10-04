@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "DX03:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 621,
+  "output_tokens": 248
+ },
+ "result": {
+  "en": "Initiative Petition 25-21 would have repealed the statewide ban on rent control and capped annual rent increases at the lower of the annual CPI increase or 5%, but on June 23, 2026 the SJC held it noncompliant and barred it from the November 2026 ballot, so it never took effect.",
+  "es": "La Petición de Iniciativa 25-21 habría derogado la prohibición estatal del control de alquileres y limitado los aumentos anuales de alquiler al menor entre el aumento anual del IPC o el 5%, pero el 23 de junio de 2026 el SJC la declaró incumplidora y le impidió aparecer en la boleta de noviembre de 2026, por lo que nunca entró en vigor."
+ }
+}

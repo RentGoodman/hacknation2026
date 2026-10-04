@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "DX19:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 2539,
+  "output_tokens": 624
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "prohibits the sale, licensing, provision and use of certain algorithmic rent-setting software for residential rental properties.",
+    "note": "Prohibition, nonpublic competitor data, tenant direct enforcement and eased burden of proof are all stated in the document."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "a tenant affected by a violation may seek injunctive relief, damages, or civil penalties of up to $1,000 per violation, plus attorney’s fees.",
+    "note": "Document says civil penalties up to $1,000 per violation, plus attorney's fees, with injunctive relief and damages available to tenants."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "Field is empty. The document gives only the first reading (Feb. 17) and a final vote set for March 3, with no effective date, and the rule's note says so."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "approved on Tuesday, Feb. 17, for a first reading and set for a final vote on March 3",
+    "note": "Pending status is consistent with first reading approved and final vote still upcoming."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "Defines a limited scope, covering residential rental property within Santa Ana city limits",
+    "note": "Also consistent with the stated exclusions for publicly available data, aggregate historical data and affordable housing compliance tools."
+   },
+   {
+    "field": "citation",
+    "verdict": "partly_supported",
+    "quoted_span": "approved on Tuesday, Feb. 17, for a first reading and set for a final vote on March 3",
+    "note": "The document supports the Santa Ana ordinance and its first reading date, but gives no formal title or code section. The citation's wording is descriptive and the year 2026 is not stated in the document."
+   }
+  ]
+ }
+}

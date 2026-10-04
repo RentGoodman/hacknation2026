@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D025:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 11437,
+  "output_tokens": 1602
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "a landlord shall not demand or receive security, however denominated, in an amount or value in excess of an amount equal to one month’s rent, in addition to any rent for the first month paid on or before initial occupancy.",
+    "note": "The cap, small-landlord two-month cap, service-member exclusion, six-month advance rent, deductions, inspection and photo duties, 21-day return, $125 threshold, electronic return, successor liability, bad-faith damages and the 'nonrefundable' ban all appear in the statute. The pre-move-out inspection happens only on the tenant's request, which the summary omits."
+   },
+   {
+    "field": "key_value",
+    "verdict": "partly_supported",
+    "quoted_span": "a landlord shall not demand or receive security, however denominated, in an amount or value in excess of an amount equal to one month’s rent",
+    "note": "The 1-month and 2-month caps, the 21-day return, the $125 documentation exception with its 14-day request right, and the up-to-twice-the-deposit damages are supported. The pre-July 2024 caps of 2 months unfurnished and 3 months furnished are not in D025. The key_value attributes them to D007."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "supported",
+    "quoted_span": "This subdivision shall not apply to a security collected or demanded by the landlord before July 1, 2024.",
+    "note": "The one-month cap applies to security collected or demanded on or after July 1, 2024."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "Effective January 1, 2026.",
+    "note": "The text is the current code section as amended by AB 414. It shows no repeal or sunset, so in_force is reasonable."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "This section applies to security for a rental agreement for residential property that is used as the dwelling of the tenant.",
+    "note": "The small-landlord conditions (natural person or all-natural-person LLC, family trust, no more than two properties and four units, service-member exclusion) and the July 1, 2024 cutoff are all in the text."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "CIV 1950.5",
+    "note": "The document is Cal. Civ. Code § 1950.5. The aliases AB 414 and Stats. 2025, ch. 340 appear in the document. The alias AB 12 does not appear in D025."
+   }
+  ]
+ }
+}

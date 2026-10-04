@@ -1,0 +1,38 @@
+.git
+.vercel
+.direnv
+.envrc
+flake.nix
+flake.lock
+nix
+**/__pycache__
+**/.pytest_cache
+**/.venv
+**/node_modules
+**/.env
+**/.env.*
+!**/.env.example
+.llm_cache
+extraction
+buildings/*
+!buildings/__init__.py
+!buildings/api.py
+!buildings/config.py
+tests
+scripts
+out_v3
+out_ingest
+mockup/preview
+mockup/inputs
+corpus_extra/*.txt
+starter pack/corpus/text
+starter pack/corpus/pdf
+starter pack/*.pdf
+starter pack/data
+starter pack/dev
+starter pack/schema
+starter pack/submission_templates
+out/*.json
+!out/rules.json
+!out/buildings.json
+!out/links.json

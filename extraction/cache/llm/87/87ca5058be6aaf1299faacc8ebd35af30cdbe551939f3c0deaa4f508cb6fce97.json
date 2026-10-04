@@ -1,0 +1,65 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "cell",
+ "subject": "NJ|rent_increase_limits",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 4783,
+  "output_tokens": 1549
+ },
+ "result": {
+  "cell_status": "rules_found",
+  "no_rule_quote": null,
+  "no_rule_passage_id": null,
+  "basis_citation": null,
+  "rules": [
+   {
+    "jurisdiction": "NJ",
+    "category": "rent_increase_limits",
+    "status": "in_force",
+    "title": "Bar on rent increases to cover condominium/cooperative conversion costs",
+    "requirement": "When a building is converted to a condominium, cooperative or fee simple ownership of units, rents may not be increased to cover costs resulting solely from the conversion. Increases to cover the cost of new services or amenities remain allowed. The bar applies to all tenants in the building, whether or not they are protected senior or disabled tenants.",
+    "key_value": "No rent increase to cover costs resulting solely from conversion",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Buildings converted to condominium, cooperative or fee simple ownership; applies to all tenants in the building.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": "Applies only to buildings undergoing conversion."
+    },
+    "exemptions": "Rent increases for new services or amenities are not barred.",
+    "event_only": true,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": null,
+    "effective_date_formula": null,
+    "citation": "N.J.S.A. 2A:18-61.31",
+    "citation_aliases": [
+     "Anti-Eviction Act conversion provisions"
+    ],
+    "quoted_span": "rents may not be increased to cover cos ts resulting solely from the conversion (N.J.S.A. 2A:18-61.31).",
+    "confidence": 0.6,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "Source is a tenant guide (secondary description). The passages show no statewide rent cap. Rent control is municipal, and increases are otherwise tested for unconscionability by the courts, which is not a statutory limit stated here.",
+    "source_notes": null,
+    "passage_id": "p5"
+   }
+  ]
+ }
+}

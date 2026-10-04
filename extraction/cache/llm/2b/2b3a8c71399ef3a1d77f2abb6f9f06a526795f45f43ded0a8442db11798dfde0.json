@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D027:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 6025,
+  "output_tokens": 1776
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "partly_supported",
+    "quoted_span": "(B) (i) Use a person’s credit history as part of the application process for a rental accommodation without offering the applicant the option, at the applicant’s discretion, of providing lawful, verifiable alternative evidence of the applicant’s reasonable ability to pay",
+    "note": "Most of the requirement tracks subdivisions (a), (c), (n), (o) and (p). The credit-history sentence omits that the rule applies only where there is a government rent subsidy. The 'No Section 8' example is not in this document."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "“Source of income” includes a federal Department of Housing and Urban Development Veterans Affairs Supportive Housing voucher.",
+    "note": "Section 8 is covered in subdivision (p)(1). Alternative evidence in place of credit history is in (o)(1)(B). The tenant-portion income standard is in (o)(1)(A)."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "supported",
+    "quoted_span": "(Amended by Stats. 2023, Ch. 776, Sec. 1.   (SB 267)   Effective January 1, 2024.)",
+    "note": null
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "(Amended by Stats. 2023, Ch. 776, Sec. 1.   (SB 267)   Effective January 1, 2024.)",
+    "note": "The document is the current code text as last amended, with no repeal or sunset noted."
+   },
+   {
+    "field": "coverage",
+    "verdict": "partly_supported",
+    "quoted_span": "(o) (1) In instances in which there is a government rent subsidy, to do either of the following:",
+    "note": "Coverage of owners of any housing accommodation and of any person advertising is supported by subdivisions (a) and (c). The subsidy limit on the credit-history and tenant-portion rules is supported. The owner-occupant exemption is not in D027 and comes from another document."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "California Code,  GOV 12955",
+    "note": "The document is Government Code section 12955 and shows the SB 267 and Stats. 2023, Ch. 776 amendment. The FEHA name and SB 329 aliases do not appear in this document."
+   }
+  ]
+ }
+}

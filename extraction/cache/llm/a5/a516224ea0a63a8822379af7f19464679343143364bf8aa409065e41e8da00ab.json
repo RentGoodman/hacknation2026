@@ -1,0 +1,82 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D031:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 9118,
+  "output_tokens": 2633
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": null,
+   "unverifiable_exemptions": [
+    "units in a non-profit facility whose primary purpose is short-term assistance, treatment or therapy for alcohol, drug or other substance abuse"
+   ],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": "Applies to all landlords, including an owner of a single rental unit in the building where the owner lives",
+   "summary": "Applies to residential rental agreements in Cambridge, including single dwelling units and tenancies at will. Excludes units in hospitals, skilled nursing or health facilities, non-profit short-term substance-abuse treatment facilities, and Short Term Rental Units.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": null,
+   "other_conditions": "Excludes Short Term Rental Units under Cambridge Zoning Ordinance Art. 4, § 4.60, and rental units in hospitals, skilled nursing facilities, health facilities and non-profit short-term substance-abuse treatment facilities."
+  },
+  "evidence": [
+   {
+    "field": "landlord_size_condition",
+    "doc_id": "D031",
+    "quoted_span": "I am the owner of only one rental unit that is in the building in which I live. Do I have to comply with the Ordinance?"
+   },
+   {
+    "field": "landlord_size_condition",
+    "doc_id": "D031",
+    "quoted_span": "Yes, the Ordinance applies to a residential rental agreements, including single residential dwelling unit."
+   },
+   {
+    "field": "summary",
+    "doc_id": "D031",
+    "quoted_span": "Yes, the Ordinance applies to a residential rental agreements, including single residential dwelling unit."
+   },
+   {
+    "field": "summary",
+    "doc_id": "D031",
+    "quoted_span": "Yes, all tenants and lawful occupants must be provided a copy of the materials."
+   },
+   {
+    "field": "summary",
+    "doc_id": "D031",
+    "quoted_span": "Yes, this Ordinance does NOT apply to: rental units in a hospital, skilled nursing facility or health facility or in a non-profit facility that has the primary purpose of providing short term assistance, treatment, assistance or therapy for alcohol, drug or other substance abuse."
+   },
+   {
+    "field": "summary",
+    "doc_id": "D031",
+    "quoted_span": "In addition, the Ordinance does NOT apply to Short Term Rental Units as set forth in Article 4, Section 4.60 of the Cambridge Zoning Ordinance."
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D031",
+    "quoted_span": "In addition, the Ordinance does NOT apply to Short Term Rental Units as set forth in Article 4, Section 4.60 of the Cambridge Zoning Ordinance."
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D031",
+    "quoted_span": "Yes, this Ordinance does NOT apply to: rental units in a hospital, skilled nursing facility or health facility or in a non-profit facility that has the primary purpose of providing short term assistance, treatment, assistance or therapy for alcohol, drug or other substance abuse."
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D031",
+    "quoted_span": "or in a non-profit facility that has the primary purpose of providing short term assistance, treatment, assistance or therapy for alcohol, drug or other substance abuse"
+   }
+  ],
+  "notes": "supersedes_state_rule changed from false to null: no document says how this ordinance relates to any state rule. The FAQ statement that the ordinance does not prevent an eviction 'if otherwise allowed by law' concerns landlord conduct, not supersession. In other_conditions, the § 8.71.030 parenthetical was dropped because the FAQ cites that section only for the definition of short-term treatment, and that span is split across lines. All other values are supported verbatim by D031. D029 and DX10 add nothing on coverage."
+ }
+}

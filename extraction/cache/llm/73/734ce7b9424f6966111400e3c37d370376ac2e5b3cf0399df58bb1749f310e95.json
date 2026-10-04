@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D046:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 571,
+  "output_tokens": 207
+ },
+ "result": {
+  "en": "Massachusetts bill S.2983, still pending and now before Senate Ways and Means, is meant to prohibit algorithmic rent setting, but the available record does not state its covered software, prohibited conduct, penalties or effective date.",
+  "es": "El proyecto de ley S.2983 de Massachusetts, que sigue pendiente y ahora está ante el comité Senate Ways and Means, busca prohibir la fijación de alquileres mediante algoritmos, pero el registro disponible no indica el software cubierto, la conducta prohibida, las sanciones ni la fecha de entrada en vigor."
+ }
+}

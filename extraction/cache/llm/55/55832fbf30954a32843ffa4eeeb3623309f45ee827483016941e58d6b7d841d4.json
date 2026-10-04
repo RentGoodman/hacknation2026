@@ -1,0 +1,65 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "extract",
+ "subject": "D014",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 2139,
+  "output_tokens": 1274
+ },
+ "result": {
+  "rules": [
+   {
+    "candidate_id": "c1",
+    "jurisdiction": "Boston, MA",
+    "category": "just_cause_eviction",
+    "status": "in_force",
+    "title": "Housing Stability Notification Act (Notice of Tenants' Rights and Resources)",
+    "requirement": "A landlord or foreclosing owner ending a tenancy or post-foreclosure occupancy must deliver a Notice of Tenants' Rights and Resources to the tenant at the same time as the Notice to Quit or notice of lease non-renewal, and must send a copy of the Notice to Quit or Non-renewal with a Certificate of Compliance/Service to the Office of Housing Stability. The requirement cannot be waived. Violations do not halt the eviction process.",
+    "key_value": "Notice delivered with Notice to Quit; copy to Office of Housing Stability; 1st offense warning, 2nd and subsequent offenses $300 per day; non-waivable",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Applies to all landlords and foreclosing owners intending to end a tenancy or post-foreclosure occupancy of a unit in Boston, except residences in hospitals, skilled nursing or health facilities and non-profit short-term substance abuse treatment facilities.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": "Exempt: residences in any hospital, skilled nursing facility or health facility; residences in a non-profit facility whose primary purpose is short-term treatment, assistance or therapy for alcohol, drug or other substance abuse."
+    },
+    "exemptions": "Residences in any hospital, skilled nursing facility or health facility; residences in a non-profit facility whose primary purpose is providing short-term treatment, assistance or therapy for alcohol, drug, or other substance abuse.",
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": "2020-11-06",
+    "enacted_date": "2020-10",
+    "sunset_date": null,
+    "effective_date_note": "Ordinance passed October 2020; FAQ states it becomes effective November 6, 2020.",
+    "effective_date_formula": null,
+    "citation": "Boston City Code § 10-11.7",
+    "citation_aliases": [
+     "Boston City Code ch. 10-11.7",
+     "Housing Stability Notification Act",
+     "HSNA"
+    ],
+    "quoted_span": "The HSNA requires that landlords give this Notice of Tenants’ Rights and Resources to tenants when the landlord starts the eviction process, or when the landlord decides to not offer the tenant a renewal of their lease agreement.",
+    "confidence": 0.85,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "Source is an official FAQ rather than the ordinance text; the ordinance is cited via the section number in the FAQ's enforcement table.",
+    "source_notes": null
+   }
+  ],
+  "no_rule_findings": [],
+  "doc_summary": "Boston's official FAQ for tenants on the Housing Stability Notification Act (Boston City Code § 10-11.7, effective Nov. 6, 2020). It requires landlords and foreclosing owners to deliver a Notice of Tenants' Rights and Resources with any Notice to Quit or non-renewal and to send a copy to the Office of Housing Stability. It covers exemptions, non-waivability and enforcement (warning, then $300 per day), and notes that violations do not halt an eviction."
+ }
+}

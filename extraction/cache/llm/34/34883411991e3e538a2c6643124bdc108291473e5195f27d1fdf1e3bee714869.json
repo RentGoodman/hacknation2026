@@ -1,0 +1,50 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D058:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 37061,
+  "output_tokens": 1041
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": null,
+   "unverifiable_exemptions": [],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Applies to residential tenancies in residential dwelling units. The text states no unit-count, building-age, construction-date or owner-based exemptions.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": null,
+   "other_conditions": "Residential tenants and residential dwelling units only."
+  },
+  "evidence": [
+   {
+    "field": "summary",
+    "doc_id": "D058",
+    "quoted_span": "given in writing by a landlord to a residential tenant pursuant to this chapter"
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D058",
+    "quoted_span": "given in writing by a landlord to a residential tenant pursuant to this chapter"
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D058",
+    "quoted_span": "in an eviction for nonpayment of rent for a residential dwelling unit"
+   }
+  ],
+  "notes": "I removed 'Nonpayment-of-rent notices only' from other_conditions. It describes the triggering landlord act (serving a notice to quit for nonpayment), not which buildings, units or owners are covered, and that trigger is already captured in the requirement. The only scope limit in § 31 is residential tenants and dwelling units. The statute states no unit-count, age, construction-date, owner-occupancy or landlord-size conditions, so all of those fields stay null. No preemption or local-yield language appears, and the Boston and Cambridge local notices mentioned in the review note are not in these documents."
+ }
+}

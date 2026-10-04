@@ -1,0 +1,63 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D067:c5",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 74049,
+  "output_tokens": 2202
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": true,
+   "unverifiable_exemptions": [
+    "Tenant eligibility: age 62 or older before the conversion recording date, permanent disability, or a 60%+ service-connected disability for an honorably discharged veteran",
+    "Income eligibility test: family income no more than three times the county average per-person income or $50,000, whichever is greater"
+   ],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Applies to eligible senior, disabled and disabled-veteran tenants in buildings being converted to condominium, cooperative or fee-simple ownership of units.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": null,
+   "other_conditions": "The tenant must have lived in the building at least one year before the conversion recording date."
+  },
+  "evidence": [
+   {
+    "field": "summary",
+    "doc_id": "D067",
+    "quoted_span": "being converted to a condominium, cooperative; or fee simple ownership of units at least one (1)"
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D067",
+    "quoted_span": "year prior to the conversion recording date."
+   },
+   {
+    "field": "requires_unknown_facts",
+    "doc_id": "D067",
+    "quoted_span": "be at least 62 years of age before the d ate of the conversion recording"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D067",
+    "quoted_span": "Armed Forces and disabled at 60% or higher resulting from said service"
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D067",
+    "quoted_span": "if their family income is not more than three (3) times the average per person income in their"
+   }
+  ],
+  "notes": "The coverage values are supported by the DCA Truth in Renting guide (D067). The guide gives no unit-count threshold for the Protected Tenancy Act. The 'two or more dwelling units' language comes from the Anti-Eviction Act conversion ground (2A:18-61.1(k)), not this Act, so min_units stays null. Tenant age, disability and income eligibility cannot be checked from building data, so they are listed as unverifiable. The Hudson County Tenant Protection Act of 1992 is a separate law and is excluded."
+ }
+}

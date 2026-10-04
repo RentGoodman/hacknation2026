@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D067:c2",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 1103,
+  "output_tokens": 225
+ },
+ "result": {
+  "en": "In New Jersey, a landlord can't evict you or refuse to renew your lease, written or oral, without a legal good cause, must give a written Notice to Quit for every cause except nonpayment of rent, and can only remove you through a court judgment and warrant.",
+  "es": "En Nueva Jersey, un propietario no puede desalojarlo ni negarse a renovar su contrato, escrito u oral, sin una causa justificada legal, debe dar un aviso escrito de desalojo (Notice to Quit) por toda causa excepto la falta de pago del alquiler, y solo puede sacarlo mediante una sentencia judicial y una orden de desalojo."
+ }
+}

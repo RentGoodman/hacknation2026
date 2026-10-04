@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D024:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 856,
+  "output_tokens": 176
+ },
+ "result": {
+  "en": "Over any 12-month period, a California owner can't raise a unit's rent by more than 5% plus the regional cost-of-living change or 10%, whichever is lower, with no more than 2 increases in 12 months for the same tenant.",
+  "es": "En cualquier período de 12 meses, un propietario en California no puede subir la renta de una unidad más de 5% más el cambio regional del costo de vida o 10%, lo que sea menor, con no más de 2 aumentos en 12 meses para el mismo inquilino."
+ }
+}

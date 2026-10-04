@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "DX06:c7",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 6023,
+  "output_tokens": 841
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "The ordinance authorizes the city solicitor to bring enforcement actions and provides for civil penalties of up to $500 per day per violation, as well as costs and attorney fees in a successful enforcement action.",
+    "note": "Prohibition on rent-setting algorithms, solicitor enforcement, and penalties plus costs and fees are all stated. The table says \"Prohibits the use of rent-setting algorithms\", and the text says \"ban on algorithmic rent-setting devices\"."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "provides for civil penalties of up to $500 per day per violation, as well as costs and attorney fees in a successful enforcement action.",
+    "note": "Matches the key value exactly."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The rule's effective_date field is empty. The document gives only \"effective May 2025\", which appears in current_version_effective and in_force_since, not in effective_date. The empty field is consistent with the month-only source."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "Providence Code of Ordinances ch. 13, art. X, §§ 13-69–13-73 (effective May 2025)",
+    "note": "The ordinance took effect in May 2025, and the document describes an active enforcement action under it dated August 2026, so in_force is supported."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "Providence Code of Ordinances ch. 13, art. X, §§ 13-69–13-73 (effective May 2025) | Prohibits the use of rent-setting algorithms; the city expressly linked the measure to software such as RealPage",
+    "note": "The coverage summary is a citywide ordinance with no stated limits on building, unit count, construction date, owner occupancy or landlord size, and says coverage cannot be confirmed without the ordinance text. The document states no such limits, and the null fields are consistent with that."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "under Providence Code § 13-70, alleging that Audubon used a dynamic pricing system to coordinate rental prices at 95 Lofts in violation of the city's ban on algorithmic rent-setting devices.",
+    "note": "§ 13-70 is cited as the basis for the claims. The aliases ch. 13, art. X, §§ 13-69–13-73, § 13-71 and § 13-72 also appear in the document."
+   }
+  ]
+ }
+}

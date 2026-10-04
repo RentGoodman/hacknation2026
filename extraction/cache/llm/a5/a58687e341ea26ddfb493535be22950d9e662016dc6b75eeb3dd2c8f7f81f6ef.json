@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "DX02:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 934,
+  "output_tokens": 259
+ },
+ "result": {
+  "en": "In Jersey City, landlords and their agents cannot use a service that collects and analyzes rental market data to recommend rents, lease terms or occupancy levels, and violators can be fined $100 to $2,000 for repeat violations, with each day counted separately, and sued by injured people who can recover costs and attorney fees.",
+  "es": "En Jersey City, los arrendadores y sus agentes no pueden usar un servicio que recopila y analiza datos del mercado de alquileres para recomendar precios, condiciones de contrato u ocupación, y los infractores pueden recibir multas de $100 a $2,000 por infracciones posteriores, contando cada día por separado, y las personas perjudicadas pueden demandar y recuperar costos y honorarios de abogado."
+ }
+}

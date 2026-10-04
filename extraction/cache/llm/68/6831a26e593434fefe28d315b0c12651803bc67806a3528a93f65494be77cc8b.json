@@ -1,0 +1,64 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "extract",
+ "subject": "D053",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 1020,
+  "output_tokens": 1240
+ },
+ "result": {
+  "rules": [
+   {
+    "candidate_id": "c1",
+    "jurisdiction": "MA",
+    "category": "just_cause_eviction",
+    "status": "in_force",
+    "title": "Reprisal protections for tenants (G.L. c. 186, § 18)",
+    "requirement": "A landlord or agent may not threaten or take reprisals against a tenant for enforcing housing laws through judicial or administrative action, reporting code violations to the board of health or other authority or in writing to the landlord, or organizing or joining a tenants' union. Receipt of a notice of termination of tenancy (except for nonpayment of rent), a rent increase, or a substantial alteration of tenancy terms within six months after the protected activity creates a rebuttable presumption of reprisal, rebuttable only by clear and convincing evidence of independent justification. Lease waivers are void.",
+    "key_value": "Damages of 1 to 3 months' rent or actual damages, whichever is greater, plus costs and reasonable attorney's fees; 6-month rebuttable presumption of reprisal; rebuttal by clear and convincing evidence",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Applies to tenants of residential premises; no unit-count, age or owner-occupancy limits stated.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": null
+    },
+    "exemptions": "Presumption does not apply to notices of termination for nonpayment of rent.",
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": null,
+    "effective_date_formula": null,
+    "citation": "G.L. c. 186, § 18",
+    "citation_aliases": [
+     "M.G.L. c. 186, § 18",
+     "Massachusetts General Laws Part II, Title I, Chapter 186, Section 18"
+    ],
+    "quoted_span": "The receipt of any notice of termination of tenancy, except for nonpayment of rent, or, of increase in rent, or, of any substantial alteration in the terms of tenancy within six months after the tenant has commenced, proceeded with, or obtained relief in such action, exercised such rights, made such report or complaint, or organized or joined such tenants' union or within six months after any other person has taken such action or actions on behalf of the tenant or in, or relating to, the building in which the tenant resides, shall create a rebuttable presumption that such notice or other action is a reprisal against the tenant for engaging in such activities.",
+    "confidence": 0.85,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "Document gives no effective or enactment date. Reprisal protection is tied to eviction/termination notices, so it is categorized as just_cause_eviction; it is not a just-cause rule listing allowed eviction causes.",
+    "source_notes": null
+   }
+  ],
+  "no_rule_findings": [],
+  "doc_summary": "Text of Massachusetts G.L. c. 186, § 18, which bars landlord reprisals against tenants who enforce housing laws, report code violations, or organize or join tenants' unions. It sets damages of 1 to 3 months' rent or actual damages plus fees, creates a six-month rebuttable presumption of reprisal for termination notices (other than for nonpayment), rent increases or substantial changes in terms, and voids lease waivers."
+ }
+}

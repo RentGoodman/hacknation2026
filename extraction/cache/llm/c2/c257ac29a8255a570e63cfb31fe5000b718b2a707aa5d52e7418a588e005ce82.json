@@ -1,0 +1,38 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "probe",
+ "subject": "Boston, MA",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 18692,
+  "output_tokens": 774
+ },
+ "result": {
+  "verdicts": [
+   {
+    "category": "security_deposits",
+    "verdict": "undetermined",
+    "doc_id": null,
+    "quoted_span": null,
+    "basis_citation": null,
+    "reason": "None of the Boston documents (D010–D014) address security deposits, and none say there is no rule. Retrieved passage D052 describes a security deposit statute (treble damages, 5% interest), but the passage does not name its jurisdiction. Even if it applied to Boston, it would show a rule exists rather than support no_rule."
+   },
+   {
+    "category": "application_screening_fees",
+    "verdict": "undetermined",
+    "doc_id": null,
+    "quoted_span": null,
+    "basis_citation": null,
+    "reason": "The Boston documents do not mention application or screening fees. The retrieved fee passages cover California and Berkeley rules (D005, D026, DX08). DX13 discusses broker fees, not screening fees. Nothing establishes whether Boston has or lacks such a rule."
+   },
+   {
+    "category": "algorithmic_rent_setting",
+    "verdict": "undetermined",
+    "doc_id": null,
+    "quoted_span": null,
+    "basis_citation": null,
+    "reason": "No document addresses algorithmic rent-setting in Boston or Massachusetts. The retrieved passages cover Berkeley, California state law, Santa Ana and San Diego only, so the documents do not settle it."
+   }
+  ]
+ }
+}

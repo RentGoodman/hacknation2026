@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D031:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 4628,
+  "output_tokens": 839
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "For new tenancies, the Guide must be provided when a tenant signs a lease or enters into a tenancy agreement for the first time or tenders the first month’s rent. The Ordinance also requires that a landlord provide the Guide to tenants when legal steps to terminate a tenancy are taken (ex. Notice to Quit or Summary Process).",
+    "note": "All elements are in the FAQ: tenants at will, renewals, no signed receipt, no bar on eviction, same-time offer, and the $300 daily fine. The § 8.71.070 reference is also in the document."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "You may be fined $300 for each day’s violation.",
+    "note": "Guide timing at tenancy start and with a notice to quit or summary process is also stated. The fine is described as possible (\"may be fined\")."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The field is empty. The document gives no effective date, only page posting and modification dates, which the effective_date_note correctly says are not the effective date."
+   },
+   {
+    "field": "status",
+    "verdict": "partly_supported",
+    "quoted_span": "The Ordinance requires owners, landlords, and management companies to provide you with information at the start of your lease or tenancy as well as when your tenancy is being terminated.",
+    "note": "The present-tense language implies the ordinance is currently in force, but the document never states its status explicitly."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "Yes, this Ordinance does NOT apply to: rental units in a hospital, skilled nursing facility or health facility or in a non-profit facility that has the primary purpose of providing short term assistance, treatment, assistance or therapy for alcohol, drug or other substance abuse.",
+    "note": "The single-unit owner-occupant coverage, the tenant at will coverage, and the Short Term Rental Unit exclusion under Art. 4, § 4.60 are all stated in the FAQ."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "The City of Cambridge Tenants Rights and Resources Ordinance, Chapter 8.71 of the Cambridge Municipal Code",
+    "note": "The aliases are also supported: Sec 8.71.030 is the definitions section and Section 8.71.070 is \"Violation Penalty\". The page title uses \"Tenants Rights and Resources Notification Ordinance\"."
+   }
+  ]
+ }
+}

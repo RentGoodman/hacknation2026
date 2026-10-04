@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D081:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 2019,
+  "output_tokens": 685
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "partly_supported",
+    "quoted_span": "The law prohibits the sale or use of algorithmic devices to set rents or manage occupancy levels for residential units in San Francisco.",
+    "note": "Prohibition, definition and civil action by tenant or City Attorney are supported by D081. The penalty amounts ($1,000 per violation, damages, injunctive relief) and the unit-month violation language are not in D081; they come only from the secondary source DX06, which is not in the document provided."
+   },
+   {
+    "field": "key_value",
+    "verdict": "partly_supported",
+    "quoted_span": "allows a tenant or the City Attorney to bring a civil action if they believe an entity is in violation of the law.",
+    "note": "The ban, nonpublic competitor data, civil action and Oct. 14, 2024 effective date are supported. The $1,000 per violation and each unit-month separate violation are not in D081."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "supported",
+    "quoted_span": "adding Section 37.10C to the Rent Ordinance went into effect on October 14, 2024.",
+    "note": null
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "adding Section 37.10C to the Rent Ordinance went into effect on October 14, 2024.",
+    "note": "Law went into effect; the document gives no indication it has been repealed or suspended."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "The law prohibits the sale or use of algorithmic devices to set rents or manage occupancy levels for residential units in San Francisco.",
+    "note": "The document states no size, construction-date, owner or landlord-size limits, consistent with the coverage summary."
+   },
+   {
+    "field": "citation",
+    "verdict": "partly_supported",
+    "quoted_span": "adding Section 37.10C to the Rent Ordinance went into effect on October 14, 2024.",
+    "note": "Section 37.10C of the Rent Ordinance is supported. The 'S.F. Admin. Code' designation, chapter 37 and the subsection cites (b), (d) are not stated in the document."
+   }
+  ]
+ }
+}

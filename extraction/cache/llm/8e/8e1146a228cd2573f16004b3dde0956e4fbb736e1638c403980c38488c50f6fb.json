@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D026:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 4325,
+  "output_tokens": 1844
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "In no case shall the amount of the application screening fee charged by the landlord or their agent be greater than thirty dollars ($30) per applicant.",
+    "note": "The statute supports every listed element: the cost-based fee limit, the CPI adjustment, the no-unit-available bar, options (A) and (B), the receipt, the return of unused amounts, the credit report copy within 7 days, the reusable report, and the fact that the fee is not 'security'."
+   },
+   {
+    "field": "key_value",
+    "verdict": "partly_supported",
+    "quoted_span": "The thirty dollar ($30) application screening fee may be adjusted annually by the landlord or their agent commensurate with an increase in the Consumer Price Index, beginning on January 1, 1998.",
+    "note": "The $30 base cap, CPI adjustment, option (B) refund timing, credit report copy within 7 days, and itemized receipt are all in the statute. The Berkeley Rent Board $68.96 figure for 2026 is not in this document. The statement that the statute has no official 2026 figure is consistent with the text."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "supported",
+    "quoted_span": "Effective January 1, 2026.",
+    "note": "The current text, as amended by AB 1170, is effective 2026-01-01. The statute does not say when the fee cap first took effect, and the rule's own note acknowledges this."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "Amended by Stats. 2025, Ch. 67, Sec. 29.",
+    "note": "The section is presented as current code, amended effective January 1, 2026, with no repeal or sunset."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "As used in this section, “landlord” means an owner of residential rental property.",
+    "note": "The statute applies to landlords and their agents, and to applicants including guarantors and cosigners under subd. (j). It sets no unit-count, construction-date or owner-size limits. Subd. (l) carves out federal and state housing assistance programs."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "CIV 1950.6",
+    "note": "The document identifies the section as Civil Code 1950.6, in Division 3, Part 4, Title 5, Chapter 2, amended by Stats. 2025, Ch. 67, Sec. 29 (AB 1170), which matches the aliases."
+   }
+  ]
+ }
+}

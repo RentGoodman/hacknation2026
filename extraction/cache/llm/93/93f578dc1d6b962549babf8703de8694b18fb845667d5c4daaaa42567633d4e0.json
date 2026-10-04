@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "DX01:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 4428,
+  "output_tokens": 726
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "Landlords who rent any residential dwelling unit (defined as any primary residence excluding medical/long-term care or detention facilities) in the City of Hoboken are prohibited from price fixing using algorithmic pricing.",
+    "note": "Requirement tracks the ordinance text on prohibition, definitions, 365-day nonpublic information, enforcement by Division of Housing or aggrieved private citizen in Municipal Court, and penalties."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "By a fine not exceeding $2,000.00; or,",
+    "note": "Penalties (N.J.S.A. 40:49-5, fine up to $2,000, community service up to 90 days) and the 365-day nonpublic information definition are all in the text."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "Field is empty. The document gives only 'immediately upon passage and publication' with no publication date, so leaving the exact date null is consistent."
+   },
+   {
+    "field": "status",
+    "verdict": "partly_supported",
+    "quoted_span": "RESULT:ADOPTED [UNANIMOUS]",
+    "note": "The document shows adoption on Jul 9, 2025 and an immediate-effect clause, but does not itself confirm the ordinance is currently in force; publication is not shown."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "Landlords who rent any residential dwelling unit (defined as any primary residence excluding medical/long-term care or detention facilities) in the City of Hoboken",
+    "note": "No unit-count, building-age, or landlord-size thresholds appear in the text, consistent with the null fields and summary."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "Ordinance Amending and Supplementing Chapter 158 (Rent Increases) of the Hoboken City Code by Adding a New Section 158-2",
+    "note": "The title supports § 158-2; the body heading '§ 154-8' supports the alias, and Section Five allows renumbering at codification. The alias 'ch. 158-2' is not in this document."
+   }
+  ]
+ }
+}

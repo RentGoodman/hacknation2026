@@ -1,0 +1,62 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D036:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 17796,
+  "output_tokens": 2040
+ },
+ "result": {
+  "coverage": {
+   "min_units": 5,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": false,
+   "unverifiable_exemptions": [
+    "Other exemptions permitted by Chapter 260, granted on a Rent Control Exemption Request reviewed by the Office of Landlord/Tenant Relations (criteria not stated in the captured source)"
+   ],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Covers rental properties with 5 or more units. All 1-4 unit properties are exempt. The ordinance provides further exemptions that an owner may claim through a Rent Control Exemption Request; the captured page does not state their criteria.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": null,
+   "other_conditions": "Further exemptions require a Rent Control Exemption Request and review by the Office."
+  },
+  "evidence": [
+   {
+    "field": "min_units",
+    "doc_id": "D036",
+    "quoted_span": "All 1-4 Unit Properties are exempt from rent control"
+   },
+   {
+    "field": "requires_unknown_facts",
+    "doc_id": "D036",
+    "quoted_span": "The Rent Control Ordinance provides certain exemptions from rent regulation."
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D036",
+    "quoted_span": "can be submitted for the Office's review if a property owner meets the criteria for one of the permitted exemptions."
+   },
+   {
+    "field": "summary",
+    "doc_id": "D036",
+    "quoted_span": "All 1-4 Unit Properties are exempt from rent control"
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D036",
+    "quoted_span": "can be submitted for the Office's review if a property owner meets the criteria for one of the permitted exemptions."
+   }
+  ],
+  "notes": "Changed requires_unknown_facts from true to false. Chapter 260 covers ordinary rental buildings of 5 or more units. Its other exemptions, which owners claim by request, cannot be checked by address lookup, so they belong in unverifiable_exemptions; they do not limit the rule to a class of buildings that assessor data cannot identify. min_units=5 is inferred from the page's statement that all 1-4 unit properties are exempt. No construction-date, owner-occupancy or new-construction limits appear in the captured source. DX02, DX04, DX06 and DX11 concern the separate algorithmic rent-fixing ordinance (§218-12) and do not bear on Chapter 260 coverage."
+ }
+}

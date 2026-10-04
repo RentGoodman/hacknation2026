@@ -1,0 +1,17 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "cell",
+ "subject": "Hoboken, NJ|rent_increase_limits",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 5066,
+  "output_tokens": 196
+ },
+ "result": {
+  "cell_status": "silent",
+  "no_rule_quote": null,
+  "no_rule_passage_id": null,
+  "basis_citation": null,
+  "rules": []
+ }
+}

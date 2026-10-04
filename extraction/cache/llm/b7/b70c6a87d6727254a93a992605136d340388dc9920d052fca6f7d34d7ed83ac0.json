@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D043:c3",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 935,
+  "output_tokens": 219
+ },
+ "result": {
+  "en": "If an owner demolishes your rent-controlled or just-cause-protected unit for new construction within 5 years after filing an eviction or withdrawal notice, they must pay you relocation money, with enhanced amounts for lower-income households, and face penalties starting at $250,000 per displaced unit.",
+  "es": "Si un propietario demuele su unidad protegida para construir algo nuevo dentro de 5 años después de presentar un aviso de desalojo o de retiro, debe pagarle una compensación de reubicación, con montos mayores para hogares de bajos ingresos, y enfrenta multas desde $250,000 por unidad desplazada."
+ }
+}

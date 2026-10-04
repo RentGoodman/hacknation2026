@@ -1,0 +1,123 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "extract",
+ "subject": "DX03",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 1371,
+  "output_tokens": 2882
+ },
+ "result": {
+  "rules": [
+   {
+    "candidate_id": "c1",
+    "jurisdiction": "MA",
+    "category": "rent_increase_limits",
+    "status": "failed",
+    "title": "Initiative Petition 25-21 (An Initiative Petition to Protect Tenants by Limiting Rent Increases)",
+    "requirement": "Proposed statewide ballot measure that would strike G.L. c. 40P (the state prohibition on rent control) and cap any annual rent increase for covered dwelling units at the lower of the annual increase in the Consumer Price Index or five percent. The SJC held the petition relates to religion because of its exemption for facilities operated solely for religious purposes, so art. 48 bars it from the November 2026 ballot. The court remanded for a judgment declaring the petition noncompliant and enjoining placement on the ballot.",
+    "key_value": "Annual rent increase cap: the lower of the annual CPI increase or 5%",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": true,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Applies to all 'covered dwelling units'; excludes several categories, including facilities operated solely for educational, religious, or nonprofit purposes.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": "Facilities operated solely for educational, religious, or nonprofit purposes are excluded from 'covered dwelling units'. The opinion says the petition excludes 'several categories' but names only this one."
+    },
+    "exemptions": "Facilities operated solely for educational, religious, or nonprofit purposes; other excluded categories are not itemized in the opinion.",
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "Never took effect. SJC decision dated June 23, 2026 bars placement on the November 2026 ballot.",
+    "effective_date_formula": null,
+    "citation": "Initiative Petition 25-21",
+    "citation_aliases": [
+     "Cella v. Attorney General, SJC-13893",
+     "An Initiative Petition to Protect Tenants by Limiting Rent Increases",
+     "Art. 48 of the Amendments to the Massachusetts Constitution"
+    ],
+    "quoted_span": "the annual increase in Consumer Price Index or [five percent], whichever is lower",
+    "confidence": 0.9,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "Secondary description of the petition's terms in a court opinion; the petition's full text is not reproduced.",
+    "source_notes": null
+   },
+   {
+    "candidate_id": "c2",
+    "jurisdiction": "MA",
+    "category": "rent_increase_limits",
+    "status": "in_force",
+    "title": "Massachusetts statewide prohibition on rent control (G.L. c. 40P)",
+    "requirement": "State law broadly prohibits any regulatory scheme based on or implementing rent control. Rent control is defined to include any regulation that in any way requires below-market rents for residential properties.",
+    "key_value": null,
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": false,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": true,
+     "landlord_size_condition": null,
+     "summary": "Statewide bar on rent control for residential properties.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": null
+    },
+    "exemptions": null,
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "The opinion does not state the effective date of c. 40P.",
+    "effective_date_formula": null,
+    "citation": "G.L. c. 40P, § 2",
+    "citation_aliases": [
+     "G.L. c. 40P",
+     "G.L. c. 40P, § 3",
+     "G.L. c. 40P, § 4"
+    ],
+    "quoted_span": "broadly prohibits any regulatory scheme based upon or implementing rent control.",
+    "confidence": 0.8,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "Described only through the court's quotation of prior case law. Statute text is not reproduced.",
+    "source_notes": "The SJC describes c. 40P as the law Initiative Petition 25-21 would strike."
+   }
+  ],
+  "no_rule_findings": [
+   {
+    "jurisdiction": "MA",
+    "category": "rent_increase_limits",
+    "finding": "Massachusetts law prohibits rent control statewide, so local rent control is barred. The failed Initiative Petition 25-21 would have ended this prohibition.",
+    "kind": "no_rule",
+    "quoted_span": "broadly prohibits any regulatory scheme based upon or implementing rent control.",
+    "basis_citation": "G.L. c. 40P, § 2"
+   }
+  ],
+  "doc_summary": "Massachusetts SJC opinion (Cella v. Attorney General, SJC-13893, decided June 23, 2026) holding that Initiative Petition 25-21, which would repeal the G.L. c. 40P ban on rent control and cap annual rent increases at the lower of CPI or 5%, cannot go on the November 2026 ballot. The petition's exemption for facilities operated solely for religious purposes makes it relate to religion, an excluded matter under art. 48. The opinion also describes c. 40P as a broad statewide prohibition on rent control."
+ }
+}

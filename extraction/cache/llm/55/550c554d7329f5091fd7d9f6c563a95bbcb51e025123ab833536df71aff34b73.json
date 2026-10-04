@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D022:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 4318,
+  "output_tokens": 1276
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "partly_supported",
+    "quoted_span": "It shall be unlawful for a person to use or distribute a common pricing algorithm as part of a contract, combination in the form of a trust, or conspiracy to restrain trade or commerce in violation of this chapter.",
+    "note": "The prohibitions, definitions, § 16756.1 pleading standard and the savings clause are all in the text. The statement that apartment rental companies were targets of federal algorithmic pricing claims (per Cleary Gottlieb) is not in this document. The text says 'coerces another person to set or adopt', which the rule paraphrases."
+   },
+   {
+    "field": "key_value",
+    "verdict": "partly_supported",
+    "quoted_span": "the violation of which is punishable as a crime",
+    "note": "The ban and the criminal punishability are supported. The specific fine amounts ($6M, $1M, twice the gain or loss, civil fines up to $1M) and the SB 763 reference are not in this document."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_supported",
+    "quoted_span": null,
+    "note": "The document gives only the approval and filing date (October 6, 2025) and states no operative date. The January 1, 2026 date is not stated here."
+   },
+   {
+    "field": "status",
+    "verdict": "not_supported",
+    "quoted_span": null,
+    "note": "The document is a chaptered bill and does not say the rule is in force. It gives only approval and filing dates."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "“Person” has the same meaning as defined in Section 16702 and does not include the end consumer of a product or service.",
+    "note": "The text applies to any 'person' except end consumers and contains no limits on building type, unit count, construction date or owner type. It does not mention housing, so the application to landlords is an inference."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "16729.\n(a) It shall be unlawful for a person to use or distribute a common pricing algorithm",
+    "note": "The text adds Section 16729 to the Business and Professions Code. The chaptered bill is AB 325, Chapter 338, and it also adds § 16756.1."
+   }
+  ]
+ }
+}

@@ -1,0 +1,235 @@
+{
+  "repairs": [],
+  "dropped": [
+    {
+      "jurisdiction": "Hoboken, NJ",
+      "known_gap": {
+        "category": "algorithmic_rent_setting",
+        "law": "Hoboken City Code ch. 154 (Rental housing)",
+        "reason": "DX20 cross-references ch. 154, and the algorithmic ordinance's body heading reads § 154-8. The codified text (code publisher pages D033/D034) is link-only, so the codified section number and any other ch. 154 rental rules are not captured."
+      }
+    }
+  ],
+  "coverage_discarded": [
+    {
+      "rule": "DX21:c1",
+      "field": "unverifiable_exemptions",
+      "value": [
+        "Newly constructed multiple dwellings certified exempt by the Rent Control Board, for the shorter of the initial mortgage amortization period or 30 years",
+        "Dwellings vacant for at least 18 months (or already vacant) and substantially rehabilitated at a cost above 50% of fair market value, exempt for 5 years on Board determination",
+        "Units rehabilitated under Federal/State Rental Rehabilitation Programs receiving Section 8 subsidies or Federal housing vouchers, during program tenure",
+        "Units under a landlord contract with a governmental agency that regulates rent and supersedes city authority"
+      ]
+    }
+  ],
+  "merge_check": [],
+  "evidence_corrections": [
+    {
+      "kind": "derived_rule",
+      "citation": "N.J.S.A. 2A:18-61.1(f)",
+      "evidence_doc_id": "D067"
+    },
+    {
+      "kind": "false_preemption_coverage_removed",
+      "citation": "Cal. Civ. Code § 1946.2"
+    },
+    {
+      "kind": "false_preemption_coverage_removed",
+      "citation": "Cal. Civ. Code § 1947.9"
+    },
+    {
+      "kind": "nj_new_construction_exemption",
+      "citation": "Jersey City Code ch. 260",
+      "evidence_doc_id": "D067"
+    },
+    {
+      "kind": "date",
+      "citation": "Berkeley Mun. Code § 13.63.030",
+      "before": null,
+      "after": "2026-03-01",
+      "evidence_doc_id": "BRIEF"
+    },
+    {
+      "kind": "date",
+      "citation": "Cal. Bus. & Prof. Code § 16729",
+      "before": null,
+      "after": "2026-01-01",
+      "evidence_doc_id": "DX09"
+    },
+    {
+      "kind": "date",
+      "citation": "L.A. Mun. Code § 151.09",
+      "before": null,
+      "after": "2023-01-27",
+      "evidence_doc_id": "D040"
+    },
+    {
+      "kind": "date",
+      "citation": "N.J.S.A. 2A:18-61.1",
+      "before": null,
+      "after": "1974",
+      "evidence_doc_id": "D065"
+    },
+    {
+      "kind": "date",
+      "citation": "Jersey City Code § 218-12",
+      "before": null,
+      "after": "2025-06",
+      "evidence_doc_id": "DX06"
+    },
+    {
+      "kind": "date",
+      "citation": "Berkeley Mun. Code ch. 13.106",
+      "before": null,
+      "after": "2020",
+      "evidence_doc_id": "D003"
+    },
+    {
+      "kind": "date",
+      "citation": "Cal. Code Regs. tit. 2, § 12264",
+      "before": null,
+      "after": "2020-01-01",
+      "evidence_doc_id": "DX07"
+    },
+    {
+      "kind": "date",
+      "citation": "Hoboken City Code § 158-2",
+      "before": null,
+      "after": "2025-07",
+      "evidence_doc_id": "DX06"
+    },
+    {
+      "kind": "date",
+      "citation": "G.L. c. 186, § 15B",
+      "before": null,
+      "after": "2025-08-01",
+      "evidence_doc_id": "D052"
+    },
+    {
+      "kind": "date",
+      "citation": "S.F. Admin. Code § 37.9C",
+      "before": "2026-03-01",
+      "after": "2026-03-01",
+      "evidence_doc_id": "D083"
+    },
+    {
+      "kind": "key_value",
+      "citation": "Berkeley Mun. Code § 13.63.030",
+      "before": "Civil penalties up to $1,000 per violation; each month and each unit is a separate violation; Competitor Data = nonpublic data less than 90 days old; mandatory attorney's fees to a prevailing City Attorney or tenant",
+      "after": "Ban on selling or using coordinated pricing algorithms to set rents or occupancy levels",
+      "evidence_doc_id": "D001"
+    },
+    {
+      "kind": "key_value",
+      "citation": "L.A. Mun. Code § 151.09",
+      "before": "Chart A (7/1/2026-6/30/2027), per unit:\n- Eligible: $11,000 (<3 yrs) / $14,400 (3+ yrs or low income)\n- Qualified: $23,150 / $27,400\n- Mom & Pop, owner or family occupancy only: $10,550 eligible / $21,250 qualified\nAmounts increase every July 1.\nOther terms:\n- relocation paid within 15 days\n- Declaration of Intent to Evict filed before notice\n- notice copy filed with LAHD within 3 business days\n- 30/60-day notice (120 days or 1-year extension for some)\n- $75 owner/relative/manager occupancy declaration fee\n- nonpayment eviction only above FMR (from 3/27/2023)\n- Right to Counsel notice from 8/20/2025",
+      "after": "Eviction only for an RSO just cause; no-fault evictions require relocation assistance",
+      "evidence_doc_id": "D041"
+    },
+    {
+      "kind": "key_value",
+      "citation": "N.J.S.A. 2A:18-61.1",
+      "before": "Notice to Quit periods: 3 days (disorderly conduct, damage, employment end, criminal offenses); 1 month (rule/lease breach, rent increase, lease changes, habitual late payment); 2 months (post-conversion/small-building owner or buyer occupancy); 3 months (health and safety removal); 18 months (retirement from residential use); 3 years (conversion). Relocation assistance for illegal occupancy: 6x monthly rent.",
+      "after": "Eviction or nonrenewal only for a statutory good cause",
+      "evidence_doc_id": "D067"
+    },
+    {
+      "kind": "key_value",
+      "citation": "Jersey City Code § 218-12",
+      "before": null,
+      "after": "Ban on landlord use of algorithmic rent coordination services; fines up to $2,000 per day",
+      "evidence_doc_id": "DX02"
+    },
+    {
+      "kind": "key_value",
+      "citation": "Berkeley Mun. Code ch. 13.106",
+      "before": "Administrative fines of $1,000 to $10,000 per violation; civil damages of actual damages or 3x one month's rent; punitive damages; attorneys' fees and costs; injunctive relief",
+      "after": "No criminal-history inquiries or use in rental housing decisions",
+      "evidence_doc_id": "D003"
+    },
+    {
+      "kind": "key_value",
+      "citation": "Hoboken City Code § 158-2",
+      "before": "Penalties on conviction, one or more of: N.J.S.A. 40:49-5 penalties; fine up to $2,000; community service up to 90 days. Nonpublic competitor information = data less than 365 days old and not publicly available at no cost.",
+      "after": "Ban on software, algorithms or data-sharing platforms that coordinate rents, lease terms or occupancy",
+      "evidence_doc_id": "DX01"
+    },
+    {
+      "kind": "key_value",
+      "citation": "N.J.S.A. 2A:42-10.10",
+      "before": null,
+      "after": "No eviction, substantial lease change or refusal to renew in retaliation for protected tenant activity",
+      "evidence_doc_id": "D067"
+    },
+    {
+      "kind": "key_value",
+      "citation": "L.A. Mun. Code § 47.06",
+      "before": null,
+      "after": "Relocation assistance required when a rental property is demolished or converted",
+      "evidence_doc_id": "D043"
+    },
+    {
+      "kind": "key_value",
+      "citation": "L.A. Ord. No. 188481",
+      "before": "Chart B (7/1/2026-6/30/2027): Extremely Low $115,480; Very Low $96,750; Low $87,450; above low income per Chart A. Penalties from $250,000 per displaced unit. RSO/JCO base amounts paid within 15 days.",
+      "after": "Protected-unit demolition requires relocation, notice and occupant protections; the highest applicable state or city relocation amount must be paid",
+      "evidence_doc_id": "D043"
+    },
+    {
+      "kind": "key_value",
+      "citation": "S.D. Mun. Code § 98.1103",
+      "before": "Civil penalties up to $1,000 per violation; each month and each property is a separate violation; prevailing tenant recovers costs and attorney's fees; effective 30 days after final passage",
+      "after": "Ban on providing or using algorithmic devices that set rents or occupancy from nonpublic competitor data",
+      "evidence_doc_id": "D076"
+    },
+    {
+      "kind": "key_value",
+      "citation": "Santa Ana Ord. NS-3090",
+      "before": "Civil penalties up to $1,000 per violation (per month, per law-firm alert) plus attorney's fees; private tenant action; effective April 2, 2026",
+      "after": "Ban on selling, licensing, providing or using algorithmic rent-setting software for residential rentals",
+      "evidence_doc_id": "DX06"
+    },
+    {
+      "kind": "key_value",
+      "citation": "S.F. Admin. Code § 37.9C",
+      "before": "Notices served 3/1/2026-2/28/2027: $8,245.00 per tenant; $24,733.00 max per unit; plus $5,497.00 per elderly (60+) or disabled tenant or household with minor child(ren). Prior period: $8,062.00 / $24,184.00 / $5,375.00. Displacement under 20 days (Civ. Code § 1947.9): $446.00/day per household plus actual moving expenses.",
+      "after": "Landlord must pay relocation to tenants evicted for owner/relative move-in, demolition or permanent removal, temporary capital improvement work or substantial rehabilitation: $8,245.00 per tenant, max $24,733.00 per unit, plus $5,497.00 per elderly (60+) or disabled tenant or household with minor children (notices served 3/1/2026-2/28/2027)",
+      "evidence_doc_id": "D083"
+    },
+    {
+      "kind": "key_value",
+      "citation": "Santa Ana Ordinance on algorithmic rent-setting software (first reading Feb. 17, 2026)",
+      "before": "Civil penalties up to $1,000 per violation, plus attorney's fees; injunctive relief and damages available to affected tenants",
+      "after": "Proposed ban on selling, licensing, providing or using algorithmic rent-setting software for residential rentals",
+      "evidence_doc_id": "DX19"
+    },
+    {
+      "kind": "false_preemption_removed",
+      "citation": "L.A. Mun. Code § 151.09"
+    },
+    {
+      "kind": "false_preemption_removed",
+      "citation": "S.F. Admin. Code § 37.9(a)"
+    },
+    {
+      "kind": "false_preemption_removed",
+      "citation": "Santa Ana Just Cause Eviction Ordinance"
+    },
+    {
+      "kind": "false_preemption_removed",
+      "citation": "Berkeley Mun. Code § 13.76.130"
+    },
+    {
+      "kind": "false_preemption_removed",
+      "citation": "L.A. Mun. Code § 165.03"
+    },
+    {
+      "kind": "false_preemption_removed",
+      "citation": "S.D. Mun. Code § 98.0704"
+    }
+  ],
+  "conflict_flags": {
+    "final": 6
+  },
+  "cells": {}
+}

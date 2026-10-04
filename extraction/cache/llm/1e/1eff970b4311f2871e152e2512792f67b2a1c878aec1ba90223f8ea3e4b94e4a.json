@@ -1,0 +1,66 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "extract",
+ "subject": "D026",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 2070,
+  "output_tokens": 1274
+ },
+ "result": {
+  "rules": [
+   {
+    "candidate_id": "c1",
+    "jurisdiction": "CA",
+    "category": "application_screening_fees",
+    "status": "in_force",
+    "title": "California application screening fee limits",
+    "requirement": "A landlord or agent may charge an applicant a screening fee only to cover actual out-of-pocket costs of gathering information (including screening service or credit report costs and reasonable value of time), capped at $30 per applicant, adjustable annually by CPI from January 1, 1998. No fee may be charged if the landlord knows or should know no unit is or will soon be available. A fee may be charged only if the landlord offers either a first-come-first-served screening process (criteria given in writing, first qualified applicant approved, fee charged only when the application is actually considered, with a 7-day refund for inadvertent concurrent collection) or a process returning the entire fee to any applicant not selected within 7 days of selecting a tenant or 30 days of application, whichever is first. The landlord must give an itemized receipt, return any unused fee if no reference check or credit report is obtained, and give the applicant a copy of the credit report within 7 days of receipt. Reusable screening reports under § 1950.1 may be accepted.",
+    "key_value": "$30 per applicant max (CPI-adjustable annually since Jan. 1, 1998); refund within 7 days (concurrent submissions) or within 7 days of selection/30 days of submission, whichever first; credit report copy within 7 days",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Applies to landlords (owners of residential rental property) and their agents charging applicants, including guarantors/cosigners, for residential rental units. Not intended to preempt rules for federal or state housing assistance programs.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": "Does not preempt provisions governing deposits and fees under federal or state housing assistance programs."
+    },
+    "exemptions": null,
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": "2026-01-01",
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "Current version as amended by Stats. 2025, Ch. 67 (AB 1170), effective January 1, 2026; the section's fee cap dates from earlier law (CPI adjustment beginning 1998).",
+    "effective_date_formula": null,
+    "citation": "Cal. Civ. Code § 1950.6",
+    "citation_aliases": [
+     "Cal. Civ. Code § 1950.6(b)",
+     "Civil Code section 1950.6",
+     "AB 1170",
+     "Stats. 2025, ch. 67, § 29"
+    ],
+    "quoted_span": "In no case shall the amount of the application screening fee charged by the landlord or their agent be greater than thirty dollars ($30) per applicant.",
+    "confidence": 0.93,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "The statute states the $30 base with CPI adjustment but no current adjusted dollar figure; the 2026 adjusted amount is not in this text.",
+    "source_notes": null
+   }
+  ],
+  "no_rule_findings": [],
+  "doc_summary": "Official text of California Civil Code § 1950.6 as amended by AB 1170 (effective Jan. 1, 2026), governing tenant application screening fees: $30 per applicant cap with CPI adjustment, availability and first-come or refund conditions, itemized receipts, return of unused fees, and credit report copies."
+ }
+}

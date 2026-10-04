@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D012:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 2585,
+  "output_tokens": 681
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "The landlord tells you they don't accept rental assistance. This includes Section\n8 vouchers, social security disability vouchers, and veterans vouchers.",
+    "note": "Discrimination in renting based on rental assistance is stated, as are the voucher types and the example. Complaints go to the commission (\"file a complaint\" with \"our office\", Fair Housing and Equity). The name \"Office of Fair Housing and Equity\" is slightly paraphrased from \"Fair Housing and Equity\"."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "In the City of Boston, it’s illegal to discriminate when renting, buying, selling, or securing financing for any housing.",
+    "note": "Rental assistance is a listed protected basis, and refusing rental assistance is given as an example of discrimination. The \"Section 8, SSDI and veterans vouchers\" wording matches the page."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The field is empty and the document states no enactment or effective date."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "In the City of Boston, it’s illegal to discriminate when renting, buying, selling, or securing financing for any housing.",
+    "note": "Present-tense language describes the rule as currently in force and enforced."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "In the City of Boston, it’s illegal to discriminate when renting, buying, selling, or securing financing for any housing.",
+    "note": "The summary matches the page. No unit-count, building-age or owner-occupancy limits or exemptions are stated, and the other coverage fields are correctly empty."
+   },
+   {
+    "field": "citation",
+    "verdict": "partly_supported",
+    "quoted_span": "Boston Fair Housing Regulations",
+    "note": "The page title and the Fair Housing Commission support the aliases. No ordinance or code section is cited in the document, which the citation itself acknowledges."
+   }
+  ]
+ }
+}

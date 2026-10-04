@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D067:c5",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 60728,
+  "output_tokens": 845
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "Tenants may be protected from eviction for 40 years \nif their family income is not more than three (3) times the average per person income in their \ncounty or $50,000.00, whichever  is greater",
+    "note": "Eligibility, 1-year residence, 40-year protection, notice duty, 60-day filing, conversion-cost rent bar, burden of proof on landlord for lease changes and Hudson County extension are all stated in the guide. The detail that veterans need a service-connected disability of 60% or more is a fair paraphrase of 'disabled at 60% or higher resulting from said service'."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "Generally, \napplications for protected tena ncy must be filed with the designated municipal official or the \nadministrative agent within 60 days",
+    "note": "40 years, 3x county per-person income or $50,000 (greater), 60-day filing, and the bar on conversion-only cost rent increases all appear in the document."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The field is empty and the guide states no effective date for these provisions."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "The Senior Citizens and Disabled Protected Tenancy Act protects senior citizens who meet \ncertain eligibility requirements",
+    "note": "The guide presents the Act in the present tense as current law, which is consistent with in_force. It gives no explicit statement of force or repeal."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "If a building is converted to a condominium or cooperative form of ownership, or to fee \nsimple ownership of units, rents may not be increased to cover cos ts resulting solely from the \nconversion",
+    "note": "Conversion trigger, one-year prior residence, the all-tenants rent bar, and Hudson County being the only qualified county are all supported (see 'This prohibition applies to all tenants in the building' and 'the only qualified county is Hudson County')."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "(N.J.S.A. 2A:18-61.22 to -61.39; N.J.A.C. 5:24-2.1 to -2.11)",
+    "note": "Primary citation 2A:18-61.22 is the start of the cited range. Aliases 61.28, 61.31, 61.40 to -61.59 and N.J.A.C. 5:24-3.1 to -3.4 also appear in the document."
+   }
+  ]
+ }
+}

@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D040:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 1171,
+  "output_tokens": 263
+ },
+ "result": {
+  "en": "In Los Angeles, landlords of covered non-RSO rentals cannot end a tenancy without just cause, and for no-fault evictions they must file a Declaration of Intent to Evict with LAHD first, pay relocation within 15 days of notice, and file every eviction notice with LAHD within 3 business days.",
+  "es": "En Los Ángeles, los propietarios de viviendas cubiertas no sujetas al RSO no pueden terminar un arrendamiento sin causa justificada, y en los desalojos sin culpa deben presentar primero una Declaración de Intención de Desalojar ante LAHD, pagar la reubicación dentro de 15 días del aviso y presentar todo aviso de desalojo ante LAHD dentro de 3 días hábiles."
+ }
+}

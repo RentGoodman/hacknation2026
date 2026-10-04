@@ -1,0 +1,65 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "extract",
+ "subject": "D042",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 1293,
+  "output_tokens": 2561
+ },
+ "result": {
+  "rules": [
+   {
+    "candidate_id": "c1",
+    "jurisdiction": "Los Angeles, CA",
+    "category": "rent_increase_limits",
+    "status": "in_force",
+    "title": "Los Angeles Rent Stabilization Ordinance (RSO) annual allowable rent increase",
+    "requirement": "Annual rent increases for units subject to the RSO are capped at a set percentage: 3% for July 1, 2025 through June 30, 2026. From February 2, 2026, landlords can no longer add any extra percentage for utilities. Landlords may also pass through the SCEP and RSO fee surcharges as separate monthly amounts, but only after registering the units and giving written notice. The page also says state law requires 30 days' written notice for rent increases under 10%.",
+    "key_value": "3% annual allowable increase (7/1/2025-6/30/2026); no additional utilities percentage from 2026-02-02; surcharges $2.83/mo SCEP and $1.61/mo RSO; 30 days' written notice for increases under 10% (state law)",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Rental units subject to the City of Los Angeles RSO. Tenants can check coverage on ZIMAS. Non-RSO properties are directed to the Housing Department.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": "Surcharges can only be collected after the landlord registers the units and gives written notice."
+    },
+    "exemptions": null,
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": "2026-02-02",
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": "The 3% rate applies to the period July 1, 2025 through June 30, 2026; the page does not state the rate after that. 2026-02-02 is the date the utilities add-on ends, per LAHD.",
+    "effective_date_formula": null,
+    "citation": "L.A. Mun. Code § 151.06",
+    "citation_aliases": [
+     "L.A. Mun. Code ch. XV, art. 1",
+     "Los Angeles Rent Stabilization Ordinance",
+     "RSO"
+    ],
+    "quoted_span": "Beginning February 2, 2026, a landlord can no longer include any additional percentage increase for utilities.",
+    "confidence": 0.7,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "The page does not cite a Municipal Code section; the citation follows the RSO's standard code reference. The 3% figure covers a period that ended before the query date (2026-10-01), so the current rate should be checked. The organizer notes that other sources give 2026-01-24 as the formula effective date.",
+    "source_notes": "Official LAHD RSO rent increase calculator page. The SCEP ($67.94/unit/yr, effective 2022-01-01) and RSO ($38.75/unit/yr, effective 2020-01-01) fees are folded into this record."
+   }
+  ],
+  "no_rule_findings": [],
+  "doc_summary": "LAHD calculator page for the Los Angeles RSO. It states a 3% annual allowable rent increase for July 1, 2025 through June 30, 2026 and says the utilities add-on ends February 2, 2026. It also describes the RSO ($1.61/mo) and SCEP ($2.83/mo) surcharge pass-throughs and mentions the state 30-day notice requirement for increases under 10%."
+ }
+}

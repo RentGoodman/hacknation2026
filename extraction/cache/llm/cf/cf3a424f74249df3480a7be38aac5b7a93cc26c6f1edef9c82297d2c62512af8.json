@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D073:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 20264,
+  "output_tokens": 1772
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "A landlord shall not terminate a tenancy without just cause.",
+    "note": "The at-fault and no-fault causes, notice, relocation, right of first offer, Commission notice, buyout, retaliation and remedies provisions all match §§ 98.0704–98.0710."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "damages of not less than three times the actual economic damages",
+    "note": "The two-month and three-month relocation amounts, the 15-day payment or rent waiver, the 30/60-day notice, the five-year offer with 30 days to accept, and the 3x relocation-failure remedy are all in §§ 98.0706 and 98.0709."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "supported",
+    "quoted_span": "effective 6-24-2023.",
+    "note": "§ 98.0704 was added 5-25-2023 and is effective 6-24-2023. The amendment is effective 3-28-2024."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "(Amended 2-27-2024 by O-21769 N.S.; effective 3-28-2024.)",
+    "note": "The document is the 3-2024 code version showing the section as current. It does not use the words 'in force'."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "housing that has been issued a certificate of occupancy within the previous",
+    "note": "The 15-year certificate-of-occupancy exemption (mobilehomes excepted), the more-than-30-day tenancy definition, the three-month fixed-term exclusion, the owner-occupied exemptions and the separately-alienable exemption with its notice requirement are all in §§ 98.0702–98.0703."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "§98.0704 Just Cause Required for Termination of Tenancy",
+    "note": "The primary citation matches the section heading."
+   }
+  ]
+ }
+}

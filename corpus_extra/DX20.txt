@@ -1,0 +1,408 @@
+SOURCE: https://ecode360.com/15252438
+RETRIEVED: 2026-10-04T02:35Z
+NOTE: Hoboken City Code ch. 155 Rent Control, full chapter print view (https://ecode360.com/print/HO0741?guid=15252438&children=true), captured with a browser; corresponds to link-only D032 of the supplied manifest.
+
+City of Hoboken, NJ
+Saturday, October 3, 2026
+Chapter 155. Rent Control
+[HISTORY: Adopted by the City Council of the City of Hoboken 1-16-1984 by Ord. No. C329.[1] Amendments noted where applicable.]
+GENERAL REFERENCES
+Council on Affordable Housing — See Ch. 7.
+Housing Authority — See Ch. 38.
+Affordable housing — See Ch. 65A.
+Minimum standards for dwellings — See Ch. 95.
+Maintenance of hotels and multiple dwellings — See Ch. 120.
+Rental housing — See Ch. 154.
+Rooming houses  — See Ch. 158.
+[1]
+Editor's Note: Ordinance No. R-422, added 3-1-2000, was repealed in its entirety 5-17-2000 by Ord. No. R-436 and was not codified herein.
+Article I. Definitions; Applicability
+§ 155-1. Definitions.
+As used in this chapter, the following terms shall have the meanings indicated:
+AVAILABLE FOR RENT TO TENANTS
+Buildings or dwellings fit for habitation as defined by statutes, codes and ordinances in full force and effect in the State of New Jersey, County of Hudson and City of Hoboken and occupied or unoccupied and offered for rent.
+BASE RENT
+The legal rent charged or actually received by the landlord for the rental of housing space on October 1, 1985, or if not occupied at that date, the "base rent" shall be the first rent after October 1, 1985, actually charged to and received from a tenant.
+[Amended 7-12-2000 by Ord. No. R-449; 1-22-2014 by Ord. No. Z-276; 2-1-2023 by Ord. No. B-532]
+CAPITAL IMPROVEMENT
+A substantial change in the housing accommodations, such as would materially increase the rental value in a normal market. It is different from ordinary repair, replacement and maintenance. A "capital improvement" is of such a nature, extent and expense that it benefits the building and the tenants' enjoyment thereof with a degree of permanency. A "capital improvement," to qualify under this chapter as such, must have a useful life of at least five years.
+CONDO/CO-OP OWNER/OCCUPANT(S)
+Individuals who own and reside in a condo/co-op shall be considered bona fide condo/co-op owner/occupant(s), hereinafter referred to as "bona fide CCOO," if they meet the requirements established in § 155-35.
+[Added 1-22-2014 by Ord. No. Z-276]
+CONSUMER PRICE INDEX
+The "consumer price index" (all items base year 1967-100) for the region of the United States of which Hoboken is a part, published periodically by the United States Department of Labor, Bureau of Labor Statistics.
+DWELLING
+Any building or structure or trailer or land used as a trailer park, rented or offered for rent to one or more tenants or family units.
+EQUITY IN REAL PROPERTY INVESTMENT
+The actual cash contribution of the purchaser at the time of closing of title and any principal payments to outstanding mortgages.
+FAIR RETURN
+The percentage of return of equity in real property investment. The amount of return shall be measured by the net income before depreciation. A "fair return" on the equity investment in real property shall be considered to be 6% above the maximum passbook demand deposit savings account interest rate available in the City of Hoboken. The six-percent figure is provided to reflect the higher risk and lesser liquidity of real property investment in comparison to savings account investments.
+HOUSING SPACE
+Includes that portion of a dwelling rented or offered for rent for living and dwelling purposes, with all privileges, services, furnishings, furniture, equipment, facilities and improvements connected with the use or occupancy of such portion of the real property.
+JUST CAUSE FOR EVICTION
+The landlord recovered possession of a housing space or dwelling for one of the reasons outlined in New Jersey State law (N.J.S.A. 2A:18-53 as amended).
+LEGAL RENT
+Rent permitted to be charged under the Rent Control Ordinance. The legal rent shall be the base rent plus any permissible increases allowed under this chapter that accumulate over time. Any dispute as to the legal rent of a particular apartment unit is to be determined by the Rent Regulation Officer, subject to an appeal to the Rent Leveling and Stabilization Board.
+[Added 2-1-2023 by Ord. No. B-532]
+LIVING AREA
+The amount of total rentable space applicable to any given housing space, measured either in terms of rooms or square footage.
+NEWLY CONSTRUCTED DWELLING
+A dwelling located in a building, which building is new in all respects; that is, from the ground up, and the exterior structure, the exterior and interior walls and all systems are new.
+NOT VACANT THROUGH UNLAWFUL MEANS
+The tenant has not vacated or been forced to vacate the dwelling involuntarily; that is, due to harassment, duress, wrongful acts or unreasonable pressure from the landlord or his agents. A legal eviction is not an involuntary vacation under this definition. A bona fide written release of the landlord by the tenant with respect to this issue shall be evidence of a voluntary vacancy which may be considered in determinations under this chapter.
+REGISTRATION STATEMENT
+The statement filed by the landlord pursuant to § 155-30.
+RENT
+Any price for the use of a housing space. It includes any charge, no matter how set forth, paid by the tenant for the use of any service in connection with the housing space. Security deposits and charges for accessories, such as boats, mobile homes and automobiles not used in connection with the housing space, shall not be construed as "rent."
+RENT INCREASE, RENT DECREASE and RENT ADJUSTMENT
+The intent and policy of the governing body to interfere in landlord-tenant relations and legitimate operation ownerships, occupancy and development of real estate, only when necessary to protect the public interest. "Rent increase," "rent decrease" and "rent adjustments" shall consist in the first instances of the notice sent by the landlord to the tenant, or by the tenant to the landlord, in letter or other form, setting forth the proposed notice of "rent increase," "rent decrease" or other "rent adjustment." Each notice shall set forth in detail the reasons justifying or requiring such increase, decrease or adjustment.
+[Amended 1-22-2014 by Ord. No. Z-276]
+SERVICE
+The provision of light, heat, hot water, maintenance, painting, elevator service, air conditioning, storm windows, screens, superintendent service and any other benefit, privilege or facility connected with the use or occupancy of any dwelling or housing space.
+SERVICE SURCHARGE
+Refers to an additional charge over and above the rental due to new or additional services. Existing services may be subject to a surcharge also, under extenuating circumstances as may be determined by the Rent Leveling and Stabilization Board.
+[Amended 1-22-2014 by Ord. No. Z-276]
+SUBSTANTIAL COMPLIANCE
+The housing space and dwelling are free from all heat, hot water, elevator and all health, safety and fire hazards, as well as 90% qualitatively free of all other violations of the ordinances of the City of Hoboken and the Property Maintenance Code of the State of New Jersey, where applicable.
+TENANT/SUBTENANT
+The regulations that apply to the landlord and tenant under this chapter shall also apply, wherever appropriate, to the "tenant/subtenant" relationship and any other rental tenancy unless otherwise expressly excluded.
+§ 155-1.1. Proof of previous rent paid.
+[Added 10-22-2025 by Ord. No. B-818]
+A. 
+Documentation requirement. Every landlord seeking to register, impose a rent increase, or establish a legal rent for a dwelling unit must provide documented proof of prior, actual rent that was paid for that unit. Documentation to be considered shall include a fully executed lease or rental agreement (unless no written lease exists) and the following:
+(1) 
+Rent receipts or other similar records demonstrating actual rent payments (e.g., bank statements indicating periodic withdrawals or deposits, canceled checks, or electronic payment confirmations); or
+(2) 
+If none exist, any other documentation deemed relevant, verifiable, and legally valid under this chapter by the Rent Regulation Officer.
+B. 
+All documentation shall be subject to verification by the Rent Regulation Officer.
+C. 
+Verification by Rent Regulation Officer. The Rent Regulation Officer shall verify the authenticity and accuracy of documentation submitted to register, impose a rent increase, or establish a legal rent for a dwelling unit when rendering a legal rent calculation or reviewing a rent increase request. If the landlord fails to provide adequate proof, the Officer must deny the rent increase and provide written notification enumerating the reason for denial to the landlord. Upon receipt of notification, the landlord shall have 30 days to cure.
+§ 155-2. Limitation of applicability.
+This chapter shall apply to all dwelling units as defined in § 155-1 above, except that the following shall be exempt:
+A. 
+Motels and hotels.
+B. 
+Newly constructed dwellings which are rented for the first time. After the first rental, such dwellings shall be exempt for this initial rent or lease agreement, but all subsequent rents shall be subject to the provisions of this chapter. In order to qualify for the exemption, the newly constructed dwelling must be registered by an applicant, on forms provided by the Rent Regulation Officer, with said Officer before the first rental for said dwelling.
+C. 
+Industrial property.
+D. 
+Nonresidential and commercial property. If the dwelling has an apartment unit(s), plus a commercial unit(s), the apartment unit(s) is covered by this chapter, but the commercial unit(s) is exempt.
+E. 
+Housing provided for students by a school, college or similar institution which owns or controls that housing.
+F. 
+Housing owned and operated by other government agencies, such as the state or federal government.
+G. 
+A building completely vacant on or before and since January 1, 1984, provided that said building did not become vacant through unlawful means which can be attributed to the applicant for this exemption. In order to qualify for this exemption, the building vacant since January 1, 1984, must be registered by an applicant with the Rent Regulation Officer, on forms provided by said Officer, before the renting of dwelling units within the vacant building. After the first rental, such dwelling units shall be exempt from initial rent or lease agreement, but all subsequent rents shall be subject to the provisions of this chapter.
+H. 
+[1]In accordance with N.J.S.A. 2A:42-84.1 et seq., the provisions of this chapter shall not apply to multiple dwellings, as defined in the statute, constructed after June 25, 1987, for a period not to exceed the period of amortization of any initial mortgage loan obtained for the multiple dwelling or for 30 years following completion of construction, whichever is less. In the event that there is no initial mortgage financing, the period of exemption from this chapter shall be 30 years. This exemption only applies where a landlord complied with all requirements contained in N.J.S.A. 2A:42-84.1 et seq., including but not limited to notice to the Construction Code Official at least 30 days before a certificate of occupancy is issued and notification to tenants by way of a provision in their lease. The owner shall, at least 30 days prior to the expiration of the exemption period as per N.J.S.A. 2A:42-84.1, file with the Rent Leveling and Stabilization Office a notice of expiration of the exemption period for the multiple dwelling. The owner must then register the property as per § 155-30, and the property shall be subject to the rent leveling and stabilization provisions of this chapter. The last rental amount charged prior to the expiration of the exemption period shall be established as the base rent. Any dispute as to the exemption status of the property under this section shall be determined by the Rent Regulation Officer, subject to an appeal to the Rent Leveling and Stabilization Board.
+[Added 2-1-2023 by Ord. No. B-532]
+[1]
+Editor's Note: Former Subsection H, Limitation of applicability, added 12-21-1988 by Ord. No. P-27, was repealed 2-15-1989 by Ord. No. P-42.
+§ 155-2.1. Transition from rent regulation by preempting governmental agency to regulation of this chapter.
+[Added 7-12-2000 by Ord. No. R-449; amended 9-6-2000 by Ord. No. R-455; 7-9-2025 by Ord. No. B-778; 10-22-2025 by Ord. No. B-818]
+If a contract between a landlord and a governmental agency duly provides for that governmental agency to regulate the amount of rent received by that landlord, and if the authority of that governmental agency supersedes the authority of the City of Hoboken to regulate such rents, then the application of this chapter shall be preempted during the period of governmental agency regulation specified in the contract. Until such a contract begins, and immediately after the contract terminates, this chapter shall operate to regulate such rents. Upon termination of such a contract, the "base rent" for dwelling units under this section shall be the last rent level received and retained by the landlord prior to the termination of the preemptive governmental agency regulation reduced by an amount equal to the sum of all applicable, itemized, and identifiable water, sewer, capital improvement, and any other surcharges as defined by this chapter, and calculated by the Rent Regulation Officer for inclusion in a new legal rent under this chapter. Furthermore, "base rent," when calculated by the Rent Regulation Officer, shall not include any surcharge or portion thereof that may have been received and/or collected by the landlord but not retained by the landlord as income prior to the termination of the preemptive governmental agency regulation, such as a surcharge that is based upon a tenant's income (whether said surcharge is referred to as an "income surcharge" or by another name) that was previously included in the last rent received and paid to other entities after collection. The landlord shall submit proof of previous rent paid in accordance with § 155-1.1 of this chapter.
+Article II. General Regulations
+§ 155-3. Establishment of rents.
+Establishment of rents between landlord and tenant in housing space in dwellings to which this chapter is applicable shall hereafter be determined by the provisions of this chapter. Any rental increase at a time other than at the expiration of a lease or termination of the periodic lease shall be void. Any rental increase in excess of that authorized by the provisions of this chapter shall be void. Determinations under this section shall be made by the Rent Regulation Officer.
+§ 155-4. Controls; increase restrictions; disclosure statement.
+[Amended 3-2-2011 by Ord. No. Z-88; 2-1-2023 by Ord. No. B-532; 10-22-2025 by Ord. No. B-818]
+All rents for rental of housing space and services in dwellings to which this act is applicable are hereby controlled at the base rent level received by the landlord as of October 1, 1985, and no rental increases shall be hereinafter demanded, paid or accepted, except as provided in this chapter. Any rent increases imposed after October 1, 1985, to the extent that such increases are in excess of the rent increases allowed under this ordinance, are hereby declared to be null and void, and subject to the limitations and repose period set forth herein, such excess rents shall be refunded or credited to the tenant by the landlord forthwith. All rents may be rounded up or down to the nearest dollar after making the computations. Landlords shall report all increases of rents imposed after October 1, 1985, to the Rent Leveling and Stabilization Board. Any landlord seeking an increase shall notify the tenant, in writing, at least 30 days prior to the effective date of the increase and explain, in detail, the reason for the increase. Determinations under this section shall be made by the Rent Regulation Officer.
+A. 
+Disclosure statement.
+(1) 
+Every landlord subject to the provisions of this chapter shall be required to provide to each tenant a disclosure statement, on Board-approved forms, available through the Rent Regulation office or by download from the City's website. The disclosure statement shall include a detailed description of the tenant's rights under this chapter, including but not limited to the right to request a legal rent calculation to determine the legal base rent; notice that a failure to request a legal rent calculation within two years of service of the disclosure statement will result in a bar of a refund and/or credit of an excess or overpayment of rents; notice that a copy of the landlord's registration statement will be on file with the Rent Regulation office and available to a tenant upon request; and an acknowledgement by the landlord advising the tenant of the Truth-in-Renting Act, N.J.S.A. 46:8-43 et seq., and the statement/booklet prepared therein, which can be obtained from the New Jersey Department of Community Affairs Division of Codes and Standards, Landlord-Tenant Information Service, P.O. Box 805 Trenton, New Jersey 08625; the disclosure statement is to be signed and dated by the tenant and filed by the landlord with the Rent Regulation Officer. In the absence of a disclosure statement that is signed and dated by the tenant, a landlord may also establish proof of service of the disclosure statement by filing both a copy of the disclosure statement and a receipt indicating that the disclosure statement was delivered and received by the tenant via certified mail.
+(2) 
+The Rent Regulation Officer shall be authorized to prepare and revise the disclosure statement as needed in an effort to comply with the intention and purpose of this section.
+B. 
+Two-year statute of limitations. A refund and/or credit of excess rents shall be barred if the tenant's request for a legal rent calculation is not made within two years from service of the disclosure statement upon the tenant. The statute of limitations commences only upon proper service of the disclosure statement in compliance with § 155-4. Nothing in this provision shall bar a tenant from requesting a legal rent calculation, nor prohibit the Rent Regulation Officer or Board from rendering a determination as to whether the rent of the dwelling is in excess of those permitted under this chapter.
+C. 
+Two-year period of repose. In no instance shall a tenant be allowed to collect rental overcharges for a period in excess of two years as determined by the Rent Regulation Officer or the Board. Nothing in this provision shall bar a tenant from requesting a legal rent calculation, nor prohibit the Rent Regulation Officer or Board from rendering a determination as to whether the rent of the dwelling is in excess of those permitted under this chapter.
+D. 
+Criteria to be considered by the Rent Regulation Officer in rendering legal rent calculations.
+(1) 
+In rendering a legal rent calculation to determine a current legal rent, the Rent Regulation Officer shall consider prior rent registration statements, prior legal rent calculations, proper annual CPI increases, vacancy decontrol certificates filed, or other appropriate adjustments to the legal rent that are consistent with this chapter (e.g., approved surcharges or hardship increases). In determining a base rent, the Rent Regulation Officer shall begin the method of calculation by determining the rent charged and received on October 1, 1985. In the event that the dwelling unit was not offered for rent until after October 1, 1985, the Rent Regulation Officer shall begin the method of calculation by determining the first rent charged after October 1, 1985. If there is a prior legal rent calculation for the particular dwelling unit determining the legal rent on or after October 1, 1985, the Rent Regulation Officer shall review and update the calculation from the effective date of that prior calculation.
+(2) 
+If a landlord has failed to file rent registration statements, vacancy decontrol certificates, or other required filings such that a proper legal rent calculation cannot be readily performed, alternative proofs may be considered by the Rent Registration Officer and/or the Board to determine an appropriate base rent or legal rent calculation. For the purpose of calculating the earliest date of a verifiable rent to determine the base rent or legal rent of the individual dwelling unit, including but not limited to the consideration of a vacancy of an individual dwelling unit, a landlord shall be permitted to submit credible alternative proofs for consideration by the Rent Regulation Officer or the Board to determine the earliest date of a verifiable rent, the legal rent of the individual dwelling unit, and/or whether and when vacancies have occurred. These alternative proofs may consist of, but are not limited to, leases showing vacancies and/or statements under oath from reliable sources. In presenting alternative proofs for a vacancy, a certified statement from the landlord should be submitted indicating that the tenant vacated the apartment voluntarily and without harassment, duress, or unreasonable pressure from the landlord or its agents. The Rent Regulation Officer and/or the Rent Leveling and Stabilization Board shall have absolute discretion to determine the reliability of any such alternative proofs.
+(3) 
+In the event that a legal rent calculation conducted by the Rent Regulation Officer would result in a legal rent that is greater than the rent currently charged to a tenant, a landlord is not permitted, under any circumstances, to charge a tenant rent at a level determined by said legal rent calculation, and the legal rent for the dwelling unit shall be adjusted to be set at the actual rent charged. Under such circumstances, a landlord is limited to annual increases provided for in the ordinary course by this chapter, such as annual CPI increases, surcharges, and other increases permitted by this chapter. Under no circumstances shall a tenant be subject to an increase of rent greater than the rent that has been charged plus properly imposed increases under this chapter based upon a legal rent calculation that is greater than rent actually charged.
+E. 
+Proof of previous rent paid. In rendering legal rent calculations and determinations pursuant to this section, the Rent Regulation Officer shall require and consider landlord submissions consistent with § 155-1.1 ("Proof of previous rent paid").
+§ 155-5. Expiration or termination of lease.
+[Amended 2-1-2023 by Ord. No. B-532]
+At the expiration of a lease or at the termination of a lease of a periodic tenant, no landlord may request or receive a percentage increase in rent which is greater than 5% or the percentage difference between the consumer price index three months prior to the expiration or termination of the lease and three months prior to the commencement of the lease term, whichever is less. For a periodic tenant or for a tenant whose lease terms shall be less than one year, said tenant shall not suffer or be caused to pay more than one rent increase in any twelve-month period which exceeds 5% or the consumer price index percentage differential for the twelve-month period commencing 15 months prior to and ending three months prior to the effective date of the proposed increase, whichever is less. No more than one such cost-of-living rental increase in any one twelve-month period shall be permitted irrespective of the number of different tenants occupying said housing space during said twelve-month period.
+§ 155-6. Tax surcharge from tenants.
+[Amended 7-12-2000 by Ord. No. R-449; 9-6-2000 by Ord. No. R-455; 1-22-2014 by Ord. No. Z-276; 8-1-2018 by Ord. No. B-58; 1-16-2019 by Ord. No. B-104]
+A. 
+For all tax surcharges that were in effect and current prior to the effective date of this chapter, a landlord may continue to collect a tax surcharge from a tenant in the amount heretofore approved for those taxes that are in excess of those assessed for the 1988 tax year. For such properties where a tax surcharge was in effect and current prior to the effective date of this chapter, a landlord may annually reapply for a new tax surcharge once every 12 months to replace the old surcharge. For such properties, if a landlord fails or elects not to annually reapply for a tax surcharge, the tax surcharge shall lapse, and should that landlord seek a new tax surcharge on that property, the landlord must seek a tax surcharge in accordance with Subsection C of this section of the Code. The rental increase permitted for taxes is determined, charged, and treated in the manner set forth in Subsection C, below. A tax surcharge is "current" if the landlord has applied for a tax surcharge or reapplied for a new tax surcharge within the past 12 months.
+B. 
+If properties with tax surcharges in effect and current prior to the effective date of this chapter are sold or otherwise transferred, the new owner/landlord may continue to collect a tax surcharge from a tenant in the amount heretofore approved for those taxes in the same manner as the prior owner, as set forth and in accordance with Subsection A, above.
+C. 
+For any application for a tax surcharge after the effective date of this chapter, a landlord may seek a tax surcharge to be charged to a tenant because of an increase in municipal property taxes if said taxes are in excess of those assessed for the year that the landlord acquired the property or for the 1988 tax year, whichever assessment date is later. Any such application for a tax surcharge shall be accompanied by a copy of the deed to the property to establish the year in which the property was acquired by the landlord for the purpose of determining the tax surcharge. The rental increase permitted for taxes is determined by the Rent Regulation Officer pursuant to a formula approved by the Rent Control Board. The rent increase for taxes that each tenant is liable to pay shall be paid in 12 equal monthly payments, 1/12 each month. The surcharge shall not be considered rent for purposes of computing cost-of-living rental increases. Determinations under this section shall be made by the Rent Regulation Officer. If an initial rental decontrol as set forth in § 155-37 occurs, the base year shall be the date of the first paid four quarters in the taxes after the initial rental decontrol.
+D. 
+Tax surcharges are in effect for 12 months. A landlord with a tax surcharge must reapply for a new tax surcharge every 12 months.
+E. 
+Notice on standardized form.
+(1) 
+The landlord shall, upon approval by the Rent Regulation Officer of its tax surcharge application, notify its tenants, by personal service, on standardized forms, setting forth:
+(a) 
+An explanation of the tax surcharge.
+(b) 
+The base rent.
+(c) 
+The tax surcharge, total and apportioned.
+(d) 
+The effective date.
+(2) 
+This notice shall be filed with the Rent Regulation Officer.
+F. 
+Any tax surcharge that has been approved may only be imposed at the commencement of a lease term or upon renewal of a lease term and must be included in the lease/renewal, otherwise it may not be imposed.
+(1) 
+In no case shall the landlord be permitted to impose a tax surcharge without removal of the previous tax surcharge.
+(2) 
+Nothing herein requires a landlord to impose a tax surcharge or to impose the full amount of the allowable tax surcharge after having been approved to do so.
+(3) 
+Rental units must be registered to qualify for a tax surcharge.
+§ 155-6.1. Water and sewerage surcharge from tenants.
+[Added 9-3-1986 by Ord. No. V-66]
+A. 
+The landlord may seek a water and sewerage surcharge from a tenant because of an increase in the municipal water and sewer charges in excess of those assessed for 1996. The rental increase permitted for water and sewer surcharge is determined by the Rent Regulation Officer pursuant to a formula approved by the Rent Control Board. The rent increase for water and sewer that each tenant is liable to pay shall be paid in 12 equal monthly payments, 1/12 each month. The surcharge shall not be considered rent for purposes of computing cost-of-living rental increases. Determinations under this section shall be made by the Rent Regulation Officer.
+[Amended 7-12-2000 by Ord. No. R-449; 9-6-2000 by Ord. No. R-455]
+B. 
+Notice on standardized form.
+(1) 
+The landlord shall, upon approval by the Officer of its water and sewer surcharge application, notify its tenants, by personal service, on standardized forms, setting forth:
+(a) 
+Explanation of water and sewer surcharge.
+(b) 
+Base rent.
+(c) 
+Water and sewer surcharge (total and apportioned).
+(d) 
+Effective date.
+(2) 
+This notice shall be filed with the Officer.
+§ 155-7. Tax appeal by landlord.
+In the event that a tax appeal is taken by the landlord and the landlord is successful in said appeal and the taxes reduced, the tenants shall receive a reduction as applied to their tax portion, after deducting all expenses incurred by the landlord in prosecuting said appeal.
+In the case of tenant(s) that have moved, the landlord shall make diligent efforts for three months to forward the refund to said tenant(s). If these efforts do not succeed, the landlord shall apportion said refund to the rents of the remaining tenants. Determinations under this section shall be made by the Rent Regulation Officer.
+§ 155-8. Application to Rent Leveling and Stabilization Board for rental surcharge.
+A. 
+Upon notice to its tenants, a landlord may apply to the Rent Leveling and Stabilization Board for a rental surcharge for capital improvement to the building and/or demised premises. Such application and supporting materials shall set forth the improvement, the cost thereof and its useful life. The landlord shall propose to apportion the cost of the improvement over its useful life among the tenants in the building in accordance with one of the following methods:
+(1) 
+If the capital improvement benefits certain housing spaces only, then the cost of these improvements shall be surcharged to only these units.
+(2) 
+If the capital improvement benefits all housing spaces but in varying degrees according to the amount of living area of each housing space, then the cost for the improvements shall be surcharged according to either the number of rooms or the number of square feet in the housing space in proportion to the total rentable area in the dwelling.
+(3) 
+If the capital improvement is equally beneficial to all housing spaces, regardless of the living area within any housing space, then the cost of the improvements shall be surcharged according to the number of housing spaces within the dwelling.
+B. 
+Permits as required by law are to be secured from all agencies having control and jurisdiction, for alterations, repairs, replacements, extensions and new buildings. All work must adhere to appropriate code standards and must be inspected by all agencies having control and jurisdiction and their approval obtained. A certificate of occupancy must be secured, if required by law.
+C. 
+Any applications under the provisions of this Article of the chapter must prove, prior to the application acceptance, that the dwelling is:
+(1) 
+In compliance with the housing maintenance, building, fire and other applicable City codes.
+(2) 
+Not subject to a City-held title lien for the nonpayment of real estate taxes, water charges or sewer charges.
+§ 155-9. Notice to tenants.
+Prior to any application under this section, the landlord shall serve upon each tenant, by registered or certified mail or personal service of a notice of application filing setting forth the basis for said application, the amount of rental increase of surcharge applied for with respect to that tenant and the calculations involved. A sample copy of such notice shall be filed with the application of the landlord, together with an affidavit or certification of service of notice of application upon each tenant. Copies of bills and invoices in support of the landlord's application shall be made available to the tenant by the landlord.
+§ 155-10. Determination.
+The Rent Leveling and Stabilization Board may grant the landlord a rental surcharge under the provisions of this Article. No landlord shall impose upon any tenant a rent surcharge under this Article without first obtaining approval from the Board. In making its determination, the Board must conclude that the improvement in question is a capital improvement as defined under this chapter and that it is reasonable as to its nature and cost. Also, the Board must determine the useful life of the improvement so that the cost of the same is prorated over the length of the entire useful life. The burden of proving the useful life shall be with the landlord, but it is rebuttable. In making this determination, the Board shall consider the nature and the cost of the improvement and the effect that the proration of the surcharge shall have on the existing base rents, it being the intent of this chapter that the base rents shall under no circumstances be increased by an amount greater than 33 1/3% due to a capital improvement surcharge in any one twelve-month period.
+§ 155-11. Effective date.
+[Amended 8-1-2018 by Ord. No. B-58]
+Rent surcharges under this article should become effective contemporaneously with the next scheduled change in the base rent whenever practicable, except with regard to a tax surcharge as provided in § 155-6 above.
+§ 155-12. Violations.
+[Amended 8-7-1985 by Ord. No. V-8]
+For the purpose of computing the cost of a capital improvement under this section, only 60% of the cost shall be allowed if it is for the purpose of eliminating violations of housing code provisions, which provisions were enacted subsequent to January 1, 1985.
+§ 155-13. Notification of capital improvement surcharge approval.
+A. 
+The landlord shall, upon approval by the Board of its capital improvement surcharge application, notify its tenants by personal service, on a standardized form, setting forth:
+(1) 
+An explanation of capital improvement surcharge.
+(2) 
+The base rent.
+(3) 
+The surcharge, total and apportioned.
+(4) 
+The effective date and termination.
+(5) 
+The total rent.
+B. 
+This notice shall be filed with the Board and the Officer.
+§ 155-14. Appeal by landlord for a hardship rental increase.
+A. 
+In the event that a landlord cannot meet his operating expenses or does not make a fair return on his investment, he may appeal to the Rent Leveling and Stabilization Board for a hardship rental increase. No landlord shall impose upon any tenant an increase in rent under this Article without first obtaining approval with the Board. It shall be within the discretion of the Board to fix the effective date of any approved rental increase to be at any reasonable time as determined by the Board. Prior to any such appeal to the Board, however, the landlord shall serve on each tenant a notice of appeal setting forth in detail the basis for said appeal, and said notice shall be served at least 20 days before hearing thereon. In considering hardship applications, the Rent Control Board shall give due consideration to any and all relevant factors, including but not limited to the following.
+(1) 
+Level and quality of service rendered by the landlord in maintaining and operating the building.
+(2) 
+The presence or absence or reasonably efficient and economical management.
+(3) 
+Whether the landlord made a reasonably prudent investment in purchasing the property and arranging financing on said property. In considering this factor, the Board may consider the purchase price, the fair market value of the property and the existing rentals at the time of the purchase to determine, if the debt servicing expenses are excessive. The Board may also consider the amount of cash invested in the property in relation to said fair market value and purchase price, the interest rate of the mortgage and whether the mortgage instrument was arrived at and executed in an arms-length transaction. It is presumed that a prospective purchaser of real property in Hoboken shall be familiar with the terms of this chapter. It is not the intention of this chapter to permit a hardship rental increase when the landlord has not made a reasonably prudent investment.
+(4) 
+Whether the operating expenses are reasonably incurred and the income statement is accurate. Operating expenses shall not include depreciation, amortization of debt service or capital expenditures but may include the interest debt service for allowable capital improvement surcharges subject to the Board's approval. Upon the Board's determination that the landlord made a reasonable prudent investment, operating expenses shall include an amount allocable for the average annual payment of mortgage interest when the mortgage arises from the purchase of the property. Said average annual payment of mortgage interest shall be arrived at by taking the total amount of mortgage interest to be paid over the life of the mortgage and dividing it by the number of years under the term of the mortgage. Mortgage interest which arises as a result of a refinancing of the property shall not be considered an operating expense, unless the funds which arise from the refinance are invested in the property in which case the Board may allow an amount allocable to mortgage interest as an operating expense.
+B. 
+The Board, in considering all of the above factors may grant an increase for hardship.
+§ 155-15. Application for rental decrease by tenants.
+When services, care or maintenance decline in any dwelling, any tenant may apply to the Rent Leveling and Stabilization Board for a decrease in rent. Said notice shall be served on landlord setting forth, in detail, the reason for such application. At least 20 days shall elapse before a hearing thereon can be set.
+§ 155-16. Determining officials.
+[Amended 7-9-2025 by Ord. No. B-784]
+A. 
+The Regulation Officer shall make all determinations regarding the eligibility of a newly constructed dwelling for an exemption as defined above.
+B. 
+The Rent Regulation Officer shall make all determinations regarding the eligibility of a building completely vacant since January 1, 1984, for an exemption as defined above.
+§ 155-17. Consideration in making determinations.
+[Amended 7-9-2025 by Ord. No. B-784]
+A. 
+In making determinations under this Article II of this chapter of the Code, the Board, to the extent applicable, shall review the application under this article within 60 days, or as soon as practical.
+B. 
+The Board shall, in its review, consider the circumstances surrounding any application under this article, as set forth in the relevant section of this article.
+Article III. Rent Leveling and Stabilization Board and Office
+§ 155-18. Creation; compensation; terms; alternate members.
+There is hereby created a Rent Leveling and Stabilization Board to administer this chapter under the direction and supervision of the Department of Administration of the City of Hoboken. The Board shall consist of seven members appointed by the Mayor with the consent of the Municipal Council. Said members of said Leveling and Stabilization Board shall serve during the term of the Mayor appointing them and shall serve without compensation but shall be allowed reasonable expenses. A quorum for hearing shall consist of at least four members (a majority) of the whole Board and shall be authorized to issue orders relating to the powers and functions of the Rent Leveling and Stabilization Board. Two alternate members shall also be appointed by the Mayor with the consent of the Council.
+§ 155-19. Rights and authority of Board.
+[Amended 3-2-2011 by Ord. No. Z-88]
+The Rent Leveling and Stabilization Board shall have the right to exercise, in addition to other powers herein granted, all powers necessary and appropriate to carry out and execute the purpose of this entire chapter, including the right to the exercise of equitable authority to depart from the strict interpretation of the provisions of this chapter in instances where fairness requires equitable intervention. These powers of equity, however, do not permit the Rent Leveling and Stabilization Board to act in contravention to the purposes of this chapter nor in an arbitrary, capricious or unreasonable manner. Notwithstanding this general power of equity, the Rent Leveling and Stabilization Board shall also have the following powers:
+A. 
+The Rent Leveling Board may consider regulations as it deems necessary to implement the purposes of this chapter. Any such regulations shall be submitted for consideration to the Administration, under its management and supervisory authority over the Board, and for legal review by the Office of the Corporation Counsel prior to being presented for a vote by the Board. In the event any such regulation is approved by the Administration and the Office of the Corporation Counsel, such regulation shall be properly promulgated if the Board chooses to act upon it by a vote of the Board. If such an approved regulation passes by majority vote of a quorum, it shall have the force of law.
+[Amended 2-1-2023 by Ord. No. B-532]
+B. 
+To supply information and assistance to landlords and tenants to help them comply with the provision of this chapter.
+C. 
+To hold hearings and adjudicate applications from landlord/tenants pursuant to this chapter.
+D. 
+Said Board shall give both landlord and tenant reasonable opportunity to be heard before making any determination, with or without counsel. All determinations shall be in writing with copies to any parties of record.
+E. 
+Both landlord and tenant may appeal the findings of the Board to a court of competent jurisdiction according to law.
+F. 
+To issue subpoenas for the production of information which the Rent Control Board deems necessary and proper to determine the application.
+G. 
+To require the production of books, records, tax returns, balance sheets, profit and loss statements and such other records as the Board may require and deem necessary for its determination.
+§ 155-20. Fees for application and proceedings.
+[Amended 2-21-1988 by Ord. No. P-27; 2-15-1989 by Ord. No. P-42; 3-16-1994 by Ord. No. R-37; 10-19-2005 by Ord. No. DR-208; 2-1-2023 by Ord. No. B-532; 4-3-2023 by Ord. No. B-549; 7-9-2025 by Ord. No. B-784]
+A. 
+The following fees shall apply to all applications or other proceedings of the Rent Leveling and Stabilization Board and Rent Regulation Officer:
+(1) 
+Capital improvement surcharge: $100.
+(2) 
+(Reserved)
+(3) 
+(Reserved)
+(4) 
+All requests for updating legal base rents; applications contesting imposition of rent increases under § 155-5 or applications for reduction in rent pursuant to § 155-15 shall have a fee of $30 per unit.
+(5) 
+All rent-controlled properties must pay a $50 annual registration fee; those properties with nine or fewer units will pay $10 additional per unit, and properties with 10 or more units will pay $15 additional per unit.
+(6) 
+Inspection and/or issuance of certificates of substantial compliance by the office of the Construction Officer (per apartment unit): $25.
+(7) 
+Building vacant since January 1, 1984: $50.
+(8) 
+Hardship increase application: $50.
+(9) 
+Appeal from Rent Regulation Officer to Board: $50.
+(10) 
+Vacancy decontrol filing: $50.
+B. 
+A single application may be filed for several apartments in the same building for which similar or substantially identical facts are involved. Fees shall be paid only by check or money order, payable to the City of Hoboken. No cash shall be accepted.
+§ 155-21. Violations and penalties.
+[Amended 2-7-2024 by Ord. No. B-637]
+A violation of any provisions of this Chapter 155 shall be punishable in accordance with N.J.S.A. 40:49-5, including but not limited to a fine not exceeding $2,000. Each dwelling unit shall constitute a separate and distinct violation. A separate and distinct violation shall be deemed to occur each time that rent or other payment is demanded and/or paid in violation of this chapter per each dwelling unit. Any person or entity convicted of violating this chapter within one year of the date of a previous violation of the same section of this chapter, and who was fined for the previous violation, shall be sentenced by the Hoboken Municipal Court to an additional fine as a repeat offender. The additional fine imposed by the Hoboken Municipal Court upon a person for a repeated offense shall not exceed the maximum fine fixed for a violation of this chapter but shall be calculated separately from the fine imposed for the violation of this chapter.
+§ 155-22. Enforcement authority.
+[Amended 2-7-2024 by Ord. No. B-637]
+Alleged violations of this chapter shall be brought by the Rent Regulation Officer to the Hoboken Municipal Court for adjudication.
+§ 155-23. Rent Regulation Officer Determination Appealable.
+[Amended 7-9-2025 by Ord. No. B-782]
+A. 
+All determinations made by the Rent Regulation Officer are appealable to the Board. The burden of said appeal is on the appellant, who must demonstrate that the Officer's determination was in error or arbitrary, capricious and unreasonable. Said request for an appeal must be formally initiated with the Rent Control Office within 20 days of the rent Regulation Officer's disseminating a determination so that a hearing can be scheduled before the Board.
+(1) 
+Appeal of a determination. Any appeal challenging a Rent Regulation Officer's determination must include those documents that were originally submitted to the Rent Regulation Officer related to the determination, a written statement explaining the basis for the appeal, and a copy of the Rent Regulation Officer's decision related to the determination. New information that was not provided to the Rent Regulation Officer prior to a determination may be considered in the appeal of the determination, but its probative value should be downgraded based on the availability of the information at the time of the determination and the circumstances surrounding it not being provided at that time. The appellant must fulfill these documentary requirements within 30 days of formally initiating the request for appeal; otherwise, the appeal will be dismissed for lack of prosecution. Standing to challenge a Rent Regulation Officer's determination shall be narrowly construed such that the party must have a sufficient connection to the determination that it will suffer actual harm (e.g., a landlord or a tenant directly related to the determination would have standing).
+(2) 
+Application and submission requirements. The above-described documents submitted by the appellant for a hearing before the Board shall be submitted electronically as one PDF document with a table of contents and sections bookmarked, as well as nine hard copies, each with a table of contents and sections physically bookmarked (e.g., tabs or dividers). Submissions must include all underlying documentation supporting the application or appeal. The appellant is responsible for ensuring that the submission is organized in a manner that allows the Board to efficiently locate and review the relevant information. The appellant.[1]
+[1]
+Editor's Note: So in original.
+(3) 
+Submission deadlines. All applications, supporting documents, and any evidence to be relied upon at the hearing must be submitted to the Rent Control Office no less than two weeks prior to the hearing date. Failure to comply with these timing requirements may result in the submitted documents being excluded from consideration.
+(4) 
+Notice of interested parties. The appellant shall deliver to an interested party with standing (e.g., the tenant or landlord of a unit) involved in the appeal the complete application and supporting documentation at least one week prior to the hearing, either via email (preferred) or by certified mail. Proof of service (such as delivery confirmation) to interested parties with standing must be provided to the Board.
+Article IV. Maintenance of Standards
+§ 155-24. Duty of landlord to maintain standards.
+During the term of this chapter, the landlord shall maintain the same standards of service, maintenance, furniture furnishings and equipment on the housing space and dwelling as he provided or was required to do by law or lease at the date the lease was entered into.
+§ 155-25. Rent control.
+No landlord shall, after the effective date of this chapter, charge any rents in excess of what he was receiving from the effective date of this chapter; nor shall such landlord charge any rents in excess of what he was receiving on January 11, 1973, if such excess is in excess of the rental which is authorized by this chapter.
+§ 155-26. Certificate of compliance to accompany applications for increase.
+[Amended 7-12-2000 by Ord. No. R-449]
+Any landlord seeking a regular increase in rent pursuant to § 155-5 of this chapter must include in the notice of said increase a certification signed by either the landlord or a qualified inspector within the Division of Health to the effect that the dwelling is in substantial compliance with the Hoboken Building Code, Hoboken Housing Code, the Hoboken Fire Prevention Code and Property Maintenance Code of the State of New Jersey. The landlord may not charge or collect such rental increase if he has failed to provide any such certification, and, in such instance, the tenant may refuse to pay such rental increase without Board proceedings, though the tenant may file the notice with the Board for information. If a notice of rental increase should be served without a certificate of substantial compliance, then that notice shall be invalid. The landlord may serve a second notice of rental increase containing a certificate of substantial compliance, and the rental increase shall be effective no earlier than the date of increase contained in said second notice. If the tenant is served with a certificate of substantial compliance, as part of a notice of increase, and he wishes to challenge the accuracy of that certificate, he may file a complaint with the Rent Leveling Board, and said increase shall be paid by the tenant during the pendency of case. If the Board should determine, at hearing regarding the accuracy of such a certificate, that the dwelling is not in substantial compliance with the aforesaid codes, then the Board may order that the rental increase be rescinded and order that amounts previously paid towards said increase be withheld from future rent.
+§ 155-27. Capital improvement or hardship increase.
+[Amended 4-19-1995 by Ord No. R-122; 7-12-2000 by Ord. No. R-449]
+Any landlord who seeks a capital improvement or hardship increase from the Board, pursuant to § 155-8 through 155-13 or 155-14, must file with his application a certification from a qualified inspector within the Division of Health to the effect that the building and grounds are in substantial compliance with the aforesaid codes, which certification shall be based on an application made by the landlord not more than one month before the filing of his application with the Board's Division Chief of the Office of Rent Leveling and Stabilization. No such increase may be granted until said certification has been filed. If a tenant contests the accuracy of said certification, he may file a complaint with the Board. If the Board determines that the certification is not accurate, then the Board may deny the application and rescind any increase granted thereunder. If the landlord fails to file a certificate of substantial compliance with his application for hardship or capital improvement increase, but he later does so, then the Board may process the application, but any increase granted by this Board shall be retroactive to the date of the certificate.
+§ 155-28. Determination of compliance.
+[Amended 7-12-2000 by Ord. No. R-449]
+Whenever there is an issue as to whether or not a landlord is in substantial compliance, that issue shall be determined by the Rent Leveling Board after hearing based on the evidence adduced at hearing. At that hearing, any certification or inspection a qualified inspector within the Division of Health regarding substantial compliance shall be evidential but shall not be determinative.
+Article V. Construction
+§ 155-29. Construal provisions.
+This chapter, being necessary for the welfare of the City and its inhabitants, shall be liberally construed to effectuate the purposes thereof as set forth in its preamble.
+Article VI. Registration Requirements
+[Amended 3-16-1994 by Ord. No. R-37; 10-18-1995 by Ord. No. R-153; 2-1-2023 by Ord. No. B-532; 3-19-2025 by Ord. No. B-745]
+§ 155-30. Registration statement; fee.
+[Amended 10-22-2025 by Ord. No. B-818]
+A. 
+All dwellings which are subject to the provisions of this chapter shall continue to file rent registration statements annually not later than June 30 of each year required under the ordinance and pay the filing fees required under § 155-20 not later than June 30 each year as required. This registration statement shall include the following information to be provided on a form provided by the Division of Rent Leveling and Stabilization: the name of each tenant and the apartment number; the number of rooms for each apartment; the current rent charged for each apartment; the amount of the last increase for each apartment unit; the date of the last increase for each apartment unit; the date of lease expiration for each apartment unit; if applicable, services provided to the building and telephone number; the address of the owner of the building and his or her telephone number; and the superintendent's name, address and phone number, if applicable. A copy of the annual registration statement shall be presented to any tenant upon demand. The filing of the rent registration statement does not constitute a determination by the Rent Leveling Office as to the legality of the rent set forth in the statement.
+B. 
+For the purpose of disclosure, the registration statement shall be considered a public document which shall be made available for inspection pursuant to reasonable regulations established by the Division of Rent Leveling and Stabilization.
+C. 
+In addition to the information required under Subsection A, each registration statement shall also include proof of previous rent pad as set forth in § 155-1.1. Such proof shall be submitted by the landlord to the Rent Regulation Officer annually. Failure to provide the required proof of previous rent paid will result in the registration being deemed incomplete, unless cured as provided by the provisions in § 155-1.1, and subject to penalties under § 155-21. The Rent Regulation office shall review no less than 10% of all submissions required under this section annually to verify completeness and accuracy. The results of those reviews shall be published in an annual report to include at minimum the number of files reviewed, the number of violations found, and the average rent values.
+D. 
+A violation of § 155-30 shall be punishable by imposition of a minimum fine of $100 and maximum fine of $2,000 plus costs for each violation. Each dwelling unit shall constitute a separate and distinct violation. In addition, effective January 1, 2023, failure to file an annual rent registration will require the property owner to pay double the annual registration fee and may result in the denial of the imposition of a CPI increase per § 155-5 or a vacancy decontrol increase per § 155-31 as pursuant to the Rent Regulation Officer's powers under § 155-4D.
+Article VII. Vacancy Decontrol
+§ 155-31. Dwelling decontrolled and exempted.
+Provided that a dwelling is registered in accordance with § 155-30 upon the vacation of a residential apartment unit by a tenant, the apartment unit shall become decontrolled and exempt from the provisions of this chapter for the new tenant's initial rental; provided, however, that said rental shall be limited to an increase of 25% over the last rental paid by the tenant who voluntarily vacated the rental unit, exclusive of any capital improvement surcharge that is a component of said last rental. However, any additional rental increase beyond the initial rental of the new tenant shall be subject to the provisions of this chapter. For the purpose of any computations under this chapter, the initial base rent charged to the new tenant under this section shall be considered the base rent.
+§ 155-32. Circumstances entitling decontrol.
+The landlord shall be entitled to decontrol the apartment unit under this article only under the following circumstances:
+A. 
+If the tenant vacates the apartment voluntarily without harassment, duress or unreasonable pressure from the landlord or his agents or if the tenant is legally evicted.
+B. 
+If the tenant vacates the apartment as a result of a court order from a court of competent jurisdiction. This ground shall not be available to a landlord who receives a court order to dispossess a tenant based upon the tenant holding over and continuing in possession of the premises after the expiration of his term. Whenever there is an issue as to the circumstances under which a tenant has vacated an apartment unit, that issue shall be determined by the Rent Control Board after a hearing. If the Board finds that a landlord is seeking to decontrol or has decontrolled an apartment unit and the tenant has vacated the unit under circumstances other than those set forth in this section, the Rent Board may rescind the decontrol of the apartment unit, and the rent shall revert to that rental on the apartment unit prior to the vacation of the apartment, and prosecute the landlord for violation of the chapter under § 155-21.
+§ 155-33. Filing of certificate for decontrolled units.
+[Amended 4-3-2023 by Ord. No. B-549]
+When any apartment unit is decontrolled under this article, the landlord shall file a certificate, provided by the Rent Leveling Board, including a filing fee in the amount of $50, indicating the name of the vacating tenant, the existing rental, the circumstances under which the tenant vacated the apartment unit, the name of the new tenant, the new rental and the effective date of the new rental.
+§ 155-34. Number of times for dwelling units to be decontrolled limited.
+No dwelling unit shall be decontrolled pursuant to this article more than once in any three-year period.[1],[2]
+[1]
+Editor's Note: Former §§ 155-35, Vacancy decontrol, added 12-21-1988 by Ord. No. P-27, was repealed 2-15-1989 by Ord. No. P-42.
+[2]
+Editor's Note: Former Art. VIII, Condominiums and Family-Owner Occupied Residential Units, added 9-7-1994 by Ord. No. R-65, which consisted of §§ 155-35 through 155-36, was repealed 12-7-1994 by Ord. No. R-91.
+Article VIII. Condo/Co-op Initial Rental Decontrol
+[Added 1-22-2014 by Ord. No. Z-276]
+§ 155-35. Bona fide condo/co-op owner/occupant(s).
+A. 
+In the event that an owner of a condo/co-op unit has continuously occupied said unit as his/her principal residence for the previous two years, the owner may file an affidavit with, and on the form provided by, the Rent Regulation Officer documenting his/her use.
+B. 
+In the event that the affidavit is filed with, and is either approved or not successfully challenged by, the Rent Regulation Officer, the owner shall be deemed a bona fide CCOO.
+§ 155-36. Bona fide condo/co-op owner/occupant affidavit.
+A. 
+Approval. An affidavit form shall be provided by the Rent Regulation Officer in a form approved by the Rent Leveling and Stabilization Board.
+B. 
+Statement and certification. The affidavit form shall include a statement that the owner has owned and occupied the unit for at least the preceding two years. This statement must be certified to by the owner.
+C. 
+Documentation. The Rent Regulation Officer will have the authority to request reasonable documentation he/she sees fit in order to make a determination on the validity of the affidavit under this section. No affidavit is deemed completed until all requested documentation is received by the Rent Regulation Officer.
+D. 
+Filing fee. The filing fee to apply to be deemed a bona fide CCOO will be the same fee assessed as for a hardship application.
+E. 
+Acceptance and rejection. A completed bona fide CCOO affidavit submitted to the Rent Leveling Officer is deemed accepted unless rejected within 21 days of filing. Any CCOO affidavit may be rejected for inadequate documentation or statements the Rent Leveling Officer has a reasonable basis to believe may be inaccurate.
+F. 
+Appeals. As with any decision of the Rent Regulation Officer, the owner will have the right to appeal any rejection to the Rent Leveling and Stabilization Board pursuant to § 155-23.
+G. 
+False statements. If, subsequent to the granting of an initial rental decontrol (§ 155-37), it is found that information was submitted to either the Rent Regulation Officer or the Rent Leveling and Stabilization Board which is determined by the Rent Leveling Officer or the Rent Leveling and Stabilization Board to be incorrect and it is further determined that, had such information been presented correctly in the affidavit, an initial rental decontrol which had been granted would not have been granted, then the initial rental decontrol shall be declared null and void, and the rent shall be reset at the legal rent at the time immediately prior to the Rent Leveling Officer or the Rent Leveling and Stabilization Board's reliance on the false statement plus any applicable surcharges and applicable increases based on the consumer price index pursuant to a legal rent calculation performed by the Rent Regulation Officer. In the event the Board determines that the misrepresentation was willful, the owner of the unit shall also be assessed a fine up to the maximum allowed under this chapter.
+[Amended 2-1-2023 by Ord. No. B-532]
+§ 155-37. Initial rental decontrol upon vacancy by bona fide CCOO.
+In the event that an individual who qualifies as a bona fide CCOO vacates his/her condo/co-op unit and offers it for rental, said unit is decontrolled solely for the purpose of establishing the initial rent subsequent to the bona fide CCOO vacating. The new base rent shall be established at the amount charged in the initial lease subsequent to the bona fide CCOO vacating. This new base rent shall be documented by submission and filing of a completed rent registration form and fee to the Rent Leveling Office. Said unit is decontrolled for the purpose of establishing the initial rental only and otherwise is fully subject to Chapter 155. Nothing herein shall be construed to cause an existing rent to change as a result of any initial rental decontrol granted under this section.
+Article IX. Temporary Moratorium on Rent Increases During COVID-19 Pandemic State of Emergency
+[Added Ord. No. B-257]
+§ 155-38. Temporary moratorium on rent increases during COVID-19 pandemic state of emergency established.
+A. 
+A moratorium shall be in effect to prevent any increase in the amount paid in rent or any additional charges whatsoever by tenants covered by this chapter. During this period, no rent shall be increased as to any property covered by this chapter (where "rent" is defined for purposes of this subsection as any price for the use of a tenancy, no matter how set forth, including amounts paid by the tenant for the use of any service in connection with a tenancy, including but not limited to monies demanded or paid for a property tax surcharge, capital improvement surcharge, water surcharge, sewer surcharge, CPI increase, or any other surcharge).
+B. 
+Additionally, no other charge associated with the rental of a property covered by this chapter, including but not limited to charges for parking, pets, the use of furniture, security deposits and damage and cleaning deposits, shall be increased during this time.
+C. 
+The moratorium shall be made retroactive to April 1, 2020, and shall remain in effect until May 7, 2022.
+[Amended 3-23-2022 by Ord. No. B-445]
+D. 
+Notwithstanding the moratorium set forth in this subchapter, after the expiration of the moratorium period a landlord may, at the time of a new tenancy or lease renewal, increase the rent and surcharges to levels that would have otherwise been permitted under law, consistent with this subchapter of the Code, as if no moratorium had been imposed, except that no CPI increase during the period from the commencement of the moratorium (on April 1, 2020) through the end of the calendar year 2020 shall be permissible. Future increases in rent and surcharges for the multi-year period of the moratorium shall be permissible and they may be calculated and applied at the time of a new tenancy or lease renewal as if the moratorium never occurred, other than the prohibition related to the 2020 CPI increase set forth above. Any CPI increase memorialized in a lease renewal prior to the moratorium commencement date shall remain as a valid increase. However, all deferred rent increases allowed under this subchapter shall be prospective, and no retroactive rent or surcharge increase shall entitle a landlord to request or demand any retroactive payment, as a lump sum or otherwise, for increases that could otherwise have been imposed during the moratorium. The thirty-day notice required under § 155-4 shall be required in advance of imposing any increases following the expiration of the moratorium period.
+[Amended 3-23-2022 by Ord. No. B-445]

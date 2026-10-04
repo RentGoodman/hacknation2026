@@ -1,0 +1,65 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "cell",
+ "subject": "San Francisco, CA|screening_restrictions",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 4106,
+  "output_tokens": 1249
+ },
+ "result": {
+  "cell_status": "rules_found",
+  "no_rule_quote": null,
+  "no_rule_passage_id": null,
+  "basis_citation": null,
+  "rules": [
+   {
+    "jurisdiction": "San Francisco, CA",
+    "category": "screening_restrictions",
+    "status": "in_force",
+    "title": "San Francisco Fair Chance Ordinance (affordable housing)",
+    "requirement": "The city's Human Rights Commission page says the Fair Chance Ordinance protects residents with arrest or conviction history in affordable housing decisions. The passage gives no detail on the specific limits, timing rules or penalties.",
+    "key_value": null,
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": null,
+     "owner_occupied_exemption_max_units": null,
+     "requires_unknown_facts": null,
+     "unverifiable_exemptions": [],
+     "yields_to_local_rule": null,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Applies to affordable housing decisions involving applicants with arrest or conviction history.",
+     "construction_date_basis": null,
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": null,
+     "owner_conditions": null,
+     "other_conditions": "Limited to affordable housing."
+    },
+    "exemptions": null,
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": null,
+    "enacted_date": null,
+    "sunset_date": null,
+    "effective_date_note": null,
+    "effective_date_formula": null,
+    "citation": "San Francisco Fair Chance Ordinance (affordable housing)",
+    "citation_aliases": [
+     "Fair Chance Ordinance"
+    ],
+    "quoted_span": "San Francisco's Fair Chance Ordinance protects residents with arrest or conviction history in affordable housing decisions.",
+    "confidence": 0.4,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "The source is only a web-page teaser. The code section and effective date are not given. The D010 policy passages (Feb. 2017) do not name San Francisco, so they were not used.",
+    "source_notes": "Official city page (Human Rights Commission) that describes the ordinance briefly.",
+    "passage_id": "p1"
+   }
+  ]
+ }
+}

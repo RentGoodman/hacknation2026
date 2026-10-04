@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D073:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 20423,
+  "output_tokens": 904
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "A landlord shall not terminate a tenancy without just cause. For purposes of this Division, just cause includes at-fault just cause and no-fault just cause.",
+    "note": "The requirement summary matches the code: the at-fault and no-fault grounds, the notice contents, the relocation assistance, the right to re-rent within 5 years, the buyout rules, retaliation and the remedies. The code text sets out each of these."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "the direct payment to the tenant shall be in an amount equal to two months of actual rent under the tenant’s lease in effect at the date of the notice.",
+    "note": "The 3-month amount for seniors and disabled tenants, the 15-day payment, the rent waiver, the 30/60-day notice, the 5-year re-rent right with 30 days to accept, the 3x damages and the 15-year exemption all appear in the code (§§ 98.0706(c), 98.0706(b), 98.0706(d), 98.0709(d)-(e), 98.0703(k))."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "supported",
+    "quoted_span": "(“Just Cause Required for Termination of Tenancy” added 5-25-2023 by O-21647 N.S.; effective 6-24-2023.)",
+    "note": "The effective date of 2023-06-24 and the enactment date of 2023-05-25 are confirmed. The amendment effective 3-28-2024 is also stated."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "(Amended 2-27-2024 by O-21769 N.S.; effective 3-28-2024.)",
+    "note": "The text is the current 3-2024 code, with no repeal or sunset shown. The in_force status is consistent with the document."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "(k) housing that has been issued a certificate of occupancy within the previous 15 years, unless the housing is a mobilehome; and",
+    "note": "The tenancy definition (over 30 days, excluding fixed terms of 3 months or less), the owner-occupied exemptions, the hotel, short-term, MRL mobilehome and other listed exemptions, and the separately alienable property conditions all match the code text in §§ 98.0702-98.0703."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "§98.0704 Just Cause Required for Termination of Tenancy",
+    "note": "§ 98.0704 is the correct section. The aliases for ordinance numbers and for Division 7 (O-21647, O-21769, O-19269, §§ 98.0701-98.0710) are also confirmed in the document."
+   }
+  ]
+ }
+}

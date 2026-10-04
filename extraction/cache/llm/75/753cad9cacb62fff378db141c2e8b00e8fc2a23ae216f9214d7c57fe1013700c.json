@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D067:c5",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 775,
+  "output_tokens": 437
+ },
+ "result": {
+  "en": "If your building in New Jersey is being converted to condominium, cooperative or fee-simple ownership, tenants aged 62 or older, permanently disabled tenants, and veterans with a service-connected disability of 60% or more who lived there at least one year before the conversion recording date can apply within generally 60 days for protection from eviction for up to 40 years if family income is no more than three times the county average per-person income or $50,000, whichever is greater, and all tenants are protected from rent increases that cover costs resulting solely from the conversion.",
+  "es": "Si su edificio en Nueva Jersey se convierte en condominio, cooperativa o propiedad de dominio absoluto, los inquilinos de 62 años o más, los inquilinos con discapacidad permanente y los veteranos con una discapacidad relacionada con el servicio de 60% o más que hayan vivido allí al menos un año antes de la fecha de registro de la conversión pueden solicitar, generalmente dentro de 60 días, protección contra el desalojo por hasta 40 años si los ingresos familiares no superan tres veces el ingreso promedio por persona del condado o $50,000, lo que sea mayor, y todos los inquilinos están protegidos contra aumentos de alquiler que cubran costos derivados únicamente de la conversión."
+ }
+}

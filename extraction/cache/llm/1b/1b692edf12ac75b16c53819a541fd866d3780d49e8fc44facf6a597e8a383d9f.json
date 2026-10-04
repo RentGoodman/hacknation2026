@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D080:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 840,
+  "output_tokens": 186
+ },
+ "result": {
+  "en": "For rent-controlled units in San Francisco, a landlord can raise the rent each year by no more than the Rent Board's allowable increase, which is 1.6% of base rent for March 1, 2026 through February 28, 2027.",
+  "es": "En las unidades con control de alquiler en San Francisco, el arrendador solo puede aumentar el alquiler cada año hasta el límite permitido por la Junta de Alquileres, que es el 1.6% del alquiler base del 1 de marzo de 2026 al 28 de febrero de 2027."
+ }
+}

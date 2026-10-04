@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "DX06:c4",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 761,
+  "output_tokens": 177
+ },
+ "result": {
+  "en": "Santa Ana bans the sale and use of software that sets residential rents using nonpublic competitor data, and a tenant who is affected can sue for damages or civil penalties of up to $1,000 per violation plus attorney's fees.",
+  "es": "Santa Ana prohíbe la venta y el uso de software que fija los alquileres residenciales con datos no públicos de la competencia, y un inquilino afectado puede demandar por daños o multas civiles de hasta $1,000 por infracción más honorarios de abogado."
+ }
+}

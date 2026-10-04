@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D041:c2",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 7289,
+  "output_tokens": 1753
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "partly_supported",
+    "quoted_span": "Give the tenant a 30-day and 60-day written notice (some evictions require 120-day notice or up to a 1-year extension).",
+    "note": "The document supports the at-fault and no-fault cause lists (with no-fault causes incomplete), the Declaration of Intent to Evict, the notice periods, the 3-business-day LAHD filing and the Right to Counsel notice. It does not mention the FMR nonpayment threshold, the HUD sale or residential hotel conversion causes, the Ellis Act cite, the restriction on resident-manager evictions, the 15-day relocation payment/escrow timing, pro rata splitting, rent offset, or the exemptions."
+   },
+   {
+    "field": "key_value",
+    "verdict": "partly_supported",
+    "quoted_span": "Beginning August 20, 2025, landlords must post the",
+    "note": "The document supports the Declaration of Intent to Evict, the 30/60-day (120-day or 1-year extension) notice, the 3-business-day filing and the Right to Counsel start date. The Chart A relocation amounts, the 15-day payment term, the $75 fee, the FMR rule and the July 1 increases do not appear in this document."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The field is empty and the document gives no effective date for the RSO eviction provisions. Only the Right to Counsel start date (August 20, 2025) appears."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "Generally, the RSO applies to rental properties that were first built on or before October 1, 1978",
+    "note": "The page, last modified September 22, 2026, describes the RSO and its eviction rules in the present tense, which is consistent with in_force."
+   },
+   {
+    "field": "coverage",
+    "verdict": "partly_supported",
+    "quoted_span": "Generally, the RSO applies to rental properties that were first built on or before October 1, 1978, as well as replacement units under",
+    "note": "The 1978 cutoff, the covered unit types, replacement units, and the luxury and temporary exemptions are supported. The statement that RSO units are outside AB 1482 (supersedes_state_rule) and the Mom & Pop relocation detail are not in this document."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "per Los Angeles Municipal Code 151.09.C.9 & 165.05.B.5",
+    "note": "The document cites LAMC 151.09.C.9, which is consistent with L.A. Mun. Code § 151.09."
+   }
+  ]
+ }
+}

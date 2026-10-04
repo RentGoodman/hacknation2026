@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D007:c2",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 3774,
+  "output_tokens": 680
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "For tenancies in units fully or partially covered by Berkeley's Rent Ordinance, landlords must pay tenants interest on their security deposit at the end of each year and a prorated amount if the tenant moves out before the end of the year.",
+    "note": "The interest and proration requirement is stated directly. The statement that caps, the 21-day deadline and photo rules are state law is consistent with the document's framing, though the document does not cite Civ. Code § 1950.5."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "landlords must pay tenants interest on their security deposit at the end of each year and a prorated amount if the tenant moves out before the end of the year",
+    "note": "Annual payment at year end and proration on move-out are both stated. The document does not give the rate, which the rule acknowledges."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The field is empty and D007 gives no effective date for the interest requirement."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "landlords must pay tenants interest on their security deposit at the end of each year",
+    "note": "The requirement is stated in the present tense as a current obligation, which is consistent with in_force."
+   },
+   {
+    "field": "coverage",
+    "verdict": "partly_supported",
+    "quoted_span": "For tenancies in units fully or partially covered by Berkeley's Rent Ordinance",
+    "note": "D007 supports only the general coverage of fully or partially covered units. The detailed unit types (pre-1980 multifamily, post-1980 new construction, condominiums) and the exemptions come from D009, which was not provided here, so they cannot be verified from D007."
+   },
+   {
+    "field": "citation",
+    "verdict": "not_supported",
+    "quoted_span": null,
+    "note": "D007 does not mention Berkeley Mun. Code ch. 13.76 or any section number. It refers only to 'Berkeley's Rent Ordinance'. The chapter number is attributed to D008, which was not provided."
+   }
+  ]
+ }
+}

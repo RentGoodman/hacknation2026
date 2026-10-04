@@ -1,0 +1,83 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D067:c5",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 74477,
+  "output_tokens": 3260
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": true,
+   "unverifiable_exemptions": [
+    "Tenant eligibility: age 62+ before the recording date, permanent disability, or 60%+ service-connected disabled veteran",
+    "Income eligibility test"
+   ],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Applies to tenants in buildings converted or being converted to condominium, cooperative or fee-simple ownership. Protected tenancy requires age, disability or veteran status plus residence and income criteria. The conversion-cost rent bar applies to all tenants in the building.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": null,
+   "other_conditions": "Tenant must have lived in the building at least one year before the conversion recording date. Triggered by a conversion."
+  },
+  "evidence": [
+   {
+    "field": "summary",
+    "doc_id": "D067",
+    "quoted_span": "The Senior Citizens and Disabled Protected Tenancy Act protects senior citizens who meet"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D067",
+    "quoted_span": "This prohibition applies to all tenants in the building"
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D067",
+    "quoted_span": "being converted to a condominium, cooperative; or fee simple ownership of units at least one (1)"
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D067",
+    "quoted_span": "year prior to the conversion recording date."
+   },
+   {
+    "field": "requires_unknown_facts",
+    "doc_id": "D067",
+    "quoted_span": "be at least 62 years of age before the d ate of the conversion recording"
+   },
+   {
+    "field": "unverifiable_exemptions[0]",
+    "doc_id": "D067",
+    "quoted_span": "be at least 62 years of age before the d ate of the conversion recording"
+   },
+   {
+    "field": "unverifiable_exemptions[0]",
+    "doc_id": "D067",
+    "quoted_span": "be permanently disabled"
+   },
+   {
+    "field": "unverifiable_exemptions[0]",
+    "doc_id": "D067",
+    "quoted_span": "Armed Forces and disabled at 60% or higher resulting from said service"
+   },
+   {
+    "field": "unverifiable_exemptions[1]",
+    "doc_id": "D067",
+    "quoted_span": "if their family income is not more than three (3) times the average per person income in their"
+   }
+  ],
+  "notes": "The coverage values were kept unchanged. Every value is supported by verbatim spans from the D067 DCA guide. Each quote is kept to a single line of the source to avoid line-break mismatches, and the guide's 'd ate' typo is preserved. No unit-count, construction-date or owner thresholds for this Act appear in the documents. The two-or-more-unit language in N.J.S.A. 2A:18-61.1(k) belongs to the Anti-Eviction Act, so it was not imported. The tenant age, disability, veteran and income criteria are tenant facts that cannot be verified from building data. That is why requires_unknown_facts stays true."
+ }
+}

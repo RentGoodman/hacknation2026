@@ -1,0 +1,76 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "extract",
+ "subject": "D024",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 5119,
+  "output_tokens": 3067
+ },
+ "result": {
+  "rules": [
+   {
+    "candidate_id": "c1",
+    "jurisdiction": "CA",
+    "category": "rent_increase_limits",
+    "status": "in_force",
+    "title": "California statewide rent cap (Civ. Code § 1947.12)",
+    "requirement": "An owner of residential real property may not raise the gross rental rate over any 12-month period by more than 5% plus the local percentage change in cost of living, or 10%, whichever is lower. The base is the lowest gross rate charged in the 12 months before the increase, excluding accepted discounts, incentives, concessions or credits. No more than two increments are allowed in 12 months for the same tenant. The owner may set the initial rate for a new tenancy when no prior tenant remains. Rent-increase notices follow Civ. Code § 827. Tenants may not sublease for more than the allowed rent. Waivers are void. Owners who collect excess rent face civil liability and Attorney General, city attorney or county counsel enforcement. The cap sunsets January 1, 2030.",
+    "key_value": "5% + CPI change or 10%, whichever is lower, per 12 months; max 2 increments per 12 months; excess-rent damages plus up to 3x if willful, oppressive, fraudulent or malicious; 3-year limit to sue; repealed Jan. 1, 2030",
+    "coverage": {
+     "min_units": null,
+     "max_units": null,
+     "construction_cutoff": null,
+     "new_construction_exemption": {
+      "years": 15,
+      "basis": "certificate of occupancy issued within the previous 15 years (mobilehomes not exempt on this basis)",
+      "requires_owner_filing": false
+     },
+     "owner_occupied_exemption_max_units": 2,
+     "requires_unknown_facts": false,
+     "unverifiable_exemptions": [
+      "Housing restricted by deed, regulatory agreement or recorded document as affordable housing, or subject to a housing subsidy agreement",
+      "Dormitories owned and operated by a higher education institution or K-12 school",
+      "Separately alienable property (e.g. single-family home or condo) with a non-REIT, non-corporate, non-LLC-with-corporate-member owner who gave the written exemption notice",
+      "Housing subject to a stricter local rent or price control",
+      "Owner-occupied duplex (two units in one structure, owner living in one, neither an ADU or JADU)"
+     ],
+     "yields_to_local_rule": true,
+     "supersedes_state_rule": null,
+     "may_preempt_local_rules": null,
+     "landlord_size_condition": null,
+     "summary": "Applies to residential dwellings and units, including mobilehome park units, except the listed exemptions. Housing with a certificate of occupancy issued within the past 15 years is exempt (a rolling cutoff). Homeowners of mobilehomes are not covered.",
+     "construction_date_basis": "certificate of occupancy (rolling 15-year exemption)",
+     "built_on_or_before": null,
+     "built_after": null,
+     "min_building_age_years": 15,
+     "owner_conditions": "Separately alienable property is exempt only if the owner is not a REIT, corporation, or LLC with a corporate member (or mobilehome park management), and the tenants received the required written exemption notice. An owner-occupied two-unit property is exempt while the owner occupies one unit.",
+     "other_conditions": "Local rent control that limits annual increases to less than this cap is exempt from the section. The section does not authorize local governments to adopt limits beyond Civ. Code ch. 2.7 (§ 1954.50 et seq.)."
+    },
+    "exemptions": "Affordable or subsidized deed-restricted housing; dormitories; housing under stricter local rent control; housing with a certificate of occupancy issued within the previous 15 years (except mobilehomes); separately alienable property with a qualifying non-corporate owner and written notice; owner-occupied duplex; mobilehome homeowners.",
+    "event_only": false,
+    "applies_only_in": null,
+    "effective_date": "2024-04-01",
+    "enacted_date": null,
+    "sunset_date": "2030-01-01",
+    "effective_date_note": "This version (Stats. 2023, ch. 290, SB 567) was effective Jan. 1, 2024 and operative April 1, 2024 by its own terms. The text applies the cap to rent increases on or after March 15, 2019 (Feb. 18, 2021 for mobilehome tenancies). Repealed as of Jan. 1, 2030.",
+    "effective_date_formula": null,
+    "citation": "Cal. Civ. Code § 1947.12",
+    "citation_aliases": [
+     "Cal. Civ. Code § 1947.12(a)",
+     "SB 567",
+     "Stats. 2023, ch. 290",
+     "Cal. Civ. Code ch. 2 (Hiring of Real Property)"
+    ],
+    "quoted_span": "an owner of residential real property shall not, over the course of any 12-month period, increase the gross rental rate for a dwelling or a unit more than 5 percent plus the percentage change in the cost of living, or 10 percent, whichever is lower, of the lowest gross rental rate charged for that dwelling or unit at any time during the 12 months prior to the effective date of the increase.",
+    "confidence": 0.95,
+    "conflict_flag": false,
+    "conflict_note": null,
+    "review_note": "Headline effective date is taken as the April 1, 2024 operative date of this version. Earlier applicability dates (March 15, 2019; Feb. 18, 2021 for mobilehomes) are in the text.",
+    "source_notes": "Official statute text from leginfo. The statute covers the cap, the exemptions, the CPI definition and the enforcement provisions."
+   }
+  ],
+  "no_rule_findings": [],
+  "doc_summary": "Official text of Cal. Civ. Code § 1947.12, California's statewide residential rent cap. The cap is 5% plus local CPI change or 10%, whichever is lower, per 12 months, with at most two increments. It lists exemptions (affordable housing, dormitories, housing under stricter local rent control, housing with a certificate of occupancy within 15 years, qualifying separately alienable property, owner-occupied duplexes, mobilehome homeowners). It sets remedies and enforcement and preserves local rent control authority. The version in the text was operative April 1, 2024 and is repealed January 1, 2030."
+ }
+}

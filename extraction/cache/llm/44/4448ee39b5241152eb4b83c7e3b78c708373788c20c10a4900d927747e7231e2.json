@@ -1,0 +1,67 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D027:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 45082,
+  "output_tokens": 1911
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": false,
+   "unverifiable_exemptions": [
+    "Owner occupying the home and renting to one additional person (per CRD FAQ; may not publish discriminatory statements or advertisements)"
+   ],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Applies to owners of any housing accommodation and to tenant screening companies statewide. The credit-history and income-standard rules in subd. (o) apply only where there is a government rent subsidy.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": null,
+   "other_conditions": "Subd. (o) applies only where there is a government rent subsidy."
+  },
+  "evidence": [
+   {
+    "field": "summary",
+    "doc_id": "D027",
+    "quoted_span": "(a) For the owner of any housing accommodation to discriminate against or harass any person because of the race, color, religion, sex, gender, gender identity, gender expression, sexual orientation, marital status, national origin, ancestry, familial status, source of income, disability, veteran or military status, or genetic information of that person."
+   },
+   {
+    "field": "summary",
+    "doc_id": "D016",
+    "quoted_span": "The law applies to landlords, tenant screening companies, property management companies, real estate agents, home sellers, builders, mortgage lenders, housing authorities, and others."
+   },
+   {
+    "field": "summary",
+    "doc_id": "D027",
+    "quoted_span": "(o) (1) In instances in which there is a government rent subsidy, to do either of the following:"
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D027",
+    "quoted_span": "(o) (1) In instances in which there is a government rent subsidy, to do either of the following:"
+   },
+   {
+    "field": "requires_unknown_facts",
+    "doc_id": "D027",
+    "quoted_span": "(a) For the owner of any housing accommodation to discriminate against or harass any person because of the race, color, religion, sex, gender, gender identity, gender expression, sexual orientation, marital status, national origin, ancestry, familial status, source of income, disability, veteran or military status, or genetic information of that person."
+   },
+   {
+    "field": "unverifiable_exemptions",
+    "doc_id": "D016",
+    "quoted_span": "When an owner is occupying a home and is renting to one additional person, the owner may exclude applicants based on protected characteristics. However, the owner still cannot make, print, or publish discriminatory statements, notices, or advertisements."
+   }
+  ],
+  "notes": "requires_unknown_facts set to false. The rule covers owners of any housing accommodation. Only the subd. (o) screening limits depend on whether there is a government rent subsidy, which is recorded in other_conditions. The owner-occupant renting to one additional person exemption (from the CRD FAQ) is an exemption that an address lookup cannot check, so it is kept only in unverifiable_exemptions. owner_conditions is nulled to avoid duplicating it. No unit-count, construction-date or local-preemption limits appear in the documents."
+ }
+}

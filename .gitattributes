@@ -1,0 +1,4 @@
+out/*.json merge=ours
+out/*.jsonl merge=ours
+out/*.md merge=ours
+mockup/dist/data/** merge=ours

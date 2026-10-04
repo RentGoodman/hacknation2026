@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D049:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 17388,
+  "output_tokens": 713
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "For any person furnishing credit, services or rental accommodations to discriminate against any individual who is a recipient of federal, state, or local public assistance, including medical assistance, or who is a tenant receiving federal, state, or local housing subsidies, including rental assistance or rental supplements, because the individual is such a recipient, or because of any requirement of such public assistance, rental assistance, or housing subsidy program.",
+    "note": "Subsection 10 and the 7B advertising reference ('public assistance recipiency') are both supported. The claim that landlords may not reject or treat applicants differently because of voucher income is a reasonable inference from the text."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "because the individual is such a recipient, or because of any requirement of such public assistance, rental assistance, or housing subsidy program.",
+    "note": "The key value summarizes the prohibition accurately."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The effective_date field is null, and the document does not state when subsection 10 took effect."
+   },
+   {
+    "field": "status",
+    "verdict": "partly_supported",
+    "quoted_span": "10. For any person furnishing credit, services or rental accommodations to discriminate against any individual who is a recipient of federal, state, or local public assistance",
+    "note": "The statute text is presented as current law, but it contains no explicit statement of in-force status."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "For any person furnishing credit, services or rental accommodations to discriminate against any individual who is a recipient of federal, state, or local public assistance",
+    "note": "Subsection 10 applies to any person and contains no unit-count, construction-date or owner-occupancy exemption. The two-family owner-occupied exemptions appear only in subsections 7 and 11."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "General Law - Part I, Title XXI, Chapter 151B, Section 4",
+    "note": "The document header confirms chapter 151B, section 4. Subsection 10 and 7B are both present."
+   }
+  ]
+ }
+}

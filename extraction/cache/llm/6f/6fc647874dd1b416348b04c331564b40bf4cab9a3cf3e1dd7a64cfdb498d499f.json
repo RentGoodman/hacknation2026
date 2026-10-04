@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "D067:c5",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 60192,
+  "output_tokens": 875
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "Tenants may be protected from eviction for 40 years \nif their family income is not more than three (3) times the average per person income in their \ncounty or $50,000.00, whichever  is greater (N.J.S.A. 2A:18-61.28).",
+    "note": "Every element of the requirement is backed by the guide: 62+ before the recording date, permanent disability, disabled veterans at 60%+, one-year residency, the 40-year protection, the income test, the notice duty, the 60-day filing window, and the rent bar for all tenants with the new services/amenities carve-out. The rule's \"service-disabled\" wording paraphrases the guide's \"disabled at 60% or higher resulting from said service\"."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "Generally, \napplications for protected tena ncy must be filed with the designated municipal official or the \nadministrative agent within 60 days",
+    "note": "The key values match the guide: 40 years, 3x county average per-person income or $50,000 (whichever is greater), 60 days generally, and no rent increase to cover costs resulting solely from conversion (N.J.S.A. 2A:18-61.31)."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The field is null, and the guide states no effective date for the provisions. The only date-like reference is the \"Act of 1981\" (also, in one place, \"1992\"), which is not an effective date."
+   },
+   {
+    "field": "status",
+    "verdict": "supported",
+    "quoted_span": "The Senior Citizens and Disabled Protected Tenancy Act protects senior citizens who meet \ncertain eligibility requirements",
+    "note": "The guide presents the Act in the present tense as operative law, which is consistent with in_force."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "This prohibition applies to all tenants in the building \nregardless of whether they are eligible for protected tenancy as senior citizens or disabled persons.",
+    "note": "The conversion trigger, the eligibility conditions and the all-tenant scope of the rent bar are all stated in the guide. The null structured coverage fields are consistent with the document."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "(N.J.S.A. 2A:18-61.22 to -61.39; N.J.A.C. 5:24-2.1 to -2.11)",
+    "note": "The primary citation and its aliases (-61.28, -61.31, N.J.A.C. 5:24-2.1 to -2.11) all appear in the guide."
+   }
+  ]
+ }
+}

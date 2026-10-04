@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "DX06:c5",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 5847,
+  "output_tokens": 673
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "partly_supported",
+    "quoted_span": "a class of Philadelphia tenants allege that Willow Bridge subscribed to and used RealPage services in violation of Philadelphia Code § 9-813.",
+    "note": "The litigation allegations and the remedies are supported. The claim that § 9-813 restricts landlords' use of algorithmic rent-coordination or revenue-management services is only loosely supported. The document gives no description of the ordinance's prohibited conduct, and the rule itself admits this. The only support is the general statement that such ordinances restrict algorithmic rent-setting."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "Philadelphia’s ordinance permits an aggrieved person to elect statutory damages of $2,000 per violation or treble actual damages, together with equitable relief, interest and attorney fees and costs.",
+    "note": "Matches the key value exactly."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The rule's effective_date is null. The document gives only 'effective February 2025' (month only), so no exact date is stated. Leaving the field null is consistent with the document."
+   },
+   {
+    "field": "status",
+    "verdict": "partly_supported",
+    "quoted_span": "Phila. Code § 9-813 (effective February 2025)",
+    "note": "The document states an effective date in the past relative to its August 2026 date and describes the ordinance as being litigated, which implies it is in force. It does not say 'in force' explicitly."
+   },
+   {
+    "field": "coverage",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "Coverage is empty. The document states nothing about unit counts, exemptions or building conditions for Philadelphia."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "Phila. Code § 9-813(2)(c)(i)",
+    "note": "The document cites Phila. Code § 9-813 and the subsection (2)(c)(i) for the remedies. The alias is supported."
+   }
+  ]
+ }
+}

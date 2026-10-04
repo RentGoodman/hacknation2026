@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "DX07:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 621,
+  "output_tokens": 287
+ },
+ "result": {
+  "en": "In California, landlords and tenant screening companies may check your criminal history but cannot reject you under a blanket ban, and they may not consider arrests with no conviction, sealed or expunged records, or juvenile records; a denial based on a conviction must be directly related to your ability to be a good tenant and not a threat to the health and safety of others or the property.",
+  "es": "En California, los arrendadores y las empresas de evaluación de inquilinos pueden revisar sus antecedentes penales, pero no pueden rechazarlo con una prohibición general, y no pueden considerar arrestos sin condena, registros sellados o eliminados, ni registros de menores; un rechazo basado en una condena debe estar directamente relacionado con su capacidad de ser buen inquilino y no ser una amenaza para la salud y la seguridad de otras personas o de la propiedad."
+ }
+}

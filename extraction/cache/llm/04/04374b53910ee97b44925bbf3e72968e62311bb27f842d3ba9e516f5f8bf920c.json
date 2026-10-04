@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D043:c3",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 913,
+  "output_tokens": 283
+ },
+ "result": {
+  "en": "If your rent-stabilized (RSO) unit in Los Angeles is demolished for new construction within 5 years after the owner files a notice with LAHD, the owner must pay you relocation money within 15 days, and lower-income households (at or below 80% AMI) get enhanced relocation, with penalties for owners starting at $250,000 per displaced unit.",
+  "es": "Si su unidad con control de renta (RSO) en Los Ángeles es demolida para nueva construcción dentro de 5 años después de que el propietario presente un aviso ante LAHD, el propietario debe pagarle la ayuda de reubicación dentro de 15 días, y los hogares de bajos ingresos (80% del AMI o menos) reciben una reubicación mejorada, con sanciones para los propietarios desde $250,000 por unidad desplazada."
+ }
+}

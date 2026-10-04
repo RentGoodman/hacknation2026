@@ -1,0 +1,21 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "date_audit",
+ "subject": "DX06:c7",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 5755,
+  "output_tokens": 444
+ },
+ "result": {
+  "requirement_is_new": true,
+  "in_force_since": "2025-05",
+  "in_force_since_evidence": {
+   "doc_id": "DX06",
+   "quoted_span": "Providence Code of Ordinances ch. 13, art. X, §§ 13-69–13-73 (effective May 2025)"
+  },
+  "current_version_effective": "2025-05",
+  "prior_version_note": null,
+  "effective_date_formula": null
+ }
+}

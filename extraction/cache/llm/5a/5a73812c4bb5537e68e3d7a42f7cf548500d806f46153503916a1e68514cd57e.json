@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D067:c5",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 870,
+  "output_tokens": 405
+ },
+ "result": {
+  "en": "If your building is converted to condominium, cooperative or fee-simple ownership, eligible tenants (age 62 or older, permanently disabled, or veterans with a service-connected disability of 60% or more) who lived there at least one year and have income no more than three times the county per-person income or $50,000, whichever is greater, can apply, generally within 60 days, for a protected tenancy barring eviction for up to 40 years, and no tenant's rent may be raised to cover costs caused only by the conversion.",
+  "es": "Si su edificio se convierte en condominio, cooperativa o propiedad en dominio absoluto, los inquilinos elegibles (de 62 años o más, con discapacidad permanente, o veteranos con una discapacidad relacionada con el servicio de 60% o más) que hayan vivido allí al menos un año y cuyos ingresos no superen tres veces el ingreso por persona del condado o $50,000, lo que sea mayor, pueden solicitar, por lo general dentro de 60 días, una tenencia protegida que impide el desalojo por hasta 40 años, y no se puede aumentar el alquiler de ningún inquilino para cubrir costos causados únicamente por la conversión."
+ }
+}

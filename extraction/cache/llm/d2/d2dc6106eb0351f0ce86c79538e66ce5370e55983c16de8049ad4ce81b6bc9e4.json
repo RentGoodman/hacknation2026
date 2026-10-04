@@ -1,0 +1,21 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "date_audit",
+ "subject": "D085:c2",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 8186,
+  "output_tokens": 333
+ },
+ "result": {
+  "requirement_is_new": true,
+  "in_force_since": "2021-11-19",
+  "in_force_since_evidence": {
+   "doc_id": "D085",
+   "quoted_span": "The new ordinances are not effective until November 19, 2021."
+  },
+  "current_version_effective": "2021-11-19",
+  "prior_version_note": null,
+  "effective_date_formula": null
+ }
+}

@@ -1,0 +1,14 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "plain",
+ "subject": "D029:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 755,
+  "output_tokens": 171
+ },
+ "result": {
+  "en": "In Cambridge, landlords and rental agents cannot discriminate against renters based on source of income, including Section 8 and public benefits, and violations can bring civil fines of up to $300 per violation.",
+  "es": "En Cambridge, los propietarios y agentes de alquiler no pueden discriminar a los inquilinos por su fuente de ingresos, incluidos Section 8 y los beneficios públicos, y las infracciones pueden conllevar multas civiles de hasta $300 por infracción."
+ }
+}

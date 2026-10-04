@@ -1,0 +1,50 @@
+{
+ "model": "claude-sonnet-5-5",
+ "step": "field_check",
+ "subject": "cell:Berkeley, CA:application_screening_fees:1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 3066,
+  "output_tokens": 726
+ },
+ "result": {
+  "fields": [
+   {
+    "field": "requirement",
+    "verdict": "supported",
+    "quoted_span": "the owner must provide, either in the rental application or in a separate disclosure before receiving the fee, a clear and conspicuous tenant screening fee rights statement and a statement of the maximum fee cap permitted under",
+    "note": "Disclosure duty, the ban on non-refundable renewal fees (including roommate-related fees) and the applicability clause are all in the document. The closing sentence that the dollar cap, receipt, credit-report copy and refund rules are state law is a fair reading of the page's references to Civ. Code § 1950.6."
+   },
+   {
+    "field": "key_value",
+    "verdict": "supported",
+    "quoted_span": "The maximum tenant screening fee for 2026 is\n$68.96",
+    "note": "The disclosure and the existing-tenant fee ban are stated. The $68.96 figure appears on the Rent Board page. The page says nothing about a Berkeley-specific dollar cap, but the rule's description of the state maximum matches it."
+   },
+   {
+    "field": "effective_date",
+    "verdict": "not_applicable",
+    "quoted_span": null,
+    "note": "The rule's effective_date is empty and the document gives no effective date for chapter 13.78."
+   },
+   {
+    "field": "status",
+    "verdict": "partly_supported",
+    "quoted_span": "Chapter 13.78 applies to all residential rental agreements regardless of any contractual language in any rental agreement or lease to the contrary.",
+    "note": "The page presents the chapter as currently applicable, which is consistent with in_force. It never says so explicitly."
+   },
+   {
+    "field": "coverage",
+    "verdict": "supported",
+    "quoted_span": "An owner of residential rental property (or the owner’s agent) cannot charge a non-refundable fee to any existing tenant",
+    "note": "The coverage summary matches the page, which states no unit-count, construction-date or Rent Ordinance limits."
+   },
+   {
+    "field": "citation",
+    "verdict": "supported",
+    "quoted_span": "Notification of state law limitation on tenant screening fees (BMC 13.78.010)",
+    "note": "The page names BMC 13.78.010, 13.78.016 and 13.78.018 and lists Municipal Code 13.78 as related, which matches the citation and its aliases."
+   }
+  ]
+ }
+}

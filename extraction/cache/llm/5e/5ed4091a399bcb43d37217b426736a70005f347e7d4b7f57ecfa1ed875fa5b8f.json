@@ -1,0 +1,21 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "date_audit",
+ "subject": "D022:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 45218,
+  "output_tokens": 383
+ },
+ "result": {
+  "requirement_is_new": true,
+  "in_force_since": "2026-01-01",
+  "in_force_since_evidence": {
+   "doc_id": "DX09",
+   "quoted_span": "As of January 1, 2026, businesses are subject to the Cartwright Act’s latest amendments, including an express prohibition on certain usages of pricing algorithms."
+  },
+  "current_version_effective": "2026-01-01",
+  "prior_version_note": null,
+  "effective_date_formula": null
+ }
+}

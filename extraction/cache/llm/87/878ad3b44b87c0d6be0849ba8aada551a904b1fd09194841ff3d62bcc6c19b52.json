@@ -1,0 +1,40 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D045:c1",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 36781,
+  "output_tokens": 723
+ },
+ "result": {
+  "coverage": {
+   "min_units": null,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": null,
+   "unverifiable_exemptions": [],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Pending bill whose title refers to the rental housing market generally. The captured page has no bill text, so covered buildings, unit thresholds, owner conditions and exemptions are unknown.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": null,
+   "other_conditions": null
+  },
+  "evidence": [
+   {
+    "field": "summary",
+    "doc_id": "D045",
+    "quoted_span": "An Act relative to preventing algorithmic rent fixing in the rental housing market"
+   }
+  ],
+  "notes": "D045 contains only the bill title, the committee (House Ways and Means) and action entries. It has no substantive text, so no coverage terms can be supported. All other coverage fields are left null. D046 and D047 cover the separate Senate bill S.2983 and also lack text. D048 through DX15 deal with other statutes, the rent control initiative and application fees, and say nothing about H.5222's coverage. requires_unknown_facts is left null because coverage cannot be determined."
+ }
+}

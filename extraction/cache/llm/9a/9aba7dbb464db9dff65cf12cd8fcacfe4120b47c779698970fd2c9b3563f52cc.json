@@ -1,0 +1,55 @@
+{
+ "model": "claude-opus-5-5",
+ "step": "coverage_audit",
+ "subject": "D067:c3",
+ "prompt_version": "v10",
+ "usage": {
+  "input_tokens": 74002,
+  "output_tokens": 1811
+ },
+ "result": {
+  "coverage": {
+   "min_units": 1,
+   "max_units": null,
+   "construction_cutoff": null,
+   "new_construction_exemption": null,
+   "owner_occupied_exemption_max_units": null,
+   "requires_unknown_facts": false,
+   "unverifiable_exemptions": [],
+   "yields_to_local_rule": null,
+   "supersedes_state_rule": null,
+   "may_preempt_local_rules": null,
+   "landlord_size_condition": null,
+   "summary": "Applies to residential rental units in foreclosed properties containing one or more residential rental units. Owner-occupied two- and three-family units are not exempt from the 90-day notice requirement.",
+   "construction_date_basis": null,
+   "built_on_or_before": null,
+   "built_after": null,
+   "min_building_age_years": null,
+   "owner_conditions": null,
+   "other_conditions": "Triggered only by foreclosure and the acquisition or transfer of the foreclosed property."
+  },
+  "evidence": [
+   {
+    "field": "min_units",
+    "doc_id": "D067",
+    "quoted_span": "Any person acquiring a foreclosed property containing one or more residential rental units"
+   },
+   {
+    "field": "requires_unknown_facts",
+    "doc_id": "D067",
+    "quoted_span": "Any person acquiring a foreclosed property containing one or more residential rental units"
+   },
+   {
+    "field": "summary",
+    "doc_id": "D067",
+    "quoted_span": "two- and three-family owner-occupied units are not exempt from the 90-day notice requirements"
+   },
+   {
+    "field": "other_conditions",
+    "doc_id": "D067",
+    "quoted_span": "Foreclosure alone is not grounds for eviction in New Jersey."
+   }
+  ],
+  "notes": "The rule is event-triggered by foreclosure and covers ordinary rental property, so requires_unknown_facts is false. The 'more than 10 units' threshold only governs how the new owner delivers notice (posting instead of individual delivery). That is landlord conduct, not coverage, so it was dropped from the summary. The summary statement about month-to-month tenants was also dropped because it concerns tenancy type rather than buildings."
+ }
+}
